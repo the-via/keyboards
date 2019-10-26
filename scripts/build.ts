@@ -23,6 +23,7 @@ async function build() {
   try {
     fs.writeFileSync('dist/via-keyboards.json', stringify(res));
   } catch (error) {
+  console.error(error);
     process.exit(1);
   }
 }
