@@ -21,9 +21,13 @@ async function build() {
   };
 
   try {
+    if (!fs.existsSync('dist')) {
+      fs.mkdirSync('dist');
+    }
+
     fs.writeFileSync('dist/via-keyboards.json', stringify(res));
   } catch (error) {
-  console.error(error);
+    console.error(error);
     process.exit(1);
   }
 }
