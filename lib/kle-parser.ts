@@ -4,14 +4,16 @@ type Margin = number;
 type Size = number;
 type Formatting = {c: KeyColor; t: LegendColor};
 type Dimensions = {marginX: Margin; marginY: Margin; size: Size};
-export type Result = Formatting & Dimensions & {label: string};
 type ColorCount = {[key: string]: number};
 type KLEDimensions = {a: number; x: number; w: number; y: number};
 type OtherKLEProps = {[key: string]: any};
+type MatrixPosition = {row: number; col: number};
+type Cursor = {x: number; y: number};
 type KLEElem = KLEDimensions & Formatting | OtherKLEProps | string;
 type InnerReduceState = Formatting &
-  Dimensions & {colorCount: ColorCount; res: Result[]};
+  Dimensions & {cursor: Cursor; colorCount: ColorCount; res: Result[]};
 type OuterReduceState = {
+  cursor: Cursor;
   colorCount: ColorCount;
   prevFormatting: Formatting;
   res: Result[][];
@@ -20,6 +22,7 @@ export type ParsedKLE = {
   res: Result[][];
   colorMap: {[k: string]: string};
 };
+export type Result = Formatting & Dimensions & Cursor & MatrixPosition;
 
 // {c, t, label: n, size, margin}
 
@@ -37,24 +40,50 @@ export function parseKLE(kle: string): any {
 }
 
 export function generateParsedKLE(kle: KLEElem[][]) {
-  const parsedKLE: OuterReduceState = kle.reduce(
-    (prev: OuterReduceState, kle: any[]) => {
-      const parsedRow: InnerReduceState = kle.reduce(
+  const parsedKLE = kle.reduce<OuterReduceState>(
+    (prev: OuterReduceState, kle: KLEElem[]) => {
+      const parsedRow = kle.reduce<InnerReduceState>(
         (
-          {size, marginX, marginY, res, c, t, colorCount}: InnerReduceState,
-          n: KLEElem
+          {
+            cursor: {x, y},
+            size,
+            marginX,
+            marginY,
+            res,
+            c,
+            t,
+            colorCount
+          }: InnerReduceState,
+          n
         ) => {
           // Check if object and apply formatting
           if (typeof n !== 'string') {
-            let obj = {size, marginX, marginY, colorCount, c, t, res};
+            let obj: InnerReduceState = {
+              size,
+              marginX,
+              marginY,
+              colorCount,
+              c,
+              t,
+              res,
+              cursor: {x, y}
+            };
             if (n.w > 1) {
               obj = {...obj, size: 100 * n.w};
             }
             if (typeof n.y === 'number') {
-              obj = {...obj, marginY: 100 * n.y};
+              obj = {
+                ...obj,
+                marginY: 100 * n.y,
+                cursor: {...obj.cursor, y: y + n.y}
+              };
             }
             if (typeof n.x === 'number') {
-              obj = {...obj, marginX: 100 * n.x};
+              obj = {
+                ...obj,
+                marginX: 100 * n.x,
+                cursor: {...obj.cursor, x: x + n.x}
+              };
             }
             if (typeof n.c === 'string') {
               obj = {...obj, c: n.c};
@@ -62,7 +91,7 @@ export function generateParsedKLE(kle: KLEElem[][]) {
             if (typeof n.t === 'string') {
               obj = {...obj, t: n.t};
             }
-            return obj;
+            return obj as InnerReduceState;
           } else if (typeof n === 'string') {
             const colorCountKey = `${c}:${t}`;
             const [row, col] = n.split(',').map(num => parseInt(num, 10));
@@ -73,6 +102,18 @@ export function generateParsedKLE(kle: KLEElem[][]) {
                   ? 1
                   : colorCount[colorCountKey] + 1
             };
+            const currKey = {
+              c,
+              t,
+              size,
+              marginX,
+              marginY,
+              row,
+              col,
+              x,
+              y,
+              w: size / 100
+            };
             return {
               marginX: 0,
               marginY,
@@ -80,13 +121,24 @@ export function generateParsedKLE(kle: KLEElem[][]) {
               c,
               colorCount: newColorCount,
               t,
-              res: [...res, {c, t, label: n, size, marginX, marginY, row, col}]
+              cursor: {x: x + size / 100, y},
+              res: [...res, currKey]
             };
           }
-          return {marginX, marginY, size, c, t, res, colorCount};
+          return {
+            marginX,
+            marginY,
+            size,
+            c,
+            t,
+            res,
+            colorCount,
+            cursor: {x, y}
+          };
         },
         {
           ...prev.prevFormatting,
+          cursor: prev.cursor,
           colorCount: prev.colorCount,
           marginX: 0,
           marginY: 0,
@@ -95,12 +147,18 @@ export function generateParsedKLE(kle: KLEElem[][]) {
         }
       );
       return {
+        cursor: {x: 0, y: parsedRow.cursor.y + 1},
         colorCount: parsedRow.colorCount,
         prevFormatting: {c: parsedRow.c, t: parsedRow.t},
         res: [...prev.res, parsedRow.res]
       };
     },
-    {prevFormatting: {c: '#f5f5f5', t: '#444444'}, res: [], colorCount: {}}
+    {
+      cursor: {x: 0, y: 0},
+      prevFormatting: {c: '#f5f5f5', t: '#444444'},
+      res: [],
+      colorCount: {}
+    }
   );
 
   const {colorCount, res} = parsedKLE;
@@ -116,13 +174,16 @@ export function generateParsedKLE(kle: KLEElem[][]) {
     [colorCountKeys[2]]: 'accent'
   };
 
-  const keys = res.map(row =>
+  const keys = res.flatMap(row =>
     row.map(k => ({
       ...k,
       c: undefined,
       t: undefined,
       label: undefined,
-      keyColor: colorMap[`${k.c}:${k.t}`] || 'alpha'
+      size: undefined,
+      marginX: undefined,
+      marginY: undefined,
+      color: colorMap[`${k.c}:${k.t}`] || 'alpha'
     }))
   );
 
