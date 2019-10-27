@@ -25,7 +25,7 @@ async function build() {
       fs.mkdirSync('dist');
     }
 
-    fs.writeFileSync('dist/via-keyboards.json', stringify(res));
+    fs.writeFileSync('dist/keyboards.json', stringify(res));
   } catch (error) {
     console.error(error);
     process.exit(1);

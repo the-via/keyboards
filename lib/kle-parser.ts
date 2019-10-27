@@ -65,6 +65,7 @@ export function generateParsedKLE(kle: KLEElem[][]) {
             return obj;
           } else if (typeof n === 'string') {
             const colorCountKey = `${c}:${t}`;
+            const [row, col] = n.split(',').map(num => parseInt(num, 10));
             const newColorCount = {
               ...colorCount,
               [colorCountKey]:
@@ -79,7 +80,7 @@ export function generateParsedKLE(kle: KLEElem[][]) {
               c,
               colorCount: newColorCount,
               t,
-              res: [...res, {c, t, label: n, size, marginX, marginY}]
+              res: [...res, {c, t, label: n, size, marginX, marginY, row, col}]
             };
           }
           return {marginX, marginY, size, c, t, res, colorCount};
@@ -108,16 +109,22 @@ export function generateParsedKLE(kle: KLEElem[][]) {
   if (colorCountKeys.length > 3) {
     console.error('Please correct layout:', parsedKLE);
   }
-  return {
-    res,
-    colorMap: {
-      [colorCountKeys[0]]: 'alphas',
-      [colorCountKeys[1]]: 'mods',
-      [colorCountKeys[2]]: 'accents'
-    }
-  };
-}
 
-export function parseKLERaw(kle: string): ParsedKLE {
-  return generateParsedKLE(parseKLE(kle));
+  const colorMap = {
+    [colorCountKeys[0]]: 'alpha',
+    [colorCountKeys[1]]: 'mod',
+    [colorCountKeys[2]]: 'accent'
+  };
+
+  const keys = res.map(row =>
+    row.map(k => ({
+      ...k,
+      c: undefined,
+      t: undefined,
+      label: undefined,
+      keyColor: colorMap[`${k.c}:${k.t}`] || 'alpha'
+    }))
+  );
+
+  return {keys};
 }
