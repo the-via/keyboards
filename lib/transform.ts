@@ -1,42 +1,7 @@
-import {ParsedKLE, generateParsedKLE} from './kle-parser';
-
-enum LightingSupport {
-  None = 0,
-  QMKLighting = 1,
-  WTRGBBacklight = 2,
-  WTMonoBacklight = 3
-}
-
-type KLEFormattingObject = Partial<{
-  c: string;
-  t: string;
-  x: number;
-  y: number;
-  w: number;
-  a: number;
-}>;
-
-type KLELayoutDefinition = (string | KLEFormattingObject)[][];
-
-type KeyboardDefinition = {
-  name: string;
-  vendorId: string;
-  productId: string;
-  lights: LightingSupport;
-  layouts: {[name: string]: KLELayoutDefinition};
-};
-
-type VIADefinition = {
-  name: string;
-  vendorProductId: number;
-  lights: LightingSupport;
-  layouts: {
-    [layoutName: string]: {
-      colorMap: ParsedKLE['colorMap'];
-      layout: ParsedKLE['res'];
-    };
-  };
-};
+import {generateParsedKLE} from './kle-parser';
+import validate from './keyboard.definition.validator';
+import {KeyboardDefinition, VIADefinition} from './types';
+export {KeyboardDefinition};
 
 function getVendorProductId({productId, vendorId}: KeyboardDefinition): number {
   const parsedVendorId = parseInt(vendorId, 16);
@@ -64,6 +29,7 @@ export function generateVIADefinitionLookupMap(
   definitions: KeyboardDefinition[]
 ) {
   return definitions
+    .map(validate)
     .map(keyboardDefinitionToVIADefinition)
     .reduce((p, n) => ({...p, [n.vendorProductId]: n}), {});
 }

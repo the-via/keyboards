@@ -1,15 +1,12 @@
-type KeyColor = string;
-type LegendColor = string;
-type Margin = number;
-type Size = number;
-type Formatting = {c: KeyColor; t: LegendColor};
-type Dimensions = {marginX: Margin; marginY: Margin; size: Size};
-type ColorCount = {[key: string]: number};
-type KLEDimensions = {a: number; x: number; w: number; y: number};
-type OtherKLEProps = {[key: string]: any};
-type MatrixPosition = {row: number; col: number};
-type Cursor = {x: number; y: number};
-type KLEElem = KLEDimensions & Formatting | OtherKLEProps | string;
+import {
+  Formatting,
+  Cursor,
+  ColorCount,
+  Dimensions,
+  KLEElem,
+  Result
+} from './types';
+
 type InnerReduceState = Formatting &
   Dimensions & {cursor: Cursor; colorCount: ColorCount; res: Result[]};
 type OuterReduceState = {
@@ -18,13 +15,6 @@ type OuterReduceState = {
   prevFormatting: Formatting;
   res: Result[][];
 };
-export type ParsedKLE = {
-  res: Result[][];
-  colorMap: {[k: string]: string};
-};
-export type Result = Formatting & Dimensions & Cursor & MatrixPosition;
-
-// {c, t, label: n, size, margin}
 
 export function parseKLE(kle: string): any {
   const kleArr = kle.split(',\n');
