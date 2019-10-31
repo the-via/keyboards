@@ -4,11 +4,16 @@ import {
   ColorCount,
   Dimensions,
   KLEElem,
+  Rotation,
   Result
 } from './types';
 
 type InnerReduceState = Formatting &
-  Dimensions & {cursor: Cursor; colorCount: ColorCount; res: Result[]};
+  Dimensions & {
+    cursor: Cursor;
+    colorCount: ColorCount;
+    res: Result[];
+  } & Rotation;
 type OuterReduceState = {
   cursor: Cursor;
   colorCount: ColorCount;
@@ -42,6 +47,9 @@ export function generateParsedKLE(kle: KLEElem[][]) {
             res,
             c,
             t,
+            r,
+            rx,
+            ry,
             colorCount
           }: InnerReduceState,
           n
@@ -55,6 +63,9 @@ export function generateParsedKLE(kle: KLEElem[][]) {
               colorCount,
               c,
               t,
+              r,
+              rx,
+              ry,
               res,
               cursor: {x, y}
             };
@@ -73,6 +84,24 @@ export function generateParsedKLE(kle: KLEElem[][]) {
                 ...obj,
                 marginX: 100 * n.x,
                 cursor: {...obj.cursor, x: x + n.x}
+              };
+            }
+            if (typeof n.r === 'number') {
+              obj = {
+                ...obj,
+                r: n.r
+              };
+            }
+            if (typeof n.rx === 'number') {
+              obj = {
+                ...obj,
+                rx: n.rx
+              };
+            }
+            if (typeof n.ry === 'number') {
+              obj = {
+                ...obj,
+                ry: n.ry
               };
             }
             if (typeof n.c === 'string') {
@@ -102,8 +131,13 @@ export function generateParsedKLE(kle: KLEElem[][]) {
               col,
               x,
               y,
+              r,
+              rx,
+              ry,
               w: size / 100
             };
+
+            // Reset carry properties
             return {
               marginX: 0,
               marginY,
@@ -111,6 +145,9 @@ export function generateParsedKLE(kle: KLEElem[][]) {
               c,
               colorCount: newColorCount,
               t,
+              r: 0,
+              rx: 0,
+              ry: 0,
               cursor: {x: x + size / 100, y},
               res: [...res, currKey]
             };
@@ -121,6 +158,9 @@ export function generateParsedKLE(kle: KLEElem[][]) {
             size,
             c,
             t,
+            r,
+            rx,
+            ry,
             res,
             colorCount,
             cursor: {x, y}
@@ -133,6 +173,9 @@ export function generateParsedKLE(kle: KLEElem[][]) {
           marginX: 0,
           marginY: 0,
           size: 100,
+          r: 0,
+          rx: 0,
+          ry: 0,
           res: []
         }
       );
@@ -169,22 +212,20 @@ export function generateParsedKLE(kle: KLEElem[][]) {
   const yKeys = flatRes.map(k => k.y);
   const minX = Math.min(...xKeys);
   const minY = Math.min(...yKeys);
-  const width = Math.max(...flatRes.map(k=> k.x + k.w))-minX;
+  const width = Math.max(...flatRes.map(k => k.x + k.w)) - minX;
   const height = Math.max(...yKeys) + 1 - minY;
-  const keys = flatRes.map(k =>
-    ({
-      ...k,
-      c: undefined,
-      t: undefined,
-      label: undefined,
-      size: undefined,
-      marginX: undefined,
-      marginY: undefined,
-      x: k.x - minX,
-      y: k.y - minY,
-      color: colorMap[`${k.c}:${k.t}`] || 'alpha'
-    }));
+  const keys = flatRes.map(k => ({
+    ...k,
+    c: undefined,
+    t: undefined,
+    label: undefined,
+    size: undefined,
+    marginX: undefined,
+    marginY: undefined,
+    x: k.x - minX,
+    y: k.y - minY,
+    color: colorMap[`${k.c}:${k.t}`] || 'alpha'
+  }));
 
-
-  return {width,height,keys};
+  return {width, height, keys};
 }

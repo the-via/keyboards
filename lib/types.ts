@@ -1,4 +1,16 @@
-type KLEDimensions = {a: number; x: number; w: number; y: number};
+export type Rotation = {
+  r: number;
+  rx: number;
+  ry: number;
+};
+
+type KLEDimensions = Rotation & {
+  a: number;
+  x: number;
+  w: number;
+  y: number;
+};
+
 type OtherKLEProps = {[key: string]: any};
 type KeyColor = string;
 type LegendColor = string;
@@ -15,7 +27,10 @@ export type ParsedKLE = {
   res: Result[][];
   colorMap: {[k: string]: string};
 };
-export type Result ={w:number} & Formatting & Dimensions & Cursor & MatrixPosition;
+export type Result = {w: number} & Formatting &
+  Dimensions &
+  Cursor &
+  MatrixPosition;
 enum LightingSupport {
   None = 0,
   QMKLighting = 1,
