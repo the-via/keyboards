@@ -164,8 +164,15 @@ export function generateParsedKLE(kle: KLEElem[][]) {
     [colorCountKeys[2]]: 'accent'
   };
 
-  const keys = res.flatMap(row =>
-    row.map(k => ({
+  const flatRes = res.flat();
+  const xKeys = flatRes.map(k => k.x);
+  const yKeys = flatRes.map(k => k.y);
+  const minX = Math.min(...xKeys);
+  const minY = Math.min(...yKeys);
+  const width = Math.max(...flatRes.map(k=> k.x + k.w))-minX;
+  const height = Math.max(...yKeys) + 1 - minY;
+  const keys = flatRes.map(k =>
+    ({
       ...k,
       c: undefined,
       t: undefined,
@@ -173,9 +180,11 @@ export function generateParsedKLE(kle: KLEElem[][]) {
       size: undefined,
       marginX: undefined,
       marginY: undefined,
+      x: k.x - minX,
+      y: k.y - minY,
       color: colorMap[`${k.c}:${k.t}`] || 'alpha'
-    }))
-  );
+    }));
 
-  return {keys};
+
+  return {width,height,keys};
 }

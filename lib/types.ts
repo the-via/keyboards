@@ -15,7 +15,7 @@ export type ParsedKLE = {
   res: Result[][];
   colorMap: {[k: string]: string};
 };
-export type Result = Formatting & Dimensions & Cursor & MatrixPosition;
+export type Result ={w:number} & Formatting & Dimensions & Cursor & MatrixPosition;
 enum LightingSupport {
   None = 0,
   QMKLighting = 1,
