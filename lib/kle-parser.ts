@@ -46,6 +46,7 @@ export function generateParsedKLE(kle: KLEElem[][]) {
             marginY,
             res,
             c,
+            h,
             t,
             r,
             rx,
@@ -63,6 +64,7 @@ export function generateParsedKLE(kle: KLEElem[][]) {
               colorCount,
               c,
               t,
+              h,
               r,
               rx,
               ry,
@@ -96,6 +98,12 @@ export function generateParsedKLE(kle: KLEElem[][]) {
               obj = {
                 ...obj,
                 rx: n.rx
+              };
+            }
+            if (typeof n.h === 'number') {
+              obj = {
+                ...obj,
+                h: n.h
               };
             }
             if (typeof n.ry === 'number') {
@@ -134,6 +142,7 @@ export function generateParsedKLE(kle: KLEElem[][]) {
               r,
               rx,
               ry,
+              h,
               w: size / 100
             };
 
@@ -142,6 +151,7 @@ export function generateParsedKLE(kle: KLEElem[][]) {
               marginX: 0,
               marginY,
               size: 100,
+              h: 1,
               c,
               colorCount: newColorCount,
               t,
@@ -158,6 +168,7 @@ export function generateParsedKLE(kle: KLEElem[][]) {
             size,
             c,
             t,
+            h,
             r,
             rx,
             ry,
@@ -173,6 +184,7 @@ export function generateParsedKLE(kle: KLEElem[][]) {
           marginX: 0,
           marginY: 0,
           size: 100,
+          h: 1,
           r: 0,
           rx: 0,
           ry: 0,

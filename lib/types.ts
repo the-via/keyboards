@@ -8,6 +8,7 @@ type KLEDimensions = Rotation & {
   a: number;
   x: number;
   w: number;
+  h: number;
   y: number;
 };
 
@@ -20,14 +21,19 @@ type MatrixPosition = {row: number; col: number};
 
 export type Cursor = {x: number; y: number};
 export type Formatting = {c: KeyColor; t: LegendColor};
-export type Dimensions = {marginX: Margin; marginY: Margin; size: Size};
+export type Dimensions = {
+  marginX: Margin;
+  marginY: Margin;
+  size: Size;
+  h: number;
+};
 export type KLEElem = KLEDimensions & Formatting | OtherKLEProps | string;
 export type ColorCount = {[key: string]: number};
 export type ParsedKLE = {
   res: Result[][];
   colorMap: {[k: string]: string};
 };
-export type Result = {w: number} & Formatting &
+export type Result = {h: number; w: number} & Formatting &
   Dimensions &
   Cursor &
   MatrixPosition;
