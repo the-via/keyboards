@@ -55,11 +55,17 @@ type KLEFormattingObject = Partial<{
 
 type KLELayoutDefinition = (string | KLEFormattingObject)[][];
 
+export type MatrixInfo = {
+  rows: number;
+  cols: number;
+};
+
 export type KeyboardDefinition = {
   name: string;
   vendorId: string;
   productId: string;
   lights: LightingSupport;
+  matrix: MatrixInfo;
   layouts: {[name: string]: KLELayoutDefinition};
 };
 
@@ -67,6 +73,7 @@ export type VIADefinition = {
   name: string;
   vendorProductId: number;
   lights: LightingSupport;
+  matrix: MatrixInfo;
   layouts: {
     [layoutName: string]: {
       colorMap: ParsedKLE['colorMap'];

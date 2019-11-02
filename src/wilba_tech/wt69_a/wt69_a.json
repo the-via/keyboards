@@ -3,6 +3,7 @@
   "vendorId": "0x6582",
   "productId": "0x069a",
   "lights": 0,
+  "matrix": {"rows": 5, "cols": 17},
   "layouts": {
     "all": [
       [

@@ -12,7 +12,7 @@ function getVendorProductId({productId, vendorId}: KeyboardDefinition): number {
 export function keyboardDefinitionToVIADefinition(
   definition: KeyboardDefinition
 ): VIADefinition {
-  const {name, lights} = definition;
+  const {name, lights, matrix} = definition;
   const layouts = Object.entries(definition.layouts).reduce(
     (p, [k, v]) => ({...p, [k]: generateParsedKLE(v)}),
     {}
@@ -21,6 +21,7 @@ export function keyboardDefinitionToVIADefinition(
     name,
     lights,
     layouts,
+    matrix,
     vendorProductId: getVendorProductId(definition)
   };
 }
