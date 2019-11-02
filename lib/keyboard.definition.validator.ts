@@ -50,6 +50,17 @@ export const KeyboardDefinitionSchema = {
     }
   },
   properties: {
+    matrix: {
+      properties: {
+        cols: {
+          type: 'number'
+        },
+        rows: {
+          type: 'number'
+        }
+      },
+      type: 'object'
+    },
     layouts: {
       additionalProperties: {
         items: {
@@ -84,7 +95,7 @@ export const KeyboardDefinitionSchema = {
       type: 'string'
     }
   },
-  required: ['layouts', 'lights', 'name', 'productId', 'vendorId'],
+  required: ['layouts', 'lights', 'name', 'productId', 'vendorId', 'matrix'],
   type: 'object'
 };
 export type ValidateFunction<T> = ((data: unknown) => data is T) &
