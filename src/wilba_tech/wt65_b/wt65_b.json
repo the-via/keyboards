@@ -2,7 +2,7 @@
   "name": "WT65-B",
   "vendorId": "0x6582",
   "productId": "0x065b",
-  "lights": 0,
+  "lighting": "none",
   "matrix": {"rows": 5, "cols": 15},
   "layouts": {
     "all": [

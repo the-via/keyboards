@@ -2,7 +2,7 @@
   "name": "RAMA WORKS M60-A",
   "vendorId": "0x5241",
   "productId": "0x060a",
-  "lights": 2,
+  "lighting": "wt_rgb_backlight",
   "matrix": {"rows": 5, "cols": 14},
   "layouts": {
     "all": [

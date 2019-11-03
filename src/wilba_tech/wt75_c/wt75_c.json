@@ -2,7 +2,7 @@
   "name": "WT75-C",
   "vendorId": "0x6582",
   "productId": "0x075c",
-  "lights": 0,
+  "lighting": "none",
   "matrix": {"rows": 6, "cols": 16},
   "layouts": {
     "all": [

@@ -2,7 +2,7 @@
   "name": "Satisfaction75",
   "vendorId": "0xca04",
   "productId": "0x57f5",
-  "lights": 1,
+  "lighting": "qmk_backlight",
   "matrix": {"rows": 6, "cols": 16},
   "layouts": {
     "all": [

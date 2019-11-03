@@ -2,7 +2,7 @@
   "name": "Leaf 60",
   "vendorId": "0x60be",
   "productId": "0x00be",
-  "lights": 0,
+  "lighting": "none",
   "matrix": {"rows": 5, "cols": 14},
   "layouts": {
     "all": [

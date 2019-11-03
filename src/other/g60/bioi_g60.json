@@ -2,7 +2,7 @@
   "name": "BIOI G60",
   "vendorId": "0x6582",
   "productId": "0x6080",
-  "lights": 0,
+  "lighting": "none",
   "matrix": {"rows": 5, "cols": 14},
   "layouts": {
     "all": [

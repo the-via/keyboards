@@ -2,7 +2,7 @@
   "name": "AEboards AEGIS",
   "vendorId": "0x4145",
   "productId": "0x0807",
-  "lights": 0,
+  "lighting": "none",
   "matrix": {"rows": 12, "cols": 9},
   "layouts": {
     "all": [

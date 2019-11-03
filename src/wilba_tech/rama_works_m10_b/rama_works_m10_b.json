@@ -2,7 +2,7 @@
   "name": "RAMA WORKS M10-B",
   "vendorId": "0x5241",
   "productId": "0x00ab",
-  "lights": 0,
+  "lighting": "none",
   "matrix": {"rows": 1, "cols": 10},
   "layouts": {
     "all": [

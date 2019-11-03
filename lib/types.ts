@@ -64,7 +64,7 @@ export type KeyboardDefinition = {
   name: string;
   vendorId: string;
   productId: string;
-  lights: LightingSupport;
+  lighting: LightingSupport;
   matrix: MatrixInfo;
   layouts: {[name: string]: KLELayoutDefinition};
 };
@@ -72,7 +72,7 @@ export type KeyboardDefinition = {
 export type VIADefinition = {
   name: string;
   vendorProductId: number;
-  lights: LightingSupport;
+  lighting: LightingSupport;
   matrix: MatrixInfo;
   layouts: {
     [layoutName: string]: {

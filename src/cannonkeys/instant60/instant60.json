@@ -2,7 +2,7 @@
   "name": "Instant60",
   "vendorId": "0xca04",
   "productId": "0x1600",
-  "lights": 1,
+  "lighting": "qmk_backlight",
   "matrix": {"rows": 5, "cols": 15},
   "layouts": {
     "all": [

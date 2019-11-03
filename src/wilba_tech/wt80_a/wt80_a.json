@@ -2,7 +2,7 @@
   "name": "WT80-A",
   "vendorId": "0x6582",
   "productId": "0x080a",
-  "lights": 0,
+  "lighting": "none",
   "matrix": {"rows": 6, "cols": 17},
   "layouts": {
     "all": [

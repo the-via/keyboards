@@ -2,7 +2,7 @@
   "name": "E6.5",
   "vendorId": "0xfeed",
   "productId": "0x6500",
-  "lights": 0,
+  "lighting": "none",
   "matrix": {"rows": 5, "cols": 16},
   "layouts": {
     "all": [

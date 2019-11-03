@@ -2,7 +2,7 @@
   "name": "AEboards Ext65",
   "vendorId": "0x4145",
   "productId": "0xae65",
-  "lights": 0,
+  "lighting": "none",
   "matrix": {"rows": 10, "cols": 10},
   "layouts": {
     "all": [

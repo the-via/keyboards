@@ -2,7 +2,7 @@
   "name": "WT60-D",
   "vendorId": "0x6582",
   "productId": "0x060d",
-  "lights": 0,
+  "lighting": "none",
   "matrix": {"rows": 5, "cols": 14},
   "layouts": {
     "all": [

@@ -2,7 +2,7 @@
   "name": "is0",
   "vendorId": "0xa103",
   "productId": "0x0012",
-  "lights": 0,
+  "lighting": "none",
   "matrix": {"rows": 1, "cols": 1},
   "layouts": {"all": [[{"w": 1.5}, "0,0"]]}
 }

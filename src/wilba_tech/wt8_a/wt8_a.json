@@ -2,7 +2,7 @@
   "name": "WT8-A",
   "vendorId": "0x6582",
   "productId": "0x008a",
-  "lights": 0,
+  "lighting": "none",
   "matrix": {"rows": 1, "cols": 8},
   "layouts": {
     "all": [

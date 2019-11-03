@@ -2,7 +2,7 @@
   "name": "Snagpad",
   "vendorId": "0x4443",
   "productId": "0x5350",
-  "lights": 0,
+  "lighting": "none",
   "matrix": {"rows": 5, "cols": 4},
   "layouts": {
     "all": [

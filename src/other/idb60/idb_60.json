@@ -2,7 +2,7 @@
   "name": "IDB 60",
   "vendorId": "0x6060",
   "productId": "0x6060",
-  "lights": 0,
+  "lighting": "none",
   "matrix": {"rows": 10, "cols": 8},
   "layouts": {
     "all": [

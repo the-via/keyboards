@@ -2,7 +2,7 @@
   "name": "WT60-A",
   "vendorId": "0x6582",
   "productId": "0x060a",
-  "lights": 0,
+  "lighting": "none",
   "matrix": {"rows": 5, "cols": 14},
   "layouts": {
     "all": [

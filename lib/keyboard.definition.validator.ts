@@ -21,8 +21,8 @@ export const KeyboardDefinitionSchema = {
   defaultProperties: [],
   definitions: {
     LightingSupport: {
-      enum: [0, 1, 2, 3],
-      type: 'number'
+      enum: ['none', 'qmk_backlight', 'wt_rgb_backlight', 'wt_mono_backlight'],
+      type: 'string'
     },
     'Partial<{c:string;t:string;x:number;y:number;w:number;a:number;}>': {
       defaultProperties: [],
@@ -82,7 +82,7 @@ export const KeyboardDefinitionSchema = {
       defaultProperties: [],
       type: 'object'
     },
-    lights: {
+    lighting: {
       $ref: '#/definitions/LightingSupport'
     },
     name: {
@@ -95,7 +95,7 @@ export const KeyboardDefinitionSchema = {
       type: 'string'
     }
   },
-  required: ['layouts', 'lights', 'name', 'productId', 'vendorId', 'matrix'],
+  required: ['layouts', 'lighting', 'name', 'productId', 'vendorId', 'matrix'],
   type: 'object'
 };
 export type ValidateFunction<T> = ((data: unknown) => data is T) &

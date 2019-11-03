@@ -2,7 +2,7 @@
   "name": "Lunar",
   "vendorId": "0xa103",
   "productId": "0x0001",
-  "lights": 0,
+  "lighting": "none",
   "matrix": {"rows": 5, "cols": 15},
   "layouts": {
     "all": [

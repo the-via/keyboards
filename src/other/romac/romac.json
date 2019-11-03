@@ -2,7 +2,7 @@
   "name": "romac",
   "vendorId": "0x5253",
   "productId": "0x0001",
-  "lights": 0,
+  "lighting": "none",
   "matrix": {"rows": 4, "cols": 3},
   "layouts": {
     "all": [

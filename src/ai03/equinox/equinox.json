@@ -2,7 +2,7 @@
   "name": "Equinox",
   "vendorId": "0xa103",
   "productId": "0x0004",
-  "lights": 0,
+  "lighting": "none",
   "matrix": {"rows": 4, "cols": 12},
   "layouts": {
     "all": [

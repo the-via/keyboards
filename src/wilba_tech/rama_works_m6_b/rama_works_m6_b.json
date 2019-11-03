@@ -2,7 +2,7 @@
   "name": "RAMA WORKS M6-B",
   "vendorId": "0x5241",
   "productId": "0x006b",
-  "lights": 2,
+  "lighting": "wt_rgb_backlight",
   "matrix": {"rows": 1, "cols": 6},
   "layouts": {
     "all": [
