@@ -3,7 +3,7 @@ import * as glob from 'glob';
 import * as fs from 'fs';
 import * as rimraf from 'rimraf';
 import {promisify} from 'bluebird';
-import {generateVIADefinitionLookupMap} from '../lib/transform';
+import {generateVIADefinitionLookupMap} from 'via-reader';
 
 const viaAPIVersion = '0.0.1';
 

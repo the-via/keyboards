@@ -27,11 +27,14 @@
     "@types/bluebird": "^3.5.28",
     "@types/glob": "^7.1.1",
     "@types/rimraf": "^2.0.3",
+    "add": "^2.0.6",
     "ajv": "^6.10.2",
     "bluebird": "^3.7.1",
     "json-stringify-pretty-compact": "^2.0.0",
     "rimraf": "^3.0.0",
     "ts-node-dev": "^1.0.0-pre.43",
-    "typescript-json-schema": "^0.40.0"
+    "typescript-json-schema": "^0.40.0",
+    "via-reader": "https://github.com/the-via/reader",
+    "yarn": "^1.19.1"
   }
 }
