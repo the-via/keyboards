@@ -35,7 +35,7 @@
     "rimraf": "^3.0.0",
     "ts-node-dev": "^1.0.0-pre.43",
     "typescript-json-schema": "^0.40.0",
-    "via-reader": "git://github.com/the-via/reader.git#15b3b6241eba0000fca2252b6131d78f361009a9",
+    "via-reader": "git://github.com/the-via/reader.git#69d00c03c5d5a3a579483c7cddb3874848e0b1df",
     "yarn": "^1.19.1"
   }
 }

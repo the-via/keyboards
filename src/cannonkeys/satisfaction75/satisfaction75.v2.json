@@ -3,6 +3,7 @@
   "vendorId": "0xca04",
   "productId": "0x57f5",
   "lighting": "qmk_backlight",
+  "customFeatures": ["rotary-encoder"],
   "matrix": {"rows": 6, "cols": 16},
   "layouts": {
     "keymap": [
