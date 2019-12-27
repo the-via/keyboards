@@ -5,7 +5,7 @@ import * as rimraf from 'rimraf';
 import {promisify} from 'bluebird';
 import {generateVIADefinitionV2LookupMap, getTheme} from 'via-reader';
 
-const viaAPIVersionV2 = '0.1.1';
+const viaAPIVersionV2 = '0.1.2';
 
 async function build() {
   await promisify(rimraf)('dist/*');
