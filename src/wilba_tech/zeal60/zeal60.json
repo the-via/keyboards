@@ -39,9 +39,6 @@
       ["Bottom Row", "ANSI", "7U", "HHKB", "WKL"]
     ],
     "keymap": [
-      {
-        "name": "Zeal60 VIA"
-      },
       [
         {
           "x": 2.5,
