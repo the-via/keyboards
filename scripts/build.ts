@@ -3,9 +3,9 @@ import * as glob from 'glob';
 import * as fs from 'fs';
 import * as rimraf from 'rimraf';
 import {promisify} from 'bluebird';
-import {generateVIADefinitionV2LookupMap} from 'via-reader';
+import {generateVIADefinitionV2LookupMap, getTheme} from 'via-reader';
 
-const viaAPIVersionV2 = '0.1.1';
+const viaAPIVersionV2 = '0.1.2';
 
 async function build() {
   await promisify(rimraf)('dist/*');
@@ -15,8 +15,9 @@ async function build() {
   const [v2Definitions] = [paths].map(paths => paths.map(f => require(f)));
 
   const resV2 = {
-    version: viaAPIVersionV2,
     generatedAt: Date.now(),
+    version: viaAPIVersionV2,
+    theme: getTheme(),
     definitions: generateVIADefinitionV2LookupMap(v2Definitions)
   };
 
