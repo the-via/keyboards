@@ -4,6 +4,11 @@
   "productId": "0x57f5",
   "lighting": "qmk_backlight",
   "customFeatures": ["rotary-encoder"],
+  "customKeycodes": [
+    {"name": "Encoder Press", "title": "Encoder Press", "shortName": "EncPrs"},
+    {"name": "Clock Set", "title": "Clock Set", "shortName": "ClkSet"},
+    {"name": "OLED Mode", "title": "OLED Mode",  "shortName": "ScrnMd"}
+  ],
   "matrix": {"rows": 6, "cols": 16},
   "layouts": {
     "keymap": [
