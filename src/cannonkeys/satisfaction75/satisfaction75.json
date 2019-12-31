@@ -6,8 +6,8 @@
   "customFeatures": ["rotary-encoder"],
   "customKeycodes": [
     {"name": "Encoder Press", "title": "Encoder Press", "shortName": "EncPrs"},
-    {"name": "OLED Mode", "title": "OLED Mode",  "shortName": "OLEDMd"},
-    {"name": "Clock Set", "title": "Clock Set", "shortName": "ClkSet"}
+    {"name": "Clock Set", "title": "Clock Set", "shortName": "ClkSet"},
+    {"name": "OLED Mode", "title": "OLED Mode",  "shortName": "ScrnMd"}
   ],
   "matrix": {"rows": 6, "cols": 16},
   "layouts": {
