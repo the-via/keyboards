@@ -13,7 +13,10 @@ module.exports = {
         alt: 'VIA',
         src: 'img/icon.png'
       },
-      links: [{to: 'docs/doc1', label: 'Docs', position: 'left'}]
+      links: [
+        {to: 'docs/simple', label: 'Simple', position: 'left'},
+        {to: 'docs/advanced', label: 'Advanced', position: 'left'}
+      ]
     },
     footer: {
       style: 'dark',
@@ -23,7 +26,7 @@ module.exports = {
           items: [
             {
               label: 'Docs',
-              to: 'docs/doc1'
+              to: 'docs/simple'
             }
           ]
         },
