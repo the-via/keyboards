@@ -33,7 +33,7 @@
     "presets": {"HHKB": [1, 0, 0, 1, 2]},
     "labels": [
       "Split Backspace",
-      "ISO",
+      "ISO Enter",
       "Split Left Shift",
       "Split Right Shift",
       ["Bottom Row", "ANSI", "7U", "HHKB", "WKL"]
