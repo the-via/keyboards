@@ -1,10 +1,10 @@
 ---
 id: advanced
-title: Advanced
-sidebar_label: Advanced Example
+title: Advanced Sample
+sidebar_label: Advanced Sample
 ---
 
-M6-B
+## M6-B
 
 ```json
 {
@@ -48,9 +48,11 @@ M6-B
   "matrix": {"rows": 1, "cols": 6},
   "layouts": {
     "keymap": [
-      [{"c": "#505557", "t": "#d9d7d7", "a": 7}, "0,0", "0,1", "0,2"],
+      ["0,0", "0,1", "0,2"],
       ["0,3", "0,4", "0,5"]
     ]
   }
 }
 ```
+
+This example is very similar to the M6-A definition with some slight differences. As you can see, the `lighting` property extends the `wt_rgb_backlight` preset and has overriden the `effects` property in order to allow up to 6 colors, it has also overriden the `supportedBacklightValues` to include the id for the `custom_color` config value.

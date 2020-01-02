@@ -1,10 +1,10 @@
 ---
 id: simple
-title: Simple Example
-sidebar_label: Simple Example
+title: Simple Sample
+sidebar_label: Simple Sample
 ---
 
-M6-A
+## M6-A
 
 ```json
 {
@@ -15,22 +15,11 @@ M6-A
   "matrix": {"rows": 1, "cols": 6},
   "layouts": {
     "keymap": [
-      [{"c": "#505557", "t": "#d9d7d7", "a": 7}, "0,0", "0,1", "0,2"],
+      ["0,0", "0,1", "0,2"],
       ["0,3", "0,4", "0,5"]
     ]
   }
 }
 ```
 
-You can write JSX and use React components within your Markdown thanks to [MDX](https://mdxjs.com/).
-
-export const Highlight = ({children, color}) => ( <span style={{
-      backgroundColor: color,
-      borderRadius: '2px',
-      color: '#fff',
-      padding: '0.2rem',
-    }}> {children} </span> );
-
-<Highlight color="#25c2a0">Docusaurus green</Highlight> and <Highlight color="#1877F2">Facebook blue</Highlight> are my favorite colors.
-
-I can write **Markdown** alongside my _JSX_!
+Above is the definition for the M6-A which doesn't support any lighting, has 1 row and 6 columns and whose KLE is 2 rows of keys.

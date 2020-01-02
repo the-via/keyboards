@@ -14,50 +14,24 @@ module.exports = {
         src: 'img/icon.png'
       },
       links: [
-        {to: 'docs/simple', label: 'Simple', position: 'left'},
-        {to: 'docs/advanced', label: 'Advanced', position: 'left'}
+        {to: 'docs/specification', label: 'Specification', position: 'left'},
+        {to: 'docs/simple', label: 'Examples', position: 'left'}
       ]
     },
     footer: {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Designer Docs',
           items: [
             {
-              label: 'Docs',
-              to: 'docs/simple'
-            }
-          ]
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus'
-            }
-          ]
-        },
-        {
-          title: 'Social',
-          items: [
-            {
-              label: 'Blog',
-              to: 'blog'
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus'
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus'
+              label: 'Designer Docs',
+              to: 'docs/specification'
             }
           ]
         }
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`
+      copyright: `Built with Docusaurus.`
     }
   },
   presets: [
