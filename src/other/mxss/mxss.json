@@ -12,12 +12,12 @@
     {
       "name": "FLED Bright +",
       "title": "FLED Bright +",
-      "shortName": "FLED\nValInc"
+      "shortName": "FLED\nVal +"
     },
     {
       "name": "FLED Bright -",
       "title": "FLED Bright -",
-      "shortName": "FLED\nValDec"
+      "shortName": "FLED\nVal -"
     }
   ],
   "matrix": {
