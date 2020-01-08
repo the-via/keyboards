@@ -5,6 +5,7 @@ build_dir=$(pwd)
 # Make sure qmk is installed
 git -C ~/qmk git pull || git clone https://github.com/qmk/qmk_firmware.git ~/qmk
 cd ~/qmk
+cat $build_dir/QMK_REVISION | xargs -n 1 git checkout
 util/qmk_install.sh
 make git-submodule
 
