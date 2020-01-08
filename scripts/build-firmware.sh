@@ -8,8 +8,8 @@ cd ~/qmk
 cat $build_dir/QMK_REVISION | xargs -n 1 git checkout
 util/qmk_install.sh
 make git-submodule
-
-make all:via
+ts-node $build_dir/scripts/generate-from-qmk.ts $(pwd)
+#make all:via
 
 # copy hex and bin files to dist/firmware
 target_dir="$build_dir/dist/firmware"
