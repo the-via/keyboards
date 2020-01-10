@@ -1,6 +1,6 @@
 {
   "name": "romac",
-  "vendorId": "0x5253",
+  "vendorId": "0x4b4b",
   "productId": "0x0001",
   "lighting": "none",
   "matrix": {"rows": 4, "cols": 3},
