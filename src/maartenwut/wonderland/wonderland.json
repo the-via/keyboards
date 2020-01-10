@@ -1,7 +1,7 @@
 {
     "name": "Maartenwut Wonderland",
-    "vendorId": "0xfeed",
-    "productId": "0xa71c",
+    "vendorId": "0x4705",
+    "productId": "0xA71C",
     
     "matrix":   {"rows": 5, "cols": 15},
     "lighting": "none",
