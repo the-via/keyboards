@@ -4,7 +4,7 @@
   "productId": "0x0060",
   "lighting": {
     "extends": "wt_rgb_backlight",
-    "supportedBacklightValues": [
+    "supportedLightingValues": [
       1,
       2,
       3,
