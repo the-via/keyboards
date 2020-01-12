@@ -4241,9 +4241,9 @@ vendors@^1.0.0:
   resolved "https://registry.yarnpkg.com/vendors/-/vendors-1.0.3.tgz#a6467781abd366217c050f8202e7e50cc9eef8c0"
   integrity sha512-fOi47nsJP5Wqefa43kyWSg80qF+Q3XA6MUkgi7Hp1HQaKDQW4cQrK2D0P7mmbFtsV1N89am55Yru/nyEwRubcw==
 
-"via-reader@git://github.com/the-via/reader.git#c772de45604b1b0cf7f3f9f205ce4efbb73f836b":
+"via-reader@git://github.com/the-via/reader.git#63bfea962b80b8f7f92a6eef4a3210806911063e":
   version "1.0.0"
-  resolved "git://github.com/the-via/reader.git#c772de45604b1b0cf7f3f9f205ce4efbb73f836b"
+  resolved "git://github.com/the-via/reader.git#63bfea962b80b8f7f92a6eef4a3210806911063e"
   dependencies:
     "@types/node" "^12.12.11"
     ajv "^6.10.2"

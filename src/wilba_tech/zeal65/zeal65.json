@@ -4,6 +4,24 @@
   "productId": "0x0065",
   "lighting": {
     "extends": "wt_rgb_backlight",
+    "supportedLightingValues": [
+      1,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
     "supportedBacklightValues": [
       1,
       7,
@@ -25,9 +43,7 @@
   },
   "matrix": {"rows": 5, "cols": 15},
   "layouts": {
-    "labels": [
-      "Split Backspace"
-    ],
+    "labels": ["Split Backspace"],
     "keymap": [
       [
         {
