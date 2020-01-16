@@ -2,7 +2,7 @@
   "name": "TMOv2",
   "vendorId": "0xca04",
   "productId": "0x70F2",
-  "lighting": "qmk_backlight",
+  "lighting": "qmk_backlight_rgblight",
   "matrix": {"rows": 5, "cols": 16},
   "layouts": {
     "labels": [

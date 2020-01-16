@@ -2,7 +2,7 @@
   "name": "Savage65",
   "vendorId": "0xca04",
   "productId": "0x5A65",
-  "lighting": "qmk_backlight",
+  "lighting": "qmk_backlight_rgblight",
   "matrix": {"rows": 5, "cols": 16},
   "layouts": {
     "labels": [
