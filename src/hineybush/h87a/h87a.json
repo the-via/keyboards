@@ -2,7 +2,7 @@
   "name": "h87a",
   "vendorId": "0x04D8",
   "productId": "0xECE9",
-  "lighting": "none",
+  "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 12,
     "cols": 9

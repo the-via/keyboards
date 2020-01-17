@@ -2,7 +2,7 @@
   "name": "hbcp",
   "vendorId": "0x04D8",
   "productId": "0xECE8",
-  "lighting": "none",
+  "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 6,
     "cols": 18
