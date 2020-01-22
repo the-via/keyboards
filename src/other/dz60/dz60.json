@@ -2,7 +2,7 @@
   "name": "DZ60",
   "vendorId": "0x445A",
   "productId": "0x2260",
-  "lighting": "qmk_backlight",
+  "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 5,
     "cols": 15
