@@ -13,7 +13,7 @@
       ["Bottom Row", "Option 1", "Option 2", "Option 3"]
     ],
     "keymap": [
-  [
+      [
         {
           "x": 2.5,
           "c": "#777777"
