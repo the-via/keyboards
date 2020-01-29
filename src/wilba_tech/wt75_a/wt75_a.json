@@ -9,7 +9,15 @@
       ["None", 1],
       ["All", 1],
       ["Raindrops", 1]
-    ]
+    ],
+    "supportedLightingValues": [
+      7,
+      8,
+      9,
+      10.
+      11,
+      12
+     ]
   },
   "layouts": {
     "labels": [
