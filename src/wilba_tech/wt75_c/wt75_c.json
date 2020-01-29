@@ -2,14 +2,7 @@
   "name": "WT75-C",
   "vendorId": "0x6582",
   "productId": "0x075c",
-  "lighting": {
-    "extends": "wt_mono_backlight",
-    "effects": [
-      ["None", 1],
-      ["All", 1],
-      ["Raindrops", 1]
-    ]
-  },
+  "lighting": "wt_mono_backlight",
   "matrix": {"rows": 6, "cols": 16},
   "layouts": {
     "labels": [
