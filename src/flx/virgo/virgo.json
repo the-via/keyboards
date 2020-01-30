@@ -2,7 +2,7 @@
   "name": "FLX Virgo",
   "vendorId": "0x4658",
   "productId": "0x5647",
-  "lighting": "qmk_backlight",
+  "lighting": "qmk_backlight_rgblight",
   "matrix": {"rows": 12, "cols": 9},
   "layouts": {
     "labels": [
