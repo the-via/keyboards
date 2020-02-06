@@ -2,7 +2,7 @@
   "name": "MxSS",
   "vendorId": "0x4d78",
   "productId": "0x5353",
-  "lighting": "qmk_backlight",
+  "lighting": "qmk_rgblight",
   "customKeycodes": [
     {
       "name": "Front LED Mode",
