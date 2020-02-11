@@ -1,7 +1,7 @@
 {
     "name": "Idobo",
     "vendorId": "0x8010",
-    "productId": "0x0000",
+    "productId": "0x0075",
     "lighting": "qmk_rgblight",
     "matrix": { "rows": 5, "cols": 15 },
     "layouts": {
