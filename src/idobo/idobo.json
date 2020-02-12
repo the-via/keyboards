@@ -6,10 +6,6 @@
     "matrix": { "rows": 5, "cols": 15 },
     "layouts": {
         "keymap": [
-            {
-                "name": "Idobo VIA",
-                "author": "IFo Hancroft"
-            },
             [
                 {
                     "c": "#777777"
