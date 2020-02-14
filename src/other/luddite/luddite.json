@@ -1,7 +1,7 @@
 {
   "name": "Luddite",
   "vendorId": "0xFEED",
-  "productId": "0x0A0C",
+  "productId": "0x4C55",
   "lighting": "qmk_backlight_rgblight",
   "matrix": {"rows": 8, "cols": 8},
   "layouts": {
