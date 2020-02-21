@@ -1,7 +1,7 @@
 {
   "name": "KBD75 Rev2",
   "vendorId": "0x4B42",
-  "productId": "0x6060",
+  "productId": "0x6061",
   "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 6,
