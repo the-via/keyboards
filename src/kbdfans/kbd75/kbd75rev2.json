@@ -1,5 +1,5 @@
 {
-  "name": "KBD75 V2",
+  "name": "KBD75 Rev2",
   "vendorId": "0x4B42",
   "productId": "0x6060",
   "lighting": "qmk_backlight_rgblight",
