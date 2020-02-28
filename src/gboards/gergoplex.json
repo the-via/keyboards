@@ -1,7 +1,7 @@
 {
   "name": "g Heavy Industries: GergoPlex ",
   "vendorId": "0x1337",
-  "productId": "0xface",
+  "productId": "0x0002",
   "lighting": "none",
   "matrix": {"rows": 10, "cols": 4},
   "layouts": {

@@ -1,7 +1,7 @@
 {
   "name": "g Heavy Industries: Gergo",
-  "vendorId": "0xfeed",
-  "productId": "0x1337",
+  "vendorId": "0x1337",
+  "productId": "0x0001",
   "lighting": "none",
   "matrix": {"rows": 14, "cols": 4},
   "layouts": {
