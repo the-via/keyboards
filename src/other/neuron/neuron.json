@@ -1,7 +1,7 @@
 {
     "name":"Neuron",
-    "vendorId":"0xFEED",
-    "productId":"0x62AC",
+    "vendorId":"0x5742",
+    "productId":"0x6e75",
     "lighting":{
       "extends":"none",
       "keycodes":"qmk"
@@ -12,7 +12,11 @@
     },
     "layouts":{
       "labels":[
-        "Right Shift",
+        [
+          "Right Shift",
+          "1u/1.25u",
+          "1.25u/1u"
+        ],
         [
           "Bottom Row",
           "Split",
@@ -108,11 +112,12 @@
           },
           "3,2",
           {
-            "c":"#cccccc",
+            "c":"#aaaaaa",
             "w":2.25
           },
           "3,3\n\n\n1,0",
           {
+            "c":"#aaaaaa",
             "w":2.75
           },
           "3,8\n\n\n1,0",
