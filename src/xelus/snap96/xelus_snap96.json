@@ -1,7 +1,7 @@
 {
   "name":"Xelus Snap96",
   "vendorId":"0x5845",
-  "productId":"0x0a96",
+  "productId":"0x5396",
   "lighting":"none",
   "matrix":{
     "rows":12,
