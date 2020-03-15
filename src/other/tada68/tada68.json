@@ -10,7 +10,7 @@
     "layouts": {
       "labels": [
         ["Enter Key", "ANSI", "ISO"],
-        ["Left Shift", "Standard", "Split"]
+        "Split Left Shift"
       ],
       "keymap": [
         [
