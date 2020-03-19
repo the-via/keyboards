@@ -2,7 +2,7 @@
 	"name": "ProjectKB Alice",
 	"vendorId": "0x0159",
 	"productId": "0xA71C",
-	"lighting": {"extends":"qmk_backlight_rgblight", "keycodes": "qmk"},
+	"lighting": "qmk_backlight_rgblight",
 	"matrix": { "rows": 5, "cols": 16 },
 	"layouts": {
 		"labels":[
@@ -293,4 +293,3 @@
 			]
 		}
 }
-
