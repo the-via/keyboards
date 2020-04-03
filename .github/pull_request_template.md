@@ -15,10 +15,14 @@
 - [ ] Bug fix
 - [ ] Documentation
 
+## QMK Pull Request
+
+<!--- Add link to QMK Pull Request here. -->
 
 ## Checklist
 
 <!--- Put an `x` in all the boxes that apply. -->
 - [ ] I have tested this keyboard definition using VIA's "Design" tab.
 - [ ] I have tested this keyboard definition with firmware on a device.
-- [ ] The QMK firmware can be built using QMK master repo.
+- [ ] I have assigned alpha keys and modifier keys with the correct colors.
+- [ ] I have followed the style guide here: https://caniusevia.com/docs/layouts
