@@ -1,6 +1,6 @@
 {
   "name": "Kira80",
-  "vendorId": "0xFEED",
+  "vendorId": "0x6986",
   "productId": "0xC583",
   "lighting": "qmk_backlight",
   "matrix": {
