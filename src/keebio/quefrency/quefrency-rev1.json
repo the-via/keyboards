@@ -7,8 +7,8 @@
   "layouts": {
     "labels": [
       "Split Backspace",
-      ["65% Column", "On", "Off"],
-      ["Macropad", "On", "Off"],
+      "65% Column",
+      "Macropad",
       ["Left Space", "1.25-2.25", "2.25-1.25"],
       ["Right Space", "2.75", "1.25-1.5"],
       ["Right Shift", "Standard", "1.75u Shift", "1.75u /"],
