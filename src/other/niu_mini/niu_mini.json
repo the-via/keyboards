@@ -2,7 +2,7 @@
   "name":"niu_mini",
   "vendorId":"0xFEED",
   "productId":"0x6060",
-  "lighting":"qmk_backlight_rgblight",
+  "lighting":"qmk_backlight",
   "matrix":{
     "rows":4,
     "cols":12
@@ -11,7 +11,7 @@
     "keymap":[
       [
         {
-          "c": "#aaaaaa"
+          "c": "#000000"
         },
         "0,0",
         {
@@ -48,7 +48,7 @@
         "1,9",
         "1,10",
         {
-          "c": "#aaaaaa"
+          "c": "#000000"
         },
         "1,11"
       ],
@@ -81,7 +81,13 @@
         {
           "w": 2
         },
+        {
+          "c":"#000000"
+        },
         "3,5",
+        {
+          "c":"#cccccc"
+        },
         "3,7",
         "3,8",
         "3,9",
