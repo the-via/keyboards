@@ -2,6 +2,7 @@
   "name": "KBD67 MKII SOLDERED",
   "vendorId": "0xA103",
   "productId": "0x0013",
+  "lighting": "none",
   "matrix": {
     "rows": 5,
     "cols": 15
