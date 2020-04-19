@@ -1,8 +1,8 @@
 {
     "name": "Singa x TGR Unikorn",
-    "vendorId": "0x20A0",
-    "productId": "0x422D",
-    "lighting": "qmk_backlight",
+    "vendorId": "0x5354",
+    "productId": "0x556B",
+    "lighting": "qmk_backlight_rgblight",
     "matrix": {
       "rows": 5,
       "cols": 15
