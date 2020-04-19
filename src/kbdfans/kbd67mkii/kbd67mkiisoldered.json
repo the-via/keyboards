@@ -8,6 +8,12 @@
       "cols": 15
     },
     "layouts": {
+      "labels": [
+        "Split Backspace",
+        ["Enter Key", "ANSI", "ISO"],
+        "Split Left Shift",
+        "Split Space Bar"
+      ],
       "keymap": [
         [
           {
