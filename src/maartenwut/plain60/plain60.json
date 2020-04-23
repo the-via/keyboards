@@ -15,9 +15,15 @@
         "ISO"
       ],
       "Split Left Shift",
-      "Split Backspace",
       "Split Right Shift",
-      "7u/HHKB/WKL bottom row"
+      "Split Backspace",
+      [
+        "Bottom row",
+        "Default",
+        "Tsangan",
+        "WKL",
+        "HHKB"
+      ]
     ],
     "keymap": [
       [
@@ -227,6 +233,68 @@
           "w": 1.5
         },
         "4,13\n\n\n4,1"
+      ],
+      [
+        {
+          "x": 2.75,
+          "w": 1.5
+        },
+        "4,0\n\n\n4,2",
+        {
+          "d": true
+        },
+        "\n\n\n4,2",
+        {
+          "w": 1.5
+        },
+        "4,2\n\n\n4,2",
+        {
+          "c": "#cccccc",
+          "w": 7
+        },
+        "4,6\n\n\n4,2",
+        {
+          "c": "#aaaaaa",
+          "w": 1.5
+        },
+        "4,11\n\n\n4,2",
+        {
+          "d": true
+        },
+        "\n\n\n4,2",
+        {
+          "w": 1.5
+        },
+        "4,13\n\n\n4,2"
+      ],
+      [
+        {
+          "x": 2.75,
+          "w": 1.5,
+          "d": true
+        },
+        "\n\n\n4,3",
+        "4,1\n\n\n4,3",
+        {
+          "w": 1.5
+        },
+        "4,2\n\n\n4,3",
+        {
+          "c": "#cccccc",
+          "w": 7
+        },
+        "4,6\n\n\n4,3",
+        {
+          "c": "#aaaaaa",
+          "w": 1.5
+        },
+        "4,11\n\n\n4,3",
+        "4,12\n\n\n4,3",
+        {
+          "w": 1.5,
+          "d": true
+        },
+        "\n\n\n4,3"
       ]
     ]
   }
