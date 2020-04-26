@@ -1,7 +1,7 @@
 {
     "name": "Cypher",
     "vendorId": "0x21FF",
-    "productId": "0xAA97",
+    "productId": "0xAA98",
     "lighting": "qmk_backlight_rgblight",
     "matrix": {
       "rows": 10,
