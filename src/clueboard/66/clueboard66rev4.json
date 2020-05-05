@@ -1,7 +1,7 @@
 {
-  "name": "Clueboard 66% rev3",
+  "name": "Clueboard 66% rev4",
   "vendorId": "0xC1ED",
-  "productId": "0x2370",
+  "productId": "0x2390",
   "lighting": "qmk_rgblight",
   "matrix": { "rows": 10, "cols": 8 },
   "layouts": {
