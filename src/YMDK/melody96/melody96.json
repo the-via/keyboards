@@ -600,7 +600,7 @@
       "ISO Enter",
       "Split Numpad Enter",
       "ISO left shift",
-      "Large 0 Numpad",
+      "Large Numpad 0",
       "Full Size Right Shift",
       ["Bottom Row",
         "1u Bottom Row",
@@ -614,7 +614,7 @@
         "6u Spacebar with arrow keys",
         "6u Spacebar & 1u right",
         "6u Spacebar &1.25u right"],
-      "Numpad split +"
+      "Split Numpad +"
     ]
   }
 }
