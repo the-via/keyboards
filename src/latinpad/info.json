@@ -1,13 +1,13 @@
-      {
-    "name": "latinpad",
+   {
+  "name": "latinpad",
   "vendorId": "0x6C63",
   "productId": "0x6C70",
-    "lighting": "qmk_rgblight",
-    "matrix": {
+  "lighting": "qmk_rgblight",
+  "matrix": {
       "rows": 5,
       "cols": 4
     },
-    "layouts": {
+  "layouts": {
       "keymap": [
   [
     {
