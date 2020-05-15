@@ -1,7 +1,7 @@
 {
   "name": "YMDK Melody 96",
   "vendorId": "0x594d",
-  "productId": "0x0001",
+  "productId": "0x4D96",
   "lighting": "qmk_backlight_rgblight",
   "matrix": { "rows": 12, "cols": 10 },
   "layouts": {
