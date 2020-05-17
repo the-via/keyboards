@@ -1,7 +1,7 @@
 {
 "name": "Contra",
 "vendorId": "0x4354",
-  "productId": "0x6060",
+  "productId": "0x0001",
   "lighting": "none",
   "matrix": {"rows": 4, "cols": 12},
   "layouts": {
