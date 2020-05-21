@@ -1,6 +1,6 @@
 {
   "name": "YMDK YMD09",
-  "vendorId": "0x594d",
+  "vendorId": "0x594D",
   "productId": "0x4409",
   "lighting": "qmk_rgblight",
   "matrix" : {
