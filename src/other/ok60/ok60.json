@@ -1,6 +1,6 @@
 {
     "name": "ok60",
-    "vendorId": "0x4b36",
+    "vendorId": "0x4B36",
     "productId": "0x6060",
     "lighting": "qmk_backlight_rgblight",
     "matrix": {
