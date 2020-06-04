@@ -1,0 +1,14 @@
+{
+    "name": "Batpad",
+    "vendorId": "0x7979",
+    "productId": "0x6602",
+    "lighting": "qmk_backlight_rgblight",
+    "matrix": {"rows": 2, "cols": 4},
+    "layouts": {
+           "keymap": 
+        [
+	   ["0,0","0,1","0,2","0,3"],
+	   ["1,0","1,1","1,2","1,3"]	
+       ]
+     }     
+  }
