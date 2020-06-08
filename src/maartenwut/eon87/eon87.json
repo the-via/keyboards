@@ -1,7 +1,7 @@
 {
   "name": "Maartenwut Eon87",
   "vendorId": "0x4705",
-  "productId": "0x0187",
+  "productId": "0xaa6b",
   "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 6,
