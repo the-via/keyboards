@@ -6,9 +6,9 @@
 	"matrix": {"rows":6, "cols":16},
 	"layouts":{
 		"labels": [
-		["Full backspace", "Split backspace"],
-		["Full Right Shift", "Split Right Shift"],
-		["Default bottom row", "7U bottom row"]
+		"Split backspace",
+		"Split Right Shift",
+		"7U bottom row"
 		],		
 	"keymap": [
   [
