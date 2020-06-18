@@ -1,6 +1,6 @@
 {
   "name": "Dactyl Manuform (5x7)",
-  "vendorId": "0xFEED",
+  "vendorId": "0x444D",
   "productId": "0x3537",
   "lighting": "none",
   "matrix": {"rows": 12, "cols": 7},
