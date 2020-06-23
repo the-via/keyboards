@@ -9,15 +9,13 @@
   },
   "layouts": {
     "labels": [
-      ["ANSI / ISO Enter", "ANSI", "ISO"],
+      "ANSI / ISO Enter",
       "Split Backspace",
-      "Split Left Shift",
-      "Split Right Shift",
-      ["Bottom Row", "6.25u Standard", "7u WKL",   "7u HHKB"]
-
-
+      "Split Left Shift", "Split Right Shift",
+      ["Bottom Row", "6.25u Standard", "7u WKL", "7u HHKB"]
     ],
-    "keymap":[
+    "keymap":
+    [
       [
         {
           "x": 15.75
@@ -174,11 +172,11 @@
         {
           "w": 1.25
         },
-        "4,2\n\n\n4,0",
+        "4,1\n\n\n4,0",
         {
           "w": 1.25
         },
-        "4,3\n\n\n4,0",
+        "4,2\n\n\n4,0",
         {
           "w": 6.25
         },
@@ -207,11 +205,11 @@
           "w": 1.5
         },
         "4,0\n\n\n4,1",
-        "4,2\n\n\n4,1",
+        "4,1\n\n\n4,1",
         {
           "w": 1.5
         },
-        "4,3\n\n\n4,1",
+        "4,2\n\n\n4,1",
         {
           "w": 7
         },
@@ -234,11 +232,11 @@
           "d": true
         },
         "\n\n\n4,2",
-        "4,2\n\n\n4,2",
+        "4,1\n\n\n4,2",
         {
           "w": 1.5
         },
-        "4,3\n\n\n4,2",
+        "4,2\n\n\n4,2",
         {
           "w": 7
         },
