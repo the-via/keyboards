@@ -1,6 +1,6 @@
 {
     "name": "Choc Taro",
-    "vendorId": "0xFEED",
+    "vendorId": "0xDCED",
     "productId": "0x71CC",
     "lighting": "none",
     "matrix": { "rows": 16, "cols": 5 },
