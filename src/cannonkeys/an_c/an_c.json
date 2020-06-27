@@ -2,7 +2,7 @@
   "name": "AN-C",
   "vendorId": "0xca04",
   "productId": "0xa00c",
-  "lighting": "qmk_backlight",
+  "lighting": "qmk_backlight_rgblight",
   "matrix": {"rows": 5, "cols": 15},
   "layouts": {
     "keymap": [
