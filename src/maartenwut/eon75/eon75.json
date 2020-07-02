@@ -1,7 +1,7 @@
 {
   "name": "Maartenwut Eon75",
   "vendorId": "0x4705",
-  "productId": "0x5c62",
+  "productId": "0x5C62",
   "lighting": "none",
   "matrix": {
     "rows": 12,
