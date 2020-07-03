@@ -1,7 +1,7 @@
 {
   "name": "Hub16",
-  "vendorId": "0xFEED",
-  "productId": "0x8F73",
+  "vendorId": "0x6A6A",
+  "productId": "0x4810",
   "lighting": "qmk_rgblight",
   "matrix": {"rows": 5, "cols": 4},
   "layouts": {
