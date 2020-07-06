@@ -8,7 +8,7 @@
     "labels": [
       "Split Backspace",
       "ISO Enter",
-      ["Bottom Row", "6,25U", "6.25U_Blocker", "7U", "7U_Blocker"]
+      ["Bottom Row", "6,25U", "6.25U Blocker", "7U", "7U Blocker"]
     ],
     "keymap": [
       [
