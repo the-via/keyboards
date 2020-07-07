@@ -1,7 +1,7 @@
 {
   "name": "nightmare",
-  "vendorId": "0xB00B",
-  "productId": "0x0000",
+  "vendorId": "0x434B",
+  "productId": "0x4E49",
   "lighting": "none",
   "matrix": { "rows": 4, "cols": 14 },
   "layouts": {
