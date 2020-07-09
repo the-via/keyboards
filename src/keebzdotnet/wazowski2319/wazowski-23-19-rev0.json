@@ -1,7 +1,7 @@
 {
   "name": "Wazowski 23-19 rev0",
-  "vendorId": "0xWZ29",
-  "productId": "0x2319",
+  "vendorId": "0xFEED",
+  "productId": "0x53FC",
   "lighting": "none",
   "matrix": {"rows": 9, "cols": 5},
     "keymap": [
