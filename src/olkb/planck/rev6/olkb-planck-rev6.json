@@ -3,7 +3,7 @@
   "vendorId": "0x6F6C",
   "productId": "0x706C",
   "matrix": {"rows": 8, "cols": 6},
-  "lighting": "qmk_backlight_rgblight",
+  "lighting": "qmk_backlight",
   "layouts": {
     "labels": [
         ["Spacebar", "2U", "2 x 1U", "2 x 2U"]
