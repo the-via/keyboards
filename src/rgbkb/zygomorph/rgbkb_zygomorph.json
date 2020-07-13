@@ -1,6 +1,6 @@
 {
     "name": "RGBKB Zygomorph",
-    "vendorId": "FEED",
+    "vendorId": "3535",
     "productId": "3502",
     "lighting": {
         "extends": "qmk_rgblight",

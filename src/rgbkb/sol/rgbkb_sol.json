@@ -1,6 +1,6 @@
 {
     "name": "RGBKB Sol",
-    "vendorId": "FEED",
+    "vendorId": "3535",
     "productId": "3501",
     "lighting": {
         "extends": "qmk_rgblight",

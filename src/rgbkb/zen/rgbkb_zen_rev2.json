@@ -1,6 +1,6 @@
 {
     "name": "RGBKB Zen R2",
-    "vendorId": "FEED",
+    "vendorId": "3535",
     "productId": "3503",
     "lighting": "qmk_rgblight",
     "matrix": { "rows": 10, "cols": 7 },
