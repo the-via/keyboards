@@ -1,6 +1,6 @@
 {
 	"name": "Vision",
-	"vendorId": "0x5354",
+	"vendorId": "0x5454",
 	"productId": "0x5649",
 	"lighting": "none",
 	"matrix": { "rows": 4, "cols": 14 },
