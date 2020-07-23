@@ -1,7 +1,7 @@
 {
     "name": "7sKB",
-    "vendorId": "0x5333",
-    "productId": "0x36E1",
+    "vendorId": "0x04D8",
+    "productId": "0xEB5F",
     "lighting": "qmk_rgblight",
     "matrix": { "rows": 10, "cols": 8 },
     "layouts": {
