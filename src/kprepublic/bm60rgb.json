@@ -1,6 +1,6 @@
 {
    "name":"KP Republic BM60 RGB",
-   "vendorId":"0xFEED",
+   "vendorId":"0x4B50",
    "productId":"0xEF8C",
    "lighting": {
       "extends": "none",
