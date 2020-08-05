@@ -2,7 +2,7 @@
   "name": "TKC1800",
   "vendorId": "0x544B",
   "productId": "0x0001",
-  "lighting": "none",
+  "lighting": "qmk_backlight_rgblight",
   "matrix": {"rows": 7, "cols": 19},
   "layouts": {
     "labels": [
