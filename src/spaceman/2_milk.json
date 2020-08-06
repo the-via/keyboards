@@ -1,6 +1,6 @@
 {
   "name": "spaceman_2_milk",
-  "vendorId": "0x5350",
+  "vendorId": "0x5342",
   "productId": "0x3225",
   "lighting": "qmk_backlight",
   "matrix": {
