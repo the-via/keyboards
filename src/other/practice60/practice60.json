@@ -1,7 +1,7 @@
 {
   "name": "Practice60",
   "vendorId": "0xCA04",
-  "productId": "0x5060",
+  "productId": "0x6060",
   "lighting": "qmk_backlight_rgblight",
   "matrix": {"rows": 5, "cols": 14},
   "layouts": {
