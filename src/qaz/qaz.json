@@ -2,74 +2,7 @@
   "name":"QAZ",
   "vendorId":"0x7431",
   "productId":"0x0001",
-  "lighting":{
-     "extends":"qmk_rgblight",
-     "effects":[
-        [
-           "All Off",
-           0
-        ],
-        [
-           "Solid Color 1",
-           1
-        ],
-        [
-           "Custom Colors",
-           6
-        ],
-        [
-           "Gradient Vertical Color 1/2",
-           2
-        ],
-        [
-           "Raindrops Color 1/2",
-           2
-        ],
-        [
-           "Cycle All",
-           0
-        ],
-        [
-           "Cycle Horizontal",
-           0
-        ],
-        [
-           "Cycle Vertical",
-           0
-        ],
-        [
-           "Jellybean Raindrops",
-           0
-        ],
-        [
-           "Radial All Hues",
-           0
-        ],
-        [
-           "Radial Color 1",
-           1
-        ]
-     ],
-     "keycodes":"qmk",
-     "supportedLightingValues":[
-        9,
-        10,
-        11,
-        12,
-        13,
-        7,
-        8,
-        23,
-        14,
-        15,
-        16,
-        17,
-        18,
-        19,
-        20,
-        21
-     ]
-  },
+  "lighting":"qmk_rgblight",
   "matrix":{
      "rows":6,
      "cols":7
