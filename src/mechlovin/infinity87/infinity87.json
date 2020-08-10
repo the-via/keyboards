@@ -6,26 +6,11 @@
   "matrix": {"rows": 6, "cols": 17},
   "layouts": {
     "labels": [
-     "Split Backspace",
-      [
-      "Enter",
-      "ANSI Enter",
-      "ISO Enter",
-      "1.25u Enter"
-      ],
+      "Split Backspace",
+      ["Enter", "ANSI Enter", "ISO Enter", "1.25u Enter"],
       "Left Shift ISO",
-      [
-      "Right Shift",
-      "ANSI Right Shift",
-      "1u - 1.75u",
-      "1.75u - 1u"
-      ],
-      [
-       "Bottom Row",
-       "Space 6.25U",
-       "Space 7U",
-       "Space 6U"
-      ]
+      ["Right Shift", "ANSI Right Shift", "1u - 1.75u", "1.75u - 1u"],
+      ["Bottom Row", "Space 6.25U", "Space 7U", "Space 6U"]
     ],
     "keymap": [
       [

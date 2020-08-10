@@ -9,21 +9,10 @@
   },
   "layouts": {
     "labels": [
-      [
-        "Enter Key",
-        "ANSI",
-        "ISO"
-      ],
+      ["Enter Key", "ANSI", "ISO"],
       "Split Left Shift",
       "Split Backspace",
-      [
-        "Bottom row",
-        "6.25u",
-        "7u",
-        "WKL",
-        "6u",
-        "Split space"
-      ],
+      ["Bottom row", "6.25u", "7u", "WKL", "6u", "Split space"],
       "Split Right Shift"
     ],
     "keymap": [

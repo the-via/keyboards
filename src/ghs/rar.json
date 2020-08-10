@@ -274,14 +274,8 @@
       "Split Backspace",
       "ISO Enter",
       "Split Left Shift",
-      [
-        "Standard Bottom Row",
-        "Winkeyless"
-      ],
-      [
-        "2x 1.5u Mods",
-        "3x 1u Mods"
-      ]
+      ["Standard Bottom Row", "Winkeyless"],
+      ["2x 1.5u Mods", "3x 1u Mods"]
     ]
   }
 }
