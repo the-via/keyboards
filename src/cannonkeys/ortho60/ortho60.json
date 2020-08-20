@@ -1,7 +1,7 @@
 {
   "name": "Ortho60",
   "vendorId": "0xca04",
-  "productId": "0x6464",
+  "productId": "0x4F60",
   "lighting": "qmk_backlight_rgblight",
   "matrix": {"rows": 5, "cols": 12},
   "layouts": {
