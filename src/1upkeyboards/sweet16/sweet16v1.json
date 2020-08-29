@@ -2,7 +2,7 @@
     "name": "sweet16 v1",
     "vendorId": "0x6F75",
     "productId": "0x0161",
-    "lighting": "qmk_backlight",
+    "lighting": "qmk_rgblight",
     "matrix": {
       "rows": 4,
       "cols": 4
