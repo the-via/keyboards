@@ -1,7 +1,7 @@
 {
   "name": "Plaid-Pad",
   "vendorId": "0x7983",
-  "productId": "0x7070",
+  "productId": "0x5050",
   "lighting": "none",
   "matrix": {"rows": 4, "cols": 4},
   "layouts": {
