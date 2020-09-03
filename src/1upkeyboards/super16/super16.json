@@ -2,7 +2,7 @@
   "name": "Super16",
   "vendorId": "0x6F75",
   "productId": "0x5516",
-  "lighting": "none",
+  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 4,
     "cols": 4
