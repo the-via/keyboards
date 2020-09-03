@@ -1,6 +1,6 @@
 {
   "name": "Prophet",
-  "vendorId": "0x21FF",
+  "vendorId": "0xFF21",
   "productId": "0xAA03",
   "matrix":   {"rows": 5, "cols": 14},
   "lighting": "none",
