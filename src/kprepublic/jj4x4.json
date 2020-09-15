@@ -1,6 +1,6 @@
 {
     "name": "KPrepublic JJ4x4",
-    "vendorId": "0x7580",
+    "vendorId": "0x4B50",
     "productId": "0x0044",
     "lighting": "qmk_backlight_rgblight",
     "matrix": {
