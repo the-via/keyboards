@@ -1,7 +1,7 @@
 {
-    "name": "E8.5",
+    "name": "E8.5 Soldered",
     "vendorId": "0x4558",
-    "productId": "0xE851",
+    "productId": "0xE852",
     "lighting": "qmk_backlight_rgblight",
     "matrix": {
       "rows": 11,
@@ -122,7 +122,7 @@
           {
             "w": 1.5
           },
-          "8,3\n\n\n1,0",
+          "9,4\n\n\n1,0",
           {
             "x": 0.25,
             "c": "#aaaaaa"
@@ -139,7 +139,7 @@
             "h2": 1,
             "x2": -0.25
           },
-          "9,3\n\n\n1,1"
+          "8,3\n\n\n1,1"
         ],
         [
           {
@@ -166,7 +166,7 @@
             "c": "#777777",
             "w": 2.25
           },
-          "9,3\n\n\n1,0",
+          "8,3\n\n\n1,0",
           {
             "x": 3.75,
             "c": "#cccccc"
