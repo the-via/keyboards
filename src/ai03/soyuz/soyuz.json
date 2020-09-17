@@ -6,9 +6,9 @@
   "matrix": {"rows": 5, "cols": 4},
   "layouts": {
     "labels": [
-      "Plus", "Ortho", "Numpad",
-      "Enter", "Ortho", "Numpad",
-      ["Bottom Row", "Ortho", "Numpad"]
+      "+ Numpad",
+      "Enter Numpad",
+      "0 Numpad"
     ],
     "keymap": [
       [
