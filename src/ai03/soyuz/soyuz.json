@@ -1,7 +1,7 @@
 {
     "name": "Soyuz",
     "vendorId": "0xA103",
-    "productId": "0x0004",
+    "productId": "0x0018",
     "lighting": "none",
     "matrix": {"rows": 5, "cols": 4},
     "layouts": {
