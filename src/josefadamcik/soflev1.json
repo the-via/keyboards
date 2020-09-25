@@ -2,7 +2,7 @@
   "name": "Sofle",
   "vendorId": "0xFC32",
   "productId": "0x0287",
-  "lighting": "none",
+  "lighting": "qmk_rgblight",
   "matrix": {"rows": 10, "cols": 6},
   "layouts": {
     "keymap": [
