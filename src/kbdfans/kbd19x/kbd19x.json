@@ -9,7 +9,7 @@
   },
   "layouts": {
     "labels": [
-      ["Spacebar", "Standard", "7u WKL", "Split"],
+      ["Spacebar", "Default", "7u WKL", "6u Spacebar"],
       ["Left Shift", "Default", "Split"],
       ["Backspace", "Default", "Split"],
       ["Numpad", "Default", "2u Enter", "1Us"]
