@@ -9,7 +9,7 @@
   },
   "layouts": {
     "labels": [
-      ["Spacebar", "Standard", "Split", "7u WKL"],
+      ["Spacebar", "Standard", "7u WKL", "Split"],
       ["Left Shift", "Default", "Split"],
       ["Backspace", "Default", "Split"],
       ["Numpad", "Default", "2u Enter", "1Us"]
@@ -17,7 +17,7 @@
 
     "keymap": [
       [
-  {
+{
       "x": 15.75,
       "c": "#aaaaaa"
     },
@@ -272,12 +272,11 @@
     "5,02\n\n\n0,0",
     {
       "c": "#cccccc",
-      "w": 6
+      "w": 6.25
     },
     "5,09\n\n\n0,0",
     {
-      "c": "#aaaaaa",
-      "w": 1.25
+      "c": "#aaaaaa"
     },
     "5,05\n\n\n0,0",
     "5,06\n\n\n0,0",
@@ -346,11 +345,12 @@
     "5,02\n\n\n0,2",
     {
       "c": "#cccccc",
-      "w": 6.25
+      "w": 6
     },
     "5,09\n\n\n0,2",
     {
-      "c": "#aaaaaa"
+      "c": "#aaaaaa",
+      "w": 1.25
     },
     "5,05\n\n\n0,2",
     "5,06\n\n\n0,2",
