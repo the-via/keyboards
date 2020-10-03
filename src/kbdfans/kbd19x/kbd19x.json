@@ -1,7 +1,7 @@
 {
   "name": "KBD19X",
   "vendorId": "0x4B42",
-  "productId": "0x1800",
+  "productId": "0x0191",
   "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 8,
