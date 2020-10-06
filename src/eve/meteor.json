@@ -1,6 +1,6 @@
 {
   "name": "EVE Meteor", 
-  "vendorId": "0x20A0",
+  "vendorId": "0x20A1",
   "productId": "0x422D",
   "lighting": "qmk_backlight",
   "matrix": {"rows": 6, "cols": 15},
