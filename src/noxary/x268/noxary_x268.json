@@ -1,7 +1,7 @@
 {
   "name": "Noxary x268",
   "vendorId": "0x4e58",
-  "productId": "0x010C",
+  "productId": "0x0A7B",
   "lighting": "qmk_backlight",
   "matrix": {"rows": 5,"cols": 16},
   "layouts": {
