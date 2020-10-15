@@ -1,5 +1,5 @@
 {
-    "name": "Helix Type-R",
+    "name": "Helix rev3 4rows",
     "vendorId": "0x3265",
     "productId": "0x0004",
     "lighting": "qmk_rgblight",
