@@ -180,21 +180,21 @@
         {
           "w": 1.25
         },
-        "4,9\n\n\n2,1",
+        "4,10\n\n\n2,1",
         {
           "w": 1.25
         },
-        "4,9\n\n\n2,1",
+        "4,12\n\n\n2,1",
         {
           "w": 1.25
         },
-        "4,9\n\n\n2,1"
+        "4,13\n\n\n2,1"
       ]
     ],
       "labels": [
         "Split Backspace",
-        "Big right shift",
-        ["Bottom Row", "Minila", "Ansi"]
+        "Big Right Shift",
+        ["Bottom Row", "Minila", "ANSI"]
       ]
    }
 }
