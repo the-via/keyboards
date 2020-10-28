@@ -7,7 +7,8 @@
   "layouts": {
     "labels": [
         ["Enter Key", "ANSI", "ISO"],
-        "Split Left Shift"
+        "Split Left Shift",
+        "1.5u Bottom Row Mods"
     ],
     "keymap": [
       [
@@ -176,15 +177,27 @@
         {
           "c": "#aaaaaa"
         },
-        "4,10",
-        "4,11",
-        "4,8",
+        "4,10\n\n\n2,0",
+        "4,11\n\n\n2,0",
+        "4,8\n\n\n2,0",
         {
           "c": "#777777"
         },
         "4,12",
         "4,13",
         "4,14"
+      ],
+      [
+        {
+          "x": 12.5,
+          "c": "#aaaaaa",
+          "w": 1.5
+        },
+        "4,10\n\n\n2,1",
+        {
+          "w": 1.5
+        },
+        "4,8\n\n\n2,1"
       ]
     ]
   }
