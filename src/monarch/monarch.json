@@ -1,7 +1,7 @@
 {
   "name": "Monarch",
   "vendorId": "0x4011",
-  "productId": "0x413vc",
+  "productId": "0x43c1",
   "lighting": "qmk_backlight",
   "matrix": { "rows": 6, "cols": 16 },
   "layouts": {
