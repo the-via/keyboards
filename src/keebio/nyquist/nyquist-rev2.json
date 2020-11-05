@@ -1,7 +1,7 @@
 {
-  "name": "Nyquist Rev. 3",
+  "name": "Nyquist Rev. 2",
   "vendorId": "0xCB10",
-  "productId": "0x3156",
+  "productId": "0x2156",
   "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 10,
@@ -140,7 +140,7 @@
           "c": "#cccccc",
           "w": 2
         },
-        "4,4\n\n\n0,1",
+        "4,5\n\n\n0,1",
         {
           "x": 0.75,
           "w": 2
