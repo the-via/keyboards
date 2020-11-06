@@ -11,7 +11,7 @@
   "layouts": {
     "labels": [
       "Split Backspace",
-      ["7U", "6.25U - 1.5U - 1.5U", "6.25U - 1U - 1U - 1U"]
+      ["Bottom Row", "7U", "6.25U - 1.5U - 1.5U", "6.25U - 1U - 1U - 1U"]
     ],
     "keymap": [
         [
