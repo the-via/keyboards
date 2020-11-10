@@ -3,8 +3,7 @@
   "vendorId": "0x6E61",
   "productId": "0x6060",
   "lighting": "qmk_rgblight",
-  "customFeatures": ["rotary-encoder"],
-    "customKeycodes": [
+  "customKeycodes": [
     {"name": "Program Keyboard", "title": "Program Keyboard", "shortName": "Prog"},
     {"name": "Discord Mute", "title": "Discord Mute", "shortName": "Disc Mute"},
     {"name": "Discord Deafen", "title": "Discord Deafen", "shortName": "Disc Deaf"},
