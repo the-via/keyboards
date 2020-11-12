@@ -2,6 +2,7 @@
     "name": "punk75",
     "vendorId": "0xDEED",
     "productId": "0x0001",
+    "lighting": "none",
     "matrix": {"rows": 5, "cols": 15},
     "layouts": {
         "keymap": [
