@@ -2,7 +2,7 @@
   "name": "M0lly",
   "vendorId": "0x544B",
   "productId": "0x0004",
-  "lighting": "none",
+  "lighting": "qmk_backlight_rgblight",
   "matrix": {"rows": 5, "cols": 19},
   "layouts": {
     "labels": [
