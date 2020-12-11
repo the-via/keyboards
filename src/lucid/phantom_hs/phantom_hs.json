@@ -1,7 +1,7 @@
 {
   "name": "Phantom",
   "vendorId": "0x7667", 
-  "productId": "0x1001",
+  "productId": "0x0001",
   "lighting": "none",
   "matrix": { "rows": 5, "cols": 15 },
   "layouts": {
