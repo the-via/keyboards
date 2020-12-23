@@ -1,7 +1,7 @@
 {
   "name": "KBD8X HS",
   "vendorId": "0x7667", 
-  "productId": "0x0002",
+  "productId": "0x0003",
   "lighting": "none",
   "matrix": { "rows": 6, "cols": 17 },
   "layouts": {
