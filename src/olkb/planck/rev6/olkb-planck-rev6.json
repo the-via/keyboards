@@ -3,7 +3,7 @@
   "vendorId": "0x6F6C",
   "productId": "0x706C",
   "matrix": {"rows": 8, "cols": 6},
-  "lighting": "qmk_backlight",
+  "lighting": "qmk_rgblight",
   "layouts": {
     "labels": [
       ["Layout", "MIT (1x2u)", "Grid (2x1u)", "2x2u"]
