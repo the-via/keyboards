@@ -6,7 +6,7 @@
   "lighting": "qmk_backlight",
   "layouts": {
     "labels": [
-        ["Spacebar", "2U", "2 x 1U", "2 x 2U"]
+      ["Layout", "MIT (1x2u)", "Grid (2x1u)", "2x2u"]
     ],
     "keymap": [
       [
