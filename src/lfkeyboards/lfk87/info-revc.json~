@@ -1,7 +1,7 @@
 {
   "name":"LFK87/SMK87",
   "vendorId":"0x4C46",
-  "productId":"0x0087",
+  "productId":"0x0807",
   "maintainer":"qmk",
   "lighting":"none",
   "matrix":{
