@@ -1,7 +1,7 @@
 {
     "name": "Quark",
     "vendorId": "0x7070",
-    "productId": "0x540",
+    "productId": "0x5340",
     "lighting": "qmk_rgblight",
     "matrix": { "rows": 5, "cols": 12 },
     "layouts": {
