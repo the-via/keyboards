@@ -2,7 +2,7 @@
     "name": "BDN9",
     "vendorId": "0xcb10",
     "productId": "0x2133",
-    "lighting": "qmk_backlight_rgblight",
+    "lighting": "none",
     "matrix": {
         "rows": 3,
         "cols": 3
