@@ -1,6 +1,6 @@
 {
 	"name": "CA66",
-	"vendorId": "0x054B",
+	"vendorId": "0x504B",
 	"productId": "0x6060",
   "lighting": "qmk_backlight_rgblight",
   "matrix": {
