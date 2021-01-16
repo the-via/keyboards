@@ -1,10 +1,10 @@
 {
-    "name": "BIOI G60 BLE", 
-    "vendorId": "0x6582",
+    "name": "BIOI G60 BLE",
+    "vendorId": "0x8101",
     "productId": "0x6080",
-    "lighting": "qmk_backlight_rgblight", 
+    "lighting": "qmk_backlight_rgblight",
     "matrix": {
-        "cols": 14, 
+        "cols": 14,
         "rows": 5
     },
     "layouts": {
