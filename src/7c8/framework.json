@@ -1,6 +1,6 @@
 {
   "name": "7c8 Framework",
-  "vendorId": "0x07c8",
+  "vendorId": "0x77c8",
   "productId": "0x0001",
   "lighting": "none",
   "matrix": { "rows": 11, "cols": 6 },
