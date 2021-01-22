@@ -8,20 +8,20 @@ import {generateVIADefinitionV2LookupMap, getTheme} from 'via-reader';
 const viaAPIVersionV2 = '0.1.2';
 
 async function build() {
-  await promisify(rimraf)('dist/*');
-
-  const paths = glob.sync('src/**/*.json', {absolute: true});
-
-  const [v2Definitions] = [paths].map(paths => paths.map(f => require(f)));
-
-  const resV2 = {
-    generatedAt: Date.now(),
-    version: viaAPIVersionV2,
-    theme: getTheme(),
-    definitions: generateVIADefinitionV2LookupMap(v2Definitions)
-  };
-
   try {
+    await promisify(rimraf)('dist/*');
+
+    const paths = glob.sync('src/**/*.json', {absolute: true});
+
+    const [v2Definitions] = [paths].map(paths => paths.map(f => require(f)));
+
+    const resV2 = {
+      generatedAt: Date.now(),
+      version: viaAPIVersionV2,
+      theme: getTheme(),
+      definitions: generateVIADefinitionV2LookupMap(v2Definitions)
+    };
+
     if (!fs.existsSync('dist')) {
       fs.mkdirSync('dist');
     }
