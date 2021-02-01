@@ -1,6 +1,6 @@
 {
   "name": "KB Paradise v60 Type R",
-  "vendorId": "0xFEED",
+  "vendorId": "0x7432",
   "productId": "0x0658",
   "lighting": "none",
   "matrix": {"rows": 8, "cols": 8},
