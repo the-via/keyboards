@@ -6,7 +6,7 @@
   "lighting": "none",
   "layouts": {
     "labels": [
-        ["Bottom Row", "Grid (2x 1U)", "MIT (2U)", "2 x 2U"]
+        ["Bottom Row", "Grid (2x1U)", "MIT (1x2U)", "2x2U"]
     ],
     "keymap":   
     [
