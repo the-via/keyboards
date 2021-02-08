@@ -1,6 +1,6 @@
 {
   "name": "YMDK Bface",
-  "vendorId": "0x20A0",
+  "vendorId": "0x594D",
   "productId": "0x4266",
   "lighting": "qmk_backlight_rgblight",
   "matrix": {
