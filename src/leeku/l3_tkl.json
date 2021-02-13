@@ -1,6 +1,6 @@
 {
     "name": "L3 TKL",
-    "vendorId": "0x20A0",
+    "vendorId": "0xFFFE",
     "productId": "0x4151",
     "lighting": "qmk_backlight_rgblight",
     "matrix": {

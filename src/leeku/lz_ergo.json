@@ -1,6 +1,6 @@
 {
     "name": "LZ Ergo TKL",
-    "vendorId": "0x20A0",
+    "vendorId": "0xFFFE",
     "productId": "0x4153 ",
     "lighting": "none",
     "matrix": {

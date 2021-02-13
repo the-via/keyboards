@@ -1,6 +1,6 @@
 {
     "name": "LZ ST",
-    "vendorId": "0x20A0",
+    "vendorId": "0xFFFE",
     "productId": "0x4154",
     "lighting": "qmk_backlight_rgblight",
     "matrix": {

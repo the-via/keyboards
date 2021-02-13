@@ -1,6 +1,6 @@
 {
     "name": "LZ CLSm",
-    "vendorId": "0x20A0",
+    "vendorId": "0xFFFE",
     "productId": "0x4152",
     "lighting": "qmk_backlight_rgblight",
     "matrix": {
