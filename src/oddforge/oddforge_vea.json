@@ -1,6 +1,6 @@
 {
     "name": "Vermillion's Ergo - Armored Edition",
-    "vendorId": "0x20A0",
+    "vendorId": "0xFFFE",
     "productId": "0x4155 ",
     "lighting": "qmk_backlight_rgblight",
     "matrix": {
