@@ -2,7 +2,10 @@
     "name": "CapsUnlocked CU80 v2 ANSI RGB",
     "vendorId": "0x4355",
     "productId": "0x0082",
-	"lighting": "qmk_rgblight",
+    "lighting": {
+        "extends": "none",
+        "keycodes": "qmk"
+    },
     "matrix": { "rows": 6, "cols": 17 },
     "layouts": {
         "keymap": [
