@@ -1,0 +1,21 @@
+{
+  "name": "Montsinger Trio",
+  "vendorId": "0x524D",
+  "productId": "0x0002",
+  "lighting": "none",
+  "matrix": { "rows": 3, "cols": 1 },
+  "layouts": {
+    "keymap": [
+  [
+    "0,0"
+  ],
+  [
+    "1,0"
+  ],
+  [
+    "2,0"
+  ]
+]
+  }
+}
+
