@@ -18,7 +18,7 @@ const VIA_DEFAULT_MENUS_V3 = Object.freeze([
 const glob = util.promisify(require('glob'));
 
 async function convertV2ToV3() {
-  const definitionFiles = await glob('src/!(v3)/**/*.json');
+  const definitionFiles = await glob('src/!(v2|v3)/**/*.json');
   const definitions: {
     path: string,
     json: KeyboardDefinitionV2
@@ -31,7 +31,15 @@ async function convertV2ToV3() {
     };
   });
 
+  // Move all existing definitions into a v2 folder
   await fs.ensureDir('src/v2');
+  glob('src/!(v2|v3)').then((res: string[]) => {
+    res.map((vendorFolderPath: string) => {
+      const vendorFolder = vendorFolderPath.replace(/src\//, '');
+      fs.move(vendorFolderPath, `src/v2/${vendorFolder}`);
+    });
+  });
+
   await fs.ensureDir('src/v3');
 
   definitions.forEach((definition) => {
@@ -42,7 +50,6 @@ async function convertV2ToV3() {
     };
 
     try {
-      fs.move(`src/${definition.path}`, `src/v2/${definition.path}`);
       fs.outputFile(`src/v3/${definition.path}`, stringify(v3Definition));
     } catch (e) {
       console.error(e);
