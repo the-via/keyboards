@@ -7,7 +7,8 @@
     "build": "ts-node scripts/build.ts",
     "generate-v2": "ts-node scripts/generate-v2.ts",
     "dev": "ts-node-dev --respawn scripts/build.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "v2-to-v3": "ts-node scripts/v2-to-v3.ts"
   },
   "repository": {
     "type": "git",
@@ -31,6 +32,7 @@
     "add": "^2.0.6",
     "ajv": "^6.10.2",
     "bluebird": "^3.7.1",
+    "fs-extra": "^9.1.0",
     "json-stringify-pretty-compact": "^2.0.0",
     "rimraf": "^3.0.0",
     "ts-node-dev": "^1.0.0-pre.43",
