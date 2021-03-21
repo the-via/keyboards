@@ -3,7 +3,7 @@ import * as glob from 'glob';
 import * as fs from 'fs';
 import * as rimraf from 'rimraf';
 import {promisify} from 'bluebird';
-import {generateVIADefinitionV2LookupMap, getTheme} from 'via-reader';
+import {generateVIADefinitionV3LookupMap, getTheme} from 'via-reader';
 
 const viaAPIVersionV2 = '0.1.2';
 
@@ -13,13 +13,13 @@ async function build() {
 
     const paths = glob.sync('src/**/*.json', {absolute: true});
 
-    const [v2Definitions] = [paths].map(paths => paths.map(f => require(f)));
+    const [v3Definitions] = [paths].map(paths => paths.map(f => require(f)));
 
     const resV2 = {
       generatedAt: Date.now(),
       version: viaAPIVersionV2,
       theme: getTheme(),
-      definitions: generateVIADefinitionV2LookupMap(v2Definitions)
+      definitions: generateVIADefinitionV3LookupMap(v3Definitions)
     };
 
     if (!fs.existsSync('dist')) {
