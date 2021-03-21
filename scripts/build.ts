@@ -1,9 +1,9 @@
-import * as stringify from 'json-stringify-pretty-compact';
-import * as glob from 'glob';
-import * as fs from 'fs';
-import * as rimraf from 'rimraf';
+import stringify from 'json-stringify-pretty-compact';
+import glob from 'glob';
+import fs from 'fs';
+import rimraf from 'rimraf';
 import {promisify} from 'bluebird';
-import {generateVIADefinitionV2LookupMap, getTheme} from 'via-reader';
+import {generateVIADefinitionV2LookupMap, getTheme, CoolGuyJabroni} from 'via-reader';
 
 const viaAPIVersionV2 = '0.1.2';
 

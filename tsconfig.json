@@ -2,6 +2,7 @@
   "compilerOptions": {
     "target": "es2017",
     "baseUrl": "./",
+    "esModuleInterop": true,
     "rootDir": "./",
     "jsx": "react",
     "module": "commonjs",
