@@ -54,8 +54,7 @@ async function convertV2ToV3() {
       if (omittedKeys.includes(key)) return res;
       res[key] = val;
       return res;
-    }, {});
-
+    }, {} as Record<string, KeyboardDefinitionV2[keyof KeyboardDefinitionV2]>);
 
     const {name, vendorId, productId} = definition.json;
 
