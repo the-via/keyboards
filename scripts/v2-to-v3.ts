@@ -6,10 +6,7 @@ import stringify from 'json-stringify-pretty-compact';
 
 const glob = util.promisify(require('glob'));
 
-
-const VIA_DEFAULT_KEYCODES_V3 = [
-  'via/default_keycodes',
-];
+const VIA_DEFAULT_KEYCODES_V3 = ['via/default_keycodes'];
 
 const VIA_DEFAULT_MENUS_V3 = [
   // "via/default_menus" ?
@@ -22,8 +19,21 @@ const VIA_DEFAULT_MENUS_V3 = [
 // const VIA_DEFAULT_KEYCODES: KeyboardDefinitionV3['keycodes'] = {
 const VIA_DEFAULT_KEYCODES = {
   keycodes: VIA_DEFAULT_KEYCODES_V3,
-  menu: VIA_DEFAULT_MENUS_V3
+  menu: VIA_DEFAULT_MENUS_V3,
 };
+
+const OMITTED_V2_KEYS = [
+  'customFeatures',
+  'lighting',
+  'name',
+  'productId',
+  'vendorId',
+] as const;
+
+type SUPPORTED_V2_KEYS = Omit<
+  KeyboardDefinitionV2,
+  typeof OMITTED_V2_KEYS[number]
+>;
 
 async function convertV2ToV3() {
   const definitionFiles = await glob('src/**/*.json');
@@ -42,19 +52,12 @@ async function convertV2ToV3() {
   await fs.ensureDir('v3');
 
   definitions.forEach((definition) => {
-    const omittedKeys = [
-      'customFeatures',
-      'lighting',
-      'name',
-      'productId',
-      'vendorId',
-    ];
-
-    const supportedJson = Object.entries(definition.json).reduce((res, [key, val]) => {
-      if (omittedKeys.includes(key)) return res;
-      res[key] = val;
-      return res;
-    }, {} as Record<string, KeyboardDefinitionV2[keyof KeyboardDefinitionV2]>);
+    // Strip all OMITTED_V2_KEYS from the JSON
+    const supportedJson = Object.fromEntries(
+      Object.entries(definition.json).filter(([key]) => {
+        return !(OMITTED_V2_KEYS as readonly string[]).includes(key);
+      })
+    ) as SUPPORTED_V2_KEYS;
 
     const {name, vendorId, productId} = definition.json;
 
