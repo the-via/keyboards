@@ -2,6 +2,7 @@
   "name": "RAMA WORKS M50-AX",
   "vendorId": "0x5241",
   "productId": "0x150a",
+  "lighting": "wt_rgb_backlight",
   "matrix": {"rows": 4, "cols": 13},
   "layouts": {
     "labels": [
