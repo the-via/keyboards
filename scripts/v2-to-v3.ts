@@ -1,26 +1,14 @@
 import util from 'util';
-// import {KeyboardDefinitionV2, KeyboardDefinitionV3} from 'via-reader';
-import {KeyboardDefinitionV2} from 'via-reader';
+import {
+  defaultKeycodes,
+  defaultMenus,
+  KeyboardDefinitionV2,
+  KeyboardDefinitionV3,
+} from 'via-reader';
 import fs from 'fs-extra';
 import stringify from 'json-stringify-pretty-compact';
 
 const glob = util.promisify(require('glob'));
-
-const VIA_DEFAULT_KEYCODES_V3 = ['via/default_keycodes'];
-
-const VIA_DEFAULT_MENUS_V3 = [
-  // "via/default_menus" ?
-  'via/keymap',
-  'via/layouts',
-  'via/macros',
-  'via/save_load',
-];
-
-// const VIA_DEFAULT_KEYCODES: KeyboardDefinitionV3['keycodes'] = {
-const VIA_DEFAULT_KEYCODES = {
-  keycodes: VIA_DEFAULT_KEYCODES_V3,
-  menu: VIA_DEFAULT_MENUS_V3,
-};
 
 const OMITTED_V2_KEYS = [
   'customFeatures',
@@ -61,12 +49,12 @@ async function convertV2ToV3() {
 
     const {name, vendorId, productId} = definition.json;
 
-    // const v3Definition: KeyboardDefinitionV3 = {
-    const v3Definition = {
+    const v3Definition: KeyboardDefinitionV3 = {
       name,
       vendorId,
       productId,
-      ...VIA_DEFAULT_KEYCODES,
+      keycodes: defaultKeycodes,
+      menus: defaultMenus,
       ...supportedJson,
     };
 
