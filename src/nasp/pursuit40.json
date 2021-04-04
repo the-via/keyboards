@@ -1,7 +1,7 @@
 {
     "name": "Pursuit40",
     "vendorId": "0x7070",
-    "productId": "Ox1620",
+    "productId": "0x1620",
     "lighting": "qmk_rgblight",
     "matrix": { "rows": 4, "cols": 12},
     "layouts": {
