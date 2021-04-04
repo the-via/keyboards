@@ -1,6 +1,7 @@
 import stringify from 'json-stringify-pretty-compact';
 import glob from 'glob';
 import fs from 'fs';
+import {copySync} from 'fs-extra';
 import rimraf from 'rimraf';
 import {promisify} from 'bluebird';
 import {
@@ -10,6 +11,7 @@ import {
 } from 'via-reader';
 
 const viaAPIVersionV3 = '3.0.0-beta';
+const outputPath = 'dist/v3';
 
 async function buildV3() {
   try {
@@ -30,17 +32,18 @@ async function buildV3() {
       vendorProductIds: Object.keys(definitions),
     };
 
-    if (!fs.existsSync('dist')) {
-      fs.mkdirSync('dist');
+    if (!fs.existsSync(outputPath)) {
+      fs.mkdirSync(outputPath);
     }
 
-    fs.writeFileSync('dist/index.v3.json', stringify(definitionIndex));
+    fs.writeFileSync(`${outputPath}/index.json`, stringify(definitionIndex));
     Object.values(definitions).forEach((definition) => {
       fs.writeFileSync(
-        `dist/${definition.vendorProductId}.json`,
+        `${outputPath}/${definition.vendorProductId}.json`,
         stringify(definition)
       );
     });
+    copySync('common-menus', `${outputPath}/common-menus`);
   } catch (error) {
     console.error(error);
     process.exit(1);
