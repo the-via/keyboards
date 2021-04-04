@@ -1,7 +1,7 @@
 {
   "name": "Pursuit40",
   "vendorId": "0x7070",
-  "productId": "Ox1620",
+  "productId": "0x1620",
   "firmwareVersion": 0,
   "keycodes": ["via/keycodes", "via/qmk_lighting"],
   "menus": [
