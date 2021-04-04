@@ -1,0 +1,21 @@
+{
+  "name": "RAMA WORKS M6-B",
+  "vendorId": "0x5241",
+  "productId": "0x006b",
+  "firmwareVersion": 0,
+  "keycodes": ["via/keycodes", "via/wt_lighting"],
+  "menus": [
+    "via/keymap",
+    "via/layouts",
+    "via/macros",
+    "via/save_load",
+    "!!!WILBA!!!"
+  ],
+  "matrix": {"rows": 1, "cols": 6},
+  "layouts": {
+    "keymap": [
+      [{"c": "#505557", "t": "#d9d7d7", "a": 7}, "0,0", "0,1", "0,2"],
+      ["0,3", "0,4", "0,5"]
+    ]
+  }
+}
