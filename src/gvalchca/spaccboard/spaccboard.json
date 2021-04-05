@@ -1,7 +1,7 @@
 {
-  "name": "Falcon Invader",
+  "name": "SpaccBoard",
   "vendorId": "0x6776",
-  "productId": "0x7369",
+  "productId": "0x5342",
   "lighting": "none",
   "matrix": {
     "rows": 5,
