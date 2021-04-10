@@ -14,4 +14,4 @@ jobs:
     - name: Actions for Discord
       uses: Ilshidur/action-discord@0.0.2
       with:
-        args: '"{{EVENT_PAYLOAD.pull_request.title}}" Updated: "{{EVENT_PAYLOAD.pull_request.body}}"'
+        args: '"${{EVENT_PAYLOAD.pull_request.title}}" Updated: "${{EVENT_PAYLOAD.pull_request.body}}"'
