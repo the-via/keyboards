@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Set env DISCORD_WEBHOOK 1
-      run: echo -e ::set-env name=DISCORD_WEBHOOK::${{ secrets.DISCORD_WEBHOOK }}
+      run:  echo "DISCORD_WEBHOOK=${{ secrets.DISCORD_WEBHOOK }}" >> $GITHUB_ENV
     - name: Actions for Discord
       uses: Ilshidur/action-discord@0.0.2
       with:
