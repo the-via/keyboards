@@ -15,4 +15,3 @@ jobs:
       uses: Ilshidur/action-discord@0.3.0
       with:
         args: 'The PR {{ EVENT_PAYLOAD.pull_request.title }} has changed.'
-3
