@@ -12,4 +12,7 @@ jobs:
     - name: Set env DISCORD_WEBHOOK 1
       run:  echo "DISCORD_WEBHOOK=${{ secrets.DISCORD_WEBHOOK }}" >> $GITHUB_ENV
     - name: Actions for Discord
-      uses: Ilshidur/action-discord@0.0.2
+      uses: Ilshidur/action-discord@0.3.0
+      with:
+        args: 'The PR {{ EVENT_PAYLOAD.pull_request.title }} has changed.'
+3
