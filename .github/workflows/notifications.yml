@@ -14,4 +14,4 @@ jobs:
     - name: Actions for Discord
       uses: Ilshidur/action-discord@0.3.0
       with:
-        args: 'The PR {{ EVENT_PAYLOAD.pull_request.title }} has changed.'
+        args: '"{{ EVENT_PAYLOAD.pull_request.title }}" has been updated. {{EVENT_PAYLOAD.pull_request.url}}'
