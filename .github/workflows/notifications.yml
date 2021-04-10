@@ -1,0 +1,15 @@
+name: Notifications
+on:
+  pull_request_review:
+    types: [edited]
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Set env DISCORD_WEBHOOK 1
+      run: echo -e ::set-env name=DISCORD_WEBHOOK::${{ secrets.DISCORD_WEBHOOK }}
+    - name: Actions for Discord
+      uses: Ilshidur/action-discord@0.0.2
+      with:
+        args: '"{{EVENT_PAYLOAD.pull_request.title}}" Updated: "{{EVENT_PAYLOAD.pull_request.body}}"'
