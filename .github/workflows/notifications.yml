@@ -2,6 +2,8 @@ name: Notifications
 on:
   pull_request_review:
     types: [edited]
+  pull_request:
+    types: [opened, edited, review_requested]
 
 jobs:
   notify:
