@@ -1,7 +1,7 @@
 {
   "name":"Pachi",
   "vendorId":"0x5845",
-  "productId":"0x5887",
+  "productId":"0x5041",
   "lighting":"none",
   "matrix":{
       "rows":6,
