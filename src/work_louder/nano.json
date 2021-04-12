@@ -1,0 +1,24 @@
+{
+    "name": "Work Louder Nano",
+    "vendorId": "0x574C",
+    "productId": "0xE6EF",
+    "lighting": "qmk_rgblight",
+    "customKeycodes": [
+        {"name": "RGB Matrix Toggle", "title": "", "shortName": "R_M_TOG"},
+        {"name": "RGB Matrix Mode Increase", "title": "", "shortName": "R_M_MOD"},
+        {"name": "RGB Matrix Mode Decrease", "title": "", "shortName": "R_M_RMOD"},
+        {"name": "RGB Matrix Hue Increase", "title": "", "shortName": "R_M_HUI"},
+        {"name": "RGB Matrix Hue Decrease", "title": "", "shortName": "R_M_HUD"},
+        {"name": "RGB Matrix Saturation Increase", "title": "", "shortName": "R_M_SAI"},
+        {"name": "RGB Matrix Saturation Decrease", "title": "", "shortName": "R_M_SAD"},
+        {"name": "RGB Matrix Brightness Increase", "title": "", "shortName": "R_M_VAI"},
+        {"name": "RGB Matrix Brightness Decrease", "title": "", "shortName": "R_M_VAD"}
+  ],
+    "matrix": { "rows": 1, "cols": 5 },
+    "layouts": {
+        "keymap": [
+            ["0,0","0,1","0,2"],
+            ["0,3","0,4"]
+        ]
+    }
+}
