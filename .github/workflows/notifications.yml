@@ -8,7 +8,8 @@ on:
 jobs:
   notify:
     runs-on: ubuntu-latest
-    env: ${{ secrets.DISCORD_WEBHOOK }}
+    env: 
+      DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
     steps:
     - name: Actions for Discord
       uses: Ilshidur/action-discord@0.3.0
