@@ -9,9 +9,8 @@ jobs:
   notify:
     runs-on: ubuntu-latest
     steps:
-    - name: Set env DISCORD_WEBHOOK 1
-      run:  echo "DISCORD_WEBHOOK=${{ secrets.DISCORD_WEBHOOK }}" >> $GITHUB_ENV
     - name: Actions for Discord
       uses: Ilshidur/action-discord@0.3.0
+      env: ${{ secrets.DISCORD_WEBHOOK }}
       with:
         args: '"{{ EVENT_PAYLOAD.pull_request.title }}" has been updated. {{EVENT_PAYLOAD.pull_request.url}}'
