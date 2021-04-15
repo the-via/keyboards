@@ -1,7 +1,7 @@
 {
   "name": "Summer Breeze",
   "vendorId": "0x616C",
-  "productId": "0x0003",
+  "productId": "0x0004",
   "lighting": "none",
   "matrix": { "rows": 10, "cols": 9 },
   "layouts": {
