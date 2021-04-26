@@ -1,13 +1,17 @@
 {
   "name": "Nyquist Rev. 3",
   "vendorId": "0xCB10",
-  "productId": "0x1156",
+  "productId": "0x3156",
   "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 10,
     "cols": 6
   },
   "layouts": {
+    "labels": [
+      ["Left Space", "1u", "2u"],
+      ["Right Space", "1u", "2u"]
+    ],
     "keymap": [
       [
         "0,0",
@@ -109,19 +113,19 @@
         "4,1",
         "4,2",
         "4,3",
-        "4,4",
+        "4,4\n\n\n0,0",
         {
           "c": "#cccccc"
         },
-        "4,5",
+        "4,5\n\n\n0,0",
         {
           "x": 0.75
         },
-        "9,0",
+        "9,0\n\n\n1,0",
         {
           "c": "#aaaaaa"
         },
-        "9,1",
+        "9,1\n\n\n1,0",
         {
           "c": "#777777"
         },
@@ -129,6 +133,19 @@
         "9,3",
         "9,4",
         "9,5"
+      ],
+      [
+        {
+          "x": 4,
+          "c": "#cccccc",
+          "w": 2
+        },
+        "4,4\n\n\n0,1",
+        {
+          "x": 0.75,
+          "w": 2
+        },
+        "9,0\n\n\n1,1"
       ]
     ]
   }
