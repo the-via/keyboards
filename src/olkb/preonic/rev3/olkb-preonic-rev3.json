@@ -1,7 +1,7 @@
 {
   "name": "OLKB Preonic Rev3",
   "vendorId": "0x03A8",
-  "productId": "0x67F3",
+  "productId": "0xA649",
   "matrix": {"rows": 10, "cols": 6},
   "lighting": "qmk_rgblight",
   "layouts": {
