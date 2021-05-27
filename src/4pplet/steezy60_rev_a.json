@@ -2,7 +2,7 @@
     "name": "Steezy60 Rev A", 
     "vendorId": "0x4444",
     "productId": "0x0002",
-    "lighting": "qmk_backlight_rgblight",
+    "lighting": "qmk_rgblight",
     "matrix": {"rows": 5, "cols": 14},
     "layouts": {
            "labels": [
