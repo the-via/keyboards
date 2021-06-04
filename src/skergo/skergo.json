@@ -1,7 +1,7 @@
 {
   "name": "SKErgo",
   "vendorId": "0x4B49",
-  "productId": "0x534B",
+  "productId": "0x535B",
   "lighting": "none",
   "matrix": {"rows": 5, "cols": 15},
   "layouts": {
