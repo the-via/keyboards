@@ -8,12 +8,12 @@
       "cols": 16
     },
     "layouts": {
-      "labels": [
-        "Split Backspace",
-        ["Enter Key", "ANSI", "ISO"],
-        "Split Left Shift",
-        ["Spacebar", "Standard", "7u", "6u v1", "6u v2", "6u (4u left)"]
-      ],
+        "labels": [
+            "Split Backspace",
+            ["Enter Key", "ANSI", "ISO"],
+            "Split Left Shift",
+            ["Spacebar", "Standard", "7u", "6u v1", "6u v2", "6u (4u left)"]
+          ],
   
       "keymap": [
         [
