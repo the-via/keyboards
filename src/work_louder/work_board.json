@@ -12,7 +12,8 @@
         {"name": "RGB Matrix Saturation Increase", "title": "", "shortName": "R_M_SAI"},
         {"name": "RGB Matrix Saturation Decrease", "title": "", "shortName": "R_M_SAD"},
         {"name": "RGB Matrix Brightness Increase", "title": "", "shortName": "R_M_VAI"},
-        {"name": "RGB Matrix Brightness Decrease", "title": "", "shortName": "R_M_VAD"}
+        {"name": "RGB Matrix Brightness Decrease", "title": "", "shortName": "R_M_VAD"},
+        {"name": "Encoder Tap", "title": "Encoder Tap", "shortName": "ENC_TAP"}
     ],
     "matrix": {"rows": 4, "cols": 13},
     "layouts": {
