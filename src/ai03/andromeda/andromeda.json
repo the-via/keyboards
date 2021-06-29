@@ -1,70 +1,8 @@
 {
-  "name": "CT87",
-  "vendorId": "0x8968",
-  "productId": "0x4354",
-  "lighting": {
-    "extends": "wt_rgb_backlight",
-    "supportedLightingValues": [
-      7,
-      8,
-      9,
-      10,
-      11,
-      12,
-      13,
-      14,
-      15,
-      16,
-      17,
-      18,
-      19,
-      20,
-      21,
-      128,
-      129,
-      130,
-      131
-    ],
-    "underglowEffects": [
-      ["All Off", 0],
-      ["Solid Color", 1],
-      ["Breathing 1", 1],
-      ["Breathing 2", 1],
-      ["Breathing 3", 1],
-      ["Breathing 4", 1],
-      ["Rainbow Mood 1", 0],
-      ["Rainbow Mood 2", 0],
-      ["Rainbow Mood 3", 0],
-      ["Rainbow Swirl 1", 0],
-      ["Rainbow Swirl 2", 0],
-      ["Rainbow Swirl 3", 0],
-      ["Rainbow Swirl 4", 0],
-      ["Rainbow Swirl 5", 0],
-      ["Rainbow Swirl 6", 0],
-      ["Snake 1", 1],
-      ["Snake 2", 1],
-      ["Snake 3", 1],
-      ["Snake 4", 1],
-      ["Snake 5", 1],
-      ["Snake 6", 1],
-      ["Knight 1", 1],
-      ["Knight 2", 1],
-      ["Knight 3", 1],
-      ["Christmas", 0],
-      ["Gradient 1", 1],
-      ["Gradient 2", 1],
-      ["Gradient 3", 1],
-      ["Gradient 4", 1],
-      ["Gradient 5", 1],
-      ["Gradient 6", 1],
-      ["Gradient 7", 1],
-      ["Gradient 8", 1],
-      ["Gradient 9", 1],
-      ["Gradient 10", 1],
-      ["RGB Test", 0],
-      ["Alternating", 1]
-    ]
-  },
+  "name": "Andromeda",
+  "vendorId": "0xa103",
+  "productId": "0x000A",
+  "lighting": "none",
   "matrix": {"rows": 6, "cols": 17},
   "layouts": {
     "keymap": [
@@ -77,26 +15,26 @@
           "x": 1,
           "c": "#cccccc"
         },
-        "0,1",
         "0,2",
         "0,3",
         "0,4",
+        "0,5",
         {
           "x": 0.5,
           "c": "#aaaaaa"
         },
-        "0,5",
         "0,6",
         "0,7",
         "0,8",
+        "0,9",
         {
           "x": 0.5,
           "c": "#cccccc"
         },
-        "0,9",
         "0,10",
         "0,11",
         "0,12",
+        "0,13",
         {
           "x": 0.25,
           "c": "#aaaaaa"
@@ -107,7 +45,7 @@
       ],
       [
         {
-          "y": 0.25,
+          "y": 0.5,
           "c": "#cccccc"
         },
         "1,0",
@@ -158,7 +96,7 @@
         {
           "w": 1.5
         },
-        "3,12",
+        "2,13",
         {
           "x": 0.25,
           "c": "#aaaaaa"
@@ -187,14 +125,13 @@
         "3,10",
         "3,11",
         {
-          "c": "#777777",
+          "c": "#aaaaaa",
           "w": 2.25
         },
         "3,13"
       ],
       [
         {
-          "c": "#aaaaaa",
           "w": 2.25
         },
         "4,0",
@@ -215,49 +152,44 @@
           "c": "#aaaaaa",
           "w": 2.75
         },
-        "4,12",
+        "4,13",
         {
-          "x": 1.25
+          "x": 1.25,
+          "c": "#777777"
         },
         "4,15"
       ],
       [
         {
-          "w": 1.25
+          "c": "#aaaaaa",
+          "w": 1.5
         },
         "5,0",
         {
-          "w": 1.25
-        },
-        "5,1",
-        {
-          "w": 1.25
+          "x": 1,
+          "w": 1.5
         },
         "5,2",
         {
-          "c": "#cccccc",
-          "w": 6.25
+          "c": "#777777",
+          "a": 7,
+          "w": 7
         },
-        "5,6",
+        "5,7",
         {
           "c": "#aaaaaa",
-          "w": 1.25
-        },
-        "5,10",
-        {
-          "w": 1.25
+          "a": 4,
+          "w": 1.5
         },
         "5,11",
         {
-          "w": 1.25
-        },
-        "5,12",
-        {
-          "w": 1.25
+          "x": 1,
+          "w": 1.5
         },
         "5,13",
         {
-          "x": 0.25
+          "x": 0.25,
+          "c": "#777777"
         },
         "5,14",
         "5,15",
