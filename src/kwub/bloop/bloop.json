@@ -1,6 +1,6 @@
 {
     "name": "Bloop65",
-    "vendorId": "0x0432",
+    "vendorId": "0x6b77",
     "productId": "0x0001",
     "lighting": "none",
     "matrix": {"rows": 5, "cols": 15},
