@@ -1,6 +1,6 @@
 {
   "name": "GoN NerD60",
-  "vendorId": "0x7283",
+  "vendorId": "0x4E45",
   "productId": "0x3630",
   "lighting": "qmk_backlight",
   "matrix": {"rows": 10, "cols": 8},
