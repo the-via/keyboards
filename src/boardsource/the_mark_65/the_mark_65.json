@@ -2,7 +2,7 @@
   "name": "The Mark: 65",
   "vendorId": "0x4273",
   "productId": "0x0001",
-  "lighting": "qmk_backlight",
+  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 5,
     "cols": 16

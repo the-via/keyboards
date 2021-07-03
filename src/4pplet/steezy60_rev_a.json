@@ -2,14 +2,14 @@
     "name": "Steezy60 Rev A", 
     "vendorId": "0x4444",
     "productId": "0x0002",
-    "lighting": "qmk_backlight_rgblight",
+    "lighting": "qmk_rgblight",
     "matrix": {"rows": 5, "cols": 14},
     "layouts": {
            "labels": [
       "Split Backspace",
       "ISO Enter",
       "Split Right Shift",
-      "Slit Left Shift",
+      "Split Left Shift",
       ["Bottom Row", "Standard","Tsangan/AEK","Full Mods", "Split std","Split Tsangan/AEK"]
     ],
         "keymap": 
