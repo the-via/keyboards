@@ -2,7 +2,7 @@
   "name": "Hex.6C",
   "vendorId": "0x4D4C",
   "productId": "0x6C01",
-  "lighting": "qmk_backlight_rgblight",
+  "lighting": "qmk_backlight",
   "matrix": {"rows": 6, "cols": 21},
   "layouts": {
     "labels": [
@@ -267,7 +267,7 @@
           "c": "#aaaaaa",
           "w": 2.75
         },
-        "4,16\n\n\n7,0",
+        "4,17\n\n\n7,0",
         {
           "x": 1.25,
           "c": "#777777"
@@ -278,8 +278,8 @@
           "c": "#aaaaaa",
           "w": 1.75
         },
-        "4,16\n\n\n7,1",
-        "4,17\n\n\n7,1"
+        "4,17\n\n\n7,1",
+        "4,16\n\n\n7,1"
       ],
       [
         {
