@@ -13,11 +13,16 @@
 
 <!--- Add link to QMK Pull Request here. -->
 
+<!--- THIS IS MANDATORY. -->
+
+<!--- IF THERE IS NO LINK TO SHOW VIA SUPPORT IS IN QMK MASTER ALREADY, -->
+<!--- THIS PR WILL BE CLOSED IMMEDIATELY FOR WORKFLOW REASONS.  -->
+
 ## Checklist
 
 <!--- Put an `x` in all the boxes that apply. -->
 
-- [ ] The VIA support for this keyboard is in QMK master already (MANDATORY)
+- [ ] The VIA support for this keyboard is in QMK master already **(MANDATORY)**
 - [ ] The VIA definition follows the guide here: https://caniusevia.com/docs/layouts
 - [ ] I have tested this keyboard definition using VIA's "Design" tab.
 - [ ] I have tested this keyboard definition with firmware on a device.
