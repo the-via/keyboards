@@ -1,7 +1,7 @@
 import stringify from 'json-stringify-pretty-compact';
 import glob from 'glob';
+import path from 'path';
 import fs from 'fs';
-import {copySync} from 'fs-extra';
 import rimraf from 'rimraf';
 import {promisify} from 'bluebird';
 import {
@@ -37,13 +37,35 @@ async function buildV3() {
     }
 
     fs.writeFileSync(`${outputPath}/index.json`, stringify(definitionIndex));
+
     Object.values(definitions).forEach((definition) => {
       fs.writeFileSync(
         `${outputPath}/${definition.vendorProductId}.json`,
         stringify(definition)
       );
     });
-    copySync('common-menus', `${outputPath}/common-menus`);
+
+    // Read all common-menus configurations asynchronously.
+    const commonMenusFiles = glob.sync('common-menus/**.json');
+    const commonMenusJson = {} as Record<string, string>;
+    const commonMenusReaders = commonMenusFiles.map((commonMenuFile) => {
+      return fs.promises.readFile(commonMenuFile, 'utf8');
+    });
+
+    // Combine all common-menus configurations into a single core.json file
+    Promise.all(commonMenusReaders).then((commonMenus) => {
+      commonMenus.forEach((menu, i) => {
+        // Parse out just the filename for the key:
+        // common-menus/qmk_audio.json -> qmk_audio
+        const fileName = path.parse(commonMenusFiles[i]).name;
+
+        commonMenusJson[fileName] = JSON.parse(menu);
+      });
+      fs.writeFileSync(
+        `${outputPath}/common-menus.json`,
+        stringify(commonMenusJson)
+      );
+    });
   } catch (error) {
     console.error(error);
     process.exit(1);
