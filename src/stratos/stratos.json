@@ -2,7 +2,7 @@
   "name":"Stratos",
   "vendorId":"0xD5D0",
   "productId":"0x992D",
-  "lighting": "none",
+  "lighting": "qmk_rgblight",
   "matrix": {
      "rows":5,
      "cols":14
@@ -49,7 +49,7 @@
         "0,9",
         "0,10",
         "0,11",
-        "0,11",
+        "0,12",
         {
           "c": "#aaaaaa",
           "w": 2
@@ -386,3 +386,4 @@
     ]
   }
 }
+ 
