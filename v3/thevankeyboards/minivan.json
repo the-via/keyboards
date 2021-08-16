@@ -3,8 +3,14 @@
   "vendorId": "0xFEAE",
   "productId": "0x8844",
   "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
+  "keycodes": ["via/keycodes", "via/qmk_lighting"],
+  "menus": [
+    "via/keymap",
+    "via/layouts",
+    "via/macros",
+    "via/save_load",
+    "core/qmk_rgblight"
+  ],
   "matrix": {"rows": 4, "cols": 12},
   "layouts": {
     "keymap": [

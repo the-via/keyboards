@@ -1,6 +1,6 @@
 {
   "name": "Atlas_Alps",
-  "vendorId": "0x7070",
+  "vendorId": "0xCA04",
   "productId": "0xA7A5",
   "firmwareVersion": 0,
   "keycodes": ["via/keycodes", "via/qmk_lighting"],
