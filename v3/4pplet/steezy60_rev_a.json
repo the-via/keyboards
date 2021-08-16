@@ -9,7 +9,6 @@
     "via/layouts",
     "via/macros",
     "via/save_load",
-    "core/qmk_backlight",
     "core/qmk_rgblight"
   ],
   "matrix": {"rows": 5, "cols": 14},

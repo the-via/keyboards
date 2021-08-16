@@ -3,8 +3,14 @@
   "vendorId": "0x544B",
   "productId": "0x0006",
   "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
+  "keycodes": ["via/keycodes", "via/qmk_lighting"],
+  "menus": [
+    "via/keymap",
+    "via/layouts",
+    "via/macros",
+    "via/save_load",
+    "core/qmk_rgblight"
+  ],
   "matrix": {"rows": 12, "cols": 8},
   "layouts": {
     "labels": [
