@@ -1,7 +1,6 @@
 import * as http from 'http';
 import {Server} from 'node-static';
-// Generate legacy V2 definitions
-require('./build');
+require('./build-all');
 
 const fileServer = new Server('./dist');
 const port = 5000;
