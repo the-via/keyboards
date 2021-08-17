@@ -13,15 +13,13 @@ import {
 const viaAPIVersionV3 = '3.0.0-beta';
 const outputPath = 'dist/v3';
 
-async function buildV3() {
+async function build() {
   try {
-    await promisify(rimraf)('dist/*');
+    await promisify(rimraf)(`${outputPath}/*'`);
 
     const paths = glob.sync('v3/**/*.json', {absolute: true});
 
-    const [v3Definitions] = [paths].map((paths) =>
-      paths.map((f) => require(f))
-    );
+    const v3Definitions = paths.map((f) => require(f));
 
     const definitions = generateVIADefinitionV3LookupMap(v3Definitions);
 
@@ -29,14 +27,19 @@ async function buildV3() {
       generatedAt: Date.now(),
       version: viaAPIVersionV3,
       theme: getTheme(),
-      vendorProductIds: Object.keys(definitions),
+      vendorProductIds: Object.values(definitions).map(
+        (d) => d.vendorProductId
+      ),
     };
 
     if (!fs.existsSync(outputPath)) {
       fs.mkdirSync(outputPath);
     }
 
-    fs.writeFileSync(`${outputPath}/index.json`, stringify(definitionIndex));
+    fs.writeFileSync(
+      `${outputPath}/supported_kbs.json`,
+      stringify(definitionIndex)
+    );
 
     Object.values(definitions).forEach((definition) => {
       fs.writeFileSync(
@@ -72,4 +75,4 @@ async function buildV3() {
   }
 }
 
-buildV3();
+build();

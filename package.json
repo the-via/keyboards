@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "ts-node scripts/build.ts",
-    "build-isolated": "ts-node scripts/build-isolated-v2.ts",
+    "build": "yarn build-v2 && yarn build-v2-isolated && yarn build-v3",
+    "build-v3": "ts-node scripts/build-v3.ts",
+    "build-v2": "ts-node scripts/build-v2.ts",
+    "build-v2-isolated": "ts-node scripts/build-isolated-v2.ts",
     "generate-v2": "ts-node scripts/generate-v2.ts",
     "dev": "ts-node-dev --respawn scripts/build.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -42,7 +44,7 @@
     "rimraf": "^3.0.0",
     "ts-node-dev": "^1.0.0-pre.43",
     "typescript-json-schema": "^0.40.0",
-    "via-reader": "git://github.com/the-via/reader.git#4d70246e21e02c1bfc15597cd7efa942057ec690",
+    "via-reader": "git://github.com/the-via/reader.git#7e05b2e3220b8c20e4a419b64bc743ea7adb66d0",
     "yarn": "^1.22.0"
   }
 }
