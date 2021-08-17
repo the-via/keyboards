@@ -1,52 +1,59 @@
-import stringify from 'json-stringify-pretty-compact';
+import fs from 'fs';
 import glob from 'glob';
 import path from 'path';
-import fs from 'fs';
-import rimraf from 'rimraf';
-import {promisify} from 'bluebird';
 import {
-  generateVIADefinitionV3LookupMap,
+  keyboardDefinitionV2ToVIADefinitionV2,
   getTheme,
   KeyboardDefinitionIndex,
+  DefinitionVersion,
+  keyboardDefinitionV3ToVIADefinitionV3,
+  DefinitionVersionMap,
+  isVIADefinitionV2,
+  isVIADefinitionV3,
 } from 'via-reader';
+import stringify from 'json-stringify-pretty-compact';
+import {buildIsolatedDefinitions} from './build-isolated-definitions';
+var packageJson = require('../package.json');
 
-const viaAPIVersionV3 = '3.0.0-beta';
-const outputPath = 'dist/v3';
-
-async function build() {
+export async function buildV3() {
   try {
-    await promisify(rimraf)(`${outputPath}/*'`);
-
-    const paths = glob.sync('v3/**/*.json', {absolute: true});
-
-    const v3Definitions = paths.map((f) => require(f));
-
-    const definitions = generateVIADefinitionV3LookupMap(v3Definitions);
+    const v2Definitions = await buildIsolatedDefinitions(
+      DefinitionVersion.v2,
+      keyboardDefinitionV2ToVIADefinitionV2
+    );
+    const v3Definitions = await buildIsolatedDefinitions(
+      DefinitionVersion.v3,
+      keyboardDefinitionV3ToVIADefinitionV3
+    );
 
     const definitionIndex: KeyboardDefinitionIndex = {
       generatedAt: Date.now(),
-      version: viaAPIVersionV3,
+      version: packageJson.version,
       theme: getTheme(),
-      vendorProductIds: Object.values(definitions).map(
-        (d) => d.vendorProductId
+      vendorProductIds: [...v2Definitions, ...v3Definitions].reduce(
+        (
+          acc: Record<number, DefinitionVersionMap>,
+          [def, jsonRelativePath]
+        ) => {
+          acc[def.vendorProductId] = acc[def.vendorProductId] || {};
+          if (isVIADefinitionV2(def)) {
+            acc[def.vendorProductId].v2 = jsonRelativePath;
+          } else if (isVIADefinitionV3(def)) {
+            acc[def.vendorProductId].v3 = jsonRelativePath;
+          } else {
+            throw new Error(
+              `Definition for vendorProductId ${
+                (<any>def).vendorProductId
+              } is not valid v2 or v3`
+            );
+          }
+          return acc;
+        },
+        {}
       ),
     };
 
-    if (!fs.existsSync(outputPath)) {
-      fs.mkdirSync(outputPath);
-    }
-
-    fs.writeFileSync(
-      `${outputPath}/supported_kbs.json`,
-      stringify(definitionIndex)
-    );
-
-    Object.values(definitions).forEach((definition) => {
-      fs.writeFileSync(
-        `${outputPath}/${definition.vendorProductId}.json`,
-        stringify(definition)
-      );
-    });
+    fs.writeFileSync('dist/supported_kbs.json', stringify(definitionIndex));
 
     // Read all common-menus configurations asynchronously.
     const commonMenusFiles = glob.sync('common-menus/**.json');
@@ -64,15 +71,10 @@ async function build() {
 
         commonMenusJson[fileName] = JSON.parse(menu);
       });
-      fs.writeFileSync(
-        `${outputPath}/common-menus.json`,
-        stringify(commonMenusJson)
-      );
+      fs.writeFileSync('dist/common-menus.json', stringify(commonMenusJson));
     });
   } catch (error) {
     console.error(error);
     process.exit(1);
   }
 }
-
-build();
