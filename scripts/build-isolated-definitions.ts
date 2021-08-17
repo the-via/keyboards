@@ -29,8 +29,8 @@ export const buildIsolatedDefinitions = async <
   }
 
   return viaDefinitions.map((definition) => {
-    const path = `/${definition.vendorProductId}.json`;
-    fs.writeFileSync(`${outputPath}/${path}`, JSON.stringify(definition));
+    const path = `/${version}/${definition.vendorProductId}.json`;
+    fs.writeFileSync(`dist${path}`, JSON.stringify(definition));
     return [definition, path];
   });
 };
