@@ -7,7 +7,7 @@ import {
   defaultMenus,
   KeyboardDefinitionV2,
   KeyboardDefinitionV3,
-  KeycodeTypeV2,
+  KeycodeType,
   LightingTypeDefinition,
   LightingTypeDefinitionV2,
   VIAMenu,
@@ -93,7 +93,7 @@ const resolveKeycodes = (
   lighting: LightingTypeDefinitionV2
 ): BuiltInKeycodeModule[] => {
   if (isCustomLightingTypeDefinition(lighting)) {
-    return lighting.keycodes === KeycodeTypeV2.QMK // Found no instances of 'WT' or 'None' in existing data
+    return lighting.keycodes === KeycodeType.QMK // Found no instances of 'WT' or 'None' in existing data
       ? [...defaultKeycodes, BuiltInKeycodeModule.QMKLighting]
       : [...defaultKeycodes, ...mapLightingKeycodes(lighting.extends)];
   }

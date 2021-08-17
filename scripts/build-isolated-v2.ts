@@ -1,6 +1,6 @@
 import * as glob from 'glob';
 import * as fs from 'fs';
-import * as rimraf from 'rimraf';
+import rimraf from 'rimraf';
 import {promisify} from 'bluebird';
 import {keyboardDefinitionV2ToVIADefinitionV2, getTheme} from 'via-reader';
 
