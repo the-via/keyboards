@@ -41,10 +41,9 @@ export async function buildV3() {
           } else if (isVIADefinitionV3(def)) {
             acc[def.vendorProductId].v3 = jsonRelativePath;
           } else {
-            throw new Error(
-              `Definition for vendorProductId ${
-                (<any>def).vendorProductId
-              } is not valid v2 or v3`
+            // TODO: Replace warn with new Error() after all definitions are working
+            console.warn(
+              `WARN: Definition not valid v2 or v3: ${(<any>def).name}`
             );
           }
           return acc;
