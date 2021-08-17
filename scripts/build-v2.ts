@@ -1,16 +1,12 @@
 import stringify from 'json-stringify-pretty-compact';
 import * as glob from 'glob';
 import * as fs from 'fs';
-import rimraf from 'rimraf';
-import {promisify} from 'bluebird';
-import {generateVIADefinitionV2LookupMap, getTheme} from 'via-reader';
+import {getTheme, keyboardDefinitionV2ToVIADefinitionV2} from 'via-reader';
 
 const viaAPIVersionV2 = '0.1.2';
 
-async function build() {
+export async function buildV2() {
   try {
-    await promisify(rimraf)('dist/*');
-
     const paths = glob.sync('src/**/*.json', {absolute: true});
 
     const [v2Definitions] = [paths].map((paths) =>
@@ -21,7 +17,9 @@ async function build() {
       generatedAt: Date.now(),
       version: viaAPIVersionV2,
       theme: getTheme(),
-      definitions: generateVIADefinitionV2LookupMap(v2Definitions),
+      definitions: v2Definitions
+        .map(keyboardDefinitionV2ToVIADefinitionV2)
+        .reduce((p, n) => ({...p, [n.vendorProductId]: n}), {}),
     };
 
     if (!fs.existsSync('dist')) {
@@ -34,5 +32,3 @@ async function build() {
     process.exit(1);
   }
 }
-
-build();
