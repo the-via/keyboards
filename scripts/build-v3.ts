@@ -7,7 +7,6 @@ import {
   KeyboardDefinitionIndex,
   DefinitionVersion,
   keyboardDefinitionV3ToVIADefinitionV3,
-  DefinitionVersionMap,
   isVIADefinitionV2,
   isVIADefinitionV3,
 } from 'via-reader';
@@ -17,39 +16,25 @@ var packageJson = require('../package.json');
 
 export async function buildV3() {
   try {
-    const v2Definitions = await buildIsolatedDefinitions(
+    const v2DefinitionIds = await buildIsolatedDefinitions(
       DefinitionVersion.v2,
-      keyboardDefinitionV2ToVIADefinitionV2
+      keyboardDefinitionV2ToVIADefinitionV2,
+      isVIADefinitionV2
     );
-    const v3Definitions = await buildIsolatedDefinitions(
+    const v3DefinitionIds = await buildIsolatedDefinitions(
       DefinitionVersion.v3,
-      keyboardDefinitionV3ToVIADefinitionV3
+      keyboardDefinitionV3ToVIADefinitionV3,
+      isVIADefinitionV3
     );
 
     const definitionIndex: KeyboardDefinitionIndex = {
       generatedAt: Date.now(),
       version: packageJson.version,
       theme: getTheme(),
-      vendorProductIds: [...v2Definitions, ...v3Definitions].reduce(
-        (
-          acc: Record<number, DefinitionVersionMap>,
-          [def, jsonRelativePath]
-        ) => {
-          acc[def.vendorProductId] = acc[def.vendorProductId] || {};
-          if (isVIADefinitionV2(def)) {
-            acc[def.vendorProductId].v2 = jsonRelativePath;
-          } else if (isVIADefinitionV3(def)) {
-            acc[def.vendorProductId].v3 = jsonRelativePath;
-          } else {
-            // TODO: Replace warn with new Error() after all definitions are working
-            console.warn(
-              `WARN: Definition not valid v2 or v3: ${(<any>def).name}`
-            );
-          }
-          return acc;
-        },
-        {}
-      ),
+      vendorProductIds: {
+        v2: v2DefinitionIds,
+        v3: v3DefinitionIds.filter((vpid) => !v2DefinitionIds.includes(vpid)),
+      },
     };
 
     fs.writeFileSync('dist/supported_kbs.json', stringify(definitionIndex));
