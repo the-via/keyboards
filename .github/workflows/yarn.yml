@@ -25,7 +25,7 @@ jobs:
       - name: Build
         run: |
           yarn 
-          yarn build-all
+          yarn build
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v2.2.4
         with:
