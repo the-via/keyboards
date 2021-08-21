@@ -1,0 +1,22 @@
+{
+  "name": "Treasure TYPE-9 Series II",
+  "vendorId": "0x5452",
+  "productId": "0x5492",
+  "firmwareVersion": 0,
+  "keycodes": ["via/keycodes", "via/qmk_lighting"],
+  "menus": [
+    "via/keymap",
+    "via/layouts",
+    "via/macros",
+    "via/save_load",
+    "core/qmk_backlight"
+  ],
+  "matrix": {"rows": 3, "cols": 3},
+  "layouts": {
+    "keymap": [
+      ["0,0", "0,1", "0,2"],
+      ["1,0", "1,1", "1,2"],
+      ["2,0", "2,1", "2,2"]
+    ]
+  }
+}

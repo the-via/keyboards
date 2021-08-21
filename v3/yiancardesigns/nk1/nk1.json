@@ -1,0 +1,16 @@
+{
+  "name": "NK1",
+  "vendorId": "0x8968",
+  "productId": "0x4E4D",
+  "firmwareVersion": 0,
+  "keycodes": ["via/keycodes", "via/qmk_lighting"],
+  "menus": [
+    "via/keymap",
+    "via/layouts",
+    "via/macros",
+    "via/save_load",
+    "core/qmk_rgblight"
+  ],
+  "matrix": {"rows": 1, "cols": 1},
+  "layouts": {"keymap": [[{"w": 2, "h": 2}, "0,0"]]}
+}
