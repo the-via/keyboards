@@ -2,7 +2,7 @@
   "name": "DevastatingTKL",
   "vendorId": "0xca04",
   "productId": "0xDE57",
-  "lighting": "none",
+  "lighting": "qmk_backlight",
   "matrix": {"rows": 6, "cols": 18},
   "layouts": {
     "labels": [
