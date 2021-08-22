@@ -4,9 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "ts-node scripts/build.ts",
-    "build-isolated": "ts-node scripts/build-isolated-v2.ts",
+    "build": "ts-node scripts/build-all.ts",
+    "build-v2": "ts-node scripts/build-v2.ts",
+    "build-v2-isolated": "ts-node scripts/build-isolated-v2.ts",
     "generate-v2": "ts-node scripts/generate-v2.ts",
+    "build-v3": "ts-node scripts/build-v3.ts",
+    "v2-to-v3": "ts-node scripts/v2-to-v3.ts",
     "dev": "ts-node-dev --respawn scripts/serve.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,8 +25,10 @@
   "homepage": "https://github.com/the-via/keyboards#readme",
   "devDependencies": {
     "@types/node-static": "^0.7.7",
-    "microbundle": "^0.11.0",
     "node-static": "^0.7.11",
+    "@types/fs-extra": "^9.0.9",
+    "microbundle": "^0.11.0",
+    "prettier": "^2.2.1",
     "ts-node": "^8.4.1",
     "typescript": "^3.6.4"
   },
@@ -34,11 +39,12 @@
     "add": "^2.0.6",
     "ajv": "^6.10.2",
     "bluebird": "^3.7.1",
+    "fs-extra": "^9.1.0",
     "json-stringify-pretty-compact": "^2.0.0",
     "rimraf": "^3.0.0",
     "ts-node-dev": "^1.0.0-pre.43",
     "typescript-json-schema": "^0.40.0",
-    "via-reader": "git://github.com/the-via/reader.git#57fbd7617fc3995e7cac5ee8f8a4f868d28a0e1d",
+    "via-reader": "git://github.com/the-via/reader.git#8cedc0c7ad3d16b79e27edb37f08760ac81b6e3a",
     "yarn": "^1.22.0"
   }
 }
