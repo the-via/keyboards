@@ -10,7 +10,7 @@
     "layouts": {
       "labels": [
         "Split Backspace",
-        "Split LeftShift",
+        "Split Left Shift",
         "Split Space"
       ],
       "keymap": [
