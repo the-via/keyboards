@@ -2,10 +2,9 @@
   "name": "JP60",
   "vendorId": "0xa103",
   "productId": "0x0024",
-  "lighting": "qmk_backlight_rgblight",
+  "lighting": "none",
   "matrix": {"rows": 5, "cols": 14},
   "layouts": {
-    "labels": [],
     "keymap": [
       [
         {
