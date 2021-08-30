@@ -5,7 +5,6 @@ import {
   keyboardDefinitionV2ToVIADefinitionV2,
   getTheme,
   KeyboardDefinitionIndex,
-  DefinitionVersion,
   keyboardDefinitionV3ToVIADefinitionV3,
   isVIADefinitionV2,
   isVIADefinitionV3,
@@ -17,12 +16,12 @@ var packageJson = require('../package.json');
 export async function buildV3() {
   try {
     const v2DefinitionIds = await buildIsolatedDefinitions(
-      DefinitionVersion.v2,
+      'v2',
       keyboardDefinitionV2ToVIADefinitionV2,
       isVIADefinitionV2
     );
     const v3DefinitionIds = await buildIsolatedDefinitions(
-      DefinitionVersion.v3,
+      'v3',
       keyboardDefinitionV3ToVIADefinitionV3,
       isVIADefinitionV3
     );
