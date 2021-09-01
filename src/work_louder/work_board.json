@@ -1,5 +1,5 @@
 {
-    "name": "Work Louder Work Board",
+    "name": "Work Board",
     "vendorId": "0x574C",
     "productId": "0xDCD0",
     "lighting": "qmk_rgblight",
