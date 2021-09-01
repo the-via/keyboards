@@ -1,5 +1,5 @@
 {
-    "name": "Work Louder Nano",
+    "name": "Work Louder Nano Pad",
     "vendorId": "0x574C",
     "productId": "0xE6EF",
     "lighting": "qmk_rgblight",
