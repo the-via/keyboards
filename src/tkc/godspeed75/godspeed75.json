@@ -2,7 +2,7 @@
   "name": "GodSpeed75",
   "vendorId": "0x544B",
   "productId": "0x0006",
-  "lighting": "none",
+  "lighting": "qmk_rgblight",
   "matrix": {"rows": 12, "cols": 8},
   "layouts": {
     "labels": [

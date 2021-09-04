@@ -2,7 +2,7 @@
     "name": "waffling60 Rev B", 
     "vendorId": "0x4444",
     "productId": "0x0005",
-    "lighting": "qmk_backlight_rgblight",
+    "lighting": "qmk_rgblight",
     "matrix": {"rows": 5, "cols": 14},
     "layouts": {
            "labels": [
