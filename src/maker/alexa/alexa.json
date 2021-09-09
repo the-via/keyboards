@@ -160,8 +160,6 @@
         "4,14"
       ]
     ],
-    "layouts": {
-      "labels": ["Split Backspace"]
-    }
+    "labels": ["Split Backspace"]
   }
 }
