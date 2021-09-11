@@ -3,13 +3,15 @@
     "vendorId": "0x6653", 
     "productId": "0x063A",
     "lighting": "qmk_rgblight",
-    "matrix": { "rows": 5, "cols": 15 },
+    "matrix": { 
+       "rows": 5,
+       "cols": 15
+    },
     "layouts": {
         "labels":[
           "Split Backspace",
           "ISO Enter",
-          "Bottom row"
- 
+          "Bottom Row"
 		],
       "keymap": [
         [
