@@ -3,6 +3,10 @@
     "vendorId": "0x5043",
     "productId": "0x4D6F",
     "lighting": "none",
+    "customKeycodes": [
+        {"name": "DPI Config", "title": "DPI Config: Cycles through the DPI settings", "shortName": "DPI"},
+        {"name": "Drag Scroll", "title": "Drag Scroll: Enables you to scroll instead of moving the cursor", "shortName": "DragScl"}
+    ],
     "matrix": { "rows": 1, "cols": 8 },
     "layouts": {
         "keymap": [
