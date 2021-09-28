@@ -2,10 +2,7 @@
     "name": "DUO_S",
     "vendorId": "0x445A",
     "productId": "0X1012",
-    "lighting": {
-        "extends": "none",
-        "keycodes": "qmk_rgblight"
-    },
+    "lighting": "qmk_rgblight",
     "matrix": {
       "rows": 5,
       "cols": 15
