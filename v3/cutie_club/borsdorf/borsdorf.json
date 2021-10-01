@@ -3,7 +3,8 @@
     "vendorId": "0xFB9C",
     "productId": "0x6D8A",
     "firmwareVersion": 0,
-    "lighting": "none",
+    "keycodes": ["via/keycodes"],
+    "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
     "matrix": { "rows": 5, "cols": 15 },
     "layouts": {
         "labels": [
