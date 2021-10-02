@@ -8,8 +8,8 @@
     "labels": [
       "2U BackSpace",
       "ISO Enter",
-      "Right Shift Split",
-      "Left Shift ISO",
+      "Right Shift 2.75U",
+      "Left Shift 2.25U",
       [ "Bottom Row","1.25U x3/2.75U/1.25U/2.25U/1.25U x2", "1.25U x3/2.25U/1.25U/2.75U/1.25U x2", "1.25U x3/6.25U/1.25U x2", "1.5U/1U/1.5U/7U/1.5U", "1.25U x3/2.75U/1.25U/2.25U/1.5U x2", "1.25U x3/2.25U/1.25U/2.75U/1.5U x2", "1.25U x3/6.25U/1.5U x2", "1.5U x2/7U/1.5U x2", "1.25U x3/6.25U/1U x3", "1.25U x3/2.75U/1.25U/2.25U/1U x3" ]
     ],
     "keymap": [

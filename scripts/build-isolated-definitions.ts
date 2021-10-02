@@ -26,8 +26,7 @@ export const buildIsolatedDefinitions = async <
 ): Promise<number[]> => {
   const outputPath = `dist/${version}`;
 
-  const globPath =
-    version === DefinitionVersion.v2 ? 'src/**/*.json' : `${version}/**/*.json`;
+  const globPath = version === 'v2' ? 'src/**/*.json' : `${version}/**/*.json`;
   const paths = glob.sync(globPath, {absolute: true});
   const definitions: TInput[] = paths.map((f) => require(f));
 
