@@ -1,5 +1,5 @@
 {
-  "name": "Moonlander Mark I",
+  "name": "Moonlander Mark I (Unsupported by ZSA)",
   "vendorId": "0x3297",
   "productId": "0x1969",
   "lighting": "qmk_rgblight",
