@@ -1,7 +1,7 @@
 {
     "name": "RooPad",
-    "vendorId": "0x5453",
-    "productId": "0x0054",
+    "vendorId": "0x36b6",
+    "productId": "0x0001",
     "matrix": {"rows": 5, "cols": 5},
     "lighting": "qmk_rgblight",
     "layouts": {
