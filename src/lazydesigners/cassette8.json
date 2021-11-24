@@ -1,0 +1,13 @@
+{
+  "name": "Cassette8",
+  "vendorId": "0x4C44",
+  "productId": "0x0008",
+  "lighting":  "qmk_rgblight",
+  "matrix": {"rows": 2, "cols": 4},
+"layouts": {
+"keymap":  [
+  ["0,0","0,1","0,2","0,3"],
+  ["1,0","1,1","1,2","1,3"]
+]
+}
+}
