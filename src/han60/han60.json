@@ -6,8 +6,8 @@
   "matrix": { "rows": 5, "cols": 14 },
   "layouts": {
         "labels":[
-            "Split Backspace",
-            ["ANSI/ISO", "ANSI", "ISO"],
+      "Split Backspace",
+      ["ANSI/ISO", "ANSI", "ISO"],
 			"Split Left Shift",
 			["Bottom Right Cluster", "Standard", "Arrow Keys"]
         ],
