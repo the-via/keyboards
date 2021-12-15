@@ -1,7 +1,7 @@
 {
-  "name": "1.2OG Hoodrow",
+  "name": "Hoodrow-G",
   "vendorId": "0xCA04",
-  "productId": "0x0005",
+  "productId": "0x0006",
   "lighting": "qmk_rgblight",
   "matrix": {"rows": 12, "cols": 9},
   "layouts": {
