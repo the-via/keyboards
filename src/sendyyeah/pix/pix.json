@@ -1,8 +1,8 @@
 {
-    "name": "Nakal4x",
+    "name": "Pix",
     "vendorId": "0x5359",
     "productId": "0x4e34",
-    "lighting": "none",
+    "lighting": "qmk_backlight_rgblight",
     "matrix": {
         "rows": 1,
         "cols": 5
