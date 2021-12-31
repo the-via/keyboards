@@ -2,9 +2,7 @@
   "name": "Minivan",
   "vendorId": "0xFEAE",
   "productId": "0x8844",
-  "lighting": {
-    "extends": "none"
-  },
+  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 4,
     "cols": 12
