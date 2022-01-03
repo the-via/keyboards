@@ -4,7 +4,7 @@
 	"productId": "0x7501",
 	"lighting": "qmk_backlight_rgblight",
 	"matrix": {
-		"rows": 7,
+		"rows": 6,
 		"cols": 15
 	},
 	"layouts": {
