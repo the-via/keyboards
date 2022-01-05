@@ -5,10 +5,8 @@
   "lighting": "qmk_rgblight",
   "matrix": {"rows": 6, "cols": 15},
   "customKeycodes": [
-    {"name": "KC_MISSION_CONTROL", "title": "KC_MISSION_CONTROL", "shortName": "MCTL"},
-    {"name": "KC_LAUNCHPAD", "title": "KC_LAUNCHPAD", "shortName": "LPAD"},
-    {"name": "KC_TASK", "title": "KC_TASK", "shortName": "TASK"},
-    {"name": "KC_FLXP", "title": "KC_FLXP", "shortName": "FILE"}
+    {"name": "Mission Control", "title": "Mission Control in macOS", "shortName": "Mission Control"},
+    {"name": "Launch Pad", "title": "Launch Pad in macOS", "shortName": "Launch Pad"}
   ],
   "layouts": {
     "keymap": [
