@@ -6,10 +6,10 @@
   "matrix": {"rows": 5, "cols": 15},
   "layouts": {
     "labels": [
-      "Split BackSpace",
+      "BackSpace 2U",
       "ISO Enter",
-      "Right Shift Split",
-      "Left Shift ISO",
+      "Right Shift 2.75U",
+      "Left Shift 2.25U",
       [
        "Bottom Row",
        "Split Space 1",
