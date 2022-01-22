@@ -159,7 +159,7 @@
           "c": "#aaaaaa",
           "w": 2.75
         },
-        "4,12",
+        "4,12\n\n\n2,0",
         {
           "x": 1.25,
           "c": "#777777"
@@ -249,7 +249,9 @@
       ]
     ],
     "labels": [
-      ["Bottom Row", "6.25U Space", "7U Space"]
+      ["Bottom Row", "6.25U Space", "7U Space"],
+      "Split Backspace",
+      "Split Right Shift"
     ]
   }
 }
