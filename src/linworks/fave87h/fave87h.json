@@ -1,9 +1,9 @@
 {
     "name": "FAve 87H",
-    "vendorId": "0x5453",
-    "productId": "0x0058",
+    "vendorId": "0x4C58",
+    "productId": "0x0003",
     "matrix": {"rows": 6, "cols": 17},
-    "lighting": "qmk_rgblight",
+    "lighting": "none",
     "layouts": {
       "labels": [
         "Split Backspace"
