@@ -11,6 +11,7 @@ import {
 } from 'via-reader';
 import stringify from 'json-stringify-pretty-compact';
 import {buildIsolatedDefinitions} from './build-isolated-definitions';
+import {getCommonMenusPath, getOutputPath } from './get-path';
 var packageJson = require('../package.json');
 
 export async function buildV3() {
@@ -36,10 +37,10 @@ export async function buildV3() {
       },
     };
 
-    fs.writeFileSync('dist/supported_kbs.json', stringify(definitionIndex));
+    fs.writeFileSync(`${getOutputPath()}/supported_kbs.json`, stringify(definitionIndex));
 
     // Read all common-menus configurations asynchronously.
-    const commonMenusFiles = glob.sync('common-menus/**.json');
+    const commonMenusFiles = glob.sync(`${getCommonMenusPath()}/**.json`);
     const commonMenusJson = {} as Record<string, string>;
     const commonMenusReaders = commonMenusFiles.map((commonMenuFile) => {
       return fs.promises.readFile(commonMenuFile, 'utf8');
@@ -54,7 +55,7 @@ export async function buildV3() {
 
         commonMenusJson[fileName] = JSON.parse(menu);
       });
-      fs.writeFileSync('dist/common-menus.json', stringify(commonMenusJson));
+      fs.writeFileSync(`${getOutputPath()}/common-menus.json`, stringify(commonMenusJson));
     });
   } catch (error) {
     console.error(error);

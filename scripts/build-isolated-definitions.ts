@@ -8,6 +8,7 @@ import {
   DefinitionVersion,
 } from 'via-reader';
 import {ValidateFunction} from 'via-reader/dist/validated-types/via-definition-v3.validator';
+import {getDefinitionsPath, getOutputPath} from './get-path'
 
 /**
  * Builds keyboard definitions into separate valid VIA definitions
@@ -24,10 +25,9 @@ export const buildIsolatedDefinitions = async <
   mapper: (definition: TInput) => TOutput,
   validator: ValidateFunction<TOutput>
 ): Promise<number[]> => {
-  const outputPath = `dist/${version}`;
-
-  const globPath = version === 'v2' ? 'src/**/*.json' : `${version}/**/*.json`;
-  const paths = glob.sync(globPath, {absolute: true});
+  const outputPath = `${getOutputPath()}/${version}`;
+  const definitionsPath = getDefinitionsPath(version);
+  const paths = glob.sync(definitionsPath, {absolute: true});
   const definitions: TInput[] = paths.map((f) => require(f));
 
   // Map KeyboardDefinition to VIADefintion and valiate. Don't write invalid definitions.
