@@ -1,7 +1,7 @@
 {
     "name": "FAve 84H",
-    "vendorId": "0x5453",
-    "productId": "0x0059",
+    "vendorId": "0x4C58",
+    "productId": "0x0004",
     "matrix": {"rows": 6, "cols": 17},
     "lighting": "qmk_rgblight",
     "layouts": {
