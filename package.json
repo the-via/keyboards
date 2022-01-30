@@ -1,8 +1,11 @@
 {
-  "name": "keyboards",
+  "name": "via-keyboards",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
+  "bin": {
+    "via-keyboards": "./bin/cli.js"
+  },
   "scripts": {
     "build": "ts-node scripts/build-all.ts",
     "build-v2": "ts-node scripts/build-v2.ts",
