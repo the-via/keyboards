@@ -20,9 +20,7 @@
   },
   "homepage": "https://github.com/the-via/keyboards#readme",
   "devDependencies": {
-    "microbundle": "^0.11.0",
-    "ts-node": "^8.4.1",
-    "typescript": "^3.6.4"
+    "microbundle": "^0.11.0"
   },
   "dependencies": {
     "@types/bluebird": "^3.5.28",
@@ -33,6 +31,8 @@
     "bluebird": "^3.7.1",
     "json-stringify-pretty-compact": "^2.0.0",
     "rimraf": "^3.0.0",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.4",
     "ts-node-dev": "^1.0.0-pre.43",
     "typescript-json-schema": "^0.40.0",
     "via-reader": "git://github.com/the-via/reader.git#57fbd7617fc3995e7cac5ee8f8a4f868d28a0e1d",
