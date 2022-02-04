@@ -2,7 +2,7 @@
     "name": "Noxary 268.2 RGB",
     "vendorId": "0x4e58",
     "productId": "0x0A7C",
-    "lighting": "qmk_backlight",
+    "lighting": "qmk_rgblight",
     "matrix": {
       "rows": 5,
       "cols": 16
