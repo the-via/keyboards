@@ -1,7 +1,7 @@
 {
   "name": "Portico68 v2",
   "vendorId": "0x544B",
-  "productId": "0x0011",
+  "productId": "0x0012",
   "lighting": {
       "extends": "qmk_rgblight",
       "keycodes": "qmk",
