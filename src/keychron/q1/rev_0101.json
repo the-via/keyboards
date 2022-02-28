@@ -1,7 +1,7 @@
 {
   "name": "Keychron Q1",
   "vendorId": "0x3434",
-  "productId": "0x0100",
+  "productId": "0x0101",
   "lighting": {
     "extends": "qmk_rgblight",
     "underglowEffects": [
@@ -29,8 +29,8 @@
     {"name": "File Explorer", "title": "File Explorer in windows", "shortName": "File Explorer"}
   ],
   "layouts": {
-    "keymap":[
-   [
+    "keymap": [
+  [
     {
       "c": "#777777"
     },
@@ -63,13 +63,24 @@
     },
     "4,14",
     {
-      "x": 0.25
+      "x": 0.25,
+      "w": 0.75
     },
-    "0,14"
+    "0,14",
+    {
+      "h": 0.5
+    },
+    "5,7",
+    {
+      "x": -1,
+      "y": 0.5,
+      "h": 0.5
+    },
+    "5,8"
   ],
   [
     {
-      "y": 0.25
+      "y": -0.25
     },
     "1,0",
     {
@@ -185,7 +196,7 @@
     {
       "y": -0.75,
       "x": 14.25,
-      "c": "#aaaaaa"
+      "c": "#777777"
     },
     "3,12"
   ],
@@ -222,7 +233,7 @@
     {
       "y": -0.75,
       "x": 13.25,
-      "c": "#aaaaaa"
+      "c": "#777777"
     },
     "5,13",
     "4,12",
