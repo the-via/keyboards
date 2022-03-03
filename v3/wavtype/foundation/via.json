@@ -2,6 +2,9 @@
     "name": "foundation",
     "vendorId": "0x03a7",
     "productId": "0x0003",
+	"firmwareVersion": 0,
+	"keycodes": ["via/keycodes"],
+	"menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
     "lighting": "qmk_rgblight",
     "matrix": {
         "rows": 5,
