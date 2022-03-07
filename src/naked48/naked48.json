@@ -1,9 +1,9 @@
 {
-    "name": "naekd48",
+    "name": "naked48",
     "vendorId": "0x04D8",
     "productId": "0xE8BA",
     "lighting": "qmk_rgblight",
-    "matrix": { "rows": 4, "cols": 12 },
+    "matrix": { "rows": 8, "cols": 12 },
     "layouts": {
         "keymap": [
             ["0,0","0,1","0,2","0,3","0,4","0,5",{"x":2},"0,6","0,7","0,8","0,9","0,10","0,11"],
