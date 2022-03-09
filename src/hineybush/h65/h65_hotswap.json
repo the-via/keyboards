@@ -1,5 +1,5 @@
 {
-  "name": "h65",
+  "name": "h65_hotswap",
   "vendorId": "0x04D8",
   "productId": "0xE8B7",
   "lighting": "qmk_backlight_rgblight",
