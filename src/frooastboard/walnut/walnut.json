@@ -4,6 +4,7 @@
   "productId": "0x776E",
   "lighting": {
     "extends": "qmk_rgblight",
+    "keycodes": "qmk",
     "underglowEffects": [
       ["None", 0],
       ["Solid Color", 1],
@@ -34,12 +35,6 @@
       ["Hue Wave", 1],
       ["Pixel Rain", 1],
       ["Pixel Flow", 1]
-    ],
-    "supportedLightingValues": [
-      128,
-      129,
-      130,
-      131
     ]
   },
   "matrix": {
