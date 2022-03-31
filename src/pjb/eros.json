@@ -12,7 +12,7 @@
 			"labels": [
 		["Backspace", "Full Backspace", "Split Backspace"],
 		["Right Shift", "Full Right Shift", "Split Right Shift"],
-		["Bottom Row", "7u", "6.25u"]
+		["Bottom Row", "6.25u", "7u"]
 		],
             "keymap": [
   [
