@@ -1,7 +1,7 @@
 {
     "name": "Capsule65",
-    "vendorId": "0xF21E",
-    "productId": "0x6E6E",
+    "vendorId": "0x5215",
+    "productId": "0x6263",
     "lighting": "qmk_rgblight",
     "matrix": { "rows": 5, "cols": 16 },
     "layouts": {
