@@ -1,6 +1,6 @@
 {
 	"name": "glacier80 Hotswap",
-	"vendorId": "0xFEED",
+	"vendorId": "0x0410",
 	"productId": "0x6060",
 	"lighting": "none",
 	"matrix": {
