@@ -1,7 +1,7 @@
 {
   "name": "IDOBAO ID42",
-  "vendorId": "0x416D",
-  "productId": "0x4E45",
+  "vendorId": "0x6964",
+  "productId": "0x0042",
   "lighting": {
     "extends": "qmk_rgblight",
     "supportedLightingValues": [
