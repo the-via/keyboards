@@ -1,0 +1,22 @@
+{
+  "name": "Retropad",
+  "vendorId": "0x04D8",
+  "productId": "0xEB0C",
+  "firmwareVersion": 0,
+  "keycodes": ["via/keycodes", "via/qmk_lighting"],
+  "menus": [
+    "via/keymap",
+    "via/layouts",
+    "via/macros",
+    "via/save_load",
+    "core/qmk_rgblight"
+  ],
+  "matrix": {"rows": 3, "cols": 2},
+  "layouts": {
+    "keymap": [
+      [{"x": 0.5, "c": "#aaaaaa"}, "0,1"],
+      [{"y": 0.5, "c": "#777777"}, "1,0", "1,1"],
+      ["2,0", "2,1"]
+    ]
+  }
+}

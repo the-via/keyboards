@@ -1,0 +1,10 @@
+{
+  "name": "Nakal4x",
+  "vendorId": "0x5359",
+  "productId": "0x4e34",
+  "firmwareVersion": 0,
+  "keycodes": ["via/keycodes"],
+  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
+  "matrix": {"rows": 1, "cols": 5},
+  "layouts": {"keymap": [["0,0", "0,1", "0,2", "0,3", "0,4"]]}
+}
