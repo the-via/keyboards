@@ -1,7 +1,7 @@
 {
     "name": "AKIRA",
-    "vendorId": "0x4338",
-    "productId": "0x0000",
+    "vendorId": "0x4B58",
+    "productId": "0x414B",
     "lighting": "none",
     "matrix": {
         "rows": 5,
