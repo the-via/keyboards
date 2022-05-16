@@ -55,8 +55,8 @@
     "customKeycodes": [
         {"name": "Mac MCon", "title": "macOS Mission Control", "shortName": "MCon"},
         {"name": "Mac LPad", "title": "macOS Launchpad", "shortName": "LPad"},
-        {"name": "", "title": "{undefined}", "shortName": ""},
-        {"name": "", "title": "{undefined}", "shortName": ""},
+        {"name": "Toggle Per-key", "title": "RGB_TPK", "shortName": "RGB T/PK"},
+        {"name": "Toggle Under Glow", "title": "RGB_TUG", "shortName": "RGB T/UG"},
         {"name": "", "title": "{undefined}", "shortName": ""},
         {"name": "", "title": "{undefined}", "shortName": ""},
         {"name": "", "title": "{undefined}", "shortName": ""},
