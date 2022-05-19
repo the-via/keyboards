@@ -41,13 +41,13 @@
     "customKeycodes": [
         {"name": "", "title": "{undefined}", "shortName": ""},
         {"name": "", "title": "{undefined}", "shortName": ""},
+        {"name": "Toggle Per-key", "title": "RGB_TPK", "shortName": "RGB T/PK"},
+        {"name": "Toggle Under Glow", "title": "RGB_TUG", "shortName": "RGB T/UG"},
         {"name": "", "title": "{undefined}", "shortName": ""},
         {"name": "", "title": "{undefined}", "shortName": ""},
         {"name": "", "title": "{undefined}", "shortName": ""},
         {"name": "", "title": "{undefined}", "shortName": ""},
-        {"name": "", "title": "{undefined}", "shortName": ""},
-        {"name": "", "title": "{undefined}", "shortName": ""},
-        {"name": "NumLk LED", "title": "Disable NumLock LED", "shortName": "KB_NLED"},
+        {"name": "Toggle NumLk LED", "title": "Toggle NumLock LED Feature", "shortName": "NumLk LED"},
         {"name": "Version", "title": "Type Firmware Version", "shortName": "Ver?"}
     ],    
     "matrix": { "rows": 6, "cols": 5 },
