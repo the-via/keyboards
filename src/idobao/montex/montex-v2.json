@@ -39,15 +39,15 @@
         ]
     },
     "customKeycodes": [
+        {"name": "", "title": "{undefined}", "shortName": ""},
+        {"name": "", "title": "{undefined}", "shortName": ""},
+        {"name": "", "title": "{undefined}", "shortName": ""},
+        {"name": "", "title": "{undefined}", "shortName": ""},
+        {"name": "", "title": "{undefined}", "shortName": ""},
+        {"name": "", "title": "{undefined}", "shortName": ""},
+        {"name": "", "title": "{undefined}", "shortName": ""},
+        {"name": "", "title": "{undefined}", "shortName": ""},
         {"name": "NumLk LED", "title": "Disable NumLock LED", "shortName": "KB_NLED"},
-        {"name": "", "title": "{undefined}", "shortName": ""},
-        {"name": "", "title": "{undefined}", "shortName": ""},
-        {"name": "", "title": "{undefined}", "shortName": ""},
-        {"name": "", "title": "{undefined}", "shortName": ""},
-        {"name": "", "title": "{undefined}", "shortName": ""},
-        {"name": "", "title": "{undefined}", "shortName": ""},
-        {"name": "", "title": "{undefined}", "shortName": ""},
-        {"name": "", "title": "{undefined}", "shortName": ""},
         {"name": "Version", "title": "Type Firmware Version", "shortName": "Ver?"}
     ],    
     "matrix": { "rows": 6, "cols": 5 },
