@@ -1,7 +1,7 @@
 {
 	"name": "Fourier",
 	"vendorId": "0xCB10",
-	"productId": "0x1248",
+	"productId": "0x1247",
 	"lighting": "qmk_rgblight",
 	"matrix": {
 	  "rows": 8,
@@ -105,7 +105,7 @@
 			"c": "#cccccc",
 			"w": 2.75
 		  },
-		  "3,3",
+		  "3,4",
 		  {
 			"x": 1,
 			"w": 2.25
