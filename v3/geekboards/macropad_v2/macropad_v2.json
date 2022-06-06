@@ -1,0 +1,21 @@
+{
+  "name": "Geekboards Macropad v2",
+  "vendorId": "0x0483",
+  "productId": "0xA372",
+  "firmwareVersion": 0,
+  "keycodes": ["via/keycodes", "via/qmk_lighting"],
+  "menus": [
+    "via/keymap",
+    "via/layouts",
+    "via/macros",
+    "via/save_load",
+    "!!!WILBA!!!"
+  ],
+  "customKeycodes": [
+    {"name": "Super Alt Tab", "title": "Super Alt Tab", "shortName": "AltTab"}
+  ],
+  "matrix": {"rows": 2, "cols": 4},
+  "layouts": {
+    "keymap": [["0,0", "0,1", "0,2", "0,3"], ["1,0", "1,1", "1,2", "1,3"]]
+  }
+}
