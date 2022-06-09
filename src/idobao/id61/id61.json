@@ -58,7 +58,7 @@
         {"name": "Toggle Arrows", "title": "Toggle Right Keys are Arrows feature", "shortName": "Tgg Arrws"},
         {"name": "Shift | Up", "title": "KC_RSFT or KC_UP", "shortName": "RShift | Up"},
         {"name": "Alt | Left", "title": "KC_RALT or KC_LEFT", "shortName": "RAlt | Left"},
-        {"name": "Menu | Down", "title": "KC_MENU or KC_DOWN", "shortName": "Menu | Down"},
+        {"name": "Menu | Down", "title": "KC_APP or KC_DOWN", "shortName": "Menu | Down"},
         {"name": "Cmnd | Left", "title": "KC_RGUI or KC_LEFT", "shortName": "RCmnd| Left"},
         {"name": "Opt | Down", "title": "KC_RALT or KC_DOWN", "shortName": "ROpt | Down"},
         {"name": "Ctrl | Right", "title": "KC_RCTL or KC_RGHT", "shortName": "RCtrl | Right"},
