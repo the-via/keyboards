@@ -6,9 +6,9 @@
     "matrix": {"rows": 5, "cols": 15},
     "layouts": {
       "labels": [
-          "Split Back Space",
-          "Split Right Shift",
-          "Split Space" 
+          "2U Back Space",
+          "2.75U Right Shift",
+          "2.25U Left Space" 
       ],
       "keymap": [
         [
