@@ -99,7 +99,7 @@
         "5,4",
         "4,5",
         "5,5",
-        "5,6",
+        "4,6",
         {
           "w": 1.5
         },
@@ -219,7 +219,7 @@
         {
           "w": 1.25
         },
-        "10,0\n\n\n3,0",
+        "10,1\n\n\n3,0",
         {
           "c": "#cccccc",
           "w": 6.25
@@ -256,7 +256,7 @@
         {
           "w": 1.5
         },
-        "10,0\n\n\n3,1",
+        "11,0\n\n\n3,1",
         {
           "c": "#cccccc",
           "w": 7
@@ -275,12 +275,14 @@
       "ISO Enter",
       "Split Left Shift",
       [
-        "Standard Bottom Row",
-        "Winkeyless"
+      	"Bottom Row",
+        "Standard",
+        "WKL"
       ],
       [
-        "2x 1.5u Mods",
-        "3x 1u Mods"
+      	"Right Mods",
+        "2x1.5",
+        "3x1"
       ]
     ]
   }

@@ -1,0 +1,219 @@
+{
+  "name": "RAMA WORKS M50-A",
+  "vendorId": "0x5241",
+  "productId": "0x050a",
+  "firmwareVersion": 0,
+  "keycodes": ["via/keycodes", "via/wt_lighting"],
+  "menus": [
+    "via/keymap",
+    "via/layouts",
+    "via/macros",
+    "via/save_load",
+    {
+      "label": "Lighting",
+      "content": [
+        {
+          "label": "General",
+          "content": [
+            {
+              "label": "Brightness",
+              "type": "range",
+              "content": ["brightness", 0, 9],
+              "options": [0, 255]
+            },
+            {
+              "label": "Effect",
+              "type": "dropdown",
+              "options": [
+                ["All Off", 0],
+                ["Solid Color 1", 1],
+                ["Alphas/Mods Color 1/2", 2],
+                ["Gradient Vertical Color 1/2", 3],
+                ["Raindrops Color 1/2", 4],
+                ["Cycle All", 5],
+                ["Cycle Horizontal", 6],
+                ["Cycle Vertical", 7],
+                ["Jellybean Raindrops", 8],
+                ["Radial All Hues", 9],
+                ["Radial Color 1", 10]
+              ],
+              "content": ["effect", 0, 10]
+            },
+            {
+              "label": "Effect Speed",
+              "type": "range",
+              "options": [0, 3],
+              "content": ["effectSpeed", 0, 11]
+            },
+            {
+              "showIf": "{effect} == 1 || {effect} == 2 || {effect} == 3 || {effect} == 4 || {effect} == 10",
+              "content": [
+                {
+                  "label": "Color 1",
+                  "type": "color",
+                  "content": ["color1", 0, 12]
+                }
+              ]
+            },
+            {
+              "showIf": "{effect} == 2 || {effect} == 3 || {effect} == 4",
+              "content": [
+                {
+                  "label": "Color 2",
+                  "type": "color",
+                  "content": ["color2", 0, 13]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Advanced",
+          "content": [
+            {
+              "label": "Disable backlight when USB is suspended",
+              "type": "toggle",
+              "content": ["backlightDisableWhenUsbSuspended", 0, 7]
+            },
+            {
+              "label": "Disable backlight after timeout",
+              "type": "range",
+              "options": [0, 255],
+              "unit": "mins",
+              "content": ["backlightDisableAfterTimeout", 0, 8]
+            },
+            {
+              "label": "Caps Lock indicator",
+              "type": "toggle",
+              "options": [
+                [255, 0],
+                [254, 0]
+              ],
+              "content": ["backlightCapsLockIndicator", 0, 15]
+            },
+            {
+              "label": "Caps Lock indicator color",
+              "type": "color",
+              "showIf": "{backlightCapsLockIndicator.0} == 254",
+              "content": ["backlightCapsLockIndicatorColor", 0, 14]
+            },
+            {
+              "label": "Layer 1 indicator",
+              "type": "toggle",
+              "options": [
+                [255, 0],
+                [254, 0]
+              ],
+              "content": ["backlightLayer1_Indicator", 0, 17]
+            },
+            {
+              "label": "Layer 1 indicator color",
+              "type": "color",
+              "showIf": "{backlightLayer1_Indicator.0} == 254",
+              "content": ["backlightLayer1_IndicatorColor", 0, 16]
+            },
+            {
+              "label": "Layer 2 indicator",
+              "type": "toggle",
+              "options": [
+                [255, 0],
+                [254, 0]
+              ],
+              "content": ["backlightLayer2_Indicator", 0, 19]
+            },
+            {
+              "label": "Layer 2 indicator color",
+              "type": "color",
+              "showIf": "{backlightLayer2_Indicator.0} == 254",
+              "content": ["backlightLayer2_IndicatorColor", 0, 18]
+            },
+            {
+              "label": "Layer 3 indicator",
+              "type": "toggle",
+              "options": [
+                [255, 0],
+                [254, 0]
+              ],
+              "content": ["backlightLayer3_Indicator", 0, 21]
+            },
+            {
+              "label": "Layer 3 indicator color",
+              "type": "color",
+              "showIf": "{backlightLayer3_Indicator.0} == 254",
+              "content": ["backlightLayer3_IndicatorColor", 0, 20]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "matrix": {"rows": 4, "cols": 13},
+  "layouts": {
+    "keymap": [
+      [
+        "0,0",
+        {"x": 0.25},
+        "0,1",
+        "0,2",
+        "0,3",
+        "0,4",
+        "0,5",
+        "0,6",
+        "0,7",
+        "0,8",
+        "0,9",
+        "0,10",
+        "0,11",
+        "0,12"
+      ],
+      [
+        "1,0",
+        {"x": 0.25},
+        "1,1",
+        "1,2",
+        "1,3",
+        "1,4",
+        "1,5",
+        "1,6",
+        "1,7",
+        "1,8",
+        "1,9",
+        "1,10",
+        "1,11",
+        "1,12"
+      ],
+      [
+        "2,0",
+        {"x": 0.25},
+        "2,1",
+        "2,2",
+        "2,3",
+        "2,4",
+        "2,5",
+        "2,6",
+        "2,7",
+        "2,8",
+        "2,9",
+        "2,10",
+        "2,11",
+        "2,12"
+      ],
+      [
+        "3,0",
+        {"x": 0.25},
+        "3,1",
+        "3,2",
+        "3,3",
+        "3,4",
+        "3,5",
+        {"w": 2},
+        "3,6",
+        "3,8",
+        "3,9",
+        "3,10",
+        "3,11",
+        "3,12"
+      ]
+    ]
+  }
+}

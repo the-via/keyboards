@@ -3,6 +3,9 @@
   "vendorId": "0xD60D",
   "productId": "0x3200",
   "lighting": "none",
+  "customKeycodes": [
+      {"name": "Toggle WinKey Lock", "title": "Toggle WinKey Lock", "shortName": "WinLock"}
+  ],
   "matrix": {
     "rows": 7,
     "cols": 16
