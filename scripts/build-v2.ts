@@ -25,7 +25,12 @@ export async function buildV2() {
       theme: getTheme(),
       definitions: v2Definitions
         .map(keyboardDefinitionV2ToVIADefinitionV2)
-        .reduce((p, n) => ({...p, [n.vendorProductId]: n}), {}),
+        .reduce((p, n) => {
+          if (n.vendorProductId in p) {
+            throw new Error('Duplicate id found);
+          }
+          return {...p, [n.vendorProductId]: n}
+        }, {}),
     };
 
     const outputPath = getOutputPath();
