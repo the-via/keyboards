@@ -1,0 +1,10 @@
+{
+  "name": "Stealth",
+  "vendorId": "0x9624",
+  "productId": "0x0010",
+  "firmwareVersion": 0,
+  "keycodes": ["via/keycodes"],
+  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
+  "matrix": {"rows": 1, "cols": 3},
+  "layouts": {"keymap": [[{"w": 2.25}, "0,0"], [{"w": 1.25}, "0,1", "0,2"]]}
+}
