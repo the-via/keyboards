@@ -21,7 +21,7 @@
     "url": "git+https://github.com/the-via/keyboards.git"
   },
   "author": "",
-  "license": "UNLICENSED",
+  "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/the-via/keyboards/issues"
   },
@@ -38,7 +38,7 @@
     "@types/glob": "^7.1.1",
     "@types/rimraf": "^2.0.3",
     "add": "^2.0.6",
-    "ajv": "^6.10.2",
+    "ajv": "^6.12.3",
     "bluebird": "^3.7.1",
     "fs-extra": "^9.1.0",
     "json-stringify-pretty-compact": "^2.0.0",
@@ -47,7 +47,7 @@
     "ts-node-dev": "^1.0.0-pre.43",
     "typescript": "^3.6.4",
     "typescript-json-schema": "^0.40.0",
-    "via-reader": "https://github.com/the-via/reader.git#f2fbf9cf87adfec271d1953e43ab9c037776535f",
+    "via-reader": "https://github.com/the-via/reader.git#b4d7c58ade1b338310bd883068e3a21c18c42eb3",
     "yarn": "^1.22.0"
   }
 }
