@@ -3,9 +3,57 @@
   "vendorId": "0x3434",
   "productId": "0x0100",
   "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
+  "keycodes": ["via/keycodes", "via/qmk_lighting"],
+  "menus": [
+    "via/keymap",
+    "via/layouts",
+    "via/macros",
+    "via/save_load",
+    "!!!WILBA!!!"
+  ],
   "matrix": {"rows": 6, "cols": 15},
+  "customKeycodes": [
+    {
+      "name": "Mission Control",
+      "title": "Mission Control in macOS",
+      "shortName": "Mission Control"
+    },
+    {
+      "name": "Launch Pad",
+      "title": "Launch Pad in macOS",
+      "shortName": "Launch Pad"
+    },
+    {
+      "name": "Left Option",
+      "title": "Left Option in macOS",
+      "shortName": "Left Option"
+    },
+    {
+      "name": "Right Option",
+      "title": "Right Option in macOS",
+      "shortName": "Right Option"
+    },
+    {
+      "name": "Left Cmd",
+      "title": "Left Command in macOS",
+      "shortName": "Left Command"
+    },
+    {
+      "name": "Right Cmd",
+      "title": "Right Command in macOS",
+      "shortName": "Right Command"
+    },
+    {
+      "name": "Task View",
+      "title": "Task View in windows",
+      "shortName": "Task View"
+    },
+    {
+      "name": "File Explorer",
+      "title": "File Explorer in windows",
+      "shortName": "File Explorer"
+    }
+  ],
   "layouts": {
     "keymap": [
       [

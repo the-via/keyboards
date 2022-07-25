@@ -1,0 +1,16 @@
+{
+  "name": "BN009",
+  "vendorId": "0x4249",
+  "productId": "0x4295",
+  "firmwareVersion": 0,
+  "keycodes": ["via/keycodes"],
+  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
+  "matrix": {"rows": 3, "cols": 3},
+  "layouts": {
+    "keymap": [
+      ["0,0", "0,1", "0,2"],
+      ["1,0", "1,1", "1,2"],
+      ["2,0", "2,1", "2,2"]
+    ]
+  }
+}
