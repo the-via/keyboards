@@ -4,7 +4,7 @@
   "productId": "0x001C",
   "firmwareVersion": 0,
   "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
+  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load", "core/qmk_audio"],
   "matrix": {"rows": 5, "cols": 16},
   "layouts": {
     "labels": [

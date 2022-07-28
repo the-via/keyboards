@@ -9,7 +9,7 @@
     "via/layouts",
     "via/macros",
     "via/save_load",
-    "!!!WILBA!!!"
+    "core/qmk_rgblight"
   ],
   "matrix": {"rows": 10, "cols": 13},
   "layouts": {
