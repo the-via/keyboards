@@ -69,13 +69,10 @@
             "content": ["id_qmk_rgblight_effect_speed", 2, 3]
           },
           {
-            "content": [
-              {
-                "label": "Color",
-                "type": "color",
-                "content": ["id_qmk_rgblight_color", 2, 4]
-              }
-            ]
+            "showIf": "{id_qmk_rgblight_effect} != 0",
+            "label": "Color",
+            "type": "color",
+            "content": ["id_qmk_rgblight_color", 2, 4]
           }
         ]
       }
