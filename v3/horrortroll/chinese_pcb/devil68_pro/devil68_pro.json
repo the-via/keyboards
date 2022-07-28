@@ -9,7 +9,7 @@
     "via/layouts",
     "via/macros",
     "via/save_load",
-    "!!!WILBA!!!"
+    "core/qmk_rgb_matrix"
   ],
   "matrix": {"rows": 5, "cols": 16},
   "layouts": {

@@ -8,8 +8,7 @@
     "via/keymap",
     "via/layouts",
     "via/macros",
-    "via/save_load",
-    "!!!WILBA!!!"
+    "via/save_load"
   ],
   "matrix": {"rows": 5, "cols": 15},
   "layouts": {
