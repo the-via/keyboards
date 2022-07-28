@@ -2,6 +2,7 @@
   "name": "Frooastboard Walnut",
   "vendorId": "0x4642",
   "productId": "0x776E",
+  "firmwareVersion": 0,
   "keycodes": ["via/keycodes", "via/qmk_lighting"],
   "menus": [
     "via/keymap",
