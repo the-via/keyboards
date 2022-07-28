@@ -2,6 +2,7 @@
   "name":"Xelus LA+",
   "vendorId":"0x5845",
   "productId":"0x4C50",
+  "firmwareVersion": 0,
   "keycodes": ["via/keycodes", "via/qmk_lighting"],
   "menus": [
     "via/keymap",
