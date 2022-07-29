@@ -2,9 +2,7 @@
   "name": "MelGeek Mach80 rev1",
   "vendorId": "0xEDED",
   "productId": "0x0080",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
+  "keycodes": ["qmk_lighting"],
   "matrix": {"rows": 6, "cols": 16},
   "layouts": {
     "labels": [["Bottom Row", "6.25U", "7U"]],

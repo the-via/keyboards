@@ -2,9 +2,6 @@
   "name": "Gizmo Engineering GK6",
   "vendorId": "0x6532",
   "productId": "0x0001",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 5, "cols": 12},
   "layouts": {
     "labels": [["Bottom Row", "Default", "1x2U", "5x12 1U"]],

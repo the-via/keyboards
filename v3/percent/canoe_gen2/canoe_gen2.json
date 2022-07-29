@@ -2,9 +2,7 @@
   "name": "Percent Canoe Gen2",
   "vendorId": "0x9C12",
   "productId": "0x89F0",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
+  "keycodes": ["qmk_lighting"],
   "matrix": {"rows": 5, "cols": 15},
   "layouts": {
     "labels": [

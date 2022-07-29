@@ -2,15 +2,8 @@
   "name": "Loop Pad",
   "vendorId": "0x574C",
   "productId": "0x1DF8",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_rgblight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_rgblight"],
   "customKeycodes": [
     {
       "name": "RGB Matrix Toggle",

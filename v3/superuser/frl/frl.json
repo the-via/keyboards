@@ -2,9 +2,6 @@
   "name": "Superuser FRL",
   "vendorId": "0x5355",
   "productId": "0x4652",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 5, "cols": 17},
   "layouts": {
     "labels": [

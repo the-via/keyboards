@@ -2,15 +2,8 @@
   "name": "Runes Vaengr",
   "vendorId": "0x726E",
   "productId": "0x7661",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_rgblight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_rgblight"],
   "matrix": {"rows": 5, "cols": 12},
   "layouts": {
     "keymap": [

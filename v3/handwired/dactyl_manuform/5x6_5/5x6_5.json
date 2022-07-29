@@ -2,9 +2,6 @@
   "name": "Dactyl Manuform (5x6-5)",
   "vendorId": "0x444D",
   "productId": "0x3536",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 12, "cols": 6},
   "layouts": {
     "keymap": [

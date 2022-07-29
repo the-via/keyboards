@@ -2,9 +2,6 @@
   "name": "Mysterium",
   "vendorId": "0x6B62",
   "productId": "0x8769",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 6, "cols": 18},
   "layouts": {
     "labels": [
