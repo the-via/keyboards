@@ -2,13 +2,8 @@
   "name": "Geekboards Macropad v2",
   "vendorId": "0x0483",
   "productId": "0xA372",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
+  "keycodes": ["qmk_lighting"],
   "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
     {
       "label": "Lighting",
       "content": [

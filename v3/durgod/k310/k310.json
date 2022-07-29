@@ -2,9 +2,6 @@
   "name": "DURGOD Taurus K310",
   "vendorId": "0xD60D",
   "productId": "0x3100",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "customKeycodes": [
     {
       "name": "Toggle WinKey Lock",

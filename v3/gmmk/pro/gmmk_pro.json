@@ -2,9 +2,6 @@
   "name": "GMMK Pro",
   "vendorId": "0x320F",
   "productId": "0x5044",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 11, "cols": 8},
   "layouts": {
     "labels": ["ISO Enter", "Split Left Shift"],

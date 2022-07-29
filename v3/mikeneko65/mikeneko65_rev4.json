@@ -2,9 +2,6 @@
   "name": "Mikeneko 65 V4",
   "vendorId": "0x7934",
   "productId": "0x6D54",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 5, "cols": 15},
   "layouts": {
     "keymap": [

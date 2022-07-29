@@ -2,15 +2,8 @@
     "name": "Gas75",
     "vendorId": "0xC0B0",
     "productId": "0x6060",
-    "firmwareVersion": 0,
-    "keycodes": ["via/keycodes", "via/wt_lighting"],
-    "menus": [
-      "via/keymap",
-      "via/layouts",
-      "via/macros",
-      "via/save_load",
-      "core/qmk_rgb_matrix"
-    ],
+    "keycodes": ["qmk_lighting"],
+    "menus": ["qmk_rgb_matrix"],
     "matrix": { "rows": 6, "cols": 15 },
     "layouts": {
         "labels": [

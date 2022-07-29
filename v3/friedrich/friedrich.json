@@ -2,9 +2,6 @@
   "name": "Friedrich",
   "vendorId": "0x6481",
   "productId": "0xB4A2",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 5, "cols": 12},
   "layouts": {
     "keymap": [

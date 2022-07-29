@@ -2,13 +2,8 @@
   "name": "RAMA WORKS U80-A",
   "vendorId": "0x5241",
   "productId": "0x080a",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/wt_lighting"],
+  "keycodes": ["wt_lighting"],
   "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
     {
       "label": "Lighting",
       "content": [

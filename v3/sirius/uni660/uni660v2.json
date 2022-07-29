@@ -2,9 +2,6 @@
   "name": "Uni660 V2",
   "vendorId": "0x5352",
   "productId": "0x0202",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 5, "cols": 16},
   "layouts": {
     "presets": {"Default": [0, 0, 0, 0]},

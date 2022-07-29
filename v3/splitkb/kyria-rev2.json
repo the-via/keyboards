@@ -2,13 +2,8 @@
   "name": "SplitKB Kyria rev2",
   "vendorId": "0x8D1D",
   "productId": "0x9D9D",
-  "firmwareVersion": 2,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
+  "keycodes": ["qmk_lighting"],
   "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
     {
       "label": "Lighting",
       "content": [

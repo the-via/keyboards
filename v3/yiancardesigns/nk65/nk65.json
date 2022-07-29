@@ -2,13 +2,8 @@
   "name": "NK65",
   "vendorId": "0x8968",
   "productId": "0x4e4b",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/wt_lighting"],
+  "keycodes": ["wt_lighting"],
   "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
     {
       "label": "Lighting",
       "content": [

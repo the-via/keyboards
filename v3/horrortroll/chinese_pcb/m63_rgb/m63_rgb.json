@@ -2,15 +2,8 @@
   "name": "M63 RGB",
   "vendorId": "0x7516",
   "productId": "0x6002",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_rgb_matrix"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_rgb_matrix"],
   "matrix": {"rows": 5, "cols": 14},
   "layouts": {
     "keymap": [

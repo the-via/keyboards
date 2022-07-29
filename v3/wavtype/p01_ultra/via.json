@@ -2,9 +2,6 @@
     "name": "p01 ultra",
     "vendorId": "0x03a7",
     "productId": "0x0004",
-  	"firmwareVersion": 0,
-	"keycodes": ["via/keycodes"],
-	"menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
     "lighting": "qmk_rgblight",
     "matrix": {
         "rows": 6,

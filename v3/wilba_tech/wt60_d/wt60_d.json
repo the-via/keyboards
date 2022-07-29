@@ -2,9 +2,6 @@
   "name": "wilba.tech WT60-D",
   "vendorId": "0x6582",
   "productId": "0x060d",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 5, "cols": 14},
   "layouts": {
     "presets": {"HHKB": [1, 0, 0, 1, 2]},

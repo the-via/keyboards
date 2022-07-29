@@ -2,9 +2,6 @@
   "name": "Knob Goblin",
   "vendorId": "0x4B47",
   "productId": "0x0000",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 5, "cols": 5},
   "layouts": {
     "labels": ["2u 0", "2u Enter", "2u +"],

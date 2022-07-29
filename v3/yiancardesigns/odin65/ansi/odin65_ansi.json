@@ -2,14 +2,7 @@
   "name": "ODIN65 ANSI",
   "vendorId": "0x8968",
   "productId": "0x4F35",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/wt_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load"
-  ],
+  "keycodes": ["wt_lighting"],
   "matrix": {"rows": 5, "cols": 15},
   "layouts": {
     "keymap": [

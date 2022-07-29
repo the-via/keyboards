@@ -2,15 +2,7 @@
   "name": "NEBULA12",
   "vendorId": "0x8968",
   "productId": "0x5337",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_rgb_matrix"
-  ],
+  "menus": ["qmk_rgb_matrix"],
   "matrix": {"rows": 4, "cols": 3},
   "layouts": {
     "keymap": [

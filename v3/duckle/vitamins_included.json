@@ -2,15 +2,8 @@
   "name": "Vitamins Included",
   "vendorId": "0x1209",
   "productId": "0xBEE5",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_rgblight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_rgblight"],
   "matrix": {"rows": 8, "cols": 6},
   "layouts": {
     "labels": ["2U left space", "2U right space"],

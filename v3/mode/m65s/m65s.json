@@ -2,9 +2,6 @@
   "name": "Mode SixtyFive M65S",
   "vendorId": "0x00DE",
   "productId": "0x6583",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 6, "cols": 16},
   "layouts": {
     "labels": [

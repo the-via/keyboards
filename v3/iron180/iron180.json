@@ -2,15 +2,8 @@
   "name": "Smith and Rune IRON180",
   "vendorId": "0x8384",
   "productId": "0x1180",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_backlight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_backlight"],
   "matrix": {"rows": 6, "cols": 17},
   "layouts": {
     "presets": {"ISO": [0, 1, 1, 0, 0], "Full tsangan": [1, 0, 0, 1, 1]},

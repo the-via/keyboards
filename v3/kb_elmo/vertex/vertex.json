@@ -2,9 +2,6 @@
   "name": "Vertex",
   "vendorId": "0xA68C",
   "productId": "0x6B47",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 4, "cols": 12},
   "layouts": {
     "labels": ["Full backspace", ["Bottom Row", "8 keys", "10 keys"]],

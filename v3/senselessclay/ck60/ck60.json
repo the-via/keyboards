@@ -2,15 +2,8 @@
   "name": "CK60",
   "vendorId": "0x4849",
   "productId": "0x0601",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_rgblight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_rgblight"],
   "url": "https://candykeys.com/",
   "maintainer": "hadi",
   "matrix": {"rows": 5, "cols": 14},

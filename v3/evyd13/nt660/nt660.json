@@ -2,9 +2,6 @@
   "name": "Evyd13 nt660",
   "vendorId": "0x4705",
   "productId": "0x1F02",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 5, "cols": 15},
   "layouts": {
     "labels": ["ISO Enter", "Split Left Shift"],
