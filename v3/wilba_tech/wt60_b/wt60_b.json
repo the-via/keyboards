@@ -2,13 +2,8 @@
   "name": "wilba.tech WT60-B",
   "vendorId": "0x6582",
   "productId": "0x60b0",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/wt_lighting"],
+  "keycodes": ["wt_lighting"],
   "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
     {
       "label": "Lighting",
       "content": [
@@ -25,17 +20,17 @@
               "label": "Effect",
               "type": "dropdown",
               "options": [
-                ["All Off", 0],
-                ["Solid Color 1", 1],
-                ["Alphas/Mods Color 1/2", 2],
-                ["Gradient Vertical Color 1/2", 3],
-                ["Raindrops Color 1/2", 4],
-                ["Cycle All", 5],
-                ["Cycle Horizontal", 6],
-                ["Cycle Vertical", 7],
-                ["Jellybean Raindrops", 8],
-                ["Radial All Hues", 9],
-                ["Radial Color 1", 10]
+                "All Off",
+                "Solid Color 1",
+                "Alphas/Mods Color 1/2",
+                "Gradient Vertical Color 1/2",
+                "Raindrops Color 1/2",
+                "Cycle All",
+                "Cycle Horizontal",
+                "Cycle Vertical",
+                "Jellybean Raindrops",
+                "Radial All Hues",
+                "Radial Color 1"
               ],
               "content": ["id_effect", 0, 10]
             },
