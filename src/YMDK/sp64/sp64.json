@@ -2,16 +2,8 @@
   "name": "YMDK SP64",
   "vendorId": "0x594D",
   "productId": "0x5364",
-  "firmwareVersion": 0,
   "lighting": "qmk_rgblight",
   "matrix": { "rows": 6, "cols": 15 },
-  "menus": [
-    "via/keymap",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_rgblight"
-  ],
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
   "layouts": {
     "keymap": [
       [
