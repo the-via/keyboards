@@ -2,9 +2,6 @@
   "name": "[1 x 4] + 1 Macropad",
   "vendorId": "0x4152",
   "productId": "0x4F46",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 1, "cols": 5},
   "layouts": {
     "keymap": [["0,0", "0,1", "0,2", "0,3", {"x": 0.5, "c": "#777777"}, "0,4"]]

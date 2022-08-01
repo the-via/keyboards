@@ -2,14 +2,8 @@
   "name": "NEBULA12",
   "vendorId": "0x8968",
   "productId": "0x5337",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/wt_lighting"],
+  "keycodes": ["wt_lighting"],
   "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_rgblight",
     {
       "label": "Lighting",
       "content": [

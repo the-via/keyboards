@@ -2,9 +2,6 @@
   "name": "Mikeneko 65 V3",
   "vendorId": "0x7934",
   "productId": "0x6D53",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 5, "cols": 16},
   "layouts": {
     "labels": ["Split Backspace", ["Bottom Row", "6.25U", "7U"]],

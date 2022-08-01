@@ -2,13 +2,8 @@
   "name": "Portico",
   "vendorId": "0x544B",
   "productId": "0x0008",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/wt_lighting"],
+  "keycodes": ["wt_lighting"],
   "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
     {
       "label": "Lighting",
       "content": [

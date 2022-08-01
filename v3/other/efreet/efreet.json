@@ -2,9 +2,6 @@
   "name": "Efreet",
   "vendorId": "0x534F",
   "productId": "0x0001",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 8, "cols": 6},
   "layouts": {
     "labels": ["2U Spacebar"],

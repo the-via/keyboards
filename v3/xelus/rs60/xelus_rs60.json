@@ -2,9 +2,6 @@
   "name": "RS60",
   "vendorId": "0x5845",
   "productId": "0x5253",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 5, "cols": 14},
   "layouts": {
     "labels": [

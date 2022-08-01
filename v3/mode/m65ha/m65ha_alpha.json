@@ -2,9 +2,6 @@
   "name": "Mode SixtyFive HA Alpha",
   "vendorId": "0x00DE",
   "productId": "0x6566",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 6, "cols": 15},
   "layouts": {
     "labels": [["Spacebar size", "6.25U", "7U"]],

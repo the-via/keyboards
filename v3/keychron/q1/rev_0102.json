@@ -2,13 +2,8 @@
   "name": "Keychron Q1",
   "vendorId": "0x3434",
   "productId": "0x0102",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
+  "keycodes": ["qmk_lighting"],
   "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
     {
       "label": "Lighting",
       "content": [
@@ -46,7 +41,7 @@
               "showIf": "{id_qmk_rgb_matrix_effect} != 0",
               "label": "Effect Speed",
               "type": "range",
-              "options": [0, 3],
+              "options": [0, 255],
               "content": ["id_qmk_rgb_matrix_effect_speed", 3, 3]
             },
             {

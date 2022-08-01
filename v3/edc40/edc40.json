@@ -2,9 +2,6 @@
   "name": "Edc40",
   "vendorId": "0x6F6A",
   "productId": "0x6534",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 4, "cols": 11},
   "layouts": {
     "keymap": [

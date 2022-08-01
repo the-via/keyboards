@@ -2,15 +2,8 @@
   "name": "AVA",
   "vendorId": "0x5342",
   "productId": "0x0004",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_rgblight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_rgblight"],
   "url": "https://sneakbox.com",
   "maintainer": "mujimanic",
   "matrix": {"rows": 9, "cols": 8},

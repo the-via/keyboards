@@ -2,13 +2,8 @@
   "name": "Frooastboard Walnut",
   "vendorId": "0x4642",
   "productId": "0x776E",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
+  "keycodes": ["qmk_lighting"],
   "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
     {
       "label": "Lighting",
       "content": [
@@ -61,7 +56,7 @@
               "showIf": "{id_qmk_rgb_matrix_effect} != 0",
               "label": "Effect Speed",
               "type": "range",
-              "options": [0, 3],
+              "options": [0, 255],
               "content": ["id_qmk_rgb_matrix_effect_speed", 3, 3]
             },
             {

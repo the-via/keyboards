@@ -2,15 +2,8 @@
   "name": "MechWild Waka60",
   "vendorId": "0x6D77",
   "productId": "0x1709",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_rgblight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_rgblight"],
   "matrix": {"rows": 10, "cols": 7},
   "layouts": {
     "labels": [

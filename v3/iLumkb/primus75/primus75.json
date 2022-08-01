@@ -2,15 +2,8 @@
   "name": "primus75",
   "vendorId": "0x445A",
   "productId": "0x1014",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_backlight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_backlight"],
   "matrix": {"rows": 6, "cols": 16},
   "layouts": {
     "labels": [

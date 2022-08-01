@@ -2,13 +2,8 @@
   "name": "SplitKB Zima",
   "vendorId": "0x8D1D",
   "productId": "0xF75B",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
+  "keycodes": ["qmk_lighting"],
   "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
     {
       "label": "Lighting",
       "content": [
