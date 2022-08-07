@@ -2,9 +2,13 @@
   "name": "DURGOD Taurus K320",
   "vendorId": "0xD60D",
   "productId": "0x3200",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
+  "customKeycodes": [
+    {
+      "name": "Toggle WinKey Lock",
+      "title": "Toggle WinKey Lock",
+      "shortName": "WinLock"
+    }
+  ],
   "matrix": {"rows": 7, "cols": 16},
   "layouts": {
     "labels": [["Layout", "ISO", "ANSI"]],

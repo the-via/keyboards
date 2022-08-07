@@ -2,9 +2,6 @@
   "name": "Southpaw66",
   "vendorId": "0x9907",
   "productId": "0x5366",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 7, "cols": 10},
   "layouts": {
     "keymap": [

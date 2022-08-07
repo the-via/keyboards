@@ -2,15 +2,8 @@
   "name": "EVE Meteor",
   "vendorId": "0x4556",
   "productId": "0x4D54",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_backlight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_backlight"],
   "matrix": {"rows": 6, "cols": 15},
   "layouts": {
     "labels": [

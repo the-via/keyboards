@@ -2,9 +2,6 @@
   "name": "Rosa",
   "vendorId": "0x694B",
   "productId": "0x6952",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 5, "cols": 14},
   "layouts": {
     "labels": ["Split Backspace", "Split Right Shift"],

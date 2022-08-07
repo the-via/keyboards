@@ -2,15 +2,8 @@
   "name": "Voyager60-Alps",
   "vendorId": "0xA103",
   "productId": "0x060A",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_rgblight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_rgblight"],
   "matrix": {"rows": 5, "cols": 15},
   "layouts": {
     "keymap": [

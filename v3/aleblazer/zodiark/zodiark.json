@@ -2,15 +2,8 @@
   "name": "Zodiark",
   "vendorId": "0xF901",
   "productId": "0xF902",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_rgblight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_rgblight"],
   "matrix": {"rows": 10, "cols": 7},
   "layouts": {
     "keymap": [

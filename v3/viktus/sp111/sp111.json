@@ -2,9 +2,6 @@
   "name": "SP-111",
   "vendorId": "0x5644",
   "productId": "0x5111",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 12, "cols": 11},
   "layouts": {
     "labels": [

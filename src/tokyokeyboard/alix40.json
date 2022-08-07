@@ -2,7 +2,7 @@
     "name": "alix40 Rev.1",
     "vendorId": "0x5143",
     "productId": "0x4134",
-    "lighting": "qmk_backlight_rgblight",
+    "lighting": "none",
     "matrix": {
         "rows": 4,
         "cols": 12

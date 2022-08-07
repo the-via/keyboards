@@ -2,15 +2,8 @@
   "name": "recompile keys MIO",
   "vendorId": "0x524B",
   "productId": "0x4D41",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_rgblight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_rgblight"],
   "matrix": {"rows": 6, "cols": 8},
   "layouts": {
     "keymap": [
