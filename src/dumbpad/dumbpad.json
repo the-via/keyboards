@@ -1,6 +1,6 @@
 {
   "name": "dumbpad",
-  "vendorId": "0xFEED",
+  "vendorId": "0xDEAF",
   "productId": "0x0913",
   "lighting": "none",
   "matrix": {"rows": 4, "cols": 5},
