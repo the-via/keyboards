@@ -2,9 +2,6 @@
   "name": "Soyuz",
   "vendorId": "0xA103",
   "productId": "0x0018",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 5, "cols": 4},
   "layouts": {
     "labels": ["Split + (Plus)", "Split Enter", "Split 0 (Zero)"],

@@ -2,9 +2,6 @@
   "name": "latinpadble",
   "vendorId": "0x7C88",
   "productId": "0x7C98",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 5, "cols": 4},
   "layouts": {
     "keymap": [

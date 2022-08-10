@@ -2,9 +2,7 @@
   "name": "WE27",
   "vendorId": "0x5559",
   "productId": "0x0001",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
+  "keycodes": ["qmk_lighting"],
   "matrix": {"rows": 6, "cols": 5},
   "layouts": {
     "keymap": [

@@ -2,9 +2,6 @@
   "name": "Epoch 80",
   "vendorId": "0x6463",
   "productId": "0x0000",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 6, "cols": 17},
   "layouts": {
     "labels": [

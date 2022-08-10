@@ -2,9 +2,6 @@
   "name": "ianklug grooveboard",
   "vendorId": "0x4B4C",
   "productId": "0x4742",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 1, "cols": 4},
   "layouts": {"keymap": [["0,0", "0,1", {"x": 2}, "0,2", "0,3"]]}
 }

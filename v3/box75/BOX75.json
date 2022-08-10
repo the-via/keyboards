@@ -2,9 +2,6 @@
   "name": "BOX75",
   "vendorId": "0x7668",
   "productId": "0xB075",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 6, "cols": 15},
   "layouts": {
     "presets": {"ISO layout": [0, 1, 0, 1]},

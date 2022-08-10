@@ -2,7 +2,7 @@
   "name": "DZ96",
   "vendorId": "0x445A",
   "productId": "0xDB96",
-  "lighting": "qmk_backlight",
+  "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 8,
     "cols": 13
