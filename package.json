@@ -44,7 +44,7 @@
     "json-stringify-pretty-compact": "^2.0.0",
     "rimraf": "^3.0.0",
     "ts-node": "10.4.0",
-    "ts-node-dev": "^1.0.0-pre.43",
+    "ts-node-dev": "^2.0.0",
     "typescript": "^3.6.4",
     "typescript-json-schema": "^0.40.0",
     "via-reader": "https://github.com/the-via/reader.git#118221e19054de2f04805042ebde33d64d84b005",
