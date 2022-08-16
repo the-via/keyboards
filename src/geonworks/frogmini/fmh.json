@@ -1,6 +1,6 @@
 {
 	"name": "GeonWorks Frog Mini FM-H",
-	"vendorId": "0x2737",
+	"vendorId": "0x6777",
 	"productId": "0x2D28",
 	"lighting": "none",
 	"matrix": {"rows": 6, "cols": 14},
@@ -10,7 +10,6 @@
 			"Split right shift",
 			["Bottom row", "WK", "HHKB", "WKL"] ],
 		"keymap": [
-
   [
     {
       "x": 15.5
@@ -165,8 +164,11 @@
   [
     {
       "y": 0.25,
-      "x": 4
+      "x": 2.5,
+      "w": 1.5,
+      "d": true
     },
+    "4,0\n\n\n2,1",
     "4,1\n\n\n2,1",
     {
       "w": 1.5
@@ -182,7 +184,12 @@
       "w": 1.5
     },
     "5,10\n\n\n2,1",
-    "5,11\n\n\n2,1"
+    "5,11\n\n\n2,1",
+    {
+      "w": 1.5,
+      "d": true
+    },
+    "5,12\n\n\n2,1"
   ],
   [
     {
