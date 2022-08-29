@@ -12,6 +12,7 @@
     "build-v2-isolated": "ts-node scripts/build-isolated-v2.ts",
     "generate-v2": "ts-node scripts/generate-v2.ts",
     "build-v3": "ts-node scripts/build-v3.ts",
+    "build-names": "ts-node scripts/build-names.ts",
     "v2-to-v3": "ts-node scripts/v2-to-v3.ts",
     "dev": "ts-node-dev --respawn scripts/serve.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
