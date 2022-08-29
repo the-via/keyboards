@@ -5,7 +5,6 @@
   "lighting": {
     "extends": "qmk_rgblight",
     "underglowEffects": [
-    "underglowEffects": [
       ["All Off", 0],
       ["Solid Color", 1],
       ["Alphas Mods", 1],
