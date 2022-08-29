@@ -2,9 +2,6 @@
   "name": "latin64ble",
   "vendorId": "0x6C63",
   "productId": "0x6C71",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 8, "cols": 8},
   "layouts": {
     "keymap": [

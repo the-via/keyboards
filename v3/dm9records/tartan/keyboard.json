@@ -2,9 +2,6 @@
   "name": "Dm9Records Tartan",
   "vendorId": "0x16c0",
   "productId": "0x27db",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 5, "cols": 13},
   "layouts": {
     "labels": [

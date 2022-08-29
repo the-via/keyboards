@@ -13,7 +13,7 @@
       "Left Macropad",
       ["Right Shift", "Standard", "1.75u Shift", "1.75u /"],
       ["Right Space", "Standard", "Fn-Space"],
-      ["Right Mods", "4x 1.25u", "5x 1u", "Blocker"],
+      ["Right Mods", "4x 1.25u", "5x 1u"],
       ["Left Space", "1.25-2.25", "2.25-1.25", "1.25-1-1.25"]
     ],
     "keymap": [
@@ -244,15 +244,7 @@
         "4,5\n\n\n8,2",
         "4,6\n\n\n8,2",
         {"w": 1.25},
-        "4,7\n\n\n8,2",
-        {"x": 3.75, "w": 1.25},
-        "10,2\n\n\n7,2",
-        {"w": 1.25},
-        "10,3\n\n\n7,2",
-        {"w": 0.5, "d": true},
-        "10,4\n\n\n7,2",
-        "10,6\n\n\n7,2",
-        "10,7\n\n\n7,2"
+        "4,7\n\n\n8,2"
       ]
     ]
   }

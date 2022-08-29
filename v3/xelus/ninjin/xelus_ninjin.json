@@ -2,15 +2,8 @@
   "name": "Ninjin",
   "vendorId": "0x5845",
   "productId": "0x4E4A",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_rgblight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_rgblight"],
   "matrix": {"rows": 6, "cols": 17},
   "layouts": {
     "keymap": [

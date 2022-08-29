@@ -2,18 +2,11 @@
   "name": "Noxary 268.2",
   "vendorId": "0x4e58",
   "productId": "0x0A7A",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_backlight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_backlight"],
   "matrix": {"rows": 5, "cols": 16},
   "layouts": {
-    "labels": ["Split Backspace", ["Default", "6.25u + 2x 1.25u"]],
+    "labels": ["Split Backspace", ["Spacebar", "7u", "6.25u"]],
     "keymap": [
       [{"x": 13}, "0,13\n\n\n0,1", {"c": "#aaaaaa"}, "0,14\n\n\n0,1"],
       [

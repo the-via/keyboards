@@ -2,9 +2,6 @@
   "name": "Mona",
   "vendorId": "0xB16B",
   "productId": "0x404B",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 5, "cols": 15},
   "layouts": {
     "keymap": [
@@ -150,6 +147,22 @@
         "4,13\n\n\n4,2",
         {"w": 1.5},
         "4,14\n\n\n4,2"
+      ],
+      [
+        {"x": 2.5, "w": 1.5},
+        "4,0\n\n\n4,3",
+        {"d": true},
+        "4,1\n\n\n4,3",
+        {"w": 1.5},
+        "4,2\n\n\n4,3",
+        {"c": "#cccccc", "w": 7},
+        "4,6\n\n\n4,3",
+        {"c": "#aaaaaa", "w": 1.5},
+        "4,11\n\n\n4,3",
+        {"d": true},
+        "4,13\n\n\n4,3",
+        {"w": 1.5},
+        "4,14\n\n\n4,3"
       ]
     ],
     "labels": [
@@ -157,7 +170,7 @@
       ["Enter", "ANSI", "ISO"],
       ["Left Shift", "Full", "Split"],
       ["Right Shift", "Full", "Split"],
-      ["Bottom Row", "6.25u", "7u", "Split Spacebar"]
+      ["Bottom Row", "6.25u", "7u", "Split Spacebar", "WKL"]
     ]
   }
 }
