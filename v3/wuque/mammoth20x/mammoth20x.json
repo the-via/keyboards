@@ -2,9 +2,6 @@
   "name": "mammoth20x",
   "vendorId": "0xB06B",
   "productId": "0x0005",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 6, "cols": 4},
   "layouts": {
     "keymap": [

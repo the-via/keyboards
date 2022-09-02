@@ -2,15 +2,8 @@
   "name": "SquishyFRL",
   "vendorId": "0xb16b",
   "productId": "0x4be5",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_rgblight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_rgblight"],
   "matrix": {"rows": 9, "cols": 21},
   "layouts": {
     "keymap": [

@@ -2,15 +2,8 @@
   "name": "QAZ",
   "vendorId": "0x7431",
   "productId": "0x0001",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_rgblight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_rgblight"],
   "matrix": {"rows": 6, "cols": 7},
   "layouts": {
     "labels": [["Bottom Row", "Big Bar", "Split Bars"]],

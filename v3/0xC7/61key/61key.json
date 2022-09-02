@@ -2,9 +2,6 @@
   "name": "61Key by 0xC7",
   "vendorId": "0xE117",
   "productId": "0x6161",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 5, "cols": 14},
   "layouts": {
     "keymap": [

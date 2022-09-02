@@ -2,9 +2,7 @@
   "name": "Soy20",
   "vendorId": "0x4452",
   "productId": "0x534f",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
+  "keycodes": ["qmk_lighting"],
   "matrix": {"rows": 5, "cols": 4},
   "layouts": {
     "keymap": [

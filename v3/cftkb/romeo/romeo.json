@@ -2,9 +2,6 @@
   "name": "Romeo",
   "vendorId": "0x6B62",
   "productId": "0x4069",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 4, "cols": 12},
   "layouts": {
     "labels": ["Split Left Shift", "Split Spacebar"],

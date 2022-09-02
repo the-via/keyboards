@@ -2,9 +2,6 @@
   "name": "Dozen0",
   "vendorId": "0x04D8",
   "productId": "0xEA4F",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 1, "cols": 12},
   "layouts": {
     "keymap": [

@@ -2,15 +2,8 @@
   "name": "DURGOD Venus",
   "vendorId": "0xD60D",
   "productId": "0x7EC5",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "!!!WILBA!!!"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_rgb_matrix"],
   "customKeycodes": [
     {
       "name": "Toggle WinKey Lock",

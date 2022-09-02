@@ -2,9 +2,6 @@
   "name": "mammoth75x",
   "vendorId": "0xA06B",
   "productId": "0x0004",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 6, "cols": 16},
   "layouts": {
     "labels": [

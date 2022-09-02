@@ -2,9 +2,6 @@
   "name": "Aozora",
   "vendorId": "0x04D8",
   "productId": "0xE86A",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 5, "cols": 17},
   "layouts": {
     "labels": [

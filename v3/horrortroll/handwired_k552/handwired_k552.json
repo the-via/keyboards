@@ -2,14 +2,69 @@
   "name": "Handwired K552 Kumara",
   "vendorId": "0x7516",
   "productId": "0x5104",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
+  "keycodes": ["qmk_lighting"],
   "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "!!!WILBA!!!"
+    {
+      "label": "Lighting",
+      "content": [
+        {
+          "label": "Backlight",
+          "content": [
+            {
+              "label": "Brightness",
+              "type": "range",
+              "options": [0, 255],
+              "content": ["id_qmk_rgb_matrix_brightness", 3, 1]
+            },
+            {
+              "label": "Effect",
+              "type": "dropdown",
+              "content": ["id_qmk_rgb_matrix_effect", 3, 2],
+              "options": [
+                ["None", 0],
+                ["Solid Color", 1],
+                ["Gradient Up/Down", 2],
+                ["Gradient Left/Right", 3],
+                ["Breathing", 4],
+                ["Band Val.", 5],
+                ["Pinwheel Val.", 6],
+                ["Cycle All", 7],
+                ["Cycle Left/Right", 8],
+                ["Cycle Up/Down", 9],
+                ["Cycle Out/In", 10],
+                ["Cycle Pinwheel", 11],
+                ["Dual Beacon", 12],
+                ["Rainbow Beacon", 13],
+                ["Raindrops", 14],
+                ["Jellybean Raindrops", 15],
+                ["Hue Breathing", 16],
+                ["Hue Pendulum", 17],
+                ["Hue Wave", 18],
+                ["Pixel Rain", 19],
+                ["Custom Gradient", 20],
+                ["Diagonal", 21],
+                ["Cool Diagonal", 22],
+                ["Knight Rider", 23],
+                ["Random Rainbow Breathing", 24]
+              ]
+            },
+            {
+              "showIf": "{id_qmk_rgb_matrix_effect} != 0",
+              "label": "Effect Speed",
+              "type": "range",
+              "options": [0, 255],
+              "content": ["id_qmk_rgb_matrix_effect_speed", 3, 3]
+            },
+            {
+              "showIf": "{id_qmk_rgb_matrix_effect} != 0",
+              "label": "Color",
+              "type": "color",
+              "content": ["id_qmk_rgb_matrix_color", 3, 4]
+            }
+          ]
+        }
+      ]
+    }
   ],
   "matrix": {"rows": 6, "cols": 17},
   "layouts": {

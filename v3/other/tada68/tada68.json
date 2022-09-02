@@ -2,15 +2,8 @@
   "name": "Tada68",
   "vendorId": "0x5441",
   "productId": "0x0001",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_backlight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_backlight"],
   "matrix": {"rows": 5, "cols": 15},
   "layouts": {
     "labels": [["Enter Key", "ANSI", "ISO"], "Split Left Shift"],

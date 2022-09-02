@@ -2,15 +2,8 @@
   "name": "Absinthe",
   "vendorId": "0xB00B",
   "productId": "0xFEED",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_rgblight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_rgblight"],
   "matrix": {"rows": 9, "cols": 9},
   "layouts": {
     "labels": ["Full Backspace", "Full Right Shift", "ANSI"],
