@@ -2,9 +2,6 @@
   "name": "Iris Rev. 6",
   "vendorId": "0xCB10",
   "productId": "0x6256",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 10, "cols": 6},
   "layouts": {
     "keymap": [

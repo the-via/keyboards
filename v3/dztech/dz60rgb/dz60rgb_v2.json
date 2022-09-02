@@ -2,9 +2,7 @@
   "name": "DZ60RGB V2",
   "vendorId": "0x445A",
   "productId": "0x1121",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
+  "keycodes": ["qmk_lighting"],
   "matrix": {"rows": 5, "cols": 14},
   "layouts": {
     "keymap": [

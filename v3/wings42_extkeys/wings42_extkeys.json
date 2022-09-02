@@ -2,9 +2,6 @@
   "name": "wings42 extkeys",
   "vendorId": "0x5946",
   "productId": "0x0004",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 12, "cols": 8},
   "layouts": {
     "labels": [],

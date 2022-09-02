@@ -1,12 +1,12 @@
 import rimraf from 'rimraf';
 import {promisify} from 'bluebird';
-import {buildV2} from './build-v2';
+import {buildNames} from './build-names';
 import {buildV3} from './build-v3';
 
 async function build() {
   await promisify(rimraf)('dist/*');
 
-  await buildV2();
+  await buildNames();
   await buildV3();
 }
 

@@ -2,9 +2,6 @@
   "name": "Herringbone Pro",
   "vendorId": "0xB16B",
   "productId": "0x440B",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 7, "cols": 15},
   "layouts": {
     "keymap": [

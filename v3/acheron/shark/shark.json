@@ -2,9 +2,6 @@
   "name": "Acheron Shark",
   "vendorId": "0xAC11",
   "productId": "0x5368",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 4, "cols": 12},
   "layouts": {
     "labels": [["Bottom Row", "Grid (2x1U)", "MIT (1x2U)", "2x2U"]],

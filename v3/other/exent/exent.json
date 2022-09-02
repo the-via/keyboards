@@ -2,15 +2,8 @@
   "name": "Exent 65%",
   "vendorId": "0x5143",
   "productId": "0x4558",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_rgblight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_rgblight"],
   "matrix": {"rows": 7, "cols": 14},
   "layouts": {
     "labels": [

@@ -2,9 +2,6 @@
   "name": "Foundation Gamma",
   "vendorId": "0x525C",
   "productId": "0xE3EB",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 6, "cols": 17},
   "layouts": {
     "labels": ["Split Backspace", "Split rShift"],

@@ -2,9 +2,6 @@
   "name": "IrisRev0",
   "vendorId": "0x494B",
   "productId": "0x3031",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 5, "cols": 14},
   "layouts": {
     "labels": [

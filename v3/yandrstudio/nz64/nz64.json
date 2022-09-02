@@ -2,9 +2,7 @@
   "name": "NZ64_Y&R",
   "vendorId": "0xAA96",
   "productId": "0xAAAF",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
+  "keycodes": ["qmk_lighting"],
   "matrix": {"rows": 5, "cols": 14},
   "layouts": {
     "keymap": [

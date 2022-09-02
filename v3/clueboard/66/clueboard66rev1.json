@@ -2,9 +2,6 @@
   "name": "Clueboard 66% rev1",
   "vendorId": "0xC1ED",
   "productId": "0x2301",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 5, "cols": 16},
   "layouts": {
     "labels": [

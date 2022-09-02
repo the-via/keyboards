@@ -2,15 +2,8 @@
   "name": "RART4X4",
   "vendorId": "0x414C",
   "productId": "0x0004",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_rgblight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_rgblight"],
   "matrix": {"rows": 4, "cols": 4},
   "layouts": {
     "keymap": [

@@ -2,9 +2,6 @@
   "name": "AELITH",
   "vendorId": "0xB16B",
   "productId": "0xE460",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 5, "cols": 16},
   "layouts": {
     "keymap": [

@@ -2,15 +2,8 @@
   "name": "Moonlander Mark I (Unsupported by ZSA)",
   "vendorId": "0x3297",
   "productId": "0x1969",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "!!!WILBA!!!"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_rgb_matrix"],
   "matrix": {"rows": 12, "cols": 7},
   "layouts": {
     "keymap": [
