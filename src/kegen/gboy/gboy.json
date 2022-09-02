@@ -2,24 +2,11 @@
     "name": "G-Boy",
     "vendorId": "0x4b65",
     "productId": "0x6762",
-    "firmwareVersion": 0,
     "lighting": "qmk_backlight_rgblight",
-    "keycodes": [
-        "via/keycodes",
-        "via/qmk_lighting"
-    ],
     "matrix": {
         "rows": 5,
         "cols": 16
     },
-    "menus": [
-        "via/keymap",
-        "via/layouts",
-        "via/macros",
-        "via/save_load",
-        "core/qmk_backlight",
-        "core/qmk_rgblight"
-    ],
     "layouts": {
         "labels": [
             "Split Backspace",
