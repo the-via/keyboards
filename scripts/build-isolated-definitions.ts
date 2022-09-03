@@ -8,8 +8,8 @@ import {
   DefinitionVersion,
 } from 'via-reader';
 import {ValidateFunction} from 'via-reader/dist/validated-types/via-definition-v3.validator';
-import {getDefinitionsPath, getOutputPath} from './get-path'
-
+import {getDefinitionsPath, getOutputPath} from './get-path';
+import {hashJSON} from './hash-json';
 /**
  * Builds keyboard definitions into separate valid VIA definitions
  * @param {DefinitionVersion} version definition version
@@ -24,7 +24,7 @@ export const buildIsolatedDefinitions = async <
   version: DefinitionVersion,
   mapper: (definition: TInput) => TOutput,
   validator: ValidateFunction<TOutput>
-): Promise<number[]> => {
+): Promise<[string, number[]]> => {
   const outputPath = `${getOutputPath()}/${version}`;
   const definitionsPath = getDefinitionsPath(version);
   const paths = glob.sync(definitionsPath, {absolute: true});
@@ -46,11 +46,13 @@ export const buildIsolatedDefinitions = async <
     fs.mkdirSync(outputPath);
   }
 
-  return validVIADefinitions.map((definition) => {
+  const jsonHash = hashJSON(validVIADefinitions);
+  const validIds = validVIADefinitions.map((definition) => {
     fs.writeFileSync(
       `${outputPath}/${definition.vendorProductId}.json`,
       JSON.stringify(definition)
     );
     return definition.vendorProductId;
   });
+  return [jsonHash, validIds];
 };
