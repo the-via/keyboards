@@ -2,9 +2,6 @@
   "name": "Evyd13 Quackfire",
   "vendorId": "0x4705",
   "productId": "0x87C9",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 8, "cols": 15},
   "layouts": {
     "labels": ["ISO Enter", "Split Right Shift"],

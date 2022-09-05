@@ -2,15 +2,8 @@
   "name": "Winry315",
   "vendorId": "0xF1F1",
   "productId": "0x0315",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "!!!WILBA!!!"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_rgb_matrix"],
   "matrix": {"rows": 1, "cols": 24},
   "layouts": {
     "labels": [["Encoder Side", "Top", "Left", "Right", "Bottom"]],

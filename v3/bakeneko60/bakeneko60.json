@@ -2,9 +2,6 @@
   "name": "Bakeneko 60",
   "vendorId": "0x3A0E",
   "productId": "0xCBDC",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 5, "cols": 15},
   "layouts": {
     "labels": [

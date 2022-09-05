@@ -2,9 +2,6 @@
   "name": "Dango40",
   "vendorId": "0x04D8",
   "productId": "0xE9B9",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 4, "cols": 13},
   "layouts": {
     "labels": [

@@ -2,9 +2,6 @@
   "name": "zoom65",
   "vendorId": "0x806B",
   "productId": "0x0004",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 5, "cols": 15},
   "layouts": {
     "labels": ["Split Backspace", "ISO", "Split Left Shift", "Split Space"],

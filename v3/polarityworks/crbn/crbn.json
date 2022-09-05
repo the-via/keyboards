@@ -2,9 +2,6 @@
   "name": "Polarity Works CRBN",
   "vendorId": "0x726F",
   "productId": "0x0002",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 4, "cols": 12},
   "layouts": {
     "labels": [["Bottom row", "1x2u spacebar", "2x2u spacebar"]],

@@ -2,9 +2,6 @@
   "name": "Damapad",
   "vendorId": "0x6D64",
   "productId": "0x6470",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 3, "cols": 6},
   "layouts": {
     "labels": [["Bottom Left", "WKL", "Space"]],

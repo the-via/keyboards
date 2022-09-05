@@ -2,9 +2,6 @@
   "name": "Hasu Alps64",
   "vendorId": "0x6873",
   "productId": "0x6464",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 8, "cols": 8},
   "layouts": {
     "labels": [

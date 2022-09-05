@@ -2,9 +2,7 @@
   "name": "BELLA_RGB_ISO",
   "vendorId": "0x4B42",
   "productId": "0x0009",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
+  "keycodes": ["qmk_lighting"],
   "matrix": {"rows": 6, "cols": 16},
   "layouts": {
     "keymap": [

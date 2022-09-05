@@ -2,9 +2,6 @@
   "name": "TKL-FF",
   "vendorId": "0xB16B",
   "productId": "0x00FF",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 6, "cols": 17},
   "layouts": {
     "keymap": [

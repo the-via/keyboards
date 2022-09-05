@@ -1,0 +1,54 @@
+{
+    "name": "Momokai Tap Trio",
+    "vendorId": "0x69F9",
+    "productId": "0x0006",
+    "lighting": "qmk_rgblight",
+    "matrix": {
+        "rows": 1,
+        "cols": 6
+    },
+    "layouts": {
+        "keymap": [
+          [
+            {
+              "w": 1.5,
+              "h": 1.5,
+              "c": "#cccccc"
+            },
+            "0,0",
+            {
+              "x": 0.75,
+              "w": 1.5,
+              "h": 1.5,
+              "c": "#cccccc"
+            },
+            "0,1",
+            {
+              "x": 0.75,
+              "w": 1.5,
+              "h": 1.5,
+              "c": "#cccccc"
+            },
+            "0,2"
+          ],
+          [
+            {
+              "y": 1.5,
+              "x": 2.25,
+              "c": "#aaaaaa"
+            },
+            "0,3",
+            {
+              "x": 0.5,
+              "c": "#aaaaaa"
+            },
+            "0,4",
+            {
+              "x": 0.5,
+              "c": "#aaaaaa"
+            },
+            "0,5"
+          ]
+        ]
+    }
+}

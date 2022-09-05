@@ -2,9 +2,6 @@
   "name": "Eternal Keypad",
   "vendorId": "0xFEED",
   "productId": "0xDB00",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 5, "cols": 8},
   "layouts": {
     "keymap": [

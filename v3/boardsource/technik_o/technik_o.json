@@ -2,9 +2,7 @@
   "name": "Technik-O",
   "vendorId": "0x4273",
   "productId": "0x0079",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
+  "keycodes": ["qmk_lighting"],
   "matrix": {"rows": 4, "cols": 12},
   "layouts": {
     "keymap": [

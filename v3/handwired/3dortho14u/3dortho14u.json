@@ -2,9 +2,6 @@
   "name": "3dortho14u",
   "vendorId": "0x6662",
   "productId": "0x3D14",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 5, "cols": 14},
   "layouts": {
     "labels": [
