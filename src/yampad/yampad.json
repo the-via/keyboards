@@ -2,7 +2,7 @@
     "name": "Yampad",
     "vendorId": "0x5950",
     "productId": "0x8369",
-    "lighting": "none",
+    "lighting": "qmk_rgblight",
     "matrix": { "rows": 5, "cols": 4 },
     "layouts": {
         "labels": ["2u '0'"],
