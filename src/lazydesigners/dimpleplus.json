@@ -6,7 +6,7 @@
     "matrix": {"rows": 5, "cols": 12},
 "layouts": {
   "labels":  [
-       ["Backspace", "2U", "Split"],
+       ["Backspace","Split", "2U"],
        ["Enter","1.25U","2.25U", "ISO"],
        ["Bottom Row", "Split", "7U"]
   ],
