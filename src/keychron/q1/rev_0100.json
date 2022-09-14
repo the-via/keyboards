@@ -25,6 +25,10 @@
   "customKeycodes": [
     {"name": "Mission Control", "title": "Mission Control in macOS", "shortName": "Mission Control"},
     {"name": "Launch Pad", "title": "Launch Pad in macOS", "shortName": "Launch Pad"},
+    {"name": "Left Option", "title": "Left Option in macOS", "shortName": "Left Option"},
+    {"name": "Right Option", "title": "Right Option in macOS", "shortName": "Right Option"},
+    {"name": "Left Cmd", "title": "Left Command in macOS", "shortName": "Left Command"},
+    {"name": "Right Cmd", "title": "Right Command in macOS", "shortName": "Right Command"},
     {"name": "Task View", "title": "Task View in windows", "shortName": "Task View"},
     {"name": "File Explorer", "title": "File Explorer in windows", "shortName": "File Explorer"}
   ],
@@ -206,7 +210,6 @@
     "5,2",
     {
       "c": "#cccccc",
-      "a": 7,
       "w": 6.25
     },
     "5,6",

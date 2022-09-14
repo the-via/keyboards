@@ -2,9 +2,6 @@
   "name": "0-Sixty by ven0mtr0n",
   "vendorId": "0x7654",
   "productId": "0x0060",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 5, "cols": 12},
   "layouts": {
     "labels": [["Bottom Row", "5x12", "1x2uC", "2x2uC", "1x2uR", "1x2uL"]],

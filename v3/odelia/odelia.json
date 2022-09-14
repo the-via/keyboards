@@ -2,9 +2,6 @@
   "name": "Odelia",
   "vendorId": "0x6BE3",
   "productId": "0xA129",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 10, "cols": 10},
   "layouts": {
     "keymap": [

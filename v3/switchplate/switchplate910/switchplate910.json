@@ -2,9 +2,6 @@
   "name": "Switchplate 910",
   "vendorId": "0x54f3",
   "productId": "0x2065",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 5, "cols": 15},
   "layouts": {
     "keymap": [

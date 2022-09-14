@@ -2,9 +2,6 @@
   "name": "The Tiger Lily",
   "vendorId": "0x4245",
   "productId": "0x544c",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 8, "cols": 18},
   "layouts": {
     "labels": [["Enter Key", "ANSI", "ISO"], "Left Shift"],

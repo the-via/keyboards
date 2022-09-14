@@ -2,9 +2,6 @@
   "name": "polilla",
   "vendorId": "0x6166",
   "productId": "0x0010",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 5, "cols": 12},
   "layouts": {
     "keymap": [

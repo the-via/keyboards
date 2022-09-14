@@ -2,9 +2,6 @@
   "name": "Choc Taro",
   "vendorId": "0x04D8",
   "productId": "0xEB60",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 16, "cols": 5},
   "layouts": {
     "labels": [

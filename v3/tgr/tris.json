@@ -2,16 +2,8 @@
   "name": "Tris",
   "vendorId": "0x5447",
   "productId": "0x5452",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_backlight",
-    "core/qmk_rgblight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_backlight_rgblight"],
   "matrix": {"rows": 6, "cols": 4},
   "layouts": {
     "labels": ["Split 0", "Split +", "Split Enter"],

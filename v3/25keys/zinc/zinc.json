@@ -2,15 +2,8 @@
   "name": "Zinc",
   "vendorId": "0x04D8",
   "productId": "0xEA3B",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_rgblight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_rgblight"],
   "matrix": {"rows": 8, "cols": 6},
   "layouts": {
     "labels": ["Symmetrical"],
