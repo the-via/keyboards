@@ -1,6 +1,6 @@
 {
-  "name": "BDN9",
-  "vendorId": "0xcb10",
+  "name": "BDN9 Rev. 1",
+  "vendorId": "0xCB10",
   "productId": "0x1133",
   "lighting": "qmk_backlight_rgblight",
   "matrix": {
