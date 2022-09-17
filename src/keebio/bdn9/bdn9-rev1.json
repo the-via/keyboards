@@ -8,6 +8,11 @@
     "cols": 3
   },
   "layouts": {
+    "labels": [
+      "Left Encoder",
+      "Middle Encoder",
+      "Right Encoder"
+    ],
     "keymap": [
       [
         "0,0\n\n\n0,0",
