@@ -2,8 +2,6 @@
     "name": "pi40",
     "vendorId": "0x6F75",
     "productId": "0x5600",
-    "keycodes": ["via/keycodes", "via/qmk_lighting"],
-    "menus": ["qmk_rgb_matrix"],
     "matrix": { "rows": 4, "cols": 12},
     "lighting": {
       "extends":"qmk_rgblight",
