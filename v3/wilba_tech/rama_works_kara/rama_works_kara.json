@@ -1,0 +1,237 @@
+{
+  "name": "RAMA WORKS KARA",
+  "vendorId": "0x5241",
+  "productId": "0x4B52",
+  "keycodes": ["wt_lighting"],
+  "menus": [
+    {
+      "label": "Lighting",
+      "content": [
+        {
+          "label": "General",
+          "content": [
+            {
+              "label": "Brightness",
+              "type": "range",
+              "content": ["id_brightness", 0, 9],
+              "options": [0, 255]
+            },
+            {
+              "label": "Effect",
+              "type": "dropdown",
+              "options": [
+                ["All Off", 0],
+                ["Solid Color 1", 1],
+                ["Alphas/Mods Color 1/2", 2],
+                ["Gradient Vertical Color 1/2", 3],
+                ["Raindrops Color 1/2", 4],
+                ["Cycle All", 5],
+                ["Cycle Horizontal", 6],
+                ["Cycle Vertical", 7],
+                ["Jellybean Raindrops", 8],
+                ["Radial All Hues", 9],
+                ["Radial Color 1", 10]
+              ],
+              "content": ["id_effect", 0, 10]
+            },
+            {
+              "label": "Effect Speed",
+              "type": "range",
+              "options": [0, 3],
+              "content": ["id_effect_speed", 0, 11]
+            },
+            {
+              "showIf": "{id_effect} == 1 || {id_effect} == 2 || {id_effect} == 3 || {id_effect} == 4 || {id_effect} == 10",
+              "content": [
+                {
+                  "label": "Color 1",
+                  "type": "color",
+                  "content": ["id_color_1", 0, 12]
+                }
+              ]
+            },
+            {
+              "showIf": "{id_effect} == 2 || {id_effect} == 3 || {id_effect} == 4",
+              "content": [
+                {
+                  "label": "Color 2",
+                  "type": "color",
+                  "content": ["id_color_2", 0, 13]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Advanced",
+          "content": [
+            {
+              "label": "Disable backlight when USB is suspended",
+              "type": "toggle",
+              "content": ["id_disable_when_usb_suspended", 0, 7]
+            },
+            {
+              "label": "Disable backlight after timeout",
+              "type": "range",
+              "options": [0, 255],
+              "unit": "mins",
+              "content": ["id_disable_after_timeout", 0, 8]
+            },
+            {
+              "label": "Caps Lock Indicator",
+              "type": "toggle",
+              "options": [
+                [255, 0],
+                [254, 0]
+              ],
+              "content": ["id_caps_lock_indicator_row_col", 0, 15]
+            },
+            {
+              "label": "Caps Lock Indicator Color",
+              "type": "color",
+              "showIf": "{id_caps_lock_indicator_row_col.0} == 254",
+              "content": ["id_caps_lock_indicator_color", 0, 14]
+            },
+            {
+              "label": "Layer 1 Indicator",
+              "type": "toggle",
+              "options": [
+                [255, 0],
+                [254, 0]
+              ],
+              "content": ["id_layer_1_indicator_row_col", 0, 17]
+            },
+            {
+              "label": "Layer 1 Indicator color",
+              "type": "color",
+              "showIf": "{id_layer_1_indicator_row_col.0} == 254",
+              "content": ["id_layer_1_indicator_color", 0, 16]
+            },
+            {
+              "label": "Layer 2 Indicator",
+              "type": "toggle",
+              "options": [
+                [255, 0],
+                [254, 0]
+              ],
+              "content": ["id_layer_2_indicator_row_col", 0, 19]
+            },
+            {
+              "label": "Layer 2 Indicator Color",
+              "type": "color",
+              "showIf": "{id_layer_2_indicator_row_col.0} == 254",
+              "content": ["id_layer_2_indicator_color", 0, 18]
+            },
+            {
+              "label": "Layer 3 Indicator",
+              "type": "toggle",
+              "options": [
+                [255, 0],
+                [254, 0]
+              ],
+              "content": ["id_layer_3_indicator_row_col", 0, 21]
+            },
+            {
+              "label": "Layer 3 Indicator color",
+              "type": "color",
+              "showIf": "{id_layer_3_indicator_row_col.0} == 254",
+              "content": ["id_layer_3_indicator_color", 0, 20]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "matrix": {"rows": 5, "cols": 14},
+  "layouts": {
+    "keymap": [
+      [
+        {"c": "#4d525a", "t": "#e2e2e2"},
+        "0,0",
+        {"c": "#e2e2e2", "t": "#363636"},
+        "0,1",
+        "0,2",
+        "0,3",
+        "0,4",
+        "0,5",
+        "0,6",
+        "0,7",
+        "0,8",
+        "0,9",
+        "0,10",
+        "0,11",
+        "0,12",
+        "0,13",
+        {"c": "#4d525a", "t": "#e2e2e2"},
+        "2,13"
+      ],
+      [
+        {"w": 1.5},
+        "1,0",
+        {"c": "#e2e2e2", "t": "#363636"},
+        "1,1",
+        "1,2",
+        "1,3",
+        "1,4",
+        "1,5",
+        "1,6",
+        "1,7",
+        "1,8",
+        "1,9",
+        "1,10",
+        "1,11",
+        "1,12",
+        {"c": "#4d525a", "t": "#e2e2e2", "w": 1.5},
+        "1,13"
+      ],
+      [
+        {"c": "#f5cb01", "t": "#4d525a", "w": 1.75},
+        "2,0",
+        {"c": "#e2e2e2", "t": "#363636"},
+        "2,1",
+        "2,2",
+        "2,3",
+        "2,4",
+        "2,5",
+        "2,6",
+        "2,7",
+        "2,8",
+        "2,9",
+        "2,10",
+        "2,11",
+        {"c": "#4d525a", "t": "#e2e2e2", "w": 2.25},
+        "2,12"
+      ],
+      [
+        {"w": 2.25},
+        "3,0",
+        {"c": "#e2e2e2", "t": "#363636"},
+        "3,2",
+        "3,3",
+        "3,4",
+        "3,5",
+        "3,6",
+        "3,7",
+        "3,8",
+        "3,9",
+        "3,10",
+        "3,11",
+        {"c": "#4d525a", "t": "#e2e2e2", "w": 1.75},
+        "3,12",
+        {"c": "#f5cb01", "t": "#4d525a"},
+        "3,13"
+      ],
+      [
+        {"x": 1.5, "c": "#4d525a", "t": "#e2e2e2"},
+        "4,1",
+        {"w": 1.5},
+        "4,2",
+        {"c": "#e2e2e2", "t": "#363636", "a": 7, "w": 7},
+        "4,7",
+        {"c": "#4d525a", "t": "#e2e2e2", "a": 4, "w": 1.5},
+        "4,11",
+        "4,12"
+      ]
+    ]
+  }
+}

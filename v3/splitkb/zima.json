@@ -1,0 +1,84 @@
+{
+  "name": "SplitKB Zima",
+  "vendorId": "0x8D1D",
+  "productId": "0xF75B",
+  "keycodes": ["qmk_lighting"],
+  "menus": [
+    {
+      "label": "Lighting",
+      "content": [
+        {
+          "label": "Underglow",
+          "content": [
+            {
+              "label": "Brightness",
+              "type": "range",
+              "options": [0, 255],
+              "content": ["id_qmk_rgblight_brightness", 2, 1]
+            },
+            {
+              "label": "Effect",
+              "type": "dropdown",
+              "content": ["id_qmk_rgblight_effect", 2, 2],
+              "options": [
+                ["All Off", 0],
+                ["Solid Color", 1],
+                ["Breathing 1", 2],
+                ["Breathing 2", 3],
+                ["Breathing 3", 4],
+                ["Breathing 4", 5],
+                ["Rainbow Mood 1", 6],
+                ["Rainbow Mood 2", 7],
+                ["Rainbow Mood 3", 8],
+                ["Rainbow Swirl 1", 9],
+                ["Rainbow Swirl 2", 10],
+                ["Rainbow Swirl 3", 11],
+                ["Rainbow Swirl 4", 12],
+                ["Rainbow Swirl 5", 13],
+                ["Rainbow Swirl 6", 14],
+                ["Gradient 1", 15],
+                ["Gradient 2", 16],
+                ["Gradient 3", 17],
+                ["Gradient 4", 18],
+                ["Gradient 5", 19],
+                ["Gradient 6", 20],
+                ["Gradient 7", 21],
+                ["Gradient 8", 22],
+                ["Gradient 9", 23],
+                ["Gradient 10", 24],
+                ["Twinkle 1", 25],
+                ["Twinkle 2", 26],
+                ["Twinkle 3", 27],
+                ["Twinkle 4", 28],
+                ["Twinkle 5", 29],
+                ["Twinkle 6", 30]
+              ]
+            },
+            {
+              "showIf": "{id_qmk_rgblight_effect} != 0",
+              "label": "Effect Speed",
+              "type": "range",
+              "options": [0, 3],
+              "content": ["id_qmk_rgblight_effect_speed", 2, 3]
+            },
+            {
+              "showIf": "{id_qmk_rgblight_effect} != 0",
+              "label": "Color",
+              "type": "color",
+              "content": ["id_qmk_rgblight_color", 2, 4]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "matrix": {"rows": 4, "cols": 3},
+  "layouts": {
+    "keymap": [
+      ["0,0", "0,1", "0,2"],
+      ["1,0", "1,1", "1,2"],
+      ["2,0", "2,1", "2,2"],
+      ["3,0", "3,1", "3,2"]
+    ]
+  }
+}

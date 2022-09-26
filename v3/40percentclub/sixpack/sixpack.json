@@ -1,0 +1,9 @@
+{
+  "name": "Six Pack",
+  "vendorId": "0x3430",
+  "productId": "0x5350",
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_backlight"],
+  "matrix": {"rows": 2, "cols": 3},
+  "layouts": {"keymap": [["0,0", "0,1", "0,2"], ["1,0", "1,1", "1,2"]]}
+}
