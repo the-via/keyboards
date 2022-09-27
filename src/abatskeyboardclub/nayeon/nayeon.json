@@ -1,6 +1,6 @@
 {
 	"name": "Nayeon",
-	"vendorId": "0x4B47",
+	"vendorId": "0xABA7",
 	"productId": "0x0001",
 	"lighting": "qmk_rgblight",
 	"matrix": { "rows": 6, "cols": 17 },
