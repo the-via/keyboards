@@ -2,7 +2,7 @@
   "name": "RART80",
   "vendorId": "0x414C",
   "productId": "0x0080",
-  "lighting": "none",
+  "lighting": "qmk_rgblight",
   "matrix": {"rows": 6, "cols": 17},
   "layouts": {
     "labels": [
