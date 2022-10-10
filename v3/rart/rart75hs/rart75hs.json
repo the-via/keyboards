@@ -2,15 +2,8 @@
   "name": "RART75 Hotswap",
   "vendorId": "0x414C",
   "productId": "0x5575",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_rgblight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_rgblight"],
   "matrix": {"rows": 6, "cols": 16},
   "layouts": {
     "labels": ["Split Backspace", ["Bottom row", "6.25U-1U", "6.25U-1.5U"]],

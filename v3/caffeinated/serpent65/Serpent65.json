@@ -2,9 +2,6 @@
   "name": "Serpent65",
   "vendorId": "0x4353",
   "productId": "0x6501",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 10, "cols": 8},
   "layouts": {
     "labels": [

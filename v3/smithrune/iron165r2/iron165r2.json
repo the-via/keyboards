@@ -2,16 +2,8 @@
   "name": "Smith and Rune Iron165 R2",
   "vendorId": "0x8384",
   "productId": "0x1652",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_backlight",
-    "core/qmk_rgblight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_backlight_rgblight"],
   "matrix": {"rows": 5, "cols": 15},
   "layouts": {
     "labels": [

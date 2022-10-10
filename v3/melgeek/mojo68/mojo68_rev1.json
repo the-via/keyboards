@@ -2,9 +2,7 @@
   "name": "MelGeek MoJo68 rev1",
   "vendorId": "0xEDED",
   "productId": "0x0068",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
+  "keycodes": ["qmk_lighting"],
   "matrix": {"rows": 5, "cols": 15},
   "layouts": {
     "keymap": [

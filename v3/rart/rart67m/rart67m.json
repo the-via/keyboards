@@ -2,9 +2,6 @@
   "name": "RART67M",
   "vendorId": "0x414C",
   "productId": "0x6067",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 8, "cols": 8},
   "layouts": {
     "keymap": [

@@ -2,9 +2,6 @@
   "name": "W1-AT",
   "vendorId": "0x8968",
   "productId": "0x5754",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "customKeycodes": [{"name": "00", "title": "00", "shortName": "KC_P00"}],
   "matrix": {"rows": 5, "cols": 20},
   "layouts": {

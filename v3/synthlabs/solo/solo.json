@@ -2,9 +2,6 @@
   "name": "Synth Labs Solo",
   "vendorId": "0x534E",
   "productId": "0x3031",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 3, "cols": 7},
   "layouts": {
     "labels": [["Knob", "Left", "Right"]],

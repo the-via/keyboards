@@ -2,9 +2,6 @@
   "name": "Wazowski 23-19 rev0",
   "vendorId": "0x4B5A",
   "productId": "0x53FC",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 3, "cols": 5},
   "layouts": {
     "keymap": [

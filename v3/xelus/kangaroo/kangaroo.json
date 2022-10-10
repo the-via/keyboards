@@ -2,9 +2,6 @@
   "name": "Kangaroo",
   "vendorId": "0x5845",
   "productId": "0x524f",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 12, "cols": 11},
   "layouts": {
     "labels": [

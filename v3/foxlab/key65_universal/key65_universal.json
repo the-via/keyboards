@@ -2,16 +2,8 @@
   "name": "Key 65 Universal",
   "vendorId": "0x464C",
   "productId": "0x0004",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_backlight",
-    "core/qmk_rgblight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_backlight_rgblight"],
   "matrix": {"rows": 5, "cols": 16},
   "layouts": {
     "labels": [
