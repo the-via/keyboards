@@ -2,9 +2,6 @@
   "name": "barracuda",
   "vendorId": "0x6B6E",
   "productId": "0x0001",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 6, "cols": 6},
   "layouts": {
     "keymap": [

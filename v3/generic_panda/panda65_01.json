@@ -2,9 +2,6 @@
   "name": "things are going well",
   "vendorId": "0x6770",
   "productId": "0x6501",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 5, "cols": 16},
   "layouts": {
     "labels": ["split backspace"],

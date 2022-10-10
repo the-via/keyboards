@@ -2,9 +2,6 @@
   "name": "BIG DILL EXTENDED - Lefty",
   "vendorId": "0x6D77",
   "productId": "0x1701",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 3, "cols": 14},
   "layouts": {
     "keymap": [

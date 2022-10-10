@@ -2,9 +2,7 @@
   "name": "Titan65 (soldered)",
   "vendorId": "0x5054",
   "productId": "0xBB92",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
+  "keycodes": ["qmk_lighting"],
   "matrix": {"rows": 5, "cols": 16},
   "layouts": {
     "labels": [

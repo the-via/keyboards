@@ -2,7 +2,7 @@
   "name": "Infinity 87 Rev.2",
   "vendorId": "0x4D4C",
   "productId": "0x8702",
-  "lighting": "qmk_backlight",
+  "lighting": "qmk_backlight_rgblight",
   "matrix": {"rows": 6, "cols": 17},
   "layouts": {
     "labels": [

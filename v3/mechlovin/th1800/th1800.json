@@ -2,9 +2,6 @@
   "name": "TH1800",
   "vendorId": "0x4D4C",
   "productId": "0x1800",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 6, "cols": 18},
   "layouts": {
     "labels": [

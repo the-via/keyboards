@@ -2,9 +2,6 @@
   "name": "AEK II",
   "vendorId": "0xA68C",
   "productId": "0xDB52",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 8, "cols": 14},
   "layouts": {
     "labels": [],

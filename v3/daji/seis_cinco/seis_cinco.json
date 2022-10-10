@@ -2,9 +2,6 @@
   "name": "Daji Seis Cinco",
   "vendorId": "BF00",
   "productId": "BF22",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 5, "cols": 16},
   "layouts": {
     "labels": ["Split Backspace"],

@@ -2,15 +2,8 @@
   "name": "Frooastboard Nano",
   "vendorId": "0x4642",
   "productId": "0x6F21",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_rgblight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_rgblight"],
   "matrix": {"rows": 2, "cols": 2},
   "layouts": {
     "keymap": [

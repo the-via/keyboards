@@ -2,9 +2,6 @@
   "name": "Spacey",
   "vendorId": "0x5641",
   "productId": "0x2045",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 5, "cols": 14},
   "layouts": {
     "labels": ["Split Spacebar", "Top Row Spacebars"],

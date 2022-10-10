@@ -2,15 +2,8 @@
   "name": "Kabe Don 980",
   "vendorId": "0x4B44",
   "productId": "0x3938",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "!!!WILBA!!!"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_rgblight"],
   "matrix": {"rows": 10, "cols": 13},
   "layouts": {
     "keymap": [

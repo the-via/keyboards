@@ -2,9 +2,6 @@
   "name": "Lyra",
   "vendorId": "0x4443",
   "productId": "0x4C43",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 10, "cols": 7},
   "layouts": {
     "labels": [],

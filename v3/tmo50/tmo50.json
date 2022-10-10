@@ -2,9 +2,6 @@
   "name": "tmo50",
   "vendorId": "0xfbfb",
   "productId": "0x0050",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 4, "cols": 14},
   "layouts": {
     "labels": ["Right Shift", ["Bottom Row", "6.25U", "Split"]],
