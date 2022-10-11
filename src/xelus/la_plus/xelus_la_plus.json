@@ -32,20 +32,8 @@
         ["HUE_BREATHING", 1],
         ["HUE_PENDULUM", 1],
         ["HUE_WAVE", 1],
-        ["TYPING_HEATMAP", 1],
-        ["DIGITAL_RAIN", 1],
-        ["SOLID_REACTIVE_SIMPLE", 1],
-        ["SOLID_REACTIVE", 1],
-        ["SOLID_REACTIVE_WIDE", 1],
-        ["SOLID_REACTIVE_MULTIWIDE", 1],
-        ["SOLID_REACTIVE_CROSS", 1],
-        ["SOLID_REACTIVE_MULTICROSS", 1],
-        ["SOLID_REACTIVE_NEXUS", 1],
-        ["SOLID_REACTIVE_MULTINEXUS", 1],
-        ["SPLASH", 1],
-        ["MULTISPLASH", 1],
-        ["SOLID_SPLASH", 1],
-        ["SOLID_MULTISPLASH", 1]
+        ["PIXEL_FRACTAL", 1],
+        ["PIXEL_RAIN",1]
       ],
       "supportedLightingValues": [
         128,
