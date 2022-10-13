@@ -1,7 +1,7 @@
 {
-  "name": "Keychron Q2",
+  "name": "Keychron Q3",
   "vendorId": "0x3434",
-  "productId": "0x0113",
+  "productId": "0x0121",
   "lighting": {
     "extends": "qmk_rgblight",
     "underglowEffects": [
@@ -21,7 +21,7 @@
       ["RAINDROPS", 1]
     ]
   },
-  "matrix": {"rows": 5, "cols": 15},
+  "matrix": {"rows": 6, "cols": 16},
   "customKeycodes": [
     {"name": "Mission Control", "title": "Mission Control in macOS", "shortName": "Mission Control"},
     {"name": "Launch Pad", "title": "Launch Pad in macOS", "shortName": "Launch Pad"},
@@ -29,48 +29,56 @@
     {"name": "Right Option", "title": "Right Option in macOS", "shortName": "Right Option"},
     {"name": "Left Cmd", "title": "Left Command in macOS", "shortName": "Left Command"},
     {"name": "Right Cmd", "title": "Right Command in macOS", "shortName": "Right Command"},
+    {"name": "Siri", "title": "Siri in macOS", "shortName": "Siri"},
     {"name": "Task View", "title": "Task View in windows", "shortName": "Task View"},
-    {"name": "File Explorer", "title": "File Explorer in windows", "shortName": "File Explorer"}
+    {"name": "File Explorer", "title": "File Explorer in windows", "shortName": "File Explorer"},
+    {"name": "Screen Shot", "title": "Screenshot in macOS", "shortName": "Screen Shot"},
+    {"name": "Cortana", "title": "Cortana in windows", "shortName": "Cortana"}
   ],
   "layouts": {
     "keymap":[
       [
         {
-          "x": 15.25,
-          "c": "#aaaaaa"
-        },
-        "0,14\n\n\n\n\n\n\n\n\ne0"
-      ],
-      [
-        {
-          "y": -0.75,
           "c": "#777777"
         },
         "0,0\nESC",
         {
+          "x": 0.25,
           "c": "#cccccc"
         },
         "0,1",
         "0,2",
         "0,3",
         "0,4",
+        {
+          "x": 0.25
+        },
         "0,5",
         "0,6",
         "0,7",
         "0,8",
+        {
+          "x": 0.25
+        },
         "0,9",
         "0,10",
         "0,11",
         "0,12",
         {
-          "c": "#aaaaaa",
-          "w": 2
+          "x": 0.25
         },
-        "0,13"
+        "0,13\n\n\n\n\n\n\n\n\ne0",
+        {
+          "x": 0.5,
+          "c": "#aaaaaa"
+        },
+        "0,14",
+        "0,15",
+        "3,14"
       ],
       [
         {
-          "w": 1.5
+          "y": 0.25
         },
         "1,0",
         {
@@ -89,24 +97,20 @@
         "1,11",
         "1,12",
         {
-          "x": 0.25,
-          "c": "#777777",
-          "w": 1.25,
-          "h": 2,
-          "w2": 1.5,
-          "h2": 1,
-          "x2": -0.25
+          "c": "#aaaaaa",
+          "w": 2
         },
         "1,13",
         {
-          "x": 0.25,
-          "c": "#aaaaaa"
+          "x": 0.5
         },
-        "1,14"
+        "1,14",
+        "1,15",
+        "3,15"
       ],
       [
         {
-          "w": 1.75
+          "w": 1.5
         },
         "2,0",
         {
@@ -123,16 +127,22 @@
         "2,9",
         "2,10",
         "2,11",
+        "2,12",
+        {
+          "w": 1.5
+        },
         "2,13",
         {
-          "x": 1.5,
+          "x": 0.5,
           "c": "#aaaaaa"
         },
-        "2,14"
+        "2,14",
+        "2,15",
+        "3,12"
       ],
       [
         {
-          "w": 1.25
+          "w": 1.75
         },
         "3,0",
         {
@@ -150,54 +160,83 @@
         "3,10",
         "3,11",
         {
-          "c": "#aaaaaa",
-          "w": 1.75
+          "c": "#777777",
+          "w": 2.25
         },
         "3,13"
       ],
       [
         {
-          "y": -0.75,
-          "x": 14.25,
-          "c": "#777777"
-        },
-        "3,14"
-      ],
-      [
-        {
-          "y": -0.25,
           "c": "#aaaaaa",
-          "w": 1.24
+          "w": 2.25
         },
         "4,0",
         {
+          "c": "#cccccc"
+        },
+        "4,2",
+        "4,3",
+        "4,4",
+        "4,5",
+        "4,6",
+        "4,7",
+        "4,8",
+        "4,9",
+        "4,10",
+        "4,11",
+        {
+          "c": "#aaaaaa",
+          "w": 2.75
+        },
+        "4,13",
+        {
+          "x": 1.5,
+          "c": "#777777"
+        },
+        "4,15"
+      ],
+      [
+        {
+          "c": "#aaaaaa",
           "w": 1.25
         },
-        "4,1",
+        "5,0",
         {
           "w": 1.25
         },
-        "4,2",
+        "5,1",
+        {
+          "w": 1.25
+        },
+        "5,2",
         {
           "c": "#cccccc",
           "w": 6.25
         },
-        "4,6",
+        "5,6",
         {
-          "c": "#aaaaaa"
+          "c": "#aaaaaa",
+          "w": 1.25
         },
-        "4,10",
-        "4,11",
-        "4,12"
-      ],
-      [
+        "5,10",
         {
-          "y": -0.75,
-          "x": 13.25,
+          "w": 1.25
+        },
+        "5,11",
+        {
+          "w": 1.25
+        },
+        "5,12",
+        {
+          "w": 1.25
+        },
+        "5,13",
+        {
+          "x": 0.5,
           "c": "#777777"
         },
-        "4,13",
-        "2,12",
+        "5,14",
+        "5,15",
         "4,14"
       ]
     ]
