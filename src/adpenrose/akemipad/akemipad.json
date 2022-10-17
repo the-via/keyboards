@@ -2,7 +2,15 @@
   "name": "AkemiPad",
   "vendorId": "0x4450",
   "productId": "0x0004",
-  "lighting": "none",
+  "lighting": {
+      "extends": "qmk_rgblight",
+      "keycodes": "qmk",
+      "underglowEffects": [
+        ["Off", 0],
+        ["Solid Color", 1],
+        ["Gradient Left-Right", 1]
+      ]
+    },
   "matrix": {"rows": 6, "cols": 5},
   "layouts": {
     "labels": ["Split Plus", "Split Enter", "Split Zero"],
