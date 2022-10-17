@@ -8,7 +8,8 @@
       "underglowEffects": [
         ["Off", 0],
         ["Solid Color", 1],
-        ["Gradient Left-Right", 1]
+        ["Gradient Cycle Left-Right", 1],
+        ["Gradient Cycle Up-Down", 1]
       ]
     },
   "matrix": {"rows": 6, "cols": 5},
