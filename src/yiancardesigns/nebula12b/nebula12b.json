@@ -1,7 +1,7 @@
 {
   "name": "NEBULA12B",
   "vendorId": "0x8968",
-  "productId": "0x5338",
+  "productId": "0x5332",
   "lighting": {
     "extends": "qmk_rgblight",
     "underglowEffects": [
