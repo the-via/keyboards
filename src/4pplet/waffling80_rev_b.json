@@ -1,7 +1,7 @@
 {
-    "name": "waffling80 Rev A", 
+    "name": "waffling80 Rev B", 
     "vendorId": "0x4444",
-    "productId": "0x0006",
+    "productId": "0x000F",
     "lighting": "qmk_rgblight",
     "matrix": {"rows": 12, "cols": 8},
     "layouts": {

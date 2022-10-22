@@ -1,7 +1,7 @@
 {
-    "name":"Kangaroo",
+    "name":"Kangaroo Rev1",
     "vendorId":"0x5845",
-    "productId":"0x524f",
+    "productId":"0x524F",
     "lighting":"none",
     "matrix":{
         "rows":12,
@@ -162,7 +162,7 @@
                 },
                 "7,0",
                 "6,1",
-                "7,2",
+                "7,1",
                 {
                     "x":3.5,
                     "c":"#aaaaaa",
