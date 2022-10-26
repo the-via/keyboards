@@ -2,8 +2,6 @@
     "name": "pi60_rgb",
     "vendorId": "0x6F75",
     "productId": "0x5602",
-    "keycodes": ["via/keycodes", "via/qmk_lighting"],
-    "menus": ["qmk_rgb_matrix"],
     "matrix": { "rows": 6, "cols": 14},
     "lighting": {
       "extends":"qmk_rgblight",
