@@ -15,7 +15,7 @@
         {"name": "RGB Matrix Val-", "title": "RGB Matrix Brightness Decrease", "shortName": "R_M_VAD"},
         {"name": "LED Brightness", "title": "Indicater LED Brightness", "shortName": "LED_LVL"}
     ],
-    "matrix": { "rows": 5, "cols": 4 },
+    "matrix": { "rows": 4, "cols": 4 },
     "layouts": {
         "keymap": [
             ["0,0\n\n\n\n\n\n\n\n\ne0",{"x":2.5},"0,3\n\n\n\n\n\n\n\n\ne1"],
