@@ -1,9 +1,7 @@
 {"name": "Calice",
     "vendorId": "0x716b",
     "productId": "0x0001",
-    "lighting": {
-         "extends" : "none"
-    },
+    "lighting": "none"
     "matrix": {"rows": 12, "cols": 8},
     "layouts": {
         "labels": [
