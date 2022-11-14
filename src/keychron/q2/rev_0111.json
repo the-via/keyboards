@@ -23,14 +23,14 @@
   },
   "matrix": {"rows": 5, "cols": 15},
   "customKeycodes": [
-    {"name": "Mission Control", "title": "Mission Control in macOS", "shortName": "Mission Control"},
-    {"name": "Launch Pad", "title": "Launch Pad in macOS", "shortName": "Launch Pad"},
-    {"name": "Left Option", "title": "Left Option in macOS", "shortName": "Left Option"},
-    {"name": "Right Option", "title": "Right Option in macOS", "shortName": "Right Option"},
-    {"name": "Left Cmd", "title": "Left Command in macOS", "shortName": "Left Command"},
-    {"name": "Right Cmd", "title": "Right Command in macOS", "shortName": "Right Command"},
-    {"name": "Task View", "title": "Task View in windows", "shortName": "Task View"},
-    {"name": "File Explorer", "title": "File Explorer in windows", "shortName": "File Explorer"}
+    {"name": "Mission Control", "title": "Mission Control in macOS", "shortName": "MCtrl"},
+    {"name": "Launch Pad",      "title": "Launch Pad in macOS",      "shortName": "LPad"},
+    {"name": "Left Option",     "title": "Left Option in macOS",     "shortName": "LOpt"},
+    {"name": "Right Option",    "title": "Right Option in macOS",    "shortName": "ROpt"},
+    {"name": "Left Cmd",        "title": "Left Command in macOS",    "shortName": "LCmd"},
+    {"name": "Right Cmd",       "title": "Right Command in macOS",   "shortName": "RCmd"},
+    {"name": "Task View",       "title": "Task View in windows",     "shortName": "Task"},
+    {"name": "File Explorer",   "title": "File Explorer in windows", "shortName": "File"}
   ],
   "layouts": {
     "keymap":[
