@@ -12,7 +12,7 @@
 			"ISO Enter",
 			"Stepped Capslock",
       		"Split Left Shift",
-			["Bottom Row", "6.25U","7U"]
+			["Bottom Row", "7U","6.25U"]
 		],
 		"keymap": [
             [
