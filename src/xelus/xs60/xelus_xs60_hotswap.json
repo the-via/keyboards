@@ -1,7 +1,7 @@
 {
-  "name":"XS60",
+  "name":"XS60 Hotswap",
   "vendorId":"0x5845",
-  "productId":"0x5860",
+  "productId":"0x5861",
   "lighting":"none",
   "matrix":{
       "rows":5,
