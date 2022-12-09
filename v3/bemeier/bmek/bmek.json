@@ -43,7 +43,7 @@
               "showIf": "{id_qmk_rgblight_effect} != 0",
               "label": "Effect Speed",
               "type": "range",
-              "options": [0, 3],
+              "options": [0, 255],
               "content": ["id_qmk_rgblight_effect_speed", 2, 3]
             },
             {
