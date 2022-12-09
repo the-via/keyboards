@@ -1,5 +1,5 @@
 {
-  "name": "Retropad",
+  "name": "Glacier",
   "vendorId": "0x04D8",
   "productId": "0xE890",
   "keycodes": ["qmk_lighting"],
