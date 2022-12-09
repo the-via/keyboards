@@ -69,7 +69,7 @@
             "content": ["id_qmk_rgblight_effect_speed", 2, 3]
           },
           {
-            "showIf": "{id_qmk_rgblight_effect} != 0",
+            "showIf": "{id_qmk_rgblight_effect} != 0 && {id_qmk_rgblight_effect} != 35",
             "label": "Color",
             "type": "color",
             "content": ["id_qmk_rgblight_color", 2, 4]
