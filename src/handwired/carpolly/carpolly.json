@@ -2,7 +2,6 @@
     "name": "Carpolly",
     "vendorId": "0x6532",
     "productId": "0x0017",
-    "firmwareVersion": 1,
     "lighting": "none",
     "matrix": {"rows": 4, "cols": 13},
     "layouts":{
