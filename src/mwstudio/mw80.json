@@ -2,7 +2,7 @@
   "name": "",
   "vendorId": "0x7BA1",
   "productId": "0x8001",
-  "lighting": "qmk_backlight_rgblight",
+  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 6,
     "cols": 17
@@ -134,7 +134,7 @@
           "w": 2.25,
 		  "x":-2.25
         },
-        "3,12\n\n\n0,0"
+        "3,13\n\n\n0,0"
       ],
       [
         {
