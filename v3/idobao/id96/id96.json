@@ -1,5 +1,5 @@
 {
-  "name": "Idobao ID96",
+  "name": "IDOBAO ID96",
   "vendorId": "0x6964",
   "productId": "0x0096",
   "keycodes": ["qmk_lighting"],
