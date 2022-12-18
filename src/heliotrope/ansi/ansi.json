@@ -2,6 +2,7 @@
   "name": "heliotrope",
   "vendorId": "0x3141",
   "productId": "0x4466",
+  "keycodes": ["qmk_lighting"],
   "menus": [ "qmk_rgb_matrix" ],
   "matrix": { "rows": 5, "cols": 14 },
   "layouts": 
