@@ -9,22 +9,21 @@
     "labels": [
       [
         "Bottom Row",
-        "M0116",
+        "M0116 / IIc Plus",
         "M0118",
         "IIc",
         "IIc blocker",
-        "NeXT",
+        "NeXT"
       ],
       [
         "Enter",
         "bae",
         "ISO",
-        "ANSI",
+        "ANSI"
       ],
       "Split Left Shift",
       "Split Right Shift"
     ],
-//change keymap
     "keymap": 
     [
   [
