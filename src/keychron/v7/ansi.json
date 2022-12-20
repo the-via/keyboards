@@ -1,7 +1,7 @@
 {
   "name": "Keychron V7",
   "vendorId": "0x3434",
-  "productId": "0x0372",
+  "productId": "0x0370",
   "lighting": {
     "extends": "qmk_rgblight",
     "underglowEffects": [
