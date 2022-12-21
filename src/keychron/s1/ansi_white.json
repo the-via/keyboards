@@ -2,6 +2,7 @@
   "name": "Keychron S1",
   "vendorId": "0x3434",
   "productId": "0x0411",
+  "lighting": {"extends": "none"},
   "keycode" : "qmk_lighting",
   "matrix": {"rows": 6, "cols": 15},
   "customKeycodes": [
