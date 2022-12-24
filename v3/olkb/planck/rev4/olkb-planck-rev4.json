@@ -2,9 +2,6 @@
   "name": "OLKB Planck rev4",
   "vendorId": "0x03A8",
   "productId": "0xAE01",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 4, "cols": 12},
   "layouts": {
     "labels": [["Layout", "Grid (2x1u)", "MIT (1x2u)"]],

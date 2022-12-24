@@ -2,15 +2,8 @@
   "name": "GHS.RAR",
   "vendorId": "0x0645",
   "productId": "0x0001",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_rgblight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_rgblight"],
   "matrix": {"rows": 12, "cols": 8},
   "layouts": {
     "keymap": [
@@ -73,7 +66,7 @@
         "5,4",
         "4,5",
         "5,5",
-        "5,6",
+        "4,6",
         {"w": 1.5},
         "4,7\n\n\n1,0",
         {"x": 0.5, "c": "#aaaaaa"},

@@ -1,0 +1,80 @@
+{
+  "name": "Keychron Q0",
+  "vendorId": "0x3434",
+  "productId": "0x0130",
+  "lighting": {
+  "extends": "qmk_rgblight",
+  "underglowEffects": [
+      ["None", 0],
+      ["SOLID_COLOR", 1],
+      ["BREATHING", 1],
+      ["CYCLE_ALL", 1],
+      ["CYCLE_LEFT_RIGHT", 1],
+      ["CYCLE_UP_DOWN", 1],
+      ["RAINBOW_MOVING_CHEVRON", 1],
+      ["CYCLE_OUT_IN", 1],
+      ["CYCLE_OUT_IN_DUAL", 1],
+      ["CYCLE_PINWHEEL", 1],
+      ["CYCKE_SPIRAL", 1],
+      ["DUAL_BEACON", 1],
+      ["RAINBOW_BEACON", 1],
+      ["RAINDROPS", 1]
+    ]
+  },
+  "matrix": {
+    "rows": 6,
+    "cols": 4
+  },
+  "layouts": {
+    "keymap":
+    [
+      [
+        "0,0",
+        "0,1",
+        "0,2",
+        "0,3"
+      ],
+      [
+        "1,0",
+        "1,1",
+        "1,2",
+        "1,3"
+      ],
+      [
+        "2,0",
+        "2,1",
+        "2,2"
+      ],
+      [
+        "3,0",
+        "3,1",
+        "3,2",
+        {
+          "h": 2,
+          "y": -1
+        },
+        "2,3"
+      ],
+      [
+        {
+          "y": 1
+        },
+        "4,0",
+        "4,1",
+        "4,2"
+      ],
+      [
+        {
+          "w": 2
+        },
+        "5,0",
+        "5,2",
+        {
+          "h": 2,
+          "y": -1
+        },
+        "4,3"
+      ]
+    ]
+  }
+}

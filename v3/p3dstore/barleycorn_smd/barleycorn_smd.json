@@ -2,15 +2,8 @@
   "name": "Barleycorn SMD",
   "vendorId": "0x7033",
   "productId": "0x4749",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_rgblight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_rgblight"],
   "matrix": {"rows": 5, "cols": 18},
   "layouts": {
     "labels": [

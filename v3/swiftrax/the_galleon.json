@@ -2,9 +2,6 @@
   "name": "The Galleon",
   "vendorId": "0x04D8",
   "productId": "0xEA2D",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 14, "cols": 9},
   "layouts": {
     "labels": ["Split Backspace", "1U Plus", "1U Enter", "Bottom Row"],

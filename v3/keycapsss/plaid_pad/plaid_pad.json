@@ -2,9 +2,6 @@
   "name": "Plaid-Pad",
   "vendorId": "0x7983",
   "productId": "0x5050",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 4, "cols": 4},
   "layouts": {
     "keymap": [

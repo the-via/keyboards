@@ -2,15 +2,8 @@
   "name": "CANOE",
   "vendorId": "0x5053",
   "productId": "0x434E",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_rgblight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_rgblight"],
   "matrix": {"rows": 5, "cols": 15},
   "layouts": {
     "labels": ["ISO Enter", "Split Left Shift"],
