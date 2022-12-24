@@ -2,15 +2,8 @@
   "name": "KabeDon 98e",
   "vendorId": "0x4B44",
   "productId": "0x3935",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "!!!WILBA!!!"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_rgblight"],
   "matrix": {"rows": 12, "cols": 11},
   "layouts": {
     "keymap": [

@@ -2,9 +2,6 @@
   "name": "wilba.tech WT8-A",
   "vendorId": "0x6582",
   "productId": "0x008a",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 1, "cols": 8},
   "layouts": {
     "keymap": [

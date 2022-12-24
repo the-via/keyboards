@@ -8,7 +8,8 @@
     "labels": [
         "Split Backspace",
         "ISO Enter",
-        ["Bottom Row", "Split Spacebar", "6.25U-1U", "6.25U-1.5U", "7U WKL", "7U-1U", "7U-1.5U"]
+        ["Bottom Row", "Split Spacebar", "6.25U-1U", "6.25U-1.5U", "7U WKL", "7U-1U", "7U-1.5U"],
+        "Encoder"
       ],
     "keymap": [
       [
@@ -45,7 +46,11 @@
         {
           "x": 0.5
         },
-        "0,15"
+        "0,15\n\n\n3,0",
+        {
+          "x": 0.5
+        },
+        "0,15\n\n\n3,1\n\n\n\n\n\ne0"
       ],
       [
         {
@@ -276,7 +281,7 @@
           "w": 7
         },
         "5,4\n\n\n2,3",
-        "5,8\n\n\n2,3",
+        "5,9\n\n\n2,3",
         "5,10\n\n\n2,3"
       ],
       [

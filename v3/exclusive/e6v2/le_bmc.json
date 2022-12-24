@@ -2,16 +2,8 @@
   "name": "E6-V2 LE BMC rev 2.32",
   "vendorId": "0x4558",
   "productId": "0xE62D",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_backlight",
-    "core/qmk_rgblight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_backlight_rgblight"],
   "matrix": {"rows": 8, "cols": 11},
   "layouts": {
     "labels": [

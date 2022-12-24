@@ -2,15 +2,8 @@
   "name": "Prototypist J-01",
   "vendorId": "0x5450",
   "productId": "0x6A31",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_backlight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_backlight"],
   "matrix": {"rows": 5, "cols": 18},
   "layouts": {
     "labels": [
@@ -172,10 +165,10 @@
         {"c": "#cccccc", "w": 6},
         "4,8\n\n\n3,2",
         {"c": "#aaaaaa", "w": 1.25},
+        "4,11\n\n\n3,2",
         "4,12\n\n\n3,2",
-        "4,13\n\n\n3,2",
         {"w": 1.25},
-        "4,14\n\n\n3,2"
+        "4,13\n\n\n3,2"
       ],
       [
         {"x": 5.25, "w": 1.5},
@@ -188,10 +181,10 @@
         {"w": 2.75},
         "4,8\n\n\n3,3",
         {"c": "#aaaaaa", "w": 1.5},
+        "4,11\n\n\n3,3",
         "4,12\n\n\n3,3",
-        "4,13\n\n\n3,3",
         {"w": 1.5},
-        "4,14\n\n\n3,3"
+        "4,13\n\n\n3,3"
       ]
     ]
   }

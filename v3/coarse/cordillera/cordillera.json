@@ -2,15 +2,8 @@
   "name": "Cordillera",
   "vendorId": "0x434B",
   "productId": "0x1401",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_backlight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_backlight"],
   "matrix": {"rows": 5, "cols": 16},
   "layouts": {
     "labels": ["Split Backspace", "Full RShift"],

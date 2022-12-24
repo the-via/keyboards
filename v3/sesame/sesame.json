@@ -2,9 +2,6 @@
   "name": "Sesame",
   "vendorId": "0xA68C",
   "productId": "0xE2BD",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 5, "cols": 15},
   "layouts": {
     "labels": ["Split Backspace", "Long RShift"],

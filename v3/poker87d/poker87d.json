@@ -2,15 +2,8 @@
   "name": "POKER-87D",
   "vendorId": "0x6D66",
   "productId": "0x087D",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_rgblight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_rgblight"],
   "matrix": {"rows": 6, "cols": 15},
   "layouts": {
     "keymap": [

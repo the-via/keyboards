@@ -2,15 +2,8 @@
   "name": "Adelheid",
   "vendorId": "0xF100",
   "productId": "0xAD78",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_backlight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_backlight"],
   "matrix": {"rows": 7, "cols": 15},
   "layouts": {
     "keymap": [

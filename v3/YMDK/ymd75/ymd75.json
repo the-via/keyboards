@@ -2,16 +2,8 @@
   "name": "YMD 75 VIA",
   "vendorId": "0x20A0",
   "productId": "0x422D",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_backlight",
-    "core/qmk_rgblight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_backlight_rgblight"],
   "matrix": {"rows": 12, "cols": 9},
   "layouts": {
     "keymap": [
@@ -72,7 +64,7 @@
         "9,5",
         "9,4",
         {"w": 1.5},
-        "8,4\n\n\n0,0",
+        "9,3\n\n\n0,0",
         {"c": "#aaaaaa"},
         "9,6",
         {
@@ -84,7 +76,7 @@
           "h2": 1,
           "x2": -0.25
         },
-        "8,4\n\n\n0,1"
+        "9,3\n\n\n0,1"
       ],
       [
         {"x": 3, "c": "#aaaaaa", "w": 1.75},
@@ -102,11 +94,11 @@
         "8,7",
         "8,5",
         {"c": "#777777", "w": 2.25},
-        "9,3\n\n\n0,0",
+        "8,4\n\n\n0,0",
         {"c": "#aaaaaa"},
         "8,6",
         {"x": 0.5, "c": "#cccccc"},
-        "9,3\n\n\n0,1"
+        "8,4\n\n\n0,1"
       ],
       [
         {"c": "#aaaaaa", "w": 1.25},

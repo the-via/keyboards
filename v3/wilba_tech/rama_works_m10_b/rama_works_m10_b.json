@@ -2,9 +2,6 @@
   "name": "RAMA WORKS M10-B",
   "vendorId": "0x5241",
   "productId": "0x00ab",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 1, "cols": 10},
   "layouts": {
     "keymap": [

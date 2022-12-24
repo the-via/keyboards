@@ -2,9 +2,6 @@
   "name": "Bachoo Crin",
   "vendorId": "0x6400",
   "productId": "0xCC11",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 5, "cols": 17},
   "layouts": {
     "labels": [
