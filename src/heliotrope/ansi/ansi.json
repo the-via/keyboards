@@ -2,7 +2,7 @@
   "name": "heliotrope",
   "vendorId": "0x3141",
   "productId": "0x4466",
-  "lighting": "qmk_rgb_matrix"
+  "lighting": "qmk_rgblight",
   "matrix": {"rows": 5, "cols": 14},
   "layouts": 
   { 
