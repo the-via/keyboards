@@ -72,8 +72,6 @@
                 "Gradient 8",
                 "Gradient 9",
                 "Gradient 10",
-                "RGB Test",
-                "Alternating",
                 "Twinkle 1",
                 "Twinkle 2",
                 "Twinkle 3",
@@ -141,21 +139,7 @@
                 "Hue Wave",
                 "Pixel Rain",
                 "Pixel Flow",
-                "Pixel Fractal",
-                "Typing Heatmap",
-                "Digital Rain",
-                "Solid Reactive Simple",
-                "Solid Reactive",
-                "Solid Reactive Wide",
-                "Solid Reactive Multi Wide",
-                "Solid Reactive Cross",
-                "Solid Reactive Multi Cross",
-                "Solid Reactive Nexus",
-                "Solid Reactive Multi Nexus",
-                "Spash",
-                "Multi Splash",
-                "Solid Splash",
-                "Solid Multi Splash"
+                "Pixel Fractal"
               ]
             },
             {
