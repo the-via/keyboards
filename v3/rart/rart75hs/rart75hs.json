@@ -6,7 +6,11 @@
   "menus": ["qmk_rgblight"],
   "matrix": {"rows": 6, "cols": 16},
   "layouts": {
-    "labels": ["Split Backspace", ["Bottom row", "6.25U-1U", "6.25U-1.5U"]],
+    "labels": [
+      "Split Backspace",
+      ["Bottom row", "6.25U-1U", "6.25U-1.5U"],
+      "Encoder"
+    ],
     "keymap": [
       [
         {"c": "#777777"},
@@ -29,7 +33,9 @@
         {"x": 0.25},
         "0,14",
         {"x": 0.5},
-        "0,15"
+        "0,15\n\n\n2,0",
+        {"x": 0.5},
+        "0,15\n\n\n2,1\n\n\n\n\n\ne0"
       ],
       [
         {"y": 0.25},
