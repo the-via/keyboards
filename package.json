@@ -12,6 +12,7 @@
     "build-v2-isolated": "ts-node scripts/build-isolated-v2.ts",
     "generate-v2": "ts-node scripts/generate-v2.ts",
     "build-v3": "ts-node scripts/build-v3.ts",
+    "build-names": "ts-node scripts/build-names.ts",
     "v2-to-v3": "ts-node scripts/v2-to-v3.ts",
     "dev": "ts-node-dev --respawn scripts/serve.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -28,8 +29,9 @@
   "homepage": "https://github.com/the-via/keyboards#readme",
   "devDependencies": {
     "@types/fs-extra": "^9.0.9",
+    "@types/node": "^12.20.16",
     "@types/node-static": "^0.7.7",
-    "microbundle": "^0.11.0",
+    "microbundle": "^0.15.1",
     "node-static": "^0.7.11",
     "prettier": "^2.2.1"
   },
@@ -44,7 +46,7 @@
     "json-stringify-pretty-compact": "^2.0.0",
     "rimraf": "^3.0.0",
     "ts-node": "10.4.0",
-    "ts-node-dev": "^1.0.0-pre.43",
+    "ts-node-dev": "^2.0.0",
     "typescript": "^3.6.4",
     "typescript-json-schema": "^0.40.0",
     "via-reader": "https://github.com/the-via/reader.git#118221e19054de2f04805042ebde33d64d84b005",

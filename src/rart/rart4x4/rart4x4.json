@@ -5,12 +5,23 @@
   "lighting": "qmk_rgblight",
   "matrix": {"rows": 4, "cols": 4},
     "layouts": {
+      "labels": [
+        "Left Encoder",
+        "Right Encoder"
+      ],
       "keymap": [
+         [
+          "0,0\n\n\n0,1\n\n\n\n\n\ne0",
+          {
+            "x": 2
+          },
+          "0,3\n\n\n1,1\n\n\n\n\n\ne1"
+        ],
         [
-          "0,0",
+          "0,0\n\n\n0,0",
           "0,1",
           "0,2",
-          "0,3"
+          "0,3\n\n\n1,0"
         ],
         [
           "1,0",
