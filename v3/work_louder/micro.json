@@ -13,7 +13,7 @@
             {
               "label": "Layer",
               "type": "range",
-              "options": [0, 3],
+              "options": [0, 7],
               "content": ["id_wl_layer", 0, 2]
             }
           ]
