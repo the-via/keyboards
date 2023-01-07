@@ -30,10 +30,7 @@
       ["22. SOLID_SPLASH", 1]
     ]
   },
-  "matrix": {
-    "rows": 5,
-    "cols": 15
-  },
+  "matrix": {"rows": 5, "cols": 15},
   "customKeycodes": [
     {
       "name": "Mission Control",
