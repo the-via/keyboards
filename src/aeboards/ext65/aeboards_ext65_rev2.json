@@ -1,8 +1,8 @@
 {
-  "name": "AEboards Ext65",
+  "name": "AEBoards EXT65 Rev 2",
   "vendorId": "0x4145",
-  "productId": "0xae65",
-  "lighting": "none",
+  "productId": "0xa652",
+  "lighting": "qmk_backlight_rgblight",
   "matrix": {"rows": 10, "cols": 10},
   "layouts": {
     "labels": [
