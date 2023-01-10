@@ -2,7 +2,7 @@
     "name": "zoom65",
     "vendorId": "0x1EA7",
     "productId": "0x7777",
-    "lighting": "none",
+    "lighting": "qmk_rgblight",
     "matrix": {
         "rows": 5,
         "cols": 16
