@@ -1,5 +1,5 @@
 {
-  "name": "Work Board",
+  "name": "Numpad",
   "vendorId": "0x574C",
   "productId": "0x99EB",
   "keycodes": ["qmk_lighting"],
