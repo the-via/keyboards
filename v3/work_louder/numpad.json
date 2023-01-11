@@ -203,9 +203,6 @@
   ],
   "matrix": {"rows": 4, "cols": 4},
   "layouts": {
-      "labels": [
-          "2u Space"
-      ],
       "keymap": [
           [
               "0,0",
