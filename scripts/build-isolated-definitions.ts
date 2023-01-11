@@ -31,28 +31,45 @@ export const buildIsolatedDefinitions = async <
   const definitions: TInput[] = paths.map((f) => require(f));
 
   // Map KeyboardDefinition to VIADefintion and valiate. Don't write invalid definitions.
-  const validVIADefinitions = definitions.map(mapper).filter((definition) => {
-    if (!validator(definition)) {
-      // TODO: Replace warn with new Error() after all definitions are working
-      console.warn(
-        `WARN: ${version} definition invalid: ${(<any>definition).name}`
-      );
-      return false;
-    }
-    return true;
-  });
+  const validVIADefinitions = definitions
+    .map((definition) => {
+      try {
+        return mapper(definition);
+      } catch (error) {
+        throw new Error(
+          `Error: ${version} definition invalid: name: ${
+            (<any>definition).name
+          } vendorId: ${(<any>definition).vendorId} productId: ${
+            (<any>definition).productId
+          }\n` + error
+        );
+      }
+    })
+    .filter((definition) => {
+      if (!validator(definition)) {
+        // TODO: Replace warn with new Error() after all definitions are working
+        console.warn(
+          `WARN: ${version} definition invalid: ${(<any>definition).name}`
+        );
+        return false;
+      }
+      return true;
+    });
 
   if (!fs.existsSync(outputPath)) {
     fs.mkdirSync(outputPath);
   }
 
   const jsonHash = hashJSON(validVIADefinitions);
-  const validIds = validVIADefinitions.map((definition) => {
-    fs.writeFileSync(
-      `${outputPath}/${definition.vendorProductId}.json`,
-      JSON.stringify(definition)
-    );
-    return definition.vendorProductId;
+  const validIds: number[] = [];
+  validVIADefinitions.map((definition) => {
+    if (definition != undefined) {
+      fs.writeFileSync(
+        `${outputPath}/${definition.vendorProductId}.json`,
+        JSON.stringify(definition)
+      );
+      validIds.push(definition.vendorProductId);
+    }
   });
   return [jsonHash, validIds];
 };
