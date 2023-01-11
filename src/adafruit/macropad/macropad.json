@@ -1,0 +1,85 @@
+{
+  "name": "Adafruit MacroPad RP2040",
+  "vendorId": "0x239A",
+  "productId": "0x0108",
+  "lighting": {
+    "extends": "qmk_rgblight",
+    "underglowEffects": [
+      ["None", 0],
+      ["Solid Color", 1],
+      ["Alpha Mods", 1],
+      ["Gradient Up Down", 1],
+      ["Gradient Left Right", 1],
+      ["Breathing", 1],
+      ["Band Sat", 1],
+      ["Band Val", 1],
+      ["Band PinWheel Sat", 1],
+      ["Band PinWheel Val", 1],
+      ["Ban Spiral Sat", 1],
+      ["Ban Spiral Val", 1],
+      ["Cycle All", 1],
+      ["Cycle Left Right", 1],
+      ["Cycle Up Down", 1],
+      ["Rainbow Moving Chevron", 1],
+      ["Cycle Out In", 1],
+      ["Cycle Out In Dual", 1],
+      ["Cycle Pinwheel", 1],
+      ["Cycle Spiral", 1],
+      ["Dual Beacon", 1],
+      ["Rainbow Beacon", 1],
+      ["Rainbow Pinwheels", 1],
+      ["Raindrops", 1],
+      ["Jellybeans Raindrops", 1],
+      ["Hue Breathing", 1],
+      ["Hue Pendulum", 1],
+      ["Hue Wave", 1],
+      ["Pixel Rain", 1],
+      ["Pixel Flow", 1],
+      ["Pixel Fractal", 1],
+      ["Typing Heatmap", 1],
+      ["Digital Rain", 1],
+      ["Solid Reactive Simple", 1],
+      ["Solid Reactive", 1],
+      ["Solid Reactive Wide", 1],
+      ["Solid Reactive MultiWide", 1],
+      ["Solid Reactive Cross", 1],
+      ["Solid Reactive MultiCross", 1],
+      ["Solid Reactive Nexus", 1],
+      ["Solid Reactive MultiNexus", 1],
+      ["Splash", 1],
+      ["MultiSplash", 1],
+      ["Solid Splash", 1],
+      ["Solid MultiSplash", 1]
+    ],
+    "supportedLightingValues": [128, 129, 130, 131]
+  },
+  "matrix": { "rows": 5, "cols": 3 },
+  "layouts": {
+    "keymap": [
+      [
+        {"x":2},
+        "0,2\n\n\n\n\n\n\n\n\ne0"
+      ],
+      [
+        "1,0",
+        "1,1",
+        "1,2"
+      ],
+      [
+        "2,0",
+        "2,1",
+        "2,2"
+      ],
+      [
+        "3,0",
+        "3,1",
+        "3,2"
+      ],
+      [
+        "4,0",
+        "4,1",
+        "4,2"
+      ]
+    ]
+  }
+}
