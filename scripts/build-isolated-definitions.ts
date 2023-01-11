@@ -36,16 +36,12 @@ export const buildIsolatedDefinitions = async <
       try {
         return [mapper(definition), path];
       } catch (error) {
-        throw new Error(
-          `Error: ${version} definition invalid: ${path}\n` + error
-        );
+        throw new Error(`${version} definition invalid: ${path}\n` + error);
       }
     })
     .filter(([definition, path]) => {
       if (!validator(definition)) {
-        // TODO: Replace warn with new Error() after all definitions are working
-        console.warn(`WARN: ${version} definition invalid: ${path}`);
-        return false;
+        throw new Error(`${version} definition invalid: ${path}`);
       }
       return true;
     });
