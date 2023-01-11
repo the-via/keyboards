@@ -5,22 +5,6 @@
   "keycodes": ["qmk_lighting"],
   "menus": [
     {
-      "label": "Layer",
-      "content": [
-        {
-          "label": "Layer",
-          "content": [
-            {
-              "label": "Layer",
-              "type": "range",
-              "options": [0, 3],
-              "content": ["id_wl_layer", 0, 2]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "label": "Lighting",
       "content": [
         {
@@ -98,7 +82,7 @@
           ]
         },
         {
-          "label": "RGB Matrix",
+          "label": "Backlight",
           "content": [
             {
               "label": "Brightness",
@@ -167,7 +151,7 @@
             {
               "label": "Brightness",
               "type": "range",
-              "options": [0, 4],
+              "options": [0, 5],
               "content": ["id_wl_indicators", 0, 1]
             }
           ]
