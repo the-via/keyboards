@@ -3,68 +3,183 @@
   "vendorId": "0x574C",
   "productId": "0xE6E3",
   "keycodes": ["qmk_lighting"],
-  "menus": ["qmk_rgblight"],
-  "customKeycodes": [
+  "menus": [
     {
-      "name": "RGB Matrix Toggle",
-      "title": "RGB Matrix Toggle",
-      "shortName": "R_M_TOG"
-    },
-    {
-      "name": "RGB Matrix Mode+",
-      "title": "RGB Matrix Mode Increase",
-      "shortName": "R_M_MOD"
-    },
-    {
-      "name": "RGB Matrix Mode-",
-      "title": "RGB Matrix Mode Decrease",
-      "shortName": "R_M_RMOD"
-    },
-    {
-      "name": "RGB Matrix Hue+",
-      "title": "RGB Matrix Hue Increase",
-      "shortName": "R_M_HUI"
-    },
-    {
-      "name": "RGB Matrix Hue-",
-      "title": "RGB Matrix Hue Decrease",
-      "shortName": "R_M_HUD"
-    },
-    {
-      "name": "RGB Matrix Sat+",
-      "title": "RGB Matrix Saturation Increase",
-      "shortName": "R_M_SAI"
-    },
-    {
-      "name": "RGB Matrix Sat-",
-      "title": "RGB Matrix Saturation Decrease",
-      "shortName": "R_M_SAD"
-    },
-    {
-      "name": "RGB Matrix Val+",
-      "title": "RGB Matrix Brightness Increase",
-      "shortName": "R_M_VAI"
-    },
-    {
-      "name": "RGB Matrix Val-",
-      "title": "RGB Matrix Brightness Decrease",
-      "shortName": "R_M_VAD"
-    },
-    {
-      "name": "LED Brightness",
-      "title": "Indicater LED Brightness",
-      "shortName": "LED_LVL"
+      "label": "Lighting",
+      "content": [
+        {
+          "label": "Underglow",
+          "content": [
+            {
+              "label": "Brightness",
+              "type": "range",
+              "options": [0, 255],
+              "content": ["id_qmk_rgblight_brightness", 2, 1]
+            },
+            {
+              "label": "Effect",
+              "type": "dropdown",
+              "content": ["id_qmk_rgblight_effect", 2, 2],
+              "options": [
+                "All Off",
+                "Solid Color",
+                "Breathing 1",
+                "Breathing 2",
+                "Breathing 3",
+                "Breathing 4",
+                "Rainbow Mood 1",
+                "Rainbow Mood 2",
+                "Rainbow Mood 3",
+                "Rainbow Swirl 1",
+                "Rainbow Swirl 2",
+                "Rainbow Swirl 3",
+                "Rainbow Swirl 4",
+                "Rainbow Swirl 5",
+                "Rainbow Swirl 6",
+                "Snake 1",
+                "Snake 2",
+                "Snake 3",
+                "Snake 4",
+                "Snake 5",
+                "Snake 6",
+                "Knight 1",
+                "Knight 2",
+                "Knight 3",
+                "Christmas",
+                "Gradient 1",
+                "Gradient 2",
+                "Gradient 3",
+                "Gradient 4",
+                "Gradient 5",
+                "Gradient 6",
+                "Gradient 7",
+                "Gradient 8",
+                "Gradient 9",
+                "Gradient 10",
+                "RGB Test",
+                "Alternating",
+                "Twinkle 1",
+                "Twinkle 2",
+                "Twinkle 3",
+                "Twinkle 4",
+                "Twinkle 5",
+                "Twinkle 6"
+              ]
+            },
+            {
+              "showIf": "{id_qmk_rgblight_effect} != 0",
+              "label": "Effect Speed",
+              "type": "range",
+              "options": [0, 3],
+              "content": ["id_qmk_rgblight_effect_speed", 2, 3]
+            },
+            {
+              "showIf": "{id_qmk_rgblight_effect} != 0",
+              "label": "Color",
+              "type": "color",
+              "content": ["id_qmk_rgblight_color", 2, 4]
+            }
+          ]
+        },
+        {
+          "label": "Backlight",
+          "content": [
+            {
+              "label": "Brightness",
+              "type": "range",
+              "options": [0, 255],
+              "content": ["id_qmk_rgb_matrix_brightness", 3, 1]
+            },
+            {
+              "label": "Effect",
+              "type": "dropdown",
+              "content": ["id_qmk_rgb_matrix_effect", 3, 2],
+              "options": [
+                "All Off",
+                "Solid Color",
+                "Alphas Mods",
+                "Gradient Up/Down",
+                "Gradient Left/Right",
+                "Breathing",
+                "Band Sat.",
+                "Band Val.",
+                "Pinwheel Sat.",
+                "Pinwheel Val.",
+                "Spiral Sat.",
+                "Spiral Val.",
+                "Cycle All",
+                "Cycle Left/Right",
+                "Cycle Up/Down",
+                "Rainbow Moving Chevron",
+                "Cycle Out/In",
+                "Cycle Out/In Dual",
+                "Cycle Pinwheel",
+                "Cycle Spiral",
+                "Dual Beacon",
+                "Rainbow Beacon",
+                "Rainbow Pinwheels",
+                "Raindrops",
+                "Jellybean Raindrops",
+                "Hue Breathing",
+                "Hue Pendulum",
+                "Hue Wave",
+                "Pixel Rain",
+                "Pixel Flow",
+                "Pixel Fractal",
+                "Typing Heatmap",
+                "Digital Rain"
+              ]
+            },
+            {
+              "showIf": "{id_qmk_rgb_matrix_effect} != 0",
+              "label": "Effect Speed",
+              "type": "range",
+              "options": [0, 255],
+              "content": ["id_qmk_rgb_matrix_effect_speed", 3, 3]
+            },
+            {
+              "showIf": "{id_qmk_rgb_matrix_effect} != 0 && {id_qmk_rgb_matrix_effect} != 24 && {id_qmk_rgb_matrix_effect} != 28 && {id_qmk_rgb_matrix_effect} != 29 && {id_qmk_rgb_matrix_effect} != 32",
+              "label": "Color",
+              "type": "color",
+              "content": ["id_qmk_rgb_matrix_color", 3, 4]
+            }
+          ]
+        },
+        {
+          "label": "Indicators",
+          "content": [
+            {
+              "label": "Brightness",
+              "type": "range",
+              "options": [0, 5],
+              "content": ["id_wl_indicators", 0, 1]
+            }
+          ]
+        }
+      ]
     }
   ],
-  "matrix": {"rows": 4, "cols": 4},
+  "customKeycodes": [
+      {"name": "RGB Matrix Toggle", "title": "RGB Matrix Toggle", "shortName": "R_M_TOG"},
+      {"name": "RGB Matrix Mode+", "title": "RGB Matrix Mode Increase", "shortName": "R_M_MOD"},
+      {"name": "RGB Matrix Mode-", "title": "RGB Matrix Mode Decrease", "shortName": "R_M_RMOD"},
+      {"name": "RGB Matrix Hue+", "title": "RGB Matrix Hue Increase", "shortName": "R_M_HUI"},
+      {"name": "RGB Matrix Hue-", "title": "RGB Matrix Hue Decrease", "shortName": "R_M_HUD"},
+      {"name": "RGB Matrix Sat+", "title": "RGB Matrix Saturation Increase", "shortName": "R_M_SAI"},
+      {"name": "RGB Matrix Sat-", "title": "RGB Matrix Saturation Decrease", "shortName": "R_M_SAD"},
+      {"name": "RGB Matrix Val+", "title": "RGB Matrix Brightness Increase", "shortName": "R_M_VAI"},
+      {"name": "RGB Matrix Val-", "title": "RGB Matrix Brightness Decrease", "shortName": "R_M_VAD"},
+      {"name": "LED Brightness", "title": "Indicater LED Brightness", "shortName": "LED_LVL"}
+  ],
+  "matrix": { "rows": 4, "cols": 4 },
   "layouts": {
-    "keymap": [
-      ["0,0\n\n\n\n\n\n\n\n\ne0", {"x": 2.5}, "0,3\n\n\n\n\n\n\n\n\ne1"],
-      [{"y": -0.75, "x": 1.25}, "0,1", "0,2"],
-      [{"x": 0.25}, "1,0", "1,1", "1,2", "1,3"],
-      [{"x": 0.25}, "2,0", "2,1", "2,2", "2,3"],
-      [{"x": 1.25}, "3,1", "3,2"],
-      [{"y": -0.75}, "3,0", {"x": 2.5}, "3,3"]
-    ]
+      "keymap": [
+          ["0,0\n\n\n\n\n\n\n\n\ne0",{"x":2.5},"0,3\n\n\n\n\n\n\n\n\ne1"],
+          [{"y":-0.75,"x":1.25},"0,1","0,2"],
+          [{"x":0.25},"1,0","1,1","1,2","1,3"],
+          [{"x":0.25},"2,0","2,1","2,2","2,3"],
+          [{"x":1.25},"3,1","3,2"],
+          [{"y":-0.75},"3,0",{"x":2.5},"3,3"]
+      ]
   }
 }
