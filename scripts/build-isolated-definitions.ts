@@ -8,7 +8,7 @@ import {
   DefinitionVersion,
 } from 'via-reader';
 import {ValidateFunction} from 'via-reader/dist/validated-types/via-definition-v3.validator';
-import {getDefinitionsPath, getOutputPath} from './get-path';
+import {getDefinitionsPath, getOutputPath, getRelativePath} from './get-path';
 import {hashJSON} from './hash-json';
 /**
  * Builds keyboard definitions into separate valid VIA definitions
@@ -28,7 +28,7 @@ export const buildIsolatedDefinitions = async <
   const outputPath = `${getOutputPath()}/${version}`;
   const definitionsPath = getDefinitionsPath(version);
   const paths = glob.sync(definitionsPath, {absolute: true});
-  const definitions = paths.map((f) => [require(f), f]);
+  const definitions = paths.map((f) => [require(f), getRelativePath(f)]);
 
   // Map KeyboardDefinition to VIADefintion and valiate. Don't write invalid definitions.
   const validVIADefinitions = definitions
@@ -45,6 +45,23 @@ export const buildIsolatedDefinitions = async <
       }
       return true;
     });
+
+  let conflictingVIADefinitions: string[] = [];
+  validVIADefinitions.reduce((p, [definition, path]) => {
+    const f = p.find(
+      ([d, p]) => d.vendorProductId == definition.vendorProductId
+    );
+    if (f !== undefined) {
+      conflictingVIADefinitions.push(`${path} conflicts with ${f[1]}`);
+    }
+    return [...p, [definition, path]];
+  }, []);
+
+  if (conflictingVIADefinitions.length) {
+    throw new Error(
+      'Duplicate vendor/product IDs:\n' + conflictingVIADefinitions.join('\n')
+    );
+  }
 
   if (!fs.existsSync(outputPath)) {
     fs.mkdirSync(outputPath);
