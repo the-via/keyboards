@@ -69,7 +69,8 @@ export const buildIsolatedDefinitions = async <
 
   if (conflictingVIADefinitions.length) {
     throw new Error(
-      'Duplicate vendor/product IDs:\n' + conflictingVIADefinitions
+      `Duplicate vendor/product IDs: 
+      ${conflictingVIADefinitions}`
     );
   }
 
