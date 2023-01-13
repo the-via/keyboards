@@ -63,6 +63,9 @@ export const buildIsolatedDefinitions = async <
     );
   }
 
+  if (!fs.existsSync(getOutputPath())) {
+    fs.mkdirSync(getOutputPath());
+  }
   if (!fs.existsSync(outputPath)) {
     fs.mkdirSync(outputPath);
   }

@@ -40,6 +40,9 @@ export async function buildV3() {
       },
     };
 
+    if (!fs.existsSync(getOutputPath())) {
+      fs.mkdirSync(getOutputPath());
+    }
     fs.writeFileSync(
       `${getOutputPath()}/supported_kbs.json`,
       stringify(supportedKbsJSON)
