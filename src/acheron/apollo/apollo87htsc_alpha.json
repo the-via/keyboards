@@ -2,8 +2,8 @@
         "name": "AcheronProject Apollo87H-T-SC Rev. Alpha",
         "productId": "0x8776",
         "vendorId": "0x4150",
-        "matrix": {"rows": 6, "cols": 17},
         "lighting": "none",
+        "matrix": {"rows": 6, "cols": 17},
         "layouts": {
                 "keymap": [
   [
