@@ -1,6 +1,6 @@
 {
   "name": "Six Pack",
-  "vendorId": "0x3430",
+  "vendorId": "0x4025",
   "productId": "0x5350",
   "keycodes": ["qmk_lighting"],
   "menus": ["qmk_backlight"],

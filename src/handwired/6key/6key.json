@@ -1,0 +1,24 @@
+{
+  "name": "6key",
+  "vendorId": "0xD143",
+  "productId": "0x0007",
+  "lighting": "none",
+  "matrix": {
+    "rows": 2,
+    "cols": 3
+  },
+  "layouts": {
+    "keymap": [
+      [
+        "0,0",
+        "0,1",
+        "0,2"
+      ],
+      [
+        "1,0",
+        "1,1",
+        "1,2"
+      ]
+    ]
+  }
+}
