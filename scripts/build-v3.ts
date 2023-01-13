@@ -44,6 +44,7 @@ export async function buildV3() {
       `${getOutputPath()}/supported_kbs.json`,
       stringify(supportedKbsJSON)
     );
+    console.log(`Generated ${getOutputPath()}/supported_kbs.json`);
 
     // Read all common-menus configurations asynchronously.
     const commonMenusFiles = glob.sync(`${getCommonMenusPath()}/**.json`);
@@ -65,6 +66,7 @@ export async function buildV3() {
         `${getOutputPath()}/common-menus.json`,
         stringify(commonMenusJson)
       );
+      console.log(`Generated ${getOutputPath()}/common-menus.json`);
       fs.writeFileSync(
         `${getOutputPath()}/hash.json`,
         stringify(
@@ -76,6 +78,7 @@ export async function buildV3() {
           ])
         )
       );
+      console.log(`Generated ${getOutputPath()}/hash.json`);
     });
   } catch (error) {
     console.error(error);
