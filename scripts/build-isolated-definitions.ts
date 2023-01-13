@@ -62,8 +62,8 @@ export const buildIsolatedDefinitions = async <
       const vendorID = (parseInt(key) >> 16).toString(16).padStart(4, '0');
       const productID = (parseInt(key) & 0xffff).toString(16).padStart(4, '0');
       return (
-        `Duplicate ID vendorId=0x${vendorID} productId=0x${productID} in:\n` +
-        IDsToPaths[key].join(',\n')
+        `Duplicate ID vendorId=0x${vendorID} productId=0x${productID} in:
+        ${IDsToPaths[key].join(',\n')}`
       );
     });
 
