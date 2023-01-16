@@ -1,7 +1,7 @@
 {
-  "name":"AEBoards Constellation",
+  "name":"AEBoards Constellation Rev3",
   "vendorId":"0x4145",
-  "productId":"0x065c",
+  "productId":"0x065D",
   "lighting":"none",
   "matrix":{
     "rows":5,
@@ -150,7 +150,7 @@
           "c":"#cccccc",
           "w":6.25
         },
-        "4,8",
+        "4,5",
         {
           "c":"#aaaaaa",
           "w":1.5
