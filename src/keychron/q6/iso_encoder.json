@@ -16,7 +16,7 @@
       ["08. CYCLE_OUT_IN", 1],
       ["09. CYCLE_OUT_IN_DUAL", 1],
       ["10. CYCLE_PINWHEEL", 1],
-      ["11. CYCKE_SPIRAL", 1],
+      ["11. CYCLE_SPIRAL", 1],
       ["12. DUAL_BEACON", 1],
       ["13. RAINBOW_BEACON", 1],
       ["14. JELLYBEAN_RAINDROPS", 1],
@@ -41,14 +41,13 @@
     {"name": "Siri",            "title": "Siri in macOS",            "shortName": "Siri"},
     {"name": "Task View",       "title": "Task View in windows",     "shortName": "Task"},
     {"name": "File Explorer",   "title": "File Explorer in windows", "shortName": "File"},
-    {"name": "Screen Shot",     "title": "Screenshot in macOS",      "shortName": "SShot"}, 
+    {"name": "Screen Shot",     "title": "Screenshot in macOS",      "shortName": "SShot"},
     {"name": "Cortana",         "title": "Cortana in windows",       "shortName": "Cortana"}
   ],
   "layouts": {
-    "keymap":[
+    "keymap": [
       [
         {
-          "y": -0.5,
           "c": "#777777"
         },
         "0,0\nESC",
@@ -61,14 +60,16 @@
         "0,3",
         "0,4",
         {
-          "x": 0.25
+          "x": 0.25,
+          "c": "#aaaaaa"
         },
         "0,5",
         "0,6",
         "0,7",
         "0,8",
         {
-          "x": 0.25
+          "x": 0.25,
+          "c": "#cccccc"
         },
         "0,9",
         "0,10",
@@ -79,15 +80,15 @@
         },
         "4,19\n\n\n\n\n\n\n\n\ne0",
         {
-          "c": "#aaaaaa",
-          "x": 0.25
+          "x": 0.25,
+          "c": "#aaaaaa"
         },
         "0,14",
         "0,15",
         "0,16",
         {
-          "c": "#cccccc",
-          "x": 0.25
+          "x": 0.25,
+          "c": "#cccccc"
         },
         "0,19",
         "1,19",
@@ -99,9 +100,6 @@
           "y": 0.25
         },
         "1,0",
-        {
-          "c": "#cccccc"
-        },
         "1,1",
         "1,2",
         "1,3",
@@ -126,8 +124,8 @@
         "1,15",
         "1,16",
         {
-          "c": "#cccccc",
-          "x": 0.25
+          "x": 0.25,
+          "c": "#cccccc"
         },
         "1,17",
         "1,18",
@@ -166,19 +164,23 @@
         },
         "2,13",
         {
-          "c": "#aaaaaa",
-          "x": 0.25
+          "x": 0.25,
+          "c": "#aaaaaa"
         },
         "2,14",
         "2,15",
         "2,16",
         {
-          "c": "#cccccc",
-          "x": 0.25
+          "x": 0.25,
+          "c": "#cccccc"
         },
         "2,17",
         "2,18",
-        "3,14"
+        "3,14",
+        {
+          "h": 2
+        },
+        "3,15"
       ],
       [
         {
@@ -202,23 +204,16 @@
         "3,11",
         "3,13",
         {
-          "c": "#cccccc",
           "x": 4.75
         },
         "3,17",
         "3,18",
-        "3,16",
-        {
-          "h": 2,
-          "y": -1
-        },
-        "3,15"
+        "3,16"
       ],
       [
         {
           "c": "#aaaaaa",
-          "w": 1.25,
-          "y": 1
+          "w": 1.25
         },
         "4,0",
         {
@@ -241,18 +236,21 @@
         },
         "4,13",
         {
-          "c": "#777777",
           "x": 1.25,
-          "w": 1
+          "c": "#777777"
         },
         "4,15",
         {
-          "c": "#cccccc",
-          "x": 1.25
+          "x": 1.25,
+          "c": "#cccccc"
         },
         "4,17",
         "4,18",
-        "4,14"
+        "4,14",
+        {
+          "h": 2
+        },
+        "4,16"
       ],
       [
         {
@@ -291,25 +289,19 @@
         },
         "5,13",
         {
-          "c": "#777777",
-          "w": 1,
-          "x": 0.25
+          "x": 0.25,
+          "c": "#777777"
         },
         "5,14",
         "5,15",
         "5,16",
         {
-          "c": "#cccccc",
           "x": 0.25,
+          "c": "#cccccc",
           "w": 2
         },
         "5,17",
-        "5,18",
-        {
-          "h": 2,
-          "y": -1
-        },
-        "4,16"
+        "5,18"
       ]
     ]
   }
