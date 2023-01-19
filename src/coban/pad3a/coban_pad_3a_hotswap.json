@@ -1,0 +1,19 @@
+{
+  "keyboard_name": "Coban Pad 3A",
+  "name": "Coban Pad 3A",
+  "vendorId": "0xCB3A",
+  "productId": "0xCC3A",
+  "url": "https://cobanstationery.com",
+  "maintainer": "Coban Stationery",
+  "matrix": { "rows": 1, "cols": 3 },
+  "lighting": "none",
+  "layouts": {
+      "keymap": [
+          [
+              "0,0",
+              "0,1",
+              "0,2\n\n\n\n\n\n\n\n\ne0"
+          ]
+      ]
+  }
+}
