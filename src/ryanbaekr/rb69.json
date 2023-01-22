@@ -2,7 +2,7 @@
     "name": "ryanbaekr rb69",
     "vendorId": "0x7262",
     "productId": "0x0069",
-    "lighting": "qmk_backlight_rgblight",
+    "lighting": "qmk_rgblight",
     "matrix": {
       "rows": 5,
       "cols": 16
