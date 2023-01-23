@@ -2,6 +2,7 @@
  "name": "Bubble Studio Bubble75",
  "vendorId": "0x4242",
  "productId": "0x5A4C",
+ "keycodes": [ "qmk_lighting" ],
  "menus": [
   {
     "label": "Lighting",
