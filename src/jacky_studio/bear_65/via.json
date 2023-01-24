@@ -2,15 +2,17 @@
   "name": "Bear65",
   "vendorId": "0x45D4",
   "productId": "0x0428",
-  "keycodes": ["qmk_lighting"],
-  "menus": ["qmk_backlight_rgblight"],
-  "manufacturer": "Jacky",
-  "matrix": {"rows": 5, "cols": 15},
+  "lighting": "qmk_backlight_rgblight",
+  "matrix": {
+    "rows": 5,
+    "cols": 15
+  },
   "layouts": {
     "labels": [
       "Full Backspace",
       "WKL"
     ],
+
     "keymap": [
       [
         {"y": 0.75,"x": 5.75},
