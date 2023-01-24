@@ -46,20 +46,31 @@ export const buildIsolatedDefinitions = async <
       return true;
     });
 
-  let conflictingVIADefinitions: string[] = [];
-  validVIADefinitions.reduce((p, [definition, path]) => {
-    const f = p.find(
-      ([d, p]) => d.vendorProductId == definition.vendorProductId
-    );
-    if (f !== undefined) {
-      conflictingVIADefinitions.push(`${path} conflicts with ${f[1]}`);
+  const IDsToPaths = validVIADefinitions.reduce((p, [definition, path]) => {
+    const id = definition.vendorProductId;
+    if (id in p) {
+      p[id] = [...p[id], path];
+      return {...p};
+    } else {
+      return {...p, [id]: [path]};
     }
-    return [...p, [definition, path]];
-  }, []);
+  }, {} as any);
+
+  const conflictingVIADefinitions = Object.keys(IDsToPaths)
+    .filter((key) => IDsToPaths[key].length > 1)
+    .map((key) => {
+      const vendorID = (parseInt(key) >> 16).toString(16).padStart(4, '0');
+      const productID = (parseInt(key) & 0xffff).toString(16).padStart(4, '0');
+      return (
+        `Duplicate ID vendorId=0x${vendorID} productId=0x${productID} in:
+        ${IDsToPaths[key].join(',\n')}`
+      );
+    });
 
   if (conflictingVIADefinitions.length) {
     throw new Error(
-      'Duplicate vendor/product IDs:\n' + conflictingVIADefinitions.join('\n')
+      `Duplicate vendor/product IDs: 
+      ${conflictingVIADefinitions}`
     );
   }
 
