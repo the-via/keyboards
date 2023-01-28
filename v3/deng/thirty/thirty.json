@@ -2,12 +2,8 @@
   "name": "Thirty",
   "vendorId": "0xDE29",
   "productId": "0x7342",
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_backlight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_rgb_matrix"],
   "matrix": {
     "rows": 6,
     "cols": 5
