@@ -6,8 +6,8 @@ import {
   VIADefinitionV2,
   VIADefinitionV3,
   DefinitionVersion,
-} from 'via-reader';
-import {ValidateFunction} from 'via-reader/dist/validated-types/via-definition-v3.validator';
+} from '@the-via/reader';
+import {ValidateFunction} from '@the-via/reader/dist/validated-types/via-definition-v3.validator';
 import {getDefinitionsPath, getOutputPath, getRelativePath} from './get-path';
 import {hashJSON} from './hash-json';
 /**
@@ -61,10 +61,8 @@ export const buildIsolatedDefinitions = async <
     .map((key) => {
       const vendorID = (parseInt(key) >> 16).toString(16).padStart(4, '0');
       const productID = (parseInt(key) & 0xffff).toString(16).padStart(4, '0');
-      return (
-        `Duplicate ID vendorId=0x${vendorID} productId=0x${productID} in:
-        ${IDsToPaths[key].join(',\n')}`
-      );
+      return `Duplicate ID vendorId=0x${vendorID} productId=0x${productID} in:
+        ${IDsToPaths[key].join(',\n')}`;
     });
 
   if (conflictingVIADefinitions.length) {

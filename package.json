@@ -32,6 +32,7 @@
     "prettier": "^2.2.1"
   },
   "dependencies": {
+    "@the-via/reader": "^1.5.5",
     "@types/glob": "^7.1.1",
     "@types/rimraf": "^2.0.3",
     "fs-extra": "^9.1.0",

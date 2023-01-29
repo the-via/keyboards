@@ -1,7 +1,7 @@
 import stringify from 'json-stringify-pretty-compact';
 import * as glob from 'glob';
 import * as fs from 'fs';
-import {keyboardDefinitionV3ToVIADefinitionV3} from 'via-reader';
+import {keyboardDefinitionV3ToVIADefinitionV3} from '@the-via/reader';
 import process from 'process';
 import {getDefinitionsPath, getOutputPath} from './get-path';
 

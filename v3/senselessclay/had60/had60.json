@@ -2,8 +2,6 @@
   "name": "had60",
   "vendorId": "0x4849",
   "productId": "0x060F",
-  "url": "https://senselessclay.com/",
-  "maintainer": "hadi",
   "matrix": {"rows": 5, "cols": 14},
   "layouts": {
     "labels": [

@@ -8,7 +8,7 @@ import {
   keyboardDefinitionV3ToVIADefinitionV3,
   isVIADefinitionV2,
   isVIADefinitionV3,
-} from 'via-reader';
+} from '@the-via/reader';
 import stringify from 'json-stringify-pretty-compact';
 import {buildIsolatedDefinitions} from './build-isolated-definitions';
 import {getCommonMenusPath, getOutputPath} from './get-path';
