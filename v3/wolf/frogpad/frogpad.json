@@ -155,8 +155,8 @@
             ]
         ],
         "labels": [
-            "Dissable Left Encoder",
-            "Dissable Right Encoder",
+            "Disable Left Encoder",
+            "Disable Right Encoder",
             "Top Right 2U Split",
             [
               "Bottom Right Corner",
