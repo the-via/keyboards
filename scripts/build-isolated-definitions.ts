@@ -7,7 +7,7 @@ import {
   VIADefinitionV3,
   DefinitionVersion,
 } from '@the-via/reader';
-import {ValidateFunction} from '@the-via/reader/dist/validated-types/via-definition-v3.validator';
+import {ValidateFunction} from '@the-via/reader';
 import {getDefinitionsPath, getOutputPath, getRelativePath} from './get-path';
 import {hashJSON} from './hash-json';
 /**
