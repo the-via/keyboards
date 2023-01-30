@@ -4,7 +4,6 @@
   "productId": "0x1001",
   "keycodes": ["qmk_lighting"],
   "menus": ["qmk_backlight_rgblight"],
-  "manufacturer": "Jacky",
   "matrix": {"rows": 5, "cols": 15},
   "layouts": {
     "labels": [
