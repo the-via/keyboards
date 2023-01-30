@@ -36,7 +36,6 @@
       ]
     ],
     "keymap": [
-      {"name": "zx60_pre_via", "author": "sets3n"},
       [
         {"x": 2.5, "c": "#777777"},
         "0,0",
