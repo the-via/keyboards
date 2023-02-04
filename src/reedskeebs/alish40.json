@@ -1,6 +1,6 @@
 {
   "name": "Alish40",
-  "vendorId": "0x726B",
+  "vendorId": "0x722E",
   "productId": "0x0001",
   "lighting": "qmk_rgblight",
   "matrix": { "rows": 8, "cols": 6 },
