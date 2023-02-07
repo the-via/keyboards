@@ -1,5 +1,5 @@
 {
-  "name": "ab70lite",
+  "name": "aeroboard",
   "vendorId": "0x8954",
   "productId": "0x8870",
   "lighting": "qmk_rgblight",
