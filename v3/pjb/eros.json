@@ -2,7 +2,6 @@
   "name": "Eros",
   "vendorId": "0x5042",
   "productId": "0x4552",
-  "maintainer": "PJB",
   "matrix": {"rows": 6, "cols": 17},
   "layouts": {
     "labels": [

@@ -6,7 +6,6 @@
   "layouts": {
     "labels": [["Bottom Row", "7U", "HHKB", "WKL"]],
     "keymap": [
-      {"x": 13, "c": "#aaaaaa", "w": 2},
       [
         {"c": "#777777"},
         "0,0",

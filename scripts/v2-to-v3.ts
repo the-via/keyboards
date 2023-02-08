@@ -9,7 +9,7 @@ import {
   LightingTypeDefinition,
   LightingTypeDefinitionV2,
   VIAMenu,
-} from 'via-reader';
+} from '@the-via/reader';
 import fs from 'fs-extra';
 import stringify from 'json-stringify-pretty-compact';
 
@@ -25,7 +25,7 @@ const OMITTED_V2_KEYS = [
 
 type SUPPORTED_V2_KEYS = Omit<
   KeyboardDefinitionV2,
-  typeof OMITTED_V2_KEYS[number]
+  (typeof OMITTED_V2_KEYS)[number]
 >;
 
 const isLightingTypeDefinition = (
@@ -106,7 +106,7 @@ const resolveKeycodes = (
 enum coreMenus {
   QMKRGBLight = 'qmk_rgblight',
   QMKBacklight = 'qmk_backlight',
-  QMKBacklightRGBLight = 'qmk_backlight_rgblight'
+  QMKBacklightRGBLight = 'qmk_backlight_rgblight',
 }
 
 const WilbaPlsHalp = '!!!WILBA!!!';
@@ -150,10 +150,11 @@ const resolveMenus = (
 };
 
 const cleanObject = (obj: any) => {
-  return Object.keys(obj).reduce((acc,key) => 
-    (obj[key].length ? {...acc, [key]:obj[key]} : acc) 
-  , {})
-}
+  return Object.keys(obj).reduce(
+    (acc, key) => (obj[key].length ? {...acc, [key]: obj[key]} : acc),
+    {}
+  );
+};
 
 async function convertV2ToV3() {
   const definitionFiles = await glob('src/**/*.json');
@@ -188,13 +189,13 @@ async function convertV2ToV3() {
       name,
       vendorId,
       productId,
-      ...cleanObject({keycodes,menus}),
+      ...cleanObject({keycodes, menus}),
       ...supportedJson,
     };
 
     try {
       //if ( ! v3Definition.menus?.includes(WilbaPlsHalp) ) {
-        fs.outputFile(`v3/${definition.path}`, stringify(v3Definition));
+      fs.outputFile(`v3/${definition.path}`, stringify(v3Definition));
       //}
     } catch (e) {
       console.error(e);

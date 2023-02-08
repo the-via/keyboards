@@ -20,7 +20,6 @@
       ]
     ],
     "keymap": [
-      {"name": "Duck Octagon V3", "author": "u/tk89yt"},
       [
         {"y": 1.25, "x": 2.75, "c": "#777777"},
         "0,0",
