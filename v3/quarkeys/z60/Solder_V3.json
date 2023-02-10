@@ -7,7 +7,6 @@
       "cols": 15
     },
     "layouts": {
-      "presets": {"HHKB": [1, 0, 0, 1, 2]},
       "labels": [
         "Split Backspace",
         "ISO Enter",
