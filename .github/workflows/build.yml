@@ -26,3 +26,8 @@ jobs:
         run: |
           npm ci 
           npm run build
+
+      - uses: actions/upload-artifact@v3
+        with:
+          name: build-error
+          path: build-error.log

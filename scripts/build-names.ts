@@ -4,6 +4,7 @@ import * as fs from 'fs';
 import {keyboardDefinitionV3ToVIADefinitionV3} from '@the-via/reader';
 import process from 'process';
 import {getDefinitionsPath, getOutputPath} from './get-path';
+import {writeToErrorLog} from './error-log';
 
 export async function buildNames() {
   try {
@@ -26,6 +27,7 @@ export async function buildNames() {
     console.log(`Generated ${outputPath}/keyboard_names.json`);
   } catch (error) {
     console.error(error);
+    await writeToErrorLog(error);
     process.exit(1);
   }
 }
