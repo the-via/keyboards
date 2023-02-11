@@ -1,33 +1,17 @@
 import stringify from 'json-stringify-pretty-compact';
-import * as glob from 'glob';
-import * as fs from 'fs';
-import {keyboardDefinitionV3ToVIADefinitionV3} from '@the-via/reader';
-import process from 'process';
-import {getDefinitionsPath, getOutputPath} from './get-path';
-import {writeToErrorLog} from './error-log';
+import fs from 'fs-extra';
+import {VIADefinitionV3} from '@the-via/reader';
+import {getOutputPath} from './get-path';
 
-export async function buildNames() {
-  try {
-    const version = 'v3';
-    const outputPath = `${getOutputPath()}`;
-    const definitionsPath = getDefinitionsPath(version);
-    const paths = glob.sync(definitionsPath, {absolute: true});
-    const definitions = paths.map((f) => require(f));
+export async function buildNames(definitions: VIADefinitionV3[]) {
+  const outputPath = `${getOutputPath()}`;
 
-    const names = definitions
-      .map(keyboardDefinitionV3ToVIADefinitionV3)
-      .reduce((p, n) => [...p, n.name], [])
-      .sort();
+  const names = definitions.reduce((p, n) => [...p, n.name], []).sort();
 
-    if (!fs.existsSync(outputPath)) {
-      fs.mkdirSync(outputPath);
-    }
-
-    fs.writeFileSync(`${outputPath}/keyboard_names.json`, stringify(names));
-    console.log(`Generated ${outputPath}/keyboard_names.json`);
-  } catch (error) {
-    console.error(error);
-    await writeToErrorLog(error);
-    process.exit(1);
+  if (!(await fs.exists(outputPath))) {
+    await fs.mkdir(outputPath);
   }
+
+  await fs.writeFile(`${outputPath}/keyboard_names.json`, stringify(names));
+  console.log(`Generated ${outputPath}/keyboard_names.json`);
 }

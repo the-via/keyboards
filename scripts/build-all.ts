@@ -1,16 +1,28 @@
-import {rimraf} from 'rimraf';
+import fs from 'fs-extra';
 import {buildNames} from './build-names';
 import {buildDefinitions} from './build-definitions';
-import fs from 'fs/promises';
-import {clearErrorLog} from './error-log';
+import {ErrorLogger} from './error-log';
+
 async function build() {
+  const logger = new ErrorLogger();
+
   try {
-    await rimraf('dist');
-    await clearErrorLog();
-    await buildDefinitions();
-    await buildNames();
-  } catch (e) {
-    fs.writeFile('./build-error.log', e.toString());
+    await fs.remove('dist');
+    await logger.clearLogFile();
+
+    const v3ConvertedDefinitions = await buildDefinitions(logger);
+
+    await buildNames(
+      v3ConvertedDefinitions.map((converted) => converted.viaDefinition)
+    );
+  } catch (error) {
+    logger.logError(error);
+  } finally {
+    if (logger.getErrors().length > 0) {
+      logger.writeErrorsToConsole();
+      await logger.writeErrorsToLogFile();
+      process.exit(1);
+    }
   }
 }
 
