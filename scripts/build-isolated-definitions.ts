@@ -7,7 +7,6 @@ import {
   VIADefinitionV3,
   DefinitionVersion,
 } from '@the-via/reader';
-import {ValidateFunction} from '@the-via/reader';
 import {getDefinitionsPath, getOutputPath, getRelativePath} from './get-path';
 import {hashJSON} from './hash-json';
 import {ErrorLogger} from './error-log';
@@ -15,7 +14,6 @@ import {ErrorLogger} from './error-log';
  * Builds keyboard definitions into separate valid VIA definitions
  * @param {DefinitionVersion} version definition version
  * @param {(definition: TInput) => TOutput} mapper keyboard-to-via definition mapper
- * @param {ValidateFunction<TOutput>} validator via definition validator
  * @returns {number[]} vendorProductIds for all valid built definitions
  * */
 
@@ -30,7 +28,6 @@ export const buildIsolatedDefinitions = async <
 >(
   version: DefinitionVersion,
   mapper: (definition: TInput) => TOutput,
-  validator: ValidateFunction<TOutput>,
   logger: ErrorLogger
 ): Promise<[string, number[], ConvertedDefinition<TOutput>[]]> => {
   const outputPath = `${getOutputPath()}/${version}`;

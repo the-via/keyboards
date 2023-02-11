@@ -6,8 +6,6 @@ import {
   getTheme,
   KeyboardDefinitionIndex,
   keyboardDefinitionV3ToVIADefinitionV3,
-  isVIADefinitionV2,
-  isVIADefinitionV3,
 } from '@the-via/reader';
 import stringify from 'json-stringify-pretty-compact';
 import {buildIsolatedDefinitions} from './build-isolated-definitions';
@@ -20,14 +18,12 @@ export async function buildDefinitions(logger: ErrorLogger) {
   const [v2Hash, v2DefinitionIds] = await buildIsolatedDefinitions(
     'v2',
     keyboardDefinitionV2ToVIADefinitionV2,
-    isVIADefinitionV2,
     logger
   );
   const [v3Hash, v3DefinitionIds, v3Definitions] =
     await buildIsolatedDefinitions(
       'v3',
       keyboardDefinitionV3ToVIADefinitionV3,
-      isVIADefinitionV3,
       logger
     );
 
