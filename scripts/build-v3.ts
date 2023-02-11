@@ -13,6 +13,7 @@ import stringify from 'json-stringify-pretty-compact';
 import {buildIsolatedDefinitions} from './build-isolated-definitions';
 import {getCommonMenusPath, getOutputPath} from './get-path';
 import {hashJSON} from './hash-json';
+import {writeToErrorLog} from './error-log';
 var packageJson = require('../package.json');
 
 export async function buildV3() {
@@ -85,6 +86,7 @@ export async function buildV3() {
     });
   } catch (error) {
     console.error(error);
+    await writeToErrorLog(error);
     process.exit(1);
   }
 }
