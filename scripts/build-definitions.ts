@@ -16,7 +16,7 @@ import {hashJSON} from './hash-json';
 import {writeToErrorLog} from './error-log';
 var packageJson = require('../package.json');
 
-export async function buildV3() {
+export async function buildDefinitions() {
   try {
     const [v2Hash, v2DefinitionIds] = await buildIsolatedDefinitions(
       'v2',
