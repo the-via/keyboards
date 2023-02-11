@@ -1,5 +1,5 @@
 import glob from 'glob';
-import fs from 'fs';
+import fs from 'fs-extra';
 import {
   KeyboardDefinitionV2,
   KeyboardDefinitionV3,
@@ -80,18 +80,18 @@ export const buildIsolatedDefinitions = async <
       );
     });
 
-  if (!fs.existsSync(getOutputPath())) {
-    fs.mkdirSync(getOutputPath());
+  if (!(await fs.exists(getOutputPath()))) {
+    await fs.mkdir(getOutputPath());
   }
-  if (!fs.existsSync(outputPath)) {
-    fs.mkdirSync(outputPath);
+  if (!(await fs.exists(outputPath))) {
+    await fs.mkdir(outputPath);
   }
 
   const jsonHash = hashJSON(validVIADefinitions);
   const validIds: number[] = [];
-  validVIADefinitions.map(({viaDefinition}) => {
+  validVIADefinitions.map(async ({viaDefinition}) => {
     if (viaDefinition != undefined) {
-      fs.writeFileSync(
+      await fs.writeFile(
         `${outputPath}/${viaDefinition.vendorProductId}.json`,
         JSON.stringify(viaDefinition)
       );

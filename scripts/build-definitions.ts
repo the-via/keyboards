@@ -1,4 +1,4 @@
-import fs from 'fs';
+import fs from 'fs-extra';
 import glob from 'glob';
 import path from 'path';
 import {
@@ -43,10 +43,10 @@ export async function buildDefinitions(logger: ErrorLogger) {
     },
   };
 
-  if (!fs.existsSync(getOutputPath())) {
-    fs.mkdirSync(getOutputPath());
+  if (!(await fs.exists(getOutputPath()))) {
+    await fs.mkdir(getOutputPath());
   }
-  fs.writeFileSync(
+  await fs.writeFile(
     `${getOutputPath()}/supported_kbs.json`,
     stringify(supportedKbsJSON)
   );
@@ -55,25 +55,25 @@ export async function buildDefinitions(logger: ErrorLogger) {
   // Read all common-menus configurations asynchronously.
   const commonMenusFiles = glob.sync(`${getCommonMenusPath()}/**.json`);
   const commonMenusJson = {} as Record<string, string>;
-  const commonMenusReaders = commonMenusFiles.map((commonMenuFile) => {
-    return fs.promises.readFile(commonMenuFile, 'utf8');
-  });
+  const commonMenusReaders = commonMenusFiles.map((commonMenuFile) =>
+    fs.readFile(commonMenuFile, 'utf8')
+  );
 
   // Combine all common-menus configurations into a single core.json file
-  await Promise.all(commonMenusReaders).then((commonMenus) => {
-    commonMenus.forEach((menu, i) => {
+  await Promise.all(commonMenusReaders).then(async (commonMenus) => {
+    commonMenus.forEach(async (menu, i) => {
       // Parse out just the filename for the key:
       // common-menus/qmk_audio.json -> qmk_audio
       const fileName = path.parse(commonMenusFiles[i]).name;
 
       commonMenusJson[fileName] = JSON.parse(menu);
     });
-    fs.writeFileSync(
+    await fs.writeFile(
       `${getOutputPath()}/common-menus.json`,
       stringify(commonMenusJson)
     );
     console.log(`Generated ${getOutputPath()}/common-menus.json`);
-    fs.writeFileSync(
+    await fs.writeFile(
       `${getOutputPath()}/hash.json`,
       stringify(
         hashJSON([
