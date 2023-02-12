@@ -21,11 +21,11 @@
   },
   "homepage": "https://github.com/the-via/keyboards#readme",
   "devDependencies": {
-    "@types/fs-extra": "^11.0.1",
     "@types/node": "^18.13.0",
     "prettier": "^2.8.4"
   },
   "dependencies": {
+    "@types/fs-extra": "^11.0.1",
     "@the-via/reader": "^1.5.10",
     "@types/glob": "^8.0.1",
     "@types/rimraf": "^3.0.2",
