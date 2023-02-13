@@ -97,5 +97,5 @@ export const buildIsolatedDefinitions = async <
       }
     })
   );
-  return [jsonHash, validIds, validVIADefinitions];
+  return [jsonHash, validIds.sort(), validVIADefinitions];
 };
