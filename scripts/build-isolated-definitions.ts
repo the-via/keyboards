@@ -86,14 +86,16 @@ export const buildIsolatedDefinitions = async <
 
   const jsonHash = hashJSON(validVIADefinitions);
   const validIds: number[] = [];
-  validVIADefinitions.map(async ({viaDefinition}) => {
-    if (viaDefinition != undefined) {
-      await fs.writeFile(
-        `${outputPath}/${viaDefinition.vendorProductId}.json`,
-        JSON.stringify(viaDefinition)
-      );
-      validIds.push(viaDefinition.vendorProductId);
-    }
-  });
+  await Promise.all(
+    validVIADefinitions.map(async ({viaDefinition}) => {
+      if (viaDefinition != undefined) {
+        await fs.writeFile(
+          `${outputPath}/${viaDefinition.vendorProductId}.json`,
+          JSON.stringify(viaDefinition)
+        );
+        validIds.push(viaDefinition.vendorProductId);
+      }
+    })
+  );
   return [jsonHash, validIds, validVIADefinitions];
 };
