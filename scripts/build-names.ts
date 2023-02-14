@@ -1,53 +1,17 @@
 import stringify from 'json-stringify-pretty-compact';
-import * as glob from 'glob';
-import * as fs from 'fs';
-import {keyboardDefinitionV2ToVIADefinitionV2} from 'via-reader';
-import process from 'process';
-import path from 'path';
-import {getDefinitionsPath, getOutputPath} from './get-path';
+import fs from 'fs-extra';
+import {VIADefinitionV3} from '@the-via/reader';
+import {getOutputPath} from './get-path';
 
-export async function buildNames() {
-  try {
-    const paths = glob.sync(getDefinitionsPath(), {absolute: true});
-    let foundDuplicateId = false;
-    console.log(path.resolve('./'));
+export async function buildNames(definitions: VIADefinitionV3[]) {
+  const outputPath = `${getOutputPath()}`;
 
-    const [v2Definitions] = [paths].map((paths) =>
-      paths.map((f) => require(f))
-    );
+  const names = definitions.reduce((p, n) => [...p, n.name], []).sort();
 
-    const resV2 = Object.values(
-      v2Definitions
-        .map(keyboardDefinitionV2ToVIADefinitionV2)
-        .reduce((p, n) => {
-          if (n.vendorProductId in p) {
-            const isIdentical =
-              JSON.stringify(p[n.vendorProductId]) === JSON.stringify(n);
-            console.log(
-              `Duplicate id found: ${n.name} collides with ${
-                p[n.vendorProductId].name
-              } and is${!isIdentical ? ' not' : ''} identical`
-            );
-            foundDuplicateId = true;
-          }
-          return {...p, [n.vendorProductId]: n};
-        }, {} as any)
-    )
-      .map((d: any) => d.name)
-      .sort();
-
-    if (foundDuplicateId) {
-      throw new Error('Found duplicate vendor & product id pair');
-    }
-
-    const outputPath = getOutputPath();
-    if (!fs.existsSync(outputPath)) {
-      fs.mkdirSync(outputPath);
-    }
-
-    fs.writeFileSync(`${outputPath}/keyboard_names.json`, stringify(resV2));
-  } catch (error) {
-    console.error(error);
-    process.exit(1);
+  if (!(await fs.exists(outputPath))) {
+    await fs.mkdir(outputPath);
   }
+
+  await fs.writeFile(`${outputPath}/keyboard_names.json`, stringify(names));
+  console.log(`Generated ${outputPath}/keyboard_names.json`);
 }
