@@ -2,9 +2,8 @@
   "name": "Mechbrewery MB-65H",
   "vendorId": "0x4252",
   "productId": "0x0002",
-  "firmwareVersion": 0,
   "lighting": "none",
-  "matrix": { "rows": 5, "cols": 16 },
+  "matrix": {"rows": 5, "cols": 16},
   "layouts": {
     "keymap": [
       [
@@ -50,7 +49,7 @@
         "1,15"
       ],
       [
-        {"c": "#aaaaaa","w": 1.75},
+        {"c": "#aaaaaa", "w": 1.75},
         "2,0",
         {"c": "#cccccc"},
         "2,2",

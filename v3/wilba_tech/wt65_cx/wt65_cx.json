@@ -146,7 +146,6 @@
   "layouts": {
     "labels": ["Full Backspace"],
     "keymap": [
-      {"x": 13, "c": "#aaaaaa", "w": 2},
       [
         {"c": "#888888"},
         "0,0",

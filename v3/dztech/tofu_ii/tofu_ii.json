@@ -2,7 +2,8 @@
     "name": "TOFU_II",
     "vendorId": "0x445A",
     "productId": "0x1427",
-    "lighting": "qmk_rgblight",
+    "keycodes": ["qmk_lighting"],
+    "menus": [ "qmk_rgb_matrix" ],
     "matrix": {
       "rows": 5,
       "cols": 15

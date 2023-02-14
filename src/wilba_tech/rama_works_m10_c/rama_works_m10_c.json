@@ -17,31 +17,12 @@
       ["Radial All Hues", 0],
       ["Radial Color 1", 1]
     ],
-    "supportedLightingValues": [
-      9,
-      10,
-      11,
-      12,
-      13,
-      7,
-      8,
-      23
-    ],
-    "supportedBacklightValues": [
-      9,
-      10,
-      11,
-      12,
-      13,
-      7,
-      8,
-      23
-    ]
+    "supportedLightingValues": [9, 10, 11, 12, 13, 7, 8, 23]
   },
   "matrix": {"rows": 1, "cols": 10},
   "layouts": {
     "keymap": [
-      [{"c": "#505557", "t": "#d9d7d7", "a": 7}, "0,0", "0,1", "0,2"],
+      [{"c": "#505557", "t": "#d9d7d7"}, "0,0", "0,1", "0,2"],
       ["0,3", "0,4", "0,5"],
       ["0,6", "0,7", "0,8"],
       [{"x": 1, "w": 2}, "0,9"]

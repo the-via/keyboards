@@ -14,7 +14,6 @@
       ["Bottom row", "Tsangan", "HHKB", "Standard"]
     ],
     "keymap": [
-      {"css": ""},
       [
         {"x": 3, "c": "#aaaaaa"},
         "0,0",

@@ -6,15 +6,8 @@
   "menus": ["wt_rgb_backlight"],
   "matrix": {"rows": 5, "cols": 14},
   "layouts": {
-    "labels": [
-      ["Bottom Row", "7U", "HHKB", "WKL"]
-    ],
+    "labels": [["Bottom Row", "7U", "HHKB", "WKL"]],
     "keymap": [
-      {
-        "x": 13,
-        "c": "#aaaaaa",
-        "w": 2
-      },
       [
         {
           "c": "#777777"

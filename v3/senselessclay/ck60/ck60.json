@@ -4,8 +4,6 @@
   "productId": "0x0601",
   "keycodes": ["qmk_lighting"],
   "menus": ["qmk_rgblight"],
-  "url": "https://candykeys.com/",
-  "maintainer": "hadi",
   "matrix": {"rows": 5, "cols": 14},
   "layouts": {
     "keymap": [
