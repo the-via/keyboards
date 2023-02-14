@@ -29,7 +29,7 @@
             {
               "label": "LED Number",
               "type": "range",
-              "options": [0, 117],
+              "options": [0, 71],
               "content": ["id_caps_lock_key", 0, 4]
             },
             {
@@ -61,7 +61,7 @@
             {
               "label": "LED Number",
               "type": "range",
-              "options": [0, 117],
+              "options": [0, 71],
               "content": ["id_num_lock_key", 0, 9]
             },
             {
@@ -94,7 +94,7 @@
             {
               "label": "LED Number",
               "type": "range",
-              "options": [0, 117],
+              "options": [0, 71],
               "content": ["id_scroll_lock_key", 0, 14]
             },
             {
@@ -126,7 +126,7 @@
             {
               "label": "LED Number",
               "type": "range",
-              "options": [0, 117],
+              "options": [0, 71],
               "content": ["id_layer_indicator_key", 0, 19]
             },
             {
