@@ -3,8 +3,7 @@
     "vendorId": "0x8490",
     "productId": "0x4102",
     "matrix": {"rows": 5, "cols": 15},
-    "menus": ["qmk_rgblight"],
-    "keycodes": ["qmk_lighting"],
+    "lighting": "qmk_rgblight",
     "layouts": {
       "keymap": [
         [
