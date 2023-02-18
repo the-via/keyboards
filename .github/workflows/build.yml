@@ -12,7 +12,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [16.x, 18.x]
+        node-version: [18.x]
 
     steps:
       - uses: actions/checkout@v2
@@ -26,3 +26,9 @@ jobs:
         run: |
           npm ci 
           npm run build
+
+      - uses: actions/upload-artifact@v3
+        if: always()
+        with:
+          name: build-error
+          path: build-error.log
