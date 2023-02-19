@@ -3,7 +3,6 @@
   "vendorId": "0x6582",
   "productId": "0x0034",
   "keycodes": ["wt_lighting"],
-  "menus": ["wt_rgb_backlight"],
   "matrix": {"rows": 5, "cols": 14},
   "layouts": {
     "labels": [["Bottom Row", "7U", "HHKB", "WKL"]],
