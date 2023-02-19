@@ -9,7 +9,8 @@
     "build": "ts-node scripts/build-all.ts",
     "build-v3": "ts-node scripts/build-v3.ts",
     "build-names": "ts-node scripts/build-names.ts",
-    "prettier": "prettier --write ./src ./v3"
+    "prettier": "prettier --write ./src ./v3",
+    "test": "test"
   },
   "repository": {
     "type": "git",
