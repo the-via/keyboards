@@ -9,8 +9,8 @@
     "build": "ts-node scripts/build-all.ts",
     "build-v3": "ts-node scripts/build-v3.ts",
     "build-names": "ts-node scripts/build-names.ts",
-    "prettier": "prettier --write ./src ./v3",
-    "test": "test"
+    "prettify-all": "prettier --write ./src ./v3",
+    "prettify-staged": "pretty-quick --staged"
   },
   "repository": {
     "type": "git",
@@ -38,6 +38,6 @@
     "typescript": "^4.9.5"
   },
   "simple-git-hooks": {
-    "pre-commit": "npm run prettier"
+    "pre-commit": "npm run prettify-staged"
   }
 }
