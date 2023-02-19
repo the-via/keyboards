@@ -11,11 +11,7 @@
     "labels": [
       "Split Backspace",
       "ISO Enter",
-      [
-        "Bottom Row",
-        "6.25U",
-        "Split Space: 2.25-1.25-2.75"
-      ]
+      ["Bottom Row", "6.25U", "Split Space: 2.25-1.25-2.75"]
     ],
     "keymap": [
       [

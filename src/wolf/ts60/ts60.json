@@ -3,35 +3,35 @@
   "vendorId": "0x5453",
   "productId": "0x0050",
   "lighting": "qmk_backlight_rgblight",
-  "matrix": { "rows": 10, "cols": 8 },
+  "matrix": {"rows": 10, "cols": 8},
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO Enter",
-      [ 
-          "Row 3 Options",
-          "Full Left Full Right Shift",
-          "Full Left Split Right Shift 1",
-          "Full Left Split Right Shift 2",
-          "Split Left Shift Full Right Shift",
-          "Split Left Shift Split Right Shift 1",
-          "Split Left Shift Split Right Shift 2",
-          "Alt R3 Full Left Full Right Shift",
-          "Alt R3 Full Left Split Right Shift",
-          "Alt R3 Split Left Full Right Shift",
-          "Alt R3 Split Left Split Right Shift"
+      [
+        "Row 3 Options",
+        "Full Left Full Right Shift",
+        "Full Left Split Right Shift 1",
+        "Full Left Split Right Shift 2",
+        "Split Left Shift Full Right Shift",
+        "Split Left Shift Split Right Shift 1",
+        "Split Left Shift Split Right Shift 2",
+        "Alt R3 Full Left Full Right Shift",
+        "Alt R3 Full Left Split Right Shift",
+        "Alt R3 Split Left Full Right Shift",
+        "Alt R3 Split Left Split Right Shift"
       ],
       [
-          "Row 4 Options",
-          "ANSI",
-          "Winkey",
-          "Split Space Short Left",
-          "Split Space Short Right",
-          "Tsangan",
-          "7u Left",
-          "7u"
+        "Row 4 Options",
+        "ANSI",
+        "Winkey",
+        "Split Space Short Left",
+        "Split Space Short Right",
+        "Tsangan",
+        "7u Left",
+        "7u"
       ]
-  ],
+    ],
     "keymap": [
       [
         {

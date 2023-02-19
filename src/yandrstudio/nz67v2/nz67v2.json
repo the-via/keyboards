@@ -12,15 +12,9 @@
   },
   "layouts": {
     "presets": {
-      "default": [
-        0,
-        0
-      ]
+      "default": [0, 0]
     },
-    "labels": [
-      "Split Space",
-      "Encoder"
-    ],
+    "labels": ["Split Space", "Encoder"],
     "keymap": [
       [
         {

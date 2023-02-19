@@ -5,23 +5,23 @@
   "lighting": "qmk_backlight_rgblight",
   "matrix": {"rows": 5, "cols": 19},
   "layouts": {
-      "labels": [
-        "Split BackSpace",
-        "ISO Enter",
-        "Left Shift ISO",
-        [
-         "Bottom Row",
-         "1.5-1-1.5-6.25-1.25-1.25-1.25",
-         "1.25-1.25-1.25-6.25-1.5-1.5-1",
-         "1.25-1.25-1.25-6.25-1.5-1-1.5",
-         "1.25-1.25-1.25-6.25-1.5-1.25-1.25",
-         "1.5-1-1..5-7-1.5-1.5"
-        ],
-        "NumPad Plus 2u",
-        "NumPad Ent 2u",
-        "Right Shift Split",
-        "NumPad P0 2u"
-      ],  
+    "labels": [
+      "Split BackSpace",
+      "ISO Enter",
+      "Left Shift ISO",
+      [
+        "Bottom Row",
+        "1.5-1-1.5-6.25-1.25-1.25-1.25",
+        "1.25-1.25-1.25-6.25-1.5-1.5-1",
+        "1.25-1.25-1.25-6.25-1.5-1-1.5",
+        "1.25-1.25-1.25-6.25-1.5-1.25-1.25",
+        "1.5-1-1..5-7-1.5-1.5"
+      ],
+      "NumPad Plus 2u",
+      "NumPad Ent 2u",
+      "Right Shift Split",
+      "NumPad P0 2u"
+    ],
     "keymap": [
       [
         {

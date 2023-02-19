@@ -12,11 +12,7 @@
       "Split Backspace",
       "ISO",
       "Split Left Shift",
-      [
-        "Bottom Row",
-        "7U",
-        "6.25U"
-      ],
+      ["Bottom Row", "7U", "6.25U"],
       "Split Upper Right Numpad",
       "Split Lower Right Numpad",
       "Split Bottom Numpad"

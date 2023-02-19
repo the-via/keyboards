@@ -4,8 +4,8 @@
   "productId": "0x5045",
   "lighting": "qmk_rgblight",
   "matrix": {"rows": 9, "cols": 8},
-  "layouts":{
-	"keymap":[
+  "layouts": {
+    "keymap": [
       [
         {
           "c": "#777777"

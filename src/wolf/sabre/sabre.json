@@ -3,21 +3,13 @@
   "vendorId": "0x5453",
   "productId": "0x0055",
   "lighting": "qmk_backlight",
-  "matrix": { "rows": 12, "cols": 9 },
+  "matrix": {"rows": 12, "cols": 9},
   "layouts": {
     "labels": [
-      [ 
-          "Large Left",
-          "Large Right",
-          "Half Half"
-      ],
-      [
-        "Large Left",
-        "Large Right",
-        "Half Half"
-      ],
+      ["Large Left", "Large Right", "Half Half"],
+      ["Large Left", "Large Right", "Half Half"],
       "Large Shift"
-  ],
+    ],
     "keymap": [
       [
         {

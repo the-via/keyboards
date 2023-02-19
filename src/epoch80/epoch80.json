@@ -3,9 +3,9 @@
   "vendorId": "0x6463",
   "productId": "0x0000",
   "lighting": "none",
-  "matrix": { 
-    "rows": 6, 
-    "cols": 17 
+  "matrix": {
+    "rows": 6,
+    "cols": 17
   },
   "layouts": {
     "labels": [

@@ -3,9 +3,9 @@
   "vendorId": "0xF984",
   "productId": "0xB5E9",
   "lighting": "qmk_backlight_rgblight",
-  "matrix": { 
-    "rows": 12, 
-    "cols": 9 
+  "matrix": {
+    "rows": 12,
+    "cols": 9
   },
   "layouts": {
     "keymap": [

@@ -1,26 +1,17 @@
 {
-    "name": "PDXKBC Macropad",
-    "vendorId": "0x5044",
-    "productId": "0x0001",
-    "lighting": "none",
-    "matrix": {
-      "rows": 3,
-      "cols": 2
-    },
-    "layouts": {
-      "keymap": [
-        [
-          "0,0",
-          "0,1"
-        ],
-        [
-          "1,0",
-          "1,1"
-        ],
-        [
-          "2,0",
-          "2,1"
-        ]
-      ]
-    }
+  "name": "PDXKBC Macropad",
+  "vendorId": "0x5044",
+  "productId": "0x0001",
+  "lighting": "none",
+  "matrix": {
+    "rows": 3,
+    "cols": 2
+  },
+  "layouts": {
+    "keymap": [
+      ["0,0", "0,1"],
+      ["1,0", "1,1"],
+      ["2,0", "2,1"]
+    ]
   }
+}

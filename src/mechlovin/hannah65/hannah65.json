@@ -6,14 +6,10 @@
   "matrix": {"rows": 5, "cols": 15},
   "layouts": {
     "labels": [
-     "2U Backspace",
+      "2U Backspace",
       "Left Shift ISO",
       "ISO Enter",
-      [
-       "Bottom Row",
-       "Space 7U",
-       "Space 6.25U"
-      ]
+      ["Bottom Row", "Space 7U", "Space 6.25U"]
     ],
     "keymap": [
       [
