@@ -9,10 +9,10 @@
   },
   "layouts": {
     "presets": {
-      "Default": [0,0,0,0],
-      "ISO": [0,1,3,0],
-      "HHKB": [0,0,0,2],
-      "With arrows": [0,0,3,3]
+      "Default": [0, 0, 0, 0],
+      "ISO": [0, 1, 3, 0],
+      "HHKB": [0, 0, 0, 2],
+      "With arrows": [0, 0, 3, 3]
     },
     "labels": [
       "Split Backspace",

@@ -3,13 +3,9 @@
   "vendorId": "0x980E",
   "productId": "0x998F",
   "matrix": {"rows": 6, "cols": 16},
-"layouts": {
-"labels":[
-      "ISO Enter",
-      "Split Left Shift",
-      "WK/WKL"
-        ],
-    "keymap":[
+  "layouts": {
+    "labels": ["ISO Enter", "Split Left Shift", "WK/WKL"],
+    "keymap": [
       [
         {
           "y": 1.25,

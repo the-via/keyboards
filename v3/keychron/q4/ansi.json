@@ -103,7 +103,7 @@
     {"name": "Cortana", "title": "Cortana in windows", "shortName": "Cortana"}
   ],
   "layouts": {
-    "keymap":[
+    "keymap": [
       [
         {
           "c": "#777777",

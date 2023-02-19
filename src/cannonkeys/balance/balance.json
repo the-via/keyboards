@@ -14,12 +14,7 @@
       "Split Left Shift",
       "Split Numpad Plus",
       "Split Numpad Enter",
-      [
-        "Bottom Row",
-        "6.25u",
-        "7u + 1.5u",
-        "7u + 1.25u"
-      ]
+      ["Bottom Row", "6.25u", "7u + 1.5u", "7u + 1.25u"]
     ],
     "keymap": [
       [

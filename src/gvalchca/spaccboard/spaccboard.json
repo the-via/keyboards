@@ -11,17 +11,8 @@
     "labels": [
       "Full Backspace",
       "Split Left Shift",
-      [
-        "Enter Area",
-        "BAE",
-        "ISO",
-        "ANSI"
-      ],
-      [
-        "Bottom row",
-        "Tsangan",
-        "XT"
-      ]
+      ["Enter Area", "BAE", "ISO", "ANSI"],
+      ["Bottom row", "Tsangan", "XT"]
     ],
     "keymap": [
       [
