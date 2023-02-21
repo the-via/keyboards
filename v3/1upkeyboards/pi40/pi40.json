@@ -1,80 +1,251 @@
 {
-  "name": "pi40",
-  "vendorId": "0x6F75",
-  "productId": "0x5600",
-  "keycodes": ["qmk_lighting"],
-  "menus": ["qmk_rgb_matrix"],
-  "matrix": {"rows": 4, "cols": 12},
-  "layouts": {
-    "keymap": [
-      [{"x": 11}, "3,6\n\n\n\n\n\n\n\n\ne0"],
-      [
-        {"y": 0.25, "c": "#aaaaaa"},
-        "0,0",
-        {"c": "#cccccc"},
-        "0,1",
-        "0,2",
-        "0,3",
-        "0,4",
-        "0,5",
-        "0,6",
-        "0,7",
-        "0,8",
-        "0,9",
-        "0,10",
-        {"c": "#aaaaaa"},
-        "0,11"
+    "name": "pi40",
+    "vendorId": "0x6F75",
+    "productId": "0x5600",
+    "matrix": { "rows": 4, "cols": 13},
+    "keycodes": ["qmk_lighting"],
+    "menus": [
+      {
+        "label": "Lighting",
+        "content": [
+          {
+            "label": "Backlight",
+            "content": [
+              {
+                "label": "Brightness",
+                "type": "range",
+                "options": [0, 255],
+                "content": ["id_qmk_rgb_matrix_brightness", 3, 1]
+              },
+              {
+                "label": "Effect",
+                "type": "dropdown",
+                "content": ["id_qmk_rgb_matrix_effect", 3, 2],
+                "options": [
+                  "All Off",
+                  "Solid Color",
+                  "Alphas/Mods",
+                  "Gradient Up/Down",
+                  "Gradient Left/Right",
+                  "Breathing",
+                  "Band Sat.",
+                  "Band Val.",
+                  "Pinwheel Sat.",
+                  "Pinwheel Val.",
+                  "Spiral Sat.",
+                  "Spiral Val.",
+                  "Cycle All",
+                  "Cycle Left/Right",
+                  "Cycle Up/Down",
+                  "Rainbow Moving Chevron",
+                  "Cycle Out/In",
+                  "Cycle Out/In Dual",
+                  "Cycle Pinwheel",
+                  "Cycle Spiral",
+                  "Dual Beacon",
+                  "Rainbow Beacon",
+                  "Rainbow Pinwheels",
+                  "Raindrops",
+                  "Jellybean Raindrops",
+                  "Hue Breathing",
+                  "Hue Pendulum",
+                  "Hue Wave",
+                  "Pixel Rain",
+                  "Pixel Flow",
+                  "Pixel Fractal",
+                  "Typing Heatmap",
+                  "Digital Rain",
+                  "Solid Reactive Simple",
+                  "Solid Reactive",
+                  "Solid Reactive Wide",
+                  "Solid Reactive Multiwide",
+                  "Solid Reactive Cross",
+                  "Solid Reactive Multicross",
+                  "Solid Reactive Nexus",
+                  "Solid Reactive Multinexus",
+                  "Splash",
+                  "Multisplash",
+                  "Solid Splash",
+                  "Solid Multisplash"
+                ]
+              },
+              {
+                "showIf": "{id_qmk_rgb_matrix_effect} != 0 && {id_qmk_rgb_matrix_effect} != 1 && {id_qmk_rgb_matrix_effect} != 2 && {id_qmk_rgb_matrix_effect} != 3 && {id_qmk_rgb_matrix_effect} != 4",
+                "label": "Effect Speed",
+                "type": "range",
+                "options": [0, 255],
+                "content": ["id_qmk_rgb_matrix_effect_speed", 3, 3]
+              },
+              {
+                "showIf": "{id_qmk_rgb_matrix_effect} == 2",
+                "label": "Mod Color",
+                "type": "range",
+                "options": [0, 255],
+                "content": ["id_qmk_rgb_matrix_effect_speed", 3, 3]
+              },
+              {
+                "showIf": "{id_qmk_rgb_matrix_effect} == 2",
+                "label": "Alpha Color",
+                "type": "color",
+                "content": ["id_qmk_rgb_matrix_color", 3, 4]
+              },
+              {
+                "showIf": "{id_qmk_rgb_matrix_effect} == 3 || {id_qmk_rgb_matrix_effect} == 4",
+                "label": "Gradient Range",
+                "type": "range",
+                "options": [0, 255],
+                "content": ["id_qmk_rgb_matrix_effect_speed", 3, 3]
+              },
+              {
+                "showIf": "{id_qmk_rgb_matrix_effect} != 0 && {id_qmk_rgb_matrix_effect} != 2 &&{id_qmk_rgb_matrix_effect} != 23 && {id_qmk_rgb_matrix_effect} != 27 && {id_qmk_rgb_matrix_effect} != 28",
+                "label": "Color",
+                "type": "color",
+                "content": ["id_qmk_rgb_matrix_color", 3, 4]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "layouts": {
+      "labels": [
+        ["Keyboard Version",
+          "MIT v1.0",
+          "MIT v1.1",
+          "Grid v1.1"
+        ]
       ],
-      [
-        {"c": "#777777"},
-        "1,0",
-        {"c": "#cccccc"},
-        "1,1",
-        "1,2",
-        "1,3",
-        "1,4",
-        "1,5",
-        "1,6",
-        "1,7",
-        "1,8",
-        "1,9",
-        "1,10",
-        "1,11"
-      ],
-      [
-        {"c": "#aaaaaa"},
-        "2,0",
-        {"c": "#cccccc"},
-        "2,1",
-        "2,2",
-        "2,3",
-        "2,4",
-        "2,5",
-        "2,6",
-        "2,7",
-        "2,8",
-        "2,9",
-        "2,10",
-        {"c": "#777777"},
-        "2,11"
-      ],
-      [
-        {"c": "#aaaaaa"},
-        "3,0",
-        "3,1",
-        "3,2",
-        "3,3",
-        "3,4",
-        {"c": "#cccccc", "w": 2},
-        "3,5",
-        {"c": "#aaaaaa"},
-        "3,7",
-        {"c": "#777777"},
-        "3,8",
-        "3,9",
-        "3,10",
-        "3,11"
+      "keymap": [
+        [
+          {
+            "x": 11
+          },
+          "3,6\n\n\n0,0\n\n\n\n\n\ne0"
+        ],
+        [
+          {
+            "y": 0.25,
+            "c": "#aaaaaa"
+          },
+          "0,0",
+          {
+            "c": "#cccccc"
+          },
+          "0,1",
+          "0,2",
+          "0,3",
+          "0,4",
+          "0,5",
+          "0,6",
+          "0,7",
+          "0,8",
+          "0,9",
+          "0,10",
+          {
+            "c": "#aaaaaa"
+          },
+          "0,11"
+        ],
+        [
+          {
+            "c": "#777777"
+          },
+          "1,0",
+          {
+            "c": "#cccccc"
+          },
+          "1,1",
+          "1,2",
+          "1,3",
+          "1,4",
+          "1,5",
+          "1,6",
+          "1,7",
+          "1,8",
+          "1,9",
+          "1,10",
+          "1,11"
+        ],
+        [
+          {
+            "c": "#aaaaaa"
+          },
+          "2,0",
+          {
+            "c": "#cccccc"
+          },
+          "2,1",
+          "2,2",
+          "2,3",
+          "2,4",
+          "2,5",
+          "2,6",
+          "2,7",
+          "2,8",
+          "2,9",
+          "2,10",
+          {
+            "c": "#777777"
+          },
+          "2,11"
+        ],
+        [
+          {
+            "c": "#aaaaaa"
+          },
+          "3,0",
+          "3,1",
+          "3,2",
+          "3,3",
+          "3,4",
+          {
+            "c": "#cccccc",
+            "w": 2
+          },
+          "3,5\n\n\n0,0",
+          {
+            "c": "#aaaaaa"
+          },
+          "3,7",
+          {
+            "c": "#777777"
+          },
+          "3,8",
+          "3,9",
+          "3,10",
+          "3,11"
+        ],
+        [
+          {
+            "y": 0.25,
+            "x": 11,
+            "c": "#cccccc"
+          },
+          "0,12\n\n\n0,1\n\n\n\n\n\ne0"
+        ],
+        [
+          {
+            "y": 0.25,
+            "x": 11
+          },
+          "0,12\n\n\n0,2\n\n\n\n\n\ne0"
+        ],
+        [
+          {
+            "y": 2,
+            "x": 5,
+            "w": 2
+          },
+          "3,5\n\n\n0,1"
+        ],
+        [
+          {
+            "y": 0.25,
+            "x": 5
+          },
+          "3,5\n\n\n0,2",
+          "3,6\n\n\n0,2"
+        ]
       ]
-    ]
+    }
   }
-}
