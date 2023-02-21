@@ -6,9 +6,16 @@
   "menus": ["qmk_rgblight"],
   "matrix": {"rows": 5, "cols": 4},
   "layouts": {
-    "labels": ["2u Plus", "2u Enter", "2u Zero"],
+    "labels": [
+      "2u Plus",
+      "2u Enter",
+      "2u Zero",
+      "Left Encoder",
+      "Right Encoder"
+    ],
     "keymap": [
-      [{"x": 2.25}, "0,0", "0,1", "0,2", "0,3"],
+      ["0,0\n\n\n3,1\n\n\n\n\n\ne0", {"x": 2}, "0,3\n\n\n4,1\n\n\n\n\n\ne1"],
+      [{"y": 0.5, "x": 2.25}, "0,0\n\n\n3,0", "0,1", "0,2", "0,3\n\n\n4,0"],
       [
         {"x": 2.25, "c": "#cccccc"},
         "1,0",

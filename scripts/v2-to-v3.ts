@@ -1,17 +1,15 @@
 import util from 'util';
 import {
   BuiltInKeycodeModule,
-  BuiltInMenuModule,
   CustomLightingTypeDefinition,
   defaultKeycodes,
-  defaultMenus,
   KeyboardDefinitionV2,
   KeyboardDefinitionV3,
   KeycodeType,
   LightingTypeDefinition,
   LightingTypeDefinitionV2,
   VIAMenu,
-} from 'via-reader';
+} from '@the-via/reader';
 import fs from 'fs-extra';
 import stringify from 'json-stringify-pretty-compact';
 
@@ -27,7 +25,7 @@ const OMITTED_V2_KEYS = [
 
 type SUPPORTED_V2_KEYS = Omit<
   KeyboardDefinitionV2,
-  typeof OMITTED_V2_KEYS[number]
+  (typeof OMITTED_V2_KEYS)[number]
 >;
 
 const isLightingTypeDefinition = (
@@ -106,22 +104,23 @@ const resolveKeycodes = (
 };
 
 enum coreMenus {
-  QMKRGBLight = 'core/qmk_rgblight',
-  QMKBacklight = 'core/qmk_backlight',
+  QMKRGBLight = 'qmk_rgblight',
+  QMKBacklight = 'qmk_backlight',
+  QMKBacklightRGBLight = 'qmk_backlight_rgblight',
 }
 
 const WilbaPlsHalp = '!!!WILBA!!!';
 
 const mapLightingMenus = (
   lightingType: LightingTypeDefinition
-): (BuiltInMenuModule | VIAMenu | string)[] => {
+): (VIAMenu | string)[] => {
   switch (lightingType) {
     case LightingTypeDefinition.QMKLighting:
       return [coreMenus.QMKBacklight];
     case LightingTypeDefinition.QMKRGBLight:
       return [coreMenus.QMKRGBLight];
     case LightingTypeDefinition.QMKBacklightRGBLight:
-      return [coreMenus.QMKBacklight, coreMenus.QMKRGBLight];
+      return [coreMenus.QMKBacklightRGBLight];
     case LightingTypeDefinition.WTRGBBacklight:
     case LightingTypeDefinition.WTMonoBacklight:
       return [WilbaPlsHalp];
@@ -132,22 +131,29 @@ const mapLightingMenus = (
 
 const resolveMenus = (
   lighting: LightingTypeDefinitionV2
-): (BuiltInMenuModule | VIAMenu | string)[] => {
+): (VIAMenu | string)[] => {
   if (isCustomLightingTypeDefinition(lighting)) {
     if (
       lighting.effects ||
       lighting.underglowEffects ||
       lighting.supportedLightingValues
     ) {
-      return [...defaultMenus, WilbaPlsHalp];
+      return [WilbaPlsHalp];
     }
-    return [...defaultMenus, ...mapLightingMenus(lighting.extends)];
+    return [...mapLightingMenus(lighting.extends)];
   }
   if (isLightingTypeDefinition(lighting)) {
-    return [...defaultMenus, ...mapLightingMenus(lighting)];
+    return [...mapLightingMenus(lighting)];
   }
 
-  return defaultMenus;
+  return [];
+};
+
+const cleanObject = (obj: any) => {
+  return Object.keys(obj).reduce(
+    (acc, key) => (obj[key].length ? {...acc, [key]: obj[key]} : acc),
+    {}
+  );
 };
 
 async function convertV2ToV3() {
@@ -176,18 +182,21 @@ async function convertV2ToV3() {
 
     const {name, vendorId, productId, lighting} = definition.json;
 
+    const keycodes = resolveKeycodes(lighting);
+    const menus = resolveMenus(lighting);
+
     const v3Definition: KeyboardDefinitionV3 = {
       name,
       vendorId,
       productId,
-      firmwareVersion: 0,
-      keycodes: resolveKeycodes(lighting),
-      menus: resolveMenus(lighting),
+      ...cleanObject({keycodes, menus}),
       ...supportedJson,
     };
 
     try {
+      //if ( ! v3Definition.menus?.includes(WilbaPlsHalp) ) {
       fs.outputFile(`v3/${definition.path}`, stringify(v3Definition));
+      //}
     } catch (e) {
       console.error(e);
     }
