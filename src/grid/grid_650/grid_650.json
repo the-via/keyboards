@@ -2,7 +2,6 @@
     "name": "grid 650",
     "vendorId": "0xA902",
     "productId": "0x7539",
-    "lighting": "none",
     "matrix": { "rows": 6, "cols": 16 },
     "layouts": {
         "keymap": [
