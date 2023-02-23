@@ -10,7 +10,15 @@
       "Top Blocker",
       ["Enter Key", "ANSI", "ISO"],
       "Split Left Shift",
-      ["Bottom Row", "6.25u WK", "6.25u WKL", "Split Space WK", "Split Space WKL", "7u WK", "7u WKL"]
+      [
+        "Bottom Row",
+        "6.25u WK",
+        "6.25u WKL",
+        "Split Space WK",
+        "Split Space WKL",
+        "7u WK",
+        "7u WKL"
+      ]
     ],
     "keymap": [
       [

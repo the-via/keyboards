@@ -4,33 +4,65 @@
   "productId": "0xE6EF",
   "lighting": "qmk_rgblight",
   "customKeycodes": [
-      {"name": "RGB Matrix Toggle", "title": "RGB Matrix Toggle", "shortName": "R_M_TOG"},
-      {"name": "RGB Matrix Mode+", "title": "RGB Matrix Mode Increase", "shortName": "R_M_MOD"},
-      {"name": "RGB Matrix Mode-", "title": "RGB Matrix Mode Decrease", "shortName": "R_M_RMOD"},
-      {"name": "RGB Matrix Hue+", "title": "RGB Matrix Hue Increase", "shortName": "R_M_HUI"},
-      {"name": "RGB Matrix Hue-", "title": "RGB Matrix Hue Decrease", "shortName": "R_M_HUD"},
-      {"name": "RGB Matrix Sat+", "title": "RGB Matrix Saturation Increase", "shortName": "R_M_SAI"},
-      {"name": "RGB Matrix Sat-", "title": "RGB Matrix Saturation Decrease", "shortName": "R_M_SAD"},
-      {"name": "RGB Matrix Val+", "title": "RGB Matrix Brightness Increase", "shortName": "R_M_VAI"},
-      {"name": "RGB Matrix Val-", "title": "RGB Matrix Brightness Decrease", "shortName": "R_M_VAD"}
-],
-  "matrix": { "rows": 1, "cols": 5 },
+    {
+      "name": "RGB Matrix Toggle",
+      "title": "RGB Matrix Toggle",
+      "shortName": "R_M_TOG"
+    },
+    {
+      "name": "RGB Matrix Mode+",
+      "title": "RGB Matrix Mode Increase",
+      "shortName": "R_M_MOD"
+    },
+    {
+      "name": "RGB Matrix Mode-",
+      "title": "RGB Matrix Mode Decrease",
+      "shortName": "R_M_RMOD"
+    },
+    {
+      "name": "RGB Matrix Hue+",
+      "title": "RGB Matrix Hue Increase",
+      "shortName": "R_M_HUI"
+    },
+    {
+      "name": "RGB Matrix Hue-",
+      "title": "RGB Matrix Hue Decrease",
+      "shortName": "R_M_HUD"
+    },
+    {
+      "name": "RGB Matrix Sat+",
+      "title": "RGB Matrix Saturation Increase",
+      "shortName": "R_M_SAI"
+    },
+    {
+      "name": "RGB Matrix Sat-",
+      "title": "RGB Matrix Saturation Decrease",
+      "shortName": "R_M_SAD"
+    },
+    {
+      "name": "RGB Matrix Val+",
+      "title": "RGB Matrix Brightness Increase",
+      "shortName": "R_M_VAI"
+    },
+    {
+      "name": "RGB Matrix Val-",
+      "title": "RGB Matrix Brightness Decrease",
+      "shortName": "R_M_VAD"
+    }
+  ],
+  "matrix": {"rows": 1, "cols": 5},
   "layouts": {
-      "keymap": [
-[
-  "0,0",
-  {
-    "x": 0.25
-  },
-  "0,1",
-  "0,2"
-],
-[
-  "0,3"
-],
-[
-  "0,4"
-]
-]
+    "keymap": [
+      [
+        "0,0",
+        {
+          "x": 0.25
+        },
+        "0,1",
+        "0,2"
+      ],
+      ["0,3"],
+      ["0,4"]
+    ]
   }
 }

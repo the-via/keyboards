@@ -8,12 +8,7 @@
   },
   "layouts": {
     "labels": [
-      [
-        "Bottom Row",
-        "ANSI",
-        "7U",
-        "WKL"
-      ],
+      ["Bottom Row", "ANSI", "7U", "WKL"],
       "Split Backspace",
       "Split Right Shift",
       "Split Left Shift",

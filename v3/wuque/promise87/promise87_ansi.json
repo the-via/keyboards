@@ -4,7 +4,7 @@
   "productId": "0x0005",
   "keycodes": ["qmk_lighting"],
   "menus": ["qmk_rgblight"],
-  "matrix": { "rows": 6, "cols": 17 },
+  "matrix": {"rows": 6, "cols": 17},
   "layouts": {
     "labels": [
       "Split Backspace",

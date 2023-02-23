@@ -1,9 +1,9 @@
 {
   "name": "Keygem KG60 ANSI",
-  "vendorId": "0x4B47", 
+  "vendorId": "0x4B47",
   "productId": "0x0001",
   "lighting": "qmk_rgblight",
-  "matrix": { "rows": 5, "cols": 14 },
+  "matrix": {"rows": 5, "cols": 14},
   "layouts": {
     "keymap": [
       [

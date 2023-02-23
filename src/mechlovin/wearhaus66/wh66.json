@@ -13,11 +13,7 @@
       "Split Backspace",
       "Enter ISO",
       "Left Shift ISO",
-      [
-       "Bottom Row",
-       "Space 7U Blocker",
-       "Space 6.25U Blocker"
-      ]
+      ["Bottom Row", "Space 7U Blocker", "Space 6.25U Blocker"]
     ],
     "keymap": [
       [

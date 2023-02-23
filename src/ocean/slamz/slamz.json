@@ -1,4 +1,3 @@
-
 {
   "name": "Slamz",
   "vendorId": "0x9624",
@@ -79,11 +78,11 @@
           "w": 2
         },
         "3,5\n\n\n1,1"
-        ]
-      ],
-      "labels": [
-        ["Left Spacebar", "2x 1u", "2u"],
-        ["Right Spacebar", "2x 1u", "2u"]
       ]
-    }
+    ],
+    "labels": [
+      ["Left Spacebar", "2x 1u", "2u"],
+      ["Right Spacebar", "2x 1u", "2u"]
+    ]
   }
+}

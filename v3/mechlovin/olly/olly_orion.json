@@ -86,20 +86,11 @@
   "matrix": {"rows": 6, "cols": 17},
   "layouts": {
     "labels": [
-     "Split Backspace",
+      "Split Backspace",
       "ISO Enter",
       "Left Shift ISO",
-      [
-      "Right Shift",
-      "ANSI Right Shift",
-      "1u - 1.75u",
-      "1.75u - 1u"
-      ],
-      [
-       "Bottom Row",
-       "Space 6.25U",
-       "Space 7U"
-      ]
+      ["Right Shift", "ANSI Right Shift", "1u - 1.75u", "1.75u - 1u"],
+      ["Bottom Row", "Space 6.25U", "Space 7U"]
     ],
     "keymap": [
       [

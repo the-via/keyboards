@@ -5,9 +5,7 @@
   "lighting": "none",
   "matrix": {"rows": 6, "cols": 15},
   "layouts": {
-    "labels": [
-      ["Bottom Row", "ANSI", "7U"]
-    ],
+    "labels": [["Bottom Row", "ANSI", "7U"]],
     "keymap": [
       [
         {

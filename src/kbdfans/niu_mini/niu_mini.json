@@ -1,14 +1,14 @@
 {
-  "name":"niu_mini",
-  "vendorId":"0x6E6D",
-  "productId":"0x0001",
+  "name": "niu_mini",
+  "vendorId": "0x6E6D",
+  "productId": "0x0001",
   "lighting": "qmk_backlight_rgblight",
-  "matrix":{
-    "rows":4,
-    "cols":12
+  "matrix": {
+    "rows": 4,
+    "cols": 12
   },
-  "layouts":{
-    "keymap":[
+  "layouts": {
+    "keymap": [
       [
         {
           "c": "#777777"
