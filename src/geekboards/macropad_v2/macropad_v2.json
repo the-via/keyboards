@@ -6,7 +6,7 @@
     {"name": "Super Alt Tab", "title": "Super Alt Tab", "shortName": "AltTab"}
   ],
   "lighting": {
-    "extends":"qmk_rgblight",
+    "extends": "qmk_rgblight",
     "underglowEffects": [
       ["None", 0],
       ["SOLID_COLOR", 1],
@@ -31,13 +31,9 @@
       ["SOLID_SPLASH", 1],
       ["SOLID_MULTISPLASH", 1]
     ],
-    "supportedLightingValues": [
-      128,
-      129,
-      131
-    ]
+    "supportedLightingValues": [128, 129, 131]
   },
-  "matrix": { "rows": 2, "cols": 4 },
+  "matrix": {"rows": 2, "cols": 4},
   "layouts": {
     "keymap": [
       ["0,0", "0,1", "0,2", "0,3"],

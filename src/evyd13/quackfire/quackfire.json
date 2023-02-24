@@ -8,10 +8,7 @@
     "cols": 15
   },
   "layouts": {
-    "labels": [
-      "ISO Enter",
-      "Split Right Shift"
-    ],
+    "labels": ["ISO Enter", "Split Right Shift"],
     "keymap": [
       [
         {

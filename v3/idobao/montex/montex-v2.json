@@ -1,0 +1,34 @@
+{
+  "name": "IDOBAO Montex V2",
+  "vendorId": "0x6964",
+  "productId": "0x0227",
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_rgb_matrix"],
+  "customKeycodes": [
+    {"name": "", "title": "{undefined}", "shortName": ""},
+    {"name": "", "title": "{undefined}", "shortName": ""},
+    {"name": "Toggle Per-key", "title": "RGB_TPK", "shortName": "RGB T/PK"},
+    {"name": "Toggle Under Glow", "title": "RGB_TUG", "shortName": "RGB T/UG"},
+    {"name": "", "title": "{undefined}", "shortName": ""},
+    {"name": "", "title": "{undefined}", "shortName": ""},
+    {"name": "", "title": "{undefined}", "shortName": ""},
+    {"name": "", "title": "{undefined}", "shortName": ""},
+    {
+      "name": "Toggle NumLk LED",
+      "title": "Toggle NumLock LED Feature",
+      "shortName": "NumLk LED"
+    },
+    {"name": "Version", "title": "Type Firmware Version", "shortName": "Ver?"}
+  ],
+  "matrix": {"rows": 6, "cols": 5},
+  "layouts": {
+    "keymap": [
+      [{"c": "#777777"}, "0,0", {"c": "#aaaaaa"}, "0,1", "0,2", "0,3", "0,4"],
+      [{"y": 0.5, "c": "#cccccc"}, "1,0", "1,1", "1,2", "1,3", "1,4"],
+      ["2,0", "2,1", "2,2", "2,3", {"h": 2}, "2,4"],
+      ["3,0", "3,1", "3,2", "3,3"],
+      ["4,0", "4,1", "4,2", "4,3", {"c": "#777777", "h": 2}, "5,3"],
+      [{"c": "#cccccc"}, "5,0", {"w": 2}, "5,1", "5,2"]
+    ]
+  }
+}

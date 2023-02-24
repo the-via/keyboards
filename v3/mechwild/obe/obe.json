@@ -6,11 +6,12 @@
   "menus": ["qmk_rgblight"],
   "matrix": {"rows": 7, "cols": 10},
   "layouts": {
-    "labels": ["Split Backspace", "Full Right Shift"],
+    "labels": ["Split Backspace", "Full Right Shift", "Encoder"],
     "keymap": [
       [
-        {"y": 1.05, "x": 1.8, "c": "#aaaaaa"},
-        "5,5",
+        {"y": 1.05, "x": 0.8, "c": "#aaaaaa"},
+        "5,5\n\n\n2,1\n\n\n\n\n\ne0",
+        "5,5\n\n\n2,0",
         {"x": 0.42, "c": "#777777"},
         "5,4",
         {"c": "#cccccc"},

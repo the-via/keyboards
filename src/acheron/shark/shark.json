@@ -5,11 +5,8 @@
   "matrix": {"rows": 4, "cols": 12},
   "lighting": "none",
   "layouts": {
-    "labels": [
-        ["Bottom Row", "Grid (2x1U)", "MIT (1x2U)", "2x2U"]
-    ],
-    "keymap":   
-    [
+    "labels": [["Bottom Row", "Grid (2x1U)", "MIT (1x2U)", "2x2U"]],
+    "keymap": [
       [
         {
           "c": "#aaaaaa"
@@ -127,6 +124,6 @@
         },
         "3,7\n\n\n0,2"
       ]
-    ] 
-  } 
+    ]
+  }
 }

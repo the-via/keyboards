@@ -9,7 +9,7 @@ const MODES = {
   ENC_MODE_BACKLIGHT: 4,
   ENC_MODE_CUSTOM0: 5,
   ENC_MODE_CUSTOM1: 6,
-  ENC_MODE_CUSTOM2: 7
+  ENC_MODE_CUSTOM2: 7,
 };
 
 const MODE_LABELS = {
@@ -20,7 +20,7 @@ const MODE_LABELS = {
   ENC_MODE_BACKLIGHT: 'Backlight',
   ENC_MODE_CUSTOM0: 'Custom 0',
   ENC_MODE_CUSTOM1: 'Custom 1',
-  ENC_MODE_CUSTOM2: 'Custom 2'
+  ENC_MODE_CUSTOM2: 'Custom 2',
 };
 
 const CenteredColumnDiv = styled.div`
@@ -40,10 +40,10 @@ type Props = {
 };
 
 export class EncoderModeToggle extends React.Component<Props> {
-  handleInputChange = event => {
+  handleInputChange = (event) => {
     const {enabledModes, onChange} = this.props;
     const {
-      target: {checked: value, name}
+      target: {checked: value, name},
     } = event;
     /* eslint-disable no-bitwise */
     const flagBit = 1 << MODES[name];

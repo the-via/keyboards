@@ -3,11 +3,11 @@
   "vendorId": "0x7070",
   "productId": "0x5340",
   "lighting": "qmk_rgblight",
-  "matrix": { "rows": 5, "cols": 12 },
+  "matrix": {"rows": 5, "cols": 12},
   "layouts": {
     "labels": [
-        ["4x12 Bottom Row", "Grid", "MIT (1x2u)", "2x2.25u", "2x3u"],
-        ["5x12 Bottom Row", "2x2.25u", "2x3u", "None"]
+      ["4x12 Bottom Row", "Grid", "MIT (1x2u)", "2x2.25u", "2x3u"],
+      ["5x12 Bottom Row", "2x2.25u", "2x3u", "None"]
     ],
     "keymap": [
       [

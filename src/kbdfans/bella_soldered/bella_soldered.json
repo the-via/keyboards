@@ -8,7 +8,7 @@
     "cols": 16
   },
   "layouts": {
- "labels": [
+    "labels": [
       ["Backspace", "Default", "Split"],
       ["Enter Key", "ANSI", "ISO"],
       ["Left Shift", "Default", "Split"],

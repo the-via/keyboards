@@ -1,7 +1,7 @@
 {
-  "name": "NEBULA12",
+  "name": "NEBULA12B",
   "vendorId": "0x8968",
-  "productId": "0x5337",
+  "productId": "0x5332",
   "menus": ["qmk_rgb_matrix"],
   "matrix": {"rows": 4, "cols": 3},
   "layouts": {

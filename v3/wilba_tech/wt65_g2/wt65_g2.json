@@ -6,7 +6,6 @@
   "layouts": {
     "labels": ["2U Backspace", "ISO Enter", "Split Left Shift"],
     "keymap": [
-      {"x": 13, "c": "#aaaaaa", "w": 2},
       [
         {"x": 2.5, "c": "#777777"},
         "0,0",

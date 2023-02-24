@@ -1,0 +1,20 @@
+{
+  "name": "Crypt Macro",
+  "vendorId": "0x8968",
+  "productId": "0x434D",
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_rgblight"],
+  "matrix": {"rows": 2, "cols": 3},
+  "layouts": {
+    "keymap": [
+      ["0,0", "0,1", "0,2"],
+      [
+        {
+          "x": 0.5,
+          "w": 2
+        },
+        "1,1"
+      ]
+    ]
+  }
+}

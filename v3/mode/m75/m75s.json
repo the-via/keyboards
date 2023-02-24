@@ -2,6 +2,7 @@
   "name": "Mode SeventyFive S",
   "vendorId": "0x00DE",
   "productId": "0x7583",
+  "menus": ["qmk_backlight"],
   "matrix": {"rows": 7, "cols": 16},
   "layouts": {
     "labels": [

@@ -1,0 +1,14 @@
+{
+  "name": "BN006",
+  "vendorId": "0x4249",
+  "productId": "0x426E",
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_rgb_matrix"],
+  "matrix": {"rows": 2, "cols": 3},
+  "layouts": {
+    "keymap": [
+      [{"c": "#cccccc"}, "0,0", "0,1", "0,2"],
+      ["1,0", "1,1", "1,2"]
+    ]
+  }
+}
