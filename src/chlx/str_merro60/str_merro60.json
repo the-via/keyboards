@@ -1,21 +1,21 @@
 {
-  "name"      : "chlx str.merro60",
-  "vendorId"  : "0x4358",
-  "productId" : "0x0602",
-  "lighting"  : "qmk_rgblight",
-  "matrix"    : {
+  "name": "chlx str.merro60",
+  "vendorId": "0x4358",
+  "productId": "0x0602",
+  "lighting": "qmk_rgblight",
+  "matrix": {
     "rows": 10,
     "cols": 7
   },
-  "layouts"   : {
-    "labels"  : [
+  "layouts": {
+    "labels": [
       "Full Backspace",
       ["Enter", "ANSI", "ISO"],
       "Full Left Shift",
       "Full Right Shift",
       ["Bottom Row", "ANSI", "Tsangan"]
     ],
-    "keymap"  : [
+    "keymap": [
       [
         {
           "x": 3,
@@ -223,4 +223,3 @@
     ]
   }
 }
-

@@ -3,8 +3,8 @@
   "vendorId": "0x4D4C",
   "productId": "0x6001",
   "lighting": {
-      "extends": "none",
-      "keycodes": "qmk"
+    "extends": "none",
+    "keycodes": "qmk"
   },
   "matrix": {"rows": 5, "cols": 14},
   "layouts": {
@@ -13,13 +13,7 @@
       "ISO Enter",
       "Tsanan Right Shift",
       "ISO Left Shift",
-      [
-        "Bottom Row",
-        "Split Space 1",
-        "Split Space 2",
-        "6.25U",
-        "7U"
-       ]
+      ["Bottom Row", "Split Space 1", "Split Space 2", "6.25U", "7U"]
     ],
     "keymap": [
       [

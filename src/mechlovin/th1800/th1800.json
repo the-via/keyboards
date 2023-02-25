@@ -6,13 +6,10 @@
   "matrix": {"rows": 6, "cols": 18},
   "layouts": {
     "labels": [
-          "Split Back Space",
-          "Enter ISO",
-          "Left Shift ISO",
-          ["Bottom Row",
-           "Space 6.25U",
-           "Space 6U",
-           "Space 7U"] 
+      "Split Back Space",
+      "Enter ISO",
+      "Left Shift ISO",
+      ["Bottom Row", "Space 6.25U", "Space 6U", "Space 7U"]
     ],
     "keymap": [
       [

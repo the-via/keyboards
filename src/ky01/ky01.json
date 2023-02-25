@@ -12,12 +12,7 @@
       "Split Backspace",
       "ISO Enter",
       "Split Left Shift",
-      [
-        "Bottom Row",
-        "Default",
-        "7U",
-        "With Right GUI"
-      ]
+      ["Bottom Row", "Default", "7U", "With Right GUI"]
     ],
     "keymap": [
       [

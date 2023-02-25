@@ -3,12 +3,12 @@
   "vendorId": "0xFB9C",
   "productId": "0x3F42",
   "lighting": "none",
-  "matrix": { "rows": 5, "cols": 15 },
+  "matrix": {"rows": 5, "cols": 15},
   "layouts": {
     "labels": [
-      [ "Backspace", "Standard", "Split" ],
-      [ "Right Shift", "Standard", "Split" ],
-      [ "Bottom Row", "Standard", "7u" ]
+      ["Backspace", "Standard", "Split"],
+      ["Right Shift", "Standard", "Split"],
+      ["Bottom Row", "Standard", "7u"]
     ],
     "keymap": [
       [

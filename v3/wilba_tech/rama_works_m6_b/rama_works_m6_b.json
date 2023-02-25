@@ -111,6 +111,66 @@
               "options": [0, 255],
               "unit": "mins",
               "content": ["id_disable_after_timeout", 0, 8]
+            },
+            {
+              "label": "Caps Lock Indicator",
+              "type": "toggle",
+              "options": [
+                [255, 0],
+                [254, 0]
+              ],
+              "content": ["id_caps_lock_indicator_row_col", 0, 15]
+            },
+            {
+              "label": "Caps Lock Indicator Color",
+              "type": "color",
+              "showIf": "{id_caps_lock_indicator_row_col.0} == 254",
+              "content": ["id_caps_lock_indicator_color", 0, 14]
+            },
+            {
+              "label": "Layer 1 Indicator",
+              "type": "toggle",
+              "options": [
+                [255, 0],
+                [254, 0]
+              ],
+              "content": ["id_layer_1_indicator_row_col", 0, 17]
+            },
+            {
+              "label": "Layer 1 Indicator color",
+              "type": "color",
+              "showIf": "{id_layer_1_indicator_row_col.0} == 254",
+              "content": ["id_layer_1_indicator_color", 0, 16]
+            },
+            {
+              "label": "Layer 2 Indicator",
+              "type": "toggle",
+              "options": [
+                [255, 0],
+                [254, 0]
+              ],
+              "content": ["id_layer_2_indicator_row_col", 0, 19]
+            },
+            {
+              "label": "Layer 2 Indicator Color",
+              "type": "color",
+              "showIf": "{id_layer_2_indicator_row_col.0} == 254",
+              "content": ["id_layer_2_indicator_color", 0, 18]
+            },
+            {
+              "label": "Layer 3 Indicator",
+              "type": "toggle",
+              "options": [
+                [255, 0],
+                [254, 0]
+              ],
+              "content": ["id_layer_3_indicator_row_col", 0, 21]
+            },
+            {
+              "label": "Layer 3 Indicator color",
+              "type": "color",
+              "showIf": "{id_layer_3_indicator_row_col.0} == 254",
+              "content": ["id_layer_3_indicator_color", 0, 20]
             }
           ]
         }

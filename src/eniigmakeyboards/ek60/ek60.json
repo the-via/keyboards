@@ -1,21 +1,21 @@
 {
-  "name":"Eniigma Keyboards ek60",
-  "vendorId":"0x454B",
-  "productId":"0x0003",
-  "lighting":"none",
-  "matrix":{
-    "rows":5,
-    "cols":15
+  "name": "Eniigma Keyboards ek60",
+  "vendorId": "0x454B",
+  "productId": "0x0003",
+  "lighting": "none",
+  "matrix": {
+    "rows": 5,
+    "cols": 15
   },
-  "layouts":{
-    "labels":[
+  "layouts": {
+    "labels": [
       "Split Backspace",
       "ISO Enter",
       "Split Left Shift",
       "Split Right Shift",
       ["Bottom Row", "ANSI", "7U"]
     ],
-    "keymap":[
+    "keymap": [
       [
         {
           "x": 2.5,

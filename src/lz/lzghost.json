@@ -6,29 +6,25 @@
   "matrix": {"rows": 6, "cols": 17},
   "layouts": {
     "labels": [
-     "Split Backspace",
+      "Split Backspace",
       "ISO Enter",
       "Left Shift ISO",
+      ["Right Shift", "ANSI Right Shift", "1.75U - 1U"],
       [
-      "Right Shift",
-      "ANSI Right Shift",
-      "1.75U - 1U"
+        "Bottom Row Left",
+        "1.25U - 1.25U - 2.25U",
+        "1U - 1.5U - 2.25U",
+        "1.5U - 1U - 2.25U",
+        "1.5U - 1U - 1.25U - 1U",
+        "1.5U - 1U - 1U - 1.25U"
       ],
       [
-       "Bottom Row Left",
-       "1.25U - 1.25U - 2.25U",
-       "1U - 1.5U - 2.25U",
-       "1.5U - 1U - 2.25U",
-       "1.5U - 1U - 1.25U - 1U",
-       "1.5U - 1U - 1U - 1.25U"
-      ],
-      [
-       "Bottom Row Right",
-       "2.75U - 1.25U - 1.25U",
-       "2.75U - 1.5U - 1U",
-       "2.75U - 1U - 1.5U",
-       "1U - 1.75U - 1U - 1.5U",
-       "1.75U - 1U - 1U - 1.5U"
+        "Bottom Row Right",
+        "2.75U - 1.25U - 1.25U",
+        "2.75U - 1.5U - 1U",
+        "2.75U - 1U - 1.5U",
+        "1U - 1.75U - 1U - 1.5U",
+        "1.75U - 1U - 1U - 1.5U"
       ]
     ],
     "keymap": [

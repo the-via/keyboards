@@ -5,10 +5,7 @@
   "lighting": "none",
   "matrix": {"rows": 5, "cols": 17},
   "layouts": {
-    "labels": [
-      "Split Backspace",
-      ["Bottom Row", "7U", "6.25U"]
-    ],
+    "labels": ["Split Backspace", ["Bottom Row", "7U", "6.25U"]],
     "keymap": [
       [
         {

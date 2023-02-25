@@ -1,4 +1,3 @@
-
 {
   "name": "Damapad",
   "vendorId": "0x6D64",
@@ -9,7 +8,7 @@
     "cols": 6
   },
   "layouts": {
-    "labels": [["Bottom Left","WKL","Space"]],
+    "labels": [["Bottom Left", "WKL", "Space"]],
     "keymap": [
       [
         {
