@@ -35,22 +35,22 @@ export class EncoderCustomConfig extends React.Component<Props> {
   render() {
     const {
       title,
-      behaviors: [cw, ccw, press]
+      behaviors: [cw, ccw, press],
     } = this.props;
     return (
       <RowDiv>
         <LabelText>{title}</LabelText>
         <KeyInput
           defaultValue={cw}
-          onBlur={newValue => this.handleInputChange(newValue, 0)}
+          onBlur={(newValue) => this.handleInputChange(newValue, 0)}
         />
         <KeyInput
           defaultValue={ccw}
-          onBlur={newValue => this.handleInputChange(newValue, 1)}
+          onBlur={(newValue) => this.handleInputChange(newValue, 1)}
         />
         <KeyInput
           defaultValue={press}
-          onBlur={newValue => this.handleInputChange(newValue, 2)}
+          onBlur={(newValue) => this.handleInputChange(newValue, 2)}
         />
       </RowDiv>
     );

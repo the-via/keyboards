@@ -9,11 +9,7 @@
   },
   "layouts": {
     "labels": [
-      [
-        "Enter Key",
-        "ISO",
-        "ANSI"
-      ],
+      ["Enter Key", "ISO", "ANSI"],
       "Full Left Shift",
       "Split Backspace",
       "Blocker"

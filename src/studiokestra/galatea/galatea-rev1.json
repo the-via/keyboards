@@ -9,23 +9,12 @@
   },
   "layouts": {
     "labels": [
-      [
-        "Top Row",
-        "F13",
-        "F12"
-      ],
+      ["Top Row", "F13", "F12"],
       "Split Backspace",
       "ISO Enter",
       "Split Left Shift",
       "Split Right Shift",
-      [
-        "Bottom Row",
-        "6.25U",
-        "7U",
-        "7U WKL",
-        "10U",
-        "10U WKL"
-      ]
+      ["Bottom Row", "6.25U", "7U", "7U WKL", "10U", "10U WKL"]
     ],
     "keymap": [
       [

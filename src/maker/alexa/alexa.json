@@ -1,9 +1,9 @@
 {
   "name": "Alexa",
-  "vendorId": "0x7667", 
+  "vendorId": "0x7667",
   "productId": "0x0005",
   "lighting": "none",
-  "matrix": { "rows": 5, "cols": 15 },
+  "matrix": {"rows": 5, "cols": 15},
   "layouts": {
     "keymap": [
       [

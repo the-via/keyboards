@@ -10,7 +10,15 @@
       ["Enter", "ANSI", "ISO"],
       ["Left Shift", "ANSI", "ISO"],
       ["Right Shift", "Split", "ANSI"],
-      ["Bottom Row", "Tsangan", "Tsangan Split", "WKL", "HHKB", "WKL Split", "HHKB Split"]
+      [
+        "Bottom Row",
+        "Tsangan",
+        "Tsangan Split",
+        "WKL",
+        "HHKB",
+        "WKL Split",
+        "HHKB Split"
+      ]
     ],
     "keymap": [
       [
@@ -219,7 +227,7 @@
           "w": 1.5
         },
         "4,13\n\n\n4,1"
-      ],      
+      ],
       [
         {
           "y": 0.25,

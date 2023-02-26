@@ -47,27 +47,14 @@
       ["Solid Splash", 1],
       ["Solid Multisplash", 1]
     ],
-    "supportedLightingValues": [
-      128,
-      129,
-      130,
-      131
-    ]
+    "supportedLightingValues": [128, 129, 130, 131]
   },
   "matrix": {
     "rows": 1,
     "cols": 24
   },
   "layouts": {
-    "labels": [
-      [
-        "Encoder Side",
-        "Top",
-        "Left",
-        "Right",
-        "Bottom"
-      ]
-    ],
+    "labels": [["Encoder Side", "Top", "Left", "Right", "Bottom"]],
     "keymap": [
       [
         {

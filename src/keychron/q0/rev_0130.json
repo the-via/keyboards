@@ -3,8 +3,8 @@
   "vendorId": "0x3434",
   "productId": "0x0130",
   "lighting": {
-  "extends": "qmk_rgblight",
-  "underglowEffects": [
+    "extends": "qmk_rgblight",
+    "underglowEffects": [
       ["00. None", 0],
       ["01. SOLID_COLOR", 1],
       ["02. BREATHING", 1],
@@ -33,23 +33,9 @@
   "matrix": {"rows": 6, "cols": 4},
   "layouts": {
     "keymap": [
-      [
-        "0,0",
-        "0,1",
-        "0,2",
-        "0,3"
-      ],
-      [
-        "1,0",
-        "1,1",
-        "1,2",
-        "1,3"
-      ],
-      [
-        "2,0",
-        "2,1",
-        "2,2"
-      ],
+      ["0,0", "0,1", "0,2", "0,3"],
+      ["1,0", "1,1", "1,2", "1,3"],
+      ["2,0", "2,1", "2,2"],
       [
         "3,0",
         "3,1",

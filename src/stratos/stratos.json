@@ -1,27 +1,22 @@
 {
-  "name":"Stratos",
-  "vendorId":"0xD5D0",
-  "productId":"0x992D",
+  "name": "Stratos",
+  "vendorId": "0xD5D0",
+  "productId": "0x992D",
   "lighting": "qmk_rgblight",
   "matrix": {
-     "rows":5,
-     "cols":14
+    "rows": 5,
+    "cols": 14
   },
   "layouts": {
     "labels": [
       "Split BackSpace",
       "ISO Enter",
       "Split LShift",
+      ["Right shift", "Full", "Split", "Arrows"],
       [
-        "Right shift", 
-        "Full",
-        "Split", 
-        "Arrows"
-      ],
-      [
-        "Bottom Row", 
-        "Ansi", 
-        "Tsangan", 
+        "Bottom Row",
+        "Ansi",
+        "Tsangan",
         "6.25u Arrows",
         "7u Arrows",
         "Split Ansi",
@@ -386,4 +381,3 @@
     ]
   }
 }
- 

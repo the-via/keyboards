@@ -1,9 +1,9 @@
 {
   "name": "Rooboard65",
-  "vendorId": "0x36b6", 
+  "vendorId": "0x36b6",
   "productId": "0x0002",
   "lighting": "qmk_rgblight",
-  "matrix": { "rows": 5, "cols": 15 },
+  "matrix": {"rows": 5, "cols": 15},
   "layouts": {
     "keymap": [
       [

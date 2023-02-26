@@ -3,9 +3,9 @@
   "vendorId": "0xB23B",
   "productId": "0x1688",
   "lighting": "none",
-  "matrix": { 
-    "rows": 5, 
-    "cols": 15 
+  "matrix": {
+    "rows": 5,
+    "cols": 15
   },
   "layouts": {
     "labels": [
@@ -227,8 +227,3 @@
     ]
   }
 }
-
-
-
-
-

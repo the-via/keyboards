@@ -9,10 +9,10 @@
   },
   "layouts": {
     "labels": [
-        "Split Backspace",
-        "ISO Enter",
-        "Split Left Shift",
-        "Split Right Shift"
+      "Split Backspace",
+      "ISO Enter",
+      "Split Left Shift",
+      "Split Right Shift"
     ],
     "keymap": [
       [

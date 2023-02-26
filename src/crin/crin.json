@@ -3,7 +3,7 @@
   "vendorId": "0x6400",
   "productId": "0xCC11",
   "lighting": "none",
-  "matrix": { "rows": 5, "cols": 17 },
+  "matrix": {"rows": 5, "cols": 17},
   "layouts": {
     "labels": [
       "Split Backspace",

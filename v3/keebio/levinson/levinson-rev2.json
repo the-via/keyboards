@@ -6,7 +6,10 @@
   "menus": ["qmk_backlight_rgblight"],
   "matrix": {"rows": 8, "cols": 6},
   "layouts": {
-    "labels": [["Left Space", "1u", "2u"], ["Right Space", "1u", "2u"]],
+    "labels": [
+      ["Left Space", "1u", "2u"],
+      ["Right Space", "1u", "2u"]
+    ],
     "keymap": [
       [
         {"c": "#aaaaaa"},
