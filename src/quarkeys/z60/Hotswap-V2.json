@@ -2,11 +2,9 @@
   "name": "Z60 Hotswap",
   "vendorId": "0x8490",
   "productId": "0x3C02",
+  "matrix": { "rows": 5, "cols": 15 },
   "lighting": "qmk_rgblight",
-  "matrix": {
-    "rows": 5,
-    "cols": 15
-  },
+  "keycodes": "qmk_lighting",
   "layouts": {
     "keymap": [
       [
