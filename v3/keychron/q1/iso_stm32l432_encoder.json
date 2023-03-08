@@ -1,7 +1,7 @@
 {
   "name": "Keychron Q1",
   "vendorId": "0x3434",
-  "productId": "0x0108",
+  "productId": "0x0109",
   "keycodes": ["qmk_lighting"],
   "menus": [
     {
@@ -161,7 +161,7 @@
         {
           "x": 0.25
         },
-        "0,15"
+        "0,15\n\n\n\n\n\n\n\n\ne0"
       ],
       [
         {
