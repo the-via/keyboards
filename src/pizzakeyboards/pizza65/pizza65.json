@@ -3,16 +3,12 @@
   "vendorId": "0x504B",
   "productId": "0x707a",
   "lighting": "none",
-  "matrix":{
+  "matrix": {
     "rows": 5,
     "cols": 16
   },
-  "layouts":{
-    "labels": [
-      "Split Backspace",
-      "ISO Enter",
-      "Split Left Shift"
-    ],
+  "layouts": {
+    "labels": ["Split Backspace", "ISO Enter", "Split Left Shift"],
 
     "keymap": [
       [

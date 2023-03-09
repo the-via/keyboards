@@ -3,14 +3,10 @@
   "vendorId": "0x4D47",
   "productId": "0x5344",
   "lighting": {
-    "extends":"qmk_rgblight",
-    "supportedLightingValues": [
-      128,
-      129,
-      131
-    ]
-},
-  "matrix": { "rows": 6, "cols": 16 },
+    "extends": "qmk_rgblight",
+    "supportedLightingValues": [128, 129, 131]
+  },
+  "matrix": {"rows": 6, "cols": 16},
   "layouts": {
     "labels": [
       "ISO Enter",
@@ -314,6 +310,5 @@
         "4,15\n\n\n2,2"
       ]
     ]
+  }
 }
-}
-

@@ -3,7 +3,7 @@
   "vendorId": "0x5746",
   "productId": "0x0001",
   "keycodes": ["qmk_lighting"],
-  "menus": ["qmk_backlight_rgblight"],
+  "menus": ["qmk_rgblight"],
   "matrix": {"rows": 5, "cols": 15},
   "layouts": {
     "keymap": [

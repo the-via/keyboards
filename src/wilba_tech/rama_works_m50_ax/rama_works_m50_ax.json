@@ -6,7 +6,7 @@
   "matrix": {"rows": 4, "cols": 13},
   "layouts": {
     "labels": [
-      ["Spacebar", "1U/2U/1U", "1U/1U/1U/1U", "2U/1U/1U", "1U/1U/2U","2U/2U"]
+      ["Spacebar", "1U/2U/1U", "1U/1U/1U/1U", "2U/1U/1U", "1U/1U/2U", "2U/2U"]
     ],
     "keymap": [
       [

@@ -5,7 +5,7 @@
   "lighting": "qmk_rgblight",
   "matrix": {"rows": 9, "cols": 8},
   "layouts": {
-    "keymap":[
+    "keymap": [
       [
         {
           "c": "#777777"

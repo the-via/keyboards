@@ -12,7 +12,15 @@
       "Split Backspace",
       "ISO Enter",
       "Split Left Shift",
-      ["Bottom Row", "Basic", "7U w/o Blocker", "Basic Blocker", "7U WK Blocker", "7U WKL Blocker", "HHKB"]
+      [
+        "Bottom Row",
+        "Basic",
+        "7U w/o Blocker",
+        "Basic Blocker",
+        "7U WK Blocker",
+        "7U WKL Blocker",
+        "HHKB"
+      ]
     ],
     "keymap": [
       [

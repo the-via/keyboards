@@ -9,7 +9,7 @@
       ["Enter", "ANSI", "ISO", "1.25U"],
       "Split Left Shift",
       ["Right Shift", "1.75U", "1.75U Swapped", "2.75U"],
-      ["Bottom Row", "6U", "2.75U/1U/2.25U", "2.25U/1U/2.75U","3U/3U"]
+      ["Bottom Row", "6U", "2.75U/1U/2.25U", "2.25U/1U/2.75U", "3U/3U"]
     ],
     "keymap": [
       [
