@@ -5,7 +5,7 @@
   "lighting": "qmk_backlight_rgblight",
   "matrix": {"rows": 6, "cols": 4},
   "layouts": {
-    "labels" : [
+    "labels": [
       [
         "Right Col",
         "Full 1U",

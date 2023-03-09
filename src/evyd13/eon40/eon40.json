@@ -8,14 +8,7 @@
     "cols": 12
   },
   "layouts": {
-    "labels": [
-      [
-        "Bottom row",
-        "Grid",
-        "2u space",
-        "2x2u space"
-      ]
-    ],
+    "labels": [["Bottom row", "Grid", "2u space", "2x2u space"]],
     "keymap": [
       [
         {

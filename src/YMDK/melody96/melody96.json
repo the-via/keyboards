@@ -3,7 +3,7 @@
   "vendorId": "0x594d",
   "productId": "0x4D96",
   "lighting": "qmk_backlight_rgblight",
-  "matrix": { "rows": 12, "cols": 9 },
+  "matrix": {"rows": 12, "cols": 9},
   "layouts": {
     "keymap": [
       [
@@ -602,7 +602,8 @@
       "ISO left shift",
       "Large Numpad 0",
       "Full Size Right Shift",
-      ["Bottom Row",
+      [
+        "Bottom Row",
         "1u Bottom Row",
         "Standard with arrow keys",
         "Standard 1.25u bottom row",
@@ -613,7 +614,8 @@
         "7u Spacebar standard & 1u right",
         "6u Spacebar with arrow keys",
         "6u Spacebar & 1u right",
-        "6u Spacebar &1.25u right"],
+        "6u Spacebar &1.25u right"
+      ],
       "Split Numpad +"
     ]
   }

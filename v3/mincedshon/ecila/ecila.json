@@ -4,7 +4,6 @@
   "productId": "0x534B",
   "keycodes": ["qmk_lighting"],
   "menus": ["qmk_rgblight"],
-  "maintainer": "mincedshon",
   "matrix": {"rows": 5, "cols": 15},
   "layouts": {
     "keymap": [

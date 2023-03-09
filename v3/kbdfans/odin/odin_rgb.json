@@ -3,7 +3,7 @@
   "vendorId": "0x4B42",
   "productId": "0x0102",
   "keycodes": ["qmk_lighting"],
-  "menus": ["qmk_rgblight"],
+  "menus": ["qmk_rgb_matrix"],
   "matrix": {"rows": 6, "cols": 20},
   "layouts": {
     "keymap": [
@@ -102,8 +102,7 @@
         {"x": 1.5},
         "3,16",
         "3,17",
-        "3,18",
-        "3,19"
+        "3,18"
       ],
       [
         {"w": 2.25},

@@ -8,14 +8,7 @@
     "cols": 15
   },
   "layouts": {
-    "labels": [
-      "Split Backspace",
-      [
-        "Bottom Row",
-        "7U",
-        "6.25U"
-      ]
-    ],
+    "labels": ["Split Backspace", ["Bottom Row", "7U", "6.25U"]],
     "keymap": [
       [
         {

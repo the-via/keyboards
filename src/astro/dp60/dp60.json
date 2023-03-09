@@ -11,11 +11,11 @@
     "labels": [
       "ANSI / ISO Enter",
       "Split Backspace",
-      "Split Left Shift", "Split Right Shift",
+      "Split Left Shift",
+      "Split Right Shift",
       ["Bottom Row", "6.25u Standard", "7u WKL", "7u HHKB"]
     ],
-    "keymap":
-    [
+    "keymap": [
       [
         {
           "x": 15.75

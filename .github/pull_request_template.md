@@ -22,8 +22,9 @@
 
 <!--- Put an `x` in all the boxes that apply. -->
 
-- [ ] The VIA support for this keyboard is in QMK master already **(MANDATORY)**
+- [ ] The VIA support for this keyboard is **MERGED** in QMK master already **(MANDATORY)**
 - [ ] The VIA definition follows the guide here: https://caniusevia.com/docs/layouts
+- [ ] I have a V3 JSON version for this keyboard definition.**(MANDATORY)**
 - [ ] I have tested this keyboard definition using VIA's "Design" tab.
 - [ ] I have tested this keyboard definition with firmware on a device.
 - [ ] I have assigned alpha keys and modifier keys with the correct colors.

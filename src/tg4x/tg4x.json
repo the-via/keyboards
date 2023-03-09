@@ -3,7 +3,7 @@
   "vendorId": "0x4D4D",
   "productId": "0x0458",
   "lighting": "qmk_rgblight",
-  "matrix": { "rows": 8, "cols": 7 },
+  "matrix": {"rows": 8, "cols": 7},
   "layouts": {
     "keymap": [
       [
@@ -116,7 +116,7 @@
         "7,2",
         "7,3",
         "7,4"
-       ]
       ]
+    ]
   }
 }

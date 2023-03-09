@@ -12,12 +12,7 @@
       "Split Backspace",
       "ISO Enter",
       "Split Left Shift",
-      [
-        "Spacebar",
-        "6.25U",
-        "2.75U/1.25U/2.25U",
-        "2.25U/1.25U/2.75U"
-      ]
+      ["Spacebar", "6.25U", "2.75U/1.25U/2.25U", "2.25U/1.25U/2.75U"]
     ],
     "keymap": [
       [

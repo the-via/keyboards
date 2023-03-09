@@ -1,11 +1,11 @@
- {
+{
   "name": "MMKZOO65",
   "vendorId": "0x7BA1",
   "productId": "0x6505",
   "lighting": {
     "extends": "qmk_rgblight"
   },
-  "matrix": { "rows": 5, "cols": 15 },
+  "matrix": {"rows": 5, "cols": 15},
   "layouts": {
     "keymap": [
       [

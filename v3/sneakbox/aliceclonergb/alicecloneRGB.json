@@ -4,8 +4,6 @@
   "productId": "0x0006",
   "keycodes": ["qmk_lighting"],
   "menus": ["qmk_rgblight"],
-  "url": "https://sneakbox.design",
-  "maintainer": "mujimanic",
   "matrix": {"rows": 10, "cols": 8},
   "layouts": {
     "keymap": [
