@@ -2,8 +2,7 @@
   "name": "TutelPad",
   "vendorId": "0xCB00",
   "productId": "0xF09F",
-  "keycodes": ["qmk_lighting"],
-  "menus": ["qmk_backlight_rgblight"],
+  "lighting": "qmk_backlight_rgblight",
   "matrix": {"rows": 2, "cols": 4},
   "layouts": {
     "keymap": [
