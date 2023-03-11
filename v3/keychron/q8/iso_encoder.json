@@ -1,5 +1,5 @@
 {
-  "name": "Keychron Q8",
+  "name": "Keychron Q8 ISO Knob",
   "vendorId": "0x3434",
   "productId": "0x0183",
   "keycodes": ["qmk_lighting"],

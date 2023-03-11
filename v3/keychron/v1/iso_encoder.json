@@ -1,6 +1,6 @@
 {
-  "name": "Keychron V1",
-  "vendorId": "0x3434",
+  "name": "Keychron V1 ISO Knob",
+  "vendorId": "0x3434", 
   "productId": "0x0313",
   "keycodes": ["qmk_lighting"],
   "menus": [
