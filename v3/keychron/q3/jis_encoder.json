@@ -1,5 +1,5 @@
 {
-  "name": "Keychron Q3",
+  "name": "Keychron Q3 JIS Knob",
   "vendorId": "0x3434",
   "productId": "0x0125",
   "keycodes": ["qmk_lighting"],

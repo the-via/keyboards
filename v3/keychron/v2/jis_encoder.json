@@ -1,5 +1,5 @@
 {
-  "name": "Keychron V2",
+  "name": "Keychron V2 JIS Knob",
   "vendorId": "0x3434",
   "productId": "0x0325",
   "keycodes": ["qmk_lighting"],
