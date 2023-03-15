@@ -2,10 +2,9 @@
   "name": "Z60 Solder",
   "vendorId": "0x8490",
   "productId": "0x3C01",
-  "matrix": {
-    "rows": 5,
-    "cols": 15
-  },
+  "matrix": { "rows": 5, "cols": 15 },
+  "menus": ["qmk_rgblight"],
+  "keycodes": ["qmk_lighting"],
   "layouts": {
     "labels": [
       "Split Backspace",
