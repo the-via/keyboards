@@ -1,5 +1,5 @@
 {
-  "name": "Keychron Q6",
+  "name": "Keychron Q6 ANSI Knob",
   "vendorId": "0x3434",
   "productId": "0x0161",
   "keycodes": ["qmk_lighting"],
