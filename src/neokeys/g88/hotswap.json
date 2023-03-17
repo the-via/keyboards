@@ -2,7 +2,7 @@
   "name": "G88 Hotswap",
   "vendorId": "0x4E4B",
   "productId": "0x5058",
-  "lighting": "qmk_rgb_matrix",
+  "lighting": "qmk_rgblight",
   "matrix": {"rows": 5, "cols": 16},
   "layouts": {
     "labels": [
