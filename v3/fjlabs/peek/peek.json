@@ -1,5 +1,5 @@
 {
-  "name": "Peaker",
+  "name": "Peek",
   "vendorId": "0x7074", 
   "productId": "0x0020",
   "matrix": { "rows": 5, "cols": 17 },
