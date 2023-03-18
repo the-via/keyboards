@@ -10,12 +10,7 @@
   "layouts": {
     "labels": [
       "Split Backspace",
-      [
-        "Left Macropad",
-        "Enabled",
-        "W/Encoder",
-        "No Macro"
-      ],
+      ["Left Macropad", "Enabled", "W/Encoder", "No Macro"],
       "Right Encoder"
     ],
     "keymap": [

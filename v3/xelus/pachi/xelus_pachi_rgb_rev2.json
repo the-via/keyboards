@@ -148,7 +148,6 @@
               "type": "toggle",
               "content": ["id_num_lock_override", 0, 10]
             }
-
           ]
         },
         {

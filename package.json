@@ -8,7 +8,9 @@
   "scripts": {
     "build": "ts-node scripts/build-all.ts",
     "build-v3": "ts-node scripts/build-v3.ts",
-    "build-names": "ts-node scripts/build-names.ts"
+    "build-names": "ts-node scripts/build-names.ts",
+    "prettify-all": "prettier --write ./src ./v3",
+    "prettify-staged": "pretty-quick --staged"
   },
   "repository": {
     "type": "git",
@@ -21,17 +23,22 @@
   },
   "homepage": "https://github.com/the-via/keyboards#readme",
   "devDependencies": {
-    "@types/fs-extra": "^11.0.1",
-    "@types/node": "^18.13.0",
-    "prettier": "^2.8.4"
+    "@types/node": "^18.14.0",
+    "prettier": "^2.8.4",
+    "pretty-quick": "^3.1.3",
+    "simple-git-hooks": "^2.8.1"
   },
   "dependencies": {
-    "@the-via/reader": "^1.5.10",
+    "@the-via/reader": "^1.6.0",
+    "@types/fs-extra": "^11.0.1",
     "@types/glob": "^8.0.1",
     "@types/rimraf": "^3.0.2",
     "fs-extra": "^11.1.0",
     "json-stringify-pretty-compact": "^3.0.0",
     "ts-node": "10.9.1",
     "typescript": "^4.9.5"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npm run prettify-staged"
   }
 }

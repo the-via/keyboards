@@ -1,21 +1,21 @@
 {
-  "name": "BIOI F60", 
+  "name": "BIOI F60",
   "vendorId": "0x8101",
   "productId": "0x4660",
-  "lighting": "qmk_backlight_rgblight", 
+  "lighting": "qmk_backlight_rgblight",
   "matrix": {
-    "cols": 14, 
+    "cols": 14,
     "rows": 5
   },
   "layouts": {
-    "labels":[
+    "labels": [
       "Split Backspace",
       "ISO Enter",
       "Split Left Shift",
       ["Right Shift", "Split", "Full", "Arrows"],
       ["Bottom Row", "ANSI", "7u", "Arrow Keys", "HHKB"]
     ],
-    "keymap":[
+    "keymap": [
       [
         {
           "x": 2.5,

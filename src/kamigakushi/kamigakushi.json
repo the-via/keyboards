@@ -2,7 +2,7 @@
   "name": "Kamigakushi",
   "vendorId": "0x414C",
   "productId": "0x0765",
-  "lighting":"qmk_rgblight",
+  "lighting": "qmk_rgblight",
   "matrix": {"rows": 5, "cols": 15},
   "layouts": {
     "keymap": [
@@ -103,7 +103,7 @@
         "3,13",
         "3,14"
       ],
-      [        
+      [
         {
           "w": 1.5
         },

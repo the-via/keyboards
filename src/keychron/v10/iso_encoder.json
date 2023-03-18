@@ -1,5 +1,5 @@
 {
-  "name": "Keychron V10",
+  "name": "Keychron V10 ISO Knob",
   "vendorId": "0x3434",
   "productId": "0x03A3",
   "lighting": {
@@ -31,17 +31,41 @@
     ]
   },
   "customKeycodes": [
-    {"name": "Mission Control", "title": "Mission Control in macOS", "shortName": "MCtrl"},
-    {"name": "Launch Pad",      "title": "Launch Pad in macOS",      "shortName": "LPad"},
-    {"name": "Left Option",     "title": "Left Option in macOS",     "shortName": "LOpt"},
-    {"name": "Right Option",    "title": "Right Option in macOS",    "shortName": "ROpt"},
-    {"name": "Left Cmd",        "title": "Left Command in macOS",    "shortName": "LCmd"},
-    {"name": "Right Cmd",       "title": "Right Command in macOS",   "shortName": "RCmd"},
-    {"name": "Siri",            "title": "Siri in macOS",            "shortName": "Siri"},
-    {"name": "Task View",       "title": "Task View in windows",     "shortName": "Task"},
-    {"name": "File Explorer",   "title": "File Explorer in windows", "shortName": "File"},
-    {"name": "Screen Shot",     "title": "Screenshot in macOS",      "shortName": "SShot"},
-    {"name": "Cortana",         "title": "Cortana in windows",       "shortName": "Cortana"}
+    {
+      "name": "Mission Control",
+      "title": "Mission Control in macOS",
+      "shortName": "MCtrl"
+    },
+    {"name": "Launch Pad", "title": "Launch Pad in macOS", "shortName": "LPad"},
+    {
+      "name": "Left Option",
+      "title": "Left Option in macOS",
+      "shortName": "LOpt"
+    },
+    {
+      "name": "Right Option",
+      "title": "Right Option in macOS",
+      "shortName": "ROpt"
+    },
+    {"name": "Left Cmd", "title": "Left Command in macOS", "shortName": "LCmd"},
+    {
+      "name": "Right Cmd",
+      "title": "Right Command in macOS",
+      "shortName": "RCmd"
+    },
+    {"name": "Siri", "title": "Siri in macOS", "shortName": "Siri"},
+    {"name": "Task View", "title": "Task View in windows", "shortName": "Task"},
+    {
+      "name": "File Explorer",
+      "title": "File Explorer in windows",
+      "shortName": "File"
+    },
+    {
+      "name": "Screen Shot",
+      "title": "Screenshot in macOS",
+      "shortName": "SShot"
+    },
+    {"name": "Cortana", "title": "Cortana in windows", "shortName": "Cortana"}
   ],
   "matrix": {"rows": 6, "cols": 16},
   "layouts": {

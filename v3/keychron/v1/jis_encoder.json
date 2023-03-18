@@ -1,5 +1,5 @@
 {
-  "name": "Keychron V1",
+  "name": "Keychron V1 JIS Knob",
   "vendorId": "0x3434",
   "productId": "0x0315",
   "keycodes": ["qmk_lighting"],
@@ -32,7 +32,7 @@
                 ["08. CYCLE_OUT_IN", 8],
                 ["09. CYCLE_OUT_IN_DUAL", 9],
                 ["10. CYCLE_PINWHEEL", 10],
-                ["11. CYCKE_SPIRAL", 11],
+                ["11. CYCLE_SPIRAL", 11],
                 ["12. DUAL_BEACON", 12],
                 ["13. RAINBOW_BEACON", 13],
                 ["14. JELLYBEAN_RAINDROPS", 14],

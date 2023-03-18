@@ -9,24 +9,11 @@
   },
   "layouts": {
     "labels": [
-      [
-        "Enter Key",
-        "ANSI",
-        "ISO",
-        "BAE"
-      ],
+      ["Enter Key", "ANSI", "ISO", "BAE"],
       "Split Left Shift",
       "Split Right Shift",
       "Split Backspace",
-      [
-        "Bottom row",
-        "104",
-        "101/103",
-        "101/103 WKL",
-        "Infinity",
-        "AEK",
-        "HHKB"
-      ]
+      ["Bottom row", "104", "101/103", "101/103 WKL", "Infinity", "AEK", "HHKB"]
     ],
     "keymap": [
       [

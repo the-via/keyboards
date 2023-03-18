@@ -193,17 +193,17 @@
       "shortName": "R_M_VAD"
     }
   ],
-  "matrix": { "rows": 1, "cols": 3 },
+  "matrix": {"rows": 1, "cols": 3},
   "layouts": {
-      "keymap": [
-          [
-              "0,0\n\n\n\n\n\n\n\n\ne0",
-               {
-                    "x": 0.25
-               },
-               "0,1",
-               "0,2"
-          ]
+    "keymap": [
+      [
+        "0,0\n\n\n\n\n\n\n\n\ne0",
+        {
+          "x": 0.25
+        },
+        "0,1",
+        "0,2"
       ]
+    ]
   }
 }

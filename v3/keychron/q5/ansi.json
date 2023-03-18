@@ -1,5 +1,5 @@
 {
-  "name": "Keychron Q5",
+  "name": "Keychron Q5 ANSI",
   "vendorId": "0x3434",
   "productId": "0x0150",
   "keycodes": ["qmk_lighting"],

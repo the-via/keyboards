@@ -1,5 +1,5 @@
 {
-  "name": "Keychron Q8",
+  "name": "Keychron Q8 ANSI Knob",
   "vendorId": "0x3434",
   "productId": "0x0181",
   "keycodes": ["qmk_lighting"],
@@ -319,9 +319,9 @@
         },
         "0,7",
         "0,8",
-      {
-        "c": "#cccccc"
-      },
+        {
+          "c": "#cccccc"
+        },
         "0,9",
         "0,10"
       ],

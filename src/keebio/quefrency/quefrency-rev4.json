@@ -5,10 +5,7 @@
   "lighting": "qmk_rgblight",
   "matrix": {"rows": 10, "cols": 9},
   "layouts": {
-    "labels": [
-      "Split Backspace",
-      "Left Macropad"
-    ],
+    "labels": ["Split Backspace", "Left Macropad"],
     "keymap": [
       [
         {

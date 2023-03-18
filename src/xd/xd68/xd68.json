@@ -6,10 +6,16 @@
   "matrix": {"rows": 5, "cols": 15},
   "layouts": {
     "labels": [
-        ["Enter Key", "ANSI", "ISO"],
-        "Split Left Shift",
-        ["Bottom Row", "1u Right Mods", "1.5u Right Mods", "1.25u Arrows", "1.25u Mods w/ Blocker"],
-        "1.25u Right Shift"
+      ["Enter Key", "ANSI", "ISO"],
+      "Split Left Shift",
+      [
+        "Bottom Row",
+        "1u Right Mods",
+        "1.5u Right Mods",
+        "1.25u Arrows",
+        "1.25u Mods w/ Blocker"
+      ],
+      "1.25u Right Shift"
     ],
     "keymap": [
       [

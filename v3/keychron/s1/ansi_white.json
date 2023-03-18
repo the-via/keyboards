@@ -1,8 +1,8 @@
 {
-  "name": "Keychron S1",
+  "name": "Keychron S1 ANSI White",
   "vendorId": "0x3434",
   "productId": "0x0411",
-  "matrix": {"rows": 6, "cols": 15},
+  "keycodes" : ["qmk_lighting"],
   "customKeycodes": [
     {
       "name": "Mission Control",
@@ -40,6 +40,7 @@
     },
     {"name": "Cortana", "title": "Cortana in windows", "shortName": "Cortana"}
   ],
+  "matrix": {"rows": 6, "cols": 15},
   "layouts": {
     "keymap": [
       [

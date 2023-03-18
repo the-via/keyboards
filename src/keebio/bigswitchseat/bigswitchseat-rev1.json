@@ -5,10 +5,6 @@
   "lighting": "none",
   "matrix": {"rows": 1, "cols": 1},
   "layouts": {
-    "keymap": [
-      [
-        {"w":2, "h":2},"0,0"
-      ]
-    ]
+    "keymap": [[{"w": 2, "h": 2}, "0,0"]]
   }
 }
