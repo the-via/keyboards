@@ -2,8 +2,7 @@
   "name": "Creek 70",
   "vendorId": "0x916D",
   "productId": "0x0001",
-  "keycodes": ["qmk_lighting"],
-  "menus": ["qmk_rgblight"],
+  "lighting": "qmk_rgblight",
   "matrix": { "rows": 5, "cols": 18 },
   "layouts": {
     "labels": [
