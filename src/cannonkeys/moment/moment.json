@@ -8,12 +8,7 @@
     "cols": 15
   },
   "layouts": {
-    "labels": [
-      "Split Backspace",
-      "ISO Enter",
-      "Split L-Shift",
-      "Full R-Shift"
-    ],
+    "labels": ["Split Backspace", "ISO Enter", "Split L-Shift", "Full R-Shift"],
     "keymap": [
       [
         {

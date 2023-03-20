@@ -5,5 +5,10 @@
   "keycodes": ["qmk_lighting"],
   "menus": ["qmk_backlight"],
   "matrix": {"rows": 2, "cols": 2},
-  "layouts": {"keymap": [["0,0", "0,1", {"h": 2}, "1,1"], [{"w": 2}, "1,0"]]}
+  "layouts": {
+    "keymap": [
+      ["0,0", "0,1", {"h": 2}, "1,1"],
+      [{"w": 2}, "1,0"]
+    ]
+  }
 }

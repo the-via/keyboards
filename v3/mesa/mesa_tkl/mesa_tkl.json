@@ -4,8 +4,6 @@
   "productId": "0x8001",
   "matrix": {"cols": 17, "rows": 6},
   "layouts": {
-    "width": 18.25,
-    "height": 6.25,
     "labels": [
       "Split Backspace",
       "Split Right Shift",

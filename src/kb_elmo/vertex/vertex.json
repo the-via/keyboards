@@ -3,15 +3,12 @@
   "vendorId": "0xA68C",
   "productId": "0x6B47",
   "lighting": "none",
-  "matrix": { 
-    "rows": 4, 
+  "matrix": {
+    "rows": 4,
     "cols": 12
   },
   "layouts": {
-    "labels": [
-      "Full backspace",
-      ["Bottom Row", "8 keys", "10 keys"]
-    ],
+    "labels": ["Full backspace", ["Bottom Row", "8 keys", "10 keys"]],
     "keymap": [
       [
         {

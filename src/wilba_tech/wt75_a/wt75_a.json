@@ -10,20 +10,10 @@
       ["All", 1],
       ["Raindrops", 1]
     ],
-    "supportedLightingValues": [
-      7,
-      8,
-      9,
-      10,
-      11,
-      12
-     ]
+    "supportedLightingValues": [7, 8, 9, 10, 11, 12]
   },
   "layouts": {
-    "labels": [
-      "Split Backspace",
-      ["Bottom Row", "6.25U", "7U", "6U"]
-    ],    
+    "labels": ["Split Backspace", ["Bottom Row", "6.25U", "7U", "6U"]],
     "keymap": [
       [
         {

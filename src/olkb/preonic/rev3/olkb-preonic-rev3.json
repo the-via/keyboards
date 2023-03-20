@@ -5,9 +5,7 @@
   "matrix": {"rows": 10, "cols": 6},
   "lighting": "qmk_rgblight",
   "layouts": {
-    "labels": [
-      ["Layout", "MIT (1x2u)", "Grid (2x1u)", "2x2u", "2x3u"]
-    ],
+    "labels": [["Layout", "MIT (1x2u)", "Grid (2x1u)", "2x2u", "2x3u"]],
     "keymap": [
       [
         {

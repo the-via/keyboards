@@ -4,14 +4,14 @@
   "productId": "0x408F",
   "lighting": "qmk_rgblight",
   "matrix": {"rows": 6, "cols": 16},
-"layouts": {
-"labels":[
-["top row", "F13", "F12"],
+  "layouts": {
+    "labels": [
+      ["top row", "F13", "F12"],
       "ISO Enter",
       "Split Left Shift",
-["Bottom Row", "6.25U", "7U"]
-        ],
-    "keymap":[
+      ["Bottom Row", "6.25U", "7U"]
+    ],
+    "keymap": [
       [
         {
           "y": 0.25,

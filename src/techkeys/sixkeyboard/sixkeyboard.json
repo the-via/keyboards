@@ -1,16 +1,16 @@
 {
-    "name": "SIXKEYBOARD",
-    "vendorId": "0x746b",
-    "productId": "0x736b",
-    "lighting": "qmk_backlight",
-    "matrix": {"rows": 2, "cols": 3},
-    "layouts": {
-      "keymap": [
-        {
-          "name": "sixkeyboard via"
-        },
-        ["0,0", "0,1", "0,2"],
-        ["1,0", "1,1", "1,2"]
-      ]
-    }
+  "name": "SIXKEYBOARD",
+  "vendorId": "0x746b",
+  "productId": "0x736b",
+  "lighting": "qmk_backlight",
+  "matrix": {"rows": 2, "cols": 3},
+  "layouts": {
+    "keymap": [
+      {
+        "name": "sixkeyboard via"
+      },
+      ["0,0", "0,1", "0,2"],
+      ["1,0", "1,1", "1,2"]
+    ]
   }
+}

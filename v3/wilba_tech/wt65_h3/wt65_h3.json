@@ -6,7 +6,6 @@
   "layouts": {
     "labels": ["Split Backspace", ["Bottom Row", "6.25U", "7U"]],
     "keymap": [
-      {"x": 13, "c": "#aaaaaa", "w": 2},
       [{"x": 13}, "0,13\n\n\n0,1", "2,13\n\n\n0,1"],
       [
         {"c": "#777777"},

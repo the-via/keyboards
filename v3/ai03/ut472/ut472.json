@@ -3,12 +3,11 @@
   "vendorId": "0xa103",
   "productId": "0x0472",
   "keycodes": ["qmk_lighting"],
-  "menus": ["qmk_backlight_rgblight"],
+  "menus": ["qmk_rgblight"],
   "matrix": {"rows": 4, "cols": 12},
   "layouts": {
     "labels": [],
     "keymap": [
-      {"name": "ut472"},
       [
         {"c": "#777777"},
         "0,0",

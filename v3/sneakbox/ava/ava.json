@@ -4,8 +4,6 @@
   "productId": "0x0004",
   "keycodes": ["qmk_lighting"],
   "menus": ["qmk_rgblight"],
-  "url": "https://sneakbox.com",
-  "maintainer": "mujimanic",
   "matrix": {"rows": 9, "cols": 8},
   "layouts": {
     "labels": ["Split Backspace"],
