@@ -2,9 +2,12 @@
   "name": "Blueberry",
   "vendorId": "0x1067",
   "productId": "0x626C",
-  "menus":[
-    "qmk_backlight"
+  "keycodes": [
+    "qmk_lighting"
   ],
+"menus": [
+  "qmk_rgblight"
+]  
   "matrix": {
     "rows": 9,
     "cols": 8
