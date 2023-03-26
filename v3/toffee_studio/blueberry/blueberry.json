@@ -7,7 +7,7 @@
   ],
 "menus": [
   "qmk_rgblight"
-]  
+] ,
   "matrix": {
     "rows": 9,
     "cols": 8
