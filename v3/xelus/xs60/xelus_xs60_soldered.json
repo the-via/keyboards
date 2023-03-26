@@ -1,19 +1,229 @@
 {
-  "name": "XS60 Soldered",
-  "vendorId": "0x5845",
-  "productId": "0x5860",
-  "matrix": {"rows": 5, "cols": 14},
-  "layouts": {
-    "labels": [
+  "name":"XS60 Soldered",
+  "vendorId":"0x5845",
+  "productId":"0x5860",
+  "matrix":{
+    "rows":5,
+    "cols":14
+  },
+  "menus":[
+    {
+      "label":"Lighting",
+      "content":[
+        {
+          "label":"Underglow",
+          "content":[
+            {
+              "label":"Brightness",
+              "type":"range",
+              "options":[
+                0,
+                255
+              ],
+              "content":[
+                "id_qmk_rgblight_brightness",
+                2,
+                1
+              ]
+            },
+            {
+              "label":"Effect",
+              "type":"dropdown",
+              "content":[
+                "id_qmk_rgblight_effect",
+                2,
+                2
+              ],
+              "options":[
+                "All Off",
+                "Solid Color",
+                "Breathing 1",
+                "Breathing 2",
+                "Breathing 3",
+                "Breathing 4",
+                "RGB Test"
+              ]
+            },
+            {
+              "showIf":"{id_qmk_rgblight_effect} != 0",
+              "label":"Effect Speed",
+              "type":"range",
+              "options":[
+                0,
+                255
+              ],
+              "content":[
+                "id_qmk_rgblight_effect_speed",
+                2,
+                3
+              ]
+            },
+            {
+              "showIf":"{id_qmk_rgblight_effect} != 0",
+              "label":"Color",
+              "type":"color",
+              "content":[
+                "id_qmk_rgblight_color",
+                2,
+                4
+              ]
+            }
+          ]
+        }
+      ]
+    }, {
+      "label":"Indicators",
+      "content": [
+        {
+          "label": "Caps Lock",
+          "content": [
+            {
+              "label": "Enable",
+              "type": "toggle",
+              "content": ["id_caps_lock_enable", 0, 1]
+            },
+            {
+              "label": "Brightness",
+              "type": "range",
+              "options": [0, 4],
+              "content": ["id_caps_lock_brightness", 0, 2]
+            },
+            {
+              "label": "Color",
+              "type": "color",
+              "content": ["id_caps_lock_color", 0, 3]
+            },
+            {
+              "label": "Priority",
+              "type": "dropdown",
+              "options": [
+                "Highest",
+                "Medium",
+                "Low",
+                "Lowest"
+              ],
+              "content": ["id_caps_lock_key", 0, 4]
+            }
+          ]
+        },
+        {
+          "label": "Num Lock",
+          "content": [
+            {
+              "label": "Enable",
+              "type": "toggle",
+              "content": ["id_num_lock_enable", 0, 5]
+            },
+            {
+              "label": "Brightness",
+              "type": "range",
+              "options": [0, 255],
+              "content": ["id_num_lock_brightness", 0, 6]
+            },
+            {
+              "label": "Color",
+              "type": "color",
+              "content": ["id_num_lock_color", 0, 7]
+            },
+            {
+              "label": "Priority",
+              "type": "dropdown",
+              "options": [
+                "Highest",
+                "Medium",
+                "Low",
+                "Lowest"
+              ],
+              "content": ["id_num_lock_key", 0, 8]
+            }
+          ]
+        },
+        {
+          "label": "Scroll Lock",
+          "content": [
+            {
+              "label": "Enable",
+              "type": "toggle",
+              "content": ["id_scroll_lock_enable", 0, 9]
+            },
+            {
+              "label": "Brightness",
+              "type": "range",
+              "options": [0, 255],
+              "content": ["id_scroll_lock_brightness", 0, 10]
+            },
+            {
+              "label": "Color",
+              "type": "color",
+              "content": ["id_scroll_lock_color", 0, 11]
+            },
+            {
+              "label": "Priority",
+              "type": "dropdown",
+              "options": [
+                "Highest",
+                "Medium",
+                "Low",
+                "Lowest"
+              ],
+              "content": ["id_scroll_lock_key", 0, 12]
+            }
+          ]
+        },
+        {
+          "label": "Layer Indicator",
+          "content": [
+            {
+              "label": "Enable",
+              "type": "toggle",
+              "content": ["id_layer_indicator_enable", 0, 13]
+            },
+            {
+              "label": "Brightness",
+              "type": "range",
+              "options": [0, 255],
+              "content": ["id_layer_indicator_brightness", 0, 14]
+            },
+            {
+              "label": "Color",
+              "type": "color",
+              "content": ["id_layer_indicator_color", 0, 15]
+            },
+            {
+              "label": "Priority",
+              "type": "dropdown",
+              "options": [
+                "Highest",
+                "Medium",
+                "Low",
+                "Lowest"
+              ],
+              "content": ["id_layer_indicator_key", 0, 16]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "layouts":{
+    "labels":[
       "Split Backspace",
       "Split Right Shift",
-      ["Bottom Row", "6.25U", "7U"]
-    ],
-    "keymap": [
       [
-        {"c": "#777777"},
+        "Bottom Row",
+        "6.25U",
+        "7U"
+      ]
+    ],
+    "keymap":[
+      [
+        {
+          "c":"#777777"
+        },
         "0,0",
-        {"c": "#cccccc"},
+        {
+          "c":"#cccccc"
+        },
         "0,1",
         "0,2",
         "0,3",
@@ -26,16 +236,25 @@
         "0,10",
         "0,11",
         "0,12",
-        {"c": "#aaaaaa", "w": 2},
+        {
+          "c":"#aaaaaa",
+          "w":2
+        },
         "0,13\n\n\n0,0",
-        {"x": 0.5},
+        {
+          "x":0.5
+        },
         "0,13\n\n\n0,1",
         "2,13\n\n\n0,1"
       ],
       [
-        {"w": 1.5},
+        {
+          "w":1.5
+        },
         "1,0",
-        {"c": "#cccccc"},
+        {
+          "c":"#cccccc"
+        },
         "1,1",
         "1,2",
         "1,3",
@@ -48,13 +267,20 @@
         "1,10",
         "1,11",
         "1,12",
-        {"w": 1.5},
+        {
+          "w":1.5
+        },
         "1,13"
       ],
       [
-        {"c": "#aaaaaa", "w": 1.75},
+        {
+          "c":"#aaaaaa",
+          "w":1.75
+        },
         "2,0",
-        {"c": "#cccccc"},
+        {
+          "c":"#cccccc"
+        },
         "2,1",
         "2,2",
         "2,3",
@@ -66,13 +292,21 @@
         "2,9",
         "2,10",
         "2,11",
-        {"c": "#777777", "w": 2.25},
+        {
+          "c":"#777777",
+          "w":2.25
+        },
         "2,12"
       ],
       [
-        {"c": "#aaaaaa", "w": 2.25},
+        {
+          "c":"#aaaaaa",
+          "w":2.25
+        },
         "3,0",
-        {"c": "#cccccc"},
+        {
+          "c":"#cccccc"
+        },
         "3,1",
         "3,2",
         "3,3",
@@ -83,42 +317,79 @@
         "3,8",
         "3,9",
         "3,10",
-        {"c": "#aaaaaa", "w": 1.75},
+        {
+          "c":"#aaaaaa",
+          "w":1.75
+        },
         "3,12\n\n\n1,0",
         "3,13\n\n\n1,0",
-        {"x": 0.5, "w": 2.75},
+        {
+          "x":0.5,
+          "w":2.75
+        },
         "3,12\n\n\n1,1"
       ],
       [
-        {"w": 1.25},
+        {
+          "w":1.25
+        },
         "4,0\n\n\n2,0",
-        {"w": 1.25},
+        {
+          "w":1.25
+        },
         "4,1\n\n\n2,0",
-        {"w": 1.25},
+        {
+          "w":1.25
+        },
         "4,2\n\n\n2,0",
-        {"c": "#cccccc", "w": 6.25},
+        {
+          "c":"#cccccc",
+          "w":6.25
+        },
         "4,5\n\n\n2,0",
-        {"c": "#aaaaaa", "w": 1.25},
+        {
+          "c":"#aaaaaa",
+          "w":1.25
+        },
         "4,9\n\n\n2,0",
-        {"w": 1.25},
+        {
+          "w":1.25
+        },
         "4,10\n\n\n2,0",
-        {"w": 1.25},
+        {
+          "w":1.25
+        },
         "4,11\n\n\n2,0",
-        {"w": 1.25},
+        {
+          "w":1.25
+        },
         "4,13\n\n\n2,0"
       ],
       [
-        {"y": 0.5, "w": 1.5},
+        {
+          "y":0.5,
+          "w":1.5
+        },
         "4,0\n\n\n2,1",
         "4,1\n\n\n2,1",
-        {"w": 1.5},
+        {
+          "w":1.5
+        },
         "4,2\n\n\n2,1",
-        {"c": "#cccccc", "w": 7},
+        {
+          "c":"#cccccc",
+          "w":7
+        },
         "4,5\n\n\n2,1",
-        {"c": "#aaaaaa", "w": 1.5},
+        {
+          "c":"#aaaaaa",
+          "w":1.5
+        },
         "4,10\n\n\n2,1",
         "4,11\n\n\n2,1",
-        {"w": 1.5},
+        {
+          "w":1.5
+        },
         "4,13\n\n\n2,1"
       ]
     ]
