@@ -2,9 +2,6 @@
   "name": "IBM 122M",
   "vendorId": "0x8767",
   "productId": "0x5f89",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 8, "cols": 20},
   "layouts": {
     "keymap": [

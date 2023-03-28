@@ -2,9 +2,6 @@
   "name": "RART75",
   "vendorId": "0x414C",
   "productId": "0x0075",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 6, "cols": 16},
   "layouts": {
     "labels": [
@@ -18,7 +15,8 @@
         "7U WKL",
         "7U-1U",
         "7U-1.5U"
-      ]
+      ],
+      "Encoder"
     ],
     "keymap": [
       [
@@ -42,7 +40,9 @@
         {"x": 0.25},
         "0,14",
         {"x": 0.5},
-        "0,15"
+        "0,15\n\n\n3,0",
+        {"x": 0.5},
+        "0,15\n\n\n3,1\n\n\n\n\n\n\n\n\ne0"
       ],
       [
         {"y": 0.25},
@@ -182,7 +182,7 @@
         "5,2\n\n\n2,3",
         {"w": 7},
         "5,4\n\n\n2,3",
-        "5,8\n\n\n2,3",
+        "5,9\n\n\n2,3",
         "5,10\n\n\n2,3"
       ],
       [

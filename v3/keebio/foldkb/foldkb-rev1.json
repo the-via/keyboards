@@ -2,16 +2,8 @@
   "name": "FoldKB Rev. 1",
   "vendorId": "0xCB10",
   "productId": "0x1258",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_backlight",
-    "core/qmk_rgblight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_backlight_rgblight"],
   "matrix": {"rows": 10, "cols": 8},
   "layouts": {
     "labels": [

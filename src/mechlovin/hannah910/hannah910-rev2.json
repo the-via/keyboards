@@ -10,13 +10,7 @@
       "ISO Enter",
       "Right Shift 2.75U",
       "Left Shift 2.25U",
-      [
-       "Bottom Row",
-       "Split Space 1",
-       "Split Space 2",
-       "6.25U",
-       "7U"
-      ]
+      ["Bottom Row", "Split Space 1", "Split Space 2", "6.25U", "7U"]
     ],
     "keymap": [
       [

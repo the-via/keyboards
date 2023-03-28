@@ -15,14 +15,17 @@
       ["Enter Key", "ANSI", "ISO"],
       ["Left Shift", "Default", "Split"],
       ["Right Shift", "Default", "3x1.25u"],
-      ["Bottom Row", "Default",
-       "1) 3x1.25u | 6.25u Space | 1u - 4x1.25u",
-       "2) 3x1.25u | 6.25u Space | 1.25u - 1u - 3x1.25u",
-       "3) 2x1.5u | 7u Space | 2x1.5u - 3x1u",
-       "4) 1.5u - 1u - 1.5u | 6u Space | 6x1u",
-       "5) 1.5u - 1u - 1.25u | 6.25u Space | 6x1u",
-       "6) 1.5u - 1u - 1.5u | 7u Space | 5x1u",
-       "7) (Unofficial) 3x1.25u | 6.25u Space | 2x1.5u - 3x1u"]
+      [
+        "Bottom Row",
+        "Default",
+        "1) 3x1.25u | 6.25u Space | 1u - 4x1.25u",
+        "2) 3x1.25u | 6.25u Space | 1.25u - 1u - 3x1.25u",
+        "3) 2x1.5u | 7u Space | 2x1.5u - 3x1u",
+        "4) 1.5u - 1u - 1.5u | 6u Space | 6x1u",
+        "5) 1.5u - 1u - 1.25u | 6.25u Space | 6x1u",
+        "6) 1.5u - 1u - 1.5u | 7u Space | 5x1u",
+        "7) (Unofficial) 3x1.25u | 6.25u Space | 2x1.5u - 3x1u"
+      ]
     ],
 
     "keymap": [

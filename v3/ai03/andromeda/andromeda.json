@@ -2,9 +2,6 @@
   "name": "Andromeda",
   "vendorId": "0xa103",
   "productId": "0x000A",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 6, "cols": 17},
   "layouts": {
     "keymap": [
@@ -118,9 +115,9 @@
         "5,0",
         {"x": 1, "w": 1.5},
         "5,2",
-        {"c": "#777777", "a": 7, "w": 7},
+        {"c": "#777777", "w": 7},
         "5,7",
-        {"c": "#aaaaaa", "a": 4, "w": 1.5},
+        {"c": "#aaaaaa", "w": 1.5},
         "5,11",
         {"x": 1, "w": 1.5},
         "5,13",

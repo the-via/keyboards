@@ -2,14 +2,10 @@
   "name": "wilba.tech WT60-H1",
   "vendorId": "0x6582",
   "productId": "0x0024",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 5, "cols": 14},
   "layouts": {
     "labels": [["Bottom Row", "7U", "HHKB", "WKL"]],
     "keymap": [
-      {"x": 13, "c": "#aaaaaa", "w": 2},
       [
         {"c": "#777777"},
         "0,0",

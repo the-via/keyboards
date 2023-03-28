@@ -2,15 +2,8 @@
   "name": "Prime_M",
   "vendorId": "0x5052",
   "productId": "0x504D",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_backlight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_backlight"],
   "matrix": {"rows": 5, "cols": 6},
   "layouts": {
     "labels": [

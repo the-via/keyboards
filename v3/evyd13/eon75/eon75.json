@@ -2,9 +2,6 @@
   "name": "Evyd13 Eon75",
   "vendorId": "0x4705",
   "productId": "0x5C62",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 12, "cols": 8},
   "layouts": {
     "labels": [

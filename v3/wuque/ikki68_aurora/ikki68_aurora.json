@@ -2,15 +2,8 @@
   "name": "ikki68 AURORA",
   "vendorId": "0x706b",
   "productId": "0x0011",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_rgblight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_rgblight"],
   "matrix": {"rows": 5, "cols": 16},
   "layouts": {
     "labels": [
@@ -108,7 +101,7 @@
         "3,10",
         "3,11",
         {"w": 2.75},
-        "3,13\n\n\n3,0",
+        "3,12\n\n\n3,0",
         {"x": 0.5},
         "3,14",
         {"x": 1.25, "w": 1.75},

@@ -2,9 +2,6 @@
   "name": "wilba.tech WT80-G",
   "vendorId": "0x6582",
   "productId": "0x0023",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 6, "cols": 17},
   "layouts": {
     "labels": [
@@ -15,7 +12,6 @@
       ["Bottom Row", "6.25U", "7U", "7U WKL"]
     ],
     "keymap": [
-      {"x": 13, "c": "#aaaaaa", "w": 2},
       [
         {"x": 2.5, "c": "#777777"},
         "0,0",

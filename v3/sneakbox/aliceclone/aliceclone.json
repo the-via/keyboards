@@ -2,17 +2,8 @@
   "name": "Sneakbox Alice Clone",
   "vendorId": "0x5342",
   "productId": "0x0001",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_rgblight"
-  ],
-  "url": "https://sneakbox.design",
-  "maintainer": "mujimanic",
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_rgblight"],
   "matrix": {"rows": 10, "cols": 8},
   "layouts": {
     "keymap": [

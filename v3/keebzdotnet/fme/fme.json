@@ -2,9 +2,6 @@
   "name": "F.Me Macropad",
   "vendorId": "0x4B5A",
   "productId": "0x8008",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 4, "cols": 5},
   "layouts": {
     "labels": ["Split Bottom Right"],

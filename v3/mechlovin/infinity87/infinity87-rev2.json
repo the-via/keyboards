@@ -1,16 +1,9 @@
 {
-  "name": "Infinity 87",
+  "name": "Infinity 87 Rev.2",
   "vendorId": "0x4D4C",
   "productId": "0x8702",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_backlight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_backlight_rgblight"],
   "matrix": {"rows": 6, "cols": 17},
   "layouts": {
     "labels": [
@@ -188,7 +181,7 @@
         {"c": "#cccccc", "w": 7},
         "5,6\n\n\n4,1",
         {"c": "#aaaaaa", "w": 1.5},
-        "5,10\n\n\n4,1",
+        "5,11\n\n\n4,1",
         "5,12\n\n\n4,1",
         {"w": 1.5},
         "5,13\n\n\n4,1"

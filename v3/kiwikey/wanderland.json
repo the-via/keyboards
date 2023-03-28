@@ -2,16 +2,8 @@
   "name": "KiwiKey Wanderland",
   "vendorId": "0x4B57",
   "productId": "0x574C",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_backlight",
-    "core/qmk_rgblight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_backlight_rgblight"],
   "matrix": {"rows": 6, "cols": 13},
   "layouts": {
     "labels": ["Split Backspace", "2.75u Right Shift"],

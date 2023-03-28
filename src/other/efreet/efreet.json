@@ -5,9 +5,7 @@
   "lighting": "none",
   "matrix": {"rows": 8, "cols": 6},
   "layouts": {
-    "labels": [
-      "2U Spacebar"
-    ],
+    "labels": ["2U Spacebar"],
     "keymap": [
       [
         "1,0",

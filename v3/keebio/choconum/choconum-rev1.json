@@ -2,9 +2,6 @@
   "name": "Choconum Rev. 1",
   "vendorId": "0xCB10",
   "productId": "0x1154",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 5, "cols": 4},
   "layouts": {
     "labels": ["Split 0", "Split +", "Split Enter"],

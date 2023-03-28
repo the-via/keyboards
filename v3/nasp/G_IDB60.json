@@ -2,9 +2,6 @@
   "name": "G_IDB60",
   "vendorId": "0x7070",
   "productId": "0x3508",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 5, "cols": 14},
   "layouts": {
     "labels": ["Full Backspace", "Full Right Shift"],

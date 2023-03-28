@@ -2,9 +2,6 @@
   "name": "Eniigma Keyboards ek87",
   "vendorId": "0x454B",
   "productId": "0x0001",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 6, "cols": 18},
   "layouts": {
     "labels": [

@@ -2,16 +2,8 @@
   "name": "Taleguers75",
   "vendorId": "0x8476",
   "productId": "0x0075",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_backlight",
-    "core/qmk_rgblight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_backlight_rgblight"],
   "matrix": {"rows": 6, "cols": 14},
   "layouts": {
     "keymap": [

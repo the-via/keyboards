@@ -1,0 +1,29 @@
+{
+  "name": "wilba.tech WT8-KH",
+  "vendorId": "0x6582",
+  "productId": "0x0033",
+  "matrix": {"rows": 4, "cols": 2},
+  "menus": ["qmk_rgblight"],
+  "keycodes": ["qmk_lighting"],
+  "customKeycodes": [
+    {
+      "name": "Custom 0",
+      "title": "Custom 0",
+      "shortName": "C0"
+    },
+    {
+      "name": "Custom 1",
+      "title": "Custom 1",
+      "shortName": "C1"
+    }
+  ],
+  "layouts": {
+    "keymap": [
+      [{"x": 0.25, "a": 7, "w": 1.5, "h": 1.5}, "e0"],
+      [{"y": 0.75, "a": 4}, "0,0", "0,1"],
+      ["1,0", "1,1"],
+      ["2,0", "2,1"],
+      ["3,0", "3,1"]
+    ]
+  }
+}

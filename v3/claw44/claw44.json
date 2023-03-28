@@ -2,9 +2,6 @@
   "name": "Claw44",
   "vendorId": "0x5946",
   "productId": "0x0001",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 8, "cols": 6},
   "layouts": {
     "labels": [],

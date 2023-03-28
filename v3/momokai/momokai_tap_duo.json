@@ -1,0 +1,26 @@
+{
+  "name": "Momokai Tap Duo",
+  "vendorId": "0x69F9",
+  "productId": "0x0005",
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_rgblight"],
+  "matrix": {"rows": 1, "cols": 5},
+  "layouts": {
+    "keymap": [
+      [
+        {"w": 1.5, "h": 1.5, "c": "#cccccc"},
+        "0,0",
+        {"w": 1.5, "h": 1.5, "c": "#cccccc"},
+        "0,1"
+      ],
+      [
+        {"y": 0.5, "x": 0.5, "c": "#aaaaaa"},
+        "0,2",
+        {"c": "#aaaaaa"},
+        "0,3",
+        {"c": "#aaaaaa"},
+        "0,4"
+      ]
+    ]
+  }
+}

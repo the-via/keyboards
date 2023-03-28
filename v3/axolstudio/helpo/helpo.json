@@ -2,9 +2,6 @@
   "name": "Helpo",
   "vendorId": "0x525C",
   "productId": "0xC89F",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 4, "cols": 5},
   "layouts": {
     "labels": [],

@@ -2,9 +2,6 @@
   "name": "Lumberjack",
   "vendorId": "0x706A",
   "productId": "0x0002",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 6, "cols": 10},
   "layouts": {
     "labels": [["Bottom Row", "Grid", "2u Spacebars"]],
