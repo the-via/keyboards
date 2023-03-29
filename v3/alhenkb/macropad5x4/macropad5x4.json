@@ -8,9 +8,9 @@
     },
     "layouts": {
         "labels": [
-            ["Key Plus", "No", "Yes"],
-            ["Key Enter", "No", "Yes"],
-            ["Key Zero", "No", "Yes"]
+            "Key Plus",
+            "Key Enter",
+            "Key Zero"
           ],
         "keymap": [
             [
