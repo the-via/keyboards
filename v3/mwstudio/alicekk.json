@@ -2,8 +2,7 @@
   "name": "AliceKK",
   "vendorId": "0x7BA1",
   "productId": "0x3201",
-  "keycodes": ["qmk_lighting"],
-  "menus": ["qmk_backlight_rgblight"],
+  "menus": ["qmk_rgblight"],
   "matrix": {"rows": 5, "cols": 15},
   "layouts": {
     "keymap": [
