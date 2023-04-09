@@ -1,7 +1,7 @@
 {
-  "name": "Krado66 v2",
-  "vendorId": "0x12D0",
-  "productId": "0x1166",
+  "name": "Krado66",
+  "vendorId": "0x4B72",
+  "productId": "0x6664",
   "matrix": {
   "rows": 10, 
   "cols": 8
