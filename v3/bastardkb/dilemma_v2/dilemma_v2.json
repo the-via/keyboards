@@ -5,6 +5,7 @@
   "menus": [
     "qmk_rgb_matrix"
   ],
+  "keycodes": [ "qmk_lighting" ],
   "matrix": {
     "rows": 8,
     "cols": 5
