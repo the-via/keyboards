@@ -2,7 +2,8 @@
   "name": "Manibus",
   "vendorId": "0x424D",
   "productId": "0x4D4E",
-  "lighting": "none",
+  "menus": [ "qmk_rgb_matrix" ],
+  "keycodes": [ "qmk_lighting" ],
   "matrix": {"rows": 10, "cols": 7},
   "layouts": {
     "keymap": [
