@@ -3,10 +3,7 @@
   "vendorId": "0x424D",
   "productId": "0x4D4E",
   "lighting": "none",
-  "matrix": {
-    "rows": 10,
-    "cols": 7
-  },
+  "matrix": {"rows": 10, "cols": 7},
   "layouts": {
     "keymap": [
       [
