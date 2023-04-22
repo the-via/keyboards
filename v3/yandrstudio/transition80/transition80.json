@@ -2,33 +2,6 @@
     "name": "Transition TKL",
     "vendorId": "0xAA96",
     "productId": "0xAA6F",
-    "customKeycodes": [
-        {
-            "name": "Toggle WinKey Lock",
-            "title": "Toggle WinKey Lock",
-            "shortName": "WinLock"
-        },
-        {
-            "name": "Toggle macOS Keymap",
-            "title": "Toggle macOS Keymap",
-            "shortName": "TogMacOS"
-        },
-        {
-            "name": "Swap GUI and Ctrl",
-            "title": "Swap GUI and Ctrl",
-            "shortName": "CG_TOG"
-        },
-        {
-            "name": "Mission Control",
-            "title": "Mission Control in macOS",
-            "shortName": "Mission Control"
-        },
-        {
-            "name": "Launch Pad",
-            "title": "Launch Pad in macOS",
-            "shortName": "Launch Pad"
-        }
-    ],
     "matrix": {
         "rows": 6,
         "cols": 17
