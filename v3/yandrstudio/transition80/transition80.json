@@ -14,7 +14,7 @@
             ]
         },
         "labels": [
-            ["Space", "Solder TK", "Hotswap WK", "Solder WK"],
+            ["Space", "Hotswap/Solder TK", "Hotswap WK", "Solder WK"],
             "Split Backspace"
         ],
         "keymap": [
