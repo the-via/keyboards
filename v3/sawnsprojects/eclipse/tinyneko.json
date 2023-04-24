@@ -1,6 +1,6 @@
 {
   "name": "tinyneko",
-  "vendorId": "0x5350",
+  "vendorId": "0x534C",
   "productId": "0xE260",
   "keycodes": ["qmk_lighting"],
   "menus": ["qmk_rgblight"],
