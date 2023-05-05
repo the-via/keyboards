@@ -1,0 +1,207 @@
+{
+    "name": "pi40",
+    "vendorId": "0x6F75",
+    "productId": "0x5606",
+    "matrix": { "rows": 10, "cols": 7},
+    "keycodes": ["qmk_lighting"],
+    "menus": [
+      {
+        "label": "Lighting",
+        "content": [
+          {
+            "label": "Backlight",
+            "content": [
+              {
+                "label": "Brightness",
+                "type": "range",
+                "options": [0, 255],
+                "content": ["id_qmk_rgb_matrix_brightness", 3, 1]
+              },
+              {
+                "label": "Effect",
+                "type": "dropdown",
+                "content": ["id_qmk_rgb_matrix_effect", 3, 2],
+                "options": [
+                  "All Off",
+                  "Solid Color",
+                  "Alphas/Mods",
+                  "Gradient Up/Down",
+                  "Gradient Left/Right",
+                  "Breathing",
+                  "Band Sat.",
+                  "Band Val.",
+                  "Pinwheel Sat.",
+                  "Pinwheel Val.",
+                  "Spiral Sat.",
+                  "Spiral Val.",
+                  "Cycle All",
+                  "Cycle Left/Right",
+                  "Cycle Up/Down",
+                  "Rainbow Moving Chevron",
+                  "Cycle Out/In",
+                  "Cycle Out/In Dual",
+                  "Cycle Pinwheel",
+                  "Cycle Spiral",
+                  "Dual Beacon",
+                  "Rainbow Beacon",
+                  "Rainbow Pinwheels",
+                  "Raindrops",
+                  "Jellybean Raindrops",
+                  "Hue Breathing",
+                  "Hue Pendulum",
+                  "Hue Wave",
+                  "Pixel Rain",
+                  "Pixel Flow",
+                  "Pixel Fractal",
+                  "Typing Heatmap",
+                  "Digital Rain",
+                  "Solid Reactive Simple",
+                  "Solid Reactive",
+                  "Solid Reactive Wide",
+                  "Solid Reactive Multiwide",
+                  "Solid Reactive Cross",
+                  "Solid Reactive Multicross",
+                  "Solid Reactive Nexus",
+                  "Solid Reactive Multinexus",
+                  "Splash",
+                  "Multisplash",
+                  "Solid Splash",
+                  "Solid Multisplash"
+                ]
+              },
+              {
+                "showIf": "{id_qmk_rgb_matrix_effect} != 0 && {id_qmk_rgb_matrix_effect} != 1 && {id_qmk_rgb_matrix_effect} != 2 && {id_qmk_rgb_matrix_effect} != 3 && {id_qmk_rgb_matrix_effect} != 4",
+                "label": "Effect Speed",
+                "type": "range",
+                "options": [0, 255],
+                "content": ["id_qmk_rgb_matrix_effect_speed", 3, 3]
+              },
+              {
+                "showIf": "{id_qmk_rgb_matrix_effect} == 2",
+                "label": "Mod Color",
+                "type": "range",
+                "options": [0, 255],
+                "content": ["id_qmk_rgb_matrix_effect_speed", 3, 3]
+              },
+              {
+                "showIf": "{id_qmk_rgb_matrix_effect} == 2",
+                "label": "Alpha Color",
+                "type": "color",
+                "content": ["id_qmk_rgb_matrix_color", 3, 4]
+              },
+              {
+                "showIf": "{id_qmk_rgb_matrix_effect} == 3 || {id_qmk_rgb_matrix_effect} == 4",
+                "label": "Gradient Range",
+                "type": "range",
+                "options": [0, 255],
+                "content": ["id_qmk_rgb_matrix_effect_speed", 3, 3]
+              },
+              {
+                "showIf": "{id_qmk_rgb_matrix_effect} != 0 && {id_qmk_rgb_matrix_effect} != 2 &&{id_qmk_rgb_matrix_effect} != 23 && {id_qmk_rgb_matrix_effect} != 27 && {id_qmk_rgb_matrix_effect} != 28",
+                "label": "Color",
+                "type": "color",
+                "content": ["id_qmk_rgb_matrix_color", 3, 4]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "layouts": {
+      "labels": [
+        ["Keyboard Version",
+          "Grid",
+          "MIT"
+        ]
+      ],
+      "keymap": [
+        [
+          {
+            "x": 11
+          },
+          "0,6\n\n\n\n\n\n\n\n\ne0"
+        ],
+        [
+          {
+            "y": 0.25
+          },
+          "0,0",
+          "1,0",
+          "0,1",
+          "1,1",
+          "0,2",
+          "1,2",
+          "0,3",
+          "1,3",
+          "0,4",
+          "1,4",
+          "0,5",
+          "1,5"
+        ],
+        [
+          "2,0",
+          "3,0",
+          "2,1",
+          "3,1",
+          "2,2",
+          "3,2",
+          "2,3",
+          "3,3",
+          "2,4",
+          "3,4",
+          "2,5",
+          "3,5"
+        ],
+        [
+          "4,0",
+          "5,0",
+          "4,1",
+          "5,1",
+          "4,2",
+          "5,2",
+          "4,3",
+          "5,3",
+          "4,4",
+          "5,4",
+          "4,5",
+          "5,5"
+        ],
+        [
+          "6,0",
+          "7,0",
+          "6,1",
+          "7,1",
+          "6,2",
+          "7,2",
+          "6,3",
+          "7,3",
+          "6,4",
+          "7,4",
+          "6,5",
+          "7,5"
+        ],
+        [
+          "8,0",
+          "9,0",
+          "8,1",
+          "9,1",
+          "8,2",
+          "9,2\n\n\n0,0",
+          "8,3\n\n\n0,0",
+          "9,3",
+          "8,4",
+          "9,4",
+          "8,5",
+          "9,5"
+        ],
+        [
+          {
+            "y": 0.25,
+            "x": 5,
+            "w": 2
+          },
+          "9,2\n\n\n0,1"
+        ]
+      ]
+    }
+  }
