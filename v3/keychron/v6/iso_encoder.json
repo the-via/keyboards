@@ -1,5 +1,5 @@
 {
-  "name": "Keychron V6",
+  "name": "Keychron V6 ISO Knob",
   "vendorId": "0x3434",
   "productId": "0x0363",
   "keycodes": ["qmk_lighting"],
@@ -136,7 +136,7 @@
         {
           "x": 0.25
         },
-        "4,19\ne0",
+        "4,19\n\n\n\n\n\n\n\n\ne0",
         {
           "x": 0.25,
           "c": "#aaaaaa"

@@ -2,7 +2,7 @@
   "name": "Keebio Viterbi Rev2",
   "vendorId": "0xCB10",
   "productId": "0x2157",
-  "lighting": "qmk_backlight_rgblight",
+  "lighting": "qmk_backlight",
   "matrix": {
     "rows": 10,
     "cols": 7

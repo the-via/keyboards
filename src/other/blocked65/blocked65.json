@@ -2,7 +2,7 @@
   "name": "Blocked65",
   "vendorId": "0x5746",
   "productId": "0x0001",
-  "lighting": "qmk_backlight_rgblight",
+  "lighting": "qmk_rgblight",
   "matrix": {"rows": 5, "cols": 15},
   "layouts": {
     "keymap": [
