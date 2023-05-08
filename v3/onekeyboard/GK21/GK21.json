@@ -1,7 +1,7 @@
 {
   "name": "GK21",
-  "vendorId": "0x5241",
-  "productId": "0x006a",
+  "vendorId": "0x52D1",
+  "productId": "0x001C",
   "lighting": "qmk_rgblight",
   "matrix": { "rows": 6, "cols": 4},
   "layouts": {
