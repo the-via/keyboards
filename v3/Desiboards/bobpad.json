@@ -1,5 +1,5 @@
 {
-    "name": "bobpad",
+    "name": "bobPad",
     "vendorId": "0x416B",
     "productId": "0x0002",
     "matrix": {
@@ -7,24 +7,19 @@
       "cols": 3
     },
     "layouts": {
-      "keymap": 
-[
+      "keymap": [
+
   [
     "0,0",
     "0,1",
-    {
-      "c": "#777777"
-    },
     "0,2"
   ],
   [
-    {
-      "c": "#cccccc"
-    },
     "1,0",
     "1,1",
     "1,2"
   ]
 ]
+  
     }
   }
