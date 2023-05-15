@@ -2,6 +2,7 @@
   "name": "Aster Ergo",
   "vendorId": "0xBA00",
   "productId": "0x8701",
+  "lighting": "none",
   "matrix": {"rows": 6, "cols": 17},
   "layouts": {
     "labels": [
