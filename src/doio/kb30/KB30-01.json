@@ -3,8 +3,8 @@
   "vendorId": "0xD010",
   "productId": "0x3001",
   "keycodes": ["qmk_lighting"],
-  "menus": ["qmk_rgb_matrix"],
-  "matrix": { "rows": 6,  "cols": 7},
+  "lighting": "qmk_rgblight",
+  "matrix": { "rows": 6, "cols": 7 },
   "layouts": {
     "keymap": [
       [
