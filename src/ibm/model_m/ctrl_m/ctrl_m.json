@@ -1,9 +1,8 @@
 {
   "name": "ctrl-M replacement controller for the IBM Model M 101/102",
-  "vendorId": "0xFEED",
-  "productId": "0x6805",
+  "vendorId": "0x1D50",
+  "productId": "0x6180",
   "matrix": {"rows": 8, "cols": 16},
-  "lighting": "none",
   "layouts": {
     "keymap": [
       [
