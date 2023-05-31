@@ -1,0 +1,66 @@
+{
+	"name": "VortexSeries GT-65",
+	"vendorId": "0x320F",
+	"productId": "0x5088",
+	"lighting": {
+		"extends": "qmk_rgblight",
+		"underglowEffects": [
+		  [ "OFF_MODE", 0 ],
+		  [ "WAVE_MODE", 0 ],
+		  [ "COLOUR_CLOUD_MODE", 0 ],
+		  [ "VORTEX_MODE", 0 ],
+		  [ "MIX_COLOUR_MODE", 0 ],
+		  [ "BREATHE_MODE", 0 ],
+		  [ "LIGHT_MODE", 0 ],
+		  [ "SLOWLY_OFF_MODE", 0 ],
+		  [ "STONE_MODE", 0 ],
+		  [ "LASER_MODE", 0 ],
+		  [ "STARRY_MODE", 0 ],
+		  [ "FLOWERS_OPEN_MODE", 0 ],
+		  [ "TRAVERSE_MODE", 0 ],
+		  [ "WAVE_BAR_MODE", 0 ],
+		  [ "METEOR_MODE", 0 ],
+		  [ "RAIN_MODE", 0 ],
+		  [ "SCAN_MODE", 0 ],
+		  [ "TRIGGER_COLOUR_MODE", 0 ],
+		  [ "CENTER_SPREAD_MODE", 0 ],
+		  [ "CONTER_TWO_MODE", 0 ],
+		  [ "CONTER_THUND_MODE", 0 ],
+		  [ "CONTER_THUND_RUN_MODE", 0 ],
+		  [ "CONTER_WATER_DROP_MODE", 0 ],
+		  [ "CONTER_WATER_LOOP_MODE", 0 ],
+		  [ "CROSS_MODE", 0 ]
+		]
+	},
+	"matrix": { "rows": 8, "cols": 15 },
+	"customKeycodes": [
+		{"name": "2.4G MODE", "title": "Keyboard data output 2.4G", "shortName": "2.4G MODE"},
+		{"name": "USB MODE", "title": "Keyboard data output USB", "shortName": "USB MODE"},
+		{"name": "Bluetooth 1", "title": "Bluetooth working connection 1", "shortName": "BT 1"},
+		{"name": "Bluetooth 2", "title": "Bluetooth working connection 2", "shortName": "BT 2"},
+		{"name": "Bluetooth 3", "title": "Bluetooth working connection 3", "shortName": "BT 3"},
+		{"name": "LOCK WIN KEY", "title": "lock win key", "shortName": "LOCK WIN KEY"},
+		{"name": "DESKTOP LIGHT LOW", "title": "desktop lihgt low", "shortName": "DESKTOP LIGHT LOW"},
+		{"name": "DESKTOP LIGHT HIGH", "title": "desktop lihgt high", "shortName": "DESKTOP LIGHT HIGH"},
+		{"name": "2.4G MODE CHANGE", "title": "MODE CHANGE 2.4G", "shortName": "2.4G MODE CHANGE"},
+		{"name": "BLE MODE CHANGE", "title": "MODE CHANGE BLE", "shortName": "BLE MODE CHANGE"},
+		{"name": "WIN MAC MODE", "title": "win system mode change", "shortName": "WIN MAC MODE"}
+	],
+	"layouts": {
+		"keymap": [
+			[],
+
+			["1,0","1,1","1,2","1,3","1,4","1,5","1,6","1,7","1,8","1,9","1,10","1,11","1,12","1,13","7,0","1,14","7,1"],
+
+			[{"w":1.5},"2,0","2,1","2,2","2,3","2,4","2,5","2,6","2,7","2,8","2,9","2,10","2,11","2,12",{"x":0.25},{"w":2.0},"2,13",{"x":0.25},"2,14"],
+
+			[{"w":2.0},"3,0","3,1","3,2","3,3","3,4","3,5","3,6","3,7","3,8","3,9","3,10","3,11'",{"x":0.25},{"w":2.5},"3,13",{"x":0.25},"3,14"],
+
+			[{"w":2.25},"4,0","4,2","4,3","4,4","4,5","4,6","4,7","4,8","4,9","4,10","4,11",{"w":2.25},"4,12",{"x":0.25},"4,13",{"x":0.25},"4,14"],
+
+			[{"w":1.25},"5,0",{"w":1.25},"5,1",{"w":1.25},"5,2",{"w":6.5},"5,6",{"w":1.25},"5,10",{"x":0.25},{"w":1.25},"5,11",{"x":0.5},"5,12",{"x":0.25},"5,13",{"x":0.25},"5,14"]
+		]
+	}
+ }
+
+ 
