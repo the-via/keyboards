@@ -2,6 +2,7 @@
   "name": "Zed65 Rev.1",
   "vendorId": "0x4D4C",
   "productId": "0x6505",
+  "keycodes": [ "qmk_lighting" ],
   "menus": [
     {
       "label": "Lighting",
