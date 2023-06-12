@@ -1,6 +1,6 @@
 {
     "name": "MF17",
-    "vendorId": "0x1A54",
+    "vendorId": "0x3A54",
     "productId": "0x4F5D",
     "keycodes": ["qmk_lighting"],
     "menus": ["qmk_rgb_matrix"],
