@@ -2,7 +2,7 @@
   "name": "mokey12x2",
   "vendorId": "0x6653",
   "productId": "0x012A",
-  "matrix": {"rows": 4,"cols": 5},
+  "matrix": { "rows": 4,"cols": 5 },
   "keycodes": [ "qmk_lighting" ],
   "menus": [ "qmk_rgb_matrix" ],
   "layouts": {
