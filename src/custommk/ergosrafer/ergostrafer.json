@@ -2,6 +2,7 @@
   "name": "customMK ErgoStrafer",
   "vendorId": "0xF35B",
   "productId": "0xFAB8",
+  "lighting": "none",
   "menus": [ "qmk_audio" ],
   "matrix": {"rows": 6, "cols": 7},
   "layouts": {
