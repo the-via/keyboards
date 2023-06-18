@@ -2,9 +2,6 @@
   "name": "bop",
   "vendorId": "0x666B",
   "productId": "0x626F",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 6, "cols": 20},
   "layouts": {
     "labels": [

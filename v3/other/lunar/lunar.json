@@ -2,14 +2,10 @@
   "name": "Lunar",
   "vendorId": "0xa103",
   "productId": "0x0001",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 5, "cols": 15},
   "layouts": {
     "keymap": [
       [
-        {"a": 7},
         "0,0",
         "0,1",
         "0,2",

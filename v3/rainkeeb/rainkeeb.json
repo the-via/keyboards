@@ -2,9 +2,6 @@
   "name": "rainkeeb",
   "vendorId": "0x726b",
   "productId": "0x726b",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 8, "cols": 6},
   "layouts": {
     "keymap": [

@@ -2,9 +2,6 @@
   "name": "Southpaw75",
   "vendorId": "0x484F",
   "productId": "0x5350",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 9, "cols": 9},
   "layouts": {
     "keymap": [

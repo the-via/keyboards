@@ -2,13 +2,8 @@
   "name": "Mesa TKL",
   "vendorId": "0x4E5A",
   "productId": "0x8001",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"cols": 17, "rows": 6},
   "layouts": {
-    "width": 18.25,
-    "height": 6.25,
     "labels": [
       "Split Backspace",
       "Split Right Shift",

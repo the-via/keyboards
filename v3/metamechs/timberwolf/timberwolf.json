@@ -2,15 +2,8 @@
   "name": "Timber Wolf",
   "vendorId": "0x6D6D",
   "productId": "0x5754",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_backlight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_backlight"],
   "matrix": {"rows": 12, "cols": 9},
   "layouts": {
     "labels": [

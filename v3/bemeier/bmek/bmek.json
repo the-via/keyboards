@@ -2,14 +2,60 @@
   "name": "Bemeier BMEK",
   "vendorId": "0x626D",
   "productId": "0x656B",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
+  "keycodes": ["qmk_lighting"],
   "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "!!!WILBA!!!"
+    {
+      "label": "Lighting",
+      "content": [
+        {
+          "label": "Underglow",
+          "content": [
+            {
+              "label": "Brightness",
+              "type": "range",
+              "options": [0, 255],
+              "content": ["id_qmk_rgblight_brightness", 2, 1]
+            },
+            {
+              "label": "Effect",
+              "type": "dropdown",
+              "content": ["id_qmk_rgblight_effect", 2, 2],
+              "options": [
+                "All Off",
+                "Solid Color",
+                "Breathing 1",
+                "Breathing 2",
+                "Breathing 3",
+                "Breathing 4",
+                "Gradient 1",
+                "Gradient 2",
+                "Gradient 3",
+                "Gradient 4",
+                "Gradient 5",
+                "Gradient 6",
+                "Gradient 7",
+                "Gradient 8",
+                "Gradient 9",
+                "Gradient 10"
+              ]
+            },
+            {
+              "showIf": "{id_qmk_rgblight_effect} != 0",
+              "label": "Effect Speed",
+              "type": "range",
+              "options": [0, 255],
+              "content": ["id_qmk_rgblight_effect_speed", 2, 3]
+            },
+            {
+              "showIf": "{id_qmk_rgblight_effect} != 0",
+              "label": "Color",
+              "type": "color",
+              "content": ["id_qmk_rgblight_color", 2, 4]
+            }
+          ]
+        }
+      ]
+    }
   ],
   "customKeycodes": [],
   "matrix": {"rows": 5, "cols": 15},

@@ -2,9 +2,6 @@
   "name": "recompile keys Nomu30",
   "vendorId": "0x524B",
   "productId": "0x4E31",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 3, "cols": 12},
   "layouts": {
     "keymap": [

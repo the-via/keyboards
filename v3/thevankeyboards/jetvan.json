@@ -2,15 +2,8 @@
   "name": "JetVan",
   "vendorId": "0xFEAE",
   "productId": "0x8858",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_rgblight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_rgblight"],
   "matrix": {"rows": 4, "cols": 12},
   "layouts": {
     "keymap": [

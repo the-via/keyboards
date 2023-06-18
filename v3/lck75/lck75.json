@@ -2,9 +2,6 @@
   "name": "LCK75",
   "vendorId": "0x7856",
   "productId": "0x6163",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 6, "cols": 15},
   "layouts": {
     "keymap": [

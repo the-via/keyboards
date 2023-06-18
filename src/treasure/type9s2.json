@@ -3,7 +3,7 @@
   "vendorId": "0x5452",
   "productId": "0x5492",
   "lighting": "qmk_backlight",
-  "matrix": { "rows": 3, "cols": 3 },
+  "matrix": {"rows": 3, "cols": 3},
   "layouts": {
     "keymap": [
       ["0,0", "0,1", "0,2"],

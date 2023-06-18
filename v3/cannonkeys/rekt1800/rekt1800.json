@@ -2,9 +2,6 @@
   "name": "Rekt1800",
   "vendorId": "0xCA04",
   "productId": "0x2377",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 6, "cols": 19},
   "layouts": {
     "keymap": [
@@ -138,7 +135,7 @@
         "5,1",
         {"w": 1.25},
         "5,2",
-        {"c": "#cccccc", "a": 7, "w": 6.25},
+        {"c": "#cccccc", "w": 6.25},
         "5,6",
         {"c": "#aaaaaa", "w": 1.5},
         "5,10",

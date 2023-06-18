@@ -2,19 +2,14 @@
   "name": "Nyquist Rev. 3",
   "vendorId": "0xCB10",
   "productId": "0x3156",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_backlight",
-    "core/qmk_rgblight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_backlight_rgblight"],
   "matrix": {"rows": 10, "cols": 6},
   "layouts": {
-    "labels": [["Left Space", "1u", "2u"], ["Right Space", "1u", "2u"]],
+    "labels": [
+      ["Left Space", "1u", "2u"],
+      ["Right Space", "1u", "2u"]
+    ],
     "keymap": [
       [
         "0,0",

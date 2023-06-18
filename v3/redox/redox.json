@@ -2,19 +2,12 @@
   "name": "Redox",
   "vendorId": "0x4D44",
   "productId": "0x5244",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_rgblight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_rgblight"],
   "matrix": {"rows": 10, "cols": 7},
   "layouts": {
     "keymap": [
-      [{"x": 3.5, "a": 7}, "0,3", {"x": 10.5}, "5,3"],
+      [{"x": 3.5}, "0,3", {"x": 10.5}, "5,3"],
       [
         {"y": -0.875, "x": 2.5},
         "0,2",

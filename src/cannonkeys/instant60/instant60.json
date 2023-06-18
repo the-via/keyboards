@@ -5,9 +5,7 @@
   "lighting": "qmk_backlight_rgblight",
   "matrix": {"rows": 5, "cols": 15},
   "layouts": {
-    "labels": [
-      ["Layout", "ANSI", "Tsangan"]
-    ],
+    "labels": [["Layout", "ANSI", "Tsangan"]],
     "keymap": [
       [
         {

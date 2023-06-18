@@ -2,9 +2,6 @@
   "name": "Dharma",
   "vendorId": "0x5845",
   "productId": "0xDAAA",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 5, "cols": 18},
   "layouts": {
     "labels": [

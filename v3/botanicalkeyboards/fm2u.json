@@ -2,9 +2,6 @@
   "name": "FM2U 1 Key Macropad",
   "vendorId": "0x6969",
   "productId": "0x0001",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 1, "cols": 1},
   "layouts": {
     "labels": [

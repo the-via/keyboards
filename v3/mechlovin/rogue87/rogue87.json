@@ -2,9 +2,8 @@
   "name": "Rogue87",
   "vendorId": "0x4D4C",
   "productId": "0x8704",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_backlight"],
   "matrix": {"rows": 6, "cols": 17},
   "layouts": {
     "labels": ["Enter ISO", "Left Shift ISO"],

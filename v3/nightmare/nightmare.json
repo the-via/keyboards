@@ -2,9 +2,6 @@
   "name": "nightmare",
   "vendorId": "0x434B",
   "productId": "0x4E49",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 4, "cols": 14},
   "layouts": {
     "labels": [["Bottom row", "7u Spacebar", "Split spacebar"]],

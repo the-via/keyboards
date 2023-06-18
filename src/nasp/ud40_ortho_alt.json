@@ -3,10 +3,18 @@
   "vendorId": "0x7070",
   "productId": "0x7030",
   "lighting": "qmk_rgblight",
-  "matrix": { "rows": 4, "cols": 12 },
+  "matrix": {"rows": 4, "cols": 12},
   "layouts": {
     "labels": [
-        ["Bottom Row", "2x225u", "2x3u_3x1u", "2x3u_2x1.5u", "6OOu_3x1u", "600u_2x1.5u", "700u_2x1.5u"]
+      [
+        "Bottom Row",
+        "2x225u",
+        "2x3u_3x1u",
+        "2x3u_2x1.5u",
+        "6OOu_3x1u",
+        "600u_2x1.5u",
+        "700u_2x1.5u"
+      ]
     ],
     "keymap": [
       [

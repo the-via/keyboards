@@ -5,11 +5,8 @@
   "lighting": "qmk_backlight_rgblight",
   "matrix": {"rows": 5, "cols": 12},
   "layouts": {
-    "labels": [
-      "1u spacebar"
-    ],
-    "keymap":
-    [
+    "labels": ["1u spacebar"],
+    "keymap": [
       [
         "0,0",
         "0,1",

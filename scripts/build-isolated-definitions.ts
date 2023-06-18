@@ -1,56 +1,101 @@
 import glob from 'glob';
-import fs from 'fs';
+import fs from 'fs-extra';
 import {
   KeyboardDefinitionV2,
   KeyboardDefinitionV3,
   VIADefinitionV2,
   VIADefinitionV3,
   DefinitionVersion,
-} from 'via-reader';
-import {ValidateFunction} from 'via-reader/dist/validated-types/via-definition-v3.validator';
-
+} from '@the-via/reader';
+import {getDefinitionsPath, getOutputPath, getRelativePath} from './get-path';
+import {hashJSON} from './hash-json';
+import {ErrorLogger} from './error-log';
 /**
  * Builds keyboard definitions into separate valid VIA definitions
  * @param {DefinitionVersion} version definition version
  * @param {(definition: TInput) => TOutput} mapper keyboard-to-via definition mapper
- * @param {ValidateFunction<TOutput>} validator via definition validator
  * @returns {number[]} vendorProductIds for all valid built definitions
  * */
+
+type ConvertedDefinition<T> = {
+  viaDefinition: T;
+  path: string;
+};
+
 export const buildIsolatedDefinitions = async <
   TInput extends KeyboardDefinitionV2 | KeyboardDefinitionV3,
   TOutput extends VIADefinitionV2 | VIADefinitionV3
 >(
   version: DefinitionVersion,
   mapper: (definition: TInput) => TOutput,
-  validator: ValidateFunction<TOutput>
-): Promise<number[]> => {
-  const outputPath = `dist/${version}`;
+  logger: ErrorLogger
+): Promise<[string, number[], ConvertedDefinition<TOutput>[]]> => {
+  const outputPath = `${getOutputPath()}/${version}`;
+  const definitionsPath = getDefinitionsPath(version);
+  const paths = glob.sync(definitionsPath, {absolute: true});
+  const definitions = paths.map((f) => ({
+    keyboardDefinition: require(f) as TInput,
+    path: getRelativePath(f),
+  }));
 
-  const globPath = version === 'v2' ? 'src/**/*.json' : `${version}/**/*.json`;
-  const paths = glob.sync(globPath, {absolute: true});
-  const definitions: TInput[] = paths.map((f) => require(f));
+  const isValidConvertedDefinition = (
+    def: ConvertedDefinition<TOutput> | undefined
+  ): def is ConvertedDefinition<TOutput> => !!def;
 
   // Map KeyboardDefinition to VIADefintion and valiate. Don't write invalid definitions.
-  const validVIADefinitions = definitions.map(mapper).filter((definition) => {
-    if (!validator(definition)) {
-      // TODO: Replace warn with new Error() after all definitions are working
-      console.warn(
-        `WARN: ${version} definition invalid: ${(<any>definition).name}`
-      );
-      return false;
-    }
-    return true;
-  });
+  const validVIADefinitions = definitions
+    .map(({keyboardDefinition, path}) => {
+      try {
+        const viaDefinition = mapper(keyboardDefinition);
+        return {viaDefinition, path};
+      } catch (error) {
+        logger.logError(
+          new Error(`${version} definition invalid: ${path}\n` + error)
+        );
+      }
+    })
+    .filter(isValidConvertedDefinition);
 
-  if (!fs.existsSync(outputPath)) {
-    fs.mkdirSync(outputPath);
+  const IDsToPaths = validVIADefinitions.reduce((p, {viaDefinition, path}) => {
+    const id = viaDefinition.vendorProductId;
+    if (id in p) {
+      p[id] = [...p[id], path];
+      return {...p};
+    } else {
+      return {...p, [id]: [path]};
+    }
+  }, {} as any);
+
+  Object.keys(IDsToPaths)
+    .filter((key) => IDsToPaths[key].length > 1)
+    .map((key) => {
+      const vendorID = (parseInt(key) >> 16).toString(16).padStart(4, '0');
+      const productID = (parseInt(key) & 0xffff).toString(16).padStart(4, '0');
+      logger.logError(
+        new Error(`Duplicate ID vendorId=0x${vendorID} productId=0x${productID} in:
+      ${IDsToPaths[key].join(',\n')}`)
+      );
+    });
+
+  if (!(await fs.exists(getOutputPath()))) {
+    await fs.mkdir(getOutputPath());
+  }
+  if (!(await fs.exists(outputPath))) {
+    await fs.mkdir(outputPath);
   }
 
-  return validVIADefinitions.map((definition) => {
-    fs.writeFileSync(
-      `${outputPath}/${definition.vendorProductId}.json`,
-      JSON.stringify(definition)
-    );
-    return definition.vendorProductId;
-  });
+  const jsonHash = hashJSON(validVIADefinitions);
+  const validIds: number[] = [];
+  await Promise.all(
+    validVIADefinitions.map(async ({viaDefinition}) => {
+      if (viaDefinition != undefined) {
+        await fs.writeFile(
+          `${outputPath}/${viaDefinition.vendorProductId}.json`,
+          JSON.stringify(viaDefinition)
+        );
+        validIds.push(viaDefinition.vendorProductId);
+      }
+    })
+  );
+  return [jsonHash, validIds.sort(), validVIADefinitions];
 };

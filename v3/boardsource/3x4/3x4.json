@@ -2,9 +2,6 @@
   "name": "3x4",
   "vendorId": "0x4273",
   "productId": "0x0304",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 3, "cols": 4},
   "layouts": {
     "keymap": [

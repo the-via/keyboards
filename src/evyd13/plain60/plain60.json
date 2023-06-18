@@ -9,21 +9,11 @@
   },
   "layouts": {
     "labels": [
-      [
-        "Enter Key",
-        "ANSI",
-        "ISO"
-      ],
+      ["Enter Key", "ANSI", "ISO"],
       "Split Left Shift",
       "Split Right Shift",
       "Split Backspace",
-      [
-        "Bottom row",
-        "Default",
-        "Tsangan",
-        "WKL",
-        "HHKB"
-      ]
+      ["Bottom row", "Default", "Tsangan", "WKL", "HHKB"]
     ],
     "keymap": [
       [

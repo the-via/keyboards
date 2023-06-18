@@ -2,13 +2,10 @@
   "name": "Redox-W",
   "vendorId": "0x4D44",
   "productId": "0x5257",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 5, "cols": 14},
   "layouts": {
     "keymap": [
-      [{"x": 3.5, "a": 7}, "0,3", {"x": 10.5}, "0,10"],
+      [{"x": 3.5}, "0,3", {"x": 10.5}, "0,10"],
       [
         {"y": -0.875, "x": 2.5},
         "0,2",

@@ -1,9 +1,9 @@
 {
   "name": "Mechanical Keyboards, LLC MK61-RGB-ANSI",
-  "vendorId": "0x7074", 
+  "vendorId": "0x7074",
   "productId": "0x1011",
   "lighting": "qmk_rgblight",
-  "matrix": { "rows": 5, "cols": 14 },
+  "matrix": {"rows": 5, "cols": 14},
   "layouts": {
     "keymap": [
       [

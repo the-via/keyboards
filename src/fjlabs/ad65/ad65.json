@@ -1,9 +1,9 @@
 {
   "name": "Absolute Designs 65",
-  "vendorId": "0x7074", 
+  "vendorId": "0x7074",
   "productId": "0x0010",
   "lighting": "none",
-  "matrix": { "rows": 5, "cols": 15 },
+  "matrix": {"rows": 5, "cols": 15},
   "layouts": {
     "keymap": [
       [
@@ -117,7 +117,7 @@
           "x": 0.25,
           "c": "#cccccc"
         },
-        "2,13\n\n\n1,1"
+        "2,12\n\n\n1,1"
       ],
       [
         {

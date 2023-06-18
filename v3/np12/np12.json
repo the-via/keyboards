@@ -2,9 +2,6 @@
   "name": "np12",
   "vendorId": "0xA4A4",
   "productId": "0x4401",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 4, "cols": 5},
   "layouts": {
     "keymap": [

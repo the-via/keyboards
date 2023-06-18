@@ -2,16 +2,8 @@
   "name": "h75 - Singa V3",
   "vendorId": "0x04D8",
   "productId": "0xEC9A",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_backlight",
-    "core/qmk_rgblight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_backlight_rgblight"],
   "matrix": {"rows": 6, "cols": 16},
   "layouts": {
     "labels": [

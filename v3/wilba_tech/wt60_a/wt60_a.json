@@ -2,14 +2,72 @@
   "name": "wilba.tech WT60-A",
   "vendorId": "0x6582",
   "productId": "0x060a",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/wt_lighting"],
+  "customKeycodes": [
+    {"name": "Bright +", "title": "Brightness +", "shortName": "BR +"},
+    {"name": "Bright -", "title": "Brightness -", "shortName": "BR -"},
+    {"name": "Effect +", "title": "Effect +", "shortName": "EF +"},
+    {"name": "Effect -", "title": "Effect -", "shortName": "EF -"},
+    {"name": "Effect Speed +", "title": "Effect Speed +", "shortName": "ES +"},
+    {"name": "Effect Speed -", "title": "Effect Speed -", "shortName": "ES -"},
+    {"name": "Color1 Hue +", "title": "Color1 Hue +", "shortName": "H1 +"},
+    {"name": "Color1 Hue -", "title": "Color1 Hue -", "shortName": "H1 -"},
+    {"name": "Color2 Hue +", "title": "Color2 Hue +", "shortName": "H2 +"},
+    {"name": "Color2 Hue -", "title": "Color2 Hue -", "shortName": "H2 -"},
+    {"name": "Color1 Sat +", "title": "Color1 Sat +", "shortName": "S1 +"},
+    {"name": "Color1 Sat -", "title": "Color1 Sat -", "shortName": "S1 -"},
+    {"name": "Color2 Sat +", "title": "Color2 Sat +", "shortName": "S2 +"},
+    {"name": "Color2 Sat -", "title": "Color2 Sat -", "shortName": "S2 -"}
+  ],
   "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "!!!WILBA!!!"
+    {
+      "label": "Lighting",
+      "content": [
+        {
+          "label": "General",
+          "content": [
+            {
+              "label": "Brightness",
+              "type": "range",
+              "content": ["id_brightness", 0, 9],
+              "options": [0, 255]
+            },
+            {
+              "label": "Effect",
+              "type": "dropdown",
+              "options": [
+                ["All Off", 0],
+                ["All On", 1],
+                ["Raindrops", 2]
+              ],
+              "content": ["id_effect", 0, 10]
+            },
+            {
+              "label": "Effect Speed",
+              "type": "range",
+              "options": [0, 3],
+              "content": ["id_effect_speed", 0, 11]
+            }
+          ]
+        },
+        {
+          "label": "Advanced",
+          "content": [
+            {
+              "label": "Disable backlight when USB is suspended",
+              "type": "toggle",
+              "content": ["id_disable_when_usb_suspended", 0, 7]
+            },
+            {
+              "label": "Disable backlight after timeout",
+              "type": "range",
+              "options": [0, 255],
+              "unit": "mins",
+              "content": ["id_disable_after_timeout", 0, 8]
+            }
+          ]
+        }
+      ]
+    }
   ],
   "matrix": {"rows": 5, "cols": 14},
   "layouts": {
