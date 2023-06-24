@@ -4,65 +4,21 @@
   "productId": "0x0523",
   "keycodes": ["qmk_lighting"],
   "customKeycodes": [
-    {
-      "name": "Mission Control",
-      "title": "Mission Control in macOS",
-      "shortName": "MCtrl"
-    },
-    {
-      "name": "Launch Pad",
-      "title": "Launch Pad in macOS",
-      "shortName": "LPad"
-    },
-    {
-      "name": "Left Option",
-      "title": "Left Option in macOS",
-      "shortName": "LOpt"
-    },
-    {
-      "name": "Right Option",
-      "title": "Right Option in macOS",
-      "shortName": "ROpt"
-    },
-    {
-      "name": "Left Cmd",
-      "title": "Left Command in macOS",
-      "shortName": "LCmd"
-    },
-    {
-      "name": "Right Cmd",
-      "title": "Right Command in macOS",
-      "shortName": "RCmd"
-    },
-    {
-      "name": "Siri",
-      "title": "Siri in macOS",
-      "shortName": "Siri"
-    },
-    {
-      "name": "Task View",
-      "title": "Task View in windows",
-      "shortName": "Task"
-    },
-    {
-      "name": "File Explorer",
-      "title": "File Explorer in windows",
-      "shortName": "File"
-    },
-    {
-      "name": "Screen Shot",
-      "title": "Screenshot in macOS",
-      "shortName": "SShot"
-    },
-    {
-      "name": "Cortana",
-      "title": "Cortana in windows",
-      "shortName": "Cortana"
-    }
+    {"name": "Mission Control","title": "Mission Control in macOS","shortName": "MCtrl"},
+    {"name": "Launch Pad","title": "Launch Pad in macOS","shortName": "LPad"},
+    {"name": "Left Option","title": "Left Option in macOS","shortName": "LOpt"},
+    {"name": "Right Option","title": "Right Option in macOS","shortName": "ROpt"},
+    {"name": "Left Cmd","title": "Left Command in macOS","shortName": "LCmd"},
+    {"name": "Right Cmd","title": "Right Command in macOS","shortName": "RCmd"},
+    {"name": "Siri","title": "Siri in macOS","shortName": "Siri"},
+    {"name": "Task View","title": "Task View in windows","shortName": "Task"},
+    {"name": "File Explorer","title": "File Explorer in windows","shortName": "File"},
+    {"name": "Screen Shot","title": "Screenshot in macOS","shortName": "SShot"},
+    {"name": "Cortana","title": "Cortana in windows","shortName": "Cortana"}
   ],
   "matrix": {"rows": 6, "cols": 20},
   "layouts": {
-    "keymap":[
+    "keymap": [
       [
         {
           "c": "#777777"
@@ -137,8 +93,8 @@
         },
         "1,17",
         "1,18",
-        "0,17",
-        "0,18"
+        "1,19",
+        "0,17"
       ],
       [
         {
@@ -178,11 +134,11 @@
         },
         "2,17",
         "2,18",
-        "3,14",
+        "2,19",
         {
           "h": 2
         },
-        "3,15"
+        "0,18"
       ],
       [
         {
@@ -215,7 +171,7 @@
         },
         "3,17",
         "3,18",
-        "3,16"
+        "3,19"
       ],
       [
         {
@@ -252,11 +208,11 @@
         },
         "4,17",
         "4,18",
-        "4,14",
+        "4,19",
         {
           "h": 2
         },
-        "4,16"
+        "0,19"
       ],
       [
         {
@@ -307,7 +263,7 @@
           "w": 2
         },
         "5,17",
-        "5,18"
+        "5,19"
       ]
     ]
   }
