@@ -1,5 +1,5 @@
 {
-  "name": "it9",
+  "name": "itstleo9",
   "vendorId": "0x4954",
   "productId": "0x0001",
   "matrix": {
@@ -9,6 +9,9 @@
   "layouts": {
     "keymap": [
       [
+        {
+          "c": "#000000"
+        },
         "0,0",
         "0,1",
         "0,2"
