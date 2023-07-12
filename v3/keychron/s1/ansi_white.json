@@ -5,12 +5,6 @@
   "keycodes" : ["qmk_lighting"],
   "customKeycodes": [
     {
-      "name": "Mission Control",
-      "title": "Mission Control in macOS",
-      "shortName": "MCtrl"
-    },
-    {"name": "Launch Pad", "title": "Launch Pad in macOS", "shortName": "LPad"},
-    {
       "name": "Left Option",
       "title": "Left Option in macOS",
       "shortName": "LOpt"
