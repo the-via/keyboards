@@ -2,6 +2,8 @@
   "name": "GMMK Pro",
   "vendorId": "0x320F",
   "productId": "0x5044",
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_rgb_matrix"],
   "matrix": {"rows": 11, "cols": 8},
   "layouts": {
     "labels": ["ISO Enter", "Split Left Shift"],

@@ -140,16 +140,6 @@
               "content": ["id_qmk_rgb_matrix_color", 3, 4]
             }
           ]
-        },
-        {
-          "label": "Indicators",
-          "content": [
-            {
-              "label": "Brightness",
-              "type": "toggle",
-              "content": ["id_wl_indicators", 0, 1]
-            }
-          ]
         }
       ]
     }
