@@ -5,7 +5,7 @@
   "lighting": "none",
   "matrix": {"rows": 5, "cols": 7},
   "layouts": {
-    "labels":[
+    "labels": [
       ["0", "2u", "2x 1u"],
       ["Enter", "2u", "2x 1u"],
       ["+", "2u", "2x 1u"]

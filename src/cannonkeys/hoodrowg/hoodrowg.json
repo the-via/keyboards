@@ -5,9 +5,7 @@
   "lighting": "qmk_rgblight",
   "matrix": {"rows": 12, "cols": 9},
   "layouts": {
-    "labels": [
-      ["Layout", "ANSI", "ISO"]
-    ],
+    "labels": [["Layout", "ANSI", "ISO"]],
     "keymap": [
       [
         {

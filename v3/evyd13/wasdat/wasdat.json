@@ -4,7 +4,10 @@
   "productId": "0xC474",
   "matrix": {"rows": 8, "cols": 16},
   "layouts": {
-    "labels": [["Layout", "ANSI", "ISO"], ["Size", "Full", "TKL"]],
+    "labels": [
+      ["Layout", "ANSI", "ISO"],
+      ["Size", "Full", "TKL"]
+    ],
     "keymap": [
       [
         {"c": "#777777"},

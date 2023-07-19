@@ -8,10 +8,7 @@
     "cols": 8
   },
   "layouts": {
-    "labels": [
-      "ISO Enter",
-      "Split Left Shift"
-    ],
+    "labels": ["ISO Enter", "Split Left Shift"],
     "keymap": [
       [
         {
@@ -46,7 +43,11 @@
         {
           "x": 0.25
         },
-        "9,7"
+        "9,7",
+        {
+          "x": 0.5
+        },
+        "0,1\n\n\n\n\n\n\n\n\ne0"
       ],
       [
         {

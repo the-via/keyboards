@@ -3,7 +3,7 @@
   "vendorId": "0x4853",
   "productId": "0x980C",
   "lighting": "none",
-  "matrix": { "rows": 8, "cols": 16 },
+  "matrix": {"rows": 8, "cols": 16},
   "layouts": {
     "keymap": [
       [

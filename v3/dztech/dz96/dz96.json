@@ -3,7 +3,7 @@
   "vendorId": "0x445A",
   "productId": "0xDB96",
   "keycodes": ["qmk_lighting"],
-  "menus": ["qmk_backlight"],
+  "menus": ["qmk_backlight_rgblight"],
   "matrix": {"rows": 8, "cols": 13},
   "layouts": {
     "labels": [

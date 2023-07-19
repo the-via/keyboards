@@ -2,9 +2,8 @@
   "name": "Mechbrewery MB-65S",
   "vendorId": "0x4252",
   "productId": "0x3635",
-  "firmwareVersion": 0,
   "lighting": "none",
-  "matrix": { "rows": 5, "cols": 16 },
+  "matrix": {"rows": 5, "cols": 16},
   "layouts": {
     "labels": [
       ["Backspace", "Default", "Split"],
@@ -68,7 +67,7 @@
         "2,13\n\n\n1,1"
       ],
       [
-        {"x": 3, "c": "#aaaaaa","w": 1.75},
+        {"x": 3, "c": "#aaaaaa", "w": 1.75},
         "2,0",
         {"c": "#cccccc"},
         "2,2",
@@ -144,7 +143,8 @@
       ],
       [
         {
-          "y": 0.25, "x": 3,
+          "y": 0.25,
+          "x": 3,
           "w": 1.5
         },
         "4,0\n\n\n3,1",
@@ -159,7 +159,8 @@
         },
         "4,6\n\n\n3,1",
         {
-          "w": 1.5, "c": "#aaaaaa"
+          "w": 1.5,
+          "c": "#aaaaaa"
         },
         "4,11\n\n\n3,1"
       ]

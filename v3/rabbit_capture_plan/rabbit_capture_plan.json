@@ -6,7 +6,10 @@
   "menus": ["qmk_rgblight"],
   "matrix": {"rows": 10, "cols": 8},
   "layouts": {
-    "labels": [["Enter", "ISO", "ANSI"], ["Right Shift", "Unified", "Split"]],
+    "labels": [
+      ["Enter", "ISO", "ANSI"],
+      ["Right Shift", "Unified", "Split"]
+    ],
     "keymap": [
       [
         {"y": 1.45, "x": 0.66, "c": "#777777"},

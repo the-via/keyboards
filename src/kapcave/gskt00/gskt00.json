@@ -3,28 +3,17 @@
   "vendorId": "0x4B43",
   "productId": "0x6061",
   "lighting": "none",
-  "matrix": { "rows": 8, "cols": 8 },
+  "matrix": {"rows": 8, "cols": 8},
   "layouts": {
-    "labels":[
-        "Split Backspace",
-        "Stepped CapsLock",
-        "Split Left Shift",
-        "Split Right Shift",
-        [
-          "Enter",
-          "ANSI Enter",
-          "ISO Enter",
-          "BAE"
-      ],
-      [
-        "Bottom Row",
-        "7U Standard",
-        "AEK Standard",
-        "WKL",
-        "HHKB"
-      ]
+    "labels": [
+      "Split Backspace",
+      "Stepped CapsLock",
+      "Split Left Shift",
+      "Split Right Shift",
+      ["Enter", "ANSI Enter", "ISO Enter", "BAE"],
+      ["Bottom Row", "7U Standard", "AEK Standard", "WKL", "HHKB"]
     ],
-    "keymap":[
+    "keymap": [
       [
         {
           "x": 3,

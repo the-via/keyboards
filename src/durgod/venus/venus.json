@@ -3,7 +3,7 @@
   "vendorId": "0xD60D",
   "productId": "0x7EC5",
   "lighting": {
-    "extends":"qmk_rgblight",
+    "extends": "qmk_rgblight",
     "underglowEffects": [
       ["None", 0],
       ["SOLID_COLOR", 1],
@@ -45,14 +45,14 @@
       ["SOLID_SPLASH", 1],
       ["SOLID_MULTISPLASH", 1]
     ],
-    "supportedLightingValues": [
-      128,
-      129,
-      131
-    ]
+    "supportedLightingValues": [128, 129, 131]
   },
   "customKeycodes": [
-      {"name": "Toggle WinKey Lock", "title": "Toggle WinKey Lock", "shortName": "WinLock"}
+    {
+      "name": "Toggle WinKey Lock",
+      "title": "Toggle WinKey Lock",
+      "shortName": "WinLock"
+    }
   ],
   "matrix": {
     "rows": 5,
