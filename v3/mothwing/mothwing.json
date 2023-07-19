@@ -3,13 +3,6 @@
   "vendorId": "0x4D77",
   "productId": "0x0001",
   "matrix": {"rows": 8, "cols": 6},
-  "customKeycodes": [
-    {
-      "name": "Zenkaku/Hankaku",
-      "title": "Toggle Zenkaku Hankaku",
-      "shortName": "ZenHan"
-    }
-  ],
   "layouts": {
     "labels": [],
     "keymap": [
