@@ -64,7 +64,7 @@
         ]
       }
   ],
-    "matrix": {"rows": 6, "cols": 14},
+    "matrix": {"rows": 5, "cols": 14},
     "layouts": {
       "labels": [
         "Split_space+Encoder"
