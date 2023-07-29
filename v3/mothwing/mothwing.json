@@ -4,7 +4,6 @@
   "productId": "0x0001",
   "matrix": {"rows": 8, "cols": 6},
   "layouts": {
-    "labels": [],
     "keymap": [
       [
         "0,0",
