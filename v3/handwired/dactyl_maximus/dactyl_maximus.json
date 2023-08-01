@@ -1,7 +1,7 @@
 {
   "name": "Dactyl Maximus",
-  "vendorId": "0x444D",
-  "productId": "0x3536",
+  "vendorId": "0x444C",
+  "productId": "0xA57B",
   "matrix": {"rows": 12, "cols": 7},
   "layouts": {
     "keymap": [
