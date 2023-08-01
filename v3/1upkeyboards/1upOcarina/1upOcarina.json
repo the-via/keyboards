@@ -1,0 +1,118 @@
+{
+  "name": "1upocarina",
+  "vendorId": "0x6F75",
+  "productId": "0x5607",
+  "matrix": {"rows": 1, "cols": 5},
+  "keycodes": ["qmk_lighting"],
+  "menus": [
+    {
+      "label": "Lighting",
+      "content": [
+        {
+          "label": "Backlight",
+          "content": [
+            {
+              "label": "Brightness",
+              "type": "range",
+              "options": [0, 255],
+              "content": ["id_qmk_rgb_matrix_brightness", 3, 1]
+            },
+            {
+              "label": "Effect",
+              "type": "dropdown",
+              "content": ["id_qmk_rgb_matrix_effect", 3, 2],
+              "options": [
+                "All Off",
+                "Solid Color",
+                "Gradient Left/Right",
+                "Breathing",
+                "Band Sat.",
+                "Band Val.",
+                "Pinwheel Sat.",
+                "Pinwheel Val.",
+                "Spiral Sat.",
+                "Spiral Val.",
+                "Cycle All",
+                "Cycle Left/Right",
+                "Cycle Up/Down",
+                "Rainbow Moving Chevron",
+                "Cycle Out/In",
+                "Cycle Out/In Dual",
+                "Cycle Pinwheel",
+                "Cycle Spiral",
+                "Dual Beacon",
+                "Rainbow Beacon",
+                "Rainbow Pinwheels",
+                "Raindrops",
+                "Jellybean Raindrops",
+                "Hue Breathing",
+                "Hue Pendulum",
+                "Hue Wave",
+                "Heatmap",
+                "Solid Reactive Simple",
+                "Solid Reactive",
+                "Solid Reactive Wide",
+                "Solid Reactive Multiwide",
+                "Solid Reactive Cross",
+                "Solid Reactive Multicross",
+                "Solid Reactive Nexus",
+                "Solid Reactive Multinexus",
+                "Splash",
+                "Multisplash",
+                "Solid Splash",
+                "Solid Multisplash"
+              ]
+            },
+            {
+              "showIf": "{id_qmk_rgb_matrix_effect} != 0 && {id_qmk_rgb_matrix_effect} != 1 && {id_qmk_rgb_matrix_effect} != 2",
+              "label": "Effect Speed",
+              "type": "range",
+              "options": [0, 255],
+              "content": ["id_qmk_rgb_matrix_effect_speed", 3, 3]
+            },
+            {
+              "showIf": "{id_qmk_rgb_matrix_effect} == 2",
+              "label": "Gradient Range",
+              "type": "range",
+              "options": [0, 255],
+              "content": ["id_qmk_rgb_matrix_effect_speed", 3, 3]
+            },
+            {
+              "showIf": "{id_qmk_rgb_matrix_effect} != 0 && {id_qmk_rgb_matrix_effect} != 23 && {id_qmk_rgb_matrix_effect} != 27 && {id_qmk_rgb_matrix_effect} != 28",
+              "label": "Color",
+              "type": "color",
+              "content": ["id_qmk_rgb_matrix_color", 3, 4]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "layouts": {
+    "labels": [
+      "Encoder"
+    ],
+    "keymap": [
+      [
+        "0,0",
+        "0,1",
+        {
+          "x": 1.5
+        },
+        "0,3",
+        "0,4"
+      ],
+      [
+        {
+          "y": -0.75,
+          "x": 2.25
+        },
+        "0,2\n\n\n0,0",
+        {
+          "x": 2.5
+        },
+        "0,2\n\n\n0,1\n\n\n\n\n\ne0"
+      ]
+    ]
+  }
+}
