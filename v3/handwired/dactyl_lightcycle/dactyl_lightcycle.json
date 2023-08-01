@@ -1,7 +1,7 @@
 {
   "name": "Dactyl Lightcycle",
-  "vendorId": "0x444D",
-  "productId": "0x3060",
+  "vendorId": "0x444C",
+  "productId": "0xA460",
   "matrix": {"rows": 10, "cols": 6},
   "layouts": {
     "keymap": [
