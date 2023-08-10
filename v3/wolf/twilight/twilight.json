@@ -266,7 +266,7 @@
             "Split Backspace",
             "Split Left Shift",
             "Split Right Shift",
-            ["Bottom Row", "6.25U", "7U"]
+            ["Bottom Row", "7U", "6.25U"]
         ]
     }
 }
