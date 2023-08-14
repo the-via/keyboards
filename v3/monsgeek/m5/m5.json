@@ -61,9 +61,6 @@
       }
     ],
     "matrix": { "rows": 6, "cols": 21 },
-    "customKeycodes":[
-      {"name":"RESET","title":"RESET EEPROM","shortName":"RESET"}
-    ],
     "layouts": {
       "keymap":[
         [
