@@ -1,5 +1,5 @@
 {
-    "name": "MonsGeek Keyboard",
+    "name": "M5",
     "vendorId": "0xFFFE",
     "productId": "0x000A",
     "keycodes": ["qmk_lighting"],
