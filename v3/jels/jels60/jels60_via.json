@@ -2,6 +2,12 @@
   "name": "Jels60",
   "vendorId": "0x006A",
   "productId": "0x0060",
+  "keycodes": [
+    "qmk_lighting"
+  ],
+  "menus":[
+    "qmk_rgblight"
+  ],
   "matrix": {"rows": 5, "cols": 14},
   "layouts": {
     "labels": [
