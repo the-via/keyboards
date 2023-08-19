@@ -31,14 +31,15 @@
                   ["CYCLE_OUT_IN", 7],
                   ["CYCLE_OUT_IN_DUAL", 8],
                   ["CYCLE_PINWHEEL", 9],
-                  ["CYCKE_SPIRAL", 10],
+                  ["CYCLE_SPIRAL", 10],
                   ["DUAL_BEACON", 11],
                   ["RAINBOW_BEACON", 12],
                   ["RAINDROPS", 13],
                   ["TYPING_HEATMAP", 14],
                   ["SOLID_REACTIVE_SIMPLE", 15],
                   ["SOLID_REACTIVE", 16],
-                  ["MATRIX_MULTISPLASH", 17]
+                  ["SOLID_REACTIVE_CROSS", 17],
+                  ["MATRIX_MULTISPLASH", 18]
                 ]
               },
               {
