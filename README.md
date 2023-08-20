@@ -1,2 +1,2 @@
 # VIA Keyboards
-![Definitions](https://github.com/the-via/keyboards/actions/workflows/yarn.yml/badge.svg)
+![Definitions](https://github.com/the-via/keyboards/actions/workflows/build.yml/badge.svg)
