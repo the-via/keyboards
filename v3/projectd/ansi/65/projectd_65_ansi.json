@@ -3,70 +3,7 @@
   "vendorId": "0x3233",
   "productId": "0x5319",
   "keycodes": ["qmk_lighting"],
-  "menus": [
-    {
-      "label": "Lighting",
-      "content": [
-        {
-          "label": "Lighting Effect",
-          "content": [
-            {
-              "label": "Brightness",
-              "type": "range",
-              "options": [0, 255],
-              "content": ["id_qmk_rgb_matrix_brightness", 3, 1]
-            },
-            {
-              "label": "Effect",
-              "type": "dropdown",
-              "content": ["id_qmk_rgb_matrix_effect", 3, 2],
-              "options": [
-                ["LED Off", 0],
-                ["SOLID_COLOR", 1],
-                ["ALPHAS_MODS", 2],
-                ["GRADIENT_UP_DOWN", 3],
-                ["GRADIENT_LEFT_RIGHT", 4],
-                ["BREATHING", 5],
-                ["BAND_SAT", 6],
-                ["BAND_VAL", 7],
-                ["BAND_PINWHEEL_SAT", 8],
-                ["BAND_PINWHEEL_VAL", 9],
-                ["BAND_SPIRAL_SAT", 10],
-                ["BAND_SPIRAL_VAL", 11],
-                ["CYCLE_ALL", 12],
-                ["CYCLE_LEFT_RIGHT", 13],
-                ["CYCLE_UP_DOWN", 14],
-                ["RAINBOW_MOVING_CHEVRON", 15],
-                ["CYCLE_OUT_IN", 16],
-                ["CYCLE_OUT_IN_DUAL", 17],
-                ["CYCLE_PINWHEEL", 18],
-                ["CYCLE_SPIRAL", 19],
-                ["DUAL_BEACON", 20],
-                ["RAINBOW_BEACON", 21],
-                ["RAINDROPS", 23],
-                ["JELLYBEAN_RAINDROPS", 24],
-                ["HUE_BREATHING", 25]
-              ]
-            },
-            {
-              "showIf": "{id_qmk_rgb_matrix_effect} != 0",
-              "label": "Effect Speed",
-              "type": "range",
-              "options": [0, 255],
-              "content": ["id_qmk_rgb_matrix_effect_speed", 3, 3]
-            },
-            {
-              "showIf": "{id_qmk_rgb_matrix_effect} != 0 && {id_qmk_rgb_matrix_effect} != 24 && {id_qmk_rgb_matrix_effect} != 28 && {id_qmk_rgb_matrix_effect} != 29 && {id_qmk_rgb_matrix_effect} != 32",
-              "label": "Color",
-              "type": "color",
-              "content": ["id_qmk_rgb_matrix_color", 3, 4]
-            }
-          ]
-        }
-      ]
-    }
-  ],
-
+  "menus": ["qmk_rgb_matrix"],
   "matrix": {"rows": 9, "cols": 8},
   "layouts": {
         "keymap": [
@@ -136,7 +73,7 @@
           "8,2",
           "8,3",
           {
-            "c": "#777777",
+          	"c": "#777777",
             "w": 2.25
           },
           "8,4",
@@ -195,7 +132,7 @@
           },
           "3,6",
           {
-            "c": "#cccccc",
+          	"c": "#cccccc",
             "w": 1.25
           },
           "3,3",
