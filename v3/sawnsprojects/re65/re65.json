@@ -1,10 +1,10 @@
 {
   "name": "RE65",
   "vendorId": "0x5350",
-  "productId": "0x5388",
+  "productId": "0x0C65",
   "matrix": {
-    "rows": 6,
-    "cols": 17
+    "rows": 5,
+    "cols": 15
   },
   "layouts": {
     "labels": [
