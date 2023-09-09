@@ -20,8 +20,8 @@
                 "label": "Effect",
                 "type": "dropdown",
                 "content": ["id_qmk_rgb_matrix_effect", 3, 2],
-                "options": [
-                 "0-All Off",
+               "options": [
+                "0-All Off",
                 "1-solid_color",
                 "2-breathing",
                 "3-band_spiral_val",
@@ -34,18 +34,16 @@
                 "10-cycle_pinwheel",
                 "11-cycle_spiral",
                 "12-dual_beacom",
-                "13-rainbow_beacon",
-                "14-rainbow_pinwheels",
-                "15-raindrops",
-                "16-jellybean_raindrops",
-                "17-pixel_rain",
-                "18-typing_heatmap",
-                "19-digital_rain",
-                "20-solid_reactive_simple",
-                "21-solid_reactive_multiwide",
-                "22-solid_reactive_multinexus",
-                "23-splash",
-                "24-solid_splash"
+                "13-raindrops",
+                "14-jellybean_raindrops",
+                "15-pixel_rain",
+                "16-typing_heatmap",
+                "17-digital_rain",
+                "18-solid_reactive_simple",
+                "19-solid_reactive_multiwide",
+                "20-solid_reactive_multinexus",
+                "21-splash",
+                "22-solid_splash"
                 ]
               },
               {
