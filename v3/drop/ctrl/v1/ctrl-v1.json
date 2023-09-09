@@ -1,5 +1,5 @@
 {
-  "name": "Drop CTRL",
+  "name": "Drop CTRL V1",
   "vendorId": "0x04D8",
   "productId": "0xEED2",
   "keycodes": ["qmk_lighting"],

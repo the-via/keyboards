@@ -1,5 +1,5 @@
 {
-  "name": "Drop ALT",
+  "name": "Drop ALT V1",
   "vendorId": "0x04D8",
   "productId": "0xEED3",
   "matrix": {"rows": 5, "cols": 15},
