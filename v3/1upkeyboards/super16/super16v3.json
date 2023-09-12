@@ -2,6 +2,7 @@
     "name": "Super16 V3",
     "vendorId": "0x6F75",
     "productId": "0x5610",
+    "keycodes": ["qmk_lighting"],
     "menus": [
         {
             "label": "Lighting",
