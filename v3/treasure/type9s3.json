@@ -1,0 +1,31 @@
+{
+    "name": "Treasure TYPE-9 Series III",
+    "vendorId": "0x5452",
+    "productId": "0x5493",
+    "keycodes": ["qmk_lighting"],
+    "menus": ["qmk_rgb_matrix" ],
+    "matrix": {
+      "rows": 3,
+      "cols": 3
+    },
+    "layouts": {
+      "labels": [],
+      "keymap": [
+        [
+          "0,0",
+          "0,1",
+          "0,2"
+        ],
+        [
+          "1,0",
+          "1,1",
+          "1,2"
+        ],
+        [
+          "2,0",
+          "2,1",
+          "2,2"
+        ]
+      ]
+    }
+  }
