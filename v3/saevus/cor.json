@@ -127,6 +127,9 @@
         "4,12\n\n\n1,1"
       ]
     ],
-    "labels": [["Backspace", "Full", "Split"], ["Bottom Row", "6.25u", "7u"]]
+    "labels": [
+      ["Backspace", "Full", "Split"],
+      ["Bottom Row", "6.25u", "7u"]
+    ]
   }
 }

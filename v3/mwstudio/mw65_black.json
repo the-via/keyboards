@@ -6,7 +6,10 @@
   "menus": ["qmk_rgblight"],
   "matrix": {"rows": 5, "cols": 15},
   "layouts": {
-    "labels": [["enter", "default", "iso"], ["space", "default", "7U"]],
+    "labels": [
+      ["enter", "default", "iso"],
+      ["space", "default", "7U"]
+    ],
     "keymap": [
       [
         {"c": "#777777"},

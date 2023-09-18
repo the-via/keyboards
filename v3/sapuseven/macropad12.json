@@ -2,7 +2,7 @@
   "name": "MacroPad12",
   "vendorId": "0x1209",
   "productId": "0x7337",
-  "matrix": { "rows": 3, "cols": 4 },
+  "matrix": {"rows": 3, "cols": 4},
   "layouts": {
     "keymap": [
       ["0,0", "0,1", "0,2", "0,3"],

@@ -10,12 +10,7 @@
       "ISO Enter",
       "2.75U Right Shift",
       "2.25U Left Shift",
-      [
-        "Bottom Row",
-        "6.25U",
-        "7U",
-        "6U"
-       ]
+      ["Bottom Row", "6.25U", "7U", "6U"]
     ],
     "keymap": [
       [

@@ -274,16 +274,8 @@
       "Split Backspace",
       "ISO Enter",
       "Split Left Shift",
-      [
-      	"Bottom Row",
-        "Standard",
-        "WKL"
-      ],
-      [
-      	"Right Mods",
-        "2x1.5",
-        "3x1"
-      ]
+      ["Bottom Row", "Standard", "WKL"],
+      ["Right Mods", "2x1.5", "3x1"]
     ]
   }
 }

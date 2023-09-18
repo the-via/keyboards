@@ -3,17 +3,12 @@
   "vendorId": "0x04D8",
   "productId": "0xEB53",
   "lighting": "none",
-  "matrix":
-  {
+  "matrix": {
     "rows": 6,
     "cols": 18
   },
-  "layouts":
-  {
-    "labels": [
-      "Split Backspace",
-      "Tsangan"
-    ],
+  "layouts": {
+    "labels": ["Split Backspace", "Tsangan"],
     "keymap": [
       [
         {

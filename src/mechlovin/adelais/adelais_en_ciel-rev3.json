@@ -5,23 +5,55 @@
   "lighting": "qmk_rgblight",
   "customKeycodes": [
     {"name": "Backlight Toggle", "title": "BL TOG", "shortName": "BL TOG"},
-    {"name": "Backlight Effect", "title": "Backlight Effect", "shortName": "BL EFF"},
-    {"name": "Backlight Incrase Speed", "title": "Backlight Incrase Speed", "shortName": "BL ISPD"},
-    {"name": "Backlight Decrase Speed", "title": "Backlight Decrase Speed", "shortName": "BL DSPD"},
-    {"name": "Backlight Incrase Hue", "title": "Backlight Incrase Hue", "shortName": "BL IHUE"},
-    {"name": "Backlight Decrase Hue", "title": "Backlight Incrase Hue", "shortName": "BL DHUE"},
-    {"name": "Backlight Incrase Sat", "title": "Backlight Incrase Sat", "shortName": "BL ISAT"},
-    {"name": "Backlight Decrase Sat", "title": "Backlight Incrase Sat", "shortName": "BL DSAT"},
-    {"name": "Backlight Incrase Val", "title": "Backlight Incrase Val", "shortName": "BL IVAL"},
-    {"name": "Backlight Decrase Val", "title": "Backlight Incrase Val", "shortName": "BL DVAL"}
+    {
+      "name": "Backlight Effect",
+      "title": "Backlight Effect",
+      "shortName": "BL EFF"
+    },
+    {
+      "name": "Backlight Incrase Speed",
+      "title": "Backlight Incrase Speed",
+      "shortName": "BL ISPD"
+    },
+    {
+      "name": "Backlight Decrase Speed",
+      "title": "Backlight Decrase Speed",
+      "shortName": "BL DSPD"
+    },
+    {
+      "name": "Backlight Incrase Hue",
+      "title": "Backlight Incrase Hue",
+      "shortName": "BL IHUE"
+    },
+    {
+      "name": "Backlight Decrase Hue",
+      "title": "Backlight Incrase Hue",
+      "shortName": "BL DHUE"
+    },
+    {
+      "name": "Backlight Incrase Sat",
+      "title": "Backlight Incrase Sat",
+      "shortName": "BL ISAT"
+    },
+    {
+      "name": "Backlight Decrase Sat",
+      "title": "Backlight Incrase Sat",
+      "shortName": "BL DSAT"
+    },
+    {
+      "name": "Backlight Incrase Val",
+      "title": "Backlight Incrase Val",
+      "shortName": "BL IVAL"
+    },
+    {
+      "name": "Backlight Decrase Val",
+      "title": "Backlight Incrase Val",
+      "shortName": "BL DVAL"
+    }
   ],
   "matrix": {"rows": 5, "cols": 15},
   "layouts": {
-    "labels": [
-        "Split Back Space",
-        "Split Right Shift",
-        "Split Space" 
-    ],
+    "labels": ["Split Back Space", "Split Right Shift", "Split Space"],
     "keymap": [
       [
         {

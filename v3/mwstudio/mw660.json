@@ -3,10 +3,13 @@
   "vendorId": "0x7BA1",
   "productId": "0x6601",
   "keycodes": ["qmk_lighting"],
-  "menus": ["qmk_rgblight"],
+  "menus": ["qmk_rgb_matrix"],
   "matrix": {"rows": 5, "cols": 15},
   "layouts": {
-    "labels": [["enter", "default", "iso"], ["space", "default", "split"]],
+    "labels": [
+      ["enter", "default", "iso"],
+      ["space", "default", "split"]
+    ],
     "keymap": [
       [
         "0,0",

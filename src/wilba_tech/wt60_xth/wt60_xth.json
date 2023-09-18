@@ -5,10 +5,7 @@
   "lighting": "none",
   "matrix": {"rows": 5, "cols": 16},
   "layouts": {
-    "labels": [
-      "Split Backspace",
-      "WKL"
-    ],
+    "labels": ["Split Backspace", "WKL"],
     "keymap": [
       [
         {

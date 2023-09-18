@@ -8,19 +8,12 @@
     "cols": 9
   },
   "layouts": {
-    "labels" : [
+    "labels": [
       "Split Backspace",
-      "Split Left Shift", 
-      "Split Right Shift", 
-      "ISO Enter", 
-      [
-        "Bottom Row", 
-        "ANSI/6.25U", 
-        "7U", 
-        "10U", 
-        "7U-WKL", 
-        "10U-WKL"
-      ]
+      "Split Left Shift",
+      "Split Right Shift",
+      "ISO Enter",
+      ["Bottom Row", "ANSI/6.25U", "7U", "10U", "7U-WKL", "10U-WKL"]
     ],
     "keymap": [
       [
@@ -371,5 +364,5 @@
         "11,7\n\n\n4,4"
       ]
     ]
-  }   
+  }
 }

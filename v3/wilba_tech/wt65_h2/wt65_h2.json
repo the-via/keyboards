@@ -6,7 +6,6 @@
   "layouts": {
     "labels": ["2U Backspace"],
     "keymap": [
-      {"x": 13, "c": "#aaaaaa", "w": 2},
       [{"x": 13, "c": "#aaaaaa", "w": 2}, "0,13\n\n\n0,1"],
       [
         {"c": "#777777"},

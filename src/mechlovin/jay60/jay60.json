@@ -8,11 +8,7 @@
     "labels": [
       "Split Backspace",
       "2.75U Right Shift",
-      [
-        "Bottom Row",
-        "6.25U",
-        "7U"
-       ]
+      ["Bottom Row", "6.25U", "7U"]
     ],
     "keymap": [
       [

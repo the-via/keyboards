@@ -3,13 +3,12 @@
   "vendorId": "0x0007",
   "productId": "0x0007",
   "lighting": "qmk_backlight_rgblight",
-  "matrix": { "rows": 6, "cols": 17 },
+  "matrix": {"rows": 6, "cols": 17},
   "layouts": {
     "labels": [
-      ["Enter","ANSI","ISO"],
-      ["Left Shift","ANSI","ISO"],
-      ["Right Shift","2.75U","Split Right Shift"]
-
+      ["Enter", "ANSI", "ISO"],
+      ["Left Shift", "ANSI", "ISO"],
+      ["Right Shift", "2.75U", "Split Right Shift"]
     ],
     "keymap": [
       [

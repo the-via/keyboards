@@ -88,12 +88,7 @@
     "labels": [
       "Split Backspace",
       "2.75U Right Shift",
-      [
-        "Bottom Row",
-        "6.25U",
-        "7U",
-        "HHKB"
-       ],
+      ["Bottom Row", "6.25U", "7U", "HHKB"],
       "Left Shift ISO",
       "Enter ISO"
     ],
