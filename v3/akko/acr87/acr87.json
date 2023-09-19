@@ -1,5 +1,5 @@
 {
-    "name": "Akko Keyboard",
+    "name": "Akko ACR87",
     "vendorId": "0xFFFE",
     "productId": "0x0010",
     "keycodes": ["qmk_lighting"],
