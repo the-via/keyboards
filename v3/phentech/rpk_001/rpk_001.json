@@ -87,11 +87,6 @@
       }
     ],
     "matrix": {"rows": 5, "cols": 15},
-    "customKeycodes": [
-      {"name": "Solenoid Toggle","title": "Solenoid Toggle","shortName": "SOLD_TOG"},
-      {"name": "Buzzer Toggle","title": "Buzzer Toggle","shortName": "BUZZ_TOG"},
-      {"name": "RGB Random Effect","title": "RGB Random Effect","shortName": "RNG_TOG"}
-    ],
     "layouts": {
         "keymap":
         [
