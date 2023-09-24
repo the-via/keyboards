@@ -1,0 +1,25 @@
+{
+	"name": "Riotpad",
+	"vendorId": "0x7877",
+	"productId": "0x1000",
+	"keycodes": ["qmk_lighting"],
+	"menus": ["qmk_rgblight"],
+    "matrix": {
+        "rows": 2,
+        "cols": 3
+    },
+    "layouts": {
+        "keymap": [
+            [
+              "0,0",
+              "0,1",
+              "0,2"
+            ],
+            [
+              "1,0",
+              "1,1",
+              "1,2"
+            ]
+          ]
+    }
+}

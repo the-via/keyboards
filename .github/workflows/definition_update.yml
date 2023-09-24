@@ -1,0 +1,21 @@
+# This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and run tests across different versions of node
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
+
+name: Send update event
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    steps:
+    - name: Dispatch update to repos
+      run: |
+        curl 'https://api.github.com/repos/the-via/website/dispatches' --request POST -H 'Accept: application/vnd.github.everest-preview+json' -H 'Content-Type: application/javascript' -H 'Authorization: Bearer ${{ secrets.PAT }}' --data-raw '{"event_type": "definition_update", "client_payload": {}}'
+        curl 'https://api.github.com/repos/the-via/app/dispatches' --request POST -H 'Accept: application/vnd.github.everest-preview+json' -H 'Content-Type: application/javascript' -H 'Authorization: Bearer ${{ secrets.PAT }}' --data-raw '{"event_type": "definition_update", "client_payload": {}}'
+

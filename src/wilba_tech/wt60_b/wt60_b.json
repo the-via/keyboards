@@ -1,13 +1,11 @@
 {
-  "name": "WT60-B",
+  "name": "wilba.tech WT60-B",
   "vendorId": "0x6582",
   "productId": "0x60b0",
   "lighting": "wt_rgb_backlight",
   "matrix": {"rows": 5, "cols": 14},
   "layouts": {
-    "labels": [
-      ["Bottom Row", "HHKB", "Full"]
-    ],
+    "labels": [["Bottom Row", "HHKB", "Full"]],
     "keymap": [
       [
         {
