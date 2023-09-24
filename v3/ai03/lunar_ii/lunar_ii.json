@@ -2,7 +2,6 @@
   "name": "Lunar II",
   "vendorId": "0xa103",
   "productId": "0x0016",
-  "lighting": "none",
   "matrix": {"rows": 5, "cols": 14},
   "layouts": {
     "labels": [
