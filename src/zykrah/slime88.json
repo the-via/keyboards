@@ -14,12 +14,7 @@
       "Split Left Shift",
       "Split Right Shift",
       "Stepped Caps",
-      [
-        "Bottom Row",
-        "6.25U",
-        "7U",
-        "WKL"
-      ]
+      ["Bottom Row", "6.25U", "7U", "WKL"]
     ],
     "keymap": [
       [

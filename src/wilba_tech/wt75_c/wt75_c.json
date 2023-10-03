@@ -5,10 +5,7 @@
   "lighting": "wt_mono_backlight",
   "matrix": {"rows": 6, "cols": 16},
   "layouts": {
-    "labels": [
-      "Split Backspace",
-      ["Bottom Row", "6U", "6.25U"]
-    ],
+    "labels": ["Split Backspace", ["Bottom Row", "6U", "6.25U"]],
     "keymap": [
       [
         {

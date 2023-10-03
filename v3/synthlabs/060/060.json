@@ -12,7 +12,18 @@
       ["Enter", "ANSI", "ISO"],
       ["Left Shift", "Single", "Split"],
       ["Right Shift", "Single", "Split"],
-      ["Bottom Row", "Standard", "HHKB", "WKL", "Tsangan", "HHKB Tsangan", "WKL Tsangan", "Split", "HHKB Split", "WKL Split"]
+      [
+        "Bottom Row",
+        "Standard",
+        "HHKB",
+        "WKL",
+        "Tsangan",
+        "HHKB Tsangan",
+        "WKL Tsangan",
+        "Split",
+        "HHKB Split",
+        "WKL Split"
+      ]
     ],
     "keymap": [
       [

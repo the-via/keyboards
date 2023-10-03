@@ -5,11 +5,8 @@
   "lighting": "qmk_backlight_rgblight",
   "matrix": {"rows": 4, "cols": 12},
   "layouts": {
-    "labels": [
-      "1u spacebar"
-    ],
-    "keymap":
-    [
+    "labels": ["1u spacebar"],
+    "keymap": [
       {
         "name": "Ortho48 VIA"
       },

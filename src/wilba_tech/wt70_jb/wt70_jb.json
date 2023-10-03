@@ -5,10 +5,7 @@
   "lighting": "qmk_rgblight",
   "matrix": {"rows": 5, "cols": 17},
   "layouts": {
-    "labels": [
-      "Split Backspace",
-      "Split Right Shift"
-    ],
+    "labels": ["Split Backspace", "Split Right Shift"],
     "keymap": [
       [
         {

@@ -15,12 +15,7 @@
       "Split Right Shift",
       "Stepped Caps",
       "Numpad Blocker",
-      [
-        "Bottom Row",
-        "6.25U",
-        "7U",
-        "WKL"
-      ]
+      ["Bottom Row", "6.25U", "7U", "WKL"]
     ],
     "keymap": [
       [

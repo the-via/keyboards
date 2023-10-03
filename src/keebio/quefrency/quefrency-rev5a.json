@@ -10,17 +10,8 @@
   "layouts": {
     "labels": [
       "Split Backspace",
-      [
-        "Left Macropad",
-        "Enabled",
-        "W/Encoder",
-        "No Macro"
-      ],
-      [
-        "Right Mods",
-        "6x1u",
-        "2x1.25u__3x1u"
-      ],
+      ["Left Macropad", "Enabled", "W/Encoder", "No Macro"],
+      ["Right Mods", "6x1u", "2x1.25u__3x1u"],
       "Right Encoder"
     ],
     "keymap": [

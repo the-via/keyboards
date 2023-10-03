@@ -5,15 +5,8 @@
   "lighting": "wt_rgb_backlight",
   "matrix": {"rows": 5, "cols": 15},
   "layouts": {
-    "labels": [
-      "Full Backspace"
-    ],
+    "labels": ["Full Backspace"],
     "keymap": [
-      {
-        "x": 13,
-        "c": "#aaaaaa",
-        "w": 2
-      },
       [
         {
           "c": "#888888"

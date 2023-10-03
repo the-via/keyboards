@@ -2,7 +2,22 @@
   "name": "Portico75",
   "vendorId": "0x544B",
   "productId": "0x0011",
-  "keycodes": ["wt_lighting"],
+  "customKeycodes": [
+    {"name": "Bright +", "title": "Brightness +", "shortName": "BR +"},
+    {"name": "Bright -", "title": "Brightness -", "shortName": "BR -"},
+    {"name": "Effect +", "title": "Effect +", "shortName": "EF +"},
+    {"name": "Effect -", "title": "Effect -", "shortName": "EF -"},
+    {"name": "Effect Speed +", "title": "Effect Speed +", "shortName": "ES +"},
+    {"name": "Effect Speed -", "title": "Effect Speed -", "shortName": "ES -"},
+    {"name": "Color1 Hue +", "title": "Color1 Hue +", "shortName": "H1 +"},
+    {"name": "Color1 Hue -", "title": "Color1 Hue -", "shortName": "H1 -"},
+    {"name": "Color2 Hue +", "title": "Color2 Hue +", "shortName": "H2 +"},
+    {"name": "Color2 Hue -", "title": "Color2 Hue -", "shortName": "H2 -"},
+    {"name": "Color1 Sat +", "title": "Color1 Sat +", "shortName": "S1 +"},
+    {"name": "Color1 Sat -", "title": "Color1 Sat -", "shortName": "S1 -"},
+    {"name": "Color2 Sat +", "title": "Color2 Sat +", "shortName": "S2 +"},
+    {"name": "Color2 Sat -", "title": "Color2 Sat -", "shortName": "S2 -"}
+  ],
   "menus": [
     {
       "label": "Lighting",
@@ -165,9 +180,7 @@
         {"x": 0.25},
         "0,13",
         {"x": 0.25},
-        "3,14",
-        "0,14",
-        "4,14"
+        "0,14\n\n\n\n\n\n\n\n\ne0"
       ],
       [
         {"y": 0.25},
@@ -186,6 +199,7 @@
         "1,12",
         {"w": 2},
         "1,13",
+        {"x": 0.25},
         "1,14"
       ],
       [
@@ -205,6 +219,7 @@
         "2,12",
         {"w": 1.5},
         "2,13",
+        {"x": 0.25},
         "2,14"
       ],
       [

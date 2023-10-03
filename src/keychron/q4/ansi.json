@@ -1,5 +1,5 @@
 {
-  "name": "Keychron Q4",
+  "name": "Keychron Q4 ANSI",
   "vendorId": "0x3434",
   "productId": "0x0140",
   "lighting": {
@@ -16,7 +16,7 @@
       ["08. CYCLE_OUT_IN", 1],
       ["09. CYCLE_OUT_IN_DUAL", 1],
       ["10. CYCLE_PINWHEEL", 1],
-      ["11. CYCKE_SPIRAL", 1],
+      ["11. CYCLE_SPIRAL", 1],
       ["12. DUAL_BEACON", 1],
       ["13. RAINBOW_BEACON", 1],
       ["14. JELLYBEAN_RAINDROPS", 1],
@@ -32,18 +32,64 @@
   },
   "matrix": {"rows": 5, "cols": 14},
   "customKeycodes": [
-    {"name": "Mission Control", "title": "Mission Control in macOS", "shortName": "Mission Control"},
-    {"name": "Launch Pad", "title": "Launch Pad in macOS", "shortName": "Launch Pad"},
-    {"name": "Left Option", "title": "Left Option in macOS", "shortName": "Left Option"},
-    {"name": "Right Option", "title": "Right Option in macOS", "shortName": "Right Option"},
-    {"name": "Left Cmd", "title": "Left Command in macOS", "shortName": "Left Command"},
-    {"name": "Right Cmd", "title": "Right Command in macOS", "shortName": "Right Command"},
-    {"name": "Task View", "title": "Task View in windows", "shortName": "Task View"},
-    {"name": "File Explorer", "title": "File Explorer in windows", "shortName": "File Explorer"},
-    {"name": "Screen Shot", "title": "Screenshot in macOS", "shortName": "Screen Shot"}
+    {
+      "name": "Mission Control",
+      "title": "Mission Control in macOS",
+      "shortName": "MCtrl"
+    },
+    {
+      "name": "Launch Pad",
+      "title": "Launch Pad in macOS",
+      "shortName": "LPad"
+    },
+    {
+      "name": "Left Option",
+      "title": "Left Option in macOS",
+      "shortName": "LOpt"
+    },
+    {
+      "name": "Right Option",
+      "title": "Right Option in macOS",
+      "shortName": "ROpt"
+    },
+    {
+      "name": "Left Cmd",
+      "title": "Left Command in macOS",
+      "shortName": "LCmd"
+    },
+    {
+      "name": "Right Cmd",
+      "title": "Right Command in macOS",
+      "shortName": "RCmd"
+    },
+    {
+      "name": "Siri",
+      "title": "Siri in macOS",
+      "shortName": "Siri"
+    },
+    {
+      "name": "Task View",
+      "title": "Task View in windows",
+      "shortName": "Task"
+    },
+    {
+      "name": "File Explorer",
+      "title": "File Explorer in windows",
+      "shortName": "File"
+    },
+    {
+      "name": "Screen Shot",
+      "title": "Screenshot in macOS",
+      "shortName": "SShot"
+    },
+    {
+      "name": "Cortana",
+      "title": "Cortana in windows",
+      "shortName": "Cortana"
+    }
   ],
   "layouts": {
-    "keymap":[
+    "keymap": [
       [
         {
           "c": "#777777",

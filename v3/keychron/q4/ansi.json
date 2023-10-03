@@ -1,5 +1,5 @@
 {
-  "name": "Keychron Q4",
+  "name": "Keychron Q4 ANSI",
   "vendorId": "0x3434",
   "productId": "0x0140",
   "keycodes": ["qmk_lighting"],
@@ -23,27 +23,27 @@
               "options": [
                 ["00. None", 0],
                 ["01. SOLID_COLOR", 1],
-                ["02. BREATHING", 1],
-                ["03. BAND_SPIRAL_VAL", 1],
-                ["04. CYCLE_ALL", 1],
-                ["05. CYCLE_LEFT_RIGHT", 1],
-                ["06. CYCLE_UP_DOWN", 1],
-                ["07. RAINBOW_MOVING_CHEVRON", 1],
-                ["08. CYCLE_OUT_IN", 1],
-                ["09. CYCLE_OUT_IN_DUAL", 1],
-                ["10. CYCLE_PINWHEEL", 1],
-                ["11. CYCKE_SPIRAL", 1],
-                ["12. DUAL_BEACON", 1],
-                ["13. RAINBOW_BEACON", 1],
-                ["14. JELLYBEAN_RAINDROPS", 1],
-                ["15. PIXEL_RAIN", 1],
-                ["16. TYPING_HEATMAP", 1],
-                ["17. DIGITAL_RAIN", 1],
-                ["18. REACTIVE_SIMPLE", 1],
-                ["19. REACTIVE_MULTIWIDE", 1],
-                ["20. REACTIVE_MULTINEXUS", 1],
-                ["21. SPLASH", 1],
-                ["22. SOLID_SPLASH", 1]
+                ["02. BREATHING", 2],
+                ["03. BAND_SPIRAL_VAL", 3],
+                ["04. CYCLE_ALL", 4],
+                ["05. CYCLE_LEFT_RIGHT", 5],
+                ["06. CYCLE_UP_DOWN", 6],
+                ["07. RAINBOW_MOVING_CHEVRON", 7],
+                ["08. CYCLE_OUT_IN", 8],
+                ["09. CYCLE_OUT_IN_DUAL", 9],
+                ["10. CYCLE_PINWHEEL", 10],
+                ["11. CYCLE_SPIRAL", 11],
+                ["12. DUAL_BEACON", 12],
+                ["13. RAINBOW_BEACON", 13],
+                ["14. JELLYBEAN_RAINDROPS", 14],
+                ["15. PIXEL_RAIN", 15],
+                ["16. TYPING_HEATMAP", 16],
+                ["17. DIGITAL_RAIN", 17],
+                ["18. REACTIVE_SIMPLE", 18],
+                ["19. REACTIVE_MULTIWIDE", 19],
+                ["20. REACTIVE_MULTINEXUS", 20],
+                ["21. SPLASH", 21],
+                ["22. SOLID_SPLASH", 22]
               ]
             },
             {
@@ -103,7 +103,7 @@
     {"name": "Cortana", "title": "Cortana in windows", "shortName": "Cortana"}
   ],
   "layouts": {
-    "keymap":[
+    "keymap": [
       [
         {
           "c": "#777777",
