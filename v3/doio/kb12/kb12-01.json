@@ -1,5 +1,5 @@
 {
-    "name": "DOIO",
+    "name": "DOIO KB12-01",
     "vendorId": "0xD010",
     "productId": "0x1201",
     "keycodes": ["qmk_lighting"],
