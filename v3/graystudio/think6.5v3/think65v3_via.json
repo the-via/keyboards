@@ -1,5 +1,5 @@
 {
-    "name": "think65v3",
+    "name": "Graystudio Think6.5 V3",
     "vendorId": "0x4753",
     "productId": "0x4003",
   "keycodes": ["qmk_lighting"],
