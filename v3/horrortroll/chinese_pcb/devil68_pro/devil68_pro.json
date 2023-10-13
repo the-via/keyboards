@@ -1,7 +1,7 @@
 {
   "name": "Devil68 Pro",
   "vendorId": "0x7516",
-  "productId": "0x6001",
+  "productId": "0x7001",
   "keycodes": ["qmk_lighting"],
   "menus": ["qmk_rgb_matrix"],
   "matrix": {"rows": 5, "cols": 16},

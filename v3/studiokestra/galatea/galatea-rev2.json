@@ -1,5 +1,5 @@
 {
-  "name": "Galatea",
+  "name": "Galatea Rev2",
   "vendorId": "0x7C10",
   "productId": "0x8802",
   "keycodes": ["qmk_lighting"],

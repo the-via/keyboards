@@ -3,18 +3,96 @@
   "vendorId": "0x6582",
   "productId": "0x0033",
   "matrix": {"rows": 4, "cols": 2},
-  "menus": ["qmk_rgblight"],
-  "keycodes": ["qmk_lighting"],
-  "customKeycodes": [
+  "menus": [
     {
-      "name": "Custom 0",
-      "title": "Custom 0",
-      "shortName": "C0"
+      "label": "Lighting",
+      "content": [
+        {
+          "label": "Backlight",
+          "content": [
+            {
+              "label": "Brightness",
+              "type": "range",
+              "options": [0, 255],
+              "content": ["id_qmk_rgb_matrix_brightness", 3, 1]
+            },
+            {
+              "label": "Effect",
+              "type": "dropdown",
+              "content": ["id_qmk_rgb_matrix_effect", 3, 2],
+              "options": [
+                "All Off",
+                "Solid Color",
+                "Gradient Up/Down",
+                "Breathing",
+                "Cycle All",
+                "Cycle Up/Down",
+                "Cycle Out/In",
+                "Cycle Out/In Dual",
+                "Cycle Spiral",
+                "Raindrops",
+                "Jellybean Raindrops",
+                "Hue Breathing",
+                "Hue Pendulum",
+                "Hue Wave",
+                "Pixel Rain",
+                "Pixel Flow",
+                "Solid Reactive Simple",
+                "Solid Reactive",
+                "Solid Reactive Wide",
+                "Solid Reactive Cross",
+                "Solid Reactive Nexus",
+                "Spash",
+                "Solid Splash",
+                "Custom 1",
+                "Custom 2",
+                "Custom 3",
+                "Custom 4"
+              ]
+            },
+            {
+              "showIf": "{id_qmk_rgb_matrix_effect} != 0",
+              "label": "Effect Speed",
+              "type": "range",
+              "options": [0, 255],
+              "content": ["id_qmk_rgb_matrix_effect_speed", 3, 3]
+            },
+            {
+              "showIf": "{id_qmk_rgb_matrix_effect} != 0",
+              "label": "Color",
+              "type": "color",
+              "content": ["id_qmk_rgb_matrix_color", 3, 4]
+            }
+          ]
+        }
+      ]
     },
     {
-      "name": "Custom 1",
-      "title": "Custom 1",
-      "shortName": "C1"
+      "label": "Knob",
+      "content": [
+        {
+          "label": "General",
+          "content": [
+            {
+              "label": "Steps per Rotation",
+              "type": "dropdown",
+              "options": [
+                ["1", 1],
+                ["2", 2],
+                ["4", 4],
+                ["8", 8],
+                ["16", 16],
+                ["24", 24],
+                ["32", 32],
+                ["48", 48],
+                ["64", 64],
+                ["128", 128]
+              ],
+              "content": ["id_steps_per_rotation", 0, 1]
+            }
+          ]
+        }
+      ]
     }
   ],
   "layouts": {
