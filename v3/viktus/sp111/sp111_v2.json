@@ -7,61 +7,6 @@
     "rows": 12,
     "cols": 11
   },
-  "menus": [
-    {
-      "label": "Lighting",
-      "content": [
-        {
-          "label": "Caps Lock Indicator",
-          "content": [
-            {
-              "label": "Brightness",
-              "type": "range",
-              "options": [0, 255],
-              "content": ["id_caps_indicator_brightness", 1, 2]
-            },
-            {
-              "label": "Color",
-              "type": "color",
-              "content": ["id_caps_indicator_color", 1, 3]
-            }
-          ]
-        },
-        {
-          "label": "Scroll Lock Indicator",
-          "content": [
-            {
-              "label": "Brightness",
-              "type": "range",
-              "options": [0, 255],
-              "content": ["id_scroll_indicator_brightness", 1, 5]
-            },
-            {
-              "label": "Color",
-              "type": "color",
-              "content": ["id_scroll_indicator_color", 1, 6]
-            }
-          ]
-        },
-        {
-          "label": "Num Lock Indicator",
-          "content": [
-            {
-              "label": "Brightness",
-              "type": "range",
-              "options": [0, 255],
-              "content": ["id_caps_indicator_brightness", 1, 8]
-            },
-            {
-              "label": "Color",
-              "type": "color",
-              "content": ["id_caps_indicator_color", 1, 9]
-            }
-          ]
-        }
-      ]
-    }
-  ],
   "layouts": {
     "labels": [
         "Split Backspace",
