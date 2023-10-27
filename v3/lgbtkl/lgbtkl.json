@@ -2,7 +2,6 @@
   "name": "LGBTKL",
   "vendorId": "0x6F6A",
   "productId": "0x4C54",
-  "lighting": "none",
   "matrix": {
     "rows": 5,
     "cols": 19
