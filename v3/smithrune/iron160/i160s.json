@@ -1,5 +1,5 @@
 {
-	"name": "SnR I160-S",
+	"name": "Smith and Rune I160-S",
 	"vendorId": "0x8384",
 	"productId": "0x1653",
 	"menus": ["qmk_backlight"],

@@ -1,5 +1,5 @@
 {
-    "name": "Akko Keyboard",
+    "name": "Akko 5108",
     "vendorId": "0xFFFE",
     "productId": "0x000D",
     "keycodes": ["qmk_lighting"],
