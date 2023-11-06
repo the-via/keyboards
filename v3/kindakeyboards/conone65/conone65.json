@@ -2,9 +2,6 @@
   "name": "Conone65",
   "vendorId": "0x9133",
   "productId": "0x6AAB",
-  "keycodes": [
-    "qmk_lighting"
-  ],
   "matrix": {
     "rows": 5,
     "cols": 16
