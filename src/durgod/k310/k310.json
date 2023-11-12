@@ -4,20 +4,18 @@
   "productId": "0x3100",
   "lighting": "none",
   "customKeycodes": [
-      {"name": "Toggle WinKey Lock", "title": "Toggle WinKey Lock", "shortName": "WinLock"}
+    {
+      "name": "Toggle WinKey Lock",
+      "title": "Toggle WinKey Lock",
+      "shortName": "WinLock"
+    }
   ],
   "matrix": {
     "rows": 8,
     "cols": 16
   },
   "layouts": {
-    "labels": [
-      [
-        "Layout",
-        "ISO",
-        "ANSI"
-      ]
-    ],
+    "labels": [["Layout", "ISO", "ANSI"]],
     "keymap": [
       [
         {

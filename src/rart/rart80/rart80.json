@@ -6,13 +6,13 @@
   "matrix": {"rows": 6, "cols": 17},
   "layouts": {
     "labels": [
-        "Split Backspace",
-        "Split Lshift",
-        "Split Rshift",
-        "F12",
-        "Arrow",
-        ["Bottom Row", "7U", "WKL", "CWKL"]
-      ],
+      "Split Backspace",
+      "Split Lshift",
+      "Split Rshift",
+      "F12",
+      "Arrow",
+      ["Bottom Row", "7U", "WKL", "CWKL"]
+    ],
     "keymap": [
       [
         {
@@ -111,7 +111,7 @@
         "1,11",
         "1,12",
         {
-          "w":2
+          "w": 2
         },
         "1,13\n\n\n0,0",
         {

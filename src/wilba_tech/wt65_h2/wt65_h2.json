@@ -5,15 +5,8 @@
   "lighting": "none",
   "matrix": {"rows": 5, "cols": 15},
   "layouts": {
-    "labels": [
-      "2U Backspace"
-    ],
+    "labels": ["2U Backspace"],
     "keymap": [
-      {
-        "x": 13,
-        "c": "#aaaaaa",
-        "w": 2
-      },
       [
         {
           "x": 13,

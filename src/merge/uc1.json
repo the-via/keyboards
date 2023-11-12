@@ -1,28 +1,27 @@
 {
-    "name": "UC-1",
-    "vendorId": "0x4d65",
-    "productId": "0x5543",
-    "lighting": "qmk_rgblight",
-    "matrix": {
-      "rows": 2,
-      "cols": 2
-    },
-    "layouts": {
-       "keymap":
-       [
-        [
-          {
-            "c": "#8f8f8f"
-          },
-          "1,1",
-          {
-            "x": 0.25,
-            "c": "#cccccc"
-          },
-          "0,0",
-          "0,1",
-          "1,0"
-        ]
+  "name": "UC-1",
+  "vendorId": "0x4d65",
+  "productId": "0x5543",
+  "lighting": "qmk_rgblight",
+  "matrix": {
+    "rows": 2,
+    "cols": 2
+  },
+  "layouts": {
+    "keymap": [
+      [
+        {
+          "c": "#8f8f8f"
+        },
+        "1,1",
+        {
+          "x": 0.25,
+          "c": "#cccccc"
+        },
+        "0,0",
+        "0,1",
+        "1,0"
       ]
-    }
+    ]
   }
+}

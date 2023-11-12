@@ -7,7 +7,6 @@
   "matrix": {"rows": 3, "cols": 5},
   "layouts": {
     "keymap": [
-      {"name": "SPIN Macropad", "author": "adamkraus6"},
       [
         "0,0",
         "1,0",

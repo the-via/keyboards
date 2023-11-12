@@ -9,7 +9,7 @@
     "labels": [
       "Split Backspace",
       "2.75U Right Shift",
-      ["Bottom Row", "6.25U", "7U", "HHKB"]
+      ["Bottom Row", "6.25U", "7U", "HHKB 6U", "HHKB 7U"]
     ],
     "keymap": [
       [
@@ -138,6 +138,20 @@
         "4,12\n\n\n2,2",
         {"w": 1.5, "d": true},
         "4,13\n\n\n2,2"
+      ],
+      [
+        {"w": 1.5, "d": true},
+        "4,0\n\n\n2,3",
+        "4,1\n\n\n2,3",
+        {"w": 1.5},
+        "4,2\n\n\n2,3",
+        {"c": "#cccccc", "w": 7},
+        "4,6\n\n\n2,3",
+        {"c": "#aaaaaa", "w": 1.5},
+        "4,11\n\n\n2,3",
+        "4,12\n\n\n2,3",
+        {"w": 1.5, "d": true},
+        "4,13\n\n\n2,3"
       ]
     ]
   }
