@@ -1,0 +1,25 @@
+{
+    "name": "Coban Pad 9A",
+    "vendorId": "0xCB3A",
+    "productId": "0xCC9A",
+    "keycodes": ["qmk_lighting"],
+    "menus": ["qmk_rgb_matrix"],
+    "matrix": { "rows": 1, "cols": 8 },
+    "layouts": {
+        "keymap": [
+            [
+                "0,0\n\n\n\n\n\n\n\n\ne0",
+                {"y": 0, "x": 1},
+                "0,1\n\n\n\n\n\n\n\n\ne1",
+                {"y": 1.15, "x": -3},
+                "0,2",
+                "0,3",
+                "0,4",
+                {"y": 1, "x": -3},
+                "0,5",
+                "0,6",
+                "0,7"
+            ]
+        ]
+    }
+}
