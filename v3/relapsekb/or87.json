@@ -1,8 +1,7 @@
 {
-	"name": "h87nu",
+	"name": "OR87",
 	"vendorId": "0x722D",
 	"productId": "0x0001",
-	"lighting": "none",
 	"matrix": { "rows": 12, "cols": 9 },
 	"layouts": {
 		"keymap":
