@@ -2,7 +2,6 @@
   "name":"Alpaca WFEclipse",
   "vendorId":"0x308F",
   "productId":"0x0038",
-  "firmwareVersion":0,
   "keycodes":["qmk_lighting"],
   "menus":[
     {
