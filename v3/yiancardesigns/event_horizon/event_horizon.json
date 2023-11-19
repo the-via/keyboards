@@ -2,7 +2,6 @@
   "name": "Event Horizon",
   "vendorId": "0x8968",
   "productId": "0x4648",
-  "lighting": "none",
   "matrix": { "rows": 5, "cols": 16 },
   "layouts": {
     "labels": [
