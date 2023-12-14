@@ -2,16 +2,8 @@
   "name": "KBD67 Rev2",
   "vendorId": "0x4B42",
   "productId": "0x6067",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_backlight",
-    "core/qmk_rgblight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_backlight_rgblight"],
   "matrix": {"rows": 5, "cols": 16},
   "layouts": {
     "labels": [
@@ -19,7 +11,7 @@
       ["Enter Key", "ANSI", "ISO"],
       ["Left Shift", "Default", "Split"],
       ["Spacebar", "Standard", "Split", "7u"],
-      ["Right Mods", "3x1u", "2x1.5u"]
+      ["Right Mods", "3x1u", "2x1.5u", "2x1.25u"]
     ],
     "keymap": [
       [
@@ -154,7 +146,11 @@
         {"x": 0.5, "c": "#aaaaaa", "w": 1.5},
         "4,10\n\n\n4,1",
         {"w": 1.5},
-        "4,12\n\n\n4,1"
+        "4,12\n\n\n4,1",
+        {"x": 0.5, "c": "#aaaaaa", "w": 1.25},
+        "4,10\n\n\n4,2",
+        {"w": 1.25},
+        "4,11\n\n\n4,2"
       ],
       [
         {"y": 0.25, "x": 3, "w": 1.5},

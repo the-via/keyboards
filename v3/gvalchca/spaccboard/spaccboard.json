@@ -2,9 +2,6 @@
   "name": "SpaccBoard",
   "vendorId": "0x6776",
   "productId": "0x5342",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 5, "cols": 15},
   "layouts": {
     "labels": [
@@ -112,11 +109,11 @@
       [
         {"x": 2.5, "w": 1.5},
         "4,0\n\n\n3,0",
-        "4,1\n\n\n3,0",
-        {"w": 1.5},
         "4,2\n\n\n3,0",
+        {"w": 1.5},
+        "4,3\n\n\n3,0",
         {"w": 7},
-        "4,6\n\n\n3,0",
+        "4,7\n\n\n3,0",
         {"w": 1.5},
         "4,11\n\n\n3,0",
         "4,12\n\n\n3,0",
@@ -129,7 +126,7 @@
         {"c": "#cccccc", "d": true},
         "\n\n\n3,1",
         {"c": "#aaaaaa", "w": 10},
-        "4,6\n\n\n3,1",
+        "4,7\n\n\n3,1",
         {"c": "#cccccc", "d": true},
         "\n\n\n3,1",
         {"c": "#aaaaaa", "w": 1.5},

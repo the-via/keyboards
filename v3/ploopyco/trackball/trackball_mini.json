@@ -2,9 +2,6 @@
   "name": "PloopyCo Trackball Mini",
   "vendorId": "0x5043",
   "productId": "0x1EAB",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "customKeycodes": [
     {"name": "DPI Config", "title": "DPI Config", "shortName": "DPI"},
     {"name": "Drag Scroll", "title": "Drag Scroll", "shortName": "DragScl"}

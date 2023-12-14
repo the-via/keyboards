@@ -2,13 +2,10 @@
   "name": "Wazowski 23-19 rev0",
   "vendorId": "0x4B5A",
   "productId": "0x53FC",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 3, "cols": 5},
   "layouts": {
     "keymap": [
-      [{"a": 7, "w": 2.25}, "0,0", {"x": 3.75}, "2,3"],
+      [{"w": 2.25}, "0,0", {"x": 3.75}, "2,3"],
       [{"y": -0.5, "x": 2.25}, "0,1", "0,2", "0,3"],
       [{"y": -0.25, "h": 2.25}, "1,0", {"x": 4.5}, "1,4", "2,4"],
       [{"y": -0.75, "x": 1.5, "w": 1.75}, "1,1", "1,2", "1,3"],

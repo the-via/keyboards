@@ -2,15 +2,8 @@
   "name": "Square.X",
   "vendorId": "0x694E",
   "productId": "0x5336",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_rgblight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_rgblight"],
   "matrix": {"rows": 5, "cols": 14},
   "layouts": {
     "labels": [

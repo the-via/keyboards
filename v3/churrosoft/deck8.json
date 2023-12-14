@@ -1,0 +1,12 @@
+{
+  "name": "Deck-8",
+  "vendorId": "0xCBBC",
+  "productId": "0xC100",
+  "matrix": {"rows": 2, "cols": 4},
+  "layouts": {
+    "keymap": [
+      [{"c":"#ffffff"},"0,0","0,1","0,2","0,3"],
+      ["1,0","1,1","1,2","1,3"]
+    ]
+  }
+}

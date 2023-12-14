@@ -2,15 +2,8 @@
   "name": "OctagonV2",
   "vendorId": "0x444b",
   "productId": "0x4f32",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_rgblight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_rgblight"],
   "matrix": {"rows": 6, "cols": 17},
   "layouts": {
     "labels": [
@@ -27,7 +20,6 @@
       ]
     ],
     "keymap": [
-      {"name": "Duck Octagon V3", "author": "u/tk89yt"},
       [
         {"y": 1.25, "x": 2.75, "c": "#777777"},
         "0,0",

@@ -2,7 +2,7 @@
   "name": "DZ96",
   "vendorId": "0x445A",
   "productId": "0xDB96",
-  "lighting": "qmk_backlight",
+  "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 8,
     "cols": 13
@@ -14,16 +14,8 @@
       "Split Left Shift",
       "Split Numpad Enter",
       "Split Numpad Add",
-      [
-        "Bottom Row",
-        "6.25U",
-        "7U"
-      ],
-      [
-        "Right mods",
-        "3x 1u",
-        "2x 1.5u"
-      ]
+      ["Bottom Row", "6.25U", "7U"],
+      ["Right mods", "3x 1u", "2x 1.5u"]
     ],
     "keymap": [
       [

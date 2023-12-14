@@ -2,9 +2,6 @@
   "name": "Xelus Snap96",
   "vendorId": "0x5845",
   "productId": "0x5396",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 12, "cols": 10},
   "layouts": {
     "labels": [

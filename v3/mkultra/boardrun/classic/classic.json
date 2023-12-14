@@ -2,15 +2,8 @@
   "name": "Boardrun Classic",
   "vendorId": "0xCDCD",
   "productId": "0x5338",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_rgblight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_rgblight"],
   "matrix": {"rows": 5, "cols": 17},
   "layouts": {
     "labels": ["1u Center Mods", "1u Left Spacebar", "1u Right Spacebar"],

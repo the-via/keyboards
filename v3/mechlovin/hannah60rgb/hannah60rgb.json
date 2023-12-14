@@ -2,9 +2,7 @@
   "name": "Hannah60 RGB",
   "vendorId": "0x4D4C",
   "productId": "0x6001",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
+  "keycodes": ["qmk_lighting"],
   "matrix": {"rows": 5, "cols": 14},
   "layouts": {
     "labels": [

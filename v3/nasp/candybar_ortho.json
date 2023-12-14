@@ -2,15 +2,8 @@
   "name": "Candybar_Ortho",
   "vendorId": "0x7070",
   "productId": "0x3215",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_rgblight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_rgblight"],
   "matrix": {"rows": 8, "cols": 9},
   "layouts": {
     "labels": [["Bottom Row", "grid", "2x3u", "7u"]],

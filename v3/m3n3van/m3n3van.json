@@ -2,15 +2,8 @@
   "name": "m3n3van",
   "vendorId": "0x6D64",
   "productId": "0x2323",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_rgblight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_rgblight"],
   "matrix": {"rows": 4, "cols": 13},
   "layouts": {
     "labels": ["Encoder"],

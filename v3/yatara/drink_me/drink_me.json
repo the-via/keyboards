@@ -2,9 +2,6 @@
   "name": "Drink Me",
   "vendorId": "0x5961",
   "productId": "0x1470",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 1, "cols": 4},
   "layouts": {
     "keymap": [

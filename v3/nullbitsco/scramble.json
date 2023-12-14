@@ -2,11 +2,11 @@
   "name": "SCRAMBLE",
   "vendorId": "0x6E61",
   "productId": "0x6062",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 2, "cols": 3},
   "layouts": {
-    "keymap": [[{"c": "#777777"}, "0,0", "0,1", "0,2"], ["1,0", "1,1", "1,2"]]
+    "keymap": [
+      [{"c": "#777777"}, "0,0", "0,1", "0,2"],
+      ["1,0", "1,1", "1,2"]
+    ]
   }
 }

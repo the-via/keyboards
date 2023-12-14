@@ -2,9 +2,6 @@
   "name": "OSA",
   "vendorId": "0x5343",
   "productId": "0x0001",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 10, "cols": 8},
   "layouts": {
     "labels": ["Split Backspace", "Split Right Shift"],

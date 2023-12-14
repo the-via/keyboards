@@ -1,9 +1,9 @@
 {
   "name": "BKS65",
-  "vendorId": "0x7074", 
+  "vendorId": "0x7074",
   "productId": "0x1001",
   "lighting": "qmk_rgblight",
-  "matrix": { "rows": 5, "cols": 15 },
+  "matrix": {"rows": 5, "cols": 15},
   "layouts": {
     "keymap": [
       [
@@ -147,7 +147,7 @@
         "4,12",
         "4,13",
         "4,14"
-      ]    
+      ]
     ]
   }
 }

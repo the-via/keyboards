@@ -2,13 +2,10 @@
   "name": "RAMA WORKS M6-A",
   "vendorId": "0x5241",
   "productId": "0x006a",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 1, "cols": 6},
   "layouts": {
     "keymap": [
-      [{"c": "#505557", "t": "#d9d7d7", "a": 7}, "0,0", "0,1", "0,2"],
+      [{"c": "#505557", "t": "#d9d7d7"}, "0,0", "0,1", "0,2"],
       ["0,3", "0,4", "0,5"]
     ]
   }

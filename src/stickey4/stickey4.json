@@ -1,14 +1,14 @@
 {
-    "name": "stickey4",
-    "vendorId": "0x5946",
-    "productId": "0x0010",
-    "lighting": "none",
-    "matrix": { "rows": 1, "cols": 8 },
-    "layouts": {
-        "labels": [],
-        "keymap": [
-          [{"x":0.125}, "0,0","0,1","0,2","0,3"],
-          [{"y":0.25}, "0,4","0,5", {"x":0.25},"0,6","0,7"]
-        ]
-    }
+  "name": "stickey4",
+  "vendorId": "0x5946",
+  "productId": "0x0010",
+  "lighting": "none",
+  "matrix": {"rows": 1, "cols": 8},
+  "layouts": {
+    "labels": [],
+    "keymap": [
+      [{"x": 0.125}, "0,0", "0,1", "0,2", "0,3"],
+      [{"y": 0.25}, "0,4", "0,5", {"x": 0.25}, "0,6", "0,7"]
+    ]
+  }
 }

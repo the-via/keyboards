@@ -2,9 +2,6 @@
   "name": "AnomalyKB A65I",
   "vendorId": "0x4C47",
   "productId": "0x0004",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 5, "cols": 16},
   "layouts": {
     "labels": [

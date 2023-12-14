@@ -2,9 +2,6 @@
   "name": "Macrowo Pad",
   "vendorId": "0x04D8",
   "productId": "0xE936",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 2, "cols": 10},
   "layouts": {
     "keymap": [

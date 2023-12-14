@@ -2,9 +2,12 @@
   "name": "PDXKBC Macropad",
   "vendorId": "0x5044",
   "productId": "0x0001",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 3, "cols": 2},
-  "layouts": {"keymap": [["0,0", "0,1"], ["1,0", "1,1"], ["2,0", "2,1"]]}
+  "layouts": {
+    "keymap": [
+      ["0,0", "0,1"],
+      ["1,0", "1,1"],
+      ["2,0", "2,1"]
+    ]
+  }
 }

@@ -2,18 +2,14 @@
   "name": "VOLCANO660",
   "vendorId": "0x445A",
   "productId": "0x0002",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_backlight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_backlight"],
   "matrix": {"rows": 5, "cols": 15},
   "layouts": {
-    "labels": [["Backspace", "Full", "Split"], ["Left Shift", "Full", "Split"]],
+    "labels": [
+      ["Backspace", "Full", "Split"],
+      ["Left Shift", "Full", "Split"]
+    ],
     "keymap": [
       [
         {"c": "#777777"},

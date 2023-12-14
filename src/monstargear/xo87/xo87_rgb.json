@@ -3,7 +3,7 @@
   "vendorId": "0x4D47",
   "productId": "0x584F",
   "lighting": {
-    "extends":"qmk_rgblight",
+    "extends": "qmk_rgblight",
     "underglowEffects": [
       ["None", 0],
       ["SOLID_COLOR", 1],
@@ -46,13 +46,9 @@
       ["SOLID_MULTISPLASH", 1],
       ["EFFECT_MAX", 1]
     ],
-    "supportedLightingValues": [
-      128,
-      129,
-      131
-    ]
-},
-  "matrix": { "rows": 6, "cols": 16 },
+    "supportedLightingValues": [128, 129, 131]
+  },
+  "matrix": {"rows": 6, "cols": 16},
   "layouts": {
     "keymap": [
       [
