@@ -1,0 +1,20 @@
+{
+    "name": "NoodlePad v2",
+    "vendorId": "0x6A6C",
+    "productId": "0x0002",
+    "keycodes": ["qmk_lighting"],
+    "menus": ["qmk_rgblight"],
+    "matrix": {
+        "rows": 3,
+        "cols": 3
+    },
+    "layouts": {
+        "keymap": [
+            ["0,0",{"c":"#777777"},"0,1\n\n\n\n\n\n\n\n\ne0",{"c":"#cccccc"},"0,2"],
+            ["1,0","1,1","1,2"],
+            ["2,0","2,1","2,2"]
+        ]
+    }
+
+
+}
