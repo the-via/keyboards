@@ -1,0 +1,170 @@
+{
+  "name": "Work Board",
+  "vendorId": "0x574C",
+  "productId": "0xDCD1",
+  "lighting": "qmk_rgblight",
+  "customKeycodes": [
+    {
+      "name": "RGB Matrix Toggle",
+      "title": "RGB Matrix Toggle",
+      "shortName": "R_M_TOG"
+    },
+    {
+      "name": "RGB Matrix Mode+",
+      "title": "RGB Matrix Mode Increase",
+      "shortName": "R_M_MOD"
+    },
+    {
+      "name": "RGB Matrix Mode-",
+      "title": "RGB Matrix Mode Decrease",
+      "shortName": "R_M_RMOD"
+    },
+    {
+      "name": "RGB Matrix Hue+",
+      "title": "RGB Matrix Hue Increase",
+      "shortName": "R_M_HUI"
+    },
+    {
+      "name": "RGB Matrix Hue-",
+      "title": "RGB Matrix Hue Decrease",
+      "shortName": "R_M_HUD"
+    },
+    {
+      "name": "RGB Matrix Sat+",
+      "title": "RGB Matrix Saturation Increase",
+      "shortName": "R_M_SAI"
+    },
+    {
+      "name": "RGB Matrix Sat-",
+      "title": "RGB Matrix Saturation Decrease",
+      "shortName": "R_M_SAD"
+    },
+    {
+      "name": "RGB Matrix Val+",
+      "title": "RGB Matrix Brightness Increase",
+      "shortName": "R_M_VAI"
+    },
+    {
+      "name": "RGB Matrix Val-",
+      "title": "RGB Matrix Brightness Decrease",
+      "shortName": "R_M_VAD"
+    },
+    {
+      "name": "Encoder Tap",
+      "title": "Tap: Once for Play/Pause, Twice for Next, and Thrice for Prev",
+      "shortName": "ENC_TAP"
+    }
+  ],
+  "matrix": {"rows": 4, "cols": 13},
+  "layouts": {
+    "labels": ["2u Space"],
+    "keymap": [
+      [
+        {
+          "c": "#aaaaaa"
+        },
+        "0,0",
+        {
+          "c": "#ccccccc"
+        },
+        "0,1",
+        "0,2",
+        "0,3",
+        "0,4",
+        "0,5",
+        "0,6",
+        "0,7",
+        "0,8",
+        "0,9",
+        "0,10",
+        {
+          "c": "#aaaaaa"
+        },
+        "0,11",
+        {
+          "x": 0.25,
+          "c": "#ccccccc"
+        },
+        "0,12\n\n\n\n\n\n\n\n\ne0"
+      ],
+      [
+        {
+          "c": "#aaaaaa"
+        },
+        "1,0",
+        {
+          "c": "#ccccccc"
+        },
+        "1,1",
+        "1,2",
+        "1,3",
+        "1,4",
+        "1,5",
+        "1,6",
+        "1,7",
+        "1,8",
+        "1,9",
+        "1,10",
+        {
+          "c": "#aaaaaa"
+        },
+        "1,11",
+        {
+          "x": 0.25,
+          "c": "#ccccccc"
+        }
+      ],
+      [
+        {
+          "c": "#aaaaaa"
+        },
+        "2,0",
+        {
+          "c": "#ccccccc"
+        },
+        "2,1",
+        "2,2",
+        "2,3",
+        "2,4",
+        "2,5",
+        "2,6",
+        "2,7",
+        "2,8",
+        "2,9",
+        "2,10",
+        {
+          "c": "#aaaaaa"
+        },
+        "2,11",
+        {
+          "x": 0.25,
+          "c": "#ccccccc"
+        }
+      ],
+      [
+        {
+          "c": "#aaaaaa"
+        },
+        "3,0",
+        "3,1",
+        "3,2",
+        "3,3",
+        "3,4",
+        "3,5\n\n\n0,0",
+        "3,6\n\n\n0,0",
+        "3,7",
+        "3,8",
+        "3,9",
+        "3,10",
+        "3,11"
+      ],
+      [
+        {
+          "x": 5,
+          "w": 2
+        },
+        "3,5\n\n\n0,1"
+      ]
+    ]
+  }
+}

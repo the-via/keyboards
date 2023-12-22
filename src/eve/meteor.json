@@ -1,5 +1,5 @@
 {
-  "name": "EVE Meteor", 
+  "name": "EVE Meteor",
   "vendorId": "0x4556",
   "productId": "0x4D54",
   "lighting": "qmk_backlight",
@@ -8,19 +8,9 @@
     "labels": [
       "Split Backspace",
       "Split Left Shift",
-      [
-        "Right Shift",
-        "Up Arrow Layout",
-        "Split Right Shift",
-        "Standard"
-      ],
+      ["Right Shift", "Up Arrow Layout", "Split Right Shift", "Standard"],
       "ISO Enter",
-      [
-        "Bottom Row",
-        "5x 1u",
-        "Standard 60%",
-        "Tsangan"
-      ]
+      ["Bottom Row", "5x 1u", "Standard 60%", "Tsangan"]
     ],
     "keymap": [
       [

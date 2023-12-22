@@ -6,27 +6,15 @@
   "matrix": {"rows": 6, "cols": 21},
   "layouts": {
     "labels": [
-     "Split Backspace",
-     "Left PPLS",
-     "Split Right PPLS",
-     "ISO Enter",
-     ["Bottom off left",
-      "P0 2U",
-      "PENT 2U",
-      "GRID"
-    ],
-    ["Bottom off right",
-     "PENT 2U",
-     "P0 2U",
-     "GRID"
-    ],
-     "Left Shift ISO",
-     "Right Shift",
-     [
-       "Bottom Row",
-       "Space 6.25U",
-       "Space 7U/WKL"
-      ]
+      "Split Backspace",
+      "Left PPLS",
+      "Split Right PPLS",
+      "ISO Enter",
+      ["Bottom off left", "P0 2U", "PENT 2U", "GRID"],
+      ["Bottom off right", "PENT 2U", "P0 2U", "GRID"],
+      "Left Shift ISO",
+      "Right Shift",
+      ["Bottom Row", "Space 6.25U", "Space 7U/WKL"]
     ],
     "keymap": [
       [

@@ -12,11 +12,6 @@
       ["Bottom Row", "ANSI", "7U"]
     ],
     "keymap": [
-      {
-        "x": 13,
-        "c": "#aaaaaa",
-        "w": 2
-      },
       [
         {
           "x": 2.5,

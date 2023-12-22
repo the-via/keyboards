@@ -1,0 +1,234 @@
+{
+  "name": "Frooastboard Walnut",
+  "vendorId": "0x4642",
+  "productId": "0x776E",
+  "lighting": {
+    "extends": "qmk_rgblight",
+    "keycodes": "qmk",
+    "underglowEffects": [
+      ["None", 0],
+      ["Solid Color", 1],
+      ["Vertical Gradient", 1],
+      ["Horizontal Gradient", 1],
+      ["Breathing", 1],
+      ["Colorband - Saturation", 1],
+      ["Colorband - Brightness", 1],
+      ["Pinwheel - Saturation", 1],
+      ["Pinwheel - Brightness", 1],
+      ["Spiral - Saturation", 1],
+      ["Spiral - Brightness", 1],
+      ["Cycle All", 1],
+      ["Cycle Horizontal", 1],
+      ["Cycle Vertical", 1],
+      ["Rainbow Chevron", 1],
+      ["Cycle - In/Out", 1],
+      ["Cycle - In/Out Dual", 1],
+      ["Cycle - Pinwheel", 1],
+      ["Cycle - Spiral", 1],
+      ["Dual Beacon", 1],
+      ["Rainbow Beacon", 1],
+      ["Rainbow Pinwheels", 1],
+      ["Raindrops", 1],
+      ["Jellybean Raindrops", 1],
+      ["Hue Breathing", 1],
+      ["Hue Pendulum", 1],
+      ["Hue Wave", 1],
+      ["Pixel Rain", 1],
+      ["Pixel Flow", 1]
+    ]
+  },
+  "matrix": {
+    "rows": 9,
+    "cols": 8
+  },
+  "layouts": {
+    "labels": ["ANSI Layout"],
+    "keymap": [
+      [
+        {
+          "c": "#777777"
+        },
+        "0,0",
+        {
+          "c": "#cccccc"
+        },
+        "0,1",
+        "0,2",
+        "0,3",
+        "0,4",
+        "0,5",
+        "0,6",
+        "0,7",
+        "1,0",
+        "1,1",
+        "1,2",
+        "1,3",
+        "1,4",
+        {
+          "c": "#aaaaaa",
+          "w": 2
+        },
+        "1,5",
+        {
+          "x": 0.5,
+          "c": "#cccccc"
+        },
+        "5,5",
+        "5,6",
+        "5,7"
+      ],
+      [
+        {
+          "c": "#aaaaaa",
+          "w": 1.5
+        },
+        "2,0",
+        {
+          "c": "#cccccc"
+        },
+        "2,1",
+        "2,2",
+        "2,3",
+        "2,4",
+        "2,5",
+        "2,6",
+        "2,7",
+        "3,0",
+        "3,1",
+        "3,2",
+        "3,3",
+        "3,4",
+        {
+          "w": 1.5
+        },
+        "5,4\n\n\n0,1",
+        {
+          "x": -1.25,
+          "c": "#777777",
+          "w": 1.25,
+          "h": 2,
+          "w2": 1.5,
+          "h2": 1,
+          "x2": -0.25
+        },
+        "3,5\n\n\n0,0",
+        {
+          "x": 0.5,
+          "c": "#cccccc"
+        },
+        "7,5",
+        "7,6",
+        "7,7"
+      ],
+      [
+        {
+          "c": "#aaaaaa",
+          "w": 1.75
+        },
+        "4,0",
+        {
+          "c": "#cccccc"
+        },
+        "4,1",
+        "4,2",
+        "4,3",
+        "4,4",
+        "4,5",
+        "4,6",
+        "4,7",
+        "5,0",
+        "5,1",
+        "5,2",
+        "5,3",
+        "5,4\n\n\n0,0",
+        {
+          "x": -1,
+          "c": "#777777",
+          "w": 2.25
+        },
+        "3,5\n\n\n0,1"
+      ],
+      [
+        {
+          "c": "#aaaaaa",
+          "w": 1.25
+        },
+        "6,0\n\n\n0,0",
+        {
+          "x": -1.25,
+          "w": 2.25
+        },
+        "6,0\n\n\n0,1",
+        {
+          "x": -1,
+          "c": "#cccccc"
+        },
+        "6,1\n\n\n0,0",
+        "6,2",
+        "6,3",
+        "6,4",
+        "6,5",
+        "6,6",
+        "6,7",
+        "7,0",
+        "7,1",
+        "7,2",
+        "7,3",
+        {
+          "c": "#aaaaaa",
+          "w": 2.75
+        },
+        "7,4",
+        {
+          "x": 1.5,
+          "c": "#777777"
+        },
+        "3,6"
+      ],
+      [
+        {
+          "c": "#aaaaaa",
+          "w": 1.25
+        },
+        "8,0",
+        {
+          "w": 1.25
+        },
+        "8,1",
+        {
+          "w": 1.25
+        },
+        "8,2",
+        {
+          "c": "#cccccc",
+          "w": 6.25
+        },
+        "8,3",
+        {
+          "c": "#aaaaaa",
+          "w": 1.25
+        },
+        "8,4",
+        {
+          "w": 1.25
+        },
+        "8,5",
+        {
+          "w": 1.25
+        },
+        "8,6",
+        {
+          "w": 1.25
+        },
+        "8,7",
+        {
+          "x": 0.5,
+          "c": "#777777"
+        },
+        "1,6",
+        "3,7",
+        "1,7"
+      ]
+    ]
+  }
+}

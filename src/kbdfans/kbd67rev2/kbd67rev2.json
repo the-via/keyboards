@@ -13,18 +13,18 @@
       ["Enter Key", "ANSI", "ISO"],
       ["Left Shift", "Default", "Split"],
       ["Spacebar", "Standard", "Split", "7u"],
-      ["Right Mods", "3x1u", "2x1.5u"]
+      ["Right Mods", "3x1u", "2x1.5u", "2x1.25u"]
     ],
 
     "keymap": [
       [
         {
-         "x": 3,
-        "c": "#777777"
+          "x": 3,
+          "c": "#777777"
         },
         "0,0",
         {
-         "c": "#cccccc"
+          "c": "#cccccc"
         },
         "0,1",
         "0,2",
@@ -231,7 +231,17 @@
         {
           "w": 1.5
         },
-        "4,12\n\n\n4,1"
+        "4,12\n\n\n4,1",
+        {
+          "x": 0.5,
+          "c": "#aaaaaa",
+          "w": 1.25
+        },
+        "4,10\n\n\n4,2",
+        {
+          "w": 1.25
+        },
+        "4,11\n\n\n4,2"
       ],
       [
         {

@@ -5,11 +5,7 @@
   "lighting": "qmk_backlight",
   "matrix": {"rows": 6, "cols": 4},
   "layouts": {
-    "labels": [
-      "Split Plus",
-      "Split Enter",
-      "Split Zero"
-    ],
+    "labels": ["Split Plus", "Split Enter", "Split Zero"],
     "keymap": [
       [
         {
@@ -92,4 +88,4 @@
       ]
     ]
   }
- }
+}
