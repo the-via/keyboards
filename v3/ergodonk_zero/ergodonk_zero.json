@@ -1,0 +1,40 @@
+{
+  "name": "ErgoDonk Zero",
+  "vendorId": "0x4A54",
+  "productId": "0x455A",
+  "matrix": {"rows": 12, "cols": 9},
+  "layouts": {
+    "labels": [],
+    "keymap": [
+      [{"y":0.25,"x":1,"c":"#777777"},"0,1\n\n\n\n\n\n\n\n\nEsc",{"x":0.25,"c":"#cccccc"},"0,2\n\n\n\n\n\n\n\n\nF1","0,3\n\n\n\n\n\n\n\n\nF2","0,4\n\n\n\n\n\n\n\n\nF3","0,5\n\n\n\n\n\n\n\n\nF4",{"x":0.25},"0,6\n\n\n\n\n\n\n\n\nF5","0,7\n\n\n\n\n\n\n\n\nF6",{"x":4},"6,7\n\n\n\n\n\n\n\n\nF7","6,6\n\n\n\n\n\n\n\n\nF8",{"x":0.25},"6,5\n\n\n\n\n\n\n\n\nF9","6,4\n\n\n\n\n\n\n\n\nF10","6,3\n\n\n\n\n\n\n\n\nF11","6,2\n\n\n\n\n\n\n\n\nF12",{"x":0.25,"c":"#777777"},"6,1\n\n\n\n\n\n\n\n\nDelete"],
+      [{"y":0.25,"x":4.5,"c":"#cccccc"},"1,4\n\n\n\n\n\n\n\n\n#\n3",{"x":10},"7,4\n\n\n\n\n\n\n\n\n*\n8"],
+      [{"y":-0.75,"x":3.5,"c":"#cccccc"},"1,3\n\n\n\n\n\n\n\n\n@\n2",{"x":1},"1,5\n\n\n\n\n\n\n\n\n$\n4",{"x":8,"c":"#cccccc"},"7,5\n\n\n\n\n\n\n\n\n&\n7",{"x":1},"7,3\n\n\n\n\n\n\n\n\n(\n9"],
+      [{"y":-0.75,"x":1.5},"1,1\n\n\n\n\n\n\n\n\n~\n`","1,2\n\n\n\n\n\n\n\n\n!\n1",{"x":3},"1,6\n\n\n\n\n\n\n\n\n%\n5","1,7\n\n\n\n\n\n\n\n\n*",{"x":4,"c":"#777777"},"7,7\n\n\n\n\n\n\n\n\nInsert",{"c":"#cccccc"},"7,6\n\n\n\n\n\n\n\n\n^\n6",{"x":3},"7,2\n\n\n\n\n\n\n\n\n)\n0"],
+      [{"y":-0.75,"x":8.75,"c":"#777777"},"0,8\n\n\n\n\n\n\n\n\n<i class=\"fa fa-volume-up\" aria-hidden=\"true\"></i>",{"x":1.5},"6,8\n\n\n\n\n\n\n\n\nPrtSc",{"x":6.25,"c":"#cccccc"},"7,1\n\n\n\n\n\n\n\n\n_\n-","7,0\n\n\n\n\n\n\n\n\n+\n=",{"c":"#777777","w":2},"6,0\n\n\n\n\n\n\n\n\nBackspace"],
+      [{"y":-0.75,"x":4.5,"c":"#cccccc"},"2,4\n\n\n\n\n\n\n\n\nE",{"x":10},"8,4\n\n\n\n\n\n\n\n\nI"],
+      [{"y":-0.75,"x":3.5},"2,3\n\n\n\n\n\n\n\n\nW",{"x":1},"2,5\n\n\n\n\n\n\n\n\nR",{"x":8},"8,5\n\n\n\n\n\n\n\n\nU",{"x":1},"8,3\n\n\n\n\n\n\n\n\nO"],
+      [{"y":-0.75,"x":1,"c":"#777777","w":1.5},"2,1\n\n\n\n\n\n\n\n\nTab",{"c":"#cccccc"},"2,2\n\n\n\n\n\n\n\n\nQ",{"x":3},"2,6\n\n\n\n\n\n\n\n\nT",{"c":"#777777"},"2,7\n\n\n\n\n\n\n\n\nPgUp",{"x":4},"8,7\n\n\n\n\n\n\n\n\nDelete",{"c":"#cccccc"},"8,6\n\n\n\n\n\n\n\n\nY",{"x":3},"8,2\n\n\n\n\n\n\n\n\nP"],
+      [{"y":-0.75,"x":8.75,"c":"#777777"},"1,8\n\n\n\n\n\n\n\n\n<i class=\"fa fa-volume-down\" aria-hidden=\"true\"></i>",{"x":1.5},"7,8\n\n\n\n\n\n\n\n\nScroll Lock",{"x":6.25,"c":"#cccccc"},"8,1\n\n\n\n\n\n\n\n\n{\n[","9,0\n\n\n\n\n\n\n\n\n}\n]",{"w":1.5},"8,0\n\n\n\n\n\n\n\n\n|\n\\"],
+      [{"y":-0.75,"x":4.5},"3,4\n\n\n\n\n\n\n\n\nD",{"x":10},"9,4\n\n\n\n\n\n\n\n\nK"],
+      [{"y":-0.75,"x":3.5},"3,3\n\n\n\n\n\n\n\n\nS",{"x":1,"n":true},"3,5\n\n\n\n\n\n\n\n\nF",{"x":8,"n":true},"9,5\n\n\n\n\n\n\n\n\nJ",{"x":1},"9,3\n\n\n\n\n\n\n\n\nL"],
+      [{"y":-0.75,"x":0.75,"c":"#aaaaaa","w":1.75},"3,1\n\n\n\n\n\n\n\n\nCaps Lock",{"c":"#cccccc"},"3,2\n\n\n\n\n\n\n\n\nA",{"x":3},"3,6\n\n\n\n\n\n\n\n\nG",{"c":"#777777"},"3,7\n\n\n\n\n\n\n\n\nPgDn",{"x":4,"c":"#cccccc"},"9,7\n\n\n\n\n\n\n\n\n5","9,6\n\n\n\n\n\n\n\n\nH",{"x":3},"9,2\n\n\n\n\n\n\n\n\n:\n;"],
+      [{"y":-0.75,"x":8.75,"c":"#777777"},"2,8\n\n\n\n\n\n\n\n\n<i class=\"fa fa-volume-off\" aria-hidden=\"true\"></i>",{"x":1.5},"8,8\n\n\n\n\n\n\n\n\nPause Break",{"x":6.25,"c":"#cccccc"},"9,1\n\n\n\n\n\n\n\n\n\"\n'",{"c":"#777777","w":2.25},"10,0\n\n\n\n\n\n\n\n\nEnter"],
+      [{"y":-0.75,"x":4.5,"c":"#cccccc"},"4,4\n\n\n\n\n\n\n\n\nC",{"x":10},"10,4\n\n\n\n\n\n\n\n\n<\n,"],
+      [{"y":-0.75,"x":3.5},"4,3\n\n\n\n\n\n\n\n\nX",{"x":1},"4,5\n\n\n\n\n\n\n\n\nV",{"x":8},"10,5\n\n\n\n\n\n\n\n\nM",{"x":1},"10,3\n\n\n\n\n\n\n\n\n>\n."],
+      [{"y":-0.75,"x":0.25,"c":"#aaaaaa","w":2.25},"4,1\n\n\n\n\n\n\n\n\nShift",{"c":"#cccccc"},"4,2\n\n\n\n\n\n\n\n\nZ",{"x":3},"4,6\n\n\n\n\n\n\n\n\nB","4,7\n\n\n\n\n\n\n\n\ne0",{"x":4},"10,7\n\n\n\n\n\n\n\n\ne1","10,6\n\n\n\n\n\n\n\n\nN",{"x":3},"10,2\n\n\n\n\n\n\n\n\n?\n/"],
+      [{"y":-0.75,"x":18.5,"c":"#aaaaaa","w":2.75},"10,1\n\n\n\n\n\n\n\n\nShift"],
+      [{"y":-0.75,"x":4.5,"c":"#cccccc","p":"SA"},"5,4\n\n\n\n\n\n\n\n\n→",{"x":10,"c":"#777777"},"11,4\n\n\n\n\n\n\n\n\n↑"],
+      [{"y":-0.75,"x":3.5,"c":"#cccccc"},"5,3\n\n\n\n\n\n\n\n\n←",{"x":12,"c":"#777777"},"11,3\n\n\n\n\n\n\n\n\n↓"],
+      [{"y":-0.75,"c":"#aaaaaa","w":1.25},"5,0\n\n\n\n\n\n\n\n\nCtrl",{"w":1.25},"5,1\n\n\n\n\n\n\n\n\nWin","5,2\n\n\n\n\n\n\n\n\nAlt",{"x":14},"11,2\n\n\n\n\n\n\n\n\nFn"],
+      [{"y":-0.75,"x":18.5,"w":1.25},"11,1\n\n\n\n\n\n\n\n\nWin",{"w":1.25},"11,0\n\n\n\n\n\n\n\n\nCtrl"],
+      [{"r":8,"rx":10.6,"ry":1,"y":4.75,"x":-1.3,"c":"#777777"},"3,8\n\n\n\n\n\n\n\n\nHome"],
+      [{"x":-3.3,"c":"#cccccc","h":2},"5,6\n\n\n\n\n\n\n\n\n+",{"h":2},"5,7\n\n\n\n\n\n\n\n\n0",{"c":"#777777"},"4,8\n\n\n\n\n\n\n\n\nEnd"],
+      [{"y":-0.25,"x":-4.3,"h":1.25},"5,5\n\n\n\n\n\n\n\n\nFn"],
+      [{"y":-0.75,"x":-1.3},"5,8\n\n\n\n\n\n\n\n\n4"],
+      [{"r":-8,"y":-3,"x":0.1},"9,8\n\n\n\n\n\n\n\n\nPgUp"],
+      [{"x":0.1},"10,8\n\n\n\n\n\n\n\n\nPgDn",{"c":"#cccccc","fa":[0,0,0,0,0,0,0,0,0,4],"h":2},"11,7\n\n\n\n\n\n\n\n\nShift",{"f":4,"h":2},"11,6\n\n\n\n\n\n\n\n\nEnter"],
+      [{"y":-0.25,"x":3.1,"c":"#777777","f":3,"h":1.25},"11,5\n\n\n\n\n\n\n\n\nAlt"],
+      [{"y":-0.75,"x":0.1,"c":"#cccccc"},"11,8\n\n\n\n\n\n\n\n\n6"]  
+    ]
+  }
+}
