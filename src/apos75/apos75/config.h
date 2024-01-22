@@ -23,7 +23,7 @@
     #endif
 #endif
 
-#define nrf_BLUETOOTH_ENABLE //BLUETOOTH_ENABLE
+//#define nrf_BLUETOOTH_ENABLE //BLUETOOTH_ENABLE
 // enable the nkro when using the VIA.
 #define FORCE_NKRO
 #define STM32_LSECLK 32768

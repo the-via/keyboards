@@ -45,38 +45,19 @@ typedef union {
 
 user_config_t user_config;
 #endif
-enum macos_consumer_usages {
-    _AC_SHOW_ALL_WINDOWS = 0x29F,  // mapped to KC_MCON
-    _AC_SHOW_ALL_APPS    = 0x2A0   // mapped to KC_LPAD
-};
-
 
 enum {
-    KC_MCTL = USER00,  // macOS Open Mission Control
-    KC_LPAD,           // macOS Open Launchpad
     RGB_TPK,           // Toggle Per-Key
     #ifndef APOS75_DISABLE_UNDERGLOW
     RGB_TUG,           // Toggle Underglow
     #endif
-    KB_VRSN = USER09   // debug, type version
+    KB_VRSN   // debug, type version
 };
 
 //static uint8_t my_lay_set;
 #ifdef APOS75_DISABLE_UNDERGLOW
     #define RGB_TUG _______
 #endif
-
-
-/* Special Keys */
-#define SK_LT1C LT(1, KC_CAPS)  // Layer Tap 1, i.e., Tap = Caps Lock, Hold = Layer 1
-#define SK_LT2M LT(2, KC_MENU)  // Layer Tap 2, i.e., Tap = Menu, Hold = Layer 2
-
-//#define GUSP(kc) (QK_LGUI | (kc))  //
-
-#ifdef APOS75_DISABLE_UNDERGLOW
-    #define RGB_TUG _______
-#endif
-
 
 /* Special Keys */
 #define SK_LT1C LT(1, KC_CAPS)  // Layer Tap 1, i.e., Tap = Caps Lock, Hold = Layer 1
@@ -186,10 +167,6 @@ void APOS75_get_rgb_mode(void) {
     user_config.raw = eeconfig_read_kb();  // read config from EEPROM
     APOS75_update_rgb_mode();
 }
-
-// void keyboard_post_init_user(void) {
-//     APOS75_get_rgb_mode();
-// }
 
 void eeconfig_init_user(void) {
     // EEPROM is getting reset!
@@ -314,26 +291,6 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
                 if (!record->event.pressed) {
                     SEND_STRING(QMK_KEYBOARD ":" QMK_KEYMAP " (v" QMK_VERSION ")");
                 }
-            }
-            return false;
-
-        case KC_MCLT:
-            if (record->event.pressed) {
-                host_consumer_send(_AC_SHOW_ALL_WINDOWS);
-                //send_consumer(_AC_SHOW_ALL_WINDOWS);
-            } else {
-                host_consumer_send(0);
-                //send_consumer(0);
-            }
-            return false;
-
-        case KC_LPAD:
-            if (record->event.pressed) {
-                host_consumer_send(_AC_SHOW_ALL_APPS);
-                //send_consumer(_AC_SHOW_ALL_APPS);
-            } else {
-                host_consumer_send(0);
-                //send_consumer(0);
             }
             return false;
         default:
