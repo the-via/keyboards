@@ -83,6 +83,7 @@
         ]
       }
     ],
+    "keycodes": ["qmk_lighting"],
     "matrix": {"rows": 5, "cols": 14},
     "layouts": {
       "labels": [
