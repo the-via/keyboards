@@ -18,21 +18,23 @@
 #include "version.h"
 #include "apos75.h"
 
-//#include "os_detection.h"
-
 #define LAYER_0 81
 #define LAYER_1 80
 #define LAYER_2 79
 #define LAYER_3 78
 
-bool lay_IS_LAYER0_ON;
-bool lay_IS_LAYER1_ON;
+bool lay_IS_LAYER1_ON;   //
 bool lay_IS_LAYER2_ON;
 bool lay_IS_LAYER3_ON;
+bool lay_IS_LAYER4_ON;
 
-//uint8_u lay_set_my;
 
-#ifdef RGB_MATRIX_ENABLE
+enum layer_names {
+    _ONE = 0,
+    _TWO,
+    _THREE,
+    _FOUR
+};
 typedef union {
     uint32_t raw;
     struct {
@@ -44,14 +46,14 @@ typedef union {
 } user_config_t;
 
 user_config_t user_config;
-#endif
+
 
 enum {
-    RGB_TPK,           // Toggle Per-Key
+    RGB_TPK = QK_USER_0,           // Toggle Per-Key
     #ifndef APOS75_DISABLE_UNDERGLOW
     RGB_TUG,           // Toggle Underglow
     #endif
-    KB_VRSN   // debug, type version
+    KB_VRSN     //= USER09   // debug, type version
 };
 
 //static uint8_t my_lay_set;
@@ -59,14 +61,17 @@ enum {
     #define RGB_TUG _______
 #endif
 
+
 /* Special Keys */
 #define SK_LT1C LT(1, KC_CAPS)  // Layer Tap 1, i.e., Tap = Caps Lock, Hold = Layer 1
 #define SK_LT2M LT(2, KC_MENU)  // Layer Tap 2, i.e., Tap = Menu, Hold = Layer 2
 
+#define GUSP(kc) (QK_LGUI | (kc))
 
-#define APOS75_CAPS_LOCK_KEY_INDEX 37  // position of Caps Lock key
+#define APOS75_CAPS_LOCK_KEY_INDEX 37 // position of Caps Lock key
 
 #define APOS75_CAPS_LOCK_MAX_BRIGHTNESS 60
+
 #ifdef RGB_MATRIX_MAXIMUM_BRIGHTNESS
     #undef APOS75_CAPS_LOCK_MAX_BRIGHTNESS
     #define APOS75_CAPS_LOCK_MAX_BRIGHTNESS RGB_MATRIX_MAXIMUM_BRIGHTNESS
@@ -78,30 +83,30 @@ enum {
     #define APOS75_CAPS_LOCK_VAL_STEP RGB_MATRIX_VAL_STEP
 #endif
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
-   LAYOUT(
+   [_ONE] = LAYOUT(
         KC_ESC,  KC_F1,   KC_F2,   KC_F3,   KC_F4,    KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_F9,
-		KC_F10,  KC_F11,  KC_F12,  KC_DEL, KC_VOLD,  KC_MUTE, KC_VOLU, KC_GRV,  KC_1,    KC_2,
+		KC_F10,  KC_F11,  KC_F12,  KC_DEL,  KC_VOLD,  KC_MUTE, KC_VOLU, KC_GRV,  KC_1,    KC_2,
 		KC_3,    KC_4,    KC_5,    KC_6,    KC_7,     KC_8,    KC_9,    KC_0,    KC_MINS, KC_EQL,
 		KC_BSPC, KC_PGUP, KC_TAB,  KC_Q,    KC_W,     KC_E,    KC_R,    KC_T,    KC_Y,    KC_U,
 		KC_I,    KC_O,    KC_P,    KC_LBRC, KC_RBRC,  KC_BSLS, KC_PGDN, KC_CAPS, KC_A,    KC_S,
 		KC_D,    KC_F,    KC_G,    KC_H,    KC_J,     KC_K,    KC_L,    KC_SCLN, KC_QUOT,
 		KC_ENT,  KC_HOME, KC_LSFT, KC_Z,    KC_X,     KC_C,    KC_V,    KC_B,    KC_N,    KC_M,
-		KC_COMM, KC_DOT,  KC_SLSH, KC_RSFT, KC_END,  KC_UP,   KC_LCTL, KC_LGUI,  KC_LALT,
-		KC_SPC,  KC_RALT, MO(1), KC_RCTL, KC_LEFT,    KC_DOWN, KC_RGHT),
+		KC_COMM, KC_DOT,  KC_SLSH, KC_RSFT, KC_END,   KC_UP,   KC_LCTL, KC_LGUI, KC_LALT,
+		KC_SPC,  KC_RALT, MO(1),   KC_RCTL, KC_LEFT,  KC_DOWN, KC_RGHT),
 
-	LAYOUT(
+	[_TWO] = LAYOUT(
 		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
 		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_MPRV, KC_MPLY, KC_MNXT, KC_TRNS, KC_TRNS, KC_TRNS,
 		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
-		KC_TRNS, KC_TRNS, DF(2),   KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
+		KC_TRNS, KC_TRNS, TG(2),   KC_TRNS ,KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
 		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
 		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
-		KC_TRNS, KC_TRNS, KC_TRNS, RGB_TOG, RGB_VAD, RGB_VAI, RGB_RMOD,RGB_MOD, RGB_SPD, RGB_SPI,
+		KC_TRNS, KC_TRNS, KC_TRNS,  RGB_TOG, RGB_VAD, RGB_VAI, RGB_RMOD,RGB_MOD, RGB_SPD, RGB_SPI,
 		RGB_HUI, RGB_HUD, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
 		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS),
 
-	LAYOUT(
-		KC_ESC, KC_F1,   KC_F2,   KC_F3,     KC_F4,    KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_F9,
+	[_THREE] = LAYOUT(
+		KC_ESC,  KC_F1,   KC_F2,   KC_F3,     KC_F4,    KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_F9,
 		KC_F10,  KC_F11,  KC_F12,  KC_DEL,    KC_VOLD,  KC_MUTE, KC_VOLU, KC_GRV,  KC_1,    KC_2,
 		KC_3,    KC_4,    KC_5,    KC_6,      KC_7,     KC_8,    KC_9,    KC_0,    KC_MINS, KC_EQL,
 		KC_BSPC, KC_PGUP, KC_TAB,  KC_Q,      KC_W,     KC_E,    KC_R,    KC_T,    KC_Y,    KC_U,
@@ -111,23 +116,20 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 		KC_COMM, KC_DOT,  KC_SLSH, KC_RSFT,   KC_END,   KC_UP,   KC_LCTL, KC_LALT, KC_LGUI,
 		KC_SPC,  KC_RGUI, MO(3),   KC_RALT,   KC_LEFT,  KC_DOWN, KC_RGHT),
 
-	LAYOUT(
+	[_FOUR] = LAYOUT(
 		KC_TRNS, KC_BRID, KC_BRIU, KC_MCTL,  KC_LPAD,   KC_WSCH, LGUI(KC_SPC),KC_MPRV, KC_MPLY, KC_MNXT,
-		KC_MUTE, KC_VOLD, KC_VOLU, KC_TRNS,  KC_MPRV,   KC_MPLY, KC_MNXT, KC_TRNS, KC_TRNS, KC_TRNS,
-		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,  KC_TRNS,   KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
-		KC_TRNS, KC_TRNS, DF(0),   KC_TRNS,  KC_TRNS ,  KC_TRNS ,KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
-		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,  KC_TRNS,   KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
-		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,  KC_TRNS,   KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
-		KC_TRNS, KC_TRNS, KC_TRNS, RGB_TOG,  RGB_VAD,   RGB_VAI, RGB_RMOD,RGB_MOD, RGB_SPD, RGB_SPI,
-		RGB_HUI, RGB_HUD, KC_TRNS, KC_TRNS,  KC_TRNS,   KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
+		KC_MUTE, KC_VOLD, KC_VOLU, KC_TRNS,  KC_MPRV,   KC_MPLY, KC_MNXT,     KC_TRNS, KC_TRNS, KC_TRNS,
+		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,  KC_TRNS,   KC_TRNS, KC_TRNS,     KC_TRNS, KC_TRNS, KC_TRNS,
+		KC_TRNS, KC_TRNS, TO(0),   KC_TRNS,  KC_TRNS,   KC_TRNS, KC_TRNS,     KC_TRNS, KC_TRNS, KC_TRNS,
+		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,  KC_TRNS,   KC_TRNS, KC_TRNS,     KC_TRNS, KC_TRNS, KC_TRNS,
+		KC_TRNS, KC_F23,  KC_TRNS, KC_TRNS,  KC_TRNS,   KC_TRNS, KC_TRNS,     KC_TRNS, KC_TRNS,
+		KC_TRNS, KC_TRNS, KC_TRNS,  RGB_TOG,  RGB_VAD,   RGB_VAI, RGB_RMOD,    RGB_MOD, RGB_SPD, RGB_SPI,
+		RGB_HUI, RGB_HUD, KC_TRNS, KC_TRNS,  KC_TRNS,   KC_TRNS, KC_TRNS,     KC_TRNS, KC_TRNS,
 		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,  KC_TRNS,   KC_TRNS, KC_TRNS)
 
 };
 
 #ifdef RGB_MATRIX_ENABLE
-
-user_config_t user_config;
-
 void APOS75_update_rgb_mode(void) {
     uint8_t flags = LED_FLAG_ALL;
 
@@ -174,8 +176,7 @@ void eeconfig_init_user(void) {
     APOS75_update_rgb_mode();
 }
 
-void rgb_matrix_indicators_advanced_user(uint8_t led_min, uint8_t led_max) {
-    // Caps Lock key stuff
+bool rgb_matrix_indicators_advanced_user(uint8_t led_min, uint8_t led_max) {
     if (host_keyboard_led_state().caps_lock) {
         uint8_t v = rgb_matrix_get_val();
         if (v < APOS75_CAPS_LOCK_VAL_STEP) {
@@ -187,43 +188,92 @@ void rgb_matrix_indicators_advanced_user(uint8_t led_min, uint8_t led_max) {
         } else {
             v = APOS75_CAPS_LOCK_MAX_BRIGHTNESS;
         }
-        rgb_matrix_set_color(APOS75_CAPS_LOCK_KEY_INDEX, v, v, v);  // white, brightness adjusted
+        rgb_matrix_set_color(APOS75_CAPS_LOCK_KEY_INDEX, v, v, v);   // white, brightness adjusted
     } else if (user_config.rgb_disable_perkey) {
         rgb_matrix_set_color(APOS75_CAPS_LOCK_KEY_INDEX, HSV_OFF);  // off
-    }
-    switch(get_highest_layer(layer_state|default_layer_state)) {
+      }
+  switch(get_highest_layer(layer_state|default_layer_state)) {
         case 0:
-            rgb_matrix_set_color(80, RGB_BLUE);
+            if(lay_IS_LAYER1_ON)
+                {
+                  rgb_matrix_set_color(LAYER_1, RGB_OFF);
+                  lay_IS_LAYER1_ON = false ;
+                }
+            if(lay_IS_LAYER2_ON)
+                {
+                  rgb_matrix_set_color(LAYER_2, RGB_OFF);
+                  lay_IS_LAYER2_ON = false ;
+                }
+            if(lay_IS_LAYER3_ON)
+              {
+                 rgb_matrix_set_color(LAYER_3, RGB_OFF);
+                 lay_IS_LAYER3_ON = false ;
+               }
             break;
         case 1:
-            rgb_matrix_set_color(79, RGB_YELLOW);
+            rgb_matrix_set_color(LAYER_1, RGB_BLUE);
+            if(lay_IS_LAYER2_ON)
+                {
+                  rgb_matrix_set_color(LAYER_2, RGB_OFF);
+                  lay_IS_LAYER2_ON = false ;
+                }
+            if(lay_IS_LAYER3_ON)
+               {
+               rgb_matrix_set_color(LAYER_3, RGB_OFF);
+               lay_IS_LAYER3_ON = false ;
+               }
+            lay_IS_LAYER1_ON = true ;
             break;
         case 2:
-            rgb_matrix_set_color(78, RGB_BLUE);
+            rgb_matrix_set_color(LAYER_2, RGB_BLUE);
+            if(lay_IS_LAYER1_ON)
+                {
+                  rgb_matrix_set_color(LAYER_1, RGB_OFF);
+                  lay_IS_LAYER1_ON = false ;
+                }
+            if(lay_IS_LAYER3_ON)
+              {
+                 rgb_matrix_set_color(LAYER_3, RGB_OFF);
+                 lay_IS_LAYER3_ON = false ;
+               }
+            lay_IS_LAYER2_ON = true ;
             break;
         case 3:
-            rgb_matrix_set_color(77, RGB_YELLOW);
+            rgb_matrix_set_color(LAYER_3, RGB_BLUE);
+            if(lay_IS_LAYER1_ON)
+                {
+                  rgb_matrix_set_color(LAYER_1, RGB_OFF);
+                  lay_IS_LAYER1_ON = false ;
+                }
+            if(lay_IS_LAYER2_ON)
+               {
+                 rgb_matrix_set_color(LAYER_2, RGB_OFF);
+                 lay_IS_LAYER2_ON = false ;
+               }
+            lay_IS_LAYER3_ON = true ;
             break;
         default:
             break;
     }
+  return true;
+}
+#endif //end RGB_MATRIX_ENABLE
 
-#endif  // RGB_MATRIX_ENABLE
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
-#ifdef RGB_MATRIX_ENABLE
     switch(keycode) {
         case TG(2):
            if (record->event.pressed) {
              set_single_persistent_default_layer(2);
              layer_state_set(2);
            }
-           return false;
+           return true;
         case TO(0):
            if (record->event.pressed) {
-             set_single_persistent_default_layer(0);
-             layer_state_set(0);
+            set_single_persistent_default_layer(0);
+            layer_state_set(0);
            }
            return false;
+        #ifdef RGB_MATRIX_ENABLE
         case QK_BOOT:
             if (record->event.pressed) {
                 rgb_matrix_set_color_all(RGB_MATRIX_MAXIMUM_BRIGHTNESS, 0, 0);  // All red
@@ -246,7 +296,6 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
                 #endif
                    ) {
                     user_config.rgb_disable_perkey = 1;
-
                 #ifndef APOS75_DISABLE_UNDERGLOW
                 } else if ((user_config.rgb_disable_perkey) && (!user_config.rgb_disable_underglow)) {
                     user_config.rgb_disable_perkey = 0;
@@ -266,7 +315,6 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
                 APOS75_update_rgb_mode();
             }
             return false;
-
         case RGB_TPK:
             if (record->event.pressed) {
                 user_config.rgb_disable_perkey ^= 1;
@@ -286,6 +334,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
                 APOS75_get_rgb_mode();
             }
             return true;  // let this one pass on
+        #endif //end RGB_MATRIX_ENABLE
         case KB_VRSN:
             if (!get_mods()) {
                 if (!record->event.pressed) {
@@ -294,49 +343,45 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
             }
             return false;
         default:
-             return true;
+            return true;
      }
- #endif //RGB_MATRIX_ENABLE
  return true;
 }
+
 
 #ifdef ENCODER_ENABLE
 bool encoder_update_user(uint8_t index, bool clockwise) {
     if (index == 0) {
        if (IS_LAYER_ON(0)){
         if (clockwise) {
-            tap_code(dynamic_keymap_get_keycode(biton32(layer_state), 8, 5));//tap_code(KC_VOLU);
+            tap_code(dynamic_keymap_get_keycode(biton32(layer_state), 8, 6));//tap_code(KC_VOLU);
         } else {
-            tap_code(dynamic_keymap_get_keycode(biton32(layer_state), 8, 6));//tap_code(KC_VOLD);
-        }
-       }
+            tap_code(dynamic_keymap_get_keycode(biton32(layer_state), 8, 5));//tap_code(KC_VOLD);
+        } }
        else if(IS_LAYER_ON(1)){
         if (clockwise) {
-            tap_code(dynamic_keymap_get_keycode(biton32(layer_state), 8, 5));//tap_code(KC_VOLD);
+            tap_code(dynamic_keymap_get_keycode(biton32(layer_state), 8, 6));//tap_code(KC_VOLU);
         } else {
-            tap_code(dynamic_keymap_get_keycode(biton32(layer_state), 8, 6));//tap_code(KC_VOLD);
-        }
-       }
+            tap_code(dynamic_keymap_get_keycode(biton32(layer_state), 8, 5));//tap_code(KC_VOLD);
+        } }
        else if(IS_LAYER_ON(2)){
         if (clockwise) {
-                tap_code(dynamic_keymap_get_keycode(biton32(layer_state), 8, 5));//tap_code(KC_VOLD);
+            tap_code(dynamic_keymap_get_keycode(biton32(layer_state), 8, 6));//tap_code(KC_VOLU);
         } else {
-                tap_code(dynamic_keymap_get_keycode(biton32(layer_state), 8, 6));//tap_code(KC_VOLD);
-        }
-       }
+            tap_code(dynamic_keymap_get_keycode(biton32(layer_state), 8, 5));//tap_code(KC_VOLD);
+        } }
        else if(IS_LAYER_ON(3)){
         if (clockwise) {
-
-                tap_code(dynamic_keymap_get_keycode(biton32(layer_state), 8, 5));//tap_code(KC_VOLD);
+            tap_code(dynamic_keymap_get_keycode(biton32(layer_state), 8, 6));//tap_code(KC_VOLU);
         } else {
-                tap_code(dynamic_keymap_get_keycode(biton32(layer_state), 8, 6));//tap_code(KC_VOLD);
-        }
-       }
+            tap_code(dynamic_keymap_get_keycode(biton32(layer_state), 8, 5));//tap_code(KC_VOLU);
+        } }
+        else {};
     }
     return true;
 }
 #endif
-#ifdef RGB_MATRIX_ENABLE
+#if defined(RGB_MATRIX_ENABLE)
 #if defined(APOS75_DISABLE_UNDERGLOW) && defined(APOS75_DISABLED_LED_TOTAL)
 void keyboard_post_mykey(void) {
     uint8_t i;
@@ -356,4 +401,3 @@ void keyboard_post_init_user(void)
  #endif  // RGB_MATRIX_ENABLE
 writePinHigh(RGB_SW_PIN);            //open RGB
 }
-
