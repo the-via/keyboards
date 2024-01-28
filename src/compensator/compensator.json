@@ -2,6 +2,7 @@
   "name": "Compensator",
   "vendorId": "0x564B",
   "productId": "0x0001",
+  "lighting": "none",
   "matrix": { "rows": 8, "cols": 16 },
   "layouts": {
     "labels": [
