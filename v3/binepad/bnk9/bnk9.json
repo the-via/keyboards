@@ -84,7 +84,7 @@
               "showIf": "{id_qmk_rgb_matrix_effect} == 16",
               "label": "4. Middle Left Key",
               "type": "color",
-              "content": ["id_custom_color[3]", 0, 1, 3]
+              "content": ["id_custom_color[3]", 0, 1, 5]
             },
             {
               "showIf": "{id_qmk_rgb_matrix_effect} == 16",
@@ -96,7 +96,7 @@
               "showIf": "{id_qmk_rgb_matrix_effect} == 16",
               "label": "6. Middle Right Key",
               "type": "color",
-              "content": ["id_custom_color[5]", 0, 1, 5]
+              "content": ["id_custom_color[5]", 0, 1, 3]
             },
             {
               "showIf": "{id_qmk_rgb_matrix_effect} == 16",
