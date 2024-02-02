@@ -4,6 +4,13 @@
     "productId": "0x0012",
     "keycodes": ["qmk_lighting"],
     "menus": ["qmk_rgblight"],
+    "customKeycodes": [
+        {
+            "name": "Cycle Layers",
+            "title": "Cycle through the layers (Place on same key on all layers)",
+            "shortName": "L_CYC"
+        }
+    ],
     "matrix": {
         "rows": 4,
         "cols": 4
