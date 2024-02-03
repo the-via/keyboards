@@ -2,6 +2,7 @@
    "name":"Proteus67",
    "vendorId":"0x7072",
    "productId":"0x6F64",
+	"keycodes": [ "qmk_lighting" ],
    "menus": ["qmk_rgblight"],
    "matrix":{
       "rows":5,
