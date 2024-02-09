@@ -1,5 +1,5 @@
 {
-  "name": "Keychron V8",
+  "name": "Keychron V8 ANSI Knob",
   "vendorId": "0x3434",
   "productId": "0x0381",
   "keycodes": ["qmk_lighting"],

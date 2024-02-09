@@ -2,7 +2,22 @@
   "name": "wilba.tech WT60-BX",
   "vendorId": "0x6582",
   "productId": "0x60b1",
-  "keycodes": ["wt_lighting"],
+  "customKeycodes": [
+    {"name": "Bright +", "title": "Brightness +", "shortName": "BR +"},
+    {"name": "Bright -", "title": "Brightness -", "shortName": "BR -"},
+    {"name": "Effect +", "title": "Effect +", "shortName": "EF +"},
+    {"name": "Effect -", "title": "Effect -", "shortName": "EF -"},
+    {"name": "Effect Speed +", "title": "Effect Speed +", "shortName": "ES +"},
+    {"name": "Effect Speed -", "title": "Effect Speed -", "shortName": "ES -"},
+    {"name": "Color1 Hue +", "title": "Color1 Hue +", "shortName": "H1 +"},
+    {"name": "Color1 Hue -", "title": "Color1 Hue -", "shortName": "H1 -"},
+    {"name": "Color2 Hue +", "title": "Color2 Hue +", "shortName": "H2 +"},
+    {"name": "Color2 Hue -", "title": "Color2 Hue -", "shortName": "H2 -"},
+    {"name": "Color1 Sat +", "title": "Color1 Sat +", "shortName": "S1 +"},
+    {"name": "Color1 Sat -", "title": "Color1 Sat -", "shortName": "S1 -"},
+    {"name": "Color2 Sat +", "title": "Color2 Sat +", "shortName": "S2 +"},
+    {"name": "Color2 Sat -", "title": "Color2 Sat -", "shortName": "S2 -"}
+  ],
   "menus": [
     {
       "label": "Lighting",
