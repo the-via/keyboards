@@ -2,28 +2,7 @@
   "name": "Pearl 40% - By Koobaczech",
   "vendorId": "0x6963",
   "productId": "0x6965",
-  "menus": ["qmk_rgblight",
-  {
-    "label": "Audio",
-    "content": [
-      {
-        "label": "General",
-        "content": [
-          {
-            "label": "Enable Buzzer",
-            "type": "toggle",
-            "content": ["id_qmk_audio_enable", 4, 1]
-          },
-          {
-            "label": "Audio Clicky Enable",
-            "type": "toggle",
-            "content": ["id_qmk_audio_clicky_enable", 4, 2]
-          }
-        ]
-      }
-    ]
-  }
-],
+  "menus": ["qmk_rgblight", "qmk_audio"],
   "matrix": {"rows": 4, "cols": 13},
   "layouts": {
     "labels": [
