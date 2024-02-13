@@ -2,8 +2,8 @@
     "name": "DOIO KB04-01",
     "vendorId": "0xD010",
     "productId": "0x0401",
-    "menus": ["qmk_rgblight"],
-          "keycodes": ["qmk_lighting"],
+    "keycodes": ["qmk_lighting"],
+    "menus": ["qmk_rgb_matrix"],
     "matrix": { "rows": 1,  "cols": 5},
     "layouts": {
       "keymap":[
