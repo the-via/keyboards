@@ -1,7 +1,7 @@
 {
-    "name": "Soyuz",
+    "name": "SoyuzXL",
     "vendorId": "0x5757",
-    "productId": "0x0004",
+    "productId": "0x0005",
     "matrix": {
         "rows": 3,
         "cols": 7 
