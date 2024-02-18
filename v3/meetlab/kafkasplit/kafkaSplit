@@ -9,6 +9,7 @@
     "menus": [
         "qmk_rgb_matrix"
     ],
+    "keycodes": [ "qmk_lighting" ],
     "layouts": {
         "keymap": [
             [
