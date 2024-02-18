@@ -1,0 +1,22 @@
+{
+    "name": "DOIO KB04-01",
+    "vendorId": "0xD010",
+    "productId": "0x0401",
+    "keycodes": ["qmk_lighting"],
+    "menus": ["qmk_rgb_matrix"],
+    "matrix": { "rows": 1,  "cols": 5},
+    "layouts": {
+      "keymap":[
+      [
+      "0,0",      
+      "0,1",
+      "0,2",
+      "0,3"
+    ],
+    [
+      {"x": 1.5,"y": 1},
+      "0,4\n\n\n\n\n\n\n\n\ne0"
+    ]
+]
+}
+}
