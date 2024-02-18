@@ -11,7 +11,7 @@
       "ISO Enter",
       "ISO Left Shift",
       "Right Shift with Arrow Up",
-      ["Bottom Row", "ANSI", "7u", "Arrow Keys"]
+      ["Bottom Row", "Standard", "Tsangan", "Arrow", "Tsangan Arrow"]
     ],
     "keymap": [
       [
@@ -32,7 +32,7 @@
         "0,12",
         {"w": 2},
         "0,13\n\n\n0,0",
-        {"x": 0.25},
+        {"x": 0.5},
         "0,13\n\n\n0,1",
         "4,9\n\n\n0,1"
       ],
@@ -160,6 +160,21 @@
         "4,8\n\n\n4,2",
         "4,12\n\n\n4,2",
         "4,13\n\n\n4,2"
+      ],
+      [
+        {"c": "#aaaaaa", "x": 2.5, "w": 1.5},
+        "4,0\n\n\n4,3",
+        "4,1\n\n\n4,3",
+        {"w": 1.5},
+        "4,2\n\n\n4,3",
+        {"c": "#cccccc", "w": 7},
+        "4,5\n\n\n4,3",
+        {"c": "#aaaaaa"},
+        "4,11\n\n\n4,3",
+        {"c": "#777777"},
+        "4,8\n\n\n4,3",
+        "4,12\n\n\n4,3",
+        "4,13\n\n\n4,3"
       ]
     ]
   }
