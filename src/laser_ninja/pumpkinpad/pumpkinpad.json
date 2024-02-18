@@ -2,8 +2,7 @@
   "name": "Pumpkinpad",
   "vendorId": "0x6C6E",
   "productId": "0x7070",
-  "keycodes": ["qmk_lighting"],
-  "menus": ["qmk_rgb_matrix"],
+  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 3,
     "cols": 4
