@@ -12,7 +12,7 @@
       ["Enter", "ANSI", "ISO"],
       "Full Left Shift",
       "Full Right Shift",
-      ["Bottom Row", "Split", "ANSI", "Tsangan / 10u"]
+      ["Bottom Row", "Split (Right offset)", "Standard", "Tsangan", "WKL", "7u HHKB", "10u Spacebar", "Split (Left offset)"]
     ],
     "keymap"  : [
       [
