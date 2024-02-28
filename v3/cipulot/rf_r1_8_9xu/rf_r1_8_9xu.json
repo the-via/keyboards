@@ -1,7 +1,7 @@
 {
   "name": "RF R1 8-9Xu",
   "vendorId": "0x6369",
-  "productId": "0x6BAC",
+  "productId": "0x6B8B",
   "keycodes": [
     "qmk_lighting"
   ],

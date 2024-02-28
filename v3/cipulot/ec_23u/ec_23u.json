@@ -1,7 +1,7 @@
 {
   "name": "EC 23U",
   "vendorId": "0x6369",
-  "productId": "0x6BAE",
+  "productId": "0x6B95",
   "keycodes": [
     "qmk_lighting"
   ],

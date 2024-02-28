@@ -1,7 +1,7 @@
 {
   "name": "EC Pro X JIS",
   "vendorId": "0x6369",
-  "productId": "0x6BB0",
+  "productId": "0x6B99",
   "keycodes": [
     "qmk_lighting"
   ],

@@ -1,7 +1,7 @@
 {
   "name": "EC Pro 2",
   "vendorId": "0x6369",
-  "productId": "0x6BAB",
+  "productId": "0x6B8E",
   "keycodes": [
     "qmk_lighting"
   ],
