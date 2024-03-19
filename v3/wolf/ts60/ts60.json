@@ -24,13 +24,14 @@
       ],
       [
         "Row 4 Options",
-        "ANSI",
-        "Winkey",
+        "Standard",
         "Split Space Short Left",
         "Split Space Short Right",
+        "Arrow B",
+        "LWKL Arrow",
         "Tsangan",
-        "7u Left",
-        "7u"
+        "Arrow",
+        "Tsangan Arrow"
       ]
     ],
     "keymap": [
@@ -406,6 +407,20 @@
         "8,6\n\n\n3,6",
         "8,7\n\n\n3,6",
         "9,7\n\n\n3,6"
+      ],
+      [
+        {"w": 1.5},
+        "8,0\n\n\n3,7",
+        "9,0\n\n\n3,7",
+        {"w": 1.5},
+        "8,1\n\n\n3,7",
+        {"c": "#cccccc", "w": 7},
+        "8,3\n\n\n3,7",
+        {"c": "#aaaaaa"},
+        "9,5\n\n\n3,7",
+        "8,6\n\n\n3,7",
+        "8,7\n\n\n3,7",
+        "9,7\n\n\n3,7"
       ]
     ]
   }

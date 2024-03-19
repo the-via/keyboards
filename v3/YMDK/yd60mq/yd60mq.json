@@ -27,9 +27,10 @@
         "HHKB",
         "WKL",
         "Arrow Keys",
-        "Japanese",
+        "Minila",
         "Split Spacebar",
-        "Split Spacebar Arrow Keys"
+        "Split Spacebar Arrow Keys",
+        "Tsangan Arrow"
       ]
     ],
     "keymap": [
@@ -626,6 +627,33 @@
         "4,11\n\n\n3,7",
         "4,12\n\n\n3,7",
         "4,13\n\n\n3,7"
+      ],
+      [
+        {
+          "c": "#aaaaaa",
+          "w": 1.5
+        },
+        "4,0\n\n\n3,8",
+        "4,1\n\n\n3,8",
+        {
+          "w": 1.5
+        },
+        "4,2\n\n\n3,8",
+        {
+          "c": "#777777",
+          "w": 7
+        },
+        "4,7\n\n\n3,8",
+        {
+          "c": "#aaaaaa"
+        },
+        "4,10\n\n\n3,8",
+        {
+          "c": "#777777"
+        },
+        "4,11\n\n\n3,8",
+        "4,12\n\n\n3,8",
+        "4,13\n\n\n3,8"
       ]
     ]
   }

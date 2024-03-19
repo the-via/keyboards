@@ -25,12 +25,13 @@
       [
         "Bottom row",
         "6.25U",
-        "7U",
+        "Tsangan",
         "6.25U Arrows",
         "6.25U Arrows B",
-        "7U Arrows",
+        "LWKL Arrows",
         "HHKB",
-        "WKL"
+        "WKL",
+        "Tsangan Arrows"
       ]
     ],
     "keymap": [
@@ -396,6 +397,20 @@
         "\n\n\n3,6",
         {"w": 1.5},
         "4,13\n\n\n3,6"
+      ],
+      [
+        {"x": 2.5, "w": 1.5},
+        "4,0\n\n\n3,7",
+        "4,1\n\n\n3,7",
+        {"w": 1.5},
+        "4,2\n\n\n3,7",
+        {"c": "#cccccc", "w": 7},
+        "4,5\n\n\n3,7",
+        {"c": "#aaaaaa"},
+        "4,11\n\n\n3,7",
+        "4,8\n\n\n3,7",
+        "4,12\n\n\n3,7",
+        "4,13\n\n\n3,7"
       ]
     ]
   }

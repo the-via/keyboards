@@ -13,12 +13,13 @@
       ["Right shift", "Full", "Split", "Arrows"],
       [
         "Bottom Row",
-        "Ansi",
+        "Standard",
         "Tsangan",
         "6.25u Arrows",
-        "7u Arrows",
+        "LWKL Arrows",
         "Split Ansi",
-        "Split Arrows"
+        "Split Arrows",
+        "Tsangan Arrows"
       ]
     ],
     "keymap": [
@@ -186,7 +187,7 @@
         "4,13\n\n\n4,3"
       ],
       [
-        {"y": 0.5, "x": 2.75, "w": 1.25},
+        {"x": 2.75, "w": 1.25},
         "4,0\n\n\n4,4",
         {"w": 1.25},
         "4,1\n\n\n4,4",
@@ -226,6 +227,20 @@
         "4,11\n\n\n4,5",
         "4,12\n\n\n4,5",
         "4,13\n\n\n4,5"
+      ],
+      [
+        {"x": 2.75, "w": 1.5},
+        "4,0\n\n\n4,6",
+        "4,1\n\n\n4,6",
+        {"w": 1.5},
+        "4,2\n\n\n4,6",
+        {"c": "#cccccc", "w": 7},
+        "4,6\n\n\n4,6",
+        {"c": "#aaaaaa"},
+        "4,10\n\n\n4,6",
+        "4,11\n\n\n4,6",
+        "4,12\n\n\n4,6",
+        "4,13\n\n\n4,6"
       ]
     ]
   }
