@@ -1,0 +1,125 @@
+{
+  "name": "mokey12x2",
+  "vendorId": "0x6653",
+  "productId": "0x012A",
+  "matrix": { "rows": 4,"cols": 5 },
+  "keycodes": ["qmk_lighting"], 
+  "menus": [
+    {
+      "label": "Lighting",
+      "content": [
+        {
+          "label": "Backlight",
+          "content": [
+            {
+              "label": "Brightness",
+              "type": "range",
+              "options": [0, 200],
+              "content": ["id_qmk_rgb_matrix_brightness", 3, 1]
+            },
+            {
+              "label": "Effect",
+              "type": "dropdown",
+              "content": ["id_qmk_rgb_matrix_effect", 3, 2],
+              "options": [
+                ["All Off", 0],
+                ["SOLID_COLOR", 1],
+                ["BREATHING", 2],
+                ["CYCLE_ALL", 3],
+                ["CYCLE_LEFT_RIGHT", 4],
+                ["CYCLE_UP_DOWN", 5],
+                ["RAINBOW_MOVING_CHEVRON", 6],
+                ["CYCLE_OUT_IN", 7],
+                ["CYCLE_OUT_IN_DUAL", 8],
+                ["CYCLE_PINWHEEL", 9],
+                ["CYCKE_SPIRAL", 10],
+                ["DUAL_BEACON", 11],
+                ["RAINBOW_BEACON", 12],
+                ["RAINDROPS", 13],
+                ["TYPING_HEATMAP", 14],
+                ["SOLID_REACTIVE_SIMPLE", 15],
+                ["SOLID_REACTIVE", 16],
+                ["SOLID_REACTIVE_CROSS", 17],
+                ["MATRIX_MULTISPLASH", 18]
+              ]
+            },
+            {
+              "showIf": "{id_qmk_rgb_matrix_effect} != 0",
+              "label": "Effect Speed",
+              "type": "range",
+              "options": [0, 255],
+              "content": ["id_qmk_rgb_matrix_effect_speed", 3, 3]
+            },
+            {
+              "showIf": "{id_qmk_rgb_matrix_effect} != 0",
+              "label": "Color",
+              "type": "color",
+              "content": ["id_qmk_rgb_matrix_color", 3, 4]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "layouts": {
+    "keymap":[
+  [
+    {
+      "x": 0.25,
+      "c": "#777777",
+      "w": 1.5,
+      "h": 1.5
+    },
+    "0,4",
+    {
+      "x": 1,
+      "w": 1.5,
+      "h": 1.5
+    },
+    "1,4"
+  ],
+  [
+    {
+      "y": 0.5,
+      "c": "#aaaaaa"
+    },
+    "3,0",
+    "3,1",
+    {
+      "x": 0.5
+    },
+    "3,2",
+    "3,3"
+  ],
+  [
+    {
+      "y": 0.25,
+      "x": 0.25,
+      "c": "#cccccc"
+    },
+    "0,0",
+    "0,1",
+    "0,2",
+    "0,3"
+  ],
+  [
+    {
+      "x": 0.25
+    },
+    "1,0",
+    "1,1",
+    "1,2",
+    "1,3"
+  ],
+  [
+    {
+      "x": 0.25
+    },
+    "2,0",
+    "2,1",
+    "2,2",
+    "2,3"
+  ]
+]
+  }
+}
