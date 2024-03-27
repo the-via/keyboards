@@ -24,7 +24,7 @@
                 "0,6",
                 "0,7",
                 {
-                    "x": 1.5250000000000004,
+                    "x": 1.525,
                     "c": "#777777"
                 },
                 "6,0",
@@ -55,7 +55,7 @@
                 "1,6",
                 "1,7",
                 {
-                    "x": 1.5250000000000004
+                    "x": 1.525
                 },
                 "7,0",
                 "7,1",
@@ -84,7 +84,7 @@
                 "2,5",
                 "2,6",
                 {
-                    "x": 1.5250000000000004
+                    "x": 1.525
                 },
                 "8,0",
                 "8,1",
@@ -117,7 +117,7 @@
                 "3,5",
                 "3,6",
                 {
-                    "x": 1.5250000000000004
+                    "x": 1.525
                 },
                 "9,0",
                 {
@@ -149,7 +149,7 @@
                 "4,6",
                 "4,7",
                 {
-                    "x": 0.5250000000000004
+                    "x": 0.525
                 },
                 "10,0",
                 "10,1",
@@ -183,18 +183,18 @@
                 },
                 "5,6",
                 {
-                    "x": 0.7750000000000004,
+                    "x": 0.775,
                     "w": 2.25
                 },
                 "11,1",
                 {
-                    "x": -0.025000000000000355,
+                    "x": -0.025,
                     "c": "#aaaaaa",
                     "w": 1.25
                 },
                 "11,2",
                 {
-                    "x": 0.025000000000000355,
+                    "x": 0.025,
                     "w": 1.25
                 },
                 "11,3",
@@ -212,5 +212,105 @@
                 "11,7"
             ]
         ]
-    }
+    },
+    "menus": [
+      {
+          "label": "PMK Custom Settings",
+          "content": [
+              
+              {
+                  "label": "Hardware Repeat",
+                  "content": [
+                  {
+                      "label": "Enable Hardware Repeat",
+                      "type": "toggle",
+                      "options": [0, 1],
+                      "content": ["id_enable_repeat", 0, 1]
+                  },
+                  {
+                      "showIf": "{id_enable_repeat} == 1",
+                      "content": [
+                      {
+                          "label": "Repeat Numbers",
+                          "content": ["id_repeat_numbers", 0, 3],
+                          "type": "toggle"
+                      }, 
+                      {
+                          "label": "Repeat Alphas",
+                          "content": ["id_repeat_alphas", 0, 4],
+                          "type": "toggle"
+                      }, 
+                      {
+                          "label": "Repeat Mods",
+                          "content": ["id_repeat_mods", 0, 5],
+                          "type": "toggle"
+                      }, 
+                      {
+                          "label": "Repeat Delay (ms) [min: 100; max: 250]",
+                          "type": "range",
+                          "options": [100, 250],
+                          "content": ["id_repeat_delay", 0, 6]
+                      }, 
+                      {
+                          "label": "Repeat Term (ms) [min: 5; max: 15]",
+                          "type": "range",
+                          "options": [5, 15],
+                          "content": ["id_repeat_rate", 0, 7]
+                      }
+                      ]
+                  }
+                  ]
+                  
+              },
+              {
+                  "label": "Capslock LED Settings",
+                  "content": [
+                      {
+                          "label": "Enable Capslock LED",
+                          "type": "toggle",
+                          "content": ["id_caps_flash", 0, 2]
+                      },
+                      {
+                          "showIf": "{id_caps_flash} == 1",
+                          "label": "Enable Capslock Twinkle",
+                          "type": "toggle",
+                          "content": ["id_caps_twinkle", 0, 12]
+                      }, 
+                      {
+                          "showIf": "{id_caps_flash} == 1",
+                          "label": "Caps Color",
+                          "type": "color",
+                          "content": ["id_caps_color", 0, 13]
+                      }
+                  ]
+              },
+              {
+                  "label": "Layer Lighting",
+                  "content": [
+                      {
+                          "label": "LED Brightness",
+                          "type": "range",
+                          "options": [0, 255],
+                          "content": ["id_led_brightness", 0, 8]
+                      }, 
+                      {
+                          "label": "Typing Color",
+                          "type": "color",
+                          "content": ["id_typing_color", 0, 9]
+                      }, 
+                      {
+                          "label": "Gaming Color",
+                          "type": "color",
+                          "content": ["id_gaming_color", 0, 10]
+                      }, 
+                      {
+                          "label": "Mods Color",
+                          "type": "color",
+                          "content": ["id_mods_color", 0, 11]
+                      }
+                  ]
+              }
+          ]
+      }
+  ]
 }
