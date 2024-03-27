@@ -1,7 +1,5 @@
 {
   "name": "61Key by 0xC7",
-  "vendorId": "0xE117",
-  "productId": "0x6161",
   "matrix": {"rows": 5, "cols": 14},
   "layouts": {
     "keymap": [
