@@ -2,9 +2,6 @@
   "name": "PloopyCo Mouse",
   "vendorId": "0x5043",
   "productId": "0x4D6F",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "customKeycodes": [
     {
       "name": "DPI Config",

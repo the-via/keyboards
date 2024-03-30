@@ -2,11 +2,6 @@
   "name": "Disarray Staggered",
   "vendorId": "0x5342",
   "productId": "0x0002",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
-  "url": "https://sneakbox.com",
-  "maintainer": "mujimanic",
   "matrix": {"rows": 5, "cols": 15},
   "layouts": {
     "keymap": [

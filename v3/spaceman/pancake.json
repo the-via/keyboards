@@ -2,9 +2,6 @@
   "name": "spaceman_pancake",
   "vendorId": "0x5342",
   "productId": "0x504b",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 4, "cols": 12},
   "layouts": {
     "labels": ["Spacebar"],

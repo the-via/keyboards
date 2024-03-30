@@ -2,9 +2,6 @@
   "name": "Pinky4",
   "vendorId": "0x544E",
   "productId": "0x7034",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 10, "cols": 7},
   "layouts": {
     "keymap": [

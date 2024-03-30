@@ -2,15 +2,8 @@
   "name": "wilba.tech WT70-JB",
   "vendorId": "0x6582",
   "productId": "0x001F",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_rgblight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_rgblight"],
   "matrix": {"rows": 5, "cols": 17},
   "layouts": {
     "labels": ["Split Backspace", "Split Right Shift"],

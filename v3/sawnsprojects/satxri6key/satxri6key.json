@@ -2,15 +2,13 @@
   "name": "Satxri6key",
   "vendorId": "0x5350",
   "productId": "0x0727",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_rgblight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_rgblight"],
   "matrix": {"rows": 2, "cols": 3},
-  "layouts": {"keymap": [["0,0", "0,1", "0,2"], ["1,0", "1,1", "1,2"]]}
+  "layouts": {
+    "keymap": [
+      ["0,0", "0,1", "0,2"],
+      ["1,0", "1,1", "1,2"]
+    ]
+  }
 }

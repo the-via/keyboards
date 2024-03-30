@@ -2,14 +2,11 @@
   "name": "KB Paradise v60 Type R",
   "vendorId": "0x7432",
   "productId": "0x0658",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 8, "cols": 8},
   "layouts": {
     "keymap": [
       [
-        {"c": "#777777", "a": 7},
+        {"c": "#777777"},
         "0,0",
         {"c": "#cccccc"},
         "0,1",

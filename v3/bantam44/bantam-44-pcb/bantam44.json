@@ -2,9 +2,6 @@
   "name": "Bantam-44 R2 PCB",
   "vendorId": "0x425F",
   "productId": "0x4C42",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 4, "cols": 12},
   "layouts": {
     "keymap": [

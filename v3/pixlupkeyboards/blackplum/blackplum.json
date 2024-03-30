@@ -2,15 +2,8 @@
   "name": "Blackplum",
   "vendorId": "0x5058",
   "productId": "0x4250",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_rgblight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_rgblight"],
   "matrix": {"rows": 9, "cols": 8},
   "layouts": {
     "keymap": [

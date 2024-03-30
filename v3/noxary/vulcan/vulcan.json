@@ -2,9 +2,6 @@
   "name": "Vulcan",
   "vendorId": "0xa103",
   "productId": "0x0011",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 5, "cols": 14},
   "layouts": {
     "keymap": [

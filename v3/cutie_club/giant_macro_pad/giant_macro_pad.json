@@ -2,9 +2,6 @@
   "name": "Cupar19 Giant Macro Pad",
   "vendorId": "0xFB9C",
   "productId": "0x74B6",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 20, "cols": 20},
   "layouts": {
     "keymap": [

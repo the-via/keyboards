@@ -2,9 +2,7 @@
   "name": "wilba.tech WT60-XT",
   "vendorId": "0x6582",
   "productId": "0x001C",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
+  "menus": ["qmk_audio"],
   "matrix": {"rows": 5, "cols": 16},
   "layouts": {
     "labels": [

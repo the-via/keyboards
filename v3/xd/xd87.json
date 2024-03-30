@@ -2,15 +2,8 @@
   "name": "XD87",
   "vendorId": "0x7844",
   "productId": "0x8787",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_rgblight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_rgblight"],
   "matrix": {"rows": 6, "cols": 17},
   "layouts": {
     "keymap": [
@@ -126,9 +119,9 @@
         "5,1",
         {"w": 1.25},
         "5,2",
-        {"c": "#cccccc", "a": 7, "w": 6.25},
+        {"c": "#cccccc", "w": 6.25},
         "5,8",
-        {"c": "#aaaaaa", "a": 4, "w": 1.25},
+        {"c": "#aaaaaa", "w": 1.25},
         "5,10",
         {"w": 1.25},
         "5,11",

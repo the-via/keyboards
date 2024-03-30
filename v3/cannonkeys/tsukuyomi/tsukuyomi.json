@@ -2,16 +2,8 @@
   "name": "Tsukuyomi",
   "vendorId": "0xca04",
   "productId": "0x0002",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_backlight",
-    "core/qmk_rgblight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_backlight_rgblight"],
   "matrix": {"rows": 5, "cols": 17},
   "layouts": {
     "labels": [

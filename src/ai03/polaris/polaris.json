@@ -10,7 +10,14 @@
       ["Enter", "ANSI", "ISO"],
       ["Left Shift", "ANSI", "ISO"],
       ["Right Shift", "Split", "Unified"],
-      ["Bottom Row", "Tsangan", "WKL", "HHKB", "1.25U ANSI/Unified Spacebar", "1.25U ANSI/Split Spacebar"]
+      [
+        "Bottom Row",
+        "Tsangan",
+        "WKL",
+        "HHKB",
+        "1.25U ANSI/Unified Spacebar",
+        "1.25U ANSI/Split Spacebar"
+      ]
     ],
     "keymap": [
       [

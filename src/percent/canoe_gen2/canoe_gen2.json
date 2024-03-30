@@ -5,12 +5,7 @@
   "lighting": {
     "extends": "none",
     "keycodes": "qmk",
-    "supportedBacklightValues": [
-      128,
-      129,
-      130,
-      131
-    ]
+    "supportedLightingValues": [128, 129, 130, 131]
   },
   "matrix": {
     "rows": 5,
@@ -18,18 +13,10 @@
   },
   "layouts": {
     "labels": [
-      [
-        "Enter Key",
-        "ANSI",
-        "ISO"
-      ],
+      ["Enter Key", "ANSI", "ISO"],
       "Split Left Shift",
       "Split Backspace",
-      [
-        "Bottom row",
-        "7u",
-        "6.25u"
-      ]
+      ["Bottom row", "7u", "6.25u"]
     ],
     "keymap": [
       [

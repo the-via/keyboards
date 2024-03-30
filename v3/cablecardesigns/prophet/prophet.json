@@ -2,9 +2,6 @@
   "name": "Prophet",
   "vendorId": "0xFF21",
   "productId": "0xAA03",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 5, "cols": 14},
   "layouts": {
     "labels": [

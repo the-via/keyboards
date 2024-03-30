@@ -2,11 +2,6 @@
   "name": "Disarray Ortholinear",
   "vendorId": "0x5342",
   "productId": "0x0003",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
-  "url": "https://sneakbox.com",
-  "maintainer": "mujimanic",
   "matrix": {"rows": 6, "cols": 16},
   "layouts": {
     "keymap": [

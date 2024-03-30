@@ -2,13 +2,23 @@
   "name": "RAMA WORKS M65-B",
   "vendorId": "0x5241",
   "productId": "0x065B",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/wt_lighting"],
+  "customKeycodes": [
+    {"name": "Bright +", "title": "Brightness +", "shortName": "BR +"},
+    {"name": "Bright -", "title": "Brightness -", "shortName": "BR -"},
+    {"name": "Effect +", "title": "Effect +", "shortName": "EF +"},
+    {"name": "Effect -", "title": "Effect -", "shortName": "EF -"},
+    {"name": "Effect Speed +", "title": "Effect Speed +", "shortName": "ES +"},
+    {"name": "Effect Speed -", "title": "Effect Speed -", "shortName": "ES -"},
+    {"name": "Color1 Hue +", "title": "Color1 Hue +", "shortName": "H1 +"},
+    {"name": "Color1 Hue -", "title": "Color1 Hue -", "shortName": "H1 -"},
+    {"name": "Color2 Hue +", "title": "Color2 Hue +", "shortName": "H2 +"},
+    {"name": "Color2 Hue -", "title": "Color2 Hue -", "shortName": "H2 -"},
+    {"name": "Color1 Sat +", "title": "Color1 Sat +", "shortName": "S1 +"},
+    {"name": "Color1 Sat -", "title": "Color1 Sat -", "shortName": "S1 -"},
+    {"name": "Color2 Sat +", "title": "Color2 Sat +", "shortName": "S2 +"},
+    {"name": "Color2 Sat -", "title": "Color2 Sat -", "shortName": "S2 -"}
+  ],
   "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
     {
       "label": "Lighting",
       "content": [
@@ -18,7 +28,7 @@
             {
               "label": "Brightness",
               "type": "range",
-              "content": ["brightness", 0, 9],
+              "content": ["id_brightness", 0, 9],
               "options": [0, 255]
             },
             {
@@ -37,31 +47,31 @@
                 ["Radial All Hues", 9],
                 ["Radial Color 1", 10]
               ],
-              "content": ["effect", 0, 10]
+              "content": ["id_effect", 0, 10]
             },
             {
               "label": "Effect Speed",
               "type": "range",
               "options": [0, 3],
-              "content": ["effectSpeed", 0, 11]
+              "content": ["id_effect_speed", 0, 11]
             },
             {
-              "showIf": "{effect} == 1 || {effect} == 2 || {effect} == 3 || {effect} == 4 || {effect} == 10",
+              "showIf": "{id_effect} == 1 || {id_effect} == 2 || {id_effect} == 3 || {id_effect} == 4 || {id_effect} == 10",
               "content": [
                 {
                   "label": "Color 1",
                   "type": "color",
-                  "content": ["color1", 0, 12]
+                  "content": ["id_color_1", 0, 12]
                 }
               ]
             },
             {
-              "showIf": "{effect} == 2 || {effect} == 3 || {effect} == 4",
+              "showIf": "{id_effect} == 2 || {id_effect} == 3 || {id_effect} == 4",
               "content": [
                 {
                   "label": "Color 2",
                   "type": "color",
-                  "content": ["color2", 0, 13]
+                  "content": ["id_color_2", 0, 13]
                 }
               ]
             }
@@ -73,74 +83,74 @@
             {
               "label": "Disable backlight when USB is suspended",
               "type": "toggle",
-              "content": ["backlightDisableWhenUsbSuspended", 0, 7]
+              "content": ["id_disable_when_usb_suspended", 0, 7]
             },
             {
               "label": "Disable backlight after timeout",
               "type": "range",
               "options": [0, 255],
               "unit": "mins",
-              "content": ["backlightDisableAfterTimeout", 0, 8]
+              "content": ["id_disable_after_timeout", 0, 8]
             },
             {
-              "label": "Caps Lock indicator",
+              "label": "Caps Lock Indicator",
               "type": "toggle",
               "options": [
                 [255, 0],
                 [254, 0]
               ],
-              "content": ["backlightCapsLockIndicator", 0, 15]
+              "content": ["id_caps_lock_indicator_row_col", 0, 15]
             },
             {
-              "label": "Caps Lock indicator color",
+              "label": "Caps Lock Indicator Color",
               "type": "color",
-              "showIf": "{backlightCapsLockIndicator.0} == 254",
-              "content": ["backlightCapsLockIndicatorColor", 0, 14]
+              "showIf": "{id_caps_lock_indicator_row_col.0} == 254",
+              "content": ["id_caps_lock_indicator_color", 0, 14]
             },
             {
-              "label": "Layer 1 indicator",
+              "label": "Layer 1 Indicator",
               "type": "toggle",
               "options": [
                 [255, 0],
                 [254, 0]
               ],
-              "content": ["backlightLayer1_Indicator", 0, 17]
+              "content": ["id_layer_1_indicator_row_col", 0, 17]
             },
             {
-              "label": "Layer 1 indicator color",
+              "label": "Layer 1 Indicator color",
               "type": "color",
-              "showIf": "{backlightLayer1_Indicator.0} == 254",
-              "content": ["backlightLayer1_IndicatorColor", 0, 16]
+              "showIf": "{id_layer_1_indicator_row_col.0} == 254",
+              "content": ["id_layer_1_indicator_color", 0, 16]
             },
             {
-              "label": "Layer 2 indicator",
+              "label": "Layer 2 Indicator",
               "type": "toggle",
               "options": [
                 [255, 0],
                 [254, 0]
               ],
-              "content": ["backlightLayer2_Indicator", 0, 19]
+              "content": ["id_layer_2_indicator_row_col", 0, 19]
             },
             {
-              "label": "Layer 2 indicator color",
+              "label": "Layer 2 Indicator Color",
               "type": "color",
-              "showIf": "{backlightLayer2_Indicator.0} == 254",
-              "content": ["backlightLayer2_IndicatorColor", 0, 18]
+              "showIf": "{id_layer_2_indicator_row_col.0} == 254",
+              "content": ["id_layer_2_indicator_color", 0, 18]
             },
             {
-              "label": "Layer 3 indicator",
+              "label": "Layer 3 Indicator",
               "type": "toggle",
               "options": [
                 [255, 0],
                 [254, 0]
               ],
-              "content": ["backlightLayer3_Indicator", 0, 21]
+              "content": ["id_layer_3_indicator_row_col", 0, 21]
             },
             {
-              "label": "Layer 3 indicator color",
+              "label": "Layer 3 Indicator color",
               "type": "color",
-              "showIf": "{backlightLayer3_Indicator.0} == 254",
-              "content": ["backlightLayer3_IndicatorColor", 0, 20]
+              "showIf": "{id_layer_3_indicator_row_col.0} == 254",
+              "content": ["id_layer_3_indicator_color", 0, 20]
             }
           ]
         }

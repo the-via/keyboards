@@ -2,15 +2,6 @@
   "name": "CT87",
   "vendorId": "0x8968",
   "productId": "0x4354",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/wt_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "!!!WILBA!!!"
-  ],
   "matrix": {"rows": 6, "cols": 17},
   "layouts": {
     "keymap": [

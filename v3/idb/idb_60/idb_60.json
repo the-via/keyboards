@@ -2,9 +2,6 @@
   "name": "idb 60",
   "vendorId": "0x494b",
   "productId": "0x0001",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 10, "cols": 8},
   "layouts": {
     "labels": [

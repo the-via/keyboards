@@ -2,15 +2,8 @@
   "name": "Minshara Marauder",
   "vendorId": "0x4D52",
   "productId": "0x0001",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_rgblight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_rgblight"],
   "matrix": {"rows": 12, "cols": 9},
   "layouts": {
     "keymap": [
@@ -137,9 +130,9 @@
         "5,1",
         {"w": 1.5},
         "5,2",
-        {"c": "#cccccc", "a": 7, "w": 7},
+        {"c": "#cccccc", "w": 7},
         "5,6",
-        {"c": "#aaaaaa", "a": 4, "w": 1.5},
+        {"c": "#aaaaaa", "w": 1.5},
         "11,7",
         "11,6",
         {"w": 1.5},

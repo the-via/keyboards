@@ -2,9 +2,7 @@
   "name": "Neuron",
   "vendorId": "0x5742",
   "productId": "0x6e75",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
+  "keycodes": ["qmk_lighting"],
   "matrix": {"rows": 4, "cols": 12},
   "layouts": {
     "labels": [

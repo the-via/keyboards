@@ -2,9 +2,6 @@
   "name": "Allison Numpad",
   "vendorId": "0x8968",
   "productId": "0x414E",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 6, "cols": 4},
   "layouts": {
     "labels": ["Split Plus", "Split Enter", "Split Zero"],

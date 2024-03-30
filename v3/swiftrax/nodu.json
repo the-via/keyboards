@@ -2,9 +2,6 @@
   "name": "Nodu",
   "vendorId": "0x04D8",
   "productId": "0xEA6E",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 5, "cols": 14},
   "layouts": {
     "labels": ["Split Backspace", "Split Right Shift", "Bottom"],

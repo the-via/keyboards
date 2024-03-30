@@ -2,16 +2,8 @@
   "name": "OXALYS80",
   "vendorId": "0x6E78",
   "productId": "0x3830",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_backlight",
-    "core/qmk_rgblight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_backlight_rgblight"],
   "matrix": {"rows": 12, "cols": 9},
   "layouts": {
     "labels": [

@@ -2,9 +2,6 @@
   "name": "Candybar lefty",
   "vendorId": "0x544B",
   "productId": "0x0003",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 4, "cols": 17},
   "layouts": {
     "labels": ["2u Backspace", "Flipped right shift", "6.25u spacebar", "2u 0"],

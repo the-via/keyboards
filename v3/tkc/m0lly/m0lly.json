@@ -2,16 +2,8 @@
   "name": "M0lly",
   "vendorId": "0x544B",
   "productId": "0x0004",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": [
-    "via/keymap",
-    "via/layouts",
-    "via/macros",
-    "via/save_load",
-    "core/qmk_backlight",
-    "core/qmk_rgblight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_backlight_rgblight"],
   "matrix": {"rows": 5, "cols": 19},
   "layouts": {
     "labels": [
@@ -166,9 +158,9 @@
         {"w": 1.5},
         "4,2\n\n\n6,1",
         {"c": "#777777", "w": 7},
-        "4,5\n\n\n6,1",
-        {"c": "#aaaaaa", "w": 1.5},
         "4,9\n\n\n6,1",
+        {"c": "#aaaaaa", "w": 1.5},
+        "4,11\n\n\n6,1",
         "4,12\n\n\n6,1",
         {"w": 1.5},
         "4,13\n\n\n6,1",

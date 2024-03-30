@@ -2,9 +2,7 @@
   "name": "Adelais en Ciel'",
   "vendorId": "0x4D4C",
   "productId": "0xAEC1",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes", "via/qmk_lighting"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
+  "keycodes": ["qmk_lighting"],
   "matrix": {"rows": 5, "cols": 15},
   "layouts": {
     "labels": ["Split Back Space", "Split Right Shift", "2.25u Left Space"],

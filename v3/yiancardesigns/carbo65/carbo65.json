@@ -2,9 +2,6 @@
   "name": "Carbo65",
   "vendorId": "0x8968",
   "productId": "0x4336",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 5, "cols": 15},
   "layouts": {
     "keymap": [

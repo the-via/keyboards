@@ -2,13 +2,9 @@
   "name": "wilba.tech WT65-H1",
   "vendorId": "0x6582",
   "productId": "0x0025",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 5, "cols": 15},
   "layouts": {
     "keymap": [
-      {"x": 13, "c": "#aaaaaa", "w": 2},
       [
         {"c": "#777777"},
         "0,0",

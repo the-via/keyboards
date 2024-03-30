@@ -2,9 +2,6 @@
   "name": "Viktus Styrka",
   "vendorId": "0x5644",
   "productId": "0x0001",
-  "firmwareVersion": 0,
-  "keycodes": ["via/keycodes"],
-  "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
   "matrix": {"rows": 10, "cols": 9},
   "layouts": {
     "labels": [
