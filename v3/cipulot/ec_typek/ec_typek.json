@@ -2,6 +2,10 @@
   "name": "EC Type-K",
   "vendorId": "0x6369",
   "productId": "0x6BB4",
+  "matrix": {
+    "rows": 5,
+    "cols": 15
+  },
   "keycodes": [
     "qmk_lighting"
   ],
@@ -384,10 +388,6 @@
       ]
     }
   ],
-  "matrix": {
-    "rows": 5,
-    "cols": 15
-  },
   "layouts": {
     "labels": [
       "Unified Backspace",
