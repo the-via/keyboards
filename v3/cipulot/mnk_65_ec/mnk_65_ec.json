@@ -2,6 +2,10 @@
   "name": "MNK 65 EC",
   "vendorId": "0x6369",
   "productId": "0x6BB5",
+  "matrix": {
+    "rows": 5,
+    "cols": 15
+  },
   "menus": [
     {
       "label": "EC Tools",
@@ -176,10 +180,6 @@
       ]
     }
   ],
-  "matrix": {
-    "rows": 5,
-    "cols": 15
-  },
   "layouts": {
     "keymap": [
       [
