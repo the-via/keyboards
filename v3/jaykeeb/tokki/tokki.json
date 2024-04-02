@@ -2,15 +2,26 @@
   "name": "Tokki",
   "vendorId": "0x414C",
   "productId": "0x0768",
-  "keycodes": ["qmk_lighting"],
-  "menus": ["qmk_rgblight"],
-  "matrix": {"rows": 5, "cols": 15},
+  "matrix": {
+    "rows": 5,
+    "cols": 15
+  },
+  "keycodes": [
+    "qmk_lighting"
+  ],
+  "menus": [
+    "qmk_rgblight"
+  ],
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO Enter",
       "Split LShift",
-      ["Bottom Row", "7U", "6.25U"]
+      [
+        "Bottom Row",
+        "7U",
+        "6.25U"
+      ]
     ],
     "keymap": [
       [
@@ -39,7 +50,7 @@
         },
         "0,13\n\n\n0,0",
         {
-          "x":0.25
+          "x": 0.25
         },
         "0,13\n\n\n0,1",
         "1,13\n\n\n0,1"
@@ -138,7 +149,7 @@
         "3,13",
         "3,14"
       ],
-      [        
+      [
         {
           "x": 2.5,
           "w": 1.5
@@ -164,7 +175,7 @@
         "4,13",
         "4,14"
       ],
-      [        
+      [
         {
           "x": 2.5,
           "w": 1.25

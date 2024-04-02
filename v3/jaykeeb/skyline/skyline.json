@@ -2,14 +2,17 @@
   "name": "SKYLINE",
   "vendorId": "0x414C",
   "productId": "0x0799",
-  "matrix": {"rows": 6, "cols": 17},
+  "matrix": {
+    "rows": 6,
+    "cols": 17
+  },
   "layouts": {
     "labels": [
-        "Split Backspace",
-        "Split Lshift",
-        "Split Rshift",
-        "ISO Enter"
-      ],
+      "Split Backspace",
+      "Split Lshift",
+      "Split Rshift",
+      "ISO Enter"
+    ],
     "keymap": [
       [
         {
@@ -65,7 +68,7 @@
         "1,11",
         "1,12",
         {
-          "w":2
+          "w": 2
         },
         "1,13\n\n\n0,0",
         {
