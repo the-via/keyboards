@@ -37,22 +37,118 @@
       ]
     ],
     "presets": {
-      "ANSI Standard": [0, 0, 0, 0, 0],
-      "ANSI WK": [0, 0, 0, 0, 4],
-      "ANSI Tsangan": [1, 0, 0, 1, 4],
-      "ANSI WKL": [0, 0, 0, 0, 5],
-      "ANSI HHKB": [1, 0, 0, 1, 6],
-      "ANSI Arrows": [0, 0, 0, 2, 1],
-      "ANSI 64-Key": [0, 0, 0, 6, 1],
-      "ANSI Minila": [0, 0, 0, 6, 8],
-      "ISO Standard": [0, 0, 1, 3, 0],
-      "ISO WK": [0, 0, 1, 3, 4],
-      "ISO Tsangan": [1, 0, 1, 4, 4],
-      "ISO WKL": [0, 0, 1, 3, 5],
-      "ISO HHKB": [1, 0, 1, 4, 6],
-      "ISO Arrows": [0, 0, 1, 5, 1],
-      "ISO 65-Key": [0, 0, 1, 8, 1],
-      "ISO Minila": [0, 0, 1, 8, 8]
+      "ANSI Standard": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ANSI WK": [
+        0,
+        0,
+        0,
+        0,
+        4
+      ],
+      "ANSI Tsangan": [
+        1,
+        0,
+        0,
+        1,
+        4
+      ],
+      "ANSI WKL": [
+        0,
+        0,
+        0,
+        0,
+        5
+      ],
+      "ANSI HHKB": [
+        1,
+        0,
+        0,
+        1,
+        6
+      ],
+      "ANSI Arrows": [
+        0,
+        0,
+        0,
+        2,
+        1
+      ],
+      "ANSI 64-Key": [
+        0,
+        0,
+        0,
+        6,
+        1
+      ],
+      "ANSI Minila": [
+        0,
+        0,
+        0,
+        6,
+        8
+      ],
+      "ISO Standard": [
+        0,
+        0,
+        1,
+        3,
+        0
+      ],
+      "ISO WK": [
+        0,
+        0,
+        1,
+        3,
+        4
+      ],
+      "ISO Tsangan": [
+        1,
+        0,
+        1,
+        4,
+        4
+      ],
+      "ISO WKL": [
+        0,
+        0,
+        1,
+        3,
+        5
+      ],
+      "ISO HHKB": [
+        1,
+        0,
+        1,
+        4,
+        6
+      ],
+      "ISO Arrows": [
+        0,
+        0,
+        1,
+        5,
+        1
+      ],
+      "ISO 65-Key": [
+        0,
+        0,
+        1,
+        8,
+        1
+      ],
+      "ISO Minila": [
+        0,
+        0,
+        1,
+        8,
+        8
+      ]
     },
     "keymap": [
       [
