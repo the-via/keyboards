@@ -2,11 +2,11 @@
   "name": "latin60RGB",
   "vendorId": "0x6C63",
   "productId": "0x6C69",
-  "lighting": "none",
   "matrix": {
     "rows": 5,
     "cols": 14
   },
+  "lighting": "none",
   "layouts": {
     "keymap": [
       [

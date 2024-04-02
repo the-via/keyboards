@@ -2,10 +2,16 @@
   "name": "ProjectKB Alice",
   "vendorId": "0x0159",
   "productId": "0xA71C",
+  "matrix": {
+    "rows": 5,
+    "cols": 16
+  },
   "lighting": "qmk_backlight_rgblight",
-  "matrix": {"rows": 5, "cols": 16},
   "layouts": {
-    "labels": ["Long Backspace", "Long RShift"],
+    "labels": [
+      "Long Backspace",
+      "Long RShift"
+    ],
     "keymap": [
       [
         {

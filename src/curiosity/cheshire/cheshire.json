@@ -2,10 +2,16 @@
   "name": "Curiosity Cheshire",
   "vendorId": "0xCAFE",
   "productId": "0x0FAD",
+  "matrix": {
+    "rows": 5,
+    "cols": 16
+  },
   "lighting": "qmk_backlight_rgblight",
-  "matrix": {"rows": 5, "cols": 16},
   "layouts": {
-    "labels": ["Split Backspace", "Split Right Shift"],
+    "labels": [
+      "Split Backspace",
+      "Split Right Shift"
+    ],
     "keymap": [
       [
         {

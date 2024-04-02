@@ -2,11 +2,11 @@
   "name": "Evyd13 GH80-1800",
   "vendorId": "0x4705",
   "productId": "0x8B23",
-  "lighting": "none",
   "matrix": {
     "rows": 10,
     "cols": 11
   },
+  "lighting": "none",
   "layouts": {
     "labels": [
       "ISO Enter",

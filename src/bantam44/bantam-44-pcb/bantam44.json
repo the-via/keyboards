@@ -2,11 +2,11 @@
   "name": "Bantam-44 R2 PCB",
   "vendorId": "0x425F",
   "productId": "0x4C42",
-  "lighting": "none",
   "matrix": {
     "rows": 4,
     "cols": 12
   },
+  "lighting": "none",
   "layouts": {
     "keymap": [
       [

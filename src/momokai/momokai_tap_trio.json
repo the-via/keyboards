@@ -2,11 +2,11 @@
   "name": "Momokai Tap Trio",
   "vendorId": "0x69F9",
   "productId": "0x0006",
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 1,
     "cols": 6
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
     "keymap": [
       [

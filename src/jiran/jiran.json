@@ -2,8 +2,11 @@
   "name": "Jiran",
   "vendorId": "0x1209",
   "productId": "0x3735",
+  "matrix": {
+    "rows": 10,
+    "cols": 6
+  },
   "lighting": "qmk_backlight_rgblight",
-  "matrix": {"rows": 10, "cols": 6},
   "layouts": {
     "keymap": [
       [

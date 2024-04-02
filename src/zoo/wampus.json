@@ -2,13 +2,16 @@
   "name": "Wampus",
   "vendorId": "0x0200",
   "productId": "0xE600",
-  "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 5,
     "cols": 15
   },
+  "lighting": "qmk_backlight_rgblight",
   "layouts": {
-    "labels": ["Long Backspace", "Long RShift"],
+    "labels": [
+      "Long Backspace",
+      "Long RShift"
+    ],
     "keymap": [
       [
         {

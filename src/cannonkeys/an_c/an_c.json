@@ -2,13 +2,29 @@
   "name": "AN-C",
   "vendorId": "0xca04",
   "productId": "0xa00c",
+  "matrix": {
+    "rows": 5,
+    "cols": 15
+  },
   "lighting": "qmk_backlight_rgblight",
-  "matrix": {"rows": 5, "cols": 15},
   "layouts": {
     "labels": [
-      ["Backspace", "Default", "Split"],
-      ["Right Shift", "Default", "Split"],
-      ["Bottom Row", "Standard", "Tsangan", "HHKB"]
+      [
+        "Backspace",
+        "Default",
+        "Split"
+      ],
+      [
+        "Right Shift",
+        "Default",
+        "Split"
+      ],
+      [
+        "Bottom Row",
+        "Standard",
+        "Tsangan",
+        "HHKB"
+      ]
     ],
     "keymap": [
       [

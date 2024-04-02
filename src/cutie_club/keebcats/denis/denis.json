@@ -2,15 +2,39 @@
   "name": "Keebcats Denis",
   "vendorId": "0xFB9C",
   "productId": "0xB260",
+  "matrix": {
+    "rows": 5,
+    "cols": 15
+  },
   "lighting": "none",
-  "matrix": {"rows": 5, "cols": 15},
   "layouts": {
     "labels": [
-      ["Backspace", "Standard", "Split"],
-      ["Enter", "ISO", "ANSI"],
-      ["Left Shift", "Split", "Standard"],
-      ["Right Shift", "Standard", "Split"],
-      ["Bottom Row", "6.25u", "Tsangan", "Split Spacebar (All Keys)"]
+      [
+        "Backspace",
+        "Standard",
+        "Split"
+      ],
+      [
+        "Enter",
+        "ISO",
+        "ANSI"
+      ],
+      [
+        "Left Shift",
+        "Split",
+        "Standard"
+      ],
+      [
+        "Right Shift",
+        "Standard",
+        "Split"
+      ],
+      [
+        "Bottom Row",
+        "6.25u",
+        "Tsangan",
+        "Split Spacebar (All Keys)"
+      ]
     ],
     "keymap": [
       [

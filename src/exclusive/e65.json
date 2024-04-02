@@ -2,11 +2,11 @@
   "name": "E6.5",
   "vendorId": "0x4558",
   "productId": "0xE605",
-  "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 5,
     "cols": 16
   },
+  "lighting": "qmk_backlight_rgblight",
   "layouts": {
     "labels": [
       "Split Backspace",

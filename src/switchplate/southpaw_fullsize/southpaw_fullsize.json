@@ -2,19 +2,60 @@
   "name": "Southpaw Fullsize",
   "vendorId": "0xa103",
   "productId": "0x0017",
+  "matrix": {
+    "rows": 6,
+    "cols": 22
+  },
   "lighting": "qmk_backlight",
-  "matrix": {"rows": 6, "cols": 22},
   "layouts": {
     "labels": [
-      ["Numpad Leftside Upper Keys", "Split", "2U"],
-      ["Numpad Leftside Lower Keys", "Split", "2U Vertical", "2U Horizontal"],
-      ["Numpad Rightside Upper Keys", "Split", "2U"],
-      ["Numpad Rightside Lower Keys", "Split", "2U Vertical", "2U Horizontal"],
-      ["Left Shift", "ANSI", "ISO"],
-      ["Backspace", "Unified", "Split"],
-      ["Enter", "ANSI", "ISO"],
-      ["Right Shift", "Split", "Unified"],
-      ["Bottom Row", "Tsangan", "1.25U ANSI"]
+      [
+        "Numpad Leftside Upper Keys",
+        "Split",
+        "2U"
+      ],
+      [
+        "Numpad Leftside Lower Keys",
+        "Split",
+        "2U Vertical",
+        "2U Horizontal"
+      ],
+      [
+        "Numpad Rightside Upper Keys",
+        "Split",
+        "2U"
+      ],
+      [
+        "Numpad Rightside Lower Keys",
+        "Split",
+        "2U Vertical",
+        "2U Horizontal"
+      ],
+      [
+        "Left Shift",
+        "ANSI",
+        "ISO"
+      ],
+      [
+        "Backspace",
+        "Unified",
+        "Split"
+      ],
+      [
+        "Enter",
+        "ANSI",
+        "ISO"
+      ],
+      [
+        "Right Shift",
+        "Split",
+        "Unified"
+      ],
+      [
+        "Bottom Row",
+        "Tsangan",
+        "1.25U ANSI"
+      ]
     ],
     "keymap": [
       [

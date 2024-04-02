@@ -2,13 +2,16 @@
   "name": "Ungodly Design Launch Pad",
   "vendorId": "0x5544",
   "productId": "0x4C50",
-  "lighting": "none",
   "matrix": {
     "rows": 5,
     "cols": 4
   },
+  "lighting": "none",
   "layouts": {
-    "labels": ["Split Enter", "Split Zero"],
+    "labels": [
+      "Split Enter",
+      "Split Zero"
+    ],
     "keymap": [
       [
         {

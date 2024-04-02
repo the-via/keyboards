@@ -2,11 +2,11 @@
   "name": "Dm9Records Tartan",
   "vendorId": "0x16c0",
   "productId": "0x27db",
-  "lighting": "none",
   "matrix": {
     "rows": 5,
     "cols": 13
   },
+  "lighting": "none",
   "layouts": {
     "labels": [
       "Split Backspace",

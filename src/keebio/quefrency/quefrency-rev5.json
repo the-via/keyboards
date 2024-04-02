@@ -2,13 +2,20 @@
   "name": "Quefrency Rev. 5",
   "vendorId": "0xCB10",
   "productId": "0x5257",
+  "matrix": {
+    "rows": 10,
+    "cols": 9
+  },
   "lighting": "qmk_rgblight",
-  "matrix": {"rows": 10, "cols": 9},
   "layouts": {
     "labels": [
       "Split Backspace",
       "Left Macropad",
-      ["Right Mods", "6x1u", "2x1.25u__3x1u"]
+      [
+        "Right Mods",
+        "6x1u",
+        "2x1.25u__3x1u"
+      ]
     ],
     "keymap": [
       [

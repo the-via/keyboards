@@ -2,8 +2,11 @@
   "name": "atlas_65",
   "vendorId": "0x6565",
   "productId": "0x1000",
+  "matrix": {
+    "rows": 5,
+    "cols": 15
+  },
   "lighting": "none",
-  "matrix": {"rows": 5, "cols": 15},
   "layouts": {
     "keymap": [
       [

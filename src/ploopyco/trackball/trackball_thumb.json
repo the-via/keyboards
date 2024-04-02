@@ -2,12 +2,23 @@
   "name": "PloopyCo Trackball Thumb",
   "vendorId": "0x5043",
   "productId": "0x5C46",
-  "lighting": "none",
+  "matrix": {
+    "rows": 1,
+    "cols": 6
+  },
   "customKeycodes": [
-    {"name": "DPI Config", "title": "DPI Config", "shortName": "DPI"},
-    {"name": "Drag Scroll", "title": "Drag Scroll", "shortName": "DragScl"}
+    {
+      "name": "DPI Config",
+      "title": "DPI Config",
+      "shortName": "DPI"
+    },
+    {
+      "name": "Drag Scroll",
+      "title": "Drag Scroll",
+      "shortName": "DragScl"
+    }
   ],
-  "matrix": {"rows": 1, "cols": 6},
+  "lighting": "none",
   "layouts": {
     "keymap": [
       [

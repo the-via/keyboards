@@ -2,11 +2,11 @@
   "name": "IBM 122M",
   "vendorId": "0x8767",
   "productId": "0x5f89",
-  "lighting": "none",
   "matrix": {
     "rows": 8,
     "cols": 20
   },
+  "lighting": "none",
   "layouts": {
     "keymap": [
       {

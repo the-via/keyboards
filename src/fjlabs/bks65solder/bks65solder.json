@@ -2,9 +2,24 @@
   "name": "BKS65 Solder",
   "vendorId": "0x7074",
   "productId": "0x0099",
+  "matrix": {
+    "rows": 5,
+    "cols": 15
+  },
   "lighting": "qmk_rgblight",
-  "matrix": {"rows": 5, "cols": 15},
   "layouts": {
+    "labels": [
+      "Split Backspace",
+      "ISO Enter",
+      "Split Left Shift",
+      [
+        "Spacebar",
+        "6.25U",
+        "Split #1",
+        "Split #2"
+      ],
+      "Right Blocker"
+    ],
     "keymap": [
       [
         {
@@ -226,13 +241,6 @@
         },
         "4,8\n\n\n3,2"
       ]
-    ],
-    "labels": [
-      "Split Backspace",
-      "ISO Enter",
-      "Split Left Shift",
-      ["Spacebar", "6.25U", "Split #1", "Split #2"],
-      "Right Blocker"
     ]
   }
 }

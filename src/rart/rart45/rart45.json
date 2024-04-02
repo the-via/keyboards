@@ -2,8 +2,11 @@
   "name": "RART45",
   "vendorId": "0x414C",
   "productId": "0x0045",
+  "matrix": {
+    "rows": 9,
+    "cols": 6
+  },
   "lighting": "none",
-  "matrix": {"rows": 9, "cols": 6},
   "layouts": {
     "keymap": [
       [

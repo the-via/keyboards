@@ -2,15 +2,30 @@
   "name": "MW65",
   "vendorId": "0x7BA1",
   "productId": "0x6502",
+  "matrix": {
+    "rows": 5,
+    "cols": 15
+  },
   "lighting": {
     "extends": "qmk_rgblight"
   },
-  "matrix": {"rows": 5, "cols": 15},
   "layouts": {
     "labels": [
-      ["enter", "default", "iso"],
-      ["space", "default", "split"],
-      ["shift", "default", "split"]
+      [
+        "enter",
+        "default",
+        "iso"
+      ],
+      [
+        "space",
+        "default",
+        "split"
+      ],
+      [
+        "shift",
+        "default",
+        "split"
+      ]
     ],
     "keymap": [
       [
@@ -150,28 +165,44 @@
         "3,14"
       ],
       [
-        {"w": 1.25, "c": "#aaaaaa"},
+        {
+          "w": 1.25,
+          "c": "#aaaaaa"
+        },
         "4,0",
-        {"w": 1.25},
+        {
+          "w": 1.25
+        },
         "4,1",
-        {"w": 1.25},
+        {
+          "w": 1.25
+        },
         "4,2",
-
-        {"w": 6.25},
+        {
+          "w": 6.25
+        },
         "4,6\n\n\n1,0",
-
-        {"w": 2.75, "x": -6.25},
+        {
+          "w": 2.75,
+          "x": -6.25
+        },
         "4,5\n\n\n1,1",
-        {"w": 2.25},
+        {
+          "w": 2.25
+        },
         "4,8\n\n\n1,1",
-        {"w": 1.25},
+        {
+          "w": 1.25
+        },
         "4,9\n\n\n1,1",
-
-        {"w": 1.25},
+        {
+          "w": 1.25
+        },
         "4,10",
-        {"w": 1.25},
+        {
+          "w": 1.25
+        },
         "4,11",
-
         {
           "x": 0.5,
           "c": "#777777"

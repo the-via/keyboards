@@ -2,13 +2,29 @@
   "name": "Choc Taro",
   "vendorId": "0x04D8",
   "productId": "0xEB60",
+  "matrix": {
+    "rows": 16,
+    "cols": 5
+  },
   "lighting": "none",
-  "matrix": {"rows": 16, "cols": 5},
   "layouts": {
     "labels": [
-      ["Backspace", "Unified", "Split"],
-      ["Enter", "ANSI", "ISO"],
-      ["Right Shift", "Unified", "Left Split", "Right Split"]
+      [
+        "Backspace",
+        "Unified",
+        "Split"
+      ],
+      [
+        "Enter",
+        "ANSI",
+        "ISO"
+      ],
+      [
+        "Right Shift",
+        "Unified",
+        "Left Split",
+        "Right Split"
+      ]
     ],
     "keymap": [
       [

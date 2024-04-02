@@ -2,16 +2,20 @@
   "name": "OctagonV2",
   "vendorId": "0x444b",
   "productId": "0x4f32",
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 6,
     "cols": 17
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
     "labels": [
       "Split L-Shift",
       "Split Backspace",
-      ["Enter Key", "ANSI", "ISO"],
+      [
+        "Enter Key",
+        "ANSI",
+        "ISO"
+      ],
       "Split R-Shift",
       [
         "Bottom Row",

@@ -2,53 +2,185 @@
   "name": "Keyboard 81 Pro/Q1 Pro ANSI RGB Knob",
   "vendorId": "0x3434",
   "productId": "0x0610",
-  "lighting": {
-  "extends": "qmk_rgblight",
-  "keycodes": "qmk",
-  "underglowEffects": [
-      ["None", 0],
-      ["SOLID_COLOR", 1],
-      ["BREATHING", 1],
-      ["BAND_SPIRAL_VAL", 1],
-      ["CYCLE_ALL", 0],
-      ["CYCLE_LEFT_RIGHT", 0],
-      ["CYCLE_UP_DOWN", 0],
-      ["RAINBOW_MOVING_CHEVRON", 0],
-      ["CYCLE_OUT_IN", 0],
-      ["CYCLE_OUT_IN_DUAL", 0],
-      ["CYCLE_PINWHEEL", 0],
-      ["CYCLE_SPIRAL", 0],
-      ["DUAL_BEACON", 1],
-      ["RAINBOW_BEACON", 0],
-      ["JELLYBEAN_RAINDROPS", 10],
-      ["PIXEL_RAIN", 0],
-      ["TYPING_HEATMAP", 0],
-      ["DIGITAL_RAIN", 0],
-      ["REACTIVE_SIMPLE", 1],
-      ["REACTIVE_MULTIWIDE", 1],
-      ["REACTIVE_MULTINEXUS", 1],
-      ["SPLASH", 0],
-      ["SOLID_SPLASH", 1]
-    ]
+  "matrix": {
+    "rows": 6,
+    "cols": 16
   },
   "customKeycodes": [
-    {"name": "Left Option", "title": "Left Option", "shortName": "LOpt"},
-    {"name": "Right Option", "title": "Right Option", "shortName": "ROpt"},
-    {"name": "Left Cmd", "title": "Left Command", "shortName": "LCmd"},
-    {"name": "Right Cmd", "title": "Right Command", "shortName": "RCmd"},
-    {"name": "Misson Control", "title": "Misson Control, availabe in macOS", "shortName": "MCtrl"},
-    {"name": "Launch pad", "title": "Launch pad, availabe in macOS", "shortName": "LPad"},
-    {"name": "Task View", "title": "Task View in Windows", "shortName": "Task"},
-    {"name": "File Explorer", "title": "File Explorer in Windows", "shortName": "File"},
-    {"name": "Screen shot", "title": "Screenshot in macOS", "shortName": "SShot"},
-    {"name": "Cortana", "title": "Cortana in Windows", "shortName": "Cortana"},
-    {"name": "Siri", "title": "Siri in macOS", "shortName": "Siri"},
-    {"name": "Bluetooth Host 1", "title": "Bluetooth Host 1", "shortName": "BT1"},
-    {"name": "Bluetooth Host 2", "title": "Bluetooth Host 2", "shortName": "BT2"},
-    {"name": "Bluetooth Host 3", "title": "Bluetooth Host 3", "shortName": "BT3"},
-    {"name": "Battery Level", "title": "Show battery level", "shortName": "Batt"}
-    ],
-  "matrix": {"rows": 6, "cols": 16},
+    {
+      "name": "Left Option",
+      "title": "Left Option",
+      "shortName": "LOpt"
+    },
+    {
+      "name": "Right Option",
+      "title": "Right Option",
+      "shortName": "ROpt"
+    },
+    {
+      "name": "Left Cmd",
+      "title": "Left Command",
+      "shortName": "LCmd"
+    },
+    {
+      "name": "Right Cmd",
+      "title": "Right Command",
+      "shortName": "RCmd"
+    },
+    {
+      "name": "Misson Control",
+      "title": "Misson Control, availabe in macOS",
+      "shortName": "MCtrl"
+    },
+    {
+      "name": "Launch pad",
+      "title": "Launch pad, availabe in macOS",
+      "shortName": "LPad"
+    },
+    {
+      "name": "Task View",
+      "title": "Task View in Windows",
+      "shortName": "Task"
+    },
+    {
+      "name": "File Explorer",
+      "title": "File Explorer in Windows",
+      "shortName": "File"
+    },
+    {
+      "name": "Screen shot",
+      "title": "Screenshot in macOS",
+      "shortName": "SShot"
+    },
+    {
+      "name": "Cortana",
+      "title": "Cortana in Windows",
+      "shortName": "Cortana"
+    },
+    {
+      "name": "Siri",
+      "title": "Siri in macOS",
+      "shortName": "Siri"
+    },
+    {
+      "name": "Bluetooth Host 1",
+      "title": "Bluetooth Host 1",
+      "shortName": "BT1"
+    },
+    {
+      "name": "Bluetooth Host 2",
+      "title": "Bluetooth Host 2",
+      "shortName": "BT2"
+    },
+    {
+      "name": "Bluetooth Host 3",
+      "title": "Bluetooth Host 3",
+      "shortName": "BT3"
+    },
+    {
+      "name": "Battery Level",
+      "title": "Show battery level",
+      "shortName": "Batt"
+    }
+  ],
+  "lighting": {
+    "extends": "qmk_rgblight",
+    "keycodes": "qmk",
+    "underglowEffects": [
+      [
+        "None",
+        0
+      ],
+      [
+        "SOLID_COLOR",
+        1
+      ],
+      [
+        "BREATHING",
+        1
+      ],
+      [
+        "BAND_SPIRAL_VAL",
+        1
+      ],
+      [
+        "CYCLE_ALL",
+        0
+      ],
+      [
+        "CYCLE_LEFT_RIGHT",
+        0
+      ],
+      [
+        "CYCLE_UP_DOWN",
+        0
+      ],
+      [
+        "RAINBOW_MOVING_CHEVRON",
+        0
+      ],
+      [
+        "CYCLE_OUT_IN",
+        0
+      ],
+      [
+        "CYCLE_OUT_IN_DUAL",
+        0
+      ],
+      [
+        "CYCLE_PINWHEEL",
+        0
+      ],
+      [
+        "CYCLE_SPIRAL",
+        0
+      ],
+      [
+        "DUAL_BEACON",
+        1
+      ],
+      [
+        "RAINBOW_BEACON",
+        0
+      ],
+      [
+        "JELLYBEAN_RAINDROPS",
+        10
+      ],
+      [
+        "PIXEL_RAIN",
+        0
+      ],
+      [
+        "TYPING_HEATMAP",
+        0
+      ],
+      [
+        "DIGITAL_RAIN",
+        0
+      ],
+      [
+        "REACTIVE_SIMPLE",
+        1
+      ],
+      [
+        "REACTIVE_MULTIWIDE",
+        1
+      ],
+      [
+        "REACTIVE_MULTINEXUS",
+        1
+      ],
+      [
+        "SPLASH",
+        0
+      ],
+      [
+        "SOLID_SPLASH",
+        1
+      ]
+    ]
+  },
   "layouts": {
     "keymap": [
       [

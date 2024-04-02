@@ -2,11 +2,11 @@
   "name": "recompile keys Choco60",
   "vendorId": "0x524B",
   "productId": "0x4362",
-  "lighting": "none",
   "matrix": {
     "rows": 10,
     "cols": 9
   },
+  "lighting": "none",
   "layouts": {
     "keymap": [
       [

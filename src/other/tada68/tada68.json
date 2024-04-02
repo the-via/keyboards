@@ -2,13 +2,20 @@
   "name": "Tada68",
   "vendorId": "0x5441",
   "productId": "0x0001",
-  "lighting": "qmk_backlight",
   "matrix": {
     "rows": 5,
     "cols": 15
   },
+  "lighting": "qmk_backlight",
   "layouts": {
-    "labels": [["Enter Key", "ANSI", "ISO"], "Split Left Shift"],
+    "labels": [
+      [
+        "Enter Key",
+        "ANSI",
+        "ISO"
+      ],
+      "Split Left Shift"
+    ],
     "keymap": [
       [
         {

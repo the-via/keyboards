@@ -2,10 +2,20 @@
   "name": "Candybar_Ortho",
   "vendorId": "0x7070",
   "productId": "0x3215",
-  "matrix": {"rows": 8, "cols": 9},
+  "matrix": {
+    "rows": 8,
+    "cols": 9
+  },
   "lighting": "qmk_rgblight",
   "layouts": {
-    "labels": [["Bottom Row", "grid", "2x3u", "7u"]],
+    "labels": [
+      [
+        "Bottom Row",
+        "grid",
+        "2x3u",
+        "7u"
+      ]
+    ],
     "keymap": [
       [
         {

@@ -1,8 +1,11 @@
 {
+  "name": "ecila",
   "vendorId": "0x534B",
   "productId": "0x534B",
-  "name": "ecila",
-  "matrix": {"rows": 5, "cols": 15},
+  "matrix": {
+    "rows": 5,
+    "cols": 15
+  },
   "lighting": "qmk_rgblight",
   "layouts": {
     "keymap": [

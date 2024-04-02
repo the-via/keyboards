@@ -2,13 +2,20 @@
   "name": "Noxary 268.2",
   "vendorId": "0x4e58",
   "productId": "0x0A7A",
-  "lighting": "qmk_backlight",
   "matrix": {
     "rows": 5,
     "cols": 16
   },
+  "lighting": "qmk_backlight",
   "layouts": {
-    "labels": ["Split Backspace", ["Spacebar", "7u", "6.25u"]],
+    "labels": [
+      "Split Backspace",
+      [
+        "Spacebar",
+        "7u",
+        "6.25u"
+      ]
+    ],
     "keymap": [
       [
         {

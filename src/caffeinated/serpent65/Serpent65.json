@@ -2,8 +2,11 @@
   "name": "Serpent65",
   "vendorId": "0x4353",
   "productId": "0x6501",
+  "matrix": {
+    "rows": 10,
+    "cols": 8
+  },
   "lighting": "none",
-  "matrix": {"rows": 10, "cols": 8},
   "layouts": {
     "labels": [
       "Split Backspace",

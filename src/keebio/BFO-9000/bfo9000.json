@@ -2,11 +2,11 @@
   "name": "Keeb.io BFO-9000",
   "vendorId": "0xCB10",
   "productId": "0x1169",
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 12,
     "cols": 9
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
     "keymap": [
       [

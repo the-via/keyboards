@@ -2,38 +2,119 @@
   "name": "Perk60 ISO Rev A",
   "vendorId": "0x4444",
   "productId": "0x0009",
+  "matrix": {
+    "rows": 10,
+    "cols": 7
+  },
   "lighting": {
     "extends": "qmk_rgblight",
     "underglowEffects": [
-      ["None", 0],
-      ["Solid Color", 1],
-      ["Alphas/Mods", 1],
-      ["Vertical Gradient", 1],
-      ["Horizontal Gradient", 1],
-      ["Breathing", 1],
-      ["Cycle All", 1],
-      ["Cycle Left/Right", 1],
-      ["Cycle Up/Down", 1],
-      ["Rainbow Moving Chevron", 1],
-      ["Cycle Out/In", 1],
-      ["Cycle Out/In Dual", 1],
-      ["Cycle Pinwheel", 1],
-      ["Cycle Spiral", 1],
-      ["Dual Beacon", 1],
-      ["Rainbow Beacon", 1],
-      ["Rainbow Pinwheels", 1],
-      ["Raindrops", 1],
-      ["Jelly Raindrops", 1],
-      ["Solid Reactive Simple", 1],
-      ["Solid Reactive", 1],
-      ["Solid Reactive Wide", 1],
-      ["Solid Reactive Cross", 1],
-      ["Solid Reactive Nexus", 1],
-      ["Splash", 1],
-      ["Solid Splash", 1]
+      [
+        "None",
+        0
+      ],
+      [
+        "Solid Color",
+        1
+      ],
+      [
+        "Alphas/Mods",
+        1
+      ],
+      [
+        "Vertical Gradient",
+        1
+      ],
+      [
+        "Horizontal Gradient",
+        1
+      ],
+      [
+        "Breathing",
+        1
+      ],
+      [
+        "Cycle All",
+        1
+      ],
+      [
+        "Cycle Left/Right",
+        1
+      ],
+      [
+        "Cycle Up/Down",
+        1
+      ],
+      [
+        "Rainbow Moving Chevron",
+        1
+      ],
+      [
+        "Cycle Out/In",
+        1
+      ],
+      [
+        "Cycle Out/In Dual",
+        1
+      ],
+      [
+        "Cycle Pinwheel",
+        1
+      ],
+      [
+        "Cycle Spiral",
+        1
+      ],
+      [
+        "Dual Beacon",
+        1
+      ],
+      [
+        "Rainbow Beacon",
+        1
+      ],
+      [
+        "Rainbow Pinwheels",
+        1
+      ],
+      [
+        "Raindrops",
+        1
+      ],
+      [
+        "Jelly Raindrops",
+        1
+      ],
+      [
+        "Solid Reactive Simple",
+        1
+      ],
+      [
+        "Solid Reactive",
+        1
+      ],
+      [
+        "Solid Reactive Wide",
+        1
+      ],
+      [
+        "Solid Reactive Cross",
+        1
+      ],
+      [
+        "Solid Reactive Nexus",
+        1
+      ],
+      [
+        "Splash",
+        1
+      ],
+      [
+        "Solid Splash",
+        1
+      ]
     ]
   },
-  "matrix": {"rows": 10, "cols": 7},
   "layouts": {
     "keymap": [
       [

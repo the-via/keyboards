@@ -2,11 +2,11 @@
   "name": "Fuyu",
   "vendorId": "0x7A79",
   "productId": "0x0087",
-  "lighting": "none",
   "matrix": {
     "rows": 6,
     "cols": 17
   },
+  "lighting": "none",
   "layouts": {
     "labels": [
       "Split Backspace",
@@ -15,7 +15,12 @@
       "Split Right Shift",
       "Stepped Caps",
       "Numpad Blocker",
-      ["Bottom Row", "6.25U", "7U", "WKL"]
+      [
+        "Bottom Row",
+        "6.25U",
+        "7U",
+        "WKL"
+      ]
     ],
     "keymap": [
       [

@@ -2,11 +2,11 @@
   "name": "ibis",
   "vendorId": "0x04D8",
   "productId": "0xEAA9",
-  "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 10,
     "cols": 10
   },
+  "lighting": "qmk_backlight_rgblight",
   "layouts": {
     "labels": [
       "Split Backspace",

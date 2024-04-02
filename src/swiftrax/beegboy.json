@@ -2,11 +2,11 @@
   "name": "Beegboy",
   "vendorId": "0x04D8",
   "productId": "0xEAC5",
-  "lighting": "none",
   "matrix": {
     "rows": 12,
     "cols": 9
   },
+  "lighting": "none",
   "layouts": {
     "keymap": [
       [

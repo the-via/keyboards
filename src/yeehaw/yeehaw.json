@@ -2,8 +2,11 @@
   "name": "Yeehaw",
   "vendorId": "0x5351",
   "productId": "0x5458",
+  "matrix": {
+    "rows": 1,
+    "cols": 14
+  },
   "lighting": "qmk_backlight_rgblight",
-  "matrix": {"rows": 1, "cols": 14},
   "layouts": {
     "keymap": [
       [
