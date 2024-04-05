@@ -2,9 +2,17 @@
     "name": "DOIO KB38-01",
     "vendorId": "0xD010",
     "productId": "0x3801",
-    "keycodes": ["qmk_lighting"],
-    "menus": ["qmk_rgb_matrix"],
-    "matrix": { "rows": 6,  "cols": 8},
+    "keycodes": [
+      "qmk_lighting"
+    ],
+    "menus": [
+      "qmk_rgb_matrix"
+    ],
+    "matrix": {
+      "rows": 6,
+      "cols": 8
+    },
+
     "layouts": {
       "keymap":[
         [
