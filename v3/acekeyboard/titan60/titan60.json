@@ -17,12 +17,18 @@
         "Split left shift",
         "Split both shifts"
       ],
-      ["Bottom Row", "6.25U", "7U Tsangan", "Utilitarian"]
+      [
+        "Bottom Row",
+        "6.25u",
+        "7u Tsangan",
+        "Utilitarian",
+        "Utilitarian 7u"
+      ]
     ],
     "keymap": [
       [{"x": 13, "c": "#aaaaaa"}, "0,13\n\n\n0,1", "2,12\n\n\n0,1"],
       [
-        {"c": "#cccccc"},
+        {"y": 0.25, "c": "#cccccc"},
         "0,0",
         "0,1",
         "0,2",
@@ -222,6 +228,20 @@
         "4,9\n\n\n3,2",
         "4,12\n\n\n3,2",
         "4,13\n\n\n3,2"
+      ],
+      [
+        {"w": 1.5},
+        "4,0\n\n\n3,1",
+        "4,1\n\n\n3,1",
+        {"w": 1.5},
+        "4,2\n\n\n3,1",
+        {"c": "#cccccc", "w": 7},
+        "4,6\n\n\n3,1",
+        {"c": "#aaaaaa"},
+        "4,11\n\n\n3,3",
+        "4,9\n\n\n3,3",
+        "4,12\n\n\n3,3",
+        "4,13\n\n\n3,3"
       ]
     ]
   }
