@@ -2,8 +2,12 @@
   "name": "YR6095_Y&R",
   "vendorId": "0xAA96",
   "productId": "0xAA0C",
-  "keycodes": ["qmk_lighting"],
-  "menus": ["qmk_rgblight"],
+  "keycodes": [
+    "qmk_lighting"
+  ],
+  "menus": [
+    "qmk_rgblight"
+  ],
   "customKeycodes": [
     {
       "name": "Toggle WinKey Lock",
@@ -26,14 +30,25 @@
       "shortName": "Launch Pad"
     }
   ],
-  "matrix": {"rows": 5, "cols": 14},
+  "matrix": {
+    "rows": 5,
+    "cols": 14
+  },
   "layouts": {
-    "presets": {"default": [0, 0, 0, 0]},
+    "presets": {
+      "default": [0, 0, 0, 0]
+    },
     "labels": [
       "Split Backspace",
       "ISO Enter",
       "No-left Shift",
-      ["Space", "6.25U Left Shift", "7U WKL", "Split Space Left Shift"]
+      [
+        "Bottom Row",
+        "6.25U Left Shift",
+        "7U WKL",
+        "Split Space Left Shift",
+        "64-Key Tsangan"
+      ]
     ],
     "keymap": [
       [
@@ -123,9 +138,9 @@
         "3,10\n\n\n2,0",
         {"c": "#aaaaaa"},
         "3,11\n\n\n2,0",
-        {"c": "#777777", "f": 1},
+        {"c": "#777777"},
         "3,12\n\n\n2,0",
-        {"c": "#aaaaaa", "f": 3},
+        {"c": "#aaaaaa"},
         "3,13\n\n\n2,0"
       ],
       [
@@ -164,7 +179,7 @@
         "3,13\n\n\n2,1"
       ],
       [
-        {"w": 1.5},
+        {"y": 0.25, "w": 1.5},
         "4,0\n\n\n3,1",
         "4,1\n\n\n3,1",
         {"w": 1.5},
@@ -197,6 +212,21 @@
         "4,11\n\n\n3,2",
         "4,12\n\n\n3,2",
         "4,13\n\n\n3,2"
+      ],
+      [
+        {"c": "#aaaaaa", "w": 1.5},
+        "4,0\n\n\n3,3",
+        "4,1\n\n\n3,3",
+        {"w": 1.5},
+        "4,2\n\n\n3,3",
+        {"c": "#cccccc", "w": 7},
+        "4,5\n\n\n3,3",
+        {"c": "#aaaaaa"},
+        "4,10\n\n\n3,3",
+        {"c": "#777777"},
+        "4,11\n\n\n3,3",
+        "4,12\n\n\n3,3",
+        "4,13\n\n\n3,3"
       ]
     ]
   }
