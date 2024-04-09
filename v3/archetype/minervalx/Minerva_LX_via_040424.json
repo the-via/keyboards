@@ -17,10 +17,10 @@
       "Split Backspace",
       "Split Left Shift",
       [
-          "Bottom Row",
-          "Tsangan",
-          "Tsangan-Split",
-          "ANSI"
+        "Bottom Row",
+        "Tsangan",
+        "Tsangan-Split",
+        "ANSI"
       ]
     ],
     "keymap": [
