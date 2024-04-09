@@ -2,16 +2,16 @@
   "name": "810E",
   "vendorId": "0x4E65",
   "productId": "0x810E",
+  "matrix": {
+    "rows": 5,
+    "cols": 18
+  },
   "keycodes": [
     "qmk_lighting"
   ],
   "menus": [
     "qmk_rgblight"
   ],
-  "matrix": {
-    "rows": 5,
-    "cols": 18
-  },
   "layouts": {
     "labels": [
       "Split Backspace",

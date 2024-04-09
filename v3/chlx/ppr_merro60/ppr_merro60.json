@@ -1,20 +1,33 @@
 {
-  "name"      : "chlx ppr.merro60",
-  "vendorId"  : "0x4358",
-  "productId" : "0x0603",
-  "matrix"    : {
+  "name": "chlx ppr.merro60",
+  "vendorId": "0x4358",
+  "productId": "0x0603",
+  "matrix": {
     "rows": 10,
     "cols": 7
   },
-  "layouts"   : {
-    "labels"  : [
+  "layouts": {
+    "labels": [
       "Full Backspace",
-      ["Enter", "ANSI", "ISO"],
+      [
+        "Enter",
+        "ANSI",
+        "ISO"
+      ],
       "Full Left Shift",
       "Full Right Shift",
-      ["Bottom Row", "Split (Right offset)", "Standard", "Tsangan", "WKL", "7u HHKB", "10u Spacebar", "Split (Left offset)"]
+      [
+        "Bottom Row",
+        "Split (Right offset)",
+        "Standard",
+        "Tsangan",
+        "WKL",
+        "7u HHKB",
+        "10u Spacebar",
+        "Split (Left offset)"
+      ]
     ],
-    "keymap"  : [
+    "keymap": [
       [
         {
           "x": 3,
@@ -273,7 +286,7 @@
         },
         "9,0\n\n\n4,3",
         {
-          "d":true
+          "d": true
         },
         "8,0\n\n\n4,3",
         {
@@ -291,7 +304,7 @@
         },
         "8,5\n\n\n4,3",
         {
-          "d":true
+          "d": true
         },
         "9,5\n\n\n4,3",
         {
@@ -399,4 +412,3 @@
     ]
   }
 }
-

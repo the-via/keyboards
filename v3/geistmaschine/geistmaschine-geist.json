@@ -2,18 +2,37 @@
   "name": "Geistmaschine Geist",
   "vendorId": "0x676D",
   "productId": "0x0001",
-  "matrix": { "rows": 10, "cols": 8 },
+  "matrix": {
+    "rows": 10,
+    "cols": 8
+  },
   "layouts": {
-    "presets": {
-      "ANSI": [0, 0, 0, 0],
-      "ISO":  [0, 1, 1, 0]
-    },
     "labels": [
       "Split Backspace",
       "ISO Enter",
       "Split Left Shift",
-      ["Bottom Row", "6.25u", "7u", "Split 2.25/1.25/2.75", "Split 3/3"]
+      [
+        "Bottom Row",
+        "6.25u",
+        "7u",
+        "Split 2.25/1.25/2.75",
+        "Split 3/3"
+      ]
     ],
+    "presets": {
+      "ANSI": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "ISO": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
     "keymap": [
       [
         {
@@ -310,6 +329,6 @@
         },
         "9,5\n\n\n3,3"
       ]
-    ]      
+    ]
   }
 }

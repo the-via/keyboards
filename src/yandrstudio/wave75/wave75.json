@@ -2,7 +2,10 @@
   "name": "wave75_Y&R",
   "vendorId": "0xAA96",
   "productId": "0xAA8E",
-  "lighting": "none",
+  "matrix": {
+    "rows": 6,
+    "cols": 15
+  },
   "customKeycodes": [
     {
       "name": "Toggle WinKey Lock",
@@ -25,10 +28,7 @@
       "shortName": "Launch Pad"
     }
   ],
-  "matrix": {
-    "rows": 6,
-    "cols": 15
-  },
+  "lighting": "none",
   "layouts": {
     "keymap": [
       [

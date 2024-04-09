@@ -2,14 +2,19 @@
   "name": "3dortho14u",
   "vendorId": "0x6662",
   "productId": "0x3D14",
-  "lighting": "none",
   "matrix": {
     "rows": 5,
     "cols": 14
   },
+  "lighting": "none",
   "layouts": {
     "labels": [
-      ["Enter", "2u Enter", "Split Enter", "Keypad Plus"],
+      [
+        "Enter",
+        "2u Enter",
+        "Split Enter",
+        "Keypad Plus"
+      ],
       "Keypad Enter",
       "Keypad Ins",
       [

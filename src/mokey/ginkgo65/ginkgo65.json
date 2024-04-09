@@ -2,14 +2,23 @@
   "name": "ginkgo65",
   "vendorId": "0x6653",
   "productId": "0x3365",
+  "matrix": {
+    "rows": 5,
+    "cols": 16
+  },
   "lighting": "qmk_backlight_rgblight",
-  "matrix": {"rows": 5, "cols": 16},
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO Enter",
       "Split Left Shift",
-      ["Bottom Row", "Normal", "7U-Space", "2.75U", "2.25U"]
+      [
+        "Bottom Row",
+        "Normal",
+        "7U-Space",
+        "2.75U",
+        "2.25U"
+      ]
     ],
     "keymap": [
       [

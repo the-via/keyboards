@@ -2,11 +2,13 @@
   "name": "ebastler E80-1800",
   "vendorId": "0x6562",
   "productId": "0x1338",
-  "menus": ["qmk_backlight"],
   "matrix": {
     "rows": 7,
     "cols": 19
   },
+  "menus": [
+    "qmk_backlight"
+  ],
   "layouts": {
     "labels": [
       "ISO Enter",

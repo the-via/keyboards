@@ -2,11 +2,11 @@
   "name": "akb/vero",
   "vendorId": "0x4150",
   "productId": "0x5645",
-  "lighting": "none",
   "matrix": {
     "rows": 5,
     "cols": 15
   },
+  "lighting": "none",
   "layouts": {
     "labels": [
       "Long Backspace",

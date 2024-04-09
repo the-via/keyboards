@@ -2,17 +2,24 @@
   "name": "Singa",
   "vendorId": "0x736B",
   "productId": "0x7575",
-  "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 7,
     "cols": 15
   },
+  "lighting": "qmk_backlight_rgblight",
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO Enter",
       "Split Left Shift",
-      ["Bottom Row", "Tsangan", "1u Mods", "WK", "Split Space", "WKL"]
+      [
+        "Bottom Row",
+        "Tsangan",
+        "1u Mods",
+        "WK",
+        "Split Space",
+        "WKL"
+      ]
     ],
     "keymap": [
       [

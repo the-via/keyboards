@@ -2,9 +2,16 @@
   "name": "Eagle Viper Rep, Rev B",
   "vendorId": "0x4444",
   "productId": "0x0010",
-  "keycodes": ["qmk_lighting"],
-  "menus": ["qmk_backlight_rgblight"],
-  "matrix": {"rows": 10, "cols": 7},
+  "matrix": {
+    "rows": 10,
+    "cols": 7
+  },
+  "keycodes": [
+    "qmk_lighting"
+  ],
+  "menus": [
+    "qmk_backlight_rgblight"
+  ],
   "layouts": {
     "labels": [
       [

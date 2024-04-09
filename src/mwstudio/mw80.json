@@ -2,13 +2,19 @@
   "name": "MW80",
   "vendorId": "0x7BA1",
   "productId": "0x8001",
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 6,
     "cols": 17
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
-    "labels": [["enter", "default", "iso"]],
+    "labels": [
+      [
+        "enter",
+        "default",
+        "iso"
+      ]
+    ],
     "keymap": [
       [
         "0,0",

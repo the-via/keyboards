@@ -2,16 +2,20 @@
   "name": "XS108",
   "vendorId": "0x5845",
   "productId": "0x0108",
-  "lighting": "none",
   "matrix": {
     "rows": 6,
     "cols": 21
   },
+  "lighting": "none",
   "layouts": {
     "labels": [
       "Split Backspace",
       "Split Right Shift",
-      ["Bottom Row", "6.25U", "7U"],
+      [
+        "Bottom Row",
+        "6.25U",
+        "7U"
+      ],
       "Split Numpad 0",
       "Split Numpad +",
       "Split Numpad Enter"

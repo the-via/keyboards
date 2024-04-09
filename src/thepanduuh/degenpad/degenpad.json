@@ -2,13 +2,18 @@
   "name": "Degenpad",
   "vendorId": "0x4A44",
   "productId": "0x4447",
-  "lighting": "none",
   "matrix": {
     "rows": 6,
     "cols": 4
   },
+  "lighting": "none",
   "layouts": {
-    "labels": ["Split Plus", "Split Enter", "Split 0", "Rotary Encoder"],
+    "labels": [
+      "Split Plus",
+      "Split Enter",
+      "Split 0",
+      "Rotary Encoder"
+    ],
     "keymap": [
       [
         {
@@ -16,7 +21,12 @@
         },
         "0,0\n\n\n3,1\n\n\n\n\n\ne0"
       ],
-      ["0,0\n\n\n3,0", "0,1", "0,2", "0,3"],
+      [
+        "0,0\n\n\n3,0",
+        "0,1",
+        "0,2",
+        "0,3"
+      ],
       [
         {
           "y": 0.5

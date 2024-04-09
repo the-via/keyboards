@@ -2,17 +2,22 @@
   "name": "KBD67 Rev1",
   "vendorId": "0x4b42",
   "productId": "0x6066",
-  "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 5,
     "cols": 16
   },
+  "lighting": "qmk_backlight_rgblight",
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO Enter",
       "Split Left Shift",
-      ["Spacebar", "6.25U", "2.75U/1.25U/2.25U", "2.25U/1.25U/2.75U"]
+      [
+        "Spacebar",
+        "6.25U",
+        "2.75U/1.25U/2.25U",
+        "2.25U/1.25U/2.75U"
+      ]
     ],
     "keymap": [
       [

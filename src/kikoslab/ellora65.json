@@ -2,17 +2,22 @@
   "name": "Ellora65",
   "vendorId": "0x04D8",
   "productId": "0xE88F",
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 10,
     "cols": 8
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO Enter",
       "Split Left Shift",
-      ["Bottom Row", "ANSI", "Split Space", "7U"]
+      [
+        "Bottom Row",
+        "ANSI",
+        "Split Space",
+        "7U"
+      ]
     ],
     "keymap": [
       [

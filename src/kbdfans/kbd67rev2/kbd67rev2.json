@@ -2,20 +2,41 @@
   "name": "KBD67 Rev2",
   "vendorId": "0x4B42",
   "productId": "0x6067",
-  "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 5,
     "cols": 16
   },
+  "lighting": "qmk_backlight_rgblight",
   "layouts": {
     "labels": [
-      ["Backspace", "Default", "Split"],
-      ["Enter Key", "ANSI", "ISO"],
-      ["Left Shift", "Default", "Split"],
-      ["Spacebar", "Standard", "Split", "7u"],
-      ["Right Mods", "3x1u", "2x1.5u", "2x1.25u"]
+      [
+        "Backspace",
+        "Default",
+        "Split"
+      ],
+      [
+        "Enter Key",
+        "ANSI",
+        "ISO"
+      ],
+      [
+        "Left Shift",
+        "Default",
+        "Split"
+      ],
+      [
+        "Spacebar",
+        "Standard",
+        "Split",
+        "7u"
+      ],
+      [
+        "Right Mods",
+        "3x1u",
+        "2x1.5u",
+        "2x1.25u"
+      ]
     ],
-
     "keymap": [
       [
         {

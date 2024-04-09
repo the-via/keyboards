@@ -2,8 +2,11 @@
   "name": "JP60",
   "vendorId": "0xa103",
   "productId": "0x0024",
+  "matrix": {
+    "rows": 5,
+    "cols": 14
+  },
   "lighting": "none",
-  "matrix": {"rows": 5, "cols": 14},
   "layouts": {
     "keymap": [
       [

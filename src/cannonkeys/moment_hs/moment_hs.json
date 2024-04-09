@@ -2,13 +2,15 @@
   "name": "Moment HS",
   "vendorId": "0xCA04",
   "productId": "0x0013",
-  "lighting": "none",
   "matrix": {
     "rows": 5,
     "cols": 15
   },
+  "lighting": "none",
   "layouts": {
-    "labels": ["Split Backspace"],
+    "labels": [
+      "Split Backspace"
+    ],
     "keymap": [
       [
         {

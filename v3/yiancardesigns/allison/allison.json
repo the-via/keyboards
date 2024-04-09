@@ -2,14 +2,21 @@
   "name": "Allison",
   "vendorId": "0x8968",
   "productId": "0x414D",
-  "matrix": {"rows": 6, "cols": 15},
+  "matrix": {
+    "rows": 6,
+    "cols": 15
+  },
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO",
       "Split Left Shift",
       "Split Right Shift",
-      ["Bottom Row", "WKL", "WK"]
+      [
+        "Bottom Row",
+        "WKL",
+        "WK"
+      ]
     ],
     "keymap": [
       [

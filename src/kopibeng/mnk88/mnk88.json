@@ -2,15 +2,23 @@
   "name": "MNK88",
   "vendorId": "0x4B50",
   "productId": "0x8800",
+  "matrix": {
+    "rows": 6,
+    "cols": 17
+  },
   "lighting": "qmk_rgblight",
-  "matrix": {"rows": 6, "cols": 17},
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO",
       "Split Left Shift",
       "Split Right Shift",
-      ["Bottom row", "7U", "WKL", "6.25U"]
+      [
+        "Bottom row",
+        "7U",
+        "WKL",
+        "6.25U"
+      ]
     ],
     "keymap": [
       [

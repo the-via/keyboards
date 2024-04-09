@@ -2,9 +2,17 @@
   "name": "Kyuu Hotswap",
   "vendorId": "0x7074",
   "productId": "0x1012",
+  "matrix": {
+    "rows": 5,
+    "cols": 15
+  },
   "lighting": "qmk_rgblight",
-  "matrix": {"rows": 5, "cols": 15},
   "layouts": {
+    "labels": [
+      "Split Backspace",
+      "Split Left Shift",
+      "7U Bottom Row"
+    ],
     "keymap": [
       [
         {
@@ -195,7 +203,6 @@
         },
         "4,11\n\n\n2,1"
       ]
-    ],
-    "labels": ["Split Backspace", "Split Left Shift", "7U Bottom Row"]
+    ]
   }
 }

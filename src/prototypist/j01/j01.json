@@ -2,14 +2,35 @@
   "name": "Prototypist J-01",
   "vendorId": "0x5450",
   "productId": "0x6A31",
+  "matrix": {
+    "rows": 5,
+    "cols": 18
+  },
   "lighting": "qmk_backlight",
-  "matrix": {"rows": 5, "cols": 18},
   "layouts": {
     "labels": [
-      ["Backspace", "Full", "Split"],
-      ["Enter", "ANSI", "ISO"],
-      ["Left Shift", "Full", "Split"],
-      ["Bottom Row", "Option 1", "Option 2", "Option 3", "Option 4"]
+      [
+        "Backspace",
+        "Full",
+        "Split"
+      ],
+      [
+        "Enter",
+        "ANSI",
+        "ISO"
+      ],
+      [
+        "Left Shift",
+        "Full",
+        "Split"
+      ],
+      [
+        "Bottom Row",
+        "Option 1",
+        "Option 2",
+        "Option 3",
+        "Option 4"
+      ]
     ],
     "keymap": [
       [

@@ -2,13 +2,13 @@
   "name": "DZ60RGB V1",
   "vendorId": "0x445A",
   "productId": "0x1120",
-  "lighting": {
-    "extends": "none",
-    "keycodes": "qmk"
-  },
   "matrix": {
     "rows": 5,
     "cols": 14
+  },
+  "lighting": {
+    "extends": "none",
+    "keycodes": "qmk"
   },
   "layouts": {
     "keymap": [

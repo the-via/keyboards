@@ -2,15 +2,22 @@
   "name": "Cassini",
   "vendorId": "0x8968",
   "productId": "0x4341",
+  "matrix": {
+    "rows": 5,
+    "cols": 14
+  },
   "lighting": "none",
-  "matrix": {"rows": 5, "cols": 14},
   "layouts": {
     "labels": [
       "Split Backspace",
       "Split Right Shift",
       "Split Left Shift",
       "ISO Enter",
-      ["Bottom Row", "6.25U", "7U"]
+      [
+        "Bottom Row",
+        "6.25U",
+        "7U"
+      ]
     ],
     "keymap": [
       [

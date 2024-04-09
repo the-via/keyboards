@@ -2,9 +2,28 @@
   "name": "Solanis",
   "vendorId": "0x7074",
   "productId": "0x0017",
+  "matrix": {
+    "rows": 6,
+    "cols": 17
+  },
   "lighting": "qmk_rgblight",
-  "matrix": {"rows": 6, "cols": 17},
   "layouts": {
+    "labels": [
+      [
+        "Function Row",
+        "F12",
+        "F13"
+      ],
+      "Split Backspace",
+      "Split Right Shift",
+      [
+        "Bottom Row",
+        "6.25U",
+        "6.25U Split",
+        "7U",
+        "7U Split"
+      ]
+    ],
     "keymap": [
       [
         {
@@ -336,12 +355,6 @@
         },
         "5,13\n\n\n3,3"
       ]
-    ],
-    "labels": [
-      ["Function Row", "F12", "F13"],
-      "Split Backspace",
-      "Split Right Shift",
-      ["Bottom Row", "6.25U", "6.25U Split", "7U", "7U Split"]
     ]
   }
 }

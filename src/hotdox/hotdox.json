@@ -2,11 +2,11 @@
   "name": "Alpaca Keyboards HotDox",
   "vendorId": "0x414B",
   "productId": "0x0001",
-  "lighting": "none",
   "matrix": {
     "rows": 6,
     "cols": 14
   },
+  "lighting": "none",
   "layouts": {
     "keymap": [
       [

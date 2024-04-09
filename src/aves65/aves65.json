@@ -2,14 +2,18 @@
   "name": "I/O Keyboards Aves65",
   "vendorId": "0x9991",
   "productId": "0x9038",
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 5,
     "cols": 15
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
     "labels": [
-      ["Enter Key", "ISO", "ANSI"],
+      [
+        "Enter Key",
+        "ISO",
+        "ANSI"
+      ],
       "Full Left Shift",
       "Split Backspace",
       "Blocker"

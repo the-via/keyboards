@@ -2,52 +2,170 @@
   "name": "Iris Rev. 7",
   "vendorId": "0xCB10",
   "productId": "0x7256",
+  "matrix": {
+    "rows": 10,
+    "cols": 6
+  },
   "lighting": {
     "extends": "qmk_rgblight",
     "keycodes": "qmk",
     "underglowEffects": [
-      ["Off", 0],
-      ["Solid Color", 1],
-      ["Alpha Mods", 1],
-      ["Gradient Up-Down", 1],
-      ["Gradient Left-Right", 1],
-      ["Breathing", 1],
-      ["Band Saturation", 1],
-      ["Band Brightness", 1],
-      ["Band Pinwheel Saturation", 1],
-      ["Band Pinwheel Brightness", 1],
-      ["Band Spiral Saturation", 1],
-      ["Band Spiral Brightness", 1],
-      ["Gradient", 1],
-      ["Gradient Cycle Left-Right", 1],
-      ["Gradient Cycle Up-Down", 1],
-      ["Cycle In", 1],
-      ["Cycle In (Dual)", 1],
-      ["Rainbow Chevron", 1],
-      ["Gradient Pinwheel", 1],
-      ["Gradient Spiral", 1],
-      ["Gradient Dual Beacon", 1],
-      ["Gradient Beacon", 1],
-      ["Dual Pinwheel", 1],
-      ["Heatmap", 1],
-      ["Digitial Rain", 1],
-      ["Reactive (Simple)", 1],
-      ["Reactive", 1],
-      ["Reactive Wide", 1],
-      ["Reactive Wide (Multi)", 1],
-      ["Reactive Cross", 1],
-      ["Reactive Cross (Multi)", 1],
-      ["Reactive Nexus", 1],
-      ["Reactive Nexus (Multi)", 1],
-      ["Splash (Multi-Color)", 1],
-      ["Splash (Multi-Color) (Multi)", 1]
+      [
+        "Off",
+        0
+      ],
+      [
+        "Solid Color",
+        1
+      ],
+      [
+        "Alpha Mods",
+        1
+      ],
+      [
+        "Gradient Up-Down",
+        1
+      ],
+      [
+        "Gradient Left-Right",
+        1
+      ],
+      [
+        "Breathing",
+        1
+      ],
+      [
+        "Band Saturation",
+        1
+      ],
+      [
+        "Band Brightness",
+        1
+      ],
+      [
+        "Band Pinwheel Saturation",
+        1
+      ],
+      [
+        "Band Pinwheel Brightness",
+        1
+      ],
+      [
+        "Band Spiral Saturation",
+        1
+      ],
+      [
+        "Band Spiral Brightness",
+        1
+      ],
+      [
+        "Gradient",
+        1
+      ],
+      [
+        "Gradient Cycle Left-Right",
+        1
+      ],
+      [
+        "Gradient Cycle Up-Down",
+        1
+      ],
+      [
+        "Cycle In",
+        1
+      ],
+      [
+        "Cycle In (Dual)",
+        1
+      ],
+      [
+        "Rainbow Chevron",
+        1
+      ],
+      [
+        "Gradient Pinwheel",
+        1
+      ],
+      [
+        "Gradient Spiral",
+        1
+      ],
+      [
+        "Gradient Dual Beacon",
+        1
+      ],
+      [
+        "Gradient Beacon",
+        1
+      ],
+      [
+        "Dual Pinwheel",
+        1
+      ],
+      [
+        "Heatmap",
+        1
+      ],
+      [
+        "Digitial Rain",
+        1
+      ],
+      [
+        "Reactive (Simple)",
+        1
+      ],
+      [
+        "Reactive",
+        1
+      ],
+      [
+        "Reactive Wide",
+        1
+      ],
+      [
+        "Reactive Wide (Multi)",
+        1
+      ],
+      [
+        "Reactive Cross",
+        1
+      ],
+      [
+        "Reactive Cross (Multi)",
+        1
+      ],
+      [
+        "Reactive Nexus",
+        1
+      ],
+      [
+        "Reactive Nexus (Multi)",
+        1
+      ],
+      [
+        "Splash (Multi-Color)",
+        1
+      ],
+      [
+        "Splash (Multi-Color) (Multi)",
+        1
+      ]
     ]
   },
-  "matrix": {"rows": 10, "cols": 6},
   "layouts": {
     "labels": [
-      ["Left Thumb", "Two 1u keys", "With Encoder", "2u key"],
-      ["Right Thumb", "Two 1u keys", "With Encoder", "2u key"],
+      [
+        "Left Thumb",
+        "Two 1u keys",
+        "With Encoder",
+        "2u key"
+      ],
+      [
+        "Right Thumb",
+        "Two 1u keys",
+        "With Encoder",
+        "2u key"
+      ],
       "Top Left Encoder",
       "Top Right Encoder"
     ],

@@ -2,8 +2,11 @@
   "name": "Gentoo HS",
   "vendorId": "0xCA04",
   "productId": "0x0010",
+  "matrix": {
+    "rows": 5,
+    "cols": 15
+  },
   "lighting": "none",
-  "matrix": {"rows": 5, "cols": 15},
   "layouts": {
     "labels": [],
     "keymap": [

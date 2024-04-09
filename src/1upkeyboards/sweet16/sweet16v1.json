@@ -2,14 +2,17 @@
   "name": "sweet16 v1",
   "vendorId": "0x6F75",
   "productId": "0x0161",
-  "lighting": "qmk_backlight",
   "matrix": {
     "rows": 4,
     "cols": 4
   },
+  "lighting": "qmk_backlight",
   "layouts": {
-    "labels": ["2u Top Right", "2u Bottom Left", "2u Bottom Right"],
-
+    "labels": [
+      "2u Top Right",
+      "2u Bottom Left",
+      "2u Bottom Right"
+    ],
     "keymap": [
       [
         {

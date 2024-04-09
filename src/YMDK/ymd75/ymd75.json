@@ -2,12 +2,17 @@
   "name": "YMD 75 VIA",
   "vendorId": "0x20A0",
   "productId": "0x422D",
-  "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 12,
     "cols": 9
   },
+  "lighting": "qmk_backlight_rgblight",
   "layouts": {
+    "labels": [
+      "ISO Enter",
+      "ISO Left Shift",
+      "RWKL"
+    ],
     "keymap": [
       [
         {
@@ -217,7 +222,6 @@
         },
         "0,5\n\n\n2,1"
       ]
-    ],
-    "labels": ["ISO Enter", "ISO Left Shift", "RWKL"]
+    ]
   }
 }

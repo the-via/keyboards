@@ -2,17 +2,37 @@
   "name": "Quefrency Rev. 1",
   "vendorId": "0xCB10",
   "productId": "0x1257",
+  "matrix": {
+    "rows": 12,
+    "cols": 8
+  },
   "lighting": "qmk_backlight_rgblight",
-  "matrix": {"rows": 12, "cols": 8},
   "layouts": {
     "labels": [
       "Split Backspace",
       "65% Column",
       "Macropad",
-      ["Left Space", "1.25-2.25", "2.25-1.25"],
-      ["Right Space", "2.75", "1.25-1.5"],
-      ["Right Shift", "Standard", "1.75u Shift", "1.75u /"],
-      ["Right Mods", "4x 1.25u", "5x 1u"]
+      [
+        "Left Space",
+        "1.25-2.25",
+        "2.25-1.25"
+      ],
+      [
+        "Right Space",
+        "2.75",
+        "1.25-1.5"
+      ],
+      [
+        "Right Shift",
+        "Standard",
+        "1.75u Shift",
+        "1.75u /"
+      ],
+      [
+        "Right Mods",
+        "4x 1.25u",
+        "5x 1u"
+      ]
     ],
     "keymap": [
       [

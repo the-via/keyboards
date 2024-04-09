@@ -2,14 +2,22 @@
   "name": "Aster Ergo",
   "vendorId": "0xBA00",
   "productId": "0x8701",
-  "matrix": {"rows": 6, "cols": 17},
+  "matrix": {
+    "rows": 6,
+    "cols": 17
+  },
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO Enter",
       "Left Shift ISO",
       "Split Right Shift",
-      ["Bottom Row", "Setup 1", "Setup 2", "Setup 3"]
+      [
+        "Bottom Row",
+        "Setup 1",
+        "Setup 2",
+        "Setup 3"
+      ]
     ],
     "keymap": [
       [

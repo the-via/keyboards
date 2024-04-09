@@ -2,8 +2,11 @@
   "name": "rainkeeb",
   "vendorId": "0x726b",
   "productId": "0x726b",
+  "matrix": {
+    "rows": 8,
+    "cols": 6
+  },
   "lighting": "none",
-  "matrix": {"rows": 8, "cols": 6},
   "layouts": {
     "keymap": [
       [

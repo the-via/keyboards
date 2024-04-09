@@ -2,10 +2,17 @@
   "name": "Allison Numpad",
   "vendorId": "0x8968",
   "productId": "0x414E",
+  "matrix": {
+    "rows": 6,
+    "cols": 4
+  },
   "lighting": "none",
-  "matrix": {"rows": 6, "cols": 4},
   "layouts": {
-    "labels": ["Split Plus", "Split Enter", "Split Zero"],
+    "labels": [
+      "Split Plus",
+      "Split Enter",
+      "Split Zero"
+    ],
     "keymap": [
       [
         "0,0",
