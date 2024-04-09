@@ -2,8 +2,11 @@
   "name": "KF87",
   "vendorId": "0x7074",
   "productId": "0x0006",
+  "matrix": {
+    "rows": 6,
+    "cols": 17
+  },
   "lighting": "qmk_rgblight",
-  "matrix": {"rows": 6, "cols": 17},
   "layouts": {
     "keymap": [
       [

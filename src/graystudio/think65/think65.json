@@ -2,18 +2,27 @@
   "name": "Graystudio Think6.5",
   "vendorId": "0x4753",
   "productId": "0x4000",
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 5,
     "cols": 16
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
     "labels": [
       "Split Backspace",
-      ["Blocker", "Standard", "1u", "2u"],
+      [
+        "Blocker",
+        "Standard",
+        "1u",
+        "2u"
+      ],
       "ISO Enter",
       "Split Left Shift",
-      ["Bottom Row", "6.25U", "7U"]
+      [
+        "Bottom Row",
+        "6.25U",
+        "7U"
+      ]
     ],
     "keymap": [
       [

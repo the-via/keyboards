@@ -1,20 +1,22 @@
 {
   "name": "CMM.Studio_Fuji65",
-
   "vendorId": "0x434D",
-
   "productId": "0x364D",
-
+  "matrix": {
+    "rows": 6,
+    "cols": 15
+  },
   "lighting": "qmk_rgblight",
-
-  "matrix": {"rows": 6, "cols": 15},
-
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO Enter",
       "Split Left Shift",
-      ["Bottom Row", "Regular 6.25U", "Tsangan 7U"]
+      [
+        "Bottom Row",
+        "Regular 6.25U",
+        "Tsangan 7U"
+      ]
     ],
     "keymap": [
       [

@@ -2,15 +2,25 @@
   "name": "Katana60 v2",
   "vendorId": "0x7272",
   "productId": "0xF03B",
-  "lighting": "none",
   "matrix": {
     "rows": 5,
     "cols": 15
   },
+  "lighting": "none",
   "layouts": {
     "labels": [
       "Normal backspace",
-      ["Bottom Row", "1 a", "7u a", "7u b", "1 b", "1 c", "2 a", "2 b", "2 c"]
+      [
+        "Bottom Row",
+        "1 a",
+        "7u a",
+        "7u b",
+        "1 b",
+        "1 c",
+        "2 a",
+        "2 b",
+        "2 c"
+      ]
     ],
     "keymap": [
       [

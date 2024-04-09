@@ -2,9 +2,6 @@
   "name": "Charybdis",
   "vendorId": "0xA8F8",
   "productId": "0x1833",
-  "menus": [
-    "qmk_rgb_matrix"
-  ],
   "matrix": {
     "rows": 10,
     "cols": 6
@@ -50,6 +47,9 @@
       "name": "Drag-scroll TG",
       "shortName": "DrgT"
     }
+  ],
+  "menus": [
+    "qmk_rgb_matrix"
   ],
   "layouts": {
     "keymap": [

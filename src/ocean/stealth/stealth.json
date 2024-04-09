@@ -2,8 +2,11 @@
   "name": "Stealth",
   "vendorId": "0x9624",
   "productId": "0x0010",
+  "matrix": {
+    "rows": 1,
+    "cols": 3
+  },
   "lighting": "none",
-  "matrix": {"rows": 1, "cols": 3},
   "layouts": {
     "keymap": [
       [

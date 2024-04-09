@@ -2,13 +2,28 @@
   "name": "TMOv2",
   "vendorId": "0xca04",
   "productId": "0x70F2",
+  "matrix": {
+    "rows": 4,
+    "cols": 16
+  },
   "lighting": "qmk_backlight_rgblight",
-  "matrix": {"rows": 4, "cols": 16},
   "layouts": {
     "labels": [
-      ["Split L Shift", "Full", "Split"],
-      ["Bottom Row", "Split", "6.25U Space"],
-      ["Split R Shift", "Split", "Full"]
+      [
+        "Split L Shift",
+        "Full",
+        "Split"
+      ],
+      [
+        "Bottom Row",
+        "Split",
+        "6.25U Space"
+      ],
+      [
+        "Split R Shift",
+        "Split",
+        "Full"
+      ]
     ],
     "keymap": [
       [

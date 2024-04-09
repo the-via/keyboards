@@ -2,18 +2,23 @@
   "name": "DP60",
   "vendorId": "0x60BE",
   "productId": "0x00BE",
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 5,
     "cols": 15
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
     "labels": [
       "ANSI / ISO Enter",
       "Split Backspace",
       "Split Left Shift",
       "Split Right Shift",
-      ["Bottom Row", "6.25u Standard", "7u WKL", "7u HHKB"]
+      [
+        "Bottom Row",
+        "6.25u Standard",
+        "7u WKL",
+        "7u HHKB"
+      ]
     ],
     "keymap": [
       [

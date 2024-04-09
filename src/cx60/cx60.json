@@ -2,11 +2,11 @@
   "name": "CX60",
   "vendorId": "0x4358",
   "productId": "0x3630",
-  "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 5,
     "cols": 14
   },
+  "lighting": "qmk_backlight_rgblight",
   "layouts": {
     "keymap": [
       [

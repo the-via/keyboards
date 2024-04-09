@@ -2,17 +2,21 @@
   "name": "Capsule65",
   "vendorId": "0xF21E",
   "productId": "0x6E6E",
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 5,
     "cols": 16
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO Enter",
       "Split Left Shift",
-      ["Bottom Row", "6.25U", "7U"]
+      [
+        "Bottom Row",
+        "6.25U",
+        "7U"
+      ]
     ],
     "keymap": [
       [

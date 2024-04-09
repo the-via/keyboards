@@ -2,13 +2,16 @@
   "name": "Demiurge",
   "vendorId": "0x6F6A",
   "productId": "0x6475",
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 5,
     "cols": 17
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
-    "labels": ["Split Backspace", "Split Right Shift"],
+    "labels": [
+      "Split Backspace",
+      "Split Right Shift"
+    ],
     "keymap": [
       [
         {

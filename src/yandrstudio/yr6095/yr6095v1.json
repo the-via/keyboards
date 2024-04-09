@@ -2,7 +2,10 @@
   "name": "YR6095_Y&R",
   "vendorId": "0xAA96",
   "productId": "0xAA0C",
-  "lighting": "qmk_rgblight",
+  "matrix": {
+    "rows": 5,
+    "cols": 14
+  },
   "customKeycodes": [
     {
       "name": "Toggle WinKey Lock",
@@ -25,20 +28,27 @@
       "shortName": "Launch Pad"
     }
   ],
-  "matrix": {
-    "rows": 5,
-    "cols": 14
-  },
+  "lighting": "qmk_rgblight",
   "layouts": {
-    "presets": {
-      "default": [0, 0, 0, 0]
-    },
     "labels": [
       "Split Backspace",
       "ISO Enter",
       "No-left Shift",
-      ["Space", "6.25U Left Shift", "7U WKL", "Split Space Left Shift"]
+      [
+        "Space",
+        "6.25U Left Shift",
+        "7U WKL",
+        "Split Space Left Shift"
+      ]
     ],
+    "presets": {
+      "default": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
     "keymap": [
       [
         {

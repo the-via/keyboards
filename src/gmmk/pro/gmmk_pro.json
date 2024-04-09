@@ -2,13 +2,16 @@
   "name": "GMMK Pro",
   "vendorId": "0x320F",
   "productId": "0x5044",
-  "lighting": "none",
   "matrix": {
     "rows": 11,
     "cols": 8
   },
+  "lighting": "none",
   "layouts": {
-    "labels": ["ISO Enter", "Split Left Shift"],
+    "labels": [
+      "ISO Enter",
+      "Split Left Shift"
+    ],
     "keymap": [
       [
         {

@@ -2,13 +2,17 @@
   "name": "Astro65",
   "vendorId": "0x04D8",
   "productId": "0xEAEF",
-  "lighting": "none",
   "matrix": {
     "rows": 5,
     "cols": 16
   },
+  "lighting": "none",
   "layouts": {
-    "labels": ["Split Backspace", "7U Bottom Row", "Blocker"],
+    "labels": [
+      "Split Backspace",
+      "7U Bottom Row",
+      "Blocker"
+    ],
     "keymap": [
       [
         {

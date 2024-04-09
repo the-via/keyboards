@@ -2,11 +2,11 @@
   "name": "mammoth75x",
   "vendorId": "0xA06B",
   "productId": "0x0004",
-  "lighting": "none",
   "matrix": {
     "rows": 6,
     "cols": 16
   },
+  "lighting": "none",
   "layouts": {
     "labels": [
       "Split Backspace",

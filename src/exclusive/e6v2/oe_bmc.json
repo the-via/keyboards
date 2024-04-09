@@ -2,20 +2,28 @@
   "name": "E6-V2 OE BMC rev 2.31",
   "vendorId": "0x4558",
   "productId": "0xE62B",
-  "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 8,
     "cols": 11
   },
+  "lighting": "qmk_backlight_rgblight",
   "layouts": {
     "labels": [
       "Split Backspace",
-      ["Enter Key", "ANSI", "ISO"],
+      [
+        "Enter Key",
+        "ANSI",
+        "ISO"
+      ],
       "Split Left Shift",
       "Split Right Shift",
-      ["Bottom Row", "Standard", "Tsangan", "HHKB"]
+      [
+        "Bottom Row",
+        "Standard",
+        "Tsangan",
+        "HHKB"
+      ]
     ],
-
     "keymap": [
       [
         {

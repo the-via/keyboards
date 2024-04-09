@@ -2,16 +2,25 @@
   "name": "Percent Skog Lite",
   "vendorId": "0x5053",
   "productId": "0x422D",
-  "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 7,
     "cols": 15
   },
+  "lighting": "qmk_backlight_rgblight",
   "layouts": {
     "labels": [
-      ["Enter Key", "ANSI", "ISO"],
+      [
+        "Enter Key",
+        "ANSI",
+        "ISO"
+      ],
       "Split Left Shift",
-      ["Bottom Row", "Standard", "Tsangan", "WKL"]
+      [
+        "Bottom Row",
+        "Standard",
+        "Tsangan",
+        "WKL"
+      ]
     ],
     "keymap": [
       [

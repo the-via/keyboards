@@ -2,13 +2,25 @@
   "name": "SX60",
   "vendorId": "0x5154",
   "productId": "0x0010",
+  "matrix": {
+    "rows": 5,
+    "cols": 16
+  },
   "lighting": "qmk_backlight",
-  "matrix": {"rows": 5, "cols": 16},
   "layouts": {
     "labels": [
       "Split Backspace",
-      ["Right Shift", "1.75u Shift", "Standard", "1.75u /"],
-      ["Right Mods", "3x 1u", "2x 1.5u"]
+      [
+        "Right Shift",
+        "1.75u Shift",
+        "Standard",
+        "1.75u /"
+      ],
+      [
+        "Right Mods",
+        "3x 1u",
+        "2x 1.5u"
+      ]
     ],
     "keymap": [
       [

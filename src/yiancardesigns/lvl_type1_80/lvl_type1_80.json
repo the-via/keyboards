@@ -2,8 +2,11 @@
   "name": "LvL Type-01/80",
   "vendorId": "0x8968",
   "productId": "0x4C56",
+  "matrix": {
+    "rows": 6,
+    "cols": 17
+  },
   "lighting": "qmk_rgblight",
-  "matrix": {"rows": 6, "cols": 17},
   "layouts": {
     "keymap": [
       [

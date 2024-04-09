@@ -2,16 +2,16 @@
   "name": "Drop SHIFT V2",
   "vendorId": "0x359B",
   "productId": "0x000C",
+  "matrix": {
+    "rows": 8,
+    "cols": 13
+  },
   "keycodes": [
     "qmk_lighting"
   ],
   "menus": [
     "qmk_rgb_matrix"
   ],
-  "matrix": {
-    "rows": 8,
-    "cols": 13
-  },
   "layouts": {
     "keymap": [
       [

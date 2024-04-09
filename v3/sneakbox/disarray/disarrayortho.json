@@ -2,10 +2,15 @@
   "name": "Disarray Ortholinear",
   "vendorId": "0x5342",
   "productId": "0x0003",
-  "matrix": {"rows": 6, "cols": 16},
+  "matrix": {
+    "rows": 6,
+    "cols": 16
+  },
   "layouts": {
     "keymap": [
-      ["0,0"],
+      [
+        "0,0"
+      ],
       [
         "1,0",
         "0,1",

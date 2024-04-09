@@ -2,10 +2,16 @@
   "name": "Key 65 Hotswap",
   "vendorId": "0x464C",
   "productId": "0x0003",
+  "matrix": {
+    "rows": 5,
+    "cols": 15
+  },
   "lighting": "qmk_backlight_rgblight",
-  "matrix": {"rows": 5, "cols": 15},
   "layouts": {
-    "labels": ["Top Blocker", "Windows Key"],
+    "labels": [
+      "Top Blocker",
+      "Windows Key"
+    ],
     "keymap": [
       [
         {

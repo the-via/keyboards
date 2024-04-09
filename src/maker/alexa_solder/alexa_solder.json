@@ -2,9 +2,24 @@
   "name": "Alexa Solder",
   "vendorId": "0x7667",
   "productId": "0x0006",
+  "matrix": {
+    "rows": 5,
+    "cols": 15
+  },
   "lighting": "none",
-  "matrix": {"rows": 5, "cols": 15},
   "layouts": {
+    "labels": [
+      "Split Backspace",
+      "ISO Enter",
+      "Split Left Shift",
+      [
+        "Bottom Row",
+        "6.25U Space",
+        "Split 6.25U",
+        "7U Space",
+        "Split 7U"
+      ]
+    ],
     "keymap": [
       [
         {
@@ -274,12 +289,6 @@
         },
         "4,10\n\n\n3,3"
       ]
-    ],
-    "labels": [
-      "Split Backspace",
-      "ISO Enter",
-      "Split Left Shift",
-      ["Bottom Row", "6.25U Space", "Split 6.25U", "7U Space", "Split 7U"]
     ]
   }
 }

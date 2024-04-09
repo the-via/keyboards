@@ -2,12 +2,16 @@
   "name": "h87_g2",
   "vendorId": "0x4069",
   "productId": "0x0001",
-  "keycodes": [ "qmk_lighting" ],
-  "menus": [ "qmk_backlight" ],
   "matrix": {
     "rows": 6,
     "cols": 17
   },
+  "keycodes": [
+    "qmk_lighting"
+  ],
+  "menus": [
+    "qmk_backlight"
+  ],
   "layouts": {
     "labels": [
       "Split Backspace",

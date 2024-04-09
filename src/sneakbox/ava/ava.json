@@ -1,11 +1,16 @@
 {
+  "name": "AVA",
   "vendorId": "0x5342",
   "productId": "0x0004",
-  "name": "AVA",
-  "matrix": {"rows": 9, "cols": 8},
+  "matrix": {
+    "rows": 9,
+    "cols": 8
+  },
   "lighting": "qmk_rgblight",
   "layouts": {
-    "labels": ["Split Backspace"],
+    "labels": [
+      "Split Backspace"
+    ],
     "keymap": [
       [
         {

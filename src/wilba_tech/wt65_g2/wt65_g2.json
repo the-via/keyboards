@@ -2,10 +2,17 @@
   "name": "wilba.tech WT65-G2",
   "vendorId": "0x6582",
   "productId": "0x002A",
+  "matrix": {
+    "rows": 5,
+    "cols": 15
+  },
   "lighting": "none",
-  "matrix": {"rows": 5, "cols": 15},
   "layouts": {
-    "labels": ["2U Backspace", "ISO Enter", "Split Left Shift"],
+    "labels": [
+      "2U Backspace",
+      "ISO Enter",
+      "Split Left Shift"
+    ],
     "keymap": [
       [
         {

@@ -2,13 +2,18 @@
   "name": "Igloo",
   "vendorId": "0xBEAD",
   "productId": "0x0001",
-  "matrix": {"rows": 5, "cols": 17},
+  "matrix": {
+    "rows": 5,
+    "cols": 17
+  },
   "layouts": {
-    "labels": ["Split Backspace",
-               "ISO Enter",
-               "Split Left Shift",
-               "Split Right Shift",
-               "Split Enter"],
+    "labels": [
+      "Split Backspace",
+      "ISO Enter",
+      "Split Left Shift",
+      "Split Right Shift",
+      "Split Enter"
+    ],
     "keymap": [
       [
         {

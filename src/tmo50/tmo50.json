@@ -2,13 +2,20 @@
   "name": "tmo50",
   "vendorId": "0xfbfb",
   "productId": "0x0050",
-  "lighting": "none",
   "matrix": {
     "rows": 4,
     "cols": 14
   },
+  "lighting": "none",
   "layouts": {
-    "labels": ["Right Shift", ["Bottom Row", "6.25U", "Split"]],
+    "labels": [
+      "Right Shift",
+      [
+        "Bottom Row",
+        "6.25U",
+        "Split"
+      ]
+    ],
     "keymap": [
       [
         "0,0",

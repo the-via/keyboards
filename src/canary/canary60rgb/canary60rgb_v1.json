@@ -2,13 +2,13 @@
   "name": "CANARY60RGB V1",
   "vendorId": "0x4341",
   "productId": "0x0621",
-  "lighting": {
-    "extends": "none",
-    "keycodes": "qmk"
-  },
   "matrix": {
     "rows": 5,
     "cols": 14
+  },
+  "lighting": {
+    "extends": "none",
+    "keycodes": "qmk"
   },
   "layouts": {
     "keymap": [

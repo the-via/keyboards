@@ -2,8 +2,11 @@
   "name": "GMMK V2 65 ANSI",
   "vendorId": "0x320F",
   "productId": "0x5045",
+  "matrix": {
+    "rows": 9,
+    "cols": 8
+  },
   "lighting": "qmk_rgblight",
-  "matrix": {"rows": 9, "cols": 8},
   "layouts": {
     "keymap": [
       [

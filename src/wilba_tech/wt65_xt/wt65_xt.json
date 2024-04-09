@@ -2,8 +2,11 @@
   "name": "wilba.tech WT65-XT",
   "vendorId": "0x6582",
   "productId": "0x001D",
+  "matrix": {
+    "rows": 5,
+    "cols": 17
+  },
   "lighting": "none",
-  "matrix": {"rows": 5, "cols": 17},
   "layouts": {
     "keymap": [
       [

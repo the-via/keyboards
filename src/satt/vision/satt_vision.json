@@ -2,10 +2,15 @@
   "name": "Vision",
   "vendorId": "0x5454",
   "productId": "0x5649",
+  "matrix": {
+    "rows": 4,
+    "cols": 14
+  },
   "lighting": "none",
-  "matrix": {"rows": 4, "cols": 14},
   "layouts": {
-    "labels": ["Long RShift"],
+    "labels": [
+      "Long RShift"
+    ],
     "keymap": [
       [
         {
@@ -167,7 +172,12 @@
         "1,5",
         "1,6"
       ],
-      ["2,3", "2,4", "2,5", "2,6"],
+      [
+        "2,3",
+        "2,4",
+        "2,5",
+        "2,6"
+      ],
       [
         {
           "x": 1.25,

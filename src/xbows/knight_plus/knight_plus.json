@@ -2,8 +2,11 @@
   "name": "Knight-Plus",
   "vendorId": "0x5842",
   "productId": "0x4B50",
+  "matrix": {
+    "rows": 6,
+    "cols": 15
+  },
   "lighting": "none",
-  "matrix": {"rows": 6, "cols": 15},
   "layouts": {
     "keymap": [
       [

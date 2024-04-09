@@ -2,10 +2,15 @@
   "name": "TMKL",
   "vendorId": "0x4D4C",
   "productId": "0xC601",
+  "matrix": {
+    "rows": 6,
+    "cols": 14
+  },
   "lighting": "qmk_backlight",
-  "matrix": {"rows": 6, "cols": 14},
   "layouts": {
-    "labels": ["2U Back Space"],
+    "labels": [
+      "2U Back Space"
+    ],
     "keymap": [
       [
         "0,0",

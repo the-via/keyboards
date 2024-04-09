@@ -2,13 +2,13 @@
   "name": "Skeletyl",
   "vendorId": "0xA8F8",
   "productId": "0x1830",
-  "menus": [
-    "qmk_rgb_matrix"
-  ],
   "matrix": {
     "rows": 8,
     "cols": 5
   },
+  "menus": [
+    "qmk_rgb_matrix"
+  ],
   "layouts": {
     "keymap": [
       [

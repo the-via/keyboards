@@ -2,19 +2,33 @@
   "name": "Bananasplit",
   "vendorId": "0xFEAE",
   "productId": "0x8870",
-  "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 5,
     "cols": 14
   },
+  "lighting": "qmk_backlight_rgblight",
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO Enter",
       "Split Left Shift",
-      ["Right Shift", "2.75u", "Split", "Arrows"],
-      ["Spacebar", "6.25u", "Split 1", "Split 2"],
-      ["Bottom Right Modifiers", "Standard", "5x1u"]
+      [
+        "Right Shift",
+        "2.75u",
+        "Split",
+        "Arrows"
+      ],
+      [
+        "Spacebar",
+        "6.25u",
+        "Split 1",
+        "Split 2"
+      ],
+      [
+        "Bottom Right Modifiers",
+        "Standard",
+        "5x1u"
+      ]
     ],
     "keymap": [
       [

@@ -2,8 +2,11 @@
   "name": "Olly BB",
   "vendorId": "0x4D4C",
   "productId": "0xD181",
+  "matrix": {
+    "rows": 5,
+    "cols": 19
+  },
   "lighting": "qmk_backlight_rgblight",
-  "matrix": {"rows": 5, "cols": 19},
   "layouts": {
     "labels": [
       "Split BackSpace",

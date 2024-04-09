@@ -2,16 +2,20 @@
   "name": "RS60",
   "vendorId": "0x5845",
   "productId": "0x5253",
-  "lighting": "none",
   "matrix": {
     "rows": 5,
     "cols": 14
   },
+  "lighting": "none",
   "layouts": {
     "labels": [
       "Split Backspace",
       "Split Right Shift",
-      ["Bottom Row", "6.25U", "7U"]
+      [
+        "Bottom Row",
+        "6.25U",
+        "7U"
+      ]
     ],
     "keymap": [
       [

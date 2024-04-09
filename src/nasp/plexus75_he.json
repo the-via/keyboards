@@ -2,10 +2,20 @@
   "name": "Plexus75_HE",
   "vendorId": "0x7070",
   "productId": "0x5339",
+  "matrix": {
+    "rows": 10,
+    "cols": 8
+  },
   "lighting": "qmk_rgblight",
-  "matrix": {"rows": 10, "cols": 8},
   "layouts": {
-    "labels": [["Bottom Row", "2x3u", "2x2u", "7U"]],
+    "labels": [
+      [
+        "Bottom Row",
+        "2x3u",
+        "2x2u",
+        "7U"
+      ]
+    ],
     "keymap": [
       [
         {

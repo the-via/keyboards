@@ -2,18 +2,27 @@
   "name": "Eclipse60",
   "vendorId": "0x534C",
   "productId": "0xE160",
-  "keycodes": ["qmk_lighting"],
-  "menus": ["qmk_rgblight"],
   "matrix": {
     "rows": 10,
     "cols": 7
   },
+  "keycodes": [
+    "qmk_lighting"
+  ],
+  "menus": [
+    "qmk_rgblight"
+  ],
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO Enter",
       "Split Left Shift",
-      ["Right Shift", "Standard", "Tsangan", "Arrow"],
+      [
+        "Right Shift",
+        "Standard",
+        "Tsangan",
+        "Arrow"
+      ],
       [
         "Spacebar",
         "Standard",
@@ -25,7 +34,6 @@
         "6U Standard"
       ]
     ],
-
     "keymap": [
       [
         {

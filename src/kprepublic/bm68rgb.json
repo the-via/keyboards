@@ -2,13 +2,13 @@
   "name": "KPrepublic BM68 RGB",
   "vendorId": "0x4B50",
   "productId": "0xEF6F",
-  "lighting": {
-    "extends": "none",
-    "keycodes": "qmk"
-  },
   "matrix": {
     "rows": 5,
     "cols": 15
+  },
+  "lighting": {
+    "extends": "none",
+    "keycodes": "qmk"
   },
   "layouts": {
     "keymap": [

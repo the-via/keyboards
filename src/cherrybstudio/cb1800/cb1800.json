@@ -2,15 +2,28 @@
   "name": "CherryB.Studio CB1800",
   "vendorId": "0x4342",
   "productId": "0x1818",
+  "matrix": {
+    "rows": 10,
+    "cols": 11
+  },
   "lighting": "qmk_rgblight",
-  "matrix": {"rows": 10, "cols": 11},
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO Enter",
       "Split Left Shift",
-      ["Numpad Enter and Plus", "All 1U", "2U Enter", "2U Plus", "Both 2U"],
-      ["Bottom Row", "1U Mods and 6U Space", "1.5U Mods and 7U Space"]
+      [
+        "Numpad Enter and Plus",
+        "All 1U",
+        "2U Enter",
+        "2U Plus",
+        "Both 2U"
+      ],
+      [
+        "Bottom Row",
+        "1U Mods and 6U Space",
+        "1.5U Mods and 7U Space"
+      ]
     ],
     "keymap": [
       [

@@ -2,11 +2,11 @@
   "name": "Xelus Snap96",
   "vendorId": "0x5845",
   "productId": "0x5396",
-  "lighting": "none",
   "matrix": {
     "rows": 12,
     "cols": 10
   },
+  "lighting": "none",
   "layouts": {
     "labels": [
       "Split Backspace",
@@ -27,7 +27,12 @@
       ],
       "Numpad +",
       "Numpad Enter",
-      ["Numpad Bottom Row", "All keys", "Left 2U", "Right 2U"]
+      [
+        "Numpad Bottom Row",
+        "All keys",
+        "Left 2U",
+        "Right 2U"
+      ]
     ],
     "keymap": [
       {

@@ -2,10 +2,16 @@
   "name": "Ciel65",
   "vendorId": "0xC41C",
   "productId": "0x0002",
+  "matrix": {
+    "rows": 5,
+    "cols": 16
+  },
   "lighting": "qmk_rgblight",
-  "matrix": {"rows": 5, "cols": 16},
   "layouts": {
-    "labels": ["Split Backspace", "7U Spacebar"],
+    "labels": [
+      "Split Backspace",
+      "7U Spacebar"
+    ],
     "keymap": [
       [
         {

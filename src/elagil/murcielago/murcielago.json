@@ -2,11 +2,11 @@
   "name": "murcielago",
   "vendorId": "0x6166",
   "productId": "0x0001",
-  "lighting": "none",
   "matrix": {
     "rows": 12,
     "cols": 6
   },
+  "lighting": "none",
   "layouts": {
     "keymap": [
       [
