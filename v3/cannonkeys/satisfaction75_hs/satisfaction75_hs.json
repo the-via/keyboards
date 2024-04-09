@@ -1,7 +1,28 @@
 {
   "name": "Satisfaction75 HS",
-  "vendorId": "0xca04",
+  "vendorId": "0xCA04",
   "productId": "0x0011",
+  "matrix": {
+    "rows": 6,
+    "cols": 15
+  },
+  "customKeycodes": [
+    {
+      "name": "Encoder Press",
+      "title": "Encoder Press",
+      "shortName": "EncPrs"
+    },
+    {
+      "name": "Clock Set",
+      "title": "Clock Set",
+      "shortName": "ClkSet"
+    },
+    {
+      "name": "OLED Mode",
+      "title": "OLED Mode",
+      "shortName": "ScrnMd"
+    }
+  ],
   "menus": [
     {
       "label": "Custom Features",
@@ -13,21 +34,47 @@
               "label": "Default OLED Mode",
               "type": "dropdown",
               "options": [
-                ["Default", 0],
-                ["Time", 1],
-                ["Off", 2]
+                [
+                  "Default",
+                  0
+                ],
+                [
+                  "Time",
+                  1
+                ],
+                [
+                  "Off",
+                  2
+                ]
               ],
-              "content": ["default_oled_mode", 0, 2]
+              "content": [
+                "default_oled_mode",
+                0,
+                2
+              ]
             },
             {
               "label": "Current OLED Mode",
               "type": "dropdown",
               "options": [
-                ["Default", 0],
-                ["Time", 1],
-                ["Off", 2]
+                [
+                  "Default",
+                  0
+                ],
+                [
+                  "Time",
+                  1
+                ],
+                [
+                  "Off",
+                  2
+                ]
               ],
-              "content": ["current_oled_mode", 0, 4]
+              "content": [
+                "current_oled_mode",
+                0,
+                4
+              ]
             }
           ]
         },
@@ -37,47 +84,101 @@
             {
               "label": "Custom 0 - CW",
               "type": "keycode",
-              "content": ["id_encoder_custom[0][0]", 0, 3, 0, 0]
+              "content": [
+                "id_encoder_custom[0][0]",
+                0,
+                3,
+                0,
+                0
+              ]
             },
             {
               "label": "Custom 0 - CCW",
               "type": "keycode",
-              "content": ["id_encoder_custom[0][1]", 0, 3, 0, 1]
+              "content": [
+                "id_encoder_custom[0][1]",
+                0,
+                3,
+                0,
+                1
+              ]
             },
             {
               "label": "Custom 0 - Press",
               "type": "keycode",
-              "content": ["id_encoder_custom[0][2]", 0, 3, 0, 2]
+              "content": [
+                "id_encoder_custom[0][2]",
+                0,
+                3,
+                0,
+                2
+              ]
             },
             {
               "label": "Custom 1 - CW",
               "type": "keycode",
-              "content": ["id_encoder_custom[1][0]", 0, 3, 1, 0]
+              "content": [
+                "id_encoder_custom[1][0]",
+                0,
+                3,
+                1,
+                0
+              ]
             },
             {
               "label": "Custom 1 - CCW",
               "type": "keycode",
-              "content": ["id_encoder_custom[1][1]", 0, 3, 1, 1]
+              "content": [
+                "id_encoder_custom[1][1]",
+                0,
+                3,
+                1,
+                1
+              ]
             },
             {
               "label": "Custom 1 - Press",
               "type": "keycode",
-              "content": ["id_encoder_custom[1][2]", 0, 3, 1, 2]
+              "content": [
+                "id_encoder_custom[1][2]",
+                0,
+                3,
+                1,
+                2
+              ]
             },
             {
               "label": "Custom 2 - CW",
               "type": "keycode",
-              "content": ["id_encoder_custom[2][0]", 0, 3, 2, 0]
+              "content": [
+                "id_encoder_custom[2][0]",
+                0,
+                3,
+                2,
+                0
+              ]
             },
             {
               "label": "Custom 2 - CCW",
               "type": "keycode",
-              "content": ["id_encoder_custom[2][1]", 0, 3, 2, 1]
+              "content": [
+                "id_encoder_custom[2][1]",
+                0,
+                3,
+                2,
+                1
+              ]
             },
             {
               "label": "Custom 2 - Press",
               "type": "keycode",
-              "content": ["id_encoder_custom[2][2]", 0, 3, 2, 2]
+              "content": [
+                "id_encoder_custom[2][2]",
+                0,
+                3,
+                2,
+                2
+              ]
             }
           ]
         },
@@ -87,54 +188,88 @@
             {
               "label": "Volume",
               "type": "toggle",
-              "content": ["id_encoder_modes[0]", 0, 1, 0]
+              "content": [
+                "id_encoder_modes[0]",
+                0,
+                1,
+                0
+              ]
             },
             {
               "label": "Media",
               "type": "toggle",
-              "content": ["id_encoder_modes[1]", 0, 1, 1]
+              "content": [
+                "id_encoder_modes[1]",
+                0,
+                1,
+                1
+              ]
             },
             {
               "label": "Scroll",
               "type": "toggle",
-              "content": ["id_encoder_modes[2]", 0, 1, 2]
+              "content": [
+                "id_encoder_modes[2]",
+                0,
+                1,
+                2
+              ]
             },
             {
               "label": "Brightness",
               "type": "toggle",
-              "content": ["id_encoder_modes[3]", 0, 1, 3]
+              "content": [
+                "id_encoder_modes[3]",
+                0,
+                1,
+                3
+              ]
             },
             {
               "label": "Backlight",
               "type": "toggle",
-              "content": ["id_encoder_modes[4]", 0, 1, 4]
+              "content": [
+                "id_encoder_modes[4]",
+                0,
+                1,
+                4
+              ]
             },
             {
               "label": "Custom 0",
               "type": "toggle",
-              "content": ["id_encoder_modes[5]", 0, 1, 5]
+              "content": [
+                "id_encoder_modes[5]",
+                0,
+                1,
+                5
+              ]
             },
             {
               "label": "Custom 1",
               "type": "toggle",
-              "content": ["id_encoder_modes[6]", 0, 1, 6]
+              "content": [
+                "id_encoder_modes[6]",
+                0,
+                1,
+                6
+              ]
             },
             {
               "label": "Custom 2",
               "type": "toggle",
-              "content": ["id_encoder_modes[7]", 0, 1, 7]
+              "content": [
+                "id_encoder_modes[7]",
+                0,
+                1,
+                7
+              ]
             }
           ]
         }
       ]
     }
   ],
-  "customKeycodes": [
-    {"name": "Encoder Press", "title": "Encoder Press", "shortName": "EncPrs"},
-    {"name": "Clock Set", "title": "Clock Set", "shortName": "ClkSet"},
-    {"name": "OLED Mode", "title": "OLED Mode", "shortName": "ScrnMd"}
-  ],
-  "matrix": {"rows": 6, "cols": 15},
   "layouts": {
     "labels": [
       "Split Backspace"
@@ -346,3 +481,4 @@
     ]
   }
 }
+
