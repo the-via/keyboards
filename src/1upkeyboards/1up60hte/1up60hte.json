@@ -2,14 +2,19 @@
   "name": "1up60hte",
   "vendorId": "0x6F75",
   "productId": "0x6874",
-  "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 5,
     "cols": 14
   },
+  "lighting": "qmk_backlight_rgblight",
   "layouts": {
-    "labels": [["Bottom Row", "Tsangan", "HHKB"]],
-
+    "labels": [
+      [
+        "Bottom Row",
+        "Tsangan",
+        "HHKB"
+      ]
+    ],
     "keymap": [
       [
         {

@@ -2,10 +2,15 @@
   "name": "Borsdorf",
   "vendorId": "0xFB9C",
   "productId": "0x6D8A",
+  "matrix": {
+    "rows": 5,
+    "cols": 15
+  },
   "lighting": "none",
-  "matrix": {"rows": 5, "cols": 15},
   "layouts": {
-    "labels": ["Split Right Shift"],
+    "labels": [
+      "Split Right Shift"
+    ],
     "keymap": [
       [
         {

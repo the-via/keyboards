@@ -2,13 +2,15 @@
   "name": "Linworks EM.8",
   "vendorId": "0x4C58",
   "productId": "0x0006",
-  "lighting": "none",
   "matrix": {
     "rows": 5,
     "cols": 15
   },
+  "lighting": "none",
   "layouts": {
-    "labels": ["Split Backspace"],
+    "labels": [
+      "Split Backspace"
+    ],
     "keymap": [
       [
         {

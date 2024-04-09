@@ -2,13 +2,15 @@
   "name": "Chalice",
   "vendorId": "0x6A6A",
   "productId": "0x000C",
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 10,
     "cols": 7
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
-    "labels": ["Split Backspace"],
+    "labels": [
+      "Split Backspace"
+    ],
     "keymap": [
       [
         {

@@ -2,7 +2,10 @@
   "name": "75 Pixels",
   "vendorId": "0x5359",
   "productId": "0x3735",
-  "matrix": {"rows": 10, "cols": 8},
+  "matrix": {
+    "rows": 10,
+    "cols": 8
+  },
   "layouts": {
     "keymap": [
       [

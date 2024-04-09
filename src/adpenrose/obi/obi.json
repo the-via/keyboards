@@ -2,10 +2,16 @@
   "name": "Obi",
   "vendorId": "0x4450",
   "productId": "0x0002",
+  "matrix": {
+    "rows": 4,
+    "cols": 14
+  },
   "lighting": "qmk_rgblight",
-  "matrix": {"rows": 4, "cols": 14},
   "layouts": {
-    "labels": ["Encoder", "Split Spacebar"],
+    "labels": [
+      "Encoder",
+      "Split Spacebar"
+    ],
     "keymap": [
       [
         {

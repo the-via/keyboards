@@ -2,14 +2,22 @@
   "name": "Leaf 60 Universal",
   "vendorId": "0x464C",
   "productId": "0x0002",
+  "matrix": {
+    "rows": 5,
+    "cols": 15
+  },
   "lighting": "qmk_backlight_rgblight",
-  "matrix": {"rows": 5, "cols": 15},
   "layouts": {
     "labels": [
       "Split Backspace",
       "Split Left Shift",
       "Split Right Shift",
-      ["Bottom Row", "ANSI", "Split Spacebar", "7U"]
+      [
+        "Bottom Row",
+        "ANSI",
+        "Split Spacebar",
+        "7U"
+      ]
     ],
     "keymap": [
       [

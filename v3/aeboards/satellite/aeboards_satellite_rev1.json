@@ -2,11 +2,13 @@
   "name": "Satellite Rev1",
   "vendorId": "0x4145",
   "productId": "0x6553",
-  "menus": ["qmk_rgb_matrix"],
   "matrix": {
     "rows": 5,
     "cols": 15
   },
+  "menus": [
+    "qmk_rgb_matrix"
+  ],
   "layouts": {
     "keymap": [
       [

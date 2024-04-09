@@ -2,11 +2,11 @@
   "name": "Le Chiffre",
   "vendorId": "0x7431",
   "productId": "0xD645",
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 4,
     "cols": 10
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
     "keymap": [
       [

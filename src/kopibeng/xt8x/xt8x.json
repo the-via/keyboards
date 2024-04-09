@@ -2,16 +2,28 @@
   "name": "XT8x",
   "vendorId": "0x4B50",
   "productId": "0x8788",
+  "matrix": {
+    "rows": 6,
+    "cols": 17
+  },
   "lighting": "qmk_rgblight",
-  "matrix": {"rows": 6, "cols": 17},
   "layouts": {
     "labels": [
-      ["F-row", "F13", "F12"],
+      [
+        "F-row",
+        "F13",
+        "F12"
+      ],
       "Split Backspace",
       "ISO",
       "Split Left Shift",
       "Split Right Shift",
-      ["Bottom row", "6.25U", "7U", "7U WKL"]
+      [
+        "Bottom row",
+        "6.25U",
+        "7U",
+        "7U WKL"
+      ]
     ],
     "keymap": [
       [

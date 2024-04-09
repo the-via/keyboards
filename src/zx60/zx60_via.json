@@ -2,11 +2,11 @@
   "name": "ZX60",
   "vendorId": "0x404A",
   "productId": "0x0001",
-  "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 5,
     "cols": 15
   },
+  "lighting": "qmk_backlight_rgblight",
   "layouts": {
     "labels": [
       "Split Backspace",

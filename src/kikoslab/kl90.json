@@ -2,17 +2,23 @@
   "name": "KL-90",
   "vendorId": "0x04D8",
   "productId": "0xEA53",
-  "lighting": "none",
   "matrix": {
     "rows": 6,
     "cols": 16
   },
+  "lighting": "none",
   "layouts": {
     "labels": [
       "OLED",
       "ISO Enter",
       "Split Left Shift",
-      ["Spacebars", "Standard", "Split", "Hotswap Standard", "Hotswap Split"],
+      [
+        "Spacebars",
+        "Standard",
+        "Split",
+        "Hotswap Standard",
+        "Hotswap Split"
+      ],
       "Bottom Mods"
     ],
     "keymap": [

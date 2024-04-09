@@ -2,18 +2,39 @@
   "name": "Duck Eagle Viper V2",
   "vendorId": "0x444B",
   "productId": "0x4556",
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 5,
     "cols": 15
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
     "labels": [
-      ["Backspace", "Default", "Split"],
-      ["Enter Key", "ANSI", "ISO"],
-      ["Left Shift", "Default", "Split"],
-      ["Right Shift", "Default", "Split"],
-      ["Bottom Row", "Eagle", "Tsangan", "Viper"]
+      [
+        "Backspace",
+        "Default",
+        "Split"
+      ],
+      [
+        "Enter Key",
+        "ANSI",
+        "ISO"
+      ],
+      [
+        "Left Shift",
+        "Default",
+        "Split"
+      ],
+      [
+        "Right Shift",
+        "Default",
+        "Split"
+      ],
+      [
+        "Bottom Row",
+        "Eagle",
+        "Tsangan",
+        "Viper"
+      ]
     ],
     "keymap": [
       [

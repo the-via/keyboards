@@ -2,11 +2,11 @@
   "name": "Tokyo60 Rev.1",
   "vendorId": "0x5436",
   "productId": "0x6060",
-  "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 5,
     "cols": 14
   },
+  "lighting": "qmk_backlight_rgblight",
   "layouts": {
     "keymap": [
       [

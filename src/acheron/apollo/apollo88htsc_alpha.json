@@ -1,9 +1,12 @@
 {
   "name": "AcheronProject Apollo88H-T-SC Rev. Alpha",
-  "productId": "0x8873",
   "vendorId": "0x4150",
+  "productId": "0x8873",
+  "matrix": {
+    "rows": 6,
+    "cols": 17
+  },
   "lighting": "none",
-  "matrix": {"rows": 6, "cols": 17},
   "layouts": {
     "keymap": [
       [

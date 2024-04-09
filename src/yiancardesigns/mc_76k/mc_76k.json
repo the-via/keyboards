@@ -2,8 +2,11 @@
   "name": "MC-76K",
   "vendorId": "0x8968",
   "productId": "0x4D43",
+  "matrix": {
+    "rows": 6,
+    "cols": 14
+  },
   "lighting": "none",
-  "matrix": {"rows": 6, "cols": 14},
   "layouts": {
     "keymap": [
       [

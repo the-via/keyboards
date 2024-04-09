@@ -2,14 +2,22 @@
   "name": "Noxary x268",
   "vendorId": "0x4e58",
   "productId": "0x0A7B",
+  "matrix": {
+    "rows": 5,
+    "cols": 16
+  },
   "lighting": "qmk_backlight",
-  "matrix": {"rows": 5, "cols": 16},
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO Enter",
       "Split Left Shift",
-      ["Default", "6.25u + 2x 1.25u", "7u + 1x 1.5u", "7u + 2x 1.5u"]
+      [
+        "Default",
+        "6.25u + 2x 1.25u",
+        "7u + 1x 1.5u",
+        "7u + 2x 1.5u"
+      ]
     ],
     "keymap": [
       [

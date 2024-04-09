@@ -2,18 +2,23 @@
   "name": "Daily60",
   "vendorId": "0xD812",
   "productId": "0x0024",
-  "lighting": "none",
   "matrix": {
     "rows": 5,
     "cols": 14
   },
+  "lighting": "none",
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO Enter",
       "ISO Left Shift",
       "Split Right Shift",
-      ["Bottom Row", "6.25U", "7u", "Split Spacebar"]
+      [
+        "Bottom Row",
+        "6.25U",
+        "7u",
+        "Split Spacebar"
+      ]
     ],
     "keymap": [
       [

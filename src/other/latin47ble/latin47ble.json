@@ -2,11 +2,11 @@
   "name": "latin47ble",
   "vendorId": "0x6C63",
   "productId": "0x6C72",
-  "lighting": "none",
   "matrix": {
     "rows": 4,
     "cols": 12
   },
+  "lighting": "none",
   "layouts": {
     "keymap": [
       [

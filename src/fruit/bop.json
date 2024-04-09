@@ -2,12 +2,20 @@
   "name": "bop",
   "vendorId": "0x666B",
   "productId": "0x626F",
+  "matrix": {
+    "rows": 6,
+    "cols": 20
+  },
   "lighting": "none",
-  "matrix": {"rows": 6, "cols": 20},
   "layouts": {
     "labels": [
       "Long Key",
-      ["Space Bar", "Full 1U keys", "Split Spacebar 1", "Split Spacebar 2"]
+      [
+        "Space Bar",
+        "Full 1U keys",
+        "Split Spacebar 1",
+        "Split Spacebar 2"
+      ]
     ],
     "keymap": [
       [

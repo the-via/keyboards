@@ -2,15 +2,19 @@
   "name": "Doro67 Multi",
   "vendorId": "0x4250",
   "productId": "0x4D4C",
-  "lighting": "qmk_backlight",
   "matrix": {
     "rows": 5,
     "cols": 15
   },
+  "lighting": "qmk_backlight",
   "layouts": {
     "labels": [
       "Split Backspace",
-      ["Enter Key", "ANSI", "ISO"],
+      [
+        "Enter Key",
+        "ANSI",
+        "ISO"
+      ],
       "Split Left Shift",
       [
         "Bottom Row",

@@ -2,13 +2,16 @@
   "name": "CowFish",
   "vendorId": "0x04D8",
   "productId": "0xEB53",
-  "lighting": "none",
   "matrix": {
     "rows": 6,
     "cols": 18
   },
+  "lighting": "none",
   "layouts": {
-    "labels": ["Split Backspace", "Tsangan"],
+    "labels": [
+      "Split Backspace",
+      "Tsangan"
+    ],
     "keymap": [
       [
         {

@@ -1,18 +1,29 @@
 {
   "name": "CMM.Studio_Saka68",
-
   "vendorId": "0x434D",
-
   "productId": "0x534B",
-
+  "matrix": {
+    "rows": 5,
+    "cols": 17
+  },
   "lighting": "none",
-
-  "matrix": {"rows": 5, "cols": 17},
-
   "layouts": {
-    "labels": ["Split Backspace", "ISO Enter", "Split LeftShift"],
+    "labels": [
+      "Split Backspace",
+      "ISO Enter",
+      "Split LeftShift"
+    ],
     "keymap": [
-      [{"x": 15.25}, "0,13\n\n\n0,1", {"c": "#777777"}, "0,14\n\n\n0,1"],
+      [
+        {
+          "x": 15.25
+        },
+        "0,13\n\n\n0,1",
+        {
+          "c": "#777777"
+        },
+        "0,14\n\n\n0,1"
+      ],
       [
         {
           "y": 1,

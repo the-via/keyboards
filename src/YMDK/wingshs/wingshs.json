@@ -2,11 +2,11 @@
   "name": "Wings Hotswap",
   "vendorId": "0x594D",
   "productId": "0x4975",
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 5,
     "cols": 15
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
     "keymap": [
       [

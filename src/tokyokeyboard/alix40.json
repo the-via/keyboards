@@ -2,13 +2,16 @@
   "name": "alix40 Rev.1",
   "vendorId": "0x5143",
   "productId": "0x4134",
-  "lighting": "none",
   "matrix": {
     "rows": 4,
     "cols": 12
   },
+  "lighting": "none",
   "layouts": {
-    "labels": ["Split Bottom Row Left", "Split Bottom Row Right"],
+    "labels": [
+      "Split Bottom Row Left",
+      "Split Bottom Row Right"
+    ],
     "keymap": [
       [
         {

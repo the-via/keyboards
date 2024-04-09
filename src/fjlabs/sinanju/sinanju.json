@@ -2,9 +2,16 @@
   "name": "Sinanju",
   "vendorId": "0x7074",
   "productId": "0x1022",
+  "matrix": {
+    "rows": 5,
+    "cols": 14
+  },
   "lighting": "none",
-  "matrix": {"rows": 5, "cols": 14},
   "layouts": {
+    "labels": [
+      "Split Backspace",
+      "Split Right Shift"
+    ],
     "keymap": [
       [
         {
@@ -147,7 +154,6 @@
         },
         "4,13"
       ]
-    ],
-    "labels": ["Split Backspace", "Split Right Shift"]
+    ]
   }
 }

@@ -2,10 +2,21 @@
   "name": "Quark_Plus",
   "vendorId": "0x7070",
   "productId": "0x5344",
+  "matrix": {
+    "rows": 8,
+    "cols": 6
+  },
   "lighting": "qmk_backlight_rgblight",
-  "matrix": {"rows": 8, "cols": 6},
   "layouts": {
-    "labels": [["Bottom Row", "grid", "2u", "2x225u", "2x3u"]],
+    "labels": [
+      [
+        "Bottom Row",
+        "grid",
+        "2u",
+        "2x225u",
+        "2x3u"
+      ]
+    ],
     "keymap": [
       [
         {

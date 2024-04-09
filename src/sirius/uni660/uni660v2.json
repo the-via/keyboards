@@ -2,16 +2,26 @@
   "name": "Uni660 V2",
   "vendorId": "0x5352",
   "productId": "0x0202",
+  "matrix": {
+    "rows": 5,
+    "cols": 16
+  },
   "lighting": "none",
-  "matrix": {"rows": 5, "cols": 16},
   "layouts": {
-    "presets": {"Default": [0, 0, 0, 0]},
     "labels": [
       "Split Backspace",
       "Thumb Fn Key",
       "Split Left Shift",
       "ISO Enter"
     ],
+    "presets": {
+      "Default": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
     "keymap": [
       {
         "name": "Uni660 VIA"

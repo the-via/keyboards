@@ -2,18 +2,24 @@
   "name": "G-Boy",
   "vendorId": "0x4b65",
   "productId": "0x6762",
-  "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 5,
     "cols": 16
   },
+  "lighting": "qmk_backlight_rgblight",
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO Enter",
       "Split Left Shift",
       "Full Right Shift",
-      ["Bottom Row", "Winkey A", "Winkey B", "Winkeyless A", "Winkeyless B"]
+      [
+        "Bottom Row",
+        "Winkey A",
+        "Winkey B",
+        "Winkeyless A",
+        "Winkeyless B"
+      ]
     ],
     "keymap": [
       [

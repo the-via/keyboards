@@ -2,16 +2,31 @@
   "name": "BOX75",
   "vendorId": "0x7668",
   "productId": "0xB075",
+  "matrix": {
+    "rows": 6,
+    "cols": 15
+  },
   "lighting": "none",
-  "matrix": {"rows": 6, "cols": 15},
   "layouts": {
-    "presets": {"ISO layout": [0, 1, 0, 1]},
     "labels": [
       "Split backspace",
       "ISO layout",
       "Split left shift",
-      ["Bottom row", "6.25U", "7U", "6U"]
+      [
+        "Bottom row",
+        "6.25U",
+        "7U",
+        "6U"
+      ]
     ],
+    "presets": {
+      "ISO layout": [
+        0,
+        1,
+        0,
+        1
+      ]
+    },
     "keymap": [
       [
         {

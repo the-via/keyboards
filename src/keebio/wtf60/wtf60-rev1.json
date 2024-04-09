@@ -2,11 +2,11 @@
   "name": "WTF60 Rev. 1",
   "vendorId": "0xCB10",
   "productId": "0x1337",
-  "lighting": "none",
   "matrix": {
     "rows": 5,
     "cols": 14
   },
+  "lighting": "none",
   "layouts": {
     "labels": [
       "Split Backspace",

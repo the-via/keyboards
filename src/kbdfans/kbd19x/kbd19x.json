@@ -2,11 +2,11 @@
   "name": "KBD19x",
   "vendorId": "0x4B42",
   "productId": "0x0191",
-  "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 8,
     "cols": 13
   },
+  "lighting": "qmk_backlight_rgblight",
   "layouts": {
     "labels": [
       "Split Backspace",
@@ -14,7 +14,12 @@
       "Split Left Shift",
       "Split Plus",
       "Split Enter",
-      ["Bottom Row", "ANSI", "6u", "7u"]
+      [
+        "Bottom Row",
+        "ANSI",
+        "6u",
+        "7u"
+      ]
     ],
     "keymap": [
       [
