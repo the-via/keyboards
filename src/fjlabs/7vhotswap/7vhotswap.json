@@ -2,9 +2,16 @@
   "name": "7V Hotswap",
   "vendorId": "0x7074",
   "productId": "0x0014",
+  "matrix": {
+    "rows": 6,
+    "cols": 15
+  },
   "lighting": "qmk_rgblight",
-  "matrix": {"rows": 6, "cols": 15},
   "layouts": {
+    "labels": [
+      "Split Backspace",
+      "6U Bottom Row"
+    ],
     "keymap": [
       [
         {
@@ -224,7 +231,6 @@
         },
         "5,5\n\n\n1,1"
       ]
-    ],
-    "labels": ["Split Backspace", "6U Bottom Row"]
+    ]
   }
 }

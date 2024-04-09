@@ -2,8 +2,11 @@
   "name": "Viktus Styrka",
   "vendorId": "0x5644",
   "productId": "0x0001",
+  "matrix": {
+    "rows": 10,
+    "cols": 9
+  },
   "lighting": "none",
-  "matrix": {"rows": 10, "cols": 9},
   "layouts": {
     "labels": [
       "Split Backspace",

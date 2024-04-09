@@ -2,14 +2,33 @@
   "name": "Equinox",
   "vendorId": "0xa103",
   "productId": "0x0004",
+  "matrix": {
+    "rows": 4,
+    "cols": 12
+  },
   "lighting": "none",
-  "matrix": {"rows": 4, "cols": 12},
   "layouts": {
     "labels": [
-      ["Enter", "ANSI", "ISO", "1.25U"],
+      [
+        "Enter",
+        "ANSI",
+        "ISO",
+        "1.25U"
+      ],
       "Split Left Shift",
-      ["Right Shift", "1.75U", "1.75U Swapped", "2.75U"],
-      ["Bottom Row", "6U", "2.75U/1U/2.25U", "2.25U/1U/2.75U", "3U/3U"]
+      [
+        "Right Shift",
+        "1.75U",
+        "1.75U Swapped",
+        "2.75U"
+      ],
+      [
+        "Bottom Row",
+        "6U",
+        "2.75U/1U/2.25U",
+        "2.25U/1U/2.75U",
+        "3U/3U"
+      ]
     ],
     "keymap": [
       [

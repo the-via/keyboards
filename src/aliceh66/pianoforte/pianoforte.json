@@ -2,18 +2,22 @@
   "name": "pianoforte",
   "vendorId": "0x6168",
   "productId": "0x7066",
-  "lighting": "none",
   "matrix": {
     "rows": 12,
     "cols": 9
   },
+  "lighting": "none",
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO Enter",
       "Split Left Shift",
       "Split Right Shift",
-      ["Bottom Row", "Standard Bottom", "7u Bottom"]
+      [
+        "Bottom Row",
+        "Standard Bottom",
+        "7u Bottom"
+      ]
     ],
     "keymap": [
       [

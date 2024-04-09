@@ -2,15 +2,26 @@
   "name": "CherryB.Studio CB87RGB",
   "vendorId": "0x4342",
   "productId": "0x8785",
+  "matrix": {
+    "rows": 10,
+    "cols": 10
+  },
   "lighting": "qmk_backlight_rgblight",
-  "matrix": {"rows": 10, "cols": 10},
   "layouts": {
     "labels": [
       "Split Backspace",
-      ["Enter type", "Normal Enter", "ISO Enter"],
+      [
+        "Enter type",
+        "Normal Enter",
+        "ISO Enter"
+      ],
       "Split Left Shift",
       "Split Right Shift",
-      ["Bottom Row", "Normal 1.25u + 6.25u Space Bar", "1.5u + 7u Space Bar"]
+      [
+        "Bottom Row",
+        "Normal 1.25u + 6.25u Space Bar",
+        "1.5u + 7u Space Bar"
+      ]
     ],
     "keymap": [
       [

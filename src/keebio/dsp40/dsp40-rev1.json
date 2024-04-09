@@ -2,16 +2,30 @@
   "name": "DSP40 Rev. 1",
   "vendorId": "0xCB10",
   "productId": "0x144C",
-  "lighting": "qmk_backlight",
   "matrix": {
     "rows": 4,
     "cols": 12
   },
+  "lighting": "qmk_backlight",
   "layouts": {
     "labels": [
-      ["Row 2", "Staggered", "Ortho"],
-      ["Row 3", "Staggered 1.25-1", "Staggered 1-1.25", "Ortho"],
-      ["Row 4", "Staggered 1.25 Mods", "Staggered 1.5 Mods", "Ortho"]
+      [
+        "Row 2",
+        "Staggered",
+        "Ortho"
+      ],
+      [
+        "Row 3",
+        "Staggered 1.25-1",
+        "Staggered 1-1.25",
+        "Ortho"
+      ],
+      [
+        "Row 4",
+        "Staggered 1.25 Mods",
+        "Staggered 1.5 Mods",
+        "Ortho"
+      ]
     ],
     "keymap": [
       [

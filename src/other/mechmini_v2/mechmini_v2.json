@@ -2,14 +2,20 @@
   "name": "Mechmini V2",
   "vendorId": "0xAF99",
   "productId": "0xCA40",
-  "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 4,
     "cols": 12
   },
+  "lighting": "qmk_backlight_rgblight",
   "layouts": {
     "labels": [
-      ["Style", "Ortho", "Ortho 2u", "Staggered Split", "Staggered 6.25u"]
+      [
+        "Style",
+        "Ortho",
+        "Ortho 2u",
+        "Staggered Split",
+        "Staggered 6.25u"
+      ]
     ],
     "keymap": [
       [

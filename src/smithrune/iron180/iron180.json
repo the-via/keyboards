@@ -2,10 +2,12 @@
   "name": "Smith and Rune IRON180",
   "vendorId": "0x8384",
   "productId": "0x1180",
+  "matrix": {
+    "rows": 6,
+    "cols": 17
+  },
   "lighting": "qmk_backlight",
-  "matrix": {"rows": 6, "cols": 17},
   "layouts": {
-    "presets": {"ISO": [0, 1, 1, 0, 0], "Full tsangan": [1, 0, 0, 1, 1]},
     "labels": [
       "Split backspace",
       "ISO enter",
@@ -13,6 +15,22 @@
       "Split right shift",
       "7U bottom row"
     ],
+    "presets": {
+      "ISO": [
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "Full tsangan": [
+        1,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
     "keymap": [
       [
         {

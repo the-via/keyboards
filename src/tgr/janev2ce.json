@@ -2,18 +2,27 @@
   "name": "TGR Jane V2 CE",
   "vendorId": "0x5447",
   "productId": "0x4A43",
-  "lighting": "qmk_backlight",
   "matrix": {
     "rows": 8,
     "cols": 15
   },
+  "lighting": "qmk_backlight",
   "layouts": {
     "labels": [
       "Split Backspace",
-      ["Enter Key", "ANSI", "ISO"],
+      [
+        "Enter Key",
+        "ANSI",
+        "ISO"
+      ],
       "Left Shift",
       "Right Shift",
-      ["Bottom Row", "Standard", "Tsangan", "WKL"]
+      [
+        "Bottom Row",
+        "Standard",
+        "Tsangan",
+        "WKL"
+      ]
     ],
     "keymap": [
       [

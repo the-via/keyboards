@@ -2,35 +2,10 @@
   "name": "Keychron Q1V2 ISO",
   "vendorId": "0x3434",
   "productId": "0x0108",
-  "lighting": {
-    "extends": "qmk_rgblight",
-    "underglowEffects": [
-      ["00. None", 0],
-      ["01. SOLID_COLOR", 1],
-      ["02. BREATHING", 1],
-      ["03. BAND_SPIRAL_VAL", 1],
-      ["04. CYCLE_ALL", 1],
-      ["05. CYCLE_LEFT_RIGHT", 1],
-      ["06. CYCLE_UP_DOWN", 1],
-      ["07. RAINBOW_MOVING_CHEVRON", 1],
-      ["08. CYCLE_OUT_IN", 1],
-      ["09. CYCLE_OUT_IN_DUAL", 1],
-      ["10. CYCLE_PINWHEEL", 1],
-      ["11. CYCLE_SPIRAL", 1],
-      ["12. DUAL_BEACON", 1],
-      ["13. RAINBOW_BEACON", 1],
-      ["14. JELLYBEAN_RAINDROPS", 1],
-      ["15. PIXEL_RAIN", 1],
-      ["16. TYPING_HEATMAP", 1],
-      ["17. DIGITAL_RAIN", 1],
-      ["18. REACTIVE_SIMPLE", 1],
-      ["19. REACTIVE_MULTIWIDE", 1],
-      ["20. REACTIVE_MULTINEXUS", 1],
-      ["21. SPLASH", 1],
-      ["22. SOLID_SPLASH", 1]
-    ]
+  "matrix": {
+    "rows": 6,
+    "cols": 16
   },
-  "matrix": {"rows": 6, "cols": 16},
   "customKeycodes": [
     {
       "name": "Mission Control",
@@ -88,6 +63,103 @@
       "shortName": "Cortana"
     }
   ],
+  "lighting": {
+    "extends": "qmk_rgblight",
+    "underglowEffects": [
+      [
+        "00. None",
+        0
+      ],
+      [
+        "01. SOLID_COLOR",
+        1
+      ],
+      [
+        "02. BREATHING",
+        1
+      ],
+      [
+        "03. BAND_SPIRAL_VAL",
+        1
+      ],
+      [
+        "04. CYCLE_ALL",
+        1
+      ],
+      [
+        "05. CYCLE_LEFT_RIGHT",
+        1
+      ],
+      [
+        "06. CYCLE_UP_DOWN",
+        1
+      ],
+      [
+        "07. RAINBOW_MOVING_CHEVRON",
+        1
+      ],
+      [
+        "08. CYCLE_OUT_IN",
+        1
+      ],
+      [
+        "09. CYCLE_OUT_IN_DUAL",
+        1
+      ],
+      [
+        "10. CYCLE_PINWHEEL",
+        1
+      ],
+      [
+        "11. CYCLE_SPIRAL",
+        1
+      ],
+      [
+        "12. DUAL_BEACON",
+        1
+      ],
+      [
+        "13. RAINBOW_BEACON",
+        1
+      ],
+      [
+        "14. JELLYBEAN_RAINDROPS",
+        1
+      ],
+      [
+        "15. PIXEL_RAIN",
+        1
+      ],
+      [
+        "16. TYPING_HEATMAP",
+        1
+      ],
+      [
+        "17. DIGITAL_RAIN",
+        1
+      ],
+      [
+        "18. REACTIVE_SIMPLE",
+        1
+      ],
+      [
+        "19. REACTIVE_MULTIWIDE",
+        1
+      ],
+      [
+        "20. REACTIVE_MULTINEXUS",
+        1
+      ],
+      [
+        "21. SPLASH",
+        1
+      ],
+      [
+        "22. SOLID_SPLASH",
+        1
+      ]
+    ]
+  },
   "layouts": {
     "keymap": [
       [

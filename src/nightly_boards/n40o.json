@@ -2,13 +2,15 @@
   "name": "Nightly Boards [n]40-o",
   "vendorId": "0xD812",
   "productId": "0x0009",
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 5,
     "cols": 13
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
-    "labels": ["2U Enter"],
+    "labels": [
+      "2U Enter"
+    ],
     "keymap": [
       [
         {

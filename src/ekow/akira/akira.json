@@ -2,11 +2,11 @@
   "name": "AKIRA",
   "vendorId": "0x4B59",
   "productId": "0x414B",
-  "lighting": "none",
   "matrix": {
     "rows": 5,
     "cols": 15
   },
+  "lighting": "none",
   "layouts": {
     "keymap": [
       [

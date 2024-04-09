@@ -2,65 +2,160 @@
   "name": "Kabe Don 980",
   "vendorId": "0x4B44",
   "productId": "0x3938",
+  "matrix": {
+    "rows": 10,
+    "cols": 13
+  },
   "lighting": {
     "extends": "qmk_rgblight",
     "underglowEffects": [
-      ["ON/OFF", 0],
-      ["Solid Color", 1],
-      ["Solid - Highlighted Mods", 1],
-      ["Vertical Gradient", 1],
-      ["Horizontal Gradient", 1],
-      ["Breathing", 1],
-      ["Colorband - Saturation", 1],
-      ["Colorband - Brightness", 1],
-      ["Pinwheel - Saturation", 1],
-      ["Pinwheel - Brightness", 1],
-      ["Spiral - Saturation", 1],
-      ["Spiral - Brightness", 1],
-      ["Cycle All", 0],
-      ["Cycle Horizontal", 1],
-      ["Cycle Vertical", 1],
-      ["Rainbow Chevron", 1],
-      ["Cycle - In/Out", 1],
-      ["Cycle - In/Out Dual", 1],
-      ["Cycle - Pinwheel", 1],
-      ["Cycle - Spiral", 1],
-      ["Dual Beacon", 1],
-      ["Rainbow Beacon", 1],
-      ["Rainbow Pinwheels", 1],
-      ["Raindrops", 1],
-      ["Jellybean Raindrops", 1]
+      [
+        "ON/OFF",
+        0
+      ],
+      [
+        "Solid Color",
+        1
+      ],
+      [
+        "Solid - Highlighted Mods",
+        1
+      ],
+      [
+        "Vertical Gradient",
+        1
+      ],
+      [
+        "Horizontal Gradient",
+        1
+      ],
+      [
+        "Breathing",
+        1
+      ],
+      [
+        "Colorband - Saturation",
+        1
+      ],
+      [
+        "Colorband - Brightness",
+        1
+      ],
+      [
+        "Pinwheel - Saturation",
+        1
+      ],
+      [
+        "Pinwheel - Brightness",
+        1
+      ],
+      [
+        "Spiral - Saturation",
+        1
+      ],
+      [
+        "Spiral - Brightness",
+        1
+      ],
+      [
+        "Cycle All",
+        0
+      ],
+      [
+        "Cycle Horizontal",
+        1
+      ],
+      [
+        "Cycle Vertical",
+        1
+      ],
+      [
+        "Rainbow Chevron",
+        1
+      ],
+      [
+        "Cycle - In/Out",
+        1
+      ],
+      [
+        "Cycle - In/Out Dual",
+        1
+      ],
+      [
+        "Cycle - Pinwheel",
+        1
+      ],
+      [
+        "Cycle - Spiral",
+        1
+      ],
+      [
+        "Dual Beacon",
+        1
+      ],
+      [
+        "Rainbow Beacon",
+        1
+      ],
+      [
+        "Rainbow Pinwheels",
+        1
+      ],
+      [
+        "Raindrops",
+        1
+      ],
+      [
+        "Jellybean Raindrops",
+        1
+      ]
     ]
   },
-  "matrix": {"rows": 10, "cols": 13},
   "layouts": {
     "keymap": [
       [
-        {"c": "#777777"},
+        {
+          "c": "#777777"
+        },
         "8,6",
-        {"x": 0.75, "c": "#cccccc"},
+        {
+          "x": 0.75,
+          "c": "#cccccc"
+        },
         "2,4",
         "3,4",
         "1,10",
         "0,5",
-        {"x": 0.5, "c": "#aaaaaa"},
+        {
+          "x": 0.5,
+          "c": "#aaaaaa"
+        },
         "0,11",
         "0,2",
         "2,1",
         "0,4",
-        {"x": 0.75, "c": "#cccccc"},
+        {
+          "x": 0.75,
+          "c": "#cccccc"
+        },
         "0,7",
         "2,2",
         "9,5",
         "4,6",
-        {"x": 0.5, "c": "#aaaaaa"},
+        {
+          "x": 0.5,
+          "c": "#aaaaaa"
+        },
         "7,3",
         "9,1",
         "8,1",
         "8,0"
       ],
       [
-        {"y": 0.25, "c": "#cccccc"},
+        {
+          "y": 0.25,
+          "c": "#cccccc"
+        },
         "9,7",
         "2,5",
         "2,6",
@@ -74,18 +169,29 @@
         "6,5",
         "6,6",
         "0,6",
-        {"c": "#aaaaaa", "w": 2},
+        {
+          "c": "#aaaaaa",
+          "w": 2
+        },
         "3,2",
-        {"x": 0.5, "c": "#cccccc"},
+        {
+          "x": 0.5,
+          "c": "#cccccc"
+        },
         "0,8",
         "5,1",
         "7,1",
         "6,1"
       ],
       [
-        {"c": "#aaaaaa", "w": 1.5},
+        {
+          "c": "#aaaaaa",
+          "w": 1.5
+        },
         "8,3",
-        {"c": "#cccccc"},
+        {
+          "c": "#cccccc"
+        },
         "9,2",
         "3,6",
         "3,5",
@@ -98,19 +204,30 @@
         "1,11",
         "1,2",
         "5,5",
-        {"w": 1.5},
+        {
+          "w": 1.5
+        },
         "4,1",
-        {"x": 0.5},
+        {
+          "x": 0.5
+        },
         "6,0",
         "0,1",
         "5,8",
-        {"c": "#aaaaaa", "h": 2},
+        {
+          "c": "#aaaaaa",
+          "h": 2
+        },
         "5,0"
       ],
       [
-        {"w": 1.75},
+        {
+          "w": 1.75
+        },
         "1,3",
-        {"c": "#cccccc"},
+        {
+          "c": "#cccccc"
+        },
         "1,0",
         "7,2",
         "5,3",
@@ -122,17 +239,28 @@
         "5,4",
         "1,6",
         "5,6",
-        {"c": "#777777", "w": 2.25},
+        {
+          "c": "#777777",
+          "w": 2.25
+        },
         "5,2",
-        {"x": 0.5, "c": "#cccccc"},
+        {
+          "x": 0.5,
+          "c": "#cccccc"
+        },
         "1,12",
         "0,0",
         "6,8"
       ],
       [
-        {"c": "#aaaaaa", "w": 2.25},
+        {
+          "c": "#aaaaaa",
+          "w": 2.25
+        },
         "9,12",
-        {"c": "#cccccc"},
+        {
+          "c": "#cccccc"
+        },
         "1,9",
         "9,4",
         "0,10",
@@ -143,33 +271,70 @@
         "3,3",
         "1,5",
         "4,4",
-        {"c": "#aaaaaa", "w": 1.75},
+        {
+          "c": "#aaaaaa",
+          "w": 1.75
+        },
         "8,12",
-        {"x": 1.5, "c": "#cccccc"},
+        {
+          "x": 1.5,
+          "c": "#cccccc"
+        },
         "3,1",
         "8,8",
         "7,8",
-        {"c": "#aaaaaa", "h": 2},
+        {
+          "c": "#aaaaaa",
+          "h": 2
+        },
         "2,0"
       ],
-      [{"y": -0.75, "x": 14.25, "c": "#cccccc"}, "8,7"],
       [
-        {"y": -0.25, "c": "#aaaaaa", "w": 1.25},
+        {
+          "y": -0.75,
+          "x": 14.25,
+          "c": "#cccccc"
+        },
+        "8,7"
+      ],
+      [
+        {
+          "y": -0.25,
+          "c": "#aaaaaa",
+          "w": 1.25
+        },
         "5,10",
-        {"w": 1.25},
+        {
+          "w": 1.25
+        },
         "3,9",
-        {"w": 1.25},
+        {
+          "w": 1.25
+        },
         "7,11",
-        {"w": 6.25},
+        {
+          "w": 6.25
+        },
         "0,12",
         "6,11",
         "2,8",
         "4,10",
-        {"x": 3.5, "c": "#cccccc"},
+        {
+          "x": 3.5,
+          "c": "#cccccc"
+        },
         "3,0",
         "7,0"
       ],
-      [{"y": -0.75, "x": 13.25}, "4,7", "6,7", "2,7"]
+      [
+        {
+          "y": -0.75,
+          "x": 13.25
+        },
+        "4,7",
+        "6,7",
+        "2,7"
+      ]
     ]
   }
 }

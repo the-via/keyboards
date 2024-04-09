@@ -2,7 +2,10 @@
   "name": "Tata80",
   "vendorId": "0x2365",
   "productId": "0x0168",
-  "matrix": {"rows": 6, "cols": 17},
+  "matrix": {
+    "rows": 6,
+    "cols": 17
+  },
   "layouts": {
     "keymap": [
       [

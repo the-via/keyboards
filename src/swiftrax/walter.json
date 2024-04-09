@@ -2,17 +2,21 @@
   "name": "Walter",
   "vendorId": "0x04D8",
   "productId": "0xE964",
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 5,
     "cols": 16
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO Enter",
       "Split Left Shift",
-      ["Bottom Keys", "1U-1U-1U", "1.5U-1.5U"]
+      [
+        "Bottom Keys",
+        "1U-1U-1U",
+        "1.5U-1.5U"
+      ]
     ],
     "keymap": [
       [

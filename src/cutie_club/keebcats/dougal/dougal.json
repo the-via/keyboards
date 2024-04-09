@@ -2,15 +2,40 @@
   "name": "Keebcats Dougal",
   "vendorId": "0xFB9C",
   "productId": "0xB265",
+  "matrix": {
+    "rows": 5,
+    "cols": 16
+  },
   "lighting": "none",
-  "matrix": {"rows": 5, "cols": 16},
   "layouts": {
     "labels": [
-      ["Backspace", "Standard", "Split"],
-      ["Enter", "ISO", "ANSI"],
-      ["Left Shift", "Split", "Standard"],
-      ["Right Shift", "Split", "Standard"],
-      ["Bottom Row", "6.25u", "7u", "Tsangan", "Split Spacebar (All Keys)"]
+      [
+        "Backspace",
+        "Standard",
+        "Split"
+      ],
+      [
+        "Enter",
+        "ISO",
+        "ANSI"
+      ],
+      [
+        "Left Shift",
+        "Split",
+        "Standard"
+      ],
+      [
+        "Right Shift",
+        "Split",
+        "Standard"
+      ],
+      [
+        "Bottom Row",
+        "6.25u",
+        "7u",
+        "Tsangan",
+        "Split Spacebar (All Keys)"
+      ]
     ],
     "keymap": [
       [

@@ -2,12 +2,11 @@
   "name": "KBD75HS",
   "vendorId": "0x4B42",
   "productId": "0x6062",
-  "lighting": "qmk_rgblight",
-
   "matrix": {
     "rows": 6,
     "cols": 15
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
     "keymap": [
       [

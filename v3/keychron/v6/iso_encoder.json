@@ -2,75 +2,21 @@
   "name": "Keychron V6 ISO Knob",
   "vendorId": "0x3434",
   "productId": "0x0363",
-  "keycodes": ["qmk_lighting"],
-  "menus": [
-    {
-      "label": "Lighting",
-      "content": [
-        {
-          "label": "Backlight",
-          "content": [
-            {
-              "label": "Brightness",
-              "type": "range",
-              "options": [0, 255],
-              "content": ["id_qmk_rgb_matrix_brightness", 3, 1]
-            },
-            {
-              "label": "Effect",
-              "type": "dropdown",
-              "content": ["id_qmk_rgb_matrix_effect", 3, 2],
-              "options": [
-                ["00. None", 0],
-                ["01. SOLID_COLOR", 1],
-                ["02. BREATHING", 2],
-                ["03. BAND_SPIRAL_VAL", 3],
-                ["04. CYCLE_ALL", 4],
-                ["05. CYCLE_LEFT_RIGHT", 5],
-                ["06. CYCLE_UP_DOWN", 6],
-                ["07. RAINBOW_MOVING_CHEVRON", 7],
-                ["08. CYCLE_OUT_IN", 8],
-                ["09. CYCLE_OUT_IN_DUAL", 9],
-                ["10. CYCLE_PINWHEEL", 10],
-                ["11. CYCLE_SPIRAL", 11],
-                ["12. DUAL_BEACON", 12],
-                ["13. RAINBOW_BEACON", 13],
-                ["14. JELLYBEAN_RAINDROPS", 14],
-                ["15. PIXEL_RAIN", 15],
-                ["16. TYPING_HEATMAP", 16],
-                ["17. DIGITAL_RAIN", 17],
-                ["18. REACTIVE_SIMPLE", 18],
-                ["19. REACTIVE_MULTIWIDE", 19],
-                ["20. REACTIVE_MULTINEXUS", 20],
-                ["21. SPLASH", 21],
-                ["22. SOLID_SPLASH", 22]
-              ]
-            },
-            {
-              "showIf": "{id_qmk_rgb_matrix_effect} > 1",
-              "label": "Effect Speed",
-              "type": "range",
-              "options": [0, 255],
-              "content": ["id_qmk_rgb_matrix_effect_speed", 3, 3]
-            },
-            {
-              "showIf": "{id_qmk_rgb_matrix_effect} != 0",
-              "label": "Color",
-              "type": "color",
-              "content": ["id_qmk_rgb_matrix_color", 3, 4]
-            }
-          ]
-        }
-      ]
-    }
-  ],
+  "matrix": {
+    "rows": 6,
+    "cols": 20
+  },
   "customKeycodes": [
     {
       "name": "Mission Control",
       "title": "Mission Control in macOS",
       "shortName": "MCtrl"
     },
-    {"name": "Launch Pad", "title": "Launch Pad in macOS", "shortName": "LPad"},
+    {
+      "name": "Launch Pad",
+      "title": "Launch Pad in macOS",
+      "shortName": "LPad"
+    },
     {
       "name": "Left Option",
       "title": "Left Option in macOS",
@@ -81,14 +27,26 @@
       "title": "Right Option in macOS",
       "shortName": "ROpt"
     },
-    {"name": "Left Cmd", "title": "Left Command in macOS", "shortName": "LCmd"},
+    {
+      "name": "Left Cmd",
+      "title": "Left Command in macOS",
+      "shortName": "LCmd"
+    },
     {
       "name": "Right Cmd",
       "title": "Right Command in macOS",
       "shortName": "RCmd"
     },
-    {"name": "Siri", "title": "Siri in macOS", "shortName": "Siri"},
-    {"name": "Task View", "title": "Task View in windows", "shortName": "Task"},
+    {
+      "name": "Siri",
+      "title": "Siri in macOS",
+      "shortName": "Siri"
+    },
+    {
+      "name": "Task View",
+      "title": "Task View in windows",
+      "shortName": "Task"
+    },
     {
       "name": "File Explorer",
       "title": "File Explorer in windows",
@@ -99,9 +57,167 @@
       "title": "Screenshot in macOS",
       "shortName": "SShot"
     },
-    {"name": "Cortana", "title": "Cortana in windows", "shortName": "Cortana"}
+    {
+      "name": "Cortana",
+      "title": "Cortana in windows",
+      "shortName": "Cortana"
+    }
   ],
-  "matrix": {"rows": 6, "cols": 20},
+  "keycodes": [
+    "qmk_lighting"
+  ],
+  "menus": [
+    {
+      "label": "Lighting",
+      "content": [
+        {
+          "label": "Backlight",
+          "content": [
+            {
+              "label": "Brightness",
+              "type": "range",
+              "options": [
+                0,
+                255
+              ],
+              "content": [
+                "id_qmk_rgb_matrix_brightness",
+                3,
+                1
+              ]
+            },
+            {
+              "label": "Effect",
+              "type": "dropdown",
+              "content": [
+                "id_qmk_rgb_matrix_effect",
+                3,
+                2
+              ],
+              "options": [
+                [
+                  "00. None",
+                  0
+                ],
+                [
+                  "01. SOLID_COLOR",
+                  1
+                ],
+                [
+                  "02. BREATHING",
+                  2
+                ],
+                [
+                  "03. BAND_SPIRAL_VAL",
+                  3
+                ],
+                [
+                  "04. CYCLE_ALL",
+                  4
+                ],
+                [
+                  "05. CYCLE_LEFT_RIGHT",
+                  5
+                ],
+                [
+                  "06. CYCLE_UP_DOWN",
+                  6
+                ],
+                [
+                  "07. RAINBOW_MOVING_CHEVRON",
+                  7
+                ],
+                [
+                  "08. CYCLE_OUT_IN",
+                  8
+                ],
+                [
+                  "09. CYCLE_OUT_IN_DUAL",
+                  9
+                ],
+                [
+                  "10. CYCLE_PINWHEEL",
+                  10
+                ],
+                [
+                  "11. CYCLE_SPIRAL",
+                  11
+                ],
+                [
+                  "12. DUAL_BEACON",
+                  12
+                ],
+                [
+                  "13. RAINBOW_BEACON",
+                  13
+                ],
+                [
+                  "14. JELLYBEAN_RAINDROPS",
+                  14
+                ],
+                [
+                  "15. PIXEL_RAIN",
+                  15
+                ],
+                [
+                  "16. TYPING_HEATMAP",
+                  16
+                ],
+                [
+                  "17. DIGITAL_RAIN",
+                  17
+                ],
+                [
+                  "18. REACTIVE_SIMPLE",
+                  18
+                ],
+                [
+                  "19. REACTIVE_MULTIWIDE",
+                  19
+                ],
+                [
+                  "20. REACTIVE_MULTINEXUS",
+                  20
+                ],
+                [
+                  "21. SPLASH",
+                  21
+                ],
+                [
+                  "22. SOLID_SPLASH",
+                  22
+                ]
+              ]
+            },
+            {
+              "showIf": "{id_qmk_rgb_matrix_effect} > 1",
+              "label": "Effect Speed",
+              "type": "range",
+              "options": [
+                0,
+                255
+              ],
+              "content": [
+                "id_qmk_rgb_matrix_effect_speed",
+                3,
+                3
+              ]
+            },
+            {
+              "showIf": "{id_qmk_rgb_matrix_effect} != 0",
+              "label": "Color",
+              "type": "color",
+              "content": [
+                "id_qmk_rgb_matrix_color",
+                3,
+                4
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "layouts": {
     "keymap": [
       [

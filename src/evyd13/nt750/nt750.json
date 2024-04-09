@@ -2,13 +2,16 @@
   "name": "Evyd13 nt750",
   "vendorId": "0x4705",
   "productId": "0x3320",
-  "lighting": "none",
   "matrix": {
     "rows": 6,
     "cols": 17
   },
+  "lighting": "none",
   "layouts": {
-    "labels": ["ISO Enter", "Split Left Shift"],
+    "labels": [
+      "ISO Enter",
+      "Split Left Shift"
+    ],
     "keymap": [
       [
         {

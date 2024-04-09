@@ -2,13 +2,20 @@
   "name": "Noxary 268.2 RGB",
   "vendorId": "0x4e58",
   "productId": "0x0A7C",
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 5,
     "cols": 16
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
-    "labels": ["Split Backspace", ["Spacebar", "7u", "6.25u"]],
+    "labels": [
+      "Split Backspace",
+      [
+        "Spacebar",
+        "7u",
+        "6.25u"
+      ]
+    ],
     "keymap": [
       [
         {

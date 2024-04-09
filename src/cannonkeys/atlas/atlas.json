@@ -2,10 +2,20 @@
   "name": "Atlas",
   "vendorId": "0xca04",
   "productId": "0xA7A5",
+  "matrix": {
+    "rows": 5,
+    "cols": 12
+  },
   "lighting": "qmk_rgblight",
-  "matrix": {"rows": 5, "cols": 12},
   "layouts": {
-    "labels": [["Bottom Row", "4x1U", "1/2/1", "2x2U"]],
+    "labels": [
+      [
+        "Bottom Row",
+        "4x1U",
+        "1/2/1",
+        "2x2U"
+      ]
+    ],
     "keymap": [
       [
         {

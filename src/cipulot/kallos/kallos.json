@@ -2,13 +2,15 @@
   "name": "Kallos",
   "vendorId": "0x6369",
   "productId": "0x6B7A",
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 6,
     "cols": 15
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
-    "labels": ["Split Backspace"],
+    "labels": [
+      "Split Backspace"
+    ],
     "keymap": [
       [
         {

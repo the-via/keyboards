@@ -2,15 +2,24 @@
   "name": "XT60",
   "vendorId": "0x4B50",
   "productId": "0x0600",
+  "matrix": {
+    "rows": 5,
+    "cols": 14
+  },
   "lighting": "qmk_rgblight",
-  "matrix": {"rows": 5, "cols": 14},
   "layouts": {
     "labels": [
       "ISO",
       "Split Backspace",
       "Split Left Shift",
       "Split Right Shift",
-      ["Bottom Row", "7u", "WKL", "6.25u", "2.25u/1.25u/2.75u Split"]
+      [
+        "Bottom Row",
+        "7u",
+        "WKL",
+        "6.25u",
+        "2.25u/1.25u/2.75u Split"
+      ]
     ],
     "keymap": [
       [

@@ -2,12 +2,18 @@
   "name": "DonutCables ScrabblePad",
   "vendorId": "0x4443",
   "productId": "0x21D7",
+  "matrix": {
+    "rows": 15,
+    "cols": 15
+  },
   "lighting": "none",
-  "matrix": {"rows": 15, "cols": 15},
   "layouts": {
     "keymap": [
       [
-        {"c": "#cccccc", "t": "#000000"},
+        {
+          "c": "#cccccc",
+          "t": "#000000"
+        },
         "0,0",
         "0,1",
         "0,2",

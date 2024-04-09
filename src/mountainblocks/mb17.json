@@ -2,11 +2,11 @@
   "name": "Mountainblocks MB17",
   "vendorId": "0x4D42",
   "productId": "0x0017",
-  "lighting": "none",
   "matrix": {
     "rows": 5,
     "cols": 4
   },
+  "lighting": "none",
   "layouts": {
     "keymap": [
       [

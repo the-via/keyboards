@@ -2,55 +2,185 @@
   "name": "FAve 87H",
   "vendorId": "0x4C58",
   "productId": "0x0003",
-  "matrix": {"rows": 6, "cols": 17},
+  "matrix": {
+    "rows": 6,
+    "cols": 17
+  },
   "lighting": {
     "extends": "qmk_rgblight",
     "underglowEffects": [
-      ["None", 0],
-      ["Solid Color", 1],
-      ["Vertical Gradient", 1],
-      ["Horizontal Gradient", 1],
-      ["Breathing", 1],
-      ["Colorband - Saturation", 1],
-      ["Colorband - Brightness", 1],
-      ["Pinwheel - Saturation", 1],
-      ["Pinwheel - Brightness", 1],
-      ["Spiral - Saturation", 1],
-      ["Spiral - Brightness", 1],
-      ["Cycle All", 1],
-      ["Cycle Horizontal", 1],
-      ["Cycle Vertical", 1],
-      ["Rainbow Chevron", 1],
-      ["Cycle - In/Out", 1],
-      ["Cycle - In/Out Dual", 1],
-      ["Cycle - Pinwheel", 1],
-      ["Cycle - Spiral", 1],
-      ["Dual Beacon", 1],
-      ["Rainbow Beacon", 1],
-      ["Rainbow Pinwheels", 1],
-      ["Raindrops", 1],
-      ["Jellybean Raindrops", 1],
-      ["Hue Breathing", 1],
-      ["Hue Pendulum", 1],
-      ["Hue Wave", 1],
-      ["Pixel Rain", 1],
-      ["Solid Reactive Simple", 1],
-      ["Solid Reactive", 1],
-      ["Solid Reactive Wide", 1],
-      ["Solid Reactive Multiwide", 1],
-      ["Solid Reactive Cross", 1],
-      ["Solid Reactive Multicross", 1],
-      ["Solid Reactive Nexus", 1],
-      ["Solid Reactive Multinexus", 1],
-      ["Splash", 1],
-      ["Multisplash", 1],
-      ["Solid Splash", 1],
-      ["Solid Multisplash", 1]
+      [
+        "None",
+        0
+      ],
+      [
+        "Solid Color",
+        1
+      ],
+      [
+        "Vertical Gradient",
+        1
+      ],
+      [
+        "Horizontal Gradient",
+        1
+      ],
+      [
+        "Breathing",
+        1
+      ],
+      [
+        "Colorband - Saturation",
+        1
+      ],
+      [
+        "Colorband - Brightness",
+        1
+      ],
+      [
+        "Pinwheel - Saturation",
+        1
+      ],
+      [
+        "Pinwheel - Brightness",
+        1
+      ],
+      [
+        "Spiral - Saturation",
+        1
+      ],
+      [
+        "Spiral - Brightness",
+        1
+      ],
+      [
+        "Cycle All",
+        1
+      ],
+      [
+        "Cycle Horizontal",
+        1
+      ],
+      [
+        "Cycle Vertical",
+        1
+      ],
+      [
+        "Rainbow Chevron",
+        1
+      ],
+      [
+        "Cycle - In/Out",
+        1
+      ],
+      [
+        "Cycle - In/Out Dual",
+        1
+      ],
+      [
+        "Cycle - Pinwheel",
+        1
+      ],
+      [
+        "Cycle - Spiral",
+        1
+      ],
+      [
+        "Dual Beacon",
+        1
+      ],
+      [
+        "Rainbow Beacon",
+        1
+      ],
+      [
+        "Rainbow Pinwheels",
+        1
+      ],
+      [
+        "Raindrops",
+        1
+      ],
+      [
+        "Jellybean Raindrops",
+        1
+      ],
+      [
+        "Hue Breathing",
+        1
+      ],
+      [
+        "Hue Pendulum",
+        1
+      ],
+      [
+        "Hue Wave",
+        1
+      ],
+      [
+        "Pixel Rain",
+        1
+      ],
+      [
+        "Solid Reactive Simple",
+        1
+      ],
+      [
+        "Solid Reactive",
+        1
+      ],
+      [
+        "Solid Reactive Wide",
+        1
+      ],
+      [
+        "Solid Reactive Multiwide",
+        1
+      ],
+      [
+        "Solid Reactive Cross",
+        1
+      ],
+      [
+        "Solid Reactive Multicross",
+        1
+      ],
+      [
+        "Solid Reactive Nexus",
+        1
+      ],
+      [
+        "Solid Reactive Multinexus",
+        1
+      ],
+      [
+        "Splash",
+        1
+      ],
+      [
+        "Multisplash",
+        1
+      ],
+      [
+        "Solid Splash",
+        1
+      ],
+      [
+        "Solid Multisplash",
+        1
+      ]
     ],
-    "supportedLightingValues": [128, 129, 130, 131]
+    "supportedLightingValues": [
+      128,
+      129,
+      130,
+      131
+    ]
   },
   "layouts": {
-    "labels": ["Split Backspace"],
+    "labels": [
+      "Split Backspace"
+    ],
     "keymap": [
       [
         {

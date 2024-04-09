@@ -2,14 +2,21 @@
   "name": "Loki65",
   "vendorId": "0x8968",
   "productId": "0x4C36",
+  "matrix": {
+    "rows": 5,
+    "cols": 15
+  },
   "lighting": "qmk_rgblight",
-  "matrix": {"rows": 5, "cols": 15},
   "layouts": {
     "labels": [
       "Split Backspace",
       "Split Left Shift",
       "ISO Enter",
-      ["Bottom Row", "6.25U", "7U"]
+      [
+        "Bottom Row",
+        "6.25U",
+        "7U"
+      ]
     ],
     "keymap": [
       [

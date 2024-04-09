@@ -2,11 +2,11 @@
   "name": "bonce75_hotswap",
   "vendorId": "0x4B42",
   "productId": "0x7001",
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 6,
     "cols": 15
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
     "keymap": [
       [

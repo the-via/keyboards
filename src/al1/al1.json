@@ -1,19 +1,17 @@
 {
   "name": "AL1",
-
   "vendorId": "0x544C",
   "productId": "0x6050",
-
-  "lighting": "qmk_backlight",
-
   "matrix": {
     "rows": 6,
     "cols": 16
   },
-
+  "lighting": "qmk_backlight",
   "layouts": {
-    "labels": ["Split Backspace", "Split Right Shift"],
-
+    "labels": [
+      "Split Backspace",
+      "Split Right Shift"
+    ],
     "keymap": [
       [
         {

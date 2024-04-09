@@ -2,9 +2,42 @@
   "name": "Wete",
   "vendorId": "0xb16b",
   "productId": "0x00b5",
+  "matrix": {
+    "rows": 6,
+    "cols": 20
+  },
   "lighting": "qmk_backlight_rgblight",
-  "matrix": {"rows": 6, "cols": 20},
   "layouts": {
+    "labels": [
+      "Split Backspace",
+      "ISO Enter",
+      "Split Left Shift",
+      [
+        "Right Shift",
+        "Split Right Shift",
+        "2.75u Right Shift",
+        "JIS Right Shift"
+      ],
+      [
+        "Numpad Area",
+        "Right Handed",
+        "Left Handed",
+        "Macro Keys"
+      ],
+      [
+        "Bottom Row",
+        "1.25u Mods",
+        "1.5u Mods",
+        "Winkeyless",
+        "JIS Bottom Row"
+      ],
+      [
+        "Right Mods",
+        "Blocker",
+        "No Blocker",
+        "1u Mods"
+      ]
+    ],
     "keymap": [
       [
         {
@@ -461,20 +494,6 @@
         "5,11\n\n\n5,3",
         "5,12\n\n\n5,3"
       ]
-    ],
-    "labels": [
-      "Split Backspace",
-      "ISO Enter",
-      "Split Left Shift",
-      [
-        "Right Shift",
-        "Split Right Shift",
-        "2.75u Right Shift",
-        "JIS Right Shift"
-      ],
-      ["Numpad Area", "Right Handed", "Left Handed", "Macro Keys"],
-      ["Bottom Row", "1.25u Mods", "1.5u Mods", "Winkeyless", "JIS Bottom Row"],
-      ["Right Mods", "Blocker", "No Blocker", "1u Mods"]
     ]
   }
 }

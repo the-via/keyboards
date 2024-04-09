@@ -2,8 +2,11 @@
   "name": "Smith and Rune Iron165 R2",
   "vendorId": "0x8384",
   "productId": "0x1652",
+  "matrix": {
+    "rows": 5,
+    "cols": 15
+  },
   "lighting": "qmk_backlight_rgblight",
-  "matrix": {"rows": 5, "cols": 15},
   "layouts": {
     "labels": [
       "Split backspace",

@@ -2,11 +2,20 @@
   "name": "RARTLITE",
   "vendorId": "0x414C",
   "productId": "0x4040",
+  "matrix": {
+    "rows": 8,
+    "cols": 7
+  },
   "lighting": "none",
-  "matrix": {"rows": 8, "cols": 7},
   "layouts": {
     "labels": [
-      ["Layout", "R-Num Split", "R-Num Space", "L-Num Split", "L-Num Space"]
+      [
+        "Layout",
+        "R-Num Split",
+        "R-Num Space",
+        "L-Num Split",
+        "L-Num Space"
+      ]
     ],
     "keymap": [
       [

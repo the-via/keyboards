@@ -2,13 +2,13 @@
   "name": "recompile keys MIO",
   "vendorId": "0x524B",
   "productId": "0x4D41",
-  "lighting": {
-    "extends": "qmk_rgblight",
-    "keycodes": "qmk"
-  },
   "matrix": {
     "rows": 6,
     "cols": 8
+  },
+  "lighting": {
+    "extends": "qmk_rgblight",
+    "keycodes": "qmk"
   },
   "layouts": {
     "keymap": [

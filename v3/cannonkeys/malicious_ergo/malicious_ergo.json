@@ -2,11 +2,20 @@
   "name": "Malicious Ergo",
   "vendorId": "0xca04",
   "productId": "0x0009",
-  "menus": ["qmk_backlight_rgblight"],
-  "keycodes": ["qmk_lighting"],
-  "matrix": {"rows": 5, "cols": 17},
+  "matrix": {
+    "rows": 5,
+    "cols": 17
+  },
+  "keycodes": [
+    "qmk_lighting"
+  ],
+  "menus": [
+    "qmk_backlight_rgblight"
+  ],
   "layouts": {
-    "labels": ["Long Backspace"],
+    "labels": [
+      "Long Backspace"
+    ],
     "keymap": [
       [
         {

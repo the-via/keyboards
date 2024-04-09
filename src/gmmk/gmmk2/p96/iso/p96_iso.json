@@ -2,8 +2,11 @@
   "name": "GMMK V2 96 ISO",
   "vendorId": "0x320F",
   "productId": "0x505A",
+  "matrix": {
+    "rows": 14,
+    "cols": 8
+  },
   "lighting": "qmk_rgblight",
-  "matrix": {"rows": 14, "cols": 8},
   "layouts": {
     "keymap": [
       [

@@ -2,13 +2,17 @@
   "name": "h10",
   "vendorId": "0x04D8",
   "productId": "0xEBD8",
-  "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 6,
     "cols": 4
   },
+  "lighting": "qmk_backlight_rgblight",
   "layouts": {
-    "labels": ["Split Plus", "Split Enter", "Split 0"],
+    "labels": [
+      "Split Plus",
+      "Split Enter",
+      "Split 0"
+    ],
     "keymap": [
       [
         {

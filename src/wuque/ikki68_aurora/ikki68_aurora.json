@@ -2,11 +2,11 @@
   "name": "ikki68 AURORA",
   "vendorId": "0x706b",
   "productId": "0x0011",
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 5,
     "cols": 16
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
     "labels": [
       "Split Backspace",

@@ -2,10 +2,19 @@
   "name": "BLASTER75",
   "vendorId": "0xA122",
   "productId": "0xB075",
+  "matrix": {
+    "rows": 6,
+    "cols": 15
+  },
   "lighting": "none",
-  "matrix": {"rows": 6, "cols": 15},
   "layouts": {
-    "labels": [["Bottom Row", "ANSI", "7U"]],
+    "labels": [
+      [
+        "Bottom Row",
+        "ANSI",
+        "7U"
+      ]
+    ],
     "keymap": [
       [
         {
