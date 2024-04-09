@@ -2,16 +2,16 @@
   "name": "Minerva LX",
   "vendorId": "0x5453",
   "productId": "0x0100",
+  "matrix": {
+    "rows": 5,
+    "cols": 15
+  },
   "keycodes": [
     "qmk_lighting"
   ],
   "menus": [
     "qmk_backlight"
   ],
-  "matrix": {
-    "rows": 5,
-    "cols": 15
-  },
   "layouts": {
     "labels": [
       "Split Backspace",
@@ -253,3 +253,4 @@
     ]
   }
 }
+
