@@ -2,12 +2,26 @@
   "name": "HAND Engineering Fidelity",
   "vendorId": "0xFB9C",
   "productId": "0x4D1B",
-  "matrix": {"rows": 5, "cols": 16},
+  "matrix": {
+    "rows": 5,
+    "cols": 16
+  },
   "layouts": {
-    "labels": ["Split Backspace", ["Enter", "ANSI", "ISO"], "Split Left Shift"],
+    "labels": [
+      "Split Backspace",
+      [
+        "Enter",
+        "ANSI",
+        "ISO"
+      ],
+      "Split Left Shift"
+    ],
     "keymap": [
       [
-        {"x": 2.5, "c": "#777777"},
+        {
+          "x": 2.5,
+          "c": "#777777"
+        },
         "0,0",
         {
           "c": "#cccccc"

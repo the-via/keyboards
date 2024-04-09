@@ -2,11 +2,11 @@
   "name": "CA66",
   "vendorId": "0x5457",
   "productId": "0x6060",
-  "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 5,
     "cols": 15
   },
+  "lighting": "qmk_backlight_rgblight",
   "layouts": {
     "labels": [
       "Split Backspace",

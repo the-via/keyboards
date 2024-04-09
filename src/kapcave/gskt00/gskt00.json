@@ -2,16 +2,30 @@
   "name": "GSKT-00",
   "vendorId": "0x4B43",
   "productId": "0x6061",
+  "matrix": {
+    "rows": 8,
+    "cols": 8
+  },
   "lighting": "none",
-  "matrix": {"rows": 8, "cols": 8},
   "layouts": {
     "labels": [
       "Split Backspace",
       "Stepped CapsLock",
       "Split Left Shift",
       "Split Right Shift",
-      ["Enter", "ANSI Enter", "ISO Enter", "BAE"],
-      ["Bottom Row", "7U Standard", "AEK Standard", "WKL", "HHKB"]
+      [
+        "Enter",
+        "ANSI Enter",
+        "ISO Enter",
+        "BAE"
+      ],
+      [
+        "Bottom Row",
+        "7U Standard",
+        "AEK Standard",
+        "WKL",
+        "HHKB"
+      ]
     ],
     "keymap": [
       [

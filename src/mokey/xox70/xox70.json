@@ -2,15 +2,23 @@
   "name": "XOX70",
   "vendorId": "0x6653",
   "productId": "0x3370",
+  "matrix": {
+    "rows": 5,
+    "cols": 18
+  },
   "lighting": "qmk_backlight_rgblight",
-  "matrix": {"rows": 5, "cols": 18},
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO Enter",
       "Split Left Shift",
       "Split Right Shift",
-      ["Bottom Row", "Standard", "7U", "3U"]
+      [
+        "Bottom Row",
+        "Standard",
+        "7U",
+        "3U"
+      ]
     ],
     "keymap": [
       [

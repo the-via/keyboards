@@ -2,42 +2,21 @@
   "name": "Keychron Q5 ANSI Knob",
   "vendorId": "0x3434",
   "productId": "0x0151",
-  "lighting": {
-    "extends": "qmk_rgblight",
-    "underglowEffects": [
-      ["00. None", 0],
-      ["01. SOLID_COLOR", 1],
-      ["02. BREATHING", 1],
-      ["03. BAND_SPIRAL_VAL", 1],
-      ["04. CYCLE_ALL", 1],
-      ["05. CYCLE_LEFT_RIGHT", 1],
-      ["06. CYCLE_UP_DOWN", 1],
-      ["07. RAINBOW_MOVING_CHEVRON", 1],
-      ["08. CYCLE_OUT_IN", 1],
-      ["09. CYCLE_OUT_IN_DUAL", 1],
-      ["10. CYCLE_PINWHEEL", 1],
-      ["11. CYCLE_SPIRAL", 1],
-      ["12. DUAL_BEACON", 1],
-      ["13. RAINBOW_BEACON", 1],
-      ["14. JELLYBEAN_RAINDROPS", 1],
-      ["15. PIXEL_RAIN", 1],
-      ["16. TYPING_HEATMAP", 1],
-      ["17. DIGITAL_RAIN", 1],
-      ["18. REACTIVE_SIMPLE", 1],
-      ["19. REACTIVE_MULTIWIDE", 1],
-      ["20. REACTIVE_MULTINEXUS", 1],
-      ["21. SPLASH", 1],
-      ["22. SOLID_SPLASH", 1]
-    ]
+  "matrix": {
+    "rows": 6,
+    "cols": 18
   },
-  "matrix": {"rows": 6, "cols": 18},
   "customKeycodes": [
     {
       "name": "Mission Control",
       "title": "Mission Control in macOS",
       "shortName": "MCtrl"
     },
-    {"name": "Launch Pad", "title": "Launch Pad in macOS", "shortName": "LPad"},
+    {
+      "name": "Launch Pad",
+      "title": "Launch Pad in macOS",
+      "shortName": "LPad"
+    },
     {
       "name": "Left Option",
       "title": "Left Option in macOS",
@@ -48,14 +27,26 @@
       "title": "Right Option in macOS",
       "shortName": "ROpt"
     },
-    {"name": "Left Cmd", "title": "Left Command in macOS", "shortName": "LCmd"},
+    {
+      "name": "Left Cmd",
+      "title": "Left Command in macOS",
+      "shortName": "LCmd"
+    },
     {
       "name": "Right Cmd",
       "title": "Right Command in macOS",
       "shortName": "RCmd"
     },
-    {"name": "Siri", "title": "Siri in macOS", "shortName": "Siri"},
-    {"name": "Task View", "title": "Task View in windows", "shortName": "Task"},
+    {
+      "name": "Siri",
+      "title": "Siri in macOS",
+      "shortName": "Siri"
+    },
+    {
+      "name": "Task View",
+      "title": "Task View in windows",
+      "shortName": "Task"
+    },
     {
       "name": "File Explorer",
       "title": "File Explorer in windows",
@@ -66,8 +57,109 @@
       "title": "Screenshot in macOS",
       "shortName": "SShot"
     },
-    {"name": "Cortana", "title": "Cortana in windows", "shortName": "Cortana"}
+    {
+      "name": "Cortana",
+      "title": "Cortana in windows",
+      "shortName": "Cortana"
+    }
   ],
+  "lighting": {
+    "extends": "qmk_rgblight",
+    "underglowEffects": [
+      [
+        "00. None",
+        0
+      ],
+      [
+        "01. SOLID_COLOR",
+        1
+      ],
+      [
+        "02. BREATHING",
+        1
+      ],
+      [
+        "03. BAND_SPIRAL_VAL",
+        1
+      ],
+      [
+        "04. CYCLE_ALL",
+        1
+      ],
+      [
+        "05. CYCLE_LEFT_RIGHT",
+        1
+      ],
+      [
+        "06. CYCLE_UP_DOWN",
+        1
+      ],
+      [
+        "07. RAINBOW_MOVING_CHEVRON",
+        1
+      ],
+      [
+        "08. CYCLE_OUT_IN",
+        1
+      ],
+      [
+        "09. CYCLE_OUT_IN_DUAL",
+        1
+      ],
+      [
+        "10. CYCLE_PINWHEEL",
+        1
+      ],
+      [
+        "11. CYCLE_SPIRAL",
+        1
+      ],
+      [
+        "12. DUAL_BEACON",
+        1
+      ],
+      [
+        "13. RAINBOW_BEACON",
+        1
+      ],
+      [
+        "14. JELLYBEAN_RAINDROPS",
+        1
+      ],
+      [
+        "15. PIXEL_RAIN",
+        1
+      ],
+      [
+        "16. TYPING_HEATMAP",
+        1
+      ],
+      [
+        "17. DIGITAL_RAIN",
+        1
+      ],
+      [
+        "18. REACTIVE_SIMPLE",
+        1
+      ],
+      [
+        "19. REACTIVE_MULTIWIDE",
+        1
+      ],
+      [
+        "20. REACTIVE_MULTINEXUS",
+        1
+      ],
+      [
+        "21. SPLASH",
+        1
+      ],
+      [
+        "22. SOLID_SPLASH",
+        1
+      ]
+    ]
+  },
   "layouts": {
     "keymap": [
       [

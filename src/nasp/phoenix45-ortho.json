@@ -2,10 +2,20 @@
   "name": "Phoenix45_Ortho",
   "vendorId": "0x7070",
   "productId": "0x1849",
-  "matrix": {"rows": 4, "cols": 13},
+  "matrix": {
+    "rows": 4,
+    "cols": 13
+  },
   "lighting": "none",
   "layouts": {
-    "labels": [["Bottom Row", "2x225u", "2x3u", "6u"]],
+    "labels": [
+      [
+        "Bottom Row",
+        "2x225u",
+        "2x3u",
+        "6u"
+      ]
+    ],
     "keymap": [
       [
         {

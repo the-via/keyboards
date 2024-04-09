@@ -2,13 +2,19 @@
   "name": "Damapad",
   "vendorId": "0x6D64",
   "productId": "0x6470",
-  "lighting": "none",
   "matrix": {
     "rows": 3,
     "cols": 6
   },
+  "lighting": "none",
   "layouts": {
-    "labels": [["Bottom Left", "WKL", "Space"]],
+    "labels": [
+      [
+        "Bottom Left",
+        "WKL",
+        "Space"
+      ]
+    ],
     "keymap": [
       [
         {

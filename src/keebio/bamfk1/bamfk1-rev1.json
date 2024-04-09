@@ -2,11 +2,11 @@
   "name": "BAMFK-1",
   "vendorId": "0xcb10",
   "productId": "0x1111",
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 2,
     "cols": 4
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
     "keymap": [
       [

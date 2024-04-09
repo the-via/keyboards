@@ -2,17 +2,48 @@
   "name": "odin_soldered",
   "vendorId": "0x4B42",
   "productId": "0x0101",
-  "matrix": {"rows": 6, "cols": 20},
+  "matrix": {
+    "rows": 6,
+    "cols": 20
+  },
   "lighting": "none",
   "layouts": {
     "labels": [
-      ["Backspace", "Default", "Split"],
-      ["Enter Key", "ANSI", "ISO"],
-      ["Left Shift", "Default", "Split"],
-      ["Right Shift", "Default", "Split"],
-      ["PAD+", "Default", "Split"],
-      ["PAD Enter", "Default", "Split"],
-      ["Buttom Row", "7U+2x1.5u", "6.25U+4x1U"]
+      [
+        "Backspace",
+        "Default",
+        "Split"
+      ],
+      [
+        "Enter Key",
+        "ANSI",
+        "ISO"
+      ],
+      [
+        "Left Shift",
+        "Default",
+        "Split"
+      ],
+      [
+        "Right Shift",
+        "Default",
+        "Split"
+      ],
+      [
+        "PAD+",
+        "Default",
+        "Split"
+      ],
+      [
+        "PAD Enter",
+        "Default",
+        "Split"
+      ],
+      [
+        "Buttom Row",
+        "7U+2x1.5u",
+        "6.25U+4x1U"
+      ]
     ],
     "keymap": [
       [

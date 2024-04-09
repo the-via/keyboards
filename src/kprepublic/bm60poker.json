@@ -2,13 +2,13 @@
   "name": "KP Republic BM60 Poker",
   "vendorId": "0x4B50",
   "productId": "0xEF8D",
-  "lighting": {
-    "extends": "none",
-    "keycodes": "qmk"
-  },
   "matrix": {
     "rows": 5,
     "cols": 14
+  },
+  "lighting": {
+    "extends": "none",
+    "keycodes": "qmk"
   },
   "layouts": {
     "keymap": [

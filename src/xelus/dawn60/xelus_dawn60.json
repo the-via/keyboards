@@ -2,18 +2,42 @@
   "name": "DAWN60",
   "vendorId": "0x5845",
   "productId": "0x0060",
-  "lighting": {
-    "extends": "wt_rgb_backlight",
-    "supportedLightingValues": [
-      1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21
-    ]
-  },
   "matrix": {
     "rows": 5,
     "cols": 14
   },
+  "lighting": {
+    "extends": "wt_rgb_backlight",
+    "supportedLightingValues": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ]
+  },
   "layouts": {
-    "labels": ["Split Backspace", "Right Shift", "Bottom Row Arrows/7U"],
+    "labels": [
+      "Split Backspace",
+      "Right Shift",
+      "Bottom Row Arrows/7U"
+    ],
     "keymap": [
       [
         {

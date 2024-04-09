@@ -2,7 +2,10 @@
   "name": "orthocode",
   "vendorId": "0x3415",
   "productId": "0x0001",
-  "lighting": "qmk_rgblight",
+  "matrix": {
+    "rows": 5,
+    "cols": 15
+  },
   "customKeycodes": [
     {
       "name": "Shift Space",
@@ -10,10 +13,7 @@
       "shortName": "SHSP"
     }
   ],
-  "matrix": {
-    "rows": 5,
-    "cols": 15
-  },
+  "lighting": "qmk_rgblight",
   "layouts": {
     "keymap": [
       [

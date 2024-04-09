@@ -2,11 +2,11 @@
   "name": "Balance",
   "vendorId": "0xCA04",
   "productId": "0xBA77",
-  "lighting": "none",
   "matrix": {
     "rows": 5,
     "cols": 20
   },
+  "lighting": "none",
   "layouts": {
     "labels": [
       "Split Backspace",
@@ -14,7 +14,12 @@
       "Split Left Shift",
       "Split Numpad Plus",
       "Split Numpad Enter",
-      ["Bottom Row", "6.25u", "7u + 1.5u", "7u + 1.25u"]
+      [
+        "Bottom Row",
+        "6.25u",
+        "7u + 1.5u",
+        "7u + 1.25u"
+      ]
     ],
     "keymap": [
       [

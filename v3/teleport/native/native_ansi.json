@@ -2,6 +2,13 @@
   "name": "Anvil Native",
   "vendorId": "0x7470",
   "productId": "0x0003",
+  "matrix": {
+    "rows": 12,
+    "cols": 8
+  },
+  "keycodes": [
+    "qmk_lighting"
+  ],
   "menus": [
     {
       "label": "Lighting",
@@ -12,13 +19,24 @@
             {
               "label": "Brightness",
               "type": "range",
-              "options": [0, 255],
-              "content": ["id_qmk_rgb_matrix_brightness", 3, 1]
+              "options": [
+                0,
+                255
+              ],
+              "content": [
+                "id_qmk_rgb_matrix_brightness",
+                3,
+                1
+              ]
             },
             {
               "label": "Effect",
               "type": "dropdown",
-              "content": ["id_qmk_rgb_matrix_effect", 3, 2],
+              "content": [
+                "id_qmk_rgb_matrix_effect",
+                3,
+                2
+              ],
               "options": [
                 "All Off",
                 "Solid Color",
@@ -37,25 +55,31 @@
               "showIf": "{id_qmk_rgb_matrix_effect} != 0",
               "label": "Effect Speed",
               "type": "range",
-              "options": [0, 255],
-              "content": ["id_qmk_rgb_matrix_effect_speed", 3, 3]
+              "options": [
+                0,
+                255
+              ],
+              "content": [
+                "id_qmk_rgb_matrix_effect_speed",
+                3,
+                3
+              ]
             },
             {
               "showIf": "{id_qmk_rgb_matrix_effect} != 0 && {id_qmk_rgb_matrix_effect} != 24 && {id_qmk_rgb_matrix_effect} != 28 && {id_qmk_rgb_matrix_effect} != 29 && {id_qmk_rgb_matrix_effect} != 32",
               "label": "Color",
               "type": "color",
-              "content": ["id_qmk_rgb_matrix_color", 3, 4]
+              "content": [
+                "id_qmk_rgb_matrix_color",
+                3,
+                4
+              ]
             }
           ]
         }
       ]
     }
   ],
-  "keycodes": ["qmk_lighting"],
-  "matrix": {
-    "rows": 12,
-    "cols": 8
-  },
   "layouts": {
     "keymap": [
       [

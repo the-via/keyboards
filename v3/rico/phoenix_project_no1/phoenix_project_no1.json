@@ -2,13 +2,24 @@
   "name": "Phoenix Project No 1",
   "vendorId": "0x21C0",
   "productId": "0x9901",
-  "matrix": { "rows": 5, "cols": 16 },
-  "keycodes": ["qmk_lighting"],
-  "menus": [ "qmk_rgblight"],
+  "matrix": {
+    "rows": 5,
+    "cols": 16
+  },
+  "keycodes": [
+    "qmk_lighting"
+  ],
+  "menus": [
+    "qmk_rgblight"
+  ],
   "layouts": {
     "labels": [
       "Split Backspace",
-      ["Enter","ANSI Enter", "ISO Enter"],
+      [
+        "Enter",
+        "ANSI Enter",
+        "ISO Enter"
+      ],
       "Split Left Shift (ISO)",
       "Winkeyless 7U Spacebar"
     ],
@@ -236,5 +247,3 @@
     ]
   }
 }
-
-

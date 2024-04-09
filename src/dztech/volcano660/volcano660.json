@@ -2,15 +2,23 @@
   "name": "VOLCANO660",
   "vendorId": "0x445A",
   "productId": "0x0002",
-  "lighting": "qmk_backlight",
   "matrix": {
     "rows": 5,
     "cols": 15
   },
+  "lighting": "qmk_backlight",
   "layouts": {
     "labels": [
-      ["Backspace", "Full", "Split"],
-      ["Left Shift", "Full", "Split"]
+      [
+        "Backspace",
+        "Full",
+        "Split"
+      ],
+      [
+        "Left Shift",
+        "Full",
+        "Split"
+      ]
     ],
     "keymap": [
       [

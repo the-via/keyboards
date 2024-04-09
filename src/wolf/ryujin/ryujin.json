@@ -2,14 +2,22 @@
   "name": "Ryujin",
   "vendorId": "0x5453",
   "productId": "0x0200",
-  "matrix": {"rows": 5, "cols": 15},
+  "matrix": {
+    "rows": 5,
+    "cols": 15
+  },
   "lighting": "none",
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO Enter",
       "Split Left Shift",
-      ["Bottom Row Options", "6.25U", "7U", "10U"]
+      [
+        "Bottom Row Options",
+        "6.25U",
+        "7U",
+        "10U"
+      ]
     ],
     "keymap": [
       [

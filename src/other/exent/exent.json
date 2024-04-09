@@ -2,15 +2,28 @@
   "name": "Exent 65%",
   "vendorId": "0x5143",
   "productId": "0x4558",
+  "matrix": {
+    "rows": 7,
+    "cols": 14
+  },
   "lighting": "qmk_rgblight",
-  "matrix": {"rows": 7, "cols": 14},
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO Enter",
       "Split Left Shift",
-      ["Bottom Row", "6.25u", "Split 1", "Split 2", "7u"],
-      ["Right Modifiers", "3x1u", "2x1.5u"]
+      [
+        "Bottom Row",
+        "6.25u",
+        "Split 1",
+        "Split 2",
+        "7u"
+      ],
+      [
+        "Right Modifiers",
+        "3x1u",
+        "2x1.5u"
+      ]
     ],
     "keymap": [
       [

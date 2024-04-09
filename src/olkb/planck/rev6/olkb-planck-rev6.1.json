@@ -2,10 +2,21 @@
   "name": "OLKB PLANCK REV6.1",
   "vendorId": "0x03A8",
   "productId": "0xA4F9",
-  "matrix": {"rows": 8, "cols": 6},
+  "matrix": {
+    "rows": 8,
+    "cols": 6
+  },
   "lighting": "qmk_rgblight",
   "layouts": {
-    "labels": [["Layout", "MIT (1x2u)", "Grid (2x1u)", "2x2u", "3x3u"]],
+    "labels": [
+      [
+        "Layout",
+        "MIT (1x2u)",
+        "Grid (2x1u)",
+        "2x2u",
+        "3x3u"
+      ]
+    ],
     "keymap": [
       [
         {

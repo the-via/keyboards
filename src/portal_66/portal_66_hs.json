@@ -2,8 +2,11 @@
   "name": "Portal 66 Hotswap",
   "vendorId": "0x504C",
   "productId": "0x5067",
+  "matrix": {
+    "rows": 5,
+    "cols": 16
+  },
   "lighting": "none",
-  "matrix": {"rows": 5, "cols": 16},
   "layouts": {
     "labels": [],
     "keymap": [

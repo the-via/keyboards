@@ -2,15 +2,23 @@
   "name": "Kanu Mechlovin",
   "vendorId": "0x4D4C",
   "productId": "0x4B4E",
+  "matrix": {
+    "rows": 5,
+    "cols": 15
+  },
   "lighting": "qmk_backlight_rgblight",
-  "matrix": {"rows": 5, "cols": 15},
   "layouts": {
     "labels": [
       "Split BackSpace",
       "ISO Enter",
       "2.75 Right Shift",
       "Left Shift ISO",
-      ["Bottom Row", "Split Space", "Space 6.25U", "Space 7U"]
+      [
+        "Bottom Row",
+        "Split Space",
+        "Space 6.25U",
+        "Space 7U"
+      ]
     ],
     "keymap": [
       [

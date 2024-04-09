@@ -2,8 +2,11 @@
   "name": "Quefrency Rev. 3",
   "vendorId": "0xCB10",
   "productId": "0x3257",
+  "matrix": {
+    "rows": 10,
+    "cols": 9
+  },
   "lighting": "qmk_backlight_rgblight",
-  "matrix": {"rows": 10, "cols": 9},
   "layouts": {
     "labels": [
       "Split Backspace",
@@ -11,10 +14,28 @@
       "Split Left Shift",
       "65% Column",
       "Macropad",
-      ["Right Shift", "Standard", "1.75u Shift", "1.75u /"],
-      ["Right Space", "Standard", "Fn-Space"],
-      ["Right Mods", "4x 1.25u", "5x 1u"],
-      ["Left Space", "1.25-2.25", "2.25-1.25", "1.25-1-1.25"]
+      [
+        "Right Shift",
+        "Standard",
+        "1.75u Shift",
+        "1.75u /"
+      ],
+      [
+        "Right Space",
+        "Standard",
+        "Fn-Space"
+      ],
+      [
+        "Right Mods",
+        "4x 1.25u",
+        "5x 1u"
+      ],
+      [
+        "Left Space",
+        "1.25-2.25",
+        "2.25-1.25",
+        "1.25-1-1.25"
+      ]
     ],
     "keymap": [
       [

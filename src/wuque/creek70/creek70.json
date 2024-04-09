@@ -2,14 +2,22 @@
   "name": "Creek 70",
   "vendorId": "0x916D",
   "productId": "0x0001",
+  "matrix": {
+    "rows": 5,
+    "cols": 18
+  },
   "lighting": "qmk_rgblight",
-  "matrix": { "rows": 5, "cols": 18 },
   "layouts": {
     "labels": [
       "Split Backspace",
       "Split Right Shift",
       "Split Left Shift",
-      ["Bottom Row","ANSI", "Split", "7U"]
+      [
+        "Bottom Row",
+        "ANSI",
+        "Split",
+        "7U"
+      ]
     ],
     "keymap": [
       [

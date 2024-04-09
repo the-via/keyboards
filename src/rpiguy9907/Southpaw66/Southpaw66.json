@@ -2,11 +2,11 @@
   "name": "Southpaw66",
   "vendorId": "0x9907",
   "productId": "0x5366",
-  "lighting": "none",
   "matrix": {
     "rows": 7,
     "cols": 10
   },
+  "lighting": "none",
   "layouts": {
     "keymap": [
       [

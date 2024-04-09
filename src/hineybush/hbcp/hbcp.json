@@ -2,17 +2,21 @@
   "name": "hbcp",
   "vendorId": "0x04D8",
   "productId": "0xECE8",
-  "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 6,
     "cols": 18
   },
+  "lighting": "qmk_backlight_rgblight",
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO",
       "Split Left Shift",
-      ["Bottom Row", "7U", "6.25U"],
+      [
+        "Bottom Row",
+        "7U",
+        "6.25U"
+      ],
       "Split Upper Right Numpad",
       "Split Lower Right Numpad",
       "Split Bottom Numpad"

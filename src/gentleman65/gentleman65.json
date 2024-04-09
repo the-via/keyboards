@@ -2,14 +2,15 @@
   "name": "Gentleman 65",
   "vendorId": "0x00FA",
   "productId": "0x2020",
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 5,
     "cols": 16
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
-    "labels": ["ISO Enter"],
-
+    "labels": [
+      "ISO Enter"
+    ],
     "keymap": [
       [
         {

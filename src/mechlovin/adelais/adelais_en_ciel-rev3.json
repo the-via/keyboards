@@ -2,9 +2,16 @@
   "name": "Adelais En Ciel Rev.3",
   "vendorId": "0x4D4C",
   "productId": "0xAEC3",
-  "lighting": "qmk_rgblight",
+  "matrix": {
+    "rows": 5,
+    "cols": 15
+  },
   "customKeycodes": [
-    {"name": "Backlight Toggle", "title": "BL TOG", "shortName": "BL TOG"},
+    {
+      "name": "Backlight Toggle",
+      "title": "BL TOG",
+      "shortName": "BL TOG"
+    },
     {
       "name": "Backlight Effect",
       "title": "Backlight Effect",
@@ -51,9 +58,13 @@
       "shortName": "BL DVAL"
     }
   ],
-  "matrix": {"rows": 5, "cols": 15},
+  "lighting": "qmk_rgblight",
   "layouts": {
-    "labels": ["Split Back Space", "Split Right Shift", "Split Space"],
+    "labels": [
+      "Split Back Space",
+      "Split Right Shift",
+      "Split Space"
+    ],
     "keymap": [
       [
         {

@@ -2,14 +2,31 @@
   "name": "Mini Winni",
   "vendorId": "0x574B",
   "productId": "0x7770",
-  "keycodes": ["qmk_lighting"],
-  "menus": ["qmk_rgblight"],
-  "matrix": {"rows": 2, "cols": 4},
+  "matrix": {
+    "rows": 2,
+    "cols": 4
+  },
+  "keycodes": [
+    "qmk_lighting"
+  ],
+  "menus": [
+    "qmk_rgblight"
+  ],
   "layouts": {
     "labels": [],
     "keymap": [
-      ["0,0", "0,1", "0,2", "0,3"],
-      ["1,0", "1,1", "1,2", "1,3"]
+      [
+        "0,0",
+        "0,1",
+        "0,2",
+        "0,3"
+      ],
+      [
+        "1,0",
+        "1,1",
+        "1,2",
+        "1,3"
+      ]
     ]
   }
 }

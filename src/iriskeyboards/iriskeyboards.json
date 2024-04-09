@@ -2,20 +2,23 @@
   "name": "IrisRev0",
   "vendorId": "0x494B",
   "productId": "0x3031",
-  "lighting": "none",
   "matrix": {
     "rows": 5,
     "cols": 14
   },
+  "lighting": "none",
   "layouts": {
     "labels": [
       "Split Backspace",
-      ["Enter Key", "ANSI", "ISO"],
+      [
+        "Enter Key",
+        "ANSI",
+        "ISO"
+      ],
       "Split Left Shift",
       "Split Right Shift",
       "Tsangan Bottom Row"
     ],
-
     "keymap": [
       [
         {

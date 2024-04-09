@@ -2,11 +2,11 @@
   "name": "Ninjin",
   "vendorId": "0x5845",
   "productId": "0x4E4A",
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 6,
     "cols": 17
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
     "keymap": [
       [

@@ -2,11 +2,11 @@
   "name": "Friedrich",
   "vendorId": "0x6481",
   "productId": "0xB4A2",
-  "lighting": "none",
   "matrix": {
     "rows": 5,
     "cols": 12
   },
+  "lighting": "none",
   "layouts": {
     "keymap": [
       [

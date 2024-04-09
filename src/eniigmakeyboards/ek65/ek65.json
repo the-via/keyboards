@@ -2,13 +2,16 @@
   "name": "Eniigma Keyboards ek65",
   "vendorId": "0x454B",
   "productId": "0x0002",
-  "lighting": "none",
   "matrix": {
     "rows": 5,
     "cols": 16
   },
+  "lighting": "none",
   "layouts": {
-    "labels": ["Split Backspace", "ISO Enter"],
+    "labels": [
+      "Split Backspace",
+      "ISO Enter"
+    ],
     "keymap": [
       [
         {

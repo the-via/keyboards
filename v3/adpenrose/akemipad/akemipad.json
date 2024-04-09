@@ -2,6 +2,10 @@
   "name": "AkemiPad",
   "vendorId": "0x4450",
   "productId": "0x0004",
+  "matrix": {
+    "rows": 6,
+    "cols": 5
+  },
   "menus": [
     {
       "label": "Lighting",
@@ -13,13 +17,24 @@
               "showIf": "{id_qmk_rgb_matrix_effect} != 0",
               "label": "Brightness",
               "type": "range",
-              "options": [0, 255],
-              "content": ["id_qmk_rgb_matrix_brightness", 3, 1]
+              "options": [
+                0,
+                255
+              ],
+              "content": [
+                "id_qmk_rgb_matrix_brightness",
+                3,
+                1
+              ]
             },
             {
               "label": "Effect",
               "type": "dropdown",
-              "content": ["id_qmk_rgb_matrix_effect", 3, 2],
+              "content": [
+                "id_qmk_rgb_matrix_effect",
+                3,
+                2
+              ],
               "options": [
                 "All Off",
                 "Solid Color",
@@ -31,23 +46,37 @@
               "showIf": "{id_qmk_rgb_matrix_effect} != 0",
               "label": "Effect Speed",
               "type": "range",
-              "options": [0, 255],
-              "content": ["id_qmk_rgb_matrix_effect_speed", 3, 3]
+              "options": [
+                0,
+                255
+              ],
+              "content": [
+                "id_qmk_rgb_matrix_effect_speed",
+                3,
+                3
+              ]
             },
             {
               "showIf": "{id_qmk_rgb_matrix_effect} != 0 && {id_qmk_rgb_matrix_effect} != 24 && {id_qmk_rgb_matrix_effect} != 28 && {id_qmk_rgb_matrix_effect} != 29 && {id_qmk_rgb_matrix_effect} != 32",
               "label": "Color",
               "type": "color",
-              "content": ["id_qmk_rgb_matrix_color", 3, 4]
+              "content": [
+                "id_qmk_rgb_matrix_color",
+                3,
+                4
+              ]
             }
           ]
         }
       ]
     }
-   ],
-  "matrix": {"rows": 6, "cols": 5},
+  ],
   "layouts": {
-    "labels": ["Split Plus", "Split Enter", "Split Zero"],
+    "labels": [
+      "Split Plus",
+      "Split Enter",
+      "Split Zero"
+    ],
     "keymap": [
       [
         {

@@ -2,11 +2,11 @@
   "name": "pistachio",
   "vendorId": "0x5255",
   "productId": "0xD0C2",
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 12,
     "cols": 9
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
     "keymap": [
       [

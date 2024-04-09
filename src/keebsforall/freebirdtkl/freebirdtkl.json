@@ -2,14 +2,19 @@
   "name": "FreebirdTKL",
   "vendorId": "0x75FA",
   "productId": "0x0088",
-  "lighting": "none",
   "matrix": {
     "rows": 6,
     "cols": 17
   },
+  "lighting": "none",
   "layouts": {
     "labels": [
-      ["Bottom Row", "ANSI", "7U", "WKL"],
+      [
+        "Bottom Row",
+        "ANSI",
+        "7U",
+        "WKL"
+      ],
       "Split Backspace",
       "Split Right Shift",
       "Split Left Shift",

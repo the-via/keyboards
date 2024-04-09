@@ -2,11 +2,11 @@
   "name": "NCR-80 Hotswap",
   "vendorId": "0x4D54",
   "productId": "0x2002",
-  "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 11,
     "cols": 9
   },
+  "lighting": "qmk_backlight_rgblight",
   "layouts": {
     "keymap": [
       [

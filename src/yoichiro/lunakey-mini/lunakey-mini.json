@@ -2,11 +2,11 @@
   "name": "Lunakey Mini",
   "vendorId": "0x5954",
   "productId": "0x0001",
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 8,
     "cols": 6
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
     "keymap": [
       [

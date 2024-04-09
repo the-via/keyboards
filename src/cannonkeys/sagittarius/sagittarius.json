@@ -2,14 +2,21 @@
   "name": "Sagittarius",
   "vendorId": "0xca04",
   "productId": "0x0001",
+  "matrix": {
+    "rows": 10,
+    "cols": 16
+  },
   "lighting": "qmk_backlight_rgblight",
-  "matrix": {"rows": 10, "cols": 16},
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO",
       "Arrows",
-      ["Left Space", "1U/2.25U", "1.75U/1.5U"],
+      [
+        "Left Space",
+        "1U/2.25U",
+        "1.75U/1.5U"
+      ],
       "Split Right Space"
     ],
     "keymap": [

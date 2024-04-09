@@ -2,17 +2,21 @@
   "name": "Paraluman",
   "vendorId": "0xD812",
   "productId": "0x0012",
-  "lighting": "none",
   "matrix": {
     "rows": 5,
     "cols": 14
   },
+  "lighting": "none",
   "layouts": {
     "labels": [
       "Split Backspace",
       "Encoder",
       "Split Right Shift",
-      ["Bottom Row", "6.25U", "7u"]
+      [
+        "Bottom Row",
+        "6.25U",
+        "7u"
+      ]
     ],
     "keymap": [
       [

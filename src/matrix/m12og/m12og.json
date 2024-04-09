@@ -2,18 +2,22 @@
   "name": "Matrix 1.2og",
   "vendorId": "0x4D58",
   "productId": "0x8712",
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 7,
     "cols": 14
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
     "labels": [
       "Split BackSpace",
       "ISO Enter",
       "Split LShift",
       "Split RShift",
-      ["Bottom Row", "7u", "WKL"]
+      [
+        "Bottom Row",
+        "7u",
+        "WKL"
+      ]
     ],
     "keymap": [
       [

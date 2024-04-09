@@ -2,13 +2,18 @@
   "name": "UM-A",
   "vendorId": "0x4D65",
   "productId": "0x3232",
-  "lighting": "qmk_backlight",
   "matrix": {
     "rows": 10,
     "cols": 8
   },
+  "lighting": "qmk_backlight",
   "layouts": {
-    "labels": ["ISO Enter", "ISO Left Shift", "Split Backspace", "Spacekey"],
+    "labels": [
+      "ISO Enter",
+      "ISO Left Shift",
+      "Split Backspace",
+      "Spacekey"
+    ],
     "keymap": [
       [
         {

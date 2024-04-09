@@ -2,18 +2,38 @@
   "name": "OG60",
   "vendorId": "0x4B42",
   "productId": "0x6071",
-  "lighting": "none",
   "matrix": {
     "rows": 5,
     "cols": 14
   },
+  "lighting": "none",
   "layouts": {
     "labels": [
-      ["Backspace", "Default", "Split"],
-      ["Enter Key", "ANSI", "ISO"],
-      ["Left Shift", "Default", "Split"],
-      ["Spacebar", "Standard", "7u"],
-      ["Right Shift", "Default", "Split"]
+      [
+        "Backspace",
+        "Default",
+        "Split"
+      ],
+      [
+        "Enter Key",
+        "ANSI",
+        "ISO"
+      ],
+      [
+        "Left Shift",
+        "Default",
+        "Split"
+      ],
+      [
+        "Spacebar",
+        "Standard",
+        "7u"
+      ],
+      [
+        "Right Shift",
+        "Default",
+        "Split"
+      ]
     ],
     "keymap": [
       [

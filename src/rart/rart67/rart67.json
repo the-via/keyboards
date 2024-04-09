@@ -2,13 +2,22 @@
   "name": "RART67",
   "vendorId": "0x414C",
   "productId": "0x0067",
+  "matrix": {
+    "rows": 5,
+    "cols": 16
+  },
   "lighting": "qmk_rgblight",
-  "matrix": {"rows": 5, "cols": 16},
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO Enter",
-      ["Bottom Row", "6.25U", "6.25U Blocker", "7U", "7U Blocker"]
+      [
+        "Bottom Row",
+        "6.25U",
+        "6.25U Blocker",
+        "7U",
+        "7U Blocker"
+      ]
     ],
     "keymap": [
       [

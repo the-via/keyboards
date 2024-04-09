@@ -2,15 +2,26 @@
   "name": "TKC1800",
   "vendorId": "0x544B",
   "productId": "0x0001",
+  "matrix": {
+    "rows": 7,
+    "cols": 19
+  },
   "lighting": "qmk_backlight_rgblight",
-  "matrix": {"rows": 7, "cols": 19},
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO Enter",
       "Split Left Shift",
-      ["Spacebar", "7U", "6.25U"],
-      ["Right Mods", "1.5U/1.5U", "1U/1U/1U"],
+      [
+        "Spacebar",
+        "7U",
+        "6.25U"
+      ],
+      [
+        "Right Mods",
+        "1.5U/1.5U",
+        "1U/1U/1U"
+      ],
       "2U Numpad Plus",
       "Split Numpad Enter"
     ],
