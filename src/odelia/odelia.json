@@ -2,11 +2,11 @@
   "name": "Odelia",
   "vendorId": "0x6BE3",
   "productId": "0xA129",
-  "lighting": "none",
   "matrix": {
     "rows": 10,
     "cols": 10
   },
+  "lighting": "none",
   "layouts": {
     "keymap": [
       [

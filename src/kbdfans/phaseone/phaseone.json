@@ -2,17 +2,33 @@
   "name": "PhaseOne",
   "vendorId": "0x4B42",
   "productId": "0x0103",
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 5,
     "cols": 15
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
     "labels": [
-      ["Buttom Row", "WK", "WKL"],
-      ["Backspace", "Default", "Split"],
-      ["Enter Key", "ANSI", "ISO"],
-      ["Left Shift", "Default", "Split"]
+      [
+        "Buttom Row",
+        "WK",
+        "WKL"
+      ],
+      [
+        "Backspace",
+        "Default",
+        "Split"
+      ],
+      [
+        "Enter Key",
+        "ANSI",
+        "ISO"
+      ],
+      [
+        "Left Shift",
+        "Default",
+        "Split"
+      ]
     ],
     "keymap": [
       [

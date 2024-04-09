@@ -2,10 +2,21 @@
   "name": "wilba.tech WT60-C",
   "vendorId": "0x6582",
   "productId": "0x60c0",
+  "matrix": {
+    "rows": 5,
+    "cols": 14
+  },
   "lighting": "wt_rgb_backlight",
-  "matrix": {"rows": 5, "cols": 14},
   "layouts": {
-    "labels": [["Bottom Row", "Full", "HHKB", "WKL"], "Split Backspace"],
+    "labels": [
+      [
+        "Bottom Row",
+        "Full",
+        "HHKB",
+        "WKL"
+      ],
+      "Split Backspace"
+    ],
     "keymap": [
       [
         {

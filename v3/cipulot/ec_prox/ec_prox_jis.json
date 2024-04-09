@@ -2,6 +2,10 @@
   "name": "EC Pro X JIS",
   "vendorId": "0x6369",
   "productId": "0x6B99",
+  "matrix": {
+    "rows": 5,
+    "cols": 14
+  },
   "keycodes": [
     "qmk_lighting"
   ],
@@ -180,10 +184,6 @@
       ]
     }
   ],
-  "matrix": {
-    "rows": 5,
-    "cols": 14
-  },
   "layouts": {
     "keymap": [
       [

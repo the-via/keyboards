@@ -2,11 +2,11 @@
   "name": "Serenity",
   "vendorId": "0xCA04",
   "productId": "0x0017",
-  "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 6,
     "cols": 18
   },
+  "lighting": "qmk_backlight_rgblight",
   "layouts": {
     "labels": [
       "Split Backspace",

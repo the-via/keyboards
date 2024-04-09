@@ -2,14 +2,23 @@
   "name": "RART60",
   "vendorId": "0x414C",
   "productId": "0x0060",
+  "matrix": {
+    "rows": 5,
+    "cols": 16
+  },
   "lighting": "none",
-  "matrix": {"rows": 5, "cols": 16},
   "layouts": {
     "labels": [
       "Split Backspace",
       "Split LShift",
       "Split RShift",
-      ["Bottom Row", "Tsangan", "HHKB", "WKL", "CWKL"]
+      [
+        "Bottom Row",
+        "Tsangan",
+        "HHKB",
+        "WKL",
+        "CWKL"
+      ]
     ],
     "keymap": [
       [

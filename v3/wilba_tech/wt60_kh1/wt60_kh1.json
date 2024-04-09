@@ -2,10 +2,22 @@
   "name": "wilba.tech WT60-KH1",
   "vendorId": "0x6582",
   "productId": "0x0034",
-  "keycodes": ["wt_lighting"],
-  "matrix": {"rows": 5, "cols": 14},
+  "matrix": {
+    "rows": 5,
+    "cols": 14
+  },
+  "keycodes": [
+    "wt_lighting"
+  ],
   "layouts": {
-    "labels": [["Bottom Row", "7U", "HHKB", "WKL"]],
+    "labels": [
+      [
+        "Bottom Row",
+        "7U",
+        "HHKB",
+        "WKL"
+      ]
+    ],
     "keymap": [
       [
         {

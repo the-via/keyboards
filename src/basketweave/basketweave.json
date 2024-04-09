@@ -2,11 +2,11 @@
   "name": "Basketweave",
   "vendorId": "0x6B62",
   "productId": "0x8989",
-  "lighting": "none",
   "matrix": {
     "rows": 5,
     "cols": 15
   },
+  "lighting": "none",
   "layouts": {
     "keymap": [
       {

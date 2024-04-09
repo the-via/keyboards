@@ -2,11 +2,11 @@
   "name": "Swift 65 Hotswap",
   "vendorId": "0xBBEB",
   "productId": "0xD4C4",
-  "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 5,
     "cols": 15
   },
+  "lighting": "qmk_backlight_rgblight",
   "layouts": {
     "keymap": [
       [

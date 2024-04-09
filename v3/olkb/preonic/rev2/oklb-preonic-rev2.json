@@ -6,11 +6,11 @@
     "rows": 5,
     "cols": 12
   },
-  "menus": [
-    "qmk_backlight"
-  ],
   "keycodes": [
     "qmk_lighting"
+  ],
+  "menus": [
+    "qmk_backlight"
   ],
   "layouts": {
     "labels": [

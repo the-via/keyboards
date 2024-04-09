@@ -2,20 +2,40 @@
   "name": "1up60rgb",
   "vendorId": "0x6F75",
   "productId": "0x7267",
-  "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 5,
     "cols": 15
   },
+  "lighting": "qmk_backlight_rgblight",
   "layouts": {
     "labels": [
-      ["Backspace", "Default", "Split"],
-      ["Enter Key", "ANSI", "ISO"],
-      ["Left Shift", "Default", "Split"],
-      ["Right Shift", "Default", "Split"],
-      ["Bottom Row", "Standard", "Tsangan", "HHKB"]
+      [
+        "Backspace",
+        "Default",
+        "Split"
+      ],
+      [
+        "Enter Key",
+        "ANSI",
+        "ISO"
+      ],
+      [
+        "Left Shift",
+        "Default",
+        "Split"
+      ],
+      [
+        "Right Shift",
+        "Default",
+        "Split"
+      ],
+      [
+        "Bottom Row",
+        "Standard",
+        "Tsangan",
+        "HHKB"
+      ]
     ],
-
     "keymap": [
       [
         {

@@ -2,13 +2,16 @@
   "name": "Rosa",
   "vendorId": "0x694B",
   "productId": "0x6952",
-  "lighting": "none",
   "matrix": {
     "rows": 5,
     "cols": 14
   },
+  "lighting": "none",
   "layouts": {
-    "labels": ["Split Backspace", "Split Right Shift"],
+    "labels": [
+      "Split Backspace",
+      "Split Right Shift"
+    ],
     "keymap": [
       [
         {

@@ -2,11 +2,11 @@
   "name": "b.face",
   "vendorId": "0x20A0",
   "productId": "0x4246",
-  "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 8,
     "cols": 15
   },
+  "lighting": "qmk_backlight_rgblight",
   "layouts": {
     "keymap": [
       [

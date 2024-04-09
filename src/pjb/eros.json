@@ -2,16 +2,28 @@
   "name": "Eros",
   "vendorId": "0x5042",
   "productId": "0x4552",
-  "lighting": "none",
   "matrix": {
     "rows": 6,
     "cols": 17
   },
+  "lighting": "none",
   "layouts": {
     "labels": [
-      ["Backspace", "Full Backspace", "Split Backspace"],
-      ["Right Shift", "Full Right Shift", "Split Right Shift"],
-      ["Bottom Row", "6.25u", "7u"]
+      [
+        "Backspace",
+        "Full Backspace",
+        "Split Backspace"
+      ],
+      [
+        "Right Shift",
+        "Full Right Shift",
+        "Split Right Shift"
+      ],
+      [
+        "Bottom Row",
+        "6.25u",
+        "7u"
+      ]
     ],
     "keymap": [
       [

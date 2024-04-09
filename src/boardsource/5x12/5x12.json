@@ -2,11 +2,11 @@
   "name": "Boardsource 5x12",
   "vendorId": "0x4273",
   "productId": "0x0512",
-  "lighting": "none",
   "matrix": {
     "rows": 5,
     "cols": 12
   },
+  "lighting": "none",
   "layouts": {
     "keymap": [
       [

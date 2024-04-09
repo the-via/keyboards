@@ -2,16 +2,16 @@
   "name": "DOIO KB3x",
   "vendorId": "0xD010",
   "productId": "0x3F01",
+  "matrix": {
+    "rows": 4,
+    "cols": 6
+  },
   "keycodes": [
     "qmk_lighting"
   ],
   "menus": [
     "qmk_rgb_matrix"
   ],
-  "matrix": {
-    "rows": 4,
-    "cols": 6
-  },
   "layouts": {
     "keymap": [
       [

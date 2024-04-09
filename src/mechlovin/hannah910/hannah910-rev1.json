@@ -2,15 +2,24 @@
   "name": "Hannah910 Rev.1",
   "vendorId": "0x4D4C",
   "productId": "0x9101",
+  "matrix": {
+    "rows": 5,
+    "cols": 15
+  },
   "lighting": "qmk_backlight_rgblight",
-  "matrix": {"rows": 5, "cols": 15},
   "layouts": {
     "labels": [
       "BackSpace 2U",
       "ISO Enter",
       "Right Shift 2.75U",
       "Left Shift 2.25U",
-      ["Bottom Row", "Split Space 1", "Split Space 2", "6.25U", "7U"]
+      [
+        "Bottom Row",
+        "Split Space 1",
+        "Split Space 2",
+        "6.25U",
+        "7U"
+      ]
     ],
     "keymap": [
       [

@@ -2,8 +2,11 @@
   "name": "JetVan",
   "vendorId": "0xFEAE",
   "productId": "0x8858",
+  "matrix": {
+    "rows": 4,
+    "cols": 12
+  },
   "lighting": "qmk_rgblight",
-  "matrix": {"rows": 4, "cols": 12},
   "layouts": {
     "keymap": [
       [

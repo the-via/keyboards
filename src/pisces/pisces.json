@@ -2,7 +2,10 @@
   "name": "pisces",
   "vendorId": "0x6B6E",
   "productId": "0x0000",
-  "matrix": {"rows": 6, "cols": 7},
+  "matrix": {
+    "rows": 6,
+    "cols": 7
+  },
   "lighting": "none",
   "layouts": {
     "keymap": [

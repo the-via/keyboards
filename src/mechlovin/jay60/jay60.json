@@ -2,13 +2,20 @@
   "name": "Jay60 Rev.1",
   "vendorId": "0x4D4C",
   "productId": "0x0600",
+  "matrix": {
+    "rows": 5,
+    "cols": 14
+  },
   "lighting": "none",
-  "matrix": {"rows": 5, "cols": 14},
   "layouts": {
     "labels": [
       "Split Backspace",
       "2.75U Right Shift",
-      ["Bottom Row", "6.25U", "7U"]
+      [
+        "Bottom Row",
+        "6.25U",
+        "7U"
+      ]
     ],
     "keymap": [
       [

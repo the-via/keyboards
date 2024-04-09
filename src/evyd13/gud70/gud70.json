@@ -2,11 +2,11 @@
   "name": "Evyd13 Gud70",
   "vendorId": "0x4705",
   "productId": "0x198B",
-  "lighting": "none",
   "matrix": {
     "rows": 5,
     "cols": 16
   },
+  "lighting": "none",
   "layouts": {
     "labels": [
       "ISO Enter",

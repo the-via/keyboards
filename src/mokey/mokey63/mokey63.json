@@ -2,13 +2,17 @@
   "name": "mokey63",
   "vendorId": "0x6653",
   "productId": "0x063A",
-  "lighting": "none",
   "matrix": {
     "rows": 5,
     "cols": 15
   },
+  "lighting": "none",
   "layouts": {
-    "labels": ["Split Backspace", "ISO Enter", "Bottom Row"],
+    "labels": [
+      "Split Backspace",
+      "ISO Enter",
+      "Bottom Row"
+    ],
     "keymap": [
       [
         {

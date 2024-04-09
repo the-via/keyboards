@@ -2,6 +2,10 @@
   "name": "EC Pro X ANSI/ISO",
   "vendorId": "0x6369",
   "productId": "0x6B98",
+  "matrix": {
+    "rows": 5,
+    "cols": 15
+  },
   "keycodes": [
     "qmk_lighting"
   ],
@@ -180,10 +184,6 @@
       ]
     }
   ],
-  "matrix": {
-    "rows": 5,
-    "cols": 15
-  },
   "layouts": {
     "labels": [
       "Split Left Shift",

@@ -2,13 +2,20 @@
   "name": "Brutal v2 1800",
   "vendorId": "0xca04",
   "productId": "0x000D",
-  "matrix": {"rows": 6, "cols": 18},
+  "matrix": {
+    "rows": 6,
+    "cols": 18
+  },
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO Enter",
       "Split Left Shift",
-      ["Bottom Row", "6.25U", "7U"],
+      [
+        "Bottom Row",
+        "6.25U",
+        "7U"
+      ],
       "Split Numpad Plus",
       "Split Numpad Enter"
     ],

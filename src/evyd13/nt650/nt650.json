@@ -2,11 +2,11 @@
   "name": "Evyd13 nt650",
   "vendorId": "0x4705",
   "productId": "0xD5DF",
-  "lighting": "none",
   "matrix": {
     "rows": 8,
     "cols": 15
   },
+  "lighting": "none",
   "layouts": {
     "keymap": [
       [

@@ -2,14 +2,20 @@
   "name": "E8.5 Hotswap",
   "vendorId": "0x4558",
   "productId": "0xE851",
-  "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 11,
     "cols": 9
   },
+  "lighting": "qmk_backlight_rgblight",
   "layouts": {
-    "labels": [["Bottom Row", "Standard", "Tsangan", "WKL"]],
-
+    "labels": [
+      [
+        "Bottom Row",
+        "Standard",
+        "Tsangan",
+        "WKL"
+      ]
+    ],
     "keymap": [
       [
         {

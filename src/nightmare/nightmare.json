@@ -2,10 +2,19 @@
   "name": "nightmare",
   "vendorId": "0x434B",
   "productId": "0x4E49",
+  "matrix": {
+    "rows": 4,
+    "cols": 14
+  },
   "lighting": "none",
-  "matrix": {"rows": 4, "cols": 14},
   "layouts": {
-    "labels": [["Bottom row", "7u Spacebar", "Split spacebar"]],
+    "labels": [
+      [
+        "Bottom row",
+        "7u Spacebar",
+        "Split spacebar"
+      ]
+    ],
     "keymap": [
       [
         {

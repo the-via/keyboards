@@ -2,6 +2,10 @@
   "name": "EC 60",
   "vendorId": "0x6369",
   "productId": "0x6B84",
+  "matrix": {
+    "rows": 5,
+    "cols": 15
+  },
   "menus": [
     {
       "label": "EC Tools",
@@ -176,10 +180,6 @@
       ]
     }
   ],
-  "matrix": {
-    "rows": 5,
-    "cols": 15
-  },
   "layouts": {
     "labels": [
       "Split Backspace",

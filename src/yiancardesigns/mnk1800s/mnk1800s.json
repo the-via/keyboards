@@ -2,10 +2,17 @@
   "name": "MNK1800s",
   "vendorId": "0x8968",
   "productId": "0x3138",
+  "matrix": {
+    "rows": 5,
+    "cols": 18
+  },
   "lighting": "none",
-  "matrix": {"rows": 5, "cols": 18},
   "layouts": {
-    "labels": ["Split Num 0", "Split Num Enter", "Split Backspace"],
+    "labels": [
+      "Split Num 0",
+      "Split Num Enter",
+      "Split Backspace"
+    ],
     "keymap": [
       [
         {
@@ -210,8 +217,12 @@
         },
         "2,17\n\n\n2,1"
       ],
-      ["2,3\n\n\n1,1"],
-      ["4,8\n\n\n1,1"]
+      [
+        "2,3\n\n\n1,1"
+      ],
+      [
+        "4,8\n\n\n1,1"
+      ]
     ]
   }
 }

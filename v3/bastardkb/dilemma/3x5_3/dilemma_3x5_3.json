@@ -2,10 +2,6 @@
   "name": "Dilemma v2",
   "vendorId": "0xA8F8",
   "productId": "0x1836",
-  "menus": [
-    "qmk_rgb_matrix"
-  ],
-  "keycodes": [ "qmk_lighting" ],
   "matrix": {
     "rows": 8,
     "cols": 5
@@ -31,7 +27,8 @@
       "name": "Sniping DPI Dec",
       "shortName": "Snp-"
     },
-    { "title": "Sniping Momentary",
+    {
+      "title": "Sniping Momentary",
       "name": "Sniping MO",
       "shortName": "Snp"
     },
@@ -50,6 +47,12 @@
       "name": "Drag-scroll TG",
       "shortName": "DrgT"
     }
+  ],
+  "keycodes": [
+    "qmk_lighting"
+  ],
+  "menus": [
+    "qmk_rgb_matrix"
   ],
   "layouts": {
     "labels": [

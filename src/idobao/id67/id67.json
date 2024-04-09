@@ -2,11 +2,11 @@
   "name": "IDOBAO ID67",
   "vendorId": "0x6964",
   "productId": "0x0067",
-  "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 5,
     "cols": 15
   },
+  "lighting": "qmk_backlight_rgblight",
   "layouts": {
     "keymap": [
       [

@@ -2,11 +2,11 @@
   "name": "AEK II",
   "vendorId": "0xA68C",
   "productId": "0xDB52",
-  "lighting": "none",
   "matrix": {
     "rows": 8,
     "cols": 14
   },
+  "lighting": "none",
   "layouts": {
     "labels": [],
     "keymap": [

@@ -1,9 +1,21 @@
 {
   "name": "Velvet Hotswap",
-  "vendorId": "0x7667", 
+  "vendorId": "0x7667",
   "productId": "0x0008",
-  "matrix": { "rows": 6, "cols": 17 },
+  "matrix": {
+    "rows": 6,
+    "cols": 17
+  },
   "layouts": {
+    "labels": [
+      [
+        "Bottom Row",
+        "6.25U Space",
+        "7U Space"
+      ],
+      "Split Backspace",
+      "Split Right Shift"
+    ],
     "keymap": [
       [
         {
@@ -246,11 +258,6 @@
         "5,15\n\n\n0,1",
         "5,16\n\n\n0,1"
       ]
-    ],
-    "labels": [
-      ["Bottom Row", "6.25U Space", "7U Space"],
-      "Split Backspace",
-      "Split Right Shift"
     ]
   }
 }

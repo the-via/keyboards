@@ -2,9 +2,16 @@
   "name": "PW88",
   "vendorId": "0x5363",
   "productId": "0x8888",
-  "keycodes": ["qmk_lighting"],
-  "menus": ["qmk_rgblight"],
-  "matrix": {"rows": 6, "cols": 17},
+  "matrix": {
+    "rows": 6,
+    "cols": 17
+  },
+  "keycodes": [
+    "qmk_lighting"
+  ],
+  "menus": [
+    "qmk_rgblight"
+  ],
   "layouts": {
     "labels": [
       "Split Backspace",

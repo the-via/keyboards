@@ -1,4 +1,3 @@
-
 {
   "name": "BastionTKL",
   "vendorId": "0xCA04",
@@ -9,12 +8,20 @@
   },
   "layouts": {
     "labels": [
-      ["F Row", "F13", "F12"],
+      [
+        "F Row",
+        "F13",
+        "F12"
+      ],
       "Split Backspace",
       "ISO Enter",
       "Split L Shift",
       "Split R Shift",
-      ["Bottom Row", "6.25U", "7U"]
+      [
+        "Bottom Row",
+        "6.25U",
+        "7U"
+      ]
     ],
     "keymap": [
       [

@@ -2,8 +2,11 @@
   "name": "Cospad",
   "vendorId": "0x4B5C",
   "productId": "0xB1E5",
+  "matrix": {
+    "rows": 6,
+    "cols": 4
+  },
   "lighting": "qmk_backlight_rgblight",
-  "matrix": {"rows": 6, "cols": 4},
   "layouts": {
     "labels": [
       [
