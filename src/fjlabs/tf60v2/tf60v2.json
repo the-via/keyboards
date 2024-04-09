@@ -2,8 +2,11 @@
   "name": "FJLabs TF60 RGB V2",
   "vendorId": "0x7074",
   "productId": "0x1005",
+  "matrix": {
+    "rows": 5,
+    "cols": 14
+  },
   "lighting": "qmk_rgblight",
-  "matrix": {"rows": 5, "cols": 14},
   "layouts": {
     "keymap": [
       [

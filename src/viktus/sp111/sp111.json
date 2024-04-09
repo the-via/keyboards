@@ -2,19 +2,29 @@
   "name": "SP-111",
   "vendorId": "0x5644",
   "productId": "0x5111",
-  "lighting": "none",
   "matrix": {
     "rows": 12,
     "cols": 11
   },
+  "lighting": "none",
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO Enter",
       "Split Left Shift",
       "Split Right Shift",
-      ["Left Bottom Row", "2.75U", "2.25U", "3U"],
-      ["Right Bottom Row", "2.75U", "2.25U", "3U"],
+      [
+        "Left Bottom Row",
+        "2.75U",
+        "2.25U",
+        "3U"
+      ],
+      [
+        "Right Bottom Row",
+        "2.75U",
+        "2.25U",
+        "3U"
+      ],
       "Split Numpad +",
       "Split Numpad Enter",
       "Split Numpad 0"

@@ -1,8 +1,11 @@
 {
+  "name": "Disarray Staggered",
   "vendorId": "0x5342",
   "productId": "0x0002",
-  "name": "Disarray Staggered",
-  "matrix": {"rows": 5, "cols": 15},
+  "matrix": {
+    "rows": 5,
+    "cols": 15
+  },
   "lighting": "none",
   "layouts": {
     "keymap": [

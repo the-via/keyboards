@@ -2,10 +2,17 @@
   "name": "Soyuz",
   "vendorId": "0xA103",
   "productId": "0x0018",
+  "matrix": {
+    "rows": 5,
+    "cols": 4
+  },
   "lighting": "none",
-  "matrix": {"rows": 5, "cols": 4},
   "layouts": {
-    "labels": ["Split + (Plus)", "Split Enter", "Split 0 (Zero)"],
+    "labels": [
+      "Split + (Plus)",
+      "Split Enter",
+      "Split 0 (Zero)"
+    ],
     "keymap": [
       [
         {

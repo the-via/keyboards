@@ -2,15 +2,45 @@
   "name": "h08",
   "vendorId": "0x04D8",
   "productId": "0xE8E9",
-  "keycodes": ["qmk_lighting"],
-  "menus": ["qmk_backlight_rgblight"],
-  "matrix": {"rows": 2, "cols": 4},
+  "matrix": {
+    "rows": 2,
+    "cols": 4
+  },
+  "keycodes": [
+    "qmk_lighting"
+  ],
+  "menus": [
+    "qmk_backlight_rgblight"
+  ],
   "layouts": {
-    "labels": ["Left 2U", "Right 2U"],
+    "labels": [
+      "Left 2U",
+      "Right 2U"
+    ],
     "keymap": [
-      ["0,0", "0,1", "0,2", "0,3"],
-      ["1,0\n\n\n0,0", "1,1\n\n\n0,0", "1,2\n\n\n1,0", "1,3\n\n\n1,0"],
-      [{"y": 0.25, "w": 2}, "1,0\n\n\n0,1", {"w": 2}, "1,2\n\n\n1,1"]
+      [
+        "0,0",
+        "0,1",
+        "0,2",
+        "0,3"
+      ],
+      [
+        "1,0\n\n\n0,0",
+        "1,1\n\n\n0,0",
+        "1,2\n\n\n1,0",
+        "1,3\n\n\n1,0"
+      ],
+      [
+        {
+          "y": 0.25,
+          "w": 2
+        },
+        "1,0\n\n\n0,1",
+        {
+          "w": 2
+        },
+        "1,2\n\n\n1,1"
+      ]
     ]
   }
 }

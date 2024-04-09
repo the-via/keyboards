@@ -2,15 +2,19 @@
   "name": "TGR 910 CE",
   "vendorId": "0x5447",
   "productId": "0x910C",
-  "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 6,
     "cols": 15
   },
+  "lighting": "qmk_backlight_rgblight",
   "layouts": {
     "labels": [
       "Split Backspace",
-      ["Enter Key", "ANSI", "ISO"],
+      [
+        "Enter Key",
+        "ANSI",
+        "ISO"
+      ],
       "Split Left Shift",
       [
         "Bottom Row",

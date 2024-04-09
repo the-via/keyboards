@@ -2,8 +2,11 @@
   "name": "Portico",
   "vendorId": "0x544B",
   "productId": "0x0008",
+  "matrix": {
+    "rows": 5,
+    "cols": 15
+  },
   "lighting": "wt_rgb_backlight",
-  "matrix": {"rows": 5, "cols": 15},
   "layouts": {
     "keymap": [
       [

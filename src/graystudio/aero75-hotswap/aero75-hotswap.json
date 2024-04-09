@@ -2,8 +2,11 @@
   "name": "GrayStudio Aero75 Hotswap",
   "vendorId": "0x4753",
   "productId": "0x3075",
+  "matrix": {
+    "rows": 6,
+    "cols": 16
+  },
   "lighting": "qmk_rgblight",
-  "matrix": {"rows": 6, "cols": 16},
   "layouts": {
     "keymap": [
       [

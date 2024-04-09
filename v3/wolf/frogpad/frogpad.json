@@ -1,12 +1,30 @@
 {
-  "matrix": {
-    "cols": 4,
-    "rows": 6
-  },
   "name": "Frog Pad",
-  "productId": "0x0004",
   "vendorId": "0x5453",
+  "productId": "0x0004",
+  "matrix": {
+    "rows": 6,
+    "cols": 4
+  },
   "layouts": {
+    "labels": [
+      "Disable Left Encoder",
+      "Disable Right Encoder",
+      "Top Right 2U Split",
+      [
+        "Bottom Right Corner",
+        "Vertical 2U + 1U",
+        "Horizontal 2U + 1U",
+        "Only 1U"
+      ],
+      [
+        "Bottom Left Corner",
+        "Horizontal 2U + 1U",
+        "Vertical 2U + 1U",
+        "Only 1U"
+      ],
+      "Top Left 2U Merge"
+    ],
     "keymap": [
       [
         {
@@ -38,7 +56,11 @@
         "0,3\n\n\n1,1"
       ],
       [
-        {"c": "#aaaaaa", "x": 4.5, "y": 0.25},
+        {
+          "c": "#aaaaaa",
+          "x": 4.5,
+          "y": 0.25
+        },
         "1,0",
         {
           "c": "#aaaaaa"
@@ -153,24 +175,6 @@
         },
         "5,3\n\n\n3,2"
       ]
-    ],
-    "labels": [
-      "Disable Left Encoder",
-      "Disable Right Encoder",
-      "Top Right 2U Split",
-      [
-        "Bottom Right Corner",
-        "Vertical 2U + 1U",
-        "Horizontal 2U + 1U",
-        "Only 1U"
-      ],
-      [
-        "Bottom Left Corner",
-        "Horizontal 2U + 1U",
-        "Vertical 2U + 1U",
-        "Only 1U"
-      ],
-      "Top Left 2U Merge"
     ]
   }
 }

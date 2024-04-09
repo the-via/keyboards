@@ -2,8 +2,11 @@
   "name": "Chili",
   "vendorId": "0x5945",
   "productId": "0x0001",
+  "matrix": {
+    "rows": 11,
+    "cols": 10
+  },
   "lighting": "none",
-  "matrix": {"rows": 11, "cols": 10},
   "layouts": {
     "labels": [
       "Split Backspace",
@@ -12,7 +15,11 @@
       "Split right shift",
       "Split keypad +",
       "Split keypad 0",
-      ["Bottom row", "6.25u", "7u"]
+      [
+        "Bottom row",
+        "6.25u",
+        "7u"
+      ]
     ],
     "keymap": [
       [

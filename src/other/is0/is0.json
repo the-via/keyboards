@@ -2,8 +2,11 @@
   "name": "is0",
   "vendorId": "0xa103",
   "productId": "0x0012",
+  "matrix": {
+    "rows": 1,
+    "cols": 1
+  },
   "lighting": "none",
-  "matrix": {"rows": 1, "cols": 1},
   "layouts": {
     "keymap": [
       [

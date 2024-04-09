@@ -2,14 +2,21 @@
   "name": "Ratio65 Rev A",
   "vendorId": "0x4446",
   "productId": "0x0002",
+  "matrix": {
+    "rows": 10,
+    "cols": 8
+  },
   "lighting": "qmk_rgblight",
-  "matrix": {"rows": 10, "cols": 8},
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO Enter",
       "Split Left Shift",
-      ["Bottom row", "6.25U", "7U"]
+      [
+        "Bottom row",
+        "6.25U",
+        "7U"
+      ]
     ],
     "keymap": [
       [

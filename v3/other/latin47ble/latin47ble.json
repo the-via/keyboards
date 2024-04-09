@@ -2,7 +2,10 @@
   "name": "latin47ble",
   "vendorId": "0x6C63",
   "productId": "0x6C72",
-  "matrix": {"rows": 4, "cols": 12},
+  "matrix": {
+    "rows": 4,
+    "cols": 12
+  },
   "layouts": {
     "keymap": [
       [
@@ -53,7 +56,9 @@
         "3,2",
         "3,3",
         "3,4",
-        {"w": 2},
+        {
+          "w": 2
+        },
         "3,5",
         "3,6",
         "3,7",

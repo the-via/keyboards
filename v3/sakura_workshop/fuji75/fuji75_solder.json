@@ -1,23 +1,31 @@
 {
   "name": "SakuraWorkshop Fuji75 Solder",
-
   "vendorId": "0x5357",
   "productId": "0x4637",
-  "keycodes": ["qmk_lighting"],
-  "menus":
-  [
+  "matrix": {
+    "rows": 6,
+    "cols": 15
+  },
+  "keycodes": [
+    "qmk_lighting"
+  ],
+  "menus": [
     "qmk_rgblight"
-    ],
-  "matrix": { "rows": 6, "cols": 15 },
+  ],
   "layouts": {
-    "labels":[
+    "labels": [
       "Split Backspace",
       "ISO Enter",
       "Split Left Shift",
-      ["Bottom Row", "6.25U ver1", "6.25U ver2", "6.25u ver3", "7U"]
-	    ],
-    "keymap":
-    [
+      [
+        "Bottom Row",
+        "6.25U ver1",
+        "6.25U ver2",
+        "6.25u ver3",
+        "7U"
+      ]
+    ],
+    "keymap": [
       [
         {
           "c": "#777777"

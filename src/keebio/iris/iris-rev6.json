@@ -2,8 +2,11 @@
   "name": "Iris Rev. 6",
   "vendorId": "0xCB10",
   "productId": "0x6256",
+  "matrix": {
+    "rows": 10,
+    "cols": 6
+  },
   "lighting": "none",
-  "matrix": {"rows": 10, "cols": 6},
   "layouts": {
     "keymap": [
       [

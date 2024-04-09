@@ -1,8 +1,11 @@
 {
+  "name": "Sneakbox Alice Clone",
   "vendorId": "0x5342",
   "productId": "0x0001",
-  "name": "Sneakbox Alice Clone",
-  "matrix": {"rows": 10, "cols": 8},
+  "matrix": {
+    "rows": 10,
+    "cols": 8
+  },
   "lighting": "qmk_rgblight",
   "layouts": {
     "keymap": [

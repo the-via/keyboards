@@ -2,13 +2,13 @@
   "name": "Yeti RGB",
   "vendorId": "0x525C",
   "productId": "0x9F9E",
-  "lighting": {
-    "extends": "none",
-    "keycodes": "qmk"
-  },
   "matrix": {
     "rows": 5,
     "cols": 15
+  },
+  "lighting": {
+    "extends": "none",
+    "keycodes": "qmk"
   },
   "layouts": {
     "keymap": [

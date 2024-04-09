@@ -2,13 +2,19 @@
   "name": "Kikkou",
   "vendorId": "0x6D65",
   "productId": "0x6060",
-  "lighting": "none",
   "matrix": {
     "rows": 5,
     "cols": 15
   },
+  "lighting": "none",
   "layouts": {
-    "labels": [["Bottom Row", "ANSI", "Tsangan"]],
+    "labels": [
+      [
+        "Bottom Row",
+        "ANSI",
+        "Tsangan"
+      ]
+    ],
     "keymap": [
       [
         {

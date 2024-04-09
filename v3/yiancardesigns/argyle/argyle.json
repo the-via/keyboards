@@ -2,16 +2,27 @@
   "name": "Argyle",
   "vendorId": "0x8968",
   "productId": "0x4152",
-  "matrix": {"rows": 5, "cols": 14},
-  "menus": [ "qmk_rgblight" ],
-  "keycodes": [ "qmk_lighting" ],
+  "matrix": {
+    "rows": 5,
+    "cols": 14
+  },
+  "keycodes": [
+    "qmk_lighting"
+  ],
+  "menus": [
+    "qmk_rgblight"
+  ],
   "layouts": {
     "labels": [
       "Split Backspace",
       "Split Left Shift",
       "Split Right Shift",
       "ISO Enter",
-      ["Bottom Row", "6.25U", "7U"]
+      [
+        "Bottom Row",
+        "6.25U",
+        "7U"
+      ]
     ],
     "keymap": [
       [

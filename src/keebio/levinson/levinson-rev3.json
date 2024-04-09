@@ -2,12 +2,23 @@
   "name": "Levinson Rev. 3",
   "vendorId": "0xCB10",
   "productId": "0x3146",
+  "matrix": {
+    "rows": 8,
+    "cols": 6
+  },
   "lighting": "qmk_backlight_rgblight",
-  "matrix": {"rows": 8, "cols": 6},
   "layouts": {
     "labels": [
-      ["Left Space", "1u", "2u"],
-      ["Right Space", "1u", "2u"]
+      [
+        "Left Space",
+        "1u",
+        "2u"
+      ],
+      [
+        "Right Space",
+        "1u",
+        "2u"
+      ]
     ],
     "keymap": [
       [

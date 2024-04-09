@@ -2,10 +2,17 @@
   "name": "Noxary 220",
   "vendorId": "0x4e58",
   "productId": "0x0899",
+  "matrix": {
+    "rows": 6,
+    "cols": 4
+  },
   "lighting": "qmk_backlight",
-  "matrix": {"rows": 6, "cols": 4},
   "layouts": {
-    "labels": ["Split Plus", "Split Enter", "Split Zero"],
+    "labels": [
+      "Split Plus",
+      "Split Enter",
+      "Split Zero"
+    ],
     "keymap": [
       [
         {

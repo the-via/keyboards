@@ -2,7 +2,10 @@
   "name": "odin_rgb",
   "vendorId": "0x4B42",
   "productId": "0x0102",
-  "matrix": {"rows": 6, "cols": 20},
+  "matrix": {
+    "rows": 6,
+    "cols": 20
+  },
   "lighting": "none",
   "layouts": {
     "keymap": [

@@ -2,10 +2,16 @@
   "name": "Iris Rev. 4",
   "vendorId": "0xCB10",
   "productId": "0x4256",
+  "matrix": {
+    "rows": 10,
+    "cols": 6
+  },
   "lighting": "qmk_backlight_rgblight",
-  "matrix": {"rows": 10, "cols": 6},
   "layouts": {
-    "labels": ["2u Thumb Cluster (Left side)", "2u Thumb Cluster (Right side)"],
+    "labels": [
+      "2u Thumb Cluster (Left side)",
+      "2u Thumb Cluster (Right side)"
+    ],
     "keymap": [
       [
         {

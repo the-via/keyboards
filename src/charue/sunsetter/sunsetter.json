@@ -2,11 +2,11 @@
   "name": "Sunsetter",
   "vendorId": "0x4344",
   "productId": "0x5353",
-  "lighting": "none",
   "matrix": {
     "rows": 5,
     "cols": 18
   },
+  "lighting": "none",
   "layouts": {
     "labels": [
       "Split Backspace",

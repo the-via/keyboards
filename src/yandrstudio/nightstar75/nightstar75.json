@@ -2,11 +2,11 @@
   "name": "nightstar75_Y&R",
   "vendorId": "0xAA96",
   "productId": "0xAA87",
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 6,
     "cols": 15
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
     "keymap": [
       [

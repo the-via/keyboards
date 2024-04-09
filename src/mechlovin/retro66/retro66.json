@@ -2,10 +2,21 @@
   "name": "Retro66",
   "vendorId": "0x4D4C",
   "productId": "0x6601",
+  "matrix": {
+    "rows": 5,
+    "cols": 15
+  },
   "lighting": "none",
-  "matrix": {"rows": 5, "cols": 15},
   "layouts": {
-    "labels": ["Encoder 1", "Encoder 2", ["Bottom Row", "Blocker", "All"]],
+    "labels": [
+      "Encoder 1",
+      "Encoder 2",
+      [
+        "Bottom Row",
+        "Blocker",
+        "All"
+      ]
+    ],
     "keymap": [
       [
         {

@@ -2,12 +2,23 @@
   "name": "dyz60",
   "vendorId": "0xD772",
   "productId": "0x000A",
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 5,
     "cols": 14
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
+    "labels": [
+      "Split Backspace",
+      "ISO Enter",
+      "Split Left Shift",
+      "Split Right Shift",
+      [
+        "Bottom Row",
+        "Tsangan",
+        "ANSI"
+      ]
+    ],
     "keymap": [
       {
         "name": "dyz60"
@@ -194,13 +205,6 @@
         },
         "4,13\n\n\n4,1"
       ]
-    ],
-    "labels": [
-      "Split Backspace",
-      "ISO Enter",
-      "Split Left Shift",
-      "Split Right Shift",
-      ["Bottom Row", "Tsangan", "ANSI"]
     ]
   }
 }

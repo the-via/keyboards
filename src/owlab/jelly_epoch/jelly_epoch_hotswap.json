@@ -2,11 +2,11 @@
   "name": "Jelly Epoch Hotswap",
   "vendorId": "0x4F53",
   "productId": "0x4A4C",
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 6,
     "cols": 14
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
     "keymap": [
       [

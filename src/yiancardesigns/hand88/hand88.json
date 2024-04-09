@@ -2,8 +2,11 @@
   "name": "Hand 88",
   "vendorId": "0x8968",
   "productId": "0x3838",
+  "matrix": {
+    "rows": 6,
+    "cols": 17
+  },
   "lighting": "none",
-  "matrix": {"rows": 6, "cols": 17},
   "layouts": {
     "labels": [
       "Split Backspace",

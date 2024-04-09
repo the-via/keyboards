@@ -2,11 +2,11 @@
   "name": "MW75",
   "vendorId": "0x7BA1",
   "productId": "0x7501",
-  "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 6,
     "cols": 15
   },
+  "lighting": "qmk_backlight_rgblight",
   "layouts": {
     "keymap": [
       [

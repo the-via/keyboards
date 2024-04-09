@@ -2,15 +2,23 @@
   "name": "endless80",
   "vendorId": "0x445A",
   "productId": "0X1015",
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 6,
     "cols": 15
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
     "labels": [
-      ["Left Shift", "Default", "Split"],
-      ["Right Mods", "3x1u", "2x1.5u"]
+      [
+        "Left Shift",
+        "Default",
+        "Split"
+      ],
+      [
+        "Right Mods",
+        "3x1u",
+        "2x1.5u"
+      ]
     ],
     "keymap": [
       [

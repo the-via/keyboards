@@ -2,11 +2,11 @@
   "name": "polilla",
   "vendorId": "0x6166",
   "productId": "0x0010",
-  "lighting": "none",
   "matrix": {
     "rows": 5,
     "cols": 12
   },
+  "lighting": "none",
   "layouts": {
     "keymap": [
       [

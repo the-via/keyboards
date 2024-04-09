@@ -2,13 +2,15 @@
   "name": "bevi",
   "vendorId": "0x5359",
   "productId": "0x4256",
-  "lighting": "none",
   "matrix": {
     "rows": 10,
     "cols": 8
   },
+  "lighting": "none",
   "layouts": {
-    "labels": ["Split Backspace"],
+    "labels": [
+      "Split Backspace"
+    ],
     "keymap": [
       [
         {

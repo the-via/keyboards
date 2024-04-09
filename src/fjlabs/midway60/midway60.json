@@ -2,9 +2,23 @@
   "name": "Midway60",
   "vendorId": "0x7074",
   "productId": "0x1002",
+  "matrix": {
+    "rows": 5,
+    "cols": 14
+  },
   "lighting": "none",
-  "matrix": {"rows": 5, "cols": 14},
   "layouts": {
+    "labels": [
+      "Split Backspace",
+      "ISO Enter",
+      "Split Left Shift",
+      "Split Right Shift",
+      [
+        "Bottom Row",
+        "ANSI",
+        "7U"
+      ]
+    ],
     "keymap": [
       [
         {
@@ -210,13 +224,6 @@
         },
         "4,13\n\n\n4,1"
       ]
-    ],
-    "labels": [
-      "Split Backspace",
-      "ISO Enter",
-      "Split Left Shift",
-      "Split Right Shift",
-      ["Bottom Row", "ANSI", "7U"]
     ]
   }
 }

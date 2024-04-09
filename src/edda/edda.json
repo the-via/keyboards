@@ -2,10 +2,16 @@
   "name": "Mekanisk Edda",
   "vendorId": "0x4D45",
   "productId": "0x4544",
+  "matrix": {
+    "rows": 5,
+    "cols": 16
+  },
   "lighting": "none",
-  "matrix": {"rows": 5, "cols": 16},
   "layouts": {
-    "labels": ["Long Backspace", "Long RShift"],
+    "labels": [
+      "Long Backspace",
+      "Long RShift"
+    ],
     "keymap": [
       [
         {

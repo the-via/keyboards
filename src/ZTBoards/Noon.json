@@ -2,14 +2,15 @@
   "name": "Noon",
   "vendorId": "0x0927",
   "productId": "0x0002",
-  "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 5,
     "cols": 16
   },
+  "lighting": "qmk_backlight_rgblight",
   "layouts": {
-    "labels": ["Split Backspace"],
-
+    "labels": [
+      "Split Backspace"
+    ],
     "keymap": [
       [
         {

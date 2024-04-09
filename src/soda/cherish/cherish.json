@@ -1,13 +1,12 @@
 {
   "name": "Cherish 75",
-
   "vendorId": "0xEB50",
   "productId": "0xEB52",
-
+  "matrix": {
+    "rows": 6,
+    "cols": 15
+  },
   "lighting": "none",
-
-  "matrix": {"rows": 6, "cols": 15},
-
   "layouts": {
     "keymap": [
       [

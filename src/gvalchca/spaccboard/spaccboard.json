@@ -2,17 +2,26 @@
   "name": "SpaccBoard",
   "vendorId": "0x6776",
   "productId": "0x5342",
-  "lighting": "none",
   "matrix": {
     "rows": 5,
     "cols": 15
   },
+  "lighting": "none",
   "layouts": {
     "labels": [
       "Full Backspace",
       "Split Left Shift",
-      ["Enter Area", "BAE", "ISO", "ANSI"],
-      ["Bottom row", "Tsangan", "XT"]
+      [
+        "Enter Area",
+        "BAE",
+        "ISO",
+        "ANSI"
+      ],
+      [
+        "Bottom row",
+        "Tsangan",
+        "XT"
+      ]
     ],
     "keymap": [
       [
