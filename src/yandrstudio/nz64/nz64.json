@@ -2,13 +2,13 @@
   "name": "NZ64_Y&R",
   "vendorId": "0xAA96",
   "productId": "0xAAAF",
-  "lighting": {
-    "extends": "none",
-    "keycodes": "qmk"
-  },
   "matrix": {
     "rows": 5,
     "cols": 14
+  },
+  "lighting": {
+    "extends": "none",
+    "keycodes": "qmk"
   },
   "layouts": {
     "keymap": [

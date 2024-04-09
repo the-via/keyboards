@@ -8,9 +8,14 @@
   },
   "layouts": {
     "labels": [
-      ["Bottom Row", "Single 2u", "Split 2u", "Split 2.25u", "Single 7u"]
+      [
+        "Bottom Row",
+        "Single 2u",
+        "Split 2u",
+        "Split 2.25u",
+        "Single 7u"
+      ]
     ],
-
     "keymap": [
       [
         {

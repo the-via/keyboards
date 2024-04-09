@@ -2,18 +2,24 @@
   "name": "Nue",
   "vendorId": "0x7C10",
   "productId": "0x0701",
-  "lighting": "none",
   "matrix": {
     "rows": 5,
     "cols": 14
   },
+  "lighting": "none",
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO Enter",
       "Split Left Shift",
       "Split Right Shift",
-      ["Bottom Row", "ANSI", "7U", "WKL", "HHKB"]
+      [
+        "Bottom Row",
+        "ANSI",
+        "7U",
+        "WKL",
+        "HHKB"
+      ]
     ],
     "keymap": [
       [

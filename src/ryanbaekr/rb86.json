@@ -2,11 +2,11 @@
   "name": "ryanbaekr rb86",
   "vendorId": "0x7262",
   "productId": "0x0086",
-  "lighting": "none",
   "matrix": {
     "rows": 6,
     "cols": 17
   },
+  "lighting": "none",
   "layouts": {
     "keymap": [
       [

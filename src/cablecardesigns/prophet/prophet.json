@@ -2,15 +2,39 @@
   "name": "Prophet",
   "vendorId": "0xFF21",
   "productId": "0xAA03",
-  "matrix": {"rows": 5, "cols": 14},
+  "matrix": {
+    "rows": 5,
+    "cols": 14
+  },
   "lighting": "none",
   "layouts": {
     "labels": [
-      ["Enter Key", "ISO", "ANSI"],
-      ["Right Shift", "Normal", "Split"],
-      ["Bottom Row", "7u", "HHKB", "WKL"],
-      ["Backspace", "Normal", "Split"],
-      ["Left Shift", "Split", "Normal"]
+      [
+        "Enter Key",
+        "ISO",
+        "ANSI"
+      ],
+      [
+        "Right Shift",
+        "Normal",
+        "Split"
+      ],
+      [
+        "Bottom Row",
+        "7u",
+        "HHKB",
+        "WKL"
+      ],
+      [
+        "Backspace",
+        "Normal",
+        "Split"
+      ],
+      [
+        "Left Shift",
+        "Split",
+        "Normal"
+      ]
     ],
     "keymap": [
       {

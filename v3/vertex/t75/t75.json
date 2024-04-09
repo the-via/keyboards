@@ -2,7 +2,10 @@
   "name": "T75",
   "vendorId": "0x28E9",
   "productId": "0x3006",
-  "matrix": { "rows": 6, "cols": 15 },
+  "matrix": {
+    "rows": 6,
+    "cols": 15
+  },
   "layouts": {
     "keymap": [
       [

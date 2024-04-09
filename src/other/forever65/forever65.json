@@ -2,13 +2,20 @@
   "name": "Forever65",
   "vendorId": "0x4E53",
   "productId": "0x0F65",
-  "lighting": "none",
   "matrix": {
     "rows": 5,
     "cols": 16
   },
+  "lighting": "none",
   "layouts": {
-    "labels": ["Split Backspace", ["Bottom Row", "6.25U", "7U"]],
+    "labels": [
+      "Split Backspace",
+      [
+        "Bottom Row",
+        "6.25U",
+        "7U"
+      ]
+    ],
     "keymap": [
       [
         {

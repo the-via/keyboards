@@ -1,21 +1,24 @@
 {
   "name": "Atelier_Haven Haven80_Solder",
-
   "vendorId": "0x4446",
   "productId": "0x4681",
-  "keycodes": ["qmk_lighting"],
-  "menus":
-  [
-    "qmk_rgblight"
-    ],
-"matrix": { "rows": 11, "cols": 9 },
-"layouts": {
-  "labels":[
-    "Split Backspace",
-    "ISO Enter",
-    "Split Left Shift",
-    "Spllit Right Shift"
+  "matrix": {
+    "rows": 11,
+    "cols": 9
+  },
+  "keycodes": [
+    "qmk_lighting"
   ],
+  "menus": [
+    "qmk_rgblight"
+  ],
+  "layouts": {
+    "labels": [
+      "Split Backspace",
+      "ISO Enter",
+      "Split Left Shift",
+      "Spllit Right Shift"
+    ],
     "keymap": [
       [
         {

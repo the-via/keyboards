@@ -2,13 +2,13 @@
   "name": "KPrepublic BM80",
   "vendorId": "0x4B50",
   "productId": "0xEF83",
-  "lighting": {
-    "extends": "none",
-    "keycodes": "qmk"
-  },
   "matrix": {
     "rows": 6,
     "cols": 17
+  },
+  "lighting": {
+    "extends": "none",
+    "keycodes": "qmk"
   },
   "layouts": {
     "keymap": [

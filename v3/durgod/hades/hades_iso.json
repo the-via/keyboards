@@ -2,15 +2,22 @@
   "name": "DURGOD Hades",
   "vendorId": "0xD60D",
   "productId": "0x4AD4",
-  "keycodes": ["qmk_lighting"],
-  "menus": ["qmk_rgb_matrix"],
-  "matrix": {"rows": 5, "cols": 15},
+  "matrix": {
+    "rows": 5,
+    "cols": 15
+  },
   "customKeycodes": [
     {
       "name": "Toggle WinKey Lock",
       "title": "Toggle WinKey Lock",
       "shortName": "WinLock"
     }
+  ],
+  "keycodes": [
+    "qmk_lighting"
+  ],
+  "menus": [
+    "qmk_rgb_matrix"
   ],
   "layouts": {
     "keymap": [

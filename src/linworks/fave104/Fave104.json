@@ -2,18 +2,22 @@
   "name": "Linworks Fave 104",
   "vendorId": "0x4C58",
   "productId": "0x000A",
-  "lighting": "qmk_backlight",
   "matrix": {
     "rows": 12,
     "cols": 11
   },
+  "lighting": "qmk_backlight",
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO Enter",
       "Split Left Shift",
       "Split Right Shift",
-      ["Bottom Row", "Regular", "Tsangan"]
+      [
+        "Bottom Row",
+        "Regular",
+        "Tsangan"
+      ]
     ],
     "keymap": [
       [
@@ -224,7 +228,10 @@
         "9,4",
         "8,5",
         "9,5",
-        {"c": "#aaaaaa", "w": 2.75},
+        {
+          "c": "#aaaaaa",
+          "w": 2.75
+        },
         "8,6\n\n\n3,0",
         {
           "x": 1.25,

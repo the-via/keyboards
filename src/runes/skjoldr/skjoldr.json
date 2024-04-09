@@ -2,11 +2,11 @@
   "name": "Runes Skjoldr",
   "vendorId": "0x726E",
   "productId": "0x736B",
-  "lighting": "none",
   "matrix": {
     "rows": 5,
     "cols": 14
   },
+  "lighting": "none",
   "layouts": {
     "keymap": [
       [

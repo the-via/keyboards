@@ -2,9 +2,18 @@
   "name": "Parallel 65% Hotswap PCB",
   "vendorId": "0x504C",
   "productId": "0x5069",
-  "matrix": {"rows": 5, "cols": 16},
+  "matrix": {
+    "rows": 5,
+    "cols": 16
+  },
   "layouts": {
-    "labels": [["Bottom Row", "ANSI", "Tsangan"]],
+    "labels": [
+      [
+        "Bottom Row",
+        "ANSI",
+        "Tsangan"
+      ]
+    ],
     "keymap": [
       [
         {

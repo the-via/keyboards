@@ -2,10 +2,20 @@
   "name": "Quark_LP",
   "vendorId": "0x7070",
   "productId": "0x5354",
+  "matrix": {
+    "rows": 4,
+    "cols": 12
+  },
   "lighting": "qmk_rgblight",
-  "matrix": {"rows": 4, "cols": 12},
   "layouts": {
-    "labels": [["Bottom Row", "grid", "2u", "2x2u"]],
+    "labels": [
+      [
+        "Bottom Row",
+        "grid",
+        "2u",
+        "2x2u"
+      ]
+    ],
     "keymap": [
       [
         {

@@ -2,14 +2,25 @@
   "name": "Discipline",
   "vendorId": "0x6B62",
   "productId": "0x6869",
+  "matrix": {
+    "rows": 5,
+    "cols": 15
+  },
   "lighting": "none",
-  "matrix": {"rows": 5, "cols": 15},
   "layouts": {
     "labels": [
       "ISO Enter",
       "Split Left Shift",
-      ["Spacebar", "6.25U", "7U"],
-      ["Right Modifiers", "1U", "1.5U"]
+      [
+        "Spacebar",
+        "6.25U",
+        "7U"
+      ],
+      [
+        "Right Modifiers",
+        "1U",
+        "1.5U"
+      ]
     ],
     "keymap": [
       [

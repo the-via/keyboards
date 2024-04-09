@@ -2,13 +2,19 @@
   "name": "DigiCarpice",
   "vendorId": "0x04D8",
   "productId": "0xE79A",
-  "lighting": "none",
   "matrix": {
     "rows": 5,
     "cols": 15
   },
+  "lighting": "none",
   "layouts": {
-    "labels": [["Backspace", "Unified", "Split"]],
+    "labels": [
+      [
+        "Backspace",
+        "Unified",
+        "Split"
+      ]
+    ],
     "keymap": [
       [
         {

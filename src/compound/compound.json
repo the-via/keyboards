@@ -2,11 +2,11 @@
   "name": "Compound",
   "vendorId": "0x420A",
   "productId": "0xB0BA",
-  "lighting": "none",
   "matrix": {
     "rows": 5,
     "cols": 15
   },
+  "lighting": "none",
   "layouts": {
     "keymap": [
       [

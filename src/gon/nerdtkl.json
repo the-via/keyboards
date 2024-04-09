@@ -2,15 +2,39 @@
   "name": "GoN NERD TKL",
   "vendorId": "0x4E45",
   "productId": "0x5244",
+  "matrix": {
+    "rows": 10,
+    "cols": 9
+  },
   "lighting": "qmk_backlight",
-  "matrix": {"rows": 10, "cols": 9},
   "layouts": {
     "labels": [
-      ["Bottom Row", "WKL", "Tsangan", "WK"],
-      ["Backspace", "Normal Backspace", "Split Backspace"],
-      ["Enter", "ANSI Enter", "ISO Enter"],
-      ["Left Shift", "Normal Left Shift", "Split Left Shift"],
-      ["Right Shift", "Normal Right Shift", "Split Right Shift"]
+      [
+        "Bottom Row",
+        "WKL",
+        "Tsangan",
+        "WK"
+      ],
+      [
+        "Backspace",
+        "Normal Backspace",
+        "Split Backspace"
+      ],
+      [
+        "Enter",
+        "ANSI Enter",
+        "ISO Enter"
+      ],
+      [
+        "Left Shift",
+        "Normal Left Shift",
+        "Split Left Shift"
+      ],
+      [
+        "Right Shift",
+        "Normal Right Shift",
+        "Split Right Shift"
+      ]
     ],
     "keymap": [
       [

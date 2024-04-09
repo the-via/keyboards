@@ -2,11 +2,11 @@
   "name": "KBO-5000 Rev. 1",
   "vendorId": "0xCB10",
   "productId": "0x126A",
-  "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 12,
     "cols": 10
   },
+  "lighting": "qmk_backlight_rgblight",
   "layouts": {
     "labels": [
       "Split Backspace",

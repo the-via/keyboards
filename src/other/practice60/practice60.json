@@ -2,8 +2,11 @@
   "name": "Practice60",
   "vendorId": "0xCA04",
   "productId": "0x6060",
+  "matrix": {
+    "rows": 5,
+    "cols": 14
+  },
   "lighting": "qmk_backlight_rgblight",
-  "matrix": {"rows": 5, "cols": 14},
   "layouts": {
     "keymap": [
       [

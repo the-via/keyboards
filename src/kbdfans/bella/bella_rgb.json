@@ -2,13 +2,13 @@
   "name": "BELLA_RGB",
   "vendorId": "0x4B42",
   "productId": "0x0008",
-  "lighting": {
-    "extends": "none",
-    "keycodes": "qmk"
-  },
   "matrix": {
     "rows": 6,
     "cols": 16
+  },
+  "lighting": {
+    "extends": "none",
+    "keycodes": "qmk"
   },
   "layouts": {
     "keymap": [

@@ -2,12 +2,16 @@
   "name": "Bastion60",
   "vendorId": "0xCA04",
   "productId": "0x0020",
-  "keycodes": ["qmk_lighting"],
-  "menus": ["qmk_backlight_rgblight"],
   "matrix": {
     "rows": 5,
     "cols": 14
   },
+  "keycodes": [
+    "qmk_lighting"
+  ],
+  "menus": [
+    "qmk_backlight_rgblight"
+  ],
   "layouts": {
     "labels": [
       "Split Backspace",

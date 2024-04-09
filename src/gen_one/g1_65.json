@@ -2,11 +2,11 @@
   "name": "Gen One G1_65",
   "vendorId": "0xE720",
   "productId": "0x0001",
-  "lighting": "none",
   "matrix": {
     "rows": 5,
     "cols": 15
   },
+  "lighting": "none",
   "layouts": {
     "keymap": [
       [

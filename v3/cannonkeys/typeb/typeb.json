@@ -2,12 +2,12 @@
   "name": "Type B",
   "vendorId": "0xCA04",
   "productId": "0x001B",
-  "keycodes": [],
-  "menus": [],
   "matrix": {
     "rows": 5,
     "cols": 14
   },
+  "keycodes": [],
+  "menus": [],
   "layouts": {
     "labels": [
       "Full Backspace",

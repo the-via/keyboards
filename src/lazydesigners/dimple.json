@@ -2,14 +2,19 @@
   "name": "LAZYDESIGERS Dimple",
   "vendorId": "0x4C44",
   "productId": "0x0040",
-  "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 4,
     "cols": 12
   },
+  "lighting": "qmk_backlight_rgblight",
   "layouts": {
     "labels": [
-      ["Style", "Staggered", "Staggered iso", "Ortho"],
+      [
+        "Style",
+        "Staggered",
+        "Staggered iso",
+        "Ortho"
+      ],
       [
         "Bottom Row",
         "Split",

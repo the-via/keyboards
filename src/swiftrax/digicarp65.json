@@ -2,17 +2,21 @@
   "name": "DigiCarp65",
   "vendorId": "0x04D8",
   "productId": "0xE7F1",
-  "lighting": "none",
   "matrix": {
     "rows": 5,
     "cols": 16
   },
+  "lighting": "none",
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO Enter",
       "Split Left Shift",
-      ["Bottom Keys", "1U-1U-1U", "1.5U-1.5U"]
+      [
+        "Bottom Keys",
+        "1U-1U-1U",
+        "1.5U-1.5U"
+      ]
     ],
     "keymap": [
       [

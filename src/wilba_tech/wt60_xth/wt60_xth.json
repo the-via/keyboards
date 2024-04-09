@@ -2,10 +2,16 @@
   "name": "wilba.tech WT60-XTH",
   "vendorId": "0x6582",
   "productId": "0x0040",
+  "matrix": {
+    "rows": 5,
+    "cols": 16
+  },
   "lighting": "none",
-  "matrix": {"rows": 5, "cols": 16},
   "layouts": {
-    "labels": ["Split Backspace", "WKL"],
+    "labels": [
+      "Split Backspace",
+      "WKL"
+    ],
     "keymap": [
       [
         {
