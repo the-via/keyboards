@@ -2,7 +2,10 @@
   "name": "Sweeq",
   "vendorId": "0xC3AB",
   "productId": "0x3139",
-  "matrix": {"rows": 8, "cols": 5},
+  "matrix": {
+    "rows": 8,
+    "cols": 5
+  },
   "layouts": {
     "keymap": [
       [

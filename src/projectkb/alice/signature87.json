@@ -2,15 +2,22 @@
   "name": "ProjectKB Signature87",
   "vendorId": "0x0159",
   "productId": "0x0187",
+  "matrix": {
+    "rows": 12,
+    "cols": 9
+  },
   "lighting": "none",
-  "matrix": {"rows": 12, "cols": 9},
   "layouts": {
     "labels": [
       "Split Backspace",
       "Split Right Shift",
-      ["Space Bar", "Standard", "Tsangan", "WKL"]
+      [
+        "Space Bar",
+        "Standard",
+        "Tsangan",
+        "WKL"
+      ]
     ],
-
     "keymap": [
       [
         {

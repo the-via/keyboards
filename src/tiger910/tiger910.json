@@ -2,16 +2,24 @@
   "name": "tiger910",
   "vendorId": "0x7764",
   "productId": "0x5447",
+  "matrix": {
+    "rows": 5,
+    "cols": 15
+  },
   "lighting": "qmk_rgblight",
-  "matrix": {"rows": 5, "cols": 15},
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO Enter",
       "Split Left Shift",
-      ["Bottom Row", "1", "2", "3", "4"]
+      [
+        "Bottom Row",
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
     ],
-
     "keymap": [
       [
         {

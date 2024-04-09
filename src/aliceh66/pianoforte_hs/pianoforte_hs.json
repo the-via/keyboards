@@ -2,11 +2,11 @@
   "name": "pianoforte hotswap",
   "vendorId": "0x6168",
   "productId": "0x7068",
-  "lighting": "none",
   "matrix": {
     "rows": 12,
     "cols": 9
   },
+  "lighting": "none",
   "layouts": {
     "keymap": [
       [

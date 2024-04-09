@@ -2,11 +2,11 @@
   "name": "mokey64",
   "vendorId": "0x6653",
   "productId": "0x001A",
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 5,
     "cols": 15
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
     "keymap": [
       [

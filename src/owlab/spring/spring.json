@@ -2,11 +2,11 @@
   "name": "Spring",
   "vendorId": "0x4f53",
   "productId": "0x5350",
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 5,
     "cols": 15
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
     "keymap": [
       [

@@ -2,14 +2,33 @@
   "name": "Lodestone",
   "vendorId": "0x4658",
   "productId": "0x4C53",
+  "matrix": {
+    "rows": 5,
+    "cols": 16
+  },
   "lighting": "none",
-  "matrix": {"rows": 5, "cols": 16},
   "layouts": {
     "labels": [
-      ["Backspace", "Split", "Full"],
-      ["Enter", "ANSI", "ISO"],
-      ["Left Shift", "Full", "Split"],
-      ["Bottom Row", "6.25U", "7U"]
+      [
+        "Backspace",
+        "Split",
+        "Full"
+      ],
+      [
+        "Enter",
+        "ANSI",
+        "ISO"
+      ],
+      [
+        "Left Shift",
+        "Full",
+        "Split"
+      ],
+      [
+        "Bottom Row",
+        "6.25U",
+        "7U"
+      ]
     ],
     "keymap": [
       [

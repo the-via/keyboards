@@ -2,14 +2,22 @@
   "name": "Pink Labs - Bliss",
   "vendorId": "0x4705",
   "productId": "0x0187",
+  "matrix": {
+    "rows": 6,
+    "cols": 17
+  },
   "lighting": "none",
-  "matrix": {"rows": 6, "cols": 17},
   "layouts": {
     "labels": [
       "ISO Enter",
       "Split Left Shift",
       "Split Right Shift",
-      ["Bottom Row", "WKL", "Tsangan", "ANSI"]
+      [
+        "Bottom Row",
+        "WKL",
+        "Tsangan",
+        "ANSI"
+      ]
     ],
     "keymap": [
       [

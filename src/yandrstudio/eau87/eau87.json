@@ -2,11 +2,11 @@
   "name": "Hercules80_Y&R",
   "vendorId": "0xAA96",
   "productId": "0xAAEB",
-  "lighting": "none",
   "matrix": {
     "rows": 6,
     "cols": 17
   },
+  "lighting": "none",
   "layouts": {
     "keymap": [
       [

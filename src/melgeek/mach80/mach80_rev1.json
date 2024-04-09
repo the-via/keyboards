@@ -2,16 +2,22 @@
   "name": "MelGeek Mach80 rev1",
   "vendorId": "0xEDED",
   "productId": "0x0080",
-  "lighting": {
-    "extends": "none",
-    "keycodes": "qmk"
-  },
   "matrix": {
     "rows": 6,
     "cols": 16
   },
+  "lighting": {
+    "extends": "none",
+    "keycodes": "qmk"
+  },
   "layouts": {
-    "labels": [["Bottom Row", "6.25U", "7U"]],
+    "labels": [
+      [
+        "Bottom Row",
+        "6.25U",
+        "7U"
+      ]
+    ],
     "keymap": [
       [
         {

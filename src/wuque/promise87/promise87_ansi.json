@@ -2,11 +2,11 @@
   "name": "Promise 87",
   "vendorId": "0x906D",
   "productId": "0x0005",
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 6,
     "cols": 17
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
     "labels": [
       "Split Backspace",

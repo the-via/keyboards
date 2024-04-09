@@ -2,17 +2,21 @@
   "name": "Aozora",
   "vendorId": "0x04D8",
   "productId": "0xE86A",
-  "lighting": "none",
   "matrix": {
     "rows": 5,
     "cols": 17
   },
+  "lighting": "none",
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO",
       "Split Left Shift",
-      ["Split Right Shift", "JIS", "Function"]
+      [
+        "Split Right Shift",
+        "JIS",
+        "Function"
+      ]
     ],
     "keymap": [
       [

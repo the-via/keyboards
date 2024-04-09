@@ -2,18 +2,30 @@
   "name": "cycle8",
   "vendorId": "0x8A94",
   "productId": "0x8F70",
-  "keycodes": ["qmk_lighting"],
-  "menus": ["qmk_rgblight"],
-  "matrix": {"rows": 6, "cols": 16},
-"layouts": {
-"labels":[
+  "matrix": {
+    "rows": 6,
+    "cols": 16
+  },
+  "keycodes": [
+    "qmk_lighting"
+  ],
+  "menus": [
+    "qmk_rgblight"
+  ],
+  "layouts": {
+    "labels": [
       "Split Backspace",
       "ISO Enter",
       "Split Left Shift",
       "Split Right Shift",
-["Bottom Row", "Ansi", "Tsangan","Wkl"]
-        ],
-    "keymap":[
+      [
+        "Bottom Row",
+        "Ansi",
+        "Tsangan",
+        "Wkl"
+      ]
+    ],
+    "keymap": [
       [
         {
           "x": 2.75

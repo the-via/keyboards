@@ -2,8 +2,11 @@
   "name": "TKC TKL A/B87",
   "vendorId": "0x544B",
   "productId": "0x0007",
+  "matrix": {
+    "rows": 6,
+    "cols": 16
+  },
   "lighting": "qmk_backlight_rgblight",
-  "matrix": {"rows": 6, "cols": 16},
   "layouts": {
     "labels": [
       "Split left shift",

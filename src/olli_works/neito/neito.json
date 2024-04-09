@@ -2,11 +2,11 @@
   "name": "olli.works Neito",
   "vendorId": "0xB9F7",
   "productId": "0xB44C",
-  "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 10,
     "cols": 8
   },
+  "lighting": "qmk_backlight_rgblight",
   "layouts": {
     "keymap": [
       [
@@ -147,7 +147,12 @@
         "1,2",
         "0,3"
       ],
-      ["2,1", "3,1", "2,2", "3,2"],
+      [
+        "2,1",
+        "3,1",
+        "2,2",
+        "3,2"
+      ],
       [
         {
           "x": 0.25

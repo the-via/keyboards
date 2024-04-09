@@ -1,19 +1,46 @@
 {
   "name": "wilba.tech WT75-A",
   "vendorId": "0x6582",
-  "matrix": {"rows": 6, "cols": 15},
   "productId": "0x075a",
+  "matrix": {
+    "rows": 6,
+    "cols": 15
+  },
   "lighting": {
     "extends": "wt_mono_backlight",
     "effects": [
-      ["None", 1],
-      ["All", 1],
-      ["Raindrops", 1]
+      [
+        "None",
+        1
+      ],
+      [
+        "All",
+        1
+      ],
+      [
+        "Raindrops",
+        1
+      ]
     ],
-    "supportedLightingValues": [7, 8, 9, 10, 11, 12]
+    "supportedLightingValues": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
   },
   "layouts": {
-    "labels": ["Split Backspace", ["Bottom Row", "6.25U", "7U", "6U"]],
+    "labels": [
+      "Split Backspace",
+      [
+        "Bottom Row",
+        "6.25U",
+        "7U",
+        "6U"
+      ]
+    ],
     "keymap": [
       [
         {

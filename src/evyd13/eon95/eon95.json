@@ -2,14 +2,18 @@
   "name": "Evyd13 Eon95",
   "vendorId": "0x4705",
   "productId": "0x8A18",
-  "lighting": "none",
   "matrix": {
     "rows": 12,
     "cols": 10
   },
+  "lighting": "none",
   "layouts": {
     "labels": [
-      ["Enter Key", "ANSI", "ISO"],
+      [
+        "Enter Key",
+        "ANSI",
+        "ISO"
+      ],
       "Split Left Shift",
       "Split Backspace",
       [

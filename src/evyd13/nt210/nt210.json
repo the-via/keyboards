@@ -2,13 +2,17 @@
   "name": "Evyd13 nt210",
   "vendorId": "0x4705",
   "productId": "0xCC3F",
-  "lighting": "none",
   "matrix": {
     "rows": 6,
     "cols": 4
   },
+  "lighting": "none",
   "layouts": {
-    "labels": ["Split +", "Split Enter", "Split 0"],
+    "labels": [
+      "Split +",
+      "Split Enter",
+      "Split 0"
+    ],
     "keymap": [
       [
         {

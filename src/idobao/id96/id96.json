@@ -2,12 +2,34 @@
   "name": "IDOBAO ID96",
   "vendorId": "0x6964",
   "productId": "0x0096",
-  "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 12,
     "cols": 9
   },
+  "lighting": "qmk_backlight_rgblight",
   "layouts": {
+    "labels": [
+      "Split Backspace",
+      "Split Numpad +",
+      "Split Numpad Enter",
+      "ISO left shift",
+      "Large Numpad 0",
+      "Full Size Right Shift",
+      [
+        "Bottom Row",
+        "1u Bottom Row",
+        "Standard with arrow keys",
+        "Standard 1.25u bottom row",
+        "7u Spacebar with arrow keys",
+        "7u Spacebar with 1.25u right",
+        "7u Spacebar & 1u right",
+        "7u Spacebar standard",
+        "7u Spacebar standard & 1u right",
+        "6u Spacebar with arrow keys",
+        "6u Spacebar & 1u right",
+        "6u Spacebar &1.25u right"
+      ]
+    ],
     "keymap": [
       [
         {
@@ -583,28 +605,6 @@
           "w": 1.25
         },
         "0,3\n\n\n6,10"
-      ]
-    ],
-    "labels": [
-      "Split Backspace",
-      "Split Numpad +",
-      "Split Numpad Enter",
-      "ISO left shift",
-      "Large Numpad 0",
-      "Full Size Right Shift",
-      [
-        "Bottom Row",
-        "1u Bottom Row",
-        "Standard with arrow keys",
-        "Standard 1.25u bottom row",
-        "7u Spacebar with arrow keys",
-        "7u Spacebar with 1.25u right",
-        "7u Spacebar & 1u right",
-        "7u Spacebar standard",
-        "7u Spacebar standard & 1u right",
-        "6u Spacebar with arrow keys",
-        "6u Spacebar & 1u right",
-        "6u Spacebar &1.25u right"
       ]
     ]
   }

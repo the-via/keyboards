@@ -2,12 +2,15 @@
   "name": "selka40",
   "vendorId": "0xD772",
   "productId": "0x0012",
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 4,
     "cols": 13
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
+    "labels": [
+      "Full Backspace"
+    ],
     "keymap": [
       [
         {
@@ -26,7 +29,9 @@
         "0,1",
         {
           "x": 8.939999999999998,
-          "fa": [4]
+          "fa": [
+            4
+          ]
         },
         "0,10",
         "0,11\n\n\n0,0",
@@ -231,7 +236,6 @@
         },
         "3,7"
       ]
-    ],
-    "labels": ["Full Backspace"]
+    ]
   }
 }

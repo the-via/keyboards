@@ -2,10 +2,16 @@
   "name": "Nasu",
   "vendorId": "0x8968",
   "productId": "0x4E53",
+  "matrix": {
+    "rows": 5,
+    "cols": 15
+  },
   "lighting": "none",
-  "matrix": {"rows": 5, "cols": 15},
   "layouts": {
-    "labels": ["Split Backspace", "Split Right Shift"],
+    "labels": [
+      "Split Backspace",
+      "Split Right Shift"
+    ],
     "keymap": [
       [
         {

@@ -2,7 +2,10 @@
   "name": "YR80_Y&R",
   "vendorId": "0xAA96",
   "productId": "0xAA0D",
-  "lighting": "qmk_rgblight",
+  "matrix": {
+    "rows": 6,
+    "cols": 17
+  },
   "customKeycodes": [
     {
       "name": "Toggle WinKey Lock",
@@ -25,15 +28,18 @@
       "shortName": "Launch Pad"
     }
   ],
-  "matrix": {
-    "rows": 6,
-    "cols": 17
-  },
+  "lighting": "qmk_rgblight",
   "layouts": {
+    "labels": [
+      "ISO Enter",
+      "WKL Space"
+    ],
     "presets": {
-      "default": [0, 0]
+      "default": [
+        0,
+        0
+      ]
     },
-    "labels": ["ISO Enter", "WKL Space"],
     "keymap": [
       [
         {

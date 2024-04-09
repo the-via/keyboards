@@ -2,13 +2,13 @@
   "name": "MelGeek MOJO75 REV1",
   "vendorId": "0xEDED",
   "productId": "0x7075",
-  "lighting": {
-    "extends": "none",
-    "keycodes": "qmk"
-  },
   "matrix": {
     "rows": 6,
     "cols": 16
+  },
+  "lighting": {
+    "extends": "none",
+    "keycodes": "qmk"
   },
   "layouts": {
     "keymap": [

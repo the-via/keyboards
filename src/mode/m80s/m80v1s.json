@@ -2,13 +2,17 @@
   "name": "Mode Eighty M80S",
   "vendorId": "0x00DE",
   "productId": "0x0080",
-  "lighting": "none",
   "matrix": {
     "rows": 6,
     "cols": 16
   },
+  "lighting": "none",
   "layouts": {
-    "labels": ["Split backspace", "Split Right Shift", "7U bottom row"],
+    "labels": [
+      "Split backspace",
+      "Split Right Shift",
+      "7U bottom row"
+    ],
     "keymap": [
       [
         {

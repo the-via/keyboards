@@ -2,17 +2,21 @@
   "name": "Nightly Boards [n]60-S",
   "vendorId": "0xD812",
   "productId": "0x0007",
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 6,
     "cols": 14
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
     "labels": [
       "Split Backspace",
       "Encoder",
       "Split Right Shift",
-      ["Bottom Row", "6.25U", "7u"]
+      [
+        "Bottom Row",
+        "6.25U",
+        "7u"
+      ]
     ],
     "keymap": [
       [

@@ -2,10 +2,16 @@
   "name": "Rogue87",
   "vendorId": "0x4D4C",
   "productId": "0x8704",
+  "matrix": {
+    "rows": 6,
+    "cols": 17
+  },
   "lighting": "qmk_backlight",
-  "matrix": {"rows": 6, "cols": 17},
   "layouts": {
-    "labels": ["Enter ISO", "Left Shift ISO"],
+    "labels": [
+      "Enter ISO",
+      "Left Shift ISO"
+    ],
     "keymap": [
       [
         {

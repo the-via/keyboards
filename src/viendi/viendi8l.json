@@ -2,13 +2,25 @@
   "name": "Viendi8L",
   "vendorId": "0x8673",
   "productId": "0x0877",
+  "matrix": {
+    "rows": 6,
+    "cols": 18
+  },
   "lighting": "none",
-  "matrix": {"rows": 6, "cols": 18},
   "layouts": {
     "labels": [
       "Split backspace",
-      ["Left bottom row", "Arrows", "Modifiers"],
-      ["Right shift area", "Default", "Left justified", "Center justified"],
+      [
+        "Left bottom row",
+        "Arrows",
+        "Modifiers"
+      ],
+      [
+        "Right shift area",
+        "Default",
+        "Left justified",
+        "Center justified"
+      ],
       "ISO Enter",
       "Split left shift",
       "Mirrored numpad"
@@ -277,7 +289,11 @@
         },
         "2,3\n\n\n5,1"
       ],
-      ["2,0\n\n\n5,1", "2,1\n\n\n5,1", "2,2\n\n\n5,1"],
+      [
+        "2,0\n\n\n5,1",
+        "2,1\n\n\n5,1",
+        "2,2\n\n\n5,1"
+      ],
       [
         "3,0\n\n\n5,1",
         "3,1\n\n\n5,1",

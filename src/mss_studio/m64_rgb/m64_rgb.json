@@ -2,63 +2,206 @@
   "name": "M64 RGB",
   "vendorId": "0x4D4B",
   "productId": "0x6064",
+  "matrix": {
+    "rows": 5,
+    "cols": 14
+  },
   "lighting": {
     "extends": "qmk_rgblight",
     "underglowEffects": [
-      ["None", 0],
-      ["Solid Color", 1],
-      ["Alphas Mods", 1],
-      ["Gradient Up/Down", 1],
-      ["Gradient Left/Right", 1],
-      ["Breathing", 1],
-      ["Band Sat.", 1],
-      ["Band Val.", 1],
-      ["Pinwheel Sat.", 1],
-      ["Pinwheel Val.", 1],
-      ["Spiral Sat.", 1],
-      ["Spiral Val.", 1],
-      ["Cycle All", 1],
-      ["Cycle Left/Right", 1],
-      ["Cycle Up/Down", 1],
-      ["Rainbow Moving Chevron", 1],
-      ["Cycle Out/In", 1],
-      ["Cycle Out/In Dual", 1],
-      ["Cycle Pinwheel", 1],
-      ["Cycle Spiral", 1],
-      ["Dual Beacon", 1],
-      ["Rainbow Beacon", 1],
-      ["Rainbow Pinwheels", 1],
-      ["Raindrops", 1],
-      ["Jellybean Raindrops", 1],
-      ["Hue Breathing", 1],
-      ["Hue Pendulum", 1],
-      ["Hue Wave", 1],
-      ["Pixel Rain", 1],
-      ["Pixel Fractal", 1],
-      ["Typing Heatmap", 1],
-      ["Digital Rain", 1],
-      ["Solid Reactive Simple", 1],
-      ["Solid Reactive", 1],
-      ["Solid Reactive Wide", 1],
-      ["Solid Reactive Multi Wide", 1],
-      ["Solid Reactive Cross", 1],
-      ["Solid Reactive Multi Cross", 1],
-      ["Solid Reactive Nexus", 1],
-      ["Solid Reactive Multi Nexus", 1],
-      ["Splash", 1],
-      ["Multi Splash", 1],
-      ["Solid Splash", 1],
-      ["Solid Multi Splash", 1]
+      [
+        "None",
+        0
+      ],
+      [
+        "Solid Color",
+        1
+      ],
+      [
+        "Alphas Mods",
+        1
+      ],
+      [
+        "Gradient Up/Down",
+        1
+      ],
+      [
+        "Gradient Left/Right",
+        1
+      ],
+      [
+        "Breathing",
+        1
+      ],
+      [
+        "Band Sat.",
+        1
+      ],
+      [
+        "Band Val.",
+        1
+      ],
+      [
+        "Pinwheel Sat.",
+        1
+      ],
+      [
+        "Pinwheel Val.",
+        1
+      ],
+      [
+        "Spiral Sat.",
+        1
+      ],
+      [
+        "Spiral Val.",
+        1
+      ],
+      [
+        "Cycle All",
+        1
+      ],
+      [
+        "Cycle Left/Right",
+        1
+      ],
+      [
+        "Cycle Up/Down",
+        1
+      ],
+      [
+        "Rainbow Moving Chevron",
+        1
+      ],
+      [
+        "Cycle Out/In",
+        1
+      ],
+      [
+        "Cycle Out/In Dual",
+        1
+      ],
+      [
+        "Cycle Pinwheel",
+        1
+      ],
+      [
+        "Cycle Spiral",
+        1
+      ],
+      [
+        "Dual Beacon",
+        1
+      ],
+      [
+        "Rainbow Beacon",
+        1
+      ],
+      [
+        "Rainbow Pinwheels",
+        1
+      ],
+      [
+        "Raindrops",
+        1
+      ],
+      [
+        "Jellybean Raindrops",
+        1
+      ],
+      [
+        "Hue Breathing",
+        1
+      ],
+      [
+        "Hue Pendulum",
+        1
+      ],
+      [
+        "Hue Wave",
+        1
+      ],
+      [
+        "Pixel Rain",
+        1
+      ],
+      [
+        "Pixel Fractal",
+        1
+      ],
+      [
+        "Typing Heatmap",
+        1
+      ],
+      [
+        "Digital Rain",
+        1
+      ],
+      [
+        "Solid Reactive Simple",
+        1
+      ],
+      [
+        "Solid Reactive",
+        1
+      ],
+      [
+        "Solid Reactive Wide",
+        1
+      ],
+      [
+        "Solid Reactive Multi Wide",
+        1
+      ],
+      [
+        "Solid Reactive Cross",
+        1
+      ],
+      [
+        "Solid Reactive Multi Cross",
+        1
+      ],
+      [
+        "Solid Reactive Nexus",
+        1
+      ],
+      [
+        "Solid Reactive Multi Nexus",
+        1
+      ],
+      [
+        "Splash",
+        1
+      ],
+      [
+        "Multi Splash",
+        1
+      ],
+      [
+        "Solid Splash",
+        1
+      ],
+      [
+        "Solid Multi Splash",
+        1
+      ]
     ],
-    "supportedLightingValues": [128, 129, 131]
+    "supportedLightingValues": [
+      128,
+      129,
+      131
+    ]
   },
-  "matrix": {"rows": 5, "cols": 14},
   "layouts": {
     "keymap": [
       [
-        {"c": "#777777"},
+        {
+          "c": "#777777"
+        },
         "0,0",
-        {"c": "#cccccc"},
+        {
+          "c": "#cccccc"
+        },
         "0,1",
         "0,2",
         "0,3",
@@ -71,13 +214,20 @@
         "0,10",
         "0,11",
         "0,12",
-        {"c": "#aaaaaa", "w": 2},
+        {
+          "c": "#aaaaaa",
+          "w": 2
+        },
         "0,13"
       ],
       [
-        {"w": 1.5},
+        {
+          "w": 1.5
+        },
         "1,0",
-        {"c": "#cccccc"},
+        {
+          "c": "#cccccc"
+        },
         "1,1",
         "1,2",
         "1,3",
@@ -90,13 +240,20 @@
         "1,10",
         "1,11",
         "1,12",
-        {"c": "#aaaaaa", "w": 1.5},
+        {
+          "c": "#aaaaaa",
+          "w": 1.5
+        },
         "1,13"
       ],
       [
-        {"w": 1.75},
+        {
+          "w": 1.75
+        },
         "2,0",
-        {"c": "#cccccc"},
+        {
+          "c": "#cccccc"
+        },
         "2,1",
         "2,2",
         "2,3",
@@ -108,13 +265,21 @@
         "2,9",
         "2,10",
         "2,11",
-        {"c": "#777777", "w": 2.25},
+        {
+          "c": "#777777",
+          "w": 2.25
+        },
         "2,13"
       ],
       [
-        {"c": "#aaaaaa", "w": 2},
+        {
+          "c": "#aaaaaa",
+          "w": 2
+        },
         "3,0",
-        {"c": "#cccccc"},
+        {
+          "c": "#cccccc"
+        },
         "3,1",
         "3,2",
         "3,3",
@@ -125,26 +290,45 @@
         "3,8",
         "3,9",
         "3,10",
-        {"c": "#aaaaaa"},
+        {
+          "c": "#aaaaaa"
+        },
         "3,11",
-        {"c": "#777777"},
+        {
+          "c": "#777777"
+        },
         "3,12",
-        {"c": "#aaaaaa"},
+        {
+          "c": "#aaaaaa"
+        },
         "3,13"
       ],
       [
-        {"w": 1.25},
+        {
+          "w": 1.25
+        },
         "4,0",
-        {"w": 1.25},
+        {
+          "w": 1.25
+        },
         "4,1",
-        {"w": 1.25},
+        {
+          "w": 1.25
+        },
         "4,2",
-        {"c": "#777777", "w": 6.25},
+        {
+          "c": "#777777",
+          "w": 6.25
+        },
         "4,5",
-        {"c": "#aaaaaa"},
+        {
+          "c": "#aaaaaa"
+        },
         "4,9",
         "4,10",
-        {"c": "#777777"},
+        {
+          "c": "#777777"
+        },
         "4,11",
         "4,12",
         "4,13"

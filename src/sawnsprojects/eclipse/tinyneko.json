@@ -2,17 +2,22 @@
   "name": "tinyneko",
   "vendorId": "0x534C",
   "productId": "0xE260",
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 10,
     "cols": 7
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO Enter",
       "Split Left Shift",
-      ["Right Shift", "Standard", "Tsangan", "Arrow"],
+      [
+        "Right Shift",
+        "Standard",
+        "Tsangan",
+        "Arrow"
+      ],
       [
         "Spacebar",
         "Standard",
@@ -23,7 +28,6 @@
         "7u HHKB"
       ]
     ],
-
     "keymap": [
       [
         {

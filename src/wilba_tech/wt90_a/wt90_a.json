@@ -2,8 +2,11 @@
   "name": "wilba.tech WT90-A",
   "vendorId": "0x6582",
   "productId": "0x0027",
+  "matrix": {
+    "rows": 6,
+    "cols": 18
+  },
   "lighting": "qmk_rgblight",
-  "matrix": {"rows": 6, "cols": 18},
   "layouts": {
     "keymap": [
       [

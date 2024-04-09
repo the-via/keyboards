@@ -2,14 +2,21 @@
   "name": "Linworks Whale 75",
   "vendorId": "0x4C58",
   "productId": "0x0001",
+  "matrix": {
+    "rows": 6,
+    "cols": 16
+  },
   "lighting": "qmk_backlight_rgblight",
-  "matrix": {"rows": 6, "cols": 16},
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO Enter",
       "Split Left Shift",
-      ["Bottom Row", "ANSI", "WKL"]
+      [
+        "Bottom Row",
+        "ANSI",
+        "WKL"
+      ]
     ],
     "keymap": [
       [

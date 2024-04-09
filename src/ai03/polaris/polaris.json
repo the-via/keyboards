@@ -2,14 +2,33 @@
   "name": "Polaris",
   "vendorId": "0xa103",
   "productId": "0x0002",
+  "matrix": {
+    "rows": 5,
+    "cols": 14
+  },
   "lighting": "qmk_backlight_rgblight",
-  "matrix": {"rows": 5, "cols": 14},
   "layouts": {
     "labels": [
-      ["Backspace", "Unified", "Split"],
-      ["Enter", "ANSI", "ISO"],
-      ["Left Shift", "ANSI", "ISO"],
-      ["Right Shift", "Split", "Unified"],
+      [
+        "Backspace",
+        "Unified",
+        "Split"
+      ],
+      [
+        "Enter",
+        "ANSI",
+        "ISO"
+      ],
+      [
+        "Left Shift",
+        "ANSI",
+        "ISO"
+      ],
+      [
+        "Right Shift",
+        "Split",
+        "Unified"
+      ],
       [
         "Bottom Row",
         "Tsangan",

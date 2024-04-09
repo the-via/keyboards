@@ -2,10 +2,19 @@
   "name": "Mode SixtyFive HI Alpha",
   "vendorId": "0x00DE",
   "productId": "0x6574",
+  "matrix": {
+    "rows": 6,
+    "cols": 15
+  },
   "lighting": "none",
-  "matrix": {"rows": 6, "cols": 15},
   "layouts": {
-    "labels": [["Spacebar size", "6.25U", "7U"]],
+    "labels": [
+      [
+        "Spacebar size",
+        "6.25U",
+        "7U"
+      ]
+    ],
     "keymap": [
       [
         {

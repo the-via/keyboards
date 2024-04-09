@@ -2,11 +2,11 @@
   "name": "BM60v2_EC",
   "vendorId": "0x4B50",
   "productId": "0x1124",
-  "lighting": "none",
   "matrix": {
     "rows": 5,
     "cols": 14
   },
+  "lighting": "none",
   "layouts": {
     "keymap": [
       [

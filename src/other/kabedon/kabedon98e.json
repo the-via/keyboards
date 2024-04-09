@@ -2,33 +2,99 @@
   "name": "KabeDon 98e",
   "vendorId": "0x4B44",
   "productId": "0x3935",
+  "matrix": {
+    "rows": 12,
+    "cols": 11
+  },
   "lighting": {
     "extends": "qmk_rgblight",
     "underglowEffects": [
-      ["All Off", 0],
-      ["Solid Color", 1],
-      ["Solid - Highlighted Mods", 1],
-      ["Vertical Gradient", 1],
-      ["Horizontal Gradient", 1],
-      ["Breathing", 1],
-      ["Spiral - Saturation", 1],
-      ["Spiral - Brightness", 1],
-      ["Cycle All", 0],
-      ["Cycle Horizontal", 1],
-      ["Cycle Vertical", 1],
-      ["Rainbow Chevron", 1],
-      ["Cycle - In/Out", 1],
-      ["Cycle - In/Out Dual", 1],
-      ["Cycle - Pinwheel", 1],
-      ["Cycle - Spiral", 1],
-      ["Dual Beacon", 1],
-      ["Rainbow Beacon", 1],
-      ["Rainbow Pinwheels", 1],
-      ["Raindrops", 1],
-      ["Jellybean Raindrops", 1]
+      [
+        "All Off",
+        0
+      ],
+      [
+        "Solid Color",
+        1
+      ],
+      [
+        "Solid - Highlighted Mods",
+        1
+      ],
+      [
+        "Vertical Gradient",
+        1
+      ],
+      [
+        "Horizontal Gradient",
+        1
+      ],
+      [
+        "Breathing",
+        1
+      ],
+      [
+        "Spiral - Saturation",
+        1
+      ],
+      [
+        "Spiral - Brightness",
+        1
+      ],
+      [
+        "Cycle All",
+        0
+      ],
+      [
+        "Cycle Horizontal",
+        1
+      ],
+      [
+        "Cycle Vertical",
+        1
+      ],
+      [
+        "Rainbow Chevron",
+        1
+      ],
+      [
+        "Cycle - In/Out",
+        1
+      ],
+      [
+        "Cycle - In/Out Dual",
+        1
+      ],
+      [
+        "Cycle - Pinwheel",
+        1
+      ],
+      [
+        "Cycle - Spiral",
+        1
+      ],
+      [
+        "Dual Beacon",
+        1
+      ],
+      [
+        "Rainbow Beacon",
+        1
+      ],
+      [
+        "Rainbow Pinwheels",
+        1
+      ],
+      [
+        "Raindrops",
+        1
+      ],
+      [
+        "Jellybean Raindrops",
+        1
+      ]
     ]
   },
-  "matrix": {"rows": 12, "cols": 11},
   "layouts": {
     "keymap": [
       [

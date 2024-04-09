@@ -2,8 +2,11 @@
   "name": "wilba.tech WT60-H3",
   "vendorId": "0x6582",
   "productId": "0x002C",
+  "matrix": {
+    "rows": 5,
+    "cols": 14
+  },
   "lighting": "none",
-  "matrix": {"rows": 5, "cols": 14},
   "layouts": {
     "keymap": [
       [

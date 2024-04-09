@@ -2,9 +2,16 @@
   "name": "Sriwedari70",
   "vendorId": "0x414C",
   "productId": "0x0770",
-  "keycodes": ["qmk_lighting"],
-  "menus": ["qmk_rgblight"],
-  "matrix": {"rows": 5, "cols": 17},
+  "matrix": {
+    "rows": 5,
+    "cols": 17
+  },
+  "keycodes": [
+    "qmk_lighting"
+  ],
+  "menus": [
+    "qmk_rgblight"
+  ],
   "layouts": {
     "labels": [
       "Encoder 1",
