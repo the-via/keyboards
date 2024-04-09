@@ -2,10 +2,13 @@
   "name": "Microdox",
   "vendorId": "0xF7E0",
   "productId": "0x0412",
+  "matrix": {
+    "rows": 8,
+    "cols": 5
+  },
   "lighting": {
     "extends": "qmk_rgblight"
   },
-  "matrix": {"rows": 8, "cols": 5},
   "layouts": {
     "keymap": [
       [

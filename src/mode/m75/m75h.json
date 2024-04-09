@@ -2,10 +2,15 @@
   "name": "Mode SeventyFive H",
   "vendorId": "0x00DE",
   "productId": "0x7572",
+  "matrix": {
+    "rows": 7,
+    "cols": 16
+  },
   "lighting": "none",
-  "matrix": {"rows": 7, "cols": 16},
   "layouts": {
-    "labels": ["7U Spacebar"],
+    "labels": [
+      "7U Spacebar"
+    ],
     "keymap": [
       [
         {

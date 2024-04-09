@@ -2,11 +2,11 @@
   "name": "Kangaroo Rev1",
   "vendorId": "0x5845",
   "productId": "0x524F",
-  "lighting": "none",
   "matrix": {
     "rows": 12,
     "cols": 11
   },
+  "lighting": "none",
   "layouts": {
     "labels": [
       "Split Backspace",

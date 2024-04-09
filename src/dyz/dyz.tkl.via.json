@@ -2,12 +2,28 @@
   "name": "dyz.tkl",
   "vendorId": "0xD772",
   "productId": "0x000C",
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 12,
     "cols": 9
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
+    "labels": [
+      [
+        "F Row",
+        "F12",
+        "F13"
+      ],
+      "Split Backspace",
+      "ISO Enter",
+      "Split LShift",
+      "Split RShift",
+      [
+        "Bottom Row",
+        "ANSI",
+        "Tsangan"
+      ]
+    ],
     "keymap": [
       [
         {
@@ -275,14 +291,6 @@
         },
         "10,7\n\n\n5,1"
       ]
-    ],
-    "labels": [
-      ["F Row", "F12", "F13"],
-      "Split Backspace",
-      "ISO Enter",
-      "Split LShift",
-      "Split RShift",
-      ["Bottom Row", "ANSI", "Tsangan"]
     ]
   }
 }

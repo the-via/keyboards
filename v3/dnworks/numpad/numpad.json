@@ -1,12 +1,12 @@
 {
-    "name": "dnworks Numpad rev1",
-    "vendorId": "0x4C23",
-    "productId": "0x2937",
-    "matrix": {
-      "rows": 7,
-      "cols": 4
-    },
-   "layouts": {
+  "name": "dnworks Numpad rev1",
+  "vendorId": "0x4C23",
+  "productId": "0x2937",
+  "matrix": {
+    "rows": 7,
+    "cols": 4
+  },
+  "layouts": {
     "labels": [
       "Top Left 2u",
       "Top Right 2u",

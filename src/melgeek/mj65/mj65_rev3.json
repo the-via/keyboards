@@ -2,13 +2,13 @@
   "name": "MelGeek MJ65 REV3",
   "vendorId": "0xEDED",
   "productId": "0x0065",
-  "lighting": {
-    "extends": "none",
-    "keycodes": "qmk"
-  },
   "matrix": {
     "rows": 5,
     "cols": 15
+  },
+  "lighting": {
+    "extends": "none",
+    "keycodes": "qmk"
   },
   "layouts": {
     "keymap": [

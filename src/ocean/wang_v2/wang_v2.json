@@ -2,8 +2,11 @@
   "name": "Wang V2",
   "vendorId": "0x9624",
   "productId": "0x0004",
+  "matrix": {
+    "rows": 4,
+    "cols": 13
+  },
   "lighting": "none",
-  "matrix": {"rows": 4, "cols": 13},
   "layouts": {
     "keymap": [
       [

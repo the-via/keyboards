@@ -2,11 +2,11 @@
   "name": "Z40 Ortho",
   "vendorId": "0x8490",
   "productId": "0x2801",
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 4,
     "cols": 12
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
     "keymap": [
       [
@@ -57,7 +57,9 @@
         "3,2",
         "3,3",
         "3,4",
-        {"w": 2},
+        {
+          "w": 2
+        },
         "3,5",
         "3,7",
         "3,8",

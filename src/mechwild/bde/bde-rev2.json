@@ -2,10 +2,15 @@
   "name": "BIG DILL EXTENDED - Rev2",
   "vendorId": "0x6D77",
   "productId": "0x170A",
+  "matrix": {
+    "rows": 6,
+    "cols": 7
+  },
   "lighting": "qmk_rgblight",
-  "matrix": {"rows": 6, "cols": 7},
   "layouts": {
-    "labels": ["Encoder"],
+    "labels": [
+      "Encoder"
+    ],
     "keymap": [
       [
         "0,0",
@@ -34,35 +39,53 @@
         "1,6",
         "4,6",
         "4,5",
-        {"c": "#aaaaaa"},
+        {
+          "c": "#aaaaaa"
+        },
         "4,4",
-        {"c": "#cccccc"},
+        {
+          "c": "#cccccc"
+        },
         "4,3",
         "4,2",
         "4,1",
-        {"c": "#777777"},
+        {
+          "c": "#777777"
+        },
         "4,0"
       ],
       [
-        {"c": "#cccccc"},
+        {
+          "c": "#cccccc"
+        },
         "2,0",
         "2,1",
         "2,2",
         "2,3",
-        {"c": "#aaaaaa"},
+        {
+          "c": "#aaaaaa"
+        },
         "2,4",
         "2,5",
-        {"c": "#cccccc"},
+        {
+          "c": "#cccccc"
+        },
         "2,6",
         "5,6",
         "5,5",
-        {"c": "#777777"},
+        {
+          "c": "#777777"
+        },
         "5,4",
-        {"c": "#cccccc"},
+        {
+          "c": "#cccccc"
+        },
         "5,3",
         "5,2",
         "5,1",
-        {"c": "#777777"},
+        {
+          "c": "#777777"
+        },
         "5,0"
       ]
     ]

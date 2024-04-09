@@ -2,14 +2,21 @@
   "name": "Portal 66",
   "vendorId": "0x504C",
   "productId": "0x5066",
+  "matrix": {
+    "rows": 5,
+    "cols": 16
+  },
   "lighting": "none",
-  "matrix": {"rows": 5, "cols": 16},
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO Enter",
       "Split Left Shift",
-      ["Bottom Row", "ANSI", "Tsangan"]
+      [
+        "Bottom Row",
+        "ANSI",
+        "Tsangan"
+      ]
     ],
     "keymap": [
       [

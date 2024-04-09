@@ -2,19 +2,25 @@
   "name": "NZ67V2_Y&R",
   "vendorId": "0xAA96",
   "productId": "0xAA83",
-  "lighting": {
-    "extends": "none",
-    "keycodes": "qmk"
-  },
   "matrix": {
     "rows": 5,
     "cols": 15
   },
+  "lighting": {
+    "extends": "none",
+    "keycodes": "qmk"
+  },
   "layouts": {
+    "labels": [
+      "Split Space",
+      "Encoder"
+    ],
     "presets": {
-      "default": [0, 0]
+      "default": [
+        0,
+        0
+      ]
     },
-    "labels": ["Split Space", "Encoder"],
     "keymap": [
       [
         {

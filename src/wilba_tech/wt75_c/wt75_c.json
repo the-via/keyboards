@@ -2,10 +2,20 @@
   "name": "wilba.tech WT75-C",
   "vendorId": "0x6582",
   "productId": "0x075c",
+  "matrix": {
+    "rows": 6,
+    "cols": 16
+  },
   "lighting": "wt_mono_backlight",
-  "matrix": {"rows": 6, "cols": 16},
   "layouts": {
-    "labels": ["Split Backspace", ["Bottom Row", "6U", "6.25U"]],
+    "labels": [
+      "Split Backspace",
+      [
+        "Bottom Row",
+        "6U",
+        "6.25U"
+      ]
+    ],
     "keymap": [
       [
         {

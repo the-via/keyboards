@@ -1,16 +1,20 @@
 {
   "name": "CMM.Studio_Saka68",
-
   "vendorId": "0x434D",
-
   "productId": "0x5348",
-
+  "matrix": {
+    "rows": 5,
+    "cols": 16
+  },
   "lighting": "none",
-
-  "matrix": {"rows": 5, "cols": 16},
-
   "layouts": {
-    "labels": [["Layout", "ANSI", "ISO"]],
+    "labels": [
+      [
+        "Layout",
+        "ANSI",
+        "ISO"
+      ]
+    ],
     "keymap": [
       [
         {
@@ -143,7 +147,6 @@
           "x": -4.5,
           "c": "#cccccc"
         },
-
         "3,2",
         "3,3",
         "3,4",

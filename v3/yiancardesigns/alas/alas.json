@@ -2,14 +2,21 @@
   "name": "Alas",
   "vendorId": "0x8968",
   "productId": "0x414C",
-  "matrix": {"rows": 5, "cols": 14},
+  "matrix": {
+    "rows": 5,
+    "cols": 14
+  },
   "layouts": {
     "labels": [
       "Split Backspace",
       "Split Left Shift",
       "Split Right Shift",
       "ISO Enter",
-      ["Bottom Row", "6.25U", "7U"]
+      [
+        "Bottom Row",
+        "6.25U",
+        "7U"
+      ]
     ],
     "keymap": [
       [

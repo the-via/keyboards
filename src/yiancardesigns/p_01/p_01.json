@@ -2,8 +2,11 @@
   "name": "P.01",
   "vendorId": "0x8968",
   "productId": "0x5031",
+  "matrix": {
+    "rows": 6,
+    "cols": 18
+  },
   "lighting": "qmk_rgblight",
-  "matrix": {"rows": 6, "cols": 18},
   "layouts": {
     "labels": [
       "Split Backspace",
@@ -11,7 +14,11 @@
       "Split Right Shift",
       "Split Left Shift",
       "Encoder",
-      ["Bottom Row", "6.25U", "7U"]
+      [
+        "Bottom Row",
+        "6.25U",
+        "7U"
+      ]
     ],
     "keymap": [
       [

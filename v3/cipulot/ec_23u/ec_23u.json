@@ -2,6 +2,10 @@
   "name": "EC 23U",
   "vendorId": "0x6369",
   "productId": "0x6B95",
+  "matrix": {
+    "rows": 4,
+    "cols": 6
+  },
   "keycodes": [
     "qmk_lighting"
   ],
@@ -180,10 +184,6 @@
       ]
     }
   ],
-  "matrix": {
-    "rows": 4,
-    "cols": 6
-  },
   "layouts": {
     "labels": [
       "Split Numpad +",

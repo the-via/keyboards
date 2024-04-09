@@ -2,6 +2,10 @@
   "name": "Olly Orion",
   "vendorId": "0x4D4C",
   "productId": "0xD870",
+  "matrix": {
+    "rows": 6,
+    "cols": 17
+  },
   "menus": [
     {
       "label": "Lighting",
@@ -12,13 +16,24 @@
             {
               "label": "Brightness",
               "type": "range",
-              "options": [0, 255],
-              "content": ["id_qmk_rgblight_brightness", 2, 1]
+              "options": [
+                0,
+                255
+              ],
+              "content": [
+                "id_qmk_rgblight_brightness",
+                2,
+                1
+              ]
             },
             {
               "label": "Effect",
               "type": "dropdown",
-              "content": ["id_qmk_rgblight_effect", 2, 2],
+              "content": [
+                "id_qmk_rgblight_effect",
+                2,
+                2
+              ],
               "options": [
                 "All Off",
                 "Solid Color",
@@ -69,28 +84,47 @@
               "showIf": "{id_qmk_rgblight_effect} != 0",
               "label": "Effect Speed",
               "type": "range",
-              "options": [0, 3],
-              "content": ["id_qmk_rgblight_effect_speed", 2, 3]
+              "options": [
+                0,
+                3
+              ],
+              "content": [
+                "id_qmk_rgblight_effect_speed",
+                2,
+                3
+              ]
             },
             {
               "showIf": "{id_qmk_rgblight_effect} != 6 && {id_qmk_rgblight_effect} != 7 && {id_qmk_rgblight_effect} != 8 && {id_qmk_rgblight_effect} != 9 && {id_qmk_rgblight_effect} != 10 && {id_qmk_rgblight_effect} != 0 && {id_qmk_rgblight_effect} != 11 && {id_qmk_rgblight_effect} != 12 && {id_qmk_rgblight_effect} != 13 && {id_qmk_rgblight_effect} != 14 && {id_qmk_rgblight_effect} != 35",
               "label": "Color",
               "type": "color",
-              "content": ["id_qmk_rgblight_color", 2, 4]
+              "content": [
+                "id_qmk_rgblight_color",
+                2,
+                4
+              ]
             }
           ]
         }
       ]
     }
   ],
-  "matrix": {"rows": 6, "cols": 17},
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO Enter",
       "Left Shift ISO",
-      ["Right Shift", "ANSI Right Shift", "1u - 1.75u", "1.75u - 1u"],
-      ["Bottom Row", "Space 6.25U", "Space 7U"]
+      [
+        "Right Shift",
+        "ANSI Right Shift",
+        "1u - 1.75u",
+        "1.75u - 1u"
+      ],
+      [
+        "Bottom Row",
+        "Space 6.25U",
+        "Space 7U"
+      ]
     ],
     "keymap": [
       [

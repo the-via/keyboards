@@ -2,8 +2,11 @@
   "name": "Pisces",
   "vendorId": "0x4D4C",
   "productId": "0x6501",
+  "matrix": {
+    "rows": 5,
+    "cols": 15
+  },
   "lighting": "qmk_backlight_rgblight",
-  "matrix": {"rows": 5, "cols": 15},
   "layouts": {
     "labels": [
       "2U Back Space",

@@ -2,11 +2,18 @@
   "name": "Typ65+",
   "vendorId": "0x4B50",
   "productId": "0x065E",
+  "matrix": {
+    "rows": 5,
+    "cols": 16
+  },
   "lighting": "none",
-  "matrix": {"rows": 5, "cols": 16},
   "layouts": {
     "labels": [
-      ["Bottom row", "7u", "6.25u"],
+      [
+        "Bottom row",
+        "7u",
+        "6.25u"
+      ],
       "Split Backspace",
       "ISO Enter",
       "Split Left Shift"

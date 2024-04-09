@@ -2,60 +2,197 @@
   "name": "IF875",
   "vendorId": "0x4D4C",
   "productId": "0x0875",
+  "matrix": {
+    "rows": 6,
+    "cols": 17
+  },
   "lighting": {
     "extends": "qmk_rgblight",
     "underglowEffects": [
-      ["None", 0],
-      ["SOLID ALL", 1],
-      ["SOLID ESC", 1],
-      ["SOLID F13", 1],
-      ["SOLID CLUSTER", 1],
-      ["BREATHING", 1],
-      ["BREATHING ESC", 1],
-      ["BREATHING F13", 1],
-      ["BREATHING CLUSTER", 1],
-      ["BAND VAL ALL", 1],
-      ["BAND VAL ESC", 1],
-      ["BAND VAL F13", 1],
-      ["BAND VAL CLUSTER", 1],
-      ["CYCLE UP DOWN ALL", 1],
-      ["CYCLE UP DOWN ESC", 1],
-      ["CYCLE UP DOWN F13", 1],
-      ["CYCLE UP DOWN CLUSTER", 1],
-      ["CYCLE OUT IN DUAL ALL", 1],
-      ["CYCLE OUT IN DUAL ESC", 1],
-      ["CYCLE OUT IN DUAL F13", 1],
-      ["CYCLE OUT IN DUAL CLUSTER", 1],
-      ["MOVING CHEVRON ALL", 1],
-      ["MOVING CHEVRON ESC", 1],
-      ["MOVING CHEVRON F13", 1],
-      ["MOVING CHEVRON CLUSTER", 1],
-      ["CYCLE PINWHEEL ALL", 1],
-      ["CYCLE_PINWHEEL ESC", 1],
-      ["CYCLE_PINWHEEL F13", 1],
-      ["CYCLE_PINWHEEL CLUSTER", 1],
-      ["RAINBOW BEACON ALL", 1],
-      ["RAINBOW BEACON ESC", 1],
-      ["RAINBOW BEACON F13", 1],
-      ["RAINBOW BEACON CLUSTER", 1],
-      ["RAINDROPS ALL", 1],
-      ["RAINDROPS ESC", 1],
-      ["RAINDROPS F13", 1],
-      ["RAINDROPS CLUSTER", 1],
-      ["PIXEL FRACTAL", 1],
-      ["PIXEL RAIN", 1]
+      [
+        "None",
+        0
+      ],
+      [
+        "SOLID ALL",
+        1
+      ],
+      [
+        "SOLID ESC",
+        1
+      ],
+      [
+        "SOLID F13",
+        1
+      ],
+      [
+        "SOLID CLUSTER",
+        1
+      ],
+      [
+        "BREATHING",
+        1
+      ],
+      [
+        "BREATHING ESC",
+        1
+      ],
+      [
+        "BREATHING F13",
+        1
+      ],
+      [
+        "BREATHING CLUSTER",
+        1
+      ],
+      [
+        "BAND VAL ALL",
+        1
+      ],
+      [
+        "BAND VAL ESC",
+        1
+      ],
+      [
+        "BAND VAL F13",
+        1
+      ],
+      [
+        "BAND VAL CLUSTER",
+        1
+      ],
+      [
+        "CYCLE UP DOWN ALL",
+        1
+      ],
+      [
+        "CYCLE UP DOWN ESC",
+        1
+      ],
+      [
+        "CYCLE UP DOWN F13",
+        1
+      ],
+      [
+        "CYCLE UP DOWN CLUSTER",
+        1
+      ],
+      [
+        "CYCLE OUT IN DUAL ALL",
+        1
+      ],
+      [
+        "CYCLE OUT IN DUAL ESC",
+        1
+      ],
+      [
+        "CYCLE OUT IN DUAL F13",
+        1
+      ],
+      [
+        "CYCLE OUT IN DUAL CLUSTER",
+        1
+      ],
+      [
+        "MOVING CHEVRON ALL",
+        1
+      ],
+      [
+        "MOVING CHEVRON ESC",
+        1
+      ],
+      [
+        "MOVING CHEVRON F13",
+        1
+      ],
+      [
+        "MOVING CHEVRON CLUSTER",
+        1
+      ],
+      [
+        "CYCLE PINWHEEL ALL",
+        1
+      ],
+      [
+        "CYCLE_PINWHEEL ESC",
+        1
+      ],
+      [
+        "CYCLE_PINWHEEL F13",
+        1
+      ],
+      [
+        "CYCLE_PINWHEEL CLUSTER",
+        1
+      ],
+      [
+        "RAINBOW BEACON ALL",
+        1
+      ],
+      [
+        "RAINBOW BEACON ESC",
+        1
+      ],
+      [
+        "RAINBOW BEACON F13",
+        1
+      ],
+      [
+        "RAINBOW BEACON CLUSTER",
+        1
+      ],
+      [
+        "RAINDROPS ALL",
+        1
+      ],
+      [
+        "RAINDROPS ESC",
+        1
+      ],
+      [
+        "RAINDROPS F13",
+        1
+      ],
+      [
+        "RAINDROPS CLUSTER",
+        1
+      ],
+      [
+        "PIXEL FRACTAL",
+        1
+      ],
+      [
+        "PIXEL RAIN",
+        1
+      ]
     ],
-    "supportedLightingValues": [128, 129, 131]
+    "supportedLightingValues": [
+      128,
+      129,
+      131
+    ]
   },
-  "matrix": {"rows": 6, "cols": 17},
   "layouts": {
     "labels": [
       "F13",
       "Split Backspace",
-      ["Enter", "ANSI Enter", "ISO Enter"],
+      [
+        "Enter",
+        "ANSI Enter",
+        "ISO Enter"
+      ],
       "Left Shift ISO",
-      ["Right Shift", "ANSI Right Shift", "1u - 1.75u", "1.75u - 1u"],
-      ["Bottom Row", "Space 6.25U", "Space 7U"]
+      [
+        "Right Shift",
+        "ANSI Right Shift",
+        "1u - 1.75u",
+        "1.75u - 1u"
+      ],
+      [
+        "Bottom Row",
+        "Space 6.25U",
+        "Space 7U"
+      ]
     ],
     "keymap": [
       [

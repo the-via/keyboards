@@ -2,11 +2,11 @@
   "name": "TKLFRLNRLMLAO",
   "vendorId": "0x4a4c",
   "productId": "0x0000",
-  "lighting": "none",
   "matrix": {
     "rows": 4,
     "cols": 10
   },
+  "lighting": "none",
   "layouts": {
     "labels": [
       "ISO Enter",

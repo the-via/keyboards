@@ -2,8 +2,11 @@
   "name": "LFK78",
   "vendorId": "0x4C46",
   "productId": "0x3738",
+  "matrix": {
+    "rows": 5,
+    "cols": 18
+  },
   "lighting": "qmk_backlight",
-  "matrix": {"rows": 5, "cols": 18},
   "layouts": {
     "keymap": [
       [

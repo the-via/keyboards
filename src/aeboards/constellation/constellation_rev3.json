@@ -2,13 +2,15 @@
   "name": "AEBoards Constellation Rev3",
   "vendorId": "0x4145",
   "productId": "0x065D",
-  "lighting": "none",
   "matrix": {
     "rows": 5,
     "cols": 15
   },
+  "lighting": "none",
   "layouts": {
-    "labels": ["Split Backspace"],
+    "labels": [
+      "Split Backspace"
+    ],
     "keymap": [
       [
         {

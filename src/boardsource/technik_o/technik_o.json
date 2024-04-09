@@ -2,8 +2,14 @@
   "name": "Technik-O",
   "vendorId": "0x4273",
   "productId": "0x0079",
-  "lighting": {"extends": "none", "keycodes": "qmk"},
-  "matrix": {"rows": 4, "cols": 12},
+  "matrix": {
+    "rows": 4,
+    "cols": 12
+  },
+  "lighting": {
+    "extends": "none",
+    "keycodes": "qmk"
+  },
   "layouts": {
     "keymap": [
       [

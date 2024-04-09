@@ -2,19 +2,25 @@
   "name": "S7 Elephant Rev2",
   "vendorId": "0xA13B",
   "productId": "0x0008",
-  "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 5,
     "cols": 16
   },
+  "lighting": "qmk_backlight_rgblight",
   "layouts": {
     "labels": [
       "Split Backspace",
       "Enter Key",
       "Split Left Shift",
-      ["Bottom Row", "3x1u", "2x1.25u", "2x1.5u", "2x1.5u by 2x1.5u", "1u 1.5u"]
+      [
+        "Bottom Row",
+        "3x1u",
+        "2x1.25u",
+        "2x1.5u",
+        "2x1.5u by 2x1.5u",
+        "1u 1.5u"
+      ]
     ],
-
     "keymap": [
       [
         {

@@ -1,19 +1,26 @@
 {
   "name": "SakuraWorkshop Fuji75 Hotswap",
-
   "vendorId": "0x5357",
   "productId": "0x4638",
-  "keycodes": ["qmk_lighting"],
-  "menus":
-  [
+  "matrix": {
+    "rows": 6,
+    "cols": 15
+  },
+  "keycodes": [
+    "qmk_lighting"
+  ],
+  "menus": [
     "qmk_rgblight"
-    ],
-  "matrix": { "rows": 6, "cols": 15 },
+  ],
   "layouts": {
-    "labels":[
+    "labels": [
       "Split Backspace",
-      ["Bottom Row", "WK 6.25U", "Tsangan 7U"]
-	    ],
+      [
+        "Bottom Row",
+        "WK 6.25U",
+        "Tsangan 7U"
+      ]
+    ],
     "keymap": [
       [
         {

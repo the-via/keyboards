@@ -2,15 +2,22 @@
   "name": "Foundation",
   "vendorId": "0x4D4C",
   "productId": "0x0180",
+  "matrix": {
+    "rows": 5,
+    "cols": 18
+  },
   "lighting": "qmk_rgblight",
-  "matrix": {"rows": 5, "cols": 18},
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO Enter",
       "Split Left Shift",
       "Split Right Shift",
-      ["Bottom Row", "6.25U", "7U"],
+      [
+        "Bottom Row",
+        "6.25U",
+        "7U"
+      ],
       "Encoder"
     ],
     "keymap": [

@@ -2,12 +2,27 @@
   "name": "Synthesis60 rev2",
   "vendorId": "0xD772",
   "productId": "0x0017",
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 5,
     "cols": 14
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
+    "labels": [
+      "Full Backspace",
+      [
+        "Right Shift",
+        "Split",
+        "Full",
+        "Arrow"
+      ],
+      "Split Right Space",
+      [
+        "Right Ctrl",
+        "1.5u",
+        "Arrow"
+      ]
+    ],
     "keymap": [
       [
         {
@@ -290,12 +305,6 @@
         },
         "4,8\n\n\n2,1"
       ]
-    ],
-    "labels": [
-      "Full Backspace",
-      ["Right Shift", "Split", "Full", "Arrow"],
-      "Split Right Space",
-      ["Right Ctrl", "1.5u", "Arrow"]
     ]
   }
 }

@@ -2,13 +2,16 @@
   "name": "Foundation Gamma",
   "vendorId": "0x525C",
   "productId": "0xE3EB",
-  "lighting": "none",
   "matrix": {
     "rows": 6,
     "cols": 17
   },
+  "lighting": "none",
   "layouts": {
-    "labels": ["Split Backspace", "Split rShift"],
+    "labels": [
+      "Split Backspace",
+      "Split rShift"
+    ],
     "keymap": [
       [
         {

@@ -2,9 +2,16 @@
   "name": "nemui65",
   "vendorId": "0x807C",
   "productId": "0x0005",
-  "keycodes": ["qmk_lighting"],
-  "menus": ["qmk_rgblight"],
-  "matrix": {"rows": 5, "cols": 15},
+  "matrix": {
+    "rows": 5,
+    "cols": 15
+  },
+  "keycodes": [
+    "qmk_lighting"
+  ],
+  "menus": [
+    "qmk_rgblight"
+  ],
   "layouts": {
     "keymap": [
       [

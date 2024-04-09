@@ -2,8 +2,11 @@
   "name": "Wazowski 23-19 rev0",
   "vendorId": "0x4B5A",
   "productId": "0x53FC",
+  "matrix": {
+    "rows": 3,
+    "cols": 5
+  },
   "lighting": "none",
-  "matrix": {"rows": 3, "cols": 5},
   "layouts": {
     "keymap": [
       [

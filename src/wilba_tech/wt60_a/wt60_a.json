@@ -2,13 +2,22 @@
   "name": "wilba.tech WT60-A",
   "vendorId": "0x6582",
   "productId": "0x060a",
+  "matrix": {
+    "rows": 5,
+    "cols": 14
+  },
   "lighting": "wt_mono_backlight",
-  "matrix": {"rows": 5, "cols": 14},
   "layouts": {
     "labels": [
       "Split Backspace",
       "Split Right Shift",
-      ["Bottom Row", "6.25U", "7U", "7U WKL", "6U"]
+      [
+        "Bottom Row",
+        "6.25U",
+        "7U",
+        "7U WKL",
+        "6U"
+      ]
     ],
     "keymap": [
       [

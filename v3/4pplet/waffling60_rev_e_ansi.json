@@ -2,9 +2,16 @@
   "name": "waffling60 Rev E ANSI",
   "vendorId": "0x4444",
   "productId": "0x0015",
-  "keycodes": ["qmk_lighting"],
-  "menus": ["qmk_rgblight"],
-  "matrix": {"rows": 5, "cols": 14},
+  "matrix": {
+    "rows": 5,
+    "cols": 14
+  },
+  "keycodes": [
+    "qmk_lighting"
+  ],
+  "menus": [
+    "qmk_rgblight"
+  ],
   "layouts": {
     "labels": [
       [
@@ -13,11 +20,20 @@
         "Split",
         "Encoder"
       ],
-      ["Modifiers", "WK", "WKL", "HHKB"],
-      ["Spacebar", "7U", "Split Space", "10U"]
+      [
+        "Modifiers",
+        "WK",
+        "WKL",
+        "HHKB"
+      ],
+      [
+        "Spacebar",
+        "7U",
+        "Split Space",
+        "10U"
+      ]
     ],
-    "keymap": 
-    [
+    "keymap": [
       [
         {
           "c": "#aaaaaa"
@@ -232,6 +248,5 @@
         "4,13\n\n\n1,2"
       ]
     ]
-
   }
 }

@@ -2,9 +2,14 @@
   "name": "Efreet",
   "vendorId": "0x534F",
   "productId": "0x0001",
-  "matrix": {"rows": 8, "cols": 6},
+  "matrix": {
+    "rows": 8,
+    "cols": 6
+  },
   "layouts": {
-    "labels": ["2U Spacebar"],
+    "labels": [
+      "2U Spacebar"
+    ],
     "keymap": [
       [
         "1,0",
@@ -62,7 +67,14 @@
         "7,5",
         "6,5"
       ],
-      [{"y": 0.25, "x": 5, "w": 2}, "6,2\n\n\n0,1"]
+      [
+        {
+          "y": 0.25,
+          "x": 5,
+          "w": 2
+        },
+        "6,2\n\n\n0,1"
+      ]
     ]
   }
 }

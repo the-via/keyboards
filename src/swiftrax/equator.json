@@ -2,15 +2,23 @@
   "name": "Equator",
   "vendorId": "0x04D8",
   "productId": "0xE984",
-  "lighting": "none",
   "matrix": {
     "rows": 5,
     "cols": 14
   },
+  "lighting": "none",
   "layouts": {
     "labels": [
-      ["Backspace", "Unified", "Split"],
-      ["Right Shift", "Unified", "Split"]
+      [
+        "Backspace",
+        "Unified",
+        "Split"
+      ],
+      [
+        "Right Shift",
+        "Unified",
+        "Split"
+      ]
     ],
     "keymap": [
       [

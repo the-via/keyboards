@@ -2,15 +2,23 @@
   "name": "Rapid Capture Plan",
   "vendorId": "0x04D8",
   "productId": "0xEB59",
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 10,
     "cols": 8
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
     "labels": [
-      ["Enter", "ISO", "ANSI"],
-      ["Right Shift", "Unified", "Split"]
+      [
+        "Enter",
+        "ISO",
+        "ANSI"
+      ],
+      [
+        "Right Shift",
+        "Unified",
+        "Split"
+      ]
     ],
     "keymap": [
       [

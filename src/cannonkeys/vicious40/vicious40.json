@@ -2,10 +2,15 @@
   "name": "Vicious40",
   "vendorId": "0xca04",
   "productId": "0x0004",
+  "matrix": {
+    "rows": 4,
+    "cols": 12
+  },
   "lighting": "none",
-  "matrix": {"rows": 4, "cols": 12},
   "layouts": {
-    "labels": ["6.25U Spacebar"],
+    "labels": [
+      "6.25U Spacebar"
+    ],
     "keymap": [
       [
         {

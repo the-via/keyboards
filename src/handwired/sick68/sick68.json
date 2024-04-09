@@ -2,11 +2,11 @@
   "name": "sick68",
   "vendorId": "0x5E68",
   "productId": "0x5F00",
-  "lighting": "none",
   "matrix": {
     "rows": 5,
     "cols": 15
   },
+  "lighting": "none",
   "layouts": {
     "keymap": [
       [

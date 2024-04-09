@@ -2,7 +2,10 @@
   "name": "kuku65",
   "vendorId": "0x5453",
   "productId": "0x0052",
-  "matrix": {"rows": 5, "cols": 15},
+  "matrix": {
+    "rows": 5,
+    "cols": 15
+  },
   "lighting": "none",
   "layouts": {
     "keymap": [
