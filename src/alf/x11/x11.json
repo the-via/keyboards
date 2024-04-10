@@ -2,16 +2,20 @@
   "name": "ALF X1.1",
   "vendorId": "0x4146",
   "productId": "0x0001",
-  "lighting": "qmk_backlight",
   "matrix": {
     "rows": 7,
     "cols": 13
   },
+  "lighting": "qmk_backlight",
   "layouts": {
     "labels": [
       "ISO Enter",
       "Split Right Shift",
-      ["Bottom Row", "7u", "6.25u / Extra Mod"]
+      [
+        "Bottom Row",
+        "7u",
+        "6.25u / Extra Mod"
+      ]
     ],
     "keymap": [
       [

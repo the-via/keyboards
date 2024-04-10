@@ -2,14 +2,19 @@
   "name": "Dango40",
   "vendorId": "0x04D8",
   "productId": "0xE9B9",
-  "lighting": "none",
   "matrix": {
     "rows": 4,
     "cols": 13
   },
+  "lighting": "none",
   "layouts": {
     "labels": [
-      ["Bottom Row", "Split Space", "Full Space", "Full Space + Arrows"]
+      [
+        "Bottom Row",
+        "Split Space",
+        "Full Space",
+        "Full Space + Arrows"
+      ]
     ],
     "keymap": [
       [

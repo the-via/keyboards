@@ -2,11 +2,11 @@
   "name": "UC-1",
   "vendorId": "0x4d65",
   "productId": "0x5543",
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 2,
     "cols": 2
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
     "keymap": [
       [

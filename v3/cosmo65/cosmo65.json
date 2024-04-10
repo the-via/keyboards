@@ -2,14 +2,22 @@
   "name": "Cosmo65",
   "vendorId": "0x7071",
   "productId": "0x6331",
-  "keycodes": ["qmk_lighting"],
-  "menus": ["qmk_rgblight"],
   "matrix": {
     "rows": 5,
     "cols": 14
   },
+  "keycodes": [
+    "qmk_lighting"
+  ],
+  "menus": [
+    "qmk_rgblight"
+  ],
   "layouts": {
-    "labels": ["ISO Enter", "Split Spacebar", "Split Left Shift"],
+    "labels": [
+      "ISO Enter",
+      "Split Spacebar",
+      "Split Left Shift"
+    ],
     "keymap": [
       [
         {

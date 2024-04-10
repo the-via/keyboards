@@ -2,14 +2,27 @@
   "name": "CherryB.Studio CB87v2",
   "vendorId": "0x4342",
   "productId": "0x8788",
+  "matrix": {
+    "rows": 10,
+    "cols": 10
+  },
   "lighting": "qmk_backlight_rgblight",
-  "matrix": {"rows": 10, "cols": 10},
   "layouts": {
     "labels": [
       "Split Backspace",
-      ["Enter type", "Normal Enter", "ISO Enter", "Big ass Enter"],
+      [
+        "Enter type",
+        "Normal Enter",
+        "ISO Enter",
+        "Big ass Enter"
+      ],
       "Split Left Shift",
-      ["Right Shift", "Normal Shift", "Split 1U/1.75U", "Split 1.75U/1U"],
+      [
+        "Right Shift",
+        "Normal Shift",
+        "Split 1U/1.75U",
+        "Split 1.75U/1U"
+      ],
       [
         "Bottom Row",
         "1.25U Mods with 6.25U Spacebar",

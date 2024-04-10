@@ -2,11 +2,13 @@
   "name": "Tinny50 RGB",
   "vendorId": "0x7A79",
   "productId": "0x5450",
-  "menus": ["qmk_rgb_matrix"],
   "matrix": {
     "rows": 5,
     "cols": 12
   },
+  "menus": [
+    "qmk_rgb_matrix"
+  ],
   "layouts": {
     "labels": [],
     "keymap": [

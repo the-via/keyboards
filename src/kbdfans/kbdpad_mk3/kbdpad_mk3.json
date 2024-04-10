@@ -2,11 +2,11 @@
   "name": "KBDPad MK3",
   "vendorId": "0x4B42",
   "productId": "0x0012",
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 6,
     "cols": 4
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
     "keymap": [
       [

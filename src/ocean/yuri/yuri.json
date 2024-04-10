@@ -2,8 +2,11 @@
   "name": "Yuri",
   "vendorId": "0x9624",
   "productId": "0x0003",
+  "matrix": {
+    "rows": 4,
+    "cols": 14
+  },
   "lighting": "none",
-  "matrix": {"rows": 4, "cols": 14},
   "layouts": {
     "keymap": [
       [

@@ -2,11 +2,11 @@
   "name": "Titan65",
   "vendorId": "0x5054",
   "productId": "0xBB91",
-  "lighting": "none",
   "matrix": {
     "rows": 5,
     "cols": 16
   },
+  "lighting": "none",
   "layouts": {
     "keymap": [
       [

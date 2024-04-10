@@ -2,10 +2,20 @@
   "name": "Bakeneko 65 V3",
   "vendorId": "0x3A0E",
   "productId": "0x4C83",
+  "matrix": {
+    "rows": 5,
+    "cols": 16
+  },
   "lighting": "none",
-  "matrix": {"rows": 5, "cols": 16},
   "layouts": {
-    "labels": ["Split Backspace", ["Bottom Row", "6.25U", "7U"]],
+    "labels": [
+      "Split Backspace",
+      [
+        "Bottom Row",
+        "6.25U",
+        "7U"
+      ]
+    ],
     "keymap": [
       [
         {

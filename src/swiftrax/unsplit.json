@@ -2,11 +2,11 @@
   "name": "UnSplit",
   "vendorId": "0x04D8",
   "productId": "0xEAB1",
-  "lighting": "none",
   "matrix": {
     "rows": 4,
     "cols": 12
   },
+  "lighting": "none",
   "layouts": {
     "keymap": [
       [

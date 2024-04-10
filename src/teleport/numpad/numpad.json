@@ -2,8 +2,11 @@
   "name": "tlprt NumPad",
   "vendorId": "0x7470",
   "productId": "0x0001",
+  "matrix": {
+    "rows": 5,
+    "cols": 4
+  },
   "lighting": "none",
-  "matrix": {"rows": 5, "cols": 4},
   "layouts": {
     "keymap": [
       [

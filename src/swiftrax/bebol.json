@@ -2,15 +2,20 @@
   "name": "Bebol",
   "vendorId": "0x04D8",
   "productId": "0xEAC4",
-  "lighting": "none",
   "matrix": {
     "rows": 5,
     "cols": 16
   },
+  "lighting": "none",
   "layouts": {
     "labels": [
       "Split Backspace",
-      ["Bottom Row", "7U", "6.25U - 1.5U - 1.5U", "6.25U - 1U - 1U - 1U"]
+      [
+        "Bottom Row",
+        "7U",
+        "6.25U - 1.5U - 1.5U",
+        "6.25U - 1U - 1U - 1U"
+      ]
     ],
     "keymap": [
       [

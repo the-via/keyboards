@@ -2,13 +2,20 @@
   "name": "Vertex",
   "vendorId": "0xA68C",
   "productId": "0x6B47",
-  "lighting": "none",
   "matrix": {
     "rows": 4,
     "cols": 12
   },
+  "lighting": "none",
   "layouts": {
-    "labels": ["Full backspace", ["Bottom Row", "8 keys", "10 keys"]],
+    "labels": [
+      "Full backspace",
+      [
+        "Bottom Row",
+        "8 keys",
+        "10 keys"
+      ]
+    ],
     "keymap": [
       [
         {

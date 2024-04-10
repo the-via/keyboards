@@ -2,10 +2,16 @@
   "name": "Romeo",
   "vendorId": "0x6B62",
   "productId": "0x4069",
+  "matrix": {
+    "rows": 4,
+    "cols": 12
+  },
   "lighting": "none",
-  "matrix": {"rows": 4, "cols": 12},
   "layouts": {
-    "labels": ["Split Left Shift", "Split Spacebar"],
+    "labels": [
+      "Split Left Shift",
+      "Split Spacebar"
+    ],
     "keymap": [
       [
         {

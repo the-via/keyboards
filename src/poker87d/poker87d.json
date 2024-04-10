@@ -2,12 +2,12 @@
   "name": "POKER-87D",
   "vendorId": "0x6D66",
   "productId": "0x087D",
-  "lighting": {
-    "extends": "qmk_rgblight"
-  },
   "matrix": {
     "rows": 6,
     "cols": 15
+  },
+  "lighting": {
+    "extends": "qmk_rgblight"
   },
   "layouts": {
     "keymap": [

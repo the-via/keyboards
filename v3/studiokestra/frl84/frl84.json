@@ -2,12 +2,21 @@
   "name": "FRL84",
   "vendorId": "0x7C10",
   "productId": "0x0F84",
-  "menus": ["qmk_rgblight"],
-  "matrix": {"rows": 10, "cols": 9},
+  "matrix": {
+    "rows": 10,
+    "cols": 9
+  },
+  "menus": [
+    "qmk_rgblight"
+  ],
   "layouts": {
     "labels": [
       "Split Backspace",
-      ["Bottom Row", "6.25U", "7U"]
+      [
+        "Bottom Row",
+        "6.25U",
+        "7U"
+      ]
     ],
     "keymap": [
       [

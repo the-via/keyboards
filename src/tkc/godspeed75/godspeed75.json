@@ -2,8 +2,11 @@
   "name": "GodSpeed75",
   "vendorId": "0x544B",
   "productId": "0x0006",
+  "matrix": {
+    "rows": 12,
+    "cols": 8
+  },
   "lighting": "qmk_rgblight",
-  "matrix": {"rows": 12, "cols": 8},
   "layouts": {
     "labels": [
       "Split backspace",

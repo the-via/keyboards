@@ -2,9 +2,22 @@
   "name": "Sinanju WK",
   "vendorId": "0x7074",
   "productId": "0x1023",
+  "matrix": {
+    "rows": 5,
+    "cols": 14
+  },
   "lighting": "none",
-  "matrix": {"rows": 5, "cols": 14},
   "layouts": {
+    "labels": [
+      "Split Backspace",
+      "Split Right Shift",
+      [
+        "Bottom Row",
+        "6.25U",
+        "7U WKL",
+        "7U WK"
+      ]
+    ],
     "keymap": [
       [
         {
@@ -216,11 +229,6 @@
         },
         "4,13\n\n\n2,2"
       ]
-    ],
-    "labels": [
-      "Split Backspace",
-      "Split Right Shift",
-      ["Bottom Row", "6.25U", "7U WKL", "7U WK"]
     ]
   }
 }

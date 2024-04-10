@@ -2,15 +2,23 @@
   "name": "Eagle Viper Rep, Rev A",
   "vendorId": "0x4444",
   "productId": "0x0007",
+  "matrix": {
+    "rows": 10,
+    "cols": 7
+  },
   "lighting": "qmk_backlight_rgblight",
-  "matrix": {"rows": 10, "cols": 7},
   "layouts": {
     "labels": [
       "Unified Backspace",
       "ISO Enter",
       "Split Left Shift",
       "Unified Right Shift",
-      ["Bottom row", "Tsangan", "HHKB", "Standard"]
+      [
+        "Bottom row",
+        "Tsangan",
+        "HHKB",
+        "Standard"
+      ]
     ],
     "keymap": [
       [

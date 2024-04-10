@@ -2,11 +2,11 @@
   "name": "zhou65_Y&R",
   "vendorId": "0xAA96",
   "productId": "0xAAAD",
-  "lighting": "none",
   "matrix": {
     "rows": 5,
     "cols": 15
   },
+  "lighting": "none",
   "layouts": {
     "keymap": [
       [

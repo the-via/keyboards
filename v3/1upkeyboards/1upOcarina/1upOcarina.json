@@ -2,8 +2,13 @@
   "name": "1upocarina",
   "vendorId": "0x6F75",
   "productId": "0x5607",
-  "matrix": {"rows": 1, "cols": 5},
-  "keycodes": ["qmk_lighting"],
+  "matrix": {
+    "rows": 1,
+    "cols": 5
+  },
+  "keycodes": [
+    "qmk_lighting"
+  ],
   "menus": [
     {
       "label": "Lighting",
@@ -14,13 +19,24 @@
             {
               "label": "Brightness",
               "type": "range",
-              "options": [0, 255],
-              "content": ["id_qmk_rgb_matrix_brightness", 3, 1]
+              "options": [
+                0,
+                255
+              ],
+              "content": [
+                "id_qmk_rgb_matrix_brightness",
+                3,
+                1
+              ]
             },
             {
               "label": "Effect",
               "type": "dropdown",
-              "content": ["id_qmk_rgb_matrix_effect", 3, 2],
+              "content": [
+                "id_qmk_rgb_matrix_effect",
+                3,
+                2
+              ],
               "options": [
                 "All Off",
                 "Solid Color",
@@ -67,21 +83,39 @@
               "showIf": "{id_qmk_rgb_matrix_effect} != 0 && {id_qmk_rgb_matrix_effect} != 1 && {id_qmk_rgb_matrix_effect} != 2",
               "label": "Effect Speed",
               "type": "range",
-              "options": [0, 255],
-              "content": ["id_qmk_rgb_matrix_effect_speed", 3, 3]
+              "options": [
+                0,
+                255
+              ],
+              "content": [
+                "id_qmk_rgb_matrix_effect_speed",
+                3,
+                3
+              ]
             },
             {
               "showIf": "{id_qmk_rgb_matrix_effect} == 2",
               "label": "Gradient Range",
               "type": "range",
-              "options": [0, 255],
-              "content": ["id_qmk_rgb_matrix_effect_speed", 3, 3]
+              "options": [
+                0,
+                255
+              ],
+              "content": [
+                "id_qmk_rgb_matrix_effect_speed",
+                3,
+                3
+              ]
             },
             {
               "showIf": "{id_qmk_rgb_matrix_effect} != 0 && {id_qmk_rgb_matrix_effect} != 23 && {id_qmk_rgb_matrix_effect} != 27 && {id_qmk_rgb_matrix_effect} != 28",
               "label": "Color",
               "type": "color",
-              "content": ["id_qmk_rgb_matrix_color", 3, 4]
+              "content": [
+                "id_qmk_rgb_matrix_color",
+                3,
+                4
+              ]
             }
           ]
         }

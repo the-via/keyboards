@@ -2,11 +2,11 @@
   "name": "3dp660",
   "vendorId": "0x676F",
   "productId": "0x3660",
-  "lighting": "none",
   "matrix": {
     "rows": 5,
     "cols": 15
   },
+  "lighting": "none",
   "layouts": {
     "keymap": [
       [

@@ -2,13 +2,15 @@
   "name": "sm68",
   "vendorId": "0x04D8",
   "productId": "0xEC9F",
-  "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 5,
     "cols": 16
   },
+  "lighting": "qmk_backlight_rgblight",
   "layouts": {
-    "labels": ["Split Backspace"],
+    "labels": [
+      "Split Backspace"
+    ],
     "keymap": [
       [
         {

@@ -2,8 +2,11 @@
   "name": "Mode SixtyFive M65S",
   "vendorId": "0x00DE",
   "productId": "0x6583",
+  "matrix": {
+    "rows": 6,
+    "cols": 16
+  },
   "lighting": "none",
-  "matrix": {"rows": 6, "cols": 16},
   "layouts": {
     "labels": [
       "Split backspace",

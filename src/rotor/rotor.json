@@ -2,11 +2,11 @@
   "name": "Rotor",
   "vendorId": "0x04D8",
   "productId": "0xE8BE",
-  "lighting": "none",
   "matrix": {
     "rows": 5,
     "cols": 18
   },
+  "lighting": "none",
   "layouts": {
     "labels": [
       "Split Backspace",

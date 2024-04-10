@@ -1,0 +1,21 @@
+{
+  "name": "TechnicPad",
+  "vendorId": "0x4E57",
+  "productId": "0x5450",
+  "matrix": {
+    "rows": 4,
+    "cols": 1
+  },
+  "layouts": {
+    "keymap": [
+      [
+        "0,0",
+        "1,0"
+      ],
+      [
+        "2,0",
+        "3,0"
+      ]
+    ]
+  }
+}

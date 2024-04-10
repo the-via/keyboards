@@ -2,13 +2,17 @@
   "name": "TRINITY XT TKL",
   "vendorId": "0x5845",
   "productId": "0x5854",
-  "lighting": "none",
   "matrix": {
     "rows": 6,
     "cols": 19
   },
+  "lighting": "none",
   "layouts": {
-    "labels": ["Split Backspace", "Split Right Shift", "Split Space"],
+    "labels": [
+      "Split Backspace",
+      "Split Right Shift",
+      "Split Space"
+    ],
     "keymap": [
       [
         {

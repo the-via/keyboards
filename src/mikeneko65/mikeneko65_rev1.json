@@ -2,11 +2,11 @@
   "name": "Mikeneko 65",
   "vendorId": "0x7934",
   "productId": "0x6D54",
-  "lighting": "none",
   "matrix": {
     "rows": 5,
     "cols": 15
   },
+  "lighting": "none",
   "layouts": {
     "keymap": [
       [

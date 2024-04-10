@@ -2,11 +2,11 @@
   "name": "Dactyl Manuform (4x6)",
   "vendorId": "0x444D",
   "productId": "0x3436",
-  "lighting": "none",
   "matrix": {
     "rows": 10,
     "cols": 6
   },
+  "lighting": "none",
   "layouts": {
     "keymap": [
       [

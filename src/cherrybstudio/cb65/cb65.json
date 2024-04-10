@@ -2,12 +2,19 @@
   "name": "CherryB Works CB65",
   "vendorId": "0x4342",
   "productId": "0x6565",
+  "matrix": {
+    "rows": 9,
+    "cols": 8
+  },
   "lighting": "qmk_rgblight",
-  "matrix": {"rows": 9, "cols": 8},
   "layouts": {
     "labels": [
       "Split Backspace",
-      ["Enter type", "Normal Enter", "ISO Enter"],
+      [
+        "Enter type",
+        "Normal Enter",
+        "ISO Enter"
+      ],
       "Split Left Shift",
       [
         "Bottom Row",

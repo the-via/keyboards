@@ -1,0 +1,366 @@
+{
+  "name": "posey_split_v4",
+  "vendorId": "0x4A4F",
+  "productId": "0x0003",
+  "matrix": {
+    "rows": 12,
+    "cols": 8
+  },
+  "menus": [
+    {
+      "label": "PMK Custom Settings",
+      "content": [
+        {
+          "label": "Hardware Repeat",
+          "content": [
+            {
+              "label": "Enable Hardware Repeat",
+              "type": "toggle",
+              "options": [
+                0,
+                1
+              ],
+              "content": [
+                "id_enable_repeat",
+                0,
+                1
+              ]
+            },
+            {
+              "showIf": "{id_enable_repeat} == 1",
+              "content": [
+                {
+                  "label": "Repeat Numbers",
+                  "content": [
+                    "id_repeat_numbers",
+                    0,
+                    3
+                  ],
+                  "type": "toggle"
+                },
+                {
+                  "label": "Repeat Alphas",
+                  "content": [
+                    "id_repeat_alphas",
+                    0,
+                    4
+                  ],
+                  "type": "toggle"
+                },
+                {
+                  "label": "Repeat Mods",
+                  "content": [
+                    "id_repeat_mods",
+                    0,
+                    5
+                  ],
+                  "type": "toggle"
+                },
+                {
+                  "label": "Repeat Delay (ms) [min: 100; max: 250]",
+                  "type": "range",
+                  "options": [
+                    100,
+                    250
+                  ],
+                  "content": [
+                    "id_repeat_delay",
+                    0,
+                    6
+                  ]
+                },
+                {
+                  "label": "Repeat Term (ms) [min: 5; max: 15]",
+                  "type": "range",
+                  "options": [
+                    5,
+                    15
+                  ],
+                  "content": [
+                    "id_repeat_rate",
+                    0,
+                    7
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Capslock LED Settings",
+          "content": [
+            {
+              "label": "Enable Capslock LED",
+              "type": "toggle",
+              "content": [
+                "id_caps_flash",
+                0,
+                2
+              ]
+            },
+            {
+              "showIf": "{id_caps_flash} == 1",
+              "label": "Enable Capslock Twinkle",
+              "type": "toggle",
+              "content": [
+                "id_caps_twinkle",
+                0,
+                12
+              ]
+            },
+            {
+              "showIf": "{id_caps_flash} == 1",
+              "label": "Caps Color",
+              "type": "color",
+              "content": [
+                "id_caps_color",
+                0,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Layer Lighting",
+          "content": [
+            {
+              "label": "LED Brightness",
+              "type": "range",
+              "options": [
+                0,
+                255
+              ],
+              "content": [
+                "id_led_brightness",
+                0,
+                8
+              ]
+            },
+            {
+              "label": "Typing Color",
+              "type": "color",
+              "content": [
+                "id_typing_color",
+                0,
+                9
+              ]
+            },
+            {
+              "label": "Gaming Color",
+              "type": "color",
+              "content": [
+                "id_gaming_color",
+                0,
+                10
+              ]
+            },
+            {
+              "label": "Mods Color",
+              "type": "color",
+              "content": [
+                "id_mods_color",
+                0,
+                11
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "layouts": {
+    "keymap": [
+      [
+        {
+          "c": "#777777"
+        },
+        "0,0",
+        {
+          "c": "#cccccc"
+        },
+        "0,1",
+        "0,2",
+        "0,3",
+        "0,4",
+        "0,5",
+        "0,6",
+        "0,7",
+        {
+          "x": 1.75
+        },
+        "6,0",
+        "6,1",
+        "6,2",
+        "6,3",
+        "6,4",
+        "6,5",
+        "6,6",
+        "6,7"
+      ],
+      [
+        {
+          "c": "#aaaaaa"
+        },
+        "1,0",
+        {
+          "c": "#cccccc"
+        },
+        "1,1",
+        "1,2",
+        "1,3",
+        "1,4",
+        "1,5",
+        "1,6",
+        "1,7",
+        {
+          "x": 1.75
+        },
+        "7,0",
+        "7,1",
+        "7,2",
+        "7,3",
+        "7,4",
+        "7,5",
+        {
+          "c": "#aaaaaa",
+          "w": 2
+        },
+        "7,6"
+      ],
+      [
+        {
+          "w": 1.5
+        },
+        "2,0",
+        {
+          "c": "#cccccc"
+        },
+        "2,1",
+        "2,2",
+        "2,3",
+        "2,4",
+        "2,5",
+        "2,6",
+        {
+          "x": 1.75
+        },
+        "8,0",
+        "8,1",
+        "8,2",
+        "8,3",
+        "8,4",
+        "8,5",
+        "8,6",
+        {
+          "w": 1.5
+        },
+        "8,7"
+      ],
+      [
+        {
+          "c": "#aaaaaa",
+          "w": 1.75
+        },
+        "3,0",
+        {
+          "c": "#cccccc"
+        },
+        "3,1",
+        "3,2",
+        "3,3",
+        "3,4",
+        "3,5",
+        "3,6",
+        {
+          "x": 1.75
+        },
+        "9,0",
+        "9,1",
+        "9,2",
+        "9,3",
+        "9,4",
+        "9,5",
+        {
+          "c": "#aaaaaa",
+          "w": 2.25
+        },
+        "9,6"
+      ],
+      [
+        {
+          "w": 2.25
+        },
+        "4,0",
+        {
+          "c": "#cccccc"
+        },
+        "4,2",
+        "4,3",
+        "4,4",
+        "4,5",
+        "4,6",
+        "4,7",
+        {
+          "x": 0.75
+        },
+        "10,0",
+        "10,1",
+        "10,2",
+        "10,3",
+        "10,4",
+        "10,5",
+        {
+          "c": "#aaaaaa",
+          "w": 2.75
+        },
+        "10,6"
+      ],
+      [
+        {
+          "w": 1.25
+        },
+        "5,0",
+        {
+          "w": 1.25
+        },
+        "5,1",
+        "5,2",
+        {
+          "w": 2
+        },
+        "5,3",
+        {
+          "c": "#cccccc",
+          "w": 2.75
+        },
+        "5,6",
+        {
+          "x": 1,
+          "w": 2.25
+        },
+        "11,1",
+        {
+          "c": "#aaaaaa",
+          "w": 1.25
+        },
+        "11,2",
+        {
+          "w": 1.25
+        },
+        "11,3",
+        {
+          "w": 1.25
+        },
+        "11,4",
+        {
+          "w": 1.25
+        },
+        "11,5",
+        {
+          "w": 1.25
+        },
+        "11,7"
+      ]
+    ]
+  }
+}

@@ -2,12 +2,21 @@
   "name": "Mino Plus",
   "vendorId": "0x7877",
   "productId": "0x0003",
-  "lighting": "none",
   "matrix": {
     "rows": 5,
     "cols": 15
   },
+  "lighting": "none",
   "layouts": {
+    "labels": [
+      "Split Backspace",
+      [
+        "Bottom Row",
+        "625",
+        "2.25 Right",
+        "2.25 Left"
+      ]
+    ],
     "keymap": [
       [
         {
@@ -203,10 +212,6 @@
         },
         "2,11"
       ]
-    ],
-    "labels": [
-      "Split Backspace",
-      ["Bottom Row", "625", "2.25 Right", "2.25 Left"]
     ]
   }
 }

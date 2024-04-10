@@ -2,18 +2,33 @@
   "name": "WH66",
   "vendorId": "0x4D4C",
   "productId": "0x6602",
-  "lighting": "qmk_rgblight",
+  "matrix": {
+    "rows": 5,
+    "cols": 15
+  },
   "customKeycodes": [
-    {"name": "LOGO LED ON", "title": "Logo ON", "shortName": "Logo ON"},
-    {"name": "LOGO LED OFF", "title": "Logo OFF", "shortName": "Logo OFF"}
+    {
+      "name": "LOGO LED ON",
+      "title": "Logo ON",
+      "shortName": "Logo ON"
+    },
+    {
+      "name": "LOGO LED OFF",
+      "title": "Logo OFF",
+      "shortName": "Logo OFF"
+    }
   ],
-  "matrix": {"rows": 5, "cols": 15},
+  "lighting": "qmk_rgblight",
   "layouts": {
     "labels": [
       "Split Backspace",
       "Enter ISO",
       "Left Shift ISO",
-      ["Bottom Row", "Space 7U Blocker", "Space 6.25U Blocker"]
+      [
+        "Bottom Row",
+        "Space 7U Blocker",
+        "Space 6.25U Blocker"
+      ]
     ],
     "keymap": [
       [

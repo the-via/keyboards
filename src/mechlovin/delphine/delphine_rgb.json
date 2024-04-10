@@ -2,12 +2,24 @@
   "name": "Delphine RGB rev.1",
   "vendorId": "0x4D4C",
   "productId": "0xDEF2",
+  "matrix": {
+    "rows": 6,
+    "cols": 4
+  },
   "lighting": "none",
-  "matrix": {"rows": 6, "cols": 4},
   "layouts": {
-    "labels": ["Split Plus", "Split Enter", "Split P0"],
+    "labels": [
+      "Split Plus",
+      "Split Enter",
+      "Split P0"
+    ],
     "keymap": [
-      ["0,0", "0,1", "0,2", "0,3"],
+      [
+        "0,0",
+        "0,1",
+        "0,2",
+        "0,3"
+      ],
       [
         {
           "y": 0.25
