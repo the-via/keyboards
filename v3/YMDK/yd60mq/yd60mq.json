@@ -2,9 +2,16 @@
   "name": "YMDK YD60MQ",
   "vendorId": "0x594D",
   "productId": "0x604D",
-  "keycodes": ["qmk_lighting"],
-  "menus": ["qmk_backlight_rgblight"],
-  "matrix": {"rows": 5, "cols": 15},
+  "matrix": {
+    "rows": 5,
+    "cols": 15
+  },
+  "keycodes": [
+    "qmk_lighting"
+  ],
+  "menus": [
+    "qmk_backlight_rgblight"
+  ],
   "layouts": {
     "labels": [
       "Split Backspace",
@@ -27,7 +34,7 @@
         "HHKB",
         "WKL",
         "Arrow Keys",
-        "Minila",
+        "Japanese",
         "Split Spacebar",
         "Split Spacebar Arrow Keys",
         "Tsangan Arrow"
