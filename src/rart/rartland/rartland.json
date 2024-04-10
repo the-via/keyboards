@@ -2,15 +2,27 @@
   "name": "RARTLAND",
   "vendorId": "0x414C",
   "productId": "0x6065",
+  "matrix": {
+    "rows": 5,
+    "cols": 14
+  },
   "lighting": "none",
-  "matrix": {"rows": 5, "cols": 14},
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO Enter",
       "Split Left Shift",
-      ["Spacebar", "6.25U", "7U"],
-      ["Right Modifiers", "1U", "1.5U", "1.25U"]
+      [
+        "Spacebar",
+        "6.25U",
+        "7U"
+      ],
+      [
+        "Right Modifiers",
+        "1U",
+        "1.5U",
+        "1.25U"
+      ]
     ],
     "keymap": [
       [

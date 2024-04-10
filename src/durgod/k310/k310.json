@@ -2,7 +2,10 @@
   "name": "DURGOD Taurus K310",
   "vendorId": "0xD60D",
   "productId": "0x3100",
-  "lighting": "none",
+  "matrix": {
+    "rows": 8,
+    "cols": 16
+  },
   "customKeycodes": [
     {
       "name": "Toggle WinKey Lock",
@@ -10,12 +13,15 @@
       "shortName": "WinLock"
     }
   ],
-  "matrix": {
-    "rows": 8,
-    "cols": 16
-  },
+  "lighting": "none",
   "layouts": {
-    "labels": [["Layout", "ISO", "ANSI"]],
+    "labels": [
+      [
+        "Layout",
+        "ISO",
+        "ANSI"
+      ]
+    ],
     "keymap": [
       [
         {

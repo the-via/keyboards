@@ -2,13 +2,15 @@
   "name": "ISO Macro",
   "vendorId": "0x4D65",
   "productId": "0x1200",
-  "lighting": "qmk_backlight",
   "matrix": {
     "rows": 3,
     "cols": 3
   },
+  "lighting": "qmk_backlight",
   "layouts": {
-    "labels": ["Single Encoder"],
+    "labels": [
+      "Single Encoder"
+    ],
     "keymap": [
       [
         {

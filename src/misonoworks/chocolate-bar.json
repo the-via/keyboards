@@ -2,11 +2,11 @@
   "name": "Chocolate Bar",
   "vendorId": "0x6D77",
   "productId": "0xC456",
-  "lighting": "qmk_backlight",
   "matrix": {
     "rows": 4,
     "cols": 16
   },
+  "lighting": "qmk_backlight",
   "layouts": {
     "keymap": [
       [

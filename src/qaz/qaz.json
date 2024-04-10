@@ -2,13 +2,19 @@
   "name": "QAZ",
   "vendorId": "0x7431",
   "productId": "0x0001",
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 6,
     "cols": 7
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
-    "labels": [["Bottom Row", "Big Bar", "Split Bars"]],
+    "labels": [
+      [
+        "Bottom Row",
+        "Big Bar",
+        "Split Bars"
+      ]
+    ],
     "keymap": [
       [
         {

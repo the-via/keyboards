@@ -2,18 +2,26 @@
   "name": "Neuron",
   "vendorId": "0x5742",
   "productId": "0x6e75",
-  "lighting": {
-    "extends": "none",
-    "keycodes": "qmk"
-  },
   "matrix": {
     "rows": 4,
     "cols": 12
   },
+  "lighting": {
+    "extends": "none",
+    "keycodes": "qmk"
+  },
   "layouts": {
     "labels": [
-      ["Right Shift", "1u/1.25u", "1.25u/1u"],
-      ["Bottom Row", "Split", "6.25U"]
+      [
+        "Right Shift",
+        "1u/1.25u",
+        "1.25u/1u"
+      ],
+      [
+        "Bottom Row",
+        "Split",
+        "6.25U"
+      ]
     ],
     "keymap": [
       [

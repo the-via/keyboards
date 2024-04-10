@@ -1,10 +1,17 @@
 {
   "name": "AcheronProject Apollo87H Rev. Delta",
-  "productId": "0x8775",
   "vendorId": "0x4150",
-  "keycodes": ["qmk_lighting"],
-  "menus": ["qmk_rgb_matrix"],
-  "matrix": {"rows": 6, "cols": 17},
+  "productId": "0x8775",
+  "matrix": {
+    "rows": 6,
+    "cols": 17
+  },
+  "keycodes": [
+    "qmk_lighting"
+  ],
+  "menus": [
+    "qmk_rgb_matrix"
+  ],
   "layouts": {
     "keymap": [
       [

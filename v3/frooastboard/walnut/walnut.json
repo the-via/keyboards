@@ -2,7 +2,13 @@
   "name": "Frooastboard Walnut",
   "vendorId": "0x4642",
   "productId": "0x776E",
-  "keycodes": ["qmk_lighting"],
+  "matrix": {
+    "rows": 9,
+    "cols": 8
+  },
+  "keycodes": [
+    "qmk_lighting"
+  ],
   "menus": [
     {
       "label": "Lighting",
@@ -13,69 +19,176 @@
             {
               "label": "Brightness",
               "type": "range",
-              "options": [0, 255],
-              "content": ["id_qmk_rgb_matrix_brightness", 3, 1]
+              "options": [
+                0,
+                255
+              ],
+              "content": [
+                "id_qmk_rgb_matrix_brightness",
+                3,
+                1
+              ]
             },
             {
               "label": "Effect",
               "type": "dropdown",
-              "content": ["id_qmk_rgb_matrix_effect", 3, 2],
+              "content": [
+                "id_qmk_rgb_matrix_effect",
+                3,
+                2
+              ],
               "options": [
-                ["All Off", 0],
-                ["Solid Color", 1],
-                ["Gradient Up/Down", 3],
-                ["Gradient Left/Right", 4],
-                ["Breathing", 5],
-                ["Band Sat.", 6],
-                ["Band Val.", 7],
-                ["Pinwheel Sat.", 8],
-                ["Pinwheel Val.", 9],
-                ["Spiral Sat.", 10],
-                ["Spiral Val.", 11],
-                ["Cycle All", 12],
-                ["Cycle Left/Right", 13],
-                ["Cycle Up/Down", 14],
-                ["Rainbow Moving Chevron", 15],
-                ["Cycle Out/In", 16],
-                ["Cycle Out/In Dual", 17],
-                ["Cycle Pinwheel", 18],
-                ["Cycle Spiral", 19],
-                ["Dual Beacon", 20],
-                ["Rainbow Beacon", 21],
-                ["Rainbow Pinwheels", 22],
-                ["Raindrops", 23],
-                ["Jellybean Raindrops", 24],
-                ["Hue Breathing", 25],
-                ["Hue Pendulum", 26],
-                ["Hue Wave", 27],
-                ["Pixel Rain", 28],
-                ["Pixel Flow", 29]
+                [
+                  "All Off",
+                  0
+                ],
+                [
+                  "Solid Color",
+                  1
+                ],
+                [
+                  "Gradient Up/Down",
+                  3
+                ],
+                [
+                  "Gradient Left/Right",
+                  4
+                ],
+                [
+                  "Breathing",
+                  5
+                ],
+                [
+                  "Band Sat.",
+                  6
+                ],
+                [
+                  "Band Val.",
+                  7
+                ],
+                [
+                  "Pinwheel Sat.",
+                  8
+                ],
+                [
+                  "Pinwheel Val.",
+                  9
+                ],
+                [
+                  "Spiral Sat.",
+                  10
+                ],
+                [
+                  "Spiral Val.",
+                  11
+                ],
+                [
+                  "Cycle All",
+                  12
+                ],
+                [
+                  "Cycle Left/Right",
+                  13
+                ],
+                [
+                  "Cycle Up/Down",
+                  14
+                ],
+                [
+                  "Rainbow Moving Chevron",
+                  15
+                ],
+                [
+                  "Cycle Out/In",
+                  16
+                ],
+                [
+                  "Cycle Out/In Dual",
+                  17
+                ],
+                [
+                  "Cycle Pinwheel",
+                  18
+                ],
+                [
+                  "Cycle Spiral",
+                  19
+                ],
+                [
+                  "Dual Beacon",
+                  20
+                ],
+                [
+                  "Rainbow Beacon",
+                  21
+                ],
+                [
+                  "Rainbow Pinwheels",
+                  22
+                ],
+                [
+                  "Raindrops",
+                  23
+                ],
+                [
+                  "Jellybean Raindrops",
+                  24
+                ],
+                [
+                  "Hue Breathing",
+                  25
+                ],
+                [
+                  "Hue Pendulum",
+                  26
+                ],
+                [
+                  "Hue Wave",
+                  27
+                ],
+                [
+                  "Pixel Rain",
+                  28
+                ],
+                [
+                  "Pixel Flow",
+                  29
+                ]
               ]
             },
             {
               "showIf": "{id_qmk_rgb_matrix_effect} != 0",
               "label": "Effect Speed",
               "type": "range",
-              "options": [0, 255],
-              "content": ["id_qmk_rgb_matrix_effect_speed", 3, 3]
+              "options": [
+                0,
+                255
+              ],
+              "content": [
+                "id_qmk_rgb_matrix_effect_speed",
+                3,
+                3
+              ]
             },
             {
               "showIf": "{id_qmk_rgb_matrix_effect} != 0 && {id_qmk_rgb_matrix_effect} != 24 && {id_qmk_rgb_matrix_effect} != 28 && {id_qmk_rgb_matrix_effect} != 29 && {id_qmk_rgb_matrix_effect} != 32",
               "label": "Color",
               "type": "color",
-              "content": ["id_qmk_rgb_matrix_color", 3, 4]
+              "content": [
+                "id_qmk_rgb_matrix_color",
+                3,
+                4
+              ]
             }
           ]
         }
       ]
     }
   ],
-  "matrix": {
-    "rows": 9,
-    "cols": 8
-  },
   "layouts": {
-    "labels": ["ANSI Layout"],
+    "labels": [
+      "ANSI Layout"
+    ],
     "keymap": [
       [
         {

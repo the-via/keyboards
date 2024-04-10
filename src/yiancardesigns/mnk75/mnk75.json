@@ -2,14 +2,23 @@
   "name": "Tomo - MNK75",
   "vendorId": "0x8968",
   "productId": "0x4D37",
+  "matrix": {
+    "rows": 6,
+    "cols": 15
+  },
   "lighting": "none",
-  "matrix": {"rows": 6, "cols": 15},
   "layouts": {
     "labels": [
       "Split Left Shift",
       "Split Backspace",
       "ISO",
-      ["Bottom Row", "7U", "6.25U", "2.5U 1.25U 2.75U", "2.75U 1.25U 2.5U"]
+      [
+        "Bottom Row",
+        "7U",
+        "6.25U",
+        "2.5U 1.25U 2.75U",
+        "2.75U 1.25U 2.5U"
+      ]
     ],
     "keymap": [
       [

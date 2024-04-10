@@ -2,15 +2,23 @@
   "name": "wilba.tech WT80-G",
   "vendorId": "0x6582",
   "productId": "0x0023",
+  "matrix": {
+    "rows": 6,
+    "cols": 17
+  },
   "lighting": "none",
-  "matrix": {"rows": 6, "cols": 17},
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO Enter",
       "Split Left Shift",
       "Split Right Shift",
-      ["Bottom Row", "6.25U", "7U", "7U WKL"]
+      [
+        "Bottom Row",
+        "6.25U",
+        "7U",
+        "7U WKL"
+      ]
     ],
     "keymap": [
       [

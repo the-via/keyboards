@@ -2,11 +2,11 @@
   "name": "Ferris Sweep",
   "vendorId": "0xC2AB",
   "productId": "0x3939",
-  "lighting": "none",
   "matrix": {
     "rows": 8,
     "cols": 5
   },
+  "lighting": "none",
   "layouts": {
     "keymap": [
       [

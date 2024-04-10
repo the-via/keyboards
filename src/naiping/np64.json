@@ -2,8 +2,11 @@
   "name": "NP-64",
   "vendorId": "0x7764",
   "productId": "0x7064",
+  "matrix": {
+    "rows": 5,
+    "cols": 15
+  },
   "lighting": "qmk_rgblight",
-  "matrix": {"rows": 5, "cols": 15},
   "layouts": {
     "keymap": [
       [

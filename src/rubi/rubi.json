@@ -2,8 +2,13 @@
   "name": "Rubi",
   "vendorId": "0x4752",
   "productId": "0x5242",
-  "lighting": "none",
-  "customFeatures": ["rotary-encoder"],
+  "matrix": {
+    "rows": 5,
+    "cols": 4
+  },
+  "customFeatures": [
+    "rotary-encoder"
+  ],
   "customKeycodes": [
     {
       "name": "Encoder Press",
@@ -26,10 +31,7 @@
       "shortName": "ClType"
     }
   ],
-  "matrix": {
-    "rows": 5,
-    "cols": 4
-  },
+  "lighting": "none",
   "layouts": {
     "keymap": [
       [

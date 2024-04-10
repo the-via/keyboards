@@ -2,17 +2,34 @@
   "name": "CannonKeys DB60v2",
   "vendorId": "0xCA04",
   "productId": "0xDB61",
+  "matrix": {
+    "rows": 5,
+    "cols": 15
+  },
   "lighting": "qmk_backlight_rgblight",
-  "matrix": {"rows": 5, "cols": 15},
   "layouts": {
-    "presets": {"HHKB": [1, 0, 0, 1, 2]},
     "labels": [
       "Split Backspace",
       "ISO Enter",
       "Split Left Shift",
       "Split Right Shift",
-      ["Bottom Row", "ANSI", "7U", "HHKB", "WKL"]
+      [
+        "Bottom Row",
+        "ANSI",
+        "7U",
+        "HHKB",
+        "WKL"
+      ]
     ],
+    "presets": {
+      "HHKB": [
+        1,
+        0,
+        0,
+        1,
+        2
+      ]
+    },
     "keymap": [
       [
         {

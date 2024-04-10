@@ -2,10 +2,73 @@
   "name": "qk100 ansi",
   "vendorId": "0x4F53",
   "productId": "0x3030",
-  "keycodes": ["qmk_lighting"],
+  "matrix": {
+    "rows": 6,
+    "cols": 19
+  },
+  "customKeycodes": [
+    {
+      "name": "Per-key RGB Toggle",
+      "title": "Per-key RGB Toggle",
+      "shortName": "P_TOG"
+    },
+    {
+      "name": "Per-key RGB Mode+",
+      "title": "Per-key RGB Mode+",
+      "shortName": "P_MO+"
+    },
+    {
+      "name": "Per-key RGB Mode-",
+      "title": "Per-key RGB Mode-",
+      "shortName": "P_MO-"
+    },
+    {
+      "name": "Per-key RGB Hue+",
+      "title": "Per-key RGB Hue Increase",
+      "shortName": "P_HU+"
+    },
+    {
+      "name": "Per-key RGB Hue-",
+      "title": "Per-key RGB Hue Decrease",
+      "shortName": "P_HU-"
+    },
+    {
+      "name": "Per-key RGB Sat+",
+      "title": "Per-key RGB Saturation Increase",
+      "shortName": "P_SA+"
+    },
+    {
+      "name": "Per-key RGB Sat-",
+      "title": "Per-key RGB Saturation Decrease",
+      "shortName": "P_SA-"
+    },
+    {
+      "name": "Per-key RGB Val+",
+      "title": "Per-key RGB Brightness Increase",
+      "shortName": "P_VA+"
+    },
+    {
+      "name": "Per-key RGB Val-",
+      "title": "Per-key RGB Brightness Decrease",
+      "shortName": "P_VA-"
+    },
+    {
+      "name": "Per-key RGB Spd+",
+      "title": "Per-key RGB Speed Increase",
+      "shortName": "P_SP+"
+    },
+    {
+      "name": "Per-key RGB Spd-",
+      "title": "Per-key RGB Speed Decrease",
+      "shortName": "P_SP-"
+    }
+  ],
+  "keycodes": [
+    "qmk_lighting"
+  ],
   "menus": [
     {
-      "label":"Lighting",
+      "label": "Lighting",
       "content": [
         {
           "label": "LED Strip",
@@ -13,13 +76,24 @@
             {
               "label": "Brightness",
               "type": "range",
-              "options": [0, 120],
-              "content": ["id_qmk_rgblight_brightness", 2, 1]
+              "options": [
+                0,
+                120
+              ],
+              "content": [
+                "id_qmk_rgblight_brightness",
+                2,
+                1
+              ]
             },
             {
               "label": "Effect",
               "type": "dropdown",
-              "content": ["id_qmk_rgblight_effect", 2, 2],
+              "content": [
+                "id_qmk_rgblight_effect",
+                2,
+                2
+              ],
               "options": [
                 "All Off",
                 "Solid Color",
@@ -70,14 +144,25 @@
               "showIf": "{id_qmk_rgblight_effect} != 0",
               "label": "Effect Speed",
               "type": "range",
-              "options": [0, 255],
-              "content": ["id_qmk_rgblight_effect_speed", 2, 3]
+              "options": [
+                0,
+                255
+              ],
+              "content": [
+                "id_qmk_rgblight_effect_speed",
+                2,
+                3
+              ]
             },
             {
               "showIf": "{id_qmk_rgblight_effect} != 0 && {id_qmk_rgblight_effect} != 35",
               "label": "Color",
               "type": "color",
-              "content": ["id_qmk_rgblight_color", 2, 4]
+              "content": [
+                "id_qmk_rgblight_color",
+                2,
+                4
+              ]
             }
           ]
         },
@@ -87,13 +172,24 @@
             {
               "label": "Brightness",
               "type": "range",
-              "options": [0, 200],
-              "content": ["id_qmk_rgb_matrix_brightness", 3, 1]
+              "options": [
+                0,
+                200
+              ],
+              "content": [
+                "id_qmk_rgb_matrix_brightness",
+                3,
+                1
+              ]
             },
             {
               "label": "Effect",
               "type": "dropdown",
-              "content": ["id_qmk_rgb_matrix_effect", 3, 2],
+              "content": [
+                "id_qmk_rgb_matrix_effect",
+                3,
+                2
+              ],
               "options": [
                 "All Off",
                 "Solid Color",
@@ -146,37 +242,31 @@
               "showIf": "{id_qmk_rgb_matrix_effect} != 0",
               "label": "Effect Speed",
               "type": "range",
-              "options": [0, 255],
-              "content": ["id_qmk_rgb_matrix_effect_speed", 3, 3]
+              "options": [
+                0,
+                255
+              ],
+              "content": [
+                "id_qmk_rgb_matrix_effect_speed",
+                3,
+                3
+              ]
             },
             {
               "showIf": "{id_qmk_rgb_matrix_effect} != 0 && {id_qmk_rgb_matrix_effect} != 24 && {id_qmk_rgb_matrix_effect} != 28 && {id_qmk_rgb_matrix_effect} != 29 && {id_qmk_rgb_matrix_effect} != 32",
               "label": "Color",
               "type": "color",
-              "content": ["id_qmk_rgb_matrix_color", 3, 4]
+              "content": [
+                "id_qmk_rgb_matrix_color",
+                3,
+                4
+              ]
             }
           ]
         }
       ]
     }
   ],
-  "customKeycodes": [
-    {"name": "Per-key RGB Toggle", "title": "Per-key RGB Toggle", "shortName": "P_TOG"},
-    {"name": "Per-key RGB Mode+", "title": "Per-key RGB Mode+", "shortName": "P_MO+"},
-    {"name": "Per-key RGB Mode-", "title": "Per-key RGB Mode-", "shortName": "P_MO-"},
-    {"name": "Per-key RGB Hue+", "title": "Per-key RGB Hue Increase", "shortName": "P_HU+"},
-    {"name": "Per-key RGB Hue-", "title": "Per-key RGB Hue Decrease", "shortName": "P_HU-"},
-    {"name": "Per-key RGB Sat+", "title": "Per-key RGB Saturation Increase", "shortName": "P_SA+"},
-    {"name": "Per-key RGB Sat-", "title": "Per-key RGB Saturation Decrease", "shortName": "P_SA-"},
-    {"name": "Per-key RGB Val+", "title": "Per-key RGB Brightness Increase", "shortName": "P_VA+"},
-    {"name": "Per-key RGB Val-", "title": "Per-key RGB Brightness Decrease", "shortName": "P_VA-"},
-    {"name": "Per-key RGB Spd+", "title": "Per-key RGB Speed Increase", "shortName": "P_SP+"},
-    {"name": "Per-key RGB Spd-", "title": "Per-key RGB Speed Decrease", "shortName": "P_SP-"}
-  ],
-  "matrix": { 
-    "rows": 6, 
-    "cols": 19
-  },
   "layouts": {
     "keymap": [
       [
@@ -287,7 +377,7 @@
         "2,17",
         {
           "c": "#aaaaaa",
-          "h":2
+          "h": 2
         },
         "3,18"
       ],

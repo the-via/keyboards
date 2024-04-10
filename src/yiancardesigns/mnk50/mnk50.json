@@ -2,12 +2,19 @@
   "name": "MNK50",
   "vendorId": "0x8968",
   "productId": "0x4D35",
+  "matrix": {
+    "rows": 4,
+    "cols": 14
+  },
   "lighting": "none",
-  "matrix": {"rows": 4, "cols": 14},
   "layouts": {
     "labels": [
       "Single Right Shift",
-      ["Bottom Row", "7U", "1U, 2.25U, 2.75U, 1U"]
+      [
+        "Bottom Row",
+        "7U",
+        "1U, 2.25U, 2.75U, 1U"
+      ]
     ],
     "keymap": [
       [
