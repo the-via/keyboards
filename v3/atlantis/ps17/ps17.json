@@ -3,7 +3,7 @@
   "vendorId": "0x0015",
   "productId": "0x414B",
   "matrix": {
-    "rows": 11,
+    "rows": 6,
     "cols": 4
   },
   "keycodes": [
