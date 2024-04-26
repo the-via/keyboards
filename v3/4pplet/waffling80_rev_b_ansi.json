@@ -1,7 +1,7 @@
 {
   "name": "waffling80 Rev B ANSI HS",
   "vendorId": "0x4444",
-  "productId": "0x0010",
+  "productId": "0x0017",
   "matrix": {
     "rows": 12,
     "cols": 8
