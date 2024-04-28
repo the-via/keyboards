@@ -2,13 +2,15 @@
   "name": "Trifecta",
   "vendorId": "0x04D8",
   "productId": "0xEAF3",
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 10,
     "cols": 8
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
-    "labels": ["Split Backspace"],
+    "labels": [
+      "Split Backspace"
+    ],
     "keymap": [
       [
         {

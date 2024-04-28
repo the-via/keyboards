@@ -2,13 +2,16 @@
   "name": "UM-70",
   "vendorId": "0x4D65",
   "productId": "0x3222",
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 10,
     "cols": 8
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
-    "labels": ["Split Backspace", "Spacekey"],
+    "labels": [
+      "Split Backspace",
+      "Spacekey"
+    ],
     "keymap": [
       [
         {

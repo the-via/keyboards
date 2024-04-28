@@ -2,13 +2,17 @@
   "name": "KBDPad MKII",
   "vendorId": "0xA103",
   "productId": "0x0006",
-  "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 6,
     "cols": 4
   },
+  "lighting": "qmk_backlight_rgblight",
   "layouts": {
-    "labels": ["Split Plus", "Split Enter", "Split Zero"],
+    "labels": [
+      "Split Plus",
+      "Split Enter",
+      "Split Zero"
+    ],
     "keymap": [
       [
         {

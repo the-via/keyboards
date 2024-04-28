@@ -2,11 +2,11 @@
   "name": "Amber80 Solder",
   "vendorId": "0x5350",
   "productId": "0xA801",
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 12,
     "cols": 9
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
     "labels": [
       "Split Backspace",
@@ -14,7 +14,6 @@
       "Right Shift Tsangan",
       "Right Shift Tsangan"
     ],
-
     "keymap": [
       [
         {

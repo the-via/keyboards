@@ -2,12 +2,23 @@
   "name": "Iskar",
   "vendorId": "0xDE43",
   "productId": "0x1284",
+  "matrix": {
+    "rows": 5,
+    "cols": 16
+  },
   "lighting": "none",
-  "matrix": {"rows": 5, "cols": 16},
   "layouts": {
     "labels": [
-      ["Bottom Row", "Default", "Tsangan"],
-      ["Split Backspace", "Default", "Split"]
+      [
+        "Bottom Row",
+        "Default",
+        "Tsangan"
+      ],
+      [
+        "Split Backspace",
+        "Default",
+        "Split"
+      ]
     ],
     "keymap": [
       [

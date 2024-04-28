@@ -2,15 +2,20 @@
   "name": "Quefrency Rev. 4",
   "vendorId": "0xCB10",
   "productId": "0x4357",
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 10,
     "cols": 9
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
     "labels": [
       "Split Backspace",
-      ["Left Macropad", "Enabled", "W/Encoder", "No Macro"],
+      [
+        "Left Macropad",
+        "Enabled",
+        "W/Encoder",
+        "No Macro"
+      ],
       "Right Encoder"
     ],
     "keymap": [

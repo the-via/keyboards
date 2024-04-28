@@ -2,18 +2,25 @@
   "name": "h60",
   "vendorId": "0x04D8",
   "productId": "0xEBBE",
-  "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 5,
     "cols": 14
   },
+  "lighting": "qmk_backlight_rgblight",
   "layouts": {
     "labels": [
       "Split Backspace",
       "Split Left Shift",
       "Split Right Shift",
       "ISO Enter",
-      ["Bottom Row", "6.25U", "MX HHKB", "7U Tsangan", "7U WKL", "Split Space"]
+      [
+        "Bottom Row",
+        "6.25U",
+        "MX HHKB",
+        "7U Tsangan",
+        "7U WKL",
+        "Split Space"
+      ]
     ],
     "keymap": [
       [

@@ -2,8 +2,11 @@
   "name": "Vector",
   "vendorId": "0xca04",
   "productId": "0x000c",
+  "matrix": {
+    "rows": 5,
+    "cols": 14
+  },
   "lighting": "none",
-  "matrix": {"rows": 5, "cols": 14},
   "layouts": {
     "labels": [
       "Split Backspace",

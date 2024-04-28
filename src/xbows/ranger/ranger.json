@@ -2,8 +2,11 @@
   "name": "Ranger",
   "vendorId": "0x5842",
   "productId": "0x5261",
+  "matrix": {
+    "rows": 6,
+    "cols": 16
+  },
   "lighting": "none",
-  "matrix": {"rows": 6, "cols": 16},
   "layouts": {
     "keymap": [
       [

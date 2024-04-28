@@ -2,13 +2,13 @@
   "name": "BM60V2",
   "vendorId": "0x4B50",
   "productId": "0x1121",
-  "lighting": {
-    "extends": "none",
-    "keycodes": "qmk"
-  },
   "matrix": {
     "rows": 5,
     "cols": 14
+  },
+  "lighting": {
+    "extends": "none",
+    "keycodes": "qmk"
   },
   "layouts": {
     "keymap": [

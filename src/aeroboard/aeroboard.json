@@ -2,10 +2,19 @@
   "name": "aeroboard",
   "vendorId": "0x8954",
   "productId": "0x8870",
+  "matrix": {
+    "rows": 5,
+    "cols": 16
+  },
   "lighting": "qmk_rgblight",
-  "matrix": {"rows": 5, "cols": 16},
   "layouts": {
-    "labels": [["Bottom Row", "7U", "3U+1U+3U"]],
+    "labels": [
+      [
+        "Bottom Row",
+        "7U",
+        "3U+1U+3U"
+      ]
+    ],
     "keymap": [
       [
         "0,0",

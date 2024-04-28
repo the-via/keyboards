@@ -2,18 +2,23 @@
   "name": "BIOI G60 BLE",
   "vendorId": "0x8101",
   "productId": "0x6080",
-  "lighting": "qmk_backlight_rgblight",
   "matrix": {
-    "cols": 14,
-    "rows": 5
+    "rows": 5,
+    "cols": 14
   },
+  "lighting": "qmk_backlight_rgblight",
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO Enter",
       "ISO Left Shift",
       "Right Shift with Arrow Up",
-      ["Bottom Row", "ANSI", "7u", "Arrow Keys"]
+      [
+        "Bottom Row",
+        "ANSI",
+        "7u",
+        "Arrow Keys"
+      ]
     ],
     "keymap": [
       [

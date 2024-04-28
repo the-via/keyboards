@@ -2,13 +2,19 @@
   "name": "0xCB Static",
   "vendorId": "0xCB00",
   "productId": "0xa455",
-  "lighting": "none",
   "matrix": {
     "rows": 8,
     "cols": 6
   },
+  "lighting": "none",
   "layouts": {
-    "labels": [["Space", "Split", "6.25U"]],
+    "labels": [
+      [
+        "Space",
+        "Split",
+        "6.25U"
+      ]
+    ],
     "keymap": [
       [
         {

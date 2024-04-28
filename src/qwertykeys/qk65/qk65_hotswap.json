@@ -2,11 +2,11 @@
   "name": "QK65 Hotswap",
   "vendorId": "0x4F53",
   "productId": "0x514B",
-  "lighting": "none",
   "matrix": {
     "rows": 5,
     "cols": 15
   },
+  "lighting": "none",
   "layouts": {
     "keymap": [
       [

@@ -2,12 +2,16 @@
   "name": "ERA65",
   "vendorId": "0x4552",
   "productId": "0x0001",
-  "keycodes": ["qmk_lighting"],
-  "menus": ["qmk_backlight"],
   "matrix": {
     "rows": 5,
     "cols": 15
   },
+  "keycodes": [
+    "qmk_lighting"
+  ],
+  "menus": [
+    "qmk_backlight"
+  ],
   "layouts": {
     "labels": [
       "Left Shift ISO",

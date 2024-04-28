@@ -2,9 +2,16 @@
   "name": "AELITH",
   "vendorId": "0xB16B",
   "productId": "0xE460",
+  "matrix": {
+    "rows": 5,
+    "cols": 16
+  },
   "lighting": "none",
-  "matrix": {"rows": 5, "cols": 16},
   "layouts": {
+    "labels": [
+      "Split Backspace",
+      "Split Right Shift"
+    ],
     "keymap": [
       [
         {
@@ -285,7 +292,6 @@
         },
         "4,11"
       ]
-    ],
-    "labels": ["Split Backspace", "Split Right Shift"]
+    ]
   }
 }

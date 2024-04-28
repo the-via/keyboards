@@ -2,15 +2,19 @@
   "name": "Swift 65 Solder",
   "vendorId": "0xBBEB",
   "productId": "0xD4C3",
-  "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 5,
     "cols": 16
   },
+  "lighting": "qmk_backlight_rgblight",
   "layouts": {
     "labels": [
       "Split Backspace",
-      ["Bottom Row", "6.25U", "7U"],
+      [
+        "Bottom Row",
+        "6.25U",
+        "7U"
+      ],
       "ISO Enter",
       "Split Left Shift"
     ],

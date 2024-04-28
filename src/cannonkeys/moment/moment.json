@@ -2,13 +2,18 @@
   "name": "Moment",
   "vendorId": "0xCA04",
   "productId": "0x0014",
-  "lighting": "qmk_backlight",
   "matrix": {
     "rows": 5,
     "cols": 15
   },
+  "lighting": "qmk_backlight",
   "layouts": {
-    "labels": ["Split Backspace", "ISO Enter", "Split L-Shift", "Full R-Shift"],
+    "labels": [
+      "Split Backspace",
+      "ISO Enter",
+      "Split L-Shift",
+      "Full R-Shift"
+    ],
     "keymap": [
       [
         {

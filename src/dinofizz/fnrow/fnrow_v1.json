@@ -2,11 +2,11 @@
   "name": "FnRow v1",
   "vendorId": "0xD1F1",
   "productId": "0x0100",
-  "lighting": "none",
   "matrix": {
     "rows": 2,
     "cols": 7
   },
+  "lighting": "none",
   "layouts": {
     "keymap": [
       [

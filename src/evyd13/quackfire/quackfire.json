@@ -2,13 +2,16 @@
   "name": "Evyd13 Quackfire",
   "vendorId": "0x4705",
   "productId": "0x87C9",
-  "lighting": "none",
   "matrix": {
     "rows": 8,
     "cols": 15
   },
+  "lighting": "none",
   "layouts": {
-    "labels": ["ISO Enter", "Split Right Shift"],
+    "labels": [
+      "ISO Enter",
+      "Split Right Shift"
+    ],
     "keymap": [
       [
         {

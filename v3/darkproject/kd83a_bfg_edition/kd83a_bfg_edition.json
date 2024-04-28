@@ -2,12 +2,19 @@
   "name": "kd83a_bfg_edition",
   "vendorId": "0x342D",
   "productId": "0xE392",
-  "keycodes": ["qmk_lighting"],
-  "menus": ["qmk_rgb_matrix"],
-  "matrix": {"rows": 14, "cols": 8},
+  "matrix": {
+    "rows": 14,
+    "cols": 8
+  },
+  "keycodes": [
+    "qmk_lighting"
+  ],
+  "menus": [
+    "qmk_rgb_matrix"
+  ],
   "layouts": {
-        "keymap":[
-       [
+    "keymap": [
+      [
         {
           "c": "#777777"
         },
@@ -84,7 +91,7 @@
         "10,2",
         {
           "c": "#aaaaaa"
-        },  
+        },
         "6,5"
       ],
       [

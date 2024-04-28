@@ -2,15 +2,23 @@
   "name": "Hannah60 RGB V2",
   "vendorId": "0x4D4C",
   "productId": "0x6002",
+  "matrix": {
+    "rows": 5,
+    "cols": 14
+  },
   "lighting": "qmk_rgblight",
-  "matrix": {"rows": 5, "cols": 14},
   "layouts": {
     "labels": [
       "2U Back Space",
       "ISO Enter",
       "2.75U Right Shift",
       "2.25U Left Shift",
-      ["Bottom Row", "6.25U", "7U", "6U"]
+      [
+        "Bottom Row",
+        "6.25U",
+        "7U",
+        "6U"
+      ]
     ],
     "keymap": [
       [

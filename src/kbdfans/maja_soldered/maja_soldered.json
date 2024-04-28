@@ -2,13 +2,16 @@
   "name": "MAJA_SOLDERED",
   "vendorId": "0x4B42",
   "productId": "0x6069",
-  "lighting": "qmk_backlight",
   "matrix": {
     "rows": 5,
     "cols": 15
   },
+  "lighting": "qmk_backlight",
   "layouts": {
-    "labels": ["Split Backspace", "2.25u Space"],
+    "labels": [
+      "Split Backspace",
+      "2.25u Space"
+    ],
     "keymap": [
       [
         {

@@ -2,11 +2,11 @@
   "name": "Doro67 Regular",
   "vendorId": "0x4250",
   "productId": "0x5245",
-  "lighting": "none",
   "matrix": {
     "rows": 5,
     "cols": 15
   },
+  "lighting": "none",
   "layouts": {
     "keymap": [
       [

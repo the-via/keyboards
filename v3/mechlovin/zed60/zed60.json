@@ -2,6 +2,13 @@
   "name": "Zed60 Rev.1",
   "vendorId": "0x4D4C",
   "productId": "0x0602",
+  "matrix": {
+    "rows": 5,
+    "cols": 14
+  },
+  "keycodes": [
+    "qmk_lighting"
+  ],
   "menus": [
     {
       "label": "Lighting",
@@ -12,13 +19,24 @@
             {
               "label": "Brightness",
               "type": "range",
-              "options": [0, 255],
-              "content": ["id_qmk_rgblight_brightness", 2, 1]
+              "options": [
+                0,
+                255
+              ],
+              "content": [
+                "id_qmk_rgblight_brightness",
+                2,
+                1
+              ]
             },
             {
               "label": "Effect",
               "type": "dropdown",
-              "content": ["id_qmk_rgblight_effect", 2, 2],
+              "content": [
+                "id_qmk_rgblight_effect",
+                2,
+                2
+              ],
               "options": [
                 "All Off",
                 "Solid Color",
@@ -69,26 +87,41 @@
               "showIf": "{id_qmk_rgblight_effect} != 0",
               "label": "Effect Speed",
               "type": "range",
-              "options": [0, 3],
-              "content": ["id_qmk_rgblight_effect_speed", 2, 3]
+              "options": [
+                0,
+                3
+              ],
+              "content": [
+                "id_qmk_rgblight_effect_speed",
+                2,
+                3
+              ]
             },
             {
               "showIf": "{id_qmk_rgblight_effect} != 6 && {id_qmk_rgblight_effect} != 7 && {id_qmk_rgblight_effect} != 8 && {id_qmk_rgblight_effect} != 9 && {id_qmk_rgblight_effect} != 10 && {id_qmk_rgblight_effect} != 0 && {id_qmk_rgblight_effect} != 11 && {id_qmk_rgblight_effect} != 12 && {id_qmk_rgblight_effect} != 13 && {id_qmk_rgblight_effect} != 14 && {id_qmk_rgblight_effect} != 35",
               "label": "Color",
               "type": "color",
-              "content": ["id_qmk_rgblight_color", 2, 4]
+              "content": [
+                "id_qmk_rgblight_color",
+                2,
+                4
+              ]
             }
           ]
         }
       ]
     }
   ],
-  "matrix": {"rows": 5, "cols": 14},
   "layouts": {
     "labels": [
       "Split Backspace",
       "2.75U Right Shift",
-      ["Bottom Row", "6.25U", "7U", "HHKB"],
+      [
+        "Bottom Row",
+        "6.25U",
+        "7U",
+        "HHKB"
+      ],
       "Left Shift ISO",
       "Enter ISO"
     ],

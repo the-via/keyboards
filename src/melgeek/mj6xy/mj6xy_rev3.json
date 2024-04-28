@@ -2,11 +2,11 @@
   "name": "MJ6XY",
   "vendorId": "0xEDED",
   "productId": "0x6060",
-  "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 5,
     "cols": 15
   },
+  "lighting": "qmk_backlight_rgblight",
   "layouts": {
     "labels": [
       "Split Backspace",

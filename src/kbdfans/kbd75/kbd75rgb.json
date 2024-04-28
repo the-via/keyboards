@@ -2,13 +2,13 @@
   "name": "KBD75RGB",
   "vendorId": "0x4B42",
   "productId": "0x6063",
-  "lighting": {
-    "extends": "none",
-    "keycodes": "qmk"
-  },
   "matrix": {
     "rows": 6,
     "cols": 15
+  },
+  "lighting": {
+    "extends": "none",
+    "keycodes": "qmk"
   },
   "layouts": {
     "keymap": [

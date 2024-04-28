@@ -2,13 +2,20 @@
   "name": "CherryB.Studio CB87",
   "vendorId": "0x4342",
   "productId": "0x8787",
+  "matrix": {
+    "rows": 9,
+    "cols": 10
+  },
   "lighting": "qmk_rgblight",
-  "matrix": {"rows": 9, "cols": 10},
   "layouts": {
     "labels": [
       "ISO Enter",
       "Split Left Shift",
-      ["Bottom Row", "Normal", "Winkeyless"]
+      [
+        "Bottom Row",
+        "Normal",
+        "Winkeyless"
+      ]
     ],
     "keymap": [
       [

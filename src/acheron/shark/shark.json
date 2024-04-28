@@ -2,10 +2,20 @@
   "name": "Acheron Shark",
   "vendorId": "0xAC11",
   "productId": "0x5368",
-  "matrix": {"rows": 4, "cols": 12},
+  "matrix": {
+    "rows": 4,
+    "cols": 12
+  },
   "lighting": "none",
   "layouts": {
-    "labels": [["Bottom Row", "Grid (2x1U)", "MIT (1x2U)", "2x2U"]],
+    "labels": [
+      [
+        "Bottom Row",
+        "Grid (2x1U)",
+        "MIT (1x2U)",
+        "2x2U"
+      ]
+    ],
     "keymap": [
       [
         {

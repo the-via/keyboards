@@ -2,8 +2,11 @@
   "name": "wilba.tech WT60-LH1",
   "vendorId": "0x6582",
   "productId": "0x0035",
+  "matrix": {
+    "rows": 5,
+    "cols": 14
+  },
   "lighting": "none",
-  "matrix": {"rows": 5, "cols": 14},
   "layouts": {
     "keymap": [
       [

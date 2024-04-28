@@ -2,8 +2,11 @@
   "name": "ErgoDox EZ",
   "vendorId": "0x3297",
   "productId": "0x4974",
+  "matrix": {
+    "rows": 14,
+    "cols": 6
+  },
   "lighting": "none",
-  "matrix": {"rows": 14, "cols": 6},
   "layouts": {
     "keymap": [
       [

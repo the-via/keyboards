@@ -2,15 +2,27 @@
   "name": "arc60h",
   "vendorId": "0x7374",
   "productId": "0x9770",
-  "keycodes": ["qmk_lighting"],
-  "menus": ["qmk_rgblight"],
-  "matrix": {"rows": 5, "cols": 15},
+  "matrix": {
+    "rows": 5,
+    "cols": 15
+  },
+  "keycodes": [
+    "qmk_lighting"
+  ],
+  "menus": [
+    "qmk_rgblight"
+  ],
   "layouts": {
     "labels": [
       "Backspace",
       "Split Left Shift",
       "Split Right Shift",
-      ["Bottom Row", "Tsangan", "WKL", "HHKB"]
+      [
+        "Bottom Row",
+        "Tsangan",
+        "WKL",
+        "HHKB"
+      ]
     ],
     "keymap": [
       [

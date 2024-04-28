@@ -2,11 +2,11 @@
   "name": "hotDuck",
   "vendorId": "0x4D53",
   "productId": "0x6844",
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 7,
     "cols": 10
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
     "keymap": [
       [

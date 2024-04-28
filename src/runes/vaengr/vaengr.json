@@ -2,11 +2,11 @@
   "name": "Runes Vaengr",
   "vendorId": "0x726E",
   "productId": "0x7661",
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 5,
     "cols": 12
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
     "keymap": [
       [

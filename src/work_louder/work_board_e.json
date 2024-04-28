@@ -2,7 +2,10 @@
   "name": "Work Board",
   "vendorId": "0x574C",
   "productId": "0xDCD1",
-  "lighting": "qmk_rgblight",
+  "matrix": {
+    "rows": 4,
+    "cols": 13
+  },
   "customKeycodes": [
     {
       "name": "RGB Matrix Toggle",
@@ -55,9 +58,11 @@
       "shortName": "ENC_TAP"
     }
   ],
-  "matrix": {"rows": 4, "cols": 13},
+  "lighting": "qmk_rgblight",
   "layouts": {
-    "labels": ["2u Space"],
+    "labels": [
+      "2u Space"
+    ],
     "keymap": [
       [
         {
@@ -65,7 +70,7 @@
         },
         "0,0",
         {
-          "c": "#ccccccc"
+          "c": "#cccccc"
         },
         "0,1",
         "0,2",
@@ -83,7 +88,7 @@
         "0,11",
         {
           "x": 0.25,
-          "c": "#ccccccc"
+          "c": "#cccccc"
         },
         "0,12\n\n\n\n\n\n\n\n\ne0"
       ],
@@ -93,7 +98,7 @@
         },
         "1,0",
         {
-          "c": "#ccccccc"
+          "c": "#cccccc"
         },
         "1,1",
         "1,2",
@@ -111,7 +116,7 @@
         "1,11",
         {
           "x": 0.25,
-          "c": "#ccccccc"
+          "c": "#cccccc"
         }
       ],
       [
@@ -120,7 +125,7 @@
         },
         "2,0",
         {
-          "c": "#ccccccc"
+          "c": "#cccccc"
         },
         "2,1",
         "2,2",
@@ -138,7 +143,7 @@
         "2,11",
         {
           "x": 0.25,
-          "c": "#ccccccc"
+          "c": "#cccccc"
         }
       ],
       [

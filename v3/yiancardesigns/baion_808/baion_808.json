@@ -2,13 +2,20 @@
   "name": "Baion 808",
   "vendorId": "0x8968",
   "productId": "0x4238",
-  "matrix": {"rows": 6, "cols": 17},
+  "matrix": {
+    "rows": 6,
+    "cols": 17
+  },
   "layouts": {
     "labels": [
       "Split Backspace",
       "Split Right Shift",
       "Split Left Shift",
-      ["Bottom Row", "7U", "6.25U"],
+      [
+        "Bottom Row",
+        "7U",
+        "6.25U"
+      ],
       "ISO Enter"
     ],
     "keymap": [

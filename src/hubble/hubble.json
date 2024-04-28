@@ -2,16 +2,32 @@
   "name": "hubble",
   "vendorId": "0x4680",
   "productId": "0x1357",
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 8,
     "cols": 8
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
     "labels": [
-      ["Right Shift", "2.25", "1.25-1", "1-1.25"],
-      ["Spacebar", "2.25-1.25-2.75", "2.75-1.25-2.25", "6.25", "7", "7 (WKL)"],
-      ["Right Mods", "1-1-1", "1.5-1.5"]
+      [
+        "Right Shift",
+        "2.25",
+        "1.25-1",
+        "1-1.25"
+      ],
+      [
+        "Spacebar",
+        "2.25-1.25-2.75",
+        "2.75-1.25-2.25",
+        "6.25",
+        "7",
+        "7 (WKL)"
+      ],
+      [
+        "Right Mods",
+        "1-1-1",
+        "1.5-1.5"
+      ]
     ],
     "keymap": [
       [

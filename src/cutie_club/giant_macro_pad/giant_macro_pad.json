@@ -2,8 +2,11 @@
   "name": "Cupar19 Giant Macro Pad",
   "vendorId": "0xFB9C",
   "productId": "0x74B6",
+  "matrix": {
+    "rows": 20,
+    "cols": 20
+  },
   "lighting": "none",
-  "matrix": {"rows": 20, "cols": 20},
   "layouts": {
     "keymap": [
       [

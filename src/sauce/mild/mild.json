@@ -2,8 +2,11 @@
   "name": "Sauce - Mild",
   "vendorId": "0x8367",
   "productId": "0x7783",
+  "matrix": {
+    "rows": 6,
+    "cols": 17
+  },
   "lighting": "none",
-  "matrix": {"rows": 6, "cols": 17},
   "layouts": {
     "labels": [
       "Split Backspace",

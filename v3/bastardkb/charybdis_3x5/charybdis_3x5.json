@@ -2,9 +2,6 @@
   "name": "Charybdis Nano",
   "vendorId": "0xA8F8",
   "productId": "0x1832",
-  "menus": [
-    "qmk_rgb_matrix"
-  ],
   "matrix": {
     "rows": 8,
     "cols": 5
@@ -50,6 +47,9 @@
       "name": "Drag-scroll TG",
       "shortName": "DrgT"
     }
+  ],
+  "menus": [
+    "qmk_rgb_matrix"
   ],
   "layouts": {
     "keymap": [

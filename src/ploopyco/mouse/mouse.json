@@ -2,7 +2,10 @@
   "name": "PloopyCo Mouse",
   "vendorId": "0x5043",
   "productId": "0x4D6F",
-  "lighting": "none",
+  "matrix": {
+    "rows": 1,
+    "cols": 8
+  },
   "customKeycodes": [
     {
       "name": "DPI Config",
@@ -15,7 +18,7 @@
       "shortName": "DragScl"
     }
   ],
-  "matrix": {"rows": 1, "cols": 8},
+  "lighting": "none",
   "layouts": {
     "keymap": [
       [
