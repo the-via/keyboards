@@ -8,8 +8,16 @@
   },
   "layouts": {
     "labels": [
-      ["Left Spacebar", "1.25u/2u", "2u/1.25"],
-      ["Right Spacebar", "2.25u/1.25u", "1.25u/2.25"]
+      [
+        "Left Spacebar",
+        "1.25U | 2U",
+        "2U | 1.25U"
+      ],
+      [
+        "Right Spacebar",
+        "2.25U | 1.25U",
+        "1.25U | 2.25U"
+      ]
     ],
     "keymap": [
       [
@@ -221,3 +229,4 @@
     ]
   }
 }
+
