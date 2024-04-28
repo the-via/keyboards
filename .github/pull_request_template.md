@@ -7,7 +7,7 @@
 
 <!--- Describe your changes in detail here. -->
 
-## QMK Pull Request 
+## QMK Pull Request
 
 <!--- VIA support for new keyboards MUST be in QMK master already -->
 
@@ -25,6 +25,7 @@
 - [ ] The VIA support for this keyboard is **MERGED** in QMK master already **(MANDATORY)**
 - [ ] The VIA definition follows the guide here: https://caniusevia.com/docs/layouts
 - [ ] I have a V3 JSON version for this keyboard definition.**(MANDATORY)**
+- [ ] I have formatted the JSON file to have consistent formatting with the rest of the repository.
 - [ ] I have tested this keyboard definition using VIA's "Design" tab.
 - [ ] I have tested this keyboard definition with firmware on a device.
 - [ ] I have assigned alpha keys and modifier keys with the correct colors.
