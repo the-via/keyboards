@@ -2,36 +2,47 @@
   "name": "SHADOW80",
   "vendorId": "0x0011",
   "productId": "0x0011",
-  "keycodes": ["qmk_lighting"],
-  "menus":[ "qmk_rgb_matrix"],
+  "matrix": {
+    "rows": 6,
+    "cols": 17
+  },
   "customKeycodes": [
     {
-        "name": "Toggle WinKey Lock",
-        "title": "Toggle WinKey Lock",
-        "shortName": "WinLock"
+      "name": "Toggle WinKey Lock",
+      "title": "Toggle WinKey Lock",
+      "shortName": "WinLock"
     },
     {
-        "name": "Toggle macOS Keymap",
-        "title": "Toggle macOS Keymap",
-        "shortName": "TogMacOS"
+      "name": "Toggle macOS Keymap",
+      "title": "Toggle macOS Keymap",
+      "shortName": "TogMacOS"
     },
     {
-        "name": "Mission Control",
-        "title": "Mission Control in macOS",
-        "shortName": "Mission Control"
+      "name": "Mission Control",
+      "title": "Mission Control in macOS",
+      "shortName": "Mission Control"
     },
     {
-        "name": "Launch Pad",
-        "title": "Launch Pad in macOS",
-        "shortName": "Launch Pad"
+      "name": "Launch Pad",
+      "title": "Launch Pad in macOS",
+      "shortName": "Launch Pad"
     }
   ],
-  "matrix": { "rows": 6, "cols": 17 },
+  "keycodes": [
+    "qmk_lighting"
+  ],
+  "menus": [
+    "qmk_rgb_matrix"
+  ],
   "layouts": {
     "labels": [
       "ISO Enter",
-      ["Bottom Row","7U","6.25U"],
-      "Split Lshift" ,
+      [
+        "Bottom Row",
+        "7U",
+        "6.25U"
+      ],
+      "Split Lshift",
       "Split Rshift",
       "Split BackSpace"
     ],
@@ -80,7 +91,7 @@
       ],
       [
         {
-          "y":0.25,
+          "y": 0.25,
           "x": 2.5,
           "c": "#cccccc"
         },
@@ -141,7 +152,6 @@
           "w": 1.5
         },
         "2,13\n\n\n0,0",
-       
         {
           "x": 0.5,
           "c": "#aaaaaa"
@@ -151,12 +161,12 @@
         "2,16",
         {
           "x": 1.75,
-          "w":1.25,
-          "h":2,
           "c": "#777777",
-          "w2":1.5,
-          "h2":1,
-          "x2":-0.25
+          "w": 1.25,
+          "h": 2,
+          "w2": 1.5,
+          "h2": 1,
+          "x2": -0.25
         },
         "3,13\n\n\n0,1"
       ],
@@ -168,7 +178,7 @@
         },
         "3,0",
         {
-            "c": "#cccccc"
+          "c": "#cccccc"
         },
         "3,1",
         "3,2",
@@ -182,8 +192,8 @@
         "3,10",
         "3,11",
         {
-          "w": 2.25, 
-          "c": "#777777"
+          "c": "#777777",
+          "w": 2.25
         },
         "3,13\n\n\n0,0",
         {
@@ -191,8 +201,6 @@
           "c": "#cccccc"
         },
         "2,13\n\n\n0,1"
-        
-       
       ],
       [
         {
@@ -225,7 +233,7 @@
         "4,11",
         {
           "c": "#aaaaaa",
-          "w":2.75
+          "w": 2.75
         },
         "4,12\n\n\n3,0",
         {
@@ -233,8 +241,8 @@
         },
         "4,15",
         {
-          "x": 1.25,
-          "w":1.75
+          "x": 1.5,
+          "w": 1.75
         },
         "4,12\n\n\n3,1",
         "4,13\n\n\n3,1"
@@ -247,7 +255,7 @@
         "5,0\n\n\n1,0",
         "5,1\n\n\n1,0",
         {
-          "w":1.5
+          "w": 1.5
         },
         "5,2\n\n\n1,0",
         {
@@ -257,14 +265,14 @@
         "5,6\n\n\n1,0",
         {
           "c": "#aaaaaa",
-          "w":1.5
+          "w": 1.5
         },
         "5,11\n\n\n1,0",
         "5,12\n\n\n1,0",
         {
-          "w":1.5
-        }, 
-       "5,13\n\n\n1,0",
+          "w": 1.5
+        },
+        "5,13\n\n\n1,0",
         {
           "x": 0.25
         },
@@ -280,11 +288,11 @@
         },
         "5,0\n\n\n1,1",
         {
-          "w":1.25
+          "w": 1.25
         },
         "5,1\n\n\n1,1",
         {
-          "w":1.25
+          "w": 1.25
         },
         "5,2\n\n\n1,1",
         {
@@ -294,26 +302,23 @@
         "5,6\n\n\n1,1",
         {
           "c": "#aaaaaa",
-          "w":1.25
+          "w": 1.25
         },
         "5,10\n\n\n1,1",
         {
-          "w":1.25
+          "w": 1.25
         },
         "5,11\n\n\n1,1",
         {
-          "w":1.25
+          "w": 1.25
         },
         "5,12\n\n\n1,1",
         {
-          "w":1.25
+          "w": 1.25
         },
         "5,13\n\n\n1,1"
       ]
     ]
-
-
-
-
   }
 }
+
