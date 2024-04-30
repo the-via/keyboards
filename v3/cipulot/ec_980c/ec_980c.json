@@ -2,6 +2,10 @@
   "name": "EC 980C",
   "vendorId": "0x6369",
   "productId": "0x6BBE",
+  "matrix": {
+    "rows": 6,
+    "cols": 19
+  },
   "keycodes": [
     "qmk_lighting"
   ],
@@ -348,10 +352,6 @@
       ]
     }
   ],
-  "matrix": {
-    "rows": 6,
-    "cols": 19
-  },
   "layouts": {
     "labels": [
       "Split Backspace",
