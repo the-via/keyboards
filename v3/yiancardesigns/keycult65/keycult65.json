@@ -2,11 +2,18 @@
   "name": "Keycult 65",
   "vendorId": "0x8968",
   "productId": "0x6335",
-  "matrix": {"rows": 5, "cols": 15},
+  "matrix": {
+    "rows": 5,
+    "cols": 15
+  },
   "layouts": {
     "labels": [
       "Split Backspace",
-      ["Bottom Row", "6.25U", "7U"]
+      [
+        "Bottom Row",
+        "6.25U",
+        "7U"
+      ]
     ],
     "keymap": [
       [
