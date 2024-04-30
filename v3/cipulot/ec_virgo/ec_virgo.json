@@ -2,6 +2,10 @@
   "name": "Virgo EC",
   "vendorId": "0x6369",
   "productId": "0x6BC0",
+  "matrix": {
+    "rows": 6,
+    "cols": 18
+  },
   "menus": [
     {
       "label": "EC Tools",
@@ -176,10 +180,6 @@
       ]
     }
   ],
-  "matrix": {
-    "rows": 6,
-    "cols": 18
-  },
   "layouts": {
     "labels": [
       "Split Backspace",
