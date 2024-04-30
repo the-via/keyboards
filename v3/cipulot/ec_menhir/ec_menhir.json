@@ -2,6 +2,10 @@
   "name": "EC Menhir",
   "vendorId": "0x6369",
   "productId": "0x6BB8",
+  "matrix": {
+    "rows": 4,
+    "cols": 12
+  },
   "menus": [
     {
       "label": "EC Tools",
@@ -176,10 +180,6 @@
       ]
     }
   ],
-  "matrix": {
-    "rows": 4,
-    "cols": 12
-  },
   "layouts": {
     "labels": [
       [
