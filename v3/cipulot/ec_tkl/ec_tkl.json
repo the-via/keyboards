@@ -2,6 +2,10 @@
   "name": "EC TKL",
   "vendorId": "0x6369",
   "productId": "0x6BC3",
+  "matrix": {
+    "rows": 6,
+    "cols": 16
+  },
   "keycodes": [
     "qmk_lighting"
   ],
@@ -180,10 +184,6 @@
       ]
     }
   ],
-  "matrix": {
-    "rows": 6,
-    "cols": 16
-  },
   "layouts": {
     "labels": [
       "Split Backspace",
