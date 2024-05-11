@@ -2,8 +2,11 @@
   "name": "wilba.tech WT80-BC",
   "vendorId": "0x6582",
   "productId": "0x80b0",
+  "matrix": {
+    "rows": 6,
+    "cols": 17
+  },
   "lighting": "none",
-  "matrix": {"rows": 6, "cols": 17},
   "layouts": {
     "labels": [
       "Winkeyless"

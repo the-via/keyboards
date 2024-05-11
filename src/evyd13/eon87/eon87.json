@@ -2,11 +2,11 @@
   "name": "Evyd13 Eon87",
   "vendorId": "0x4705",
   "productId": "0xAA6B",
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 6,
     "cols": 17
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
     "labels": [
       [
@@ -81,7 +81,7 @@
         "1,7",
         "1,8",
         "1,9",
-        "1,0",
+        "1,10",
         "1,11",
         "1,12",
         {

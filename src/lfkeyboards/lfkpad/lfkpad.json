@@ -1,13 +1,13 @@
 {
-	"name": "LFKPad",
-	"vendorId": "0x4C46",
-	"productId": "0x3231",
-	"lighting": "qmk_rgblight",
-	"matrix": {
-		"rows": 6,
-		"cols": 4
-	},
-	"layouts": {
+  "name": "LFKPad",
+  "vendorId": "0x4C46",
+  "productId": "0x3231",
+  "matrix": {
+    "rows": 6,
+    "cols": 4
+  },
+  "lighting": "qmk_rgblight",
+  "layouts": {
     "keymap": [
       [
         "0,0",

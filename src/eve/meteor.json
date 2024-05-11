@@ -1,9 +1,12 @@
 {
-  "name": "EVE Meteor", 
+  "name": "EVE Meteor",
   "vendorId": "0x4556",
   "productId": "0x4D54",
+  "matrix": {
+    "rows": 6,
+    "cols": 15
+  },
   "lighting": "qmk_backlight",
-  "matrix": {"rows": 6, "cols": 15},
   "layouts": {
     "labels": [
       "Split Backspace",

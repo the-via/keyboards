@@ -2,11 +2,11 @@
   "name": "Helpo",
   "vendorId": "0x525C",
   "productId": "0xC89F",
-  "lighting": "none",
   "matrix": {
     "rows": 4,
     "cols": 5
   },
+  "lighting": "none",
   "layouts": {
     "labels": [],
     "keymap": [

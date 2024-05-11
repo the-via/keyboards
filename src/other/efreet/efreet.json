@@ -2,8 +2,11 @@
   "name": "Efreet",
   "vendorId": "0x534F",
   "productId": "0x0001",
+  "matrix": {
+    "rows": 8,
+    "cols": 6
+  },
   "lighting": "none",
-  "matrix": {"rows": 8, "cols": 6},
   "layouts": {
     "labels": [
       "2U Spacebar"

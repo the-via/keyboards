@@ -1,0 +1,57 @@
+{
+  "name": "Momokai Aurora",
+  "vendorId": "0x69F9",
+  "productId": "0x0009",
+  "matrix": {
+    "rows": 3,
+    "cols": 3
+  },
+  "keycodes": [
+    "qmk_lighting"
+  ],
+  "menus": [
+    "qmk_rgb_matrix"
+  ],
+  "layouts": {
+    "keymap": [
+      [
+        {
+          "x": 0.5,
+          "w": 2,
+          "h": 2,
+          "c": "#aaaaaa"
+        },
+        "0,1\n\n\n\n\n\n\n\n\ne0"
+      ],
+      [
+        {
+          "y": 1.5,
+          "c": "#cccccc"
+        },
+        "1,0",
+        {
+          "c": "#cccccc"
+        },
+        "1,1",
+        {
+          "c": "#cccccc"
+        },
+        "1,2"
+      ],
+      [
+        {
+          "c": "#cccccc"
+        },
+        "2,0",
+        {
+          "c": "#cccccc"
+        },
+        "2,1",
+        {
+          "c": "#cccccc"
+        },
+        "2,2"
+      ]
+    ]
+  }
+}

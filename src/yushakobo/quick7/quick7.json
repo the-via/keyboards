@@ -2,11 +2,11 @@
   "name": "Quick7",
   "vendorId": "0x3265",
   "productId": "0x0002",
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 3,
     "cols": 3
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
     "keymap": [
       [

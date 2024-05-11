@@ -1,29 +1,32 @@
 {
-  "name": "Infinity 87",
+  "name": "Infinity 87 Rev.2",
   "vendorId": "0x4D4C",
   "productId": "0x8702",
-  "lighting": "qmk_backlight",
-  "matrix": {"rows": 6, "cols": 17},
+  "matrix": {
+    "rows": 6,
+    "cols": 17
+  },
+  "lighting": "qmk_backlight_rgblight",
   "layouts": {
     "labels": [
-     "Split Backspace",
+      "Split Backspace",
       [
-      "Enter",
-      "ANSI Enter",
-      "ISO Enter",
-      "1.25u Enter"
+        "Enter",
+        "ANSI Enter",
+        "ISO Enter",
+        "1.25u Enter"
       ],
       "Left Shift ISO",
       [
-      "Right Shift",
-      "ANSI Right Shift",
-      "1u - 1.75u",
-      "1.75u - 1u"
+        "Right Shift",
+        "ANSI Right Shift",
+        "1u - 1.75u",
+        "1.75u - 1u"
       ],
       [
-       "Bottom Row",
-       "Space 6.25U",
-       "Space 7U"
+        "Bottom Row",
+        "Space 6.25U",
+        "Space 7U"
       ]
     ],
     "keymap": [
@@ -308,7 +311,7 @@
           "c": "#aaaaaa",
           "w": 1.5
         },
-        "5,10\n\n\n4,1",
+        "5,11\n\n\n4,1",
         "5,12\n\n\n4,1",
         {
           "w": 1.5

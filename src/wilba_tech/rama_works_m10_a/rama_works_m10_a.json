@@ -2,8 +2,11 @@
   "name": "RAMA WORKS M10-A",
   "vendorId": "0x5241",
   "productId": "0x00AA",
+  "matrix": {
+    "rows": 4,
+    "cols": 3
+  },
   "lighting": "qmk_backlight",
-  "matrix": {"rows": 4, "cols": 3},
   "layouts": {
     "keymap": [
       [

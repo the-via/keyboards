@@ -2,11 +2,11 @@
   "name": "KBD8X-MKII",
   "vendorId": "0xA103",
   "productId": "0x0005",
-  "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 12,
     "cols": 9
   },
+  "lighting": "qmk_backlight_rgblight",
   "layouts": {
     "labels": [
       "Split Backspace",

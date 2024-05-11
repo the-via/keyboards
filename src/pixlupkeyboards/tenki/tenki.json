@@ -2,10 +2,13 @@
   "name": "TENKI",
   "vendorId": "0x5058",
   "productId": "0x5445",
+  "matrix": {
+    "rows": 5,
+    "cols": 4
+  },
   "lighting": "qmk_rgblight",
-  "matrix": {"rows": 5, "cols": 4},
   "layouts": {
-    "keymap":[
+    "keymap": [
       [
         "0,0",
         "0,1",

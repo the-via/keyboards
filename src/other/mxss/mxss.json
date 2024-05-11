@@ -2,7 +2,10 @@
   "name": "MxSS",
   "vendorId": "0x4d78",
   "productId": "0x5353",
-  "lighting": "qmk_rgblight",
+  "matrix": {
+    "rows": 5,
+    "cols": 15
+  },
   "customKeycodes": [
     {
       "name": "Front LED Mode",
@@ -20,10 +23,7 @@
       "shortName": "FLED\nVal -"
     }
   ],
-  "matrix": {
-    "rows": 5,
-    "cols": 15
-  },
+  "lighting": "qmk_rgblight",
   "layouts": {
     "labels": [
       "Split Backspace",

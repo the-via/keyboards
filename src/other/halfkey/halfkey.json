@@ -2,11 +2,13 @@
   "name": "Halfkey",
   "vendorId": "0x5A57",
   "productId": "0x0001",
+  "matrix": {
+    "rows": 6,
+    "cols": 8
+  },
   "lighting": "none",
-  "matrix": {"rows": 6, "cols": 8},
   "layouts": {
-    "keymap": 
-    [
+    "keymap": [
       [
         "0,0",
         "0,1",
@@ -78,9 +80,3 @@
     ]
   }
 }
-
-
-
-
-
-
