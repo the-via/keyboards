@@ -2,20 +2,23 @@
   "name": "Equinox XL",
   "vendorId": "0xa103",
   "productId": "0x0020",
-  "matrix": {"rows": 4, "cols": 14},
+  "matrix": {
+    "rows": 4,
+    "cols": 14
+  },
   "layouts": {
     "labels": [
       ["Enter", "ANSI", "ISO"],
-      ["Left Shift", "Unified", "Split"],
-      ["Right Shift", "Split", "Unified"],
-      ["Bottom Row", "Regular", "WKL"],
-      ["Spacebar", "Unified", "Split"]
+      "Split Left Shift",
+      "Split Right Shift",
+      "Winkeyless",
+      "Split Space"
     ],
     "keymap": [
       [
         {
           "x": 2.5,
-          "c": "#aaaaaa",
+          "c": "#777777",
           "w": 1.5
         },
         "0,0",
@@ -78,23 +81,18 @@
         "1,13\n\n\n0,0",
         {
           "x": 0.75,
-          "c": "#cccccc"
+          "c": "#aaaaaa"
         },
         "0,13\n\n\n0,1"
       ],
       [
         {
-          "c": "#aaaaaa",
           "w": 1.25
         },
         "2,0\n\n\n1,1",
-        {
-          "c": "#cccccc"
-        },
         "2,1\n\n\n1,1",
         {
           "x": 0.25,
-          "c": "#aaaaaa",
           "w": 2.25
         },
         "2,0\n\n\n1,0",
@@ -113,14 +111,14 @@
         "2,11",
         {
           "c": "#aaaaaa",
-          "w": 1.75
+          "w": 2.75
         },
-        "2,12\n\n\n2,0",
         "2,13\n\n\n2,0",
         {
           "x": 0.25,
-          "w": 2.75
+          "w": 1.75
         },
+        "2,12\n\n\n2,1",
         "2,13\n\n\n2,1"
       ],
       [
@@ -158,10 +156,7 @@
         },
         "3,0\n\n\n3,1",
         {
-          "d": true
-        },
-        "3,1\n\n\n3,1",
-        {
+          "x": 1,
           "w": 1.5
         },
         "3,2\n\n\n3,1",
@@ -171,10 +166,7 @@
         },
         "3,11\n\n\n3,1",
         {
-          "d": true
-        },
-        "3,12\n\n\n3,1",
-        {
+          "x": 1,
           "w": 1.5
         },
         "3,13\n\n\n3,1"
