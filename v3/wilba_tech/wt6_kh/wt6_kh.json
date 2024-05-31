@@ -2,6 +2,10 @@
   "name": "wilba.tech WT6-KH",
   "vendorId": "0x6582",
   "productId": "0x0043",
+  "matrix": {
+    "rows": 2,
+    "cols": 3
+  },
   "keycodes": ["qmk_lighting"],
   "menus": [
     {
@@ -64,8 +68,6 @@
       ]
     }
   ],
-
-  "matrix": {"rows": 2, "cols": 3},
   "layouts": {
     "keymap": [
       ["0,0", "0,1", "0,2"],

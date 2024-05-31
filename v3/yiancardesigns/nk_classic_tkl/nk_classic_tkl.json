@@ -2,12 +2,19 @@
   "name": "NK_ Classic TKL",
   "vendorId": "0x8968",
   "productId": "0x4E54",
-  "keycodes": ["qmk_lighting"],
+  "matrix": {
+    "rows": 6,
+    "cols": 17
+  },
   "customKeycodes": [
-    {"name": "NK_ Retro RGB", "title": "NK_ Retro RGB", "shortName": "RETRO"}
+    {
+      "name": "NK_ Retro RGB",
+      "title": "NK_ Retro RGB",
+      "shortName": "RETRO"
+    }
   ],
+  "keycodes": ["qmk_lighting"],
   "menus": ["qmk_rgb_matrix"],
-  "matrix": {"rows": 6, "cols": 17},
   "layouts": {
     "keymap": [
       [
