@@ -3,16 +3,14 @@
     "vendorId": "0x5373",
     "productId": "0x6172",
     "matrix": {
-      "rows": 1,
-      "cols": 2
+      "cols": 2,
+      "rows": 1
     },
     "layouts": {
       "keymap": [
         [
-          "0,0"
-        ],
-        [
-          "1,0"
+          "0,0",
+          "0,1"
         ]
       ]
     }
