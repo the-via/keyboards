@@ -1,5 +1,5 @@
 {
-  "name": "60XT",
+  "name": "Cipulot 60XT",
   "vendorId": "0x6369",
   "productId": "0x6BC2",
   "matrix": {
@@ -14,12 +14,7 @@
       "ISO",
       "Vertical 2U #1",
       "Vertical 2U #2",
-      [
-        "Bottom Row",
-        "7U WK",
-        "7U WKL",
-        "7U HHKB"
-      ]
+      ["Bottom Row", "7U WK", "7U WKL", "7U HHKB"]
     ],
     "keymap": [
       [

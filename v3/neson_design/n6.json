@@ -1,26 +1,17 @@
 {
-  "name": "N6",
+  "name": "Neson Design N6",
   "vendorId": "0x4E65",
   "productId": "0x4E36",
   "matrix": {
     "rows": 5,
     "cols": 15
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgblight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_rgblight"],
   "layouts": {
     "labels": [
       "Full Backspace",
-      [
-        "Space Bar",
-        "625U",
-        "700U",
-        "Double Blocker"
-      ]
+      ["Space Bar", "625U", "700U", "Double Blocker"]
     ],
     "keymap": [
       [
