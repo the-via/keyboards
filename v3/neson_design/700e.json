@@ -1,31 +1,19 @@
 {
-  "name": "700E",
+  "name": "Neson Design 700E",
   "vendorId": "0x4E65",
   "productId": "0x700E",
   "matrix": {
     "rows": 5,
     "cols": 16
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgblight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_rgblight"],
   "layouts": {
     "labels": [
       "Split Backspace",
-      [
-        "Enter Key",
-        "ANSI",
-        "ISO"
-      ],
+      ["Enter Key", "ANSI", "ISO"],
       "Split Left Shift",
-      [
-        "Bottom Row",
-        "WKL",
-        "HHKB"
-      ],
+      ["Bottom Row", "WKL", "HHKB"],
       "Split Right Shift"
     ],
     "keymap": [

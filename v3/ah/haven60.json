@@ -2,28 +2,19 @@
   "name": "Atelier_Haven Haven60",
   "vendorId": "0x4446",
   "productId": "0x4660",
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgblight"
-  ],
   "matrix": {
     "rows": 5,
     "cols": 14
   },
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_rgblight"],
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO Enter",
       "Split Left Shift",
       "Split Right Shift",
-      [
-        "Bottom Row",
-        "Full",
-        "WKL",
-        "HHKB (7u)"
-      ]
+      ["Bottom Row", "Full", "WKL", "HHKB (7u)"]
     ],
     "keymap": [
       [

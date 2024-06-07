@@ -6,18 +6,10 @@
     "rows": 9,
     "cols": 9
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgblight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_rgblight"],
   "layouts": {
-    "labels": [
-      "Full Backspace",
-      "Full Right Shift",
-      "ANSI"
-    ],
+    "labels": ["Full Backspace", "Full Right Shift", "ANSI"],
     "keymap": [
       [
         {
