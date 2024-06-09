@@ -1,0 +1,123 @@
+{
+	"name": "tps40a",
+	"vendorId": "0x1EA7",
+	"productId": "0x1F42",
+	"matrix": {
+		"rows": 5,
+		"cols": 13
+	},
+  "customKeycodes": [
+    {"name": "Mission Control", "title": "F3 Mission Control in macOS", "shortName": "Mission Control"},
+    {"name": "Launch Pad", "title": "F4 Launch Pad in macOS", "shortName": "Launch Pad"},
+    {"name": "Task View", "title": "F3 Task View in windows", "shortName": "Task View"},
+    {"name": "File Explorer", "title": "F4 File Explorer in windows", "shortName": "File Explorer"},
+    {"name": "Win Mode", "title": "Working in Windows", "shortName": "Win Mode"},
+    {"name": "Mac Mode", "title": "Working in macOS", "shortName": "Mac Mode"},
+    {"name": "Lamp Test", "title": "Led Lamp Test", "shortName": "Lamp Test"},
+    {"name": "Deep Sleep", "title": "Keyboard into Deep Sleep", "shortName": "Deep Sleep"},
+    {"name": "Out Usb", "title": "Keyboard data output USB", "shortName": "Out Usb"},
+    {"name": "Bluetooth 1", "title": "Bluetooth working connection 1", "shortName": "BT 1"},
+    {"name": "Bluetooth 2", "title": "Bluetooth working connection 2", "shortName": "BT 2"},
+	{"name": "Bluetooth 3", "title": "Bluetooth working connection 3", "shortName": "BT 3"}
+  ],
+	"layouts": {
+		"keymap": [
+			[
+				{
+					"x": -1
+				},
+				"0,12",
+				"0,0",
+				"1,12",
+				{
+					"x": 8
+				},
+				"4,6",
+				"4,7"
+			],
+			[
+				"1,0",
+				"1,1",
+				"1,2",
+				"1,3",
+				"1,4",
+				"1,5",
+				"1,6",
+				"1,7",
+				"1,8",
+				"1,9",
+				"1,10",
+				"1,11"
+			],
+			[
+				{
+					"w": 1.25
+				},
+				"2,0",
+				"2,1",
+				"2,2",
+				"2,3",
+				"2,4",
+				"2,5",
+				"2,6",
+				"2,7",
+				"2,8",
+				"2,9",
+				{
+					"w": 1.75
+				},
+				"2,11"
+			],
+			[
+				{
+					"w": 1.75
+				},
+				"3,0",
+				"3,1",
+				"3,2",
+				"3,3",
+				"3,4",
+				"3,5",
+				"3,6",
+				"3,7",
+				"3,8",
+				{
+					"w": 1.25
+				},
+				"3,10",
+				"3,11"
+			],
+			[
+				{
+					"w": 1.25
+				},
+				"4,0",
+				{
+					"w": 1
+				},
+				"4,1",
+				{
+					"w": 1.25
+				},
+				"4,2",
+				{
+					"w": 2.25
+				},
+				"4,4",
+				{
+					"w": 2.75
+				},
+				"4,5",
+				{
+					"w": 1.25
+				},
+				"4,9",
+				"4,10",
+				{
+					"w": 1.25
+				},
+				"4,11"
+			]
+		]
+	}
+}
