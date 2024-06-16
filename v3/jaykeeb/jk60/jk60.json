@@ -2,13 +2,22 @@
   "name": "JK60",
   "vendorId": "0x414C",
   "productId": "0x7760",
-  "matrix": {"rows": 5, "cols": 14},
+  "matrix": {
+    "rows": 5,
+    "cols": 14
+  },
   "layouts": {
     "labels": [
       "Split Backspace",
       "Split LShift",
       "Split RShift",
-      ["Bottom Row", "6.25U", "Tsangan", "WKL", "HHKB"]
+      [
+        "Bottom Row",
+        "6.25U",
+        "Tsangan",
+        "WKL",
+        "HHKB"
+      ]
     ],
     "keymap": [
       [
