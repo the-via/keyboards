@@ -2,9 +2,16 @@
   "name": "GMMK Numpad",
   "vendorId": "0x320F",
   "productId": "0x5088",
-  "keycodes": [ "qmk_lighting" ],
-  "menus": [ "qmk_rgb_matrix" ],
-  "matrix": {"rows": 5,"cols": 4},
+  "matrix": {
+    "rows": 5,
+    "cols": 4
+  },
+  "keycodes": [
+    "qmk_lighting"
+  ],
+  "menus": [
+    "qmk_rgb_matrix"
+  ],
   "layouts": {
     "keymap": [
       [
@@ -19,7 +26,7 @@
         "1,1",
         "1,2",
         {
-            "h": 2
+          "h": 2
         },
         "1,3"
       ],
@@ -33,13 +40,13 @@
         "3,1",
         "3,2",
         {
-            "h": 2
+          "h": 2
         },
         "3,3"
       ],
       [
         {
-            "w": 2
+          "w": 2
         },
         "4,0",
         "4,3"

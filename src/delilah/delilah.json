@@ -2,11 +2,11 @@
   "name": "Delilah",
   "vendorId": "0x726b",
   "productId": "0x645c",
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 4,
     "cols": 12
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
     "keymap": [
       [

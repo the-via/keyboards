@@ -2,11 +2,11 @@
   "name": "DeskDaily Alter",
   "vendorId": "0xD812",
   "productId": "0x0013",
-  "lighting": "none",
   "matrix": {
     "rows": 5,
     "cols": 16
   },
+  "lighting": "none",
   "layouts": {
     "labels": [],
     "keymap": [

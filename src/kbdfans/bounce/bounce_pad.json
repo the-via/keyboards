@@ -2,11 +2,11 @@
   "name": "BOUNCE PAD",
   "vendorId": "0x4B42",
   "productId": "0x7002",
-  "lighting": "none",
   "matrix": {
     "rows": 6,
     "cols": 4
   },
+  "lighting": "none",
   "layouts": {
     "keymap": [
       [

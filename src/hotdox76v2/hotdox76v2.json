@@ -2,11 +2,11 @@
   "name": "hotdox76-v2",
   "vendorId": "0xAA96",
   "productId": "0xAAA9",
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 12,
     "cols": 7
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
     "keymap": [
       [

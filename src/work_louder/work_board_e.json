@@ -2,7 +2,10 @@
   "name": "Work Board",
   "vendorId": "0x574C",
   "productId": "0xDCD1",
-  "lighting": "qmk_rgblight",
+  "matrix": {
+    "rows": 4,
+    "cols": 13
+  },
   "customKeycodes": [
     {
       "name": "RGB Matrix Toggle",
@@ -55,9 +58,11 @@
       "shortName": "ENC_TAP"
     }
   ],
-  "matrix": {"rows": 4, "cols": 13},
+  "lighting": "qmk_rgblight",
   "layouts": {
-    "labels": ["2u Space"],
+    "labels": [
+      "2u Space"
+    ],
     "keymap": [
       [
         {

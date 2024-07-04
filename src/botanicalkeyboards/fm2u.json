@@ -2,11 +2,11 @@
   "name": "FM2U 1 Key Macropad",
   "vendorId": "0x6969",
   "productId": "0x0001",
-  "lighting": "none",
   "matrix": {
     "rows": 1,
     "cols": 1
   },
+  "lighting": "none",
   "layouts": {
     "labels": [
       [
@@ -25,7 +25,6 @@
         "ISO"
       ]
     ],
-
     "keymap": [
       [
         {

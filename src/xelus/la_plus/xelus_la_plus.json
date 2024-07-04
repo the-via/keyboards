@@ -2,47 +2,140 @@
   "name": "Xelus LA+",
   "vendorId": "0x5845",
   "productId": "0x4C50",
-  "lighting": {
-    "extends": "qmk_rgblight",
-    "underglowEffects": [
-      ["None", 0],
-      ["SOLID_COLOR", 1],
-      ["GRADIENT_UP_DOWN", 1],
-      ["GRADIENT_LEFT_RIGHT", 1],
-      ["BREATHING", 1],
-      ["BAND_SAT", 1],
-      ["BAND_VAL", 1],
-      ["BAND_PINWHEEL_SAT", 1],
-      ["BAND_PINWHEEL_VAL", 1],
-      ["BAND_SPIRAL_SAT", 1],
-      ["BAND_SPIRAL_VAL", 1],
-      ["CYCLE_ALL", 1],
-      ["CYCLE_LEFT_RIGHT", 1],
-      ["CYCLE_UP_DOWN", 1],
-      ["CYCLE_OUT_IN", 1],
-      ["CYCLE_OUT_IN_DUAL", 1],
-      ["RAINBOW_MOVING_CHEVRON", 1],
-      ["CYCLE_PINWHEEL", 1],
-      ["CYCLE_SPIRAL", 1],
-      ["DUAL_BEACON", 1],
-      ["RAINBOW_BEACON", 1],
-      ["RAINBOW_PINWHEELS", 1],
-      ["RAINDROPS", 1],
-      ["JELLYBEAN_RAINDROPS", 1],
-      ["HUE_BREATHING", 1],
-      ["HUE_PENDULUM", 1],
-      ["HUE_WAVE", 1],
-      ["PIXEL_FRACTAL", 1],
-      ["PIXEL_RAIN", 1]
-    ],
-    "supportedLightingValues": [128, 129, 131]
-  },
   "matrix": {
     "rows": 5,
     "cols": 15
   },
+  "lighting": {
+    "extends": "qmk_rgblight",
+    "underglowEffects": [
+      [
+        "None",
+        0
+      ],
+      [
+        "SOLID_COLOR",
+        1
+      ],
+      [
+        "GRADIENT_UP_DOWN",
+        1
+      ],
+      [
+        "GRADIENT_LEFT_RIGHT",
+        1
+      ],
+      [
+        "BREATHING",
+        1
+      ],
+      [
+        "BAND_SAT",
+        1
+      ],
+      [
+        "BAND_VAL",
+        1
+      ],
+      [
+        "BAND_PINWHEEL_SAT",
+        1
+      ],
+      [
+        "BAND_PINWHEEL_VAL",
+        1
+      ],
+      [
+        "BAND_SPIRAL_SAT",
+        1
+      ],
+      [
+        "BAND_SPIRAL_VAL",
+        1
+      ],
+      [
+        "CYCLE_ALL",
+        1
+      ],
+      [
+        "CYCLE_LEFT_RIGHT",
+        1
+      ],
+      [
+        "CYCLE_UP_DOWN",
+        1
+      ],
+      [
+        "CYCLE_OUT_IN",
+        1
+      ],
+      [
+        "CYCLE_OUT_IN_DUAL",
+        1
+      ],
+      [
+        "RAINBOW_MOVING_CHEVRON",
+        1
+      ],
+      [
+        "CYCLE_PINWHEEL",
+        1
+      ],
+      [
+        "CYCLE_SPIRAL",
+        1
+      ],
+      [
+        "DUAL_BEACON",
+        1
+      ],
+      [
+        "RAINBOW_BEACON",
+        1
+      ],
+      [
+        "RAINBOW_PINWHEELS",
+        1
+      ],
+      [
+        "RAINDROPS",
+        1
+      ],
+      [
+        "JELLYBEAN_RAINDROPS",
+        1
+      ],
+      [
+        "HUE_BREATHING",
+        1
+      ],
+      [
+        "HUE_PENDULUM",
+        1
+      ],
+      [
+        "HUE_WAVE",
+        1
+      ],
+      [
+        "PIXEL_FRACTAL",
+        1
+      ],
+      [
+        "PIXEL_RAIN",
+        1
+      ]
+    ],
+    "supportedLightingValues": [
+      128,
+      129,
+      131
+    ]
+  },
   "layouts": {
-    "labels": ["Split Backspace"],
+    "labels": [
+      "Split Backspace"
+    ],
     "keymap": [
       [
         {

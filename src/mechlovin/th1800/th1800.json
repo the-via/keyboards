@@ -2,14 +2,22 @@
   "name": "TH1800",
   "vendorId": "0x4D4C",
   "productId": "0x1800",
+  "matrix": {
+    "rows": 6,
+    "cols": 18
+  },
   "lighting": "none",
-  "matrix": {"rows": 6, "cols": 18},
   "layouts": {
     "labels": [
       "Split Back Space",
       "Enter ISO",
       "Left Shift ISO",
-      ["Bottom Row", "Space 6.25U", "Space 6U", "Space 7U"]
+      [
+        "Bottom Row",
+        "Space 6.25U",
+        "Space 6U",
+        "Space 7U"
+      ]
     ],
     "keymap": [
       [

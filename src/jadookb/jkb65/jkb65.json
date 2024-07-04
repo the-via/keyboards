@@ -2,8 +2,11 @@
   "name": "JKB65 RGB",
   "vendorId": "0x4A4B",
   "productId": "0xEF6A",
+  "matrix": {
+    "rows": 5,
+    "cols": 16
+  },
   "lighting": "qmk_backlight_rgblight",
-  "matrix": {"rows": 5, "cols": 16},
   "layouts": {
     "labels": [],
     "keymap": [

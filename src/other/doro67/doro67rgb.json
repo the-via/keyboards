@@ -2,13 +2,13 @@
   "name": "Doro67 RGB",
   "vendorId": "0x4250",
   "productId": "0x5247",
-  "lighting": {
-    "extends": "none",
-    "keycodes": "qmk"
-  },
   "matrix": {
     "rows": 5,
     "cols": 15
+  },
+  "lighting": {
+    "extends": "none",
+    "keycodes": "qmk"
   },
   "layouts": {
     "keymap": [

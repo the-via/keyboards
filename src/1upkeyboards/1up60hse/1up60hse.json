@@ -2,11 +2,11 @@
   "name": "1up60hse",
   "vendorId": "0x6F75",
   "productId": "0x6873",
-  "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 5,
     "cols": 14
   },
+  "lighting": "qmk_backlight_rgblight",
   "layouts": {
     "keymap": [
       [

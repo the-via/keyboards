@@ -2,13 +2,26 @@
   "name": "waffling60 Rev D ISO",
   "vendorId": "0x4444",
   "productId": "0x000C",
+  "matrix": {
+    "rows": 5,
+    "cols": 14
+  },
   "lighting": "none",
-  "matrix": {"rows": 5, "cols": 14},
   "layouts": {
     "labels": [
       "Split backspase",
-      ["Modifiers", "WK", "WKL", "HHKB"],
-      ["Spacebar", "7U", "Split Space", "10U"]
+      [
+        "Modifiers",
+        "WK",
+        "WKL",
+        "HHKB"
+      ],
+      [
+        "Spacebar",
+        "7U",
+        "Split Space",
+        "10U"
+      ]
     ],
     "keymap": [
       [

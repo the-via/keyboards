@@ -2,17 +2,22 @@
   "name": "Krush65 Hotswap",
   "vendorId": "0x5350",
   "productId": "0x5B31",
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 5,
     "cols": 16
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
     "labels": [
       "Split Backspace",
-      ["Spacebar", "6.25U", "Split Spacebar", "Split Spacebar 2.0", "7U"]
+      [
+        "Spacebar",
+        "6.25U",
+        "Split Spacebar",
+        "Split Spacebar 2.0",
+        "7U"
+      ]
     ],
-
     "keymap": [
       [
         {

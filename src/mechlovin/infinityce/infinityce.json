@@ -2,14 +2,33 @@
   "name": "Infinity CE",
   "vendorId": "0x4D4C",
   "productId": "0x8801",
+  "matrix": {
+    "rows": 6,
+    "cols": 17
+  },
   "lighting": "qmk_backlight_rgblight",
-  "matrix": {"rows": 6, "cols": 17},
   "layouts": {
     "labels": [
       "Left Shift ISO",
-      ["Enter", "ANSI Enter", "ISO Enter", "1.25u Enter"],
-      ["Right Shift Split", "ANSI Right Shift", "1.75u - 1u", "1u - 1.75u"],
-      ["Bottom Row", "Space 6.25U", "Space 6U", "Space 7U", "Space 7U WKL"]
+      [
+        "Enter",
+        "ANSI Enter",
+        "ISO Enter",
+        "1.25u Enter"
+      ],
+      [
+        "Right Shift Split",
+        "ANSI Right Shift",
+        "1.75u - 1u",
+        "1u - 1.75u"
+      ],
+      [
+        "Bottom Row",
+        "Space 6.25U",
+        "Space 6U",
+        "Space 7U",
+        "Space 7U WKL"
+      ]
     ],
     "keymap": [
       [

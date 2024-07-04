@@ -2,13 +2,13 @@
   "name": "DZ64RGB V1",
   "vendorId": "0x445A",
   "productId": "0x1013",
-  "lighting": {
-    "extends": "none",
-    "keycodes": "qmk"
-  },
   "matrix": {
     "rows": 5,
     "cols": 14
+  },
+  "lighting": {
+    "extends": "none",
+    "keycodes": "qmk"
   },
   "layouts": {
     "keymap": [

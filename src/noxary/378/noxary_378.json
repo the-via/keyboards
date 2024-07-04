@@ -1,19 +1,24 @@
 {
-	"name": "Noxary 378",
-	"vendorId": "0x4E58",
-	"productId": "0x017A",
+  "name": "Noxary 378",
+  "vendorId": "0x4E58",
+  "productId": "0x017A",
+  "matrix": {
+    "rows": 5,
+    "cols": 17
+  },
   "lighting": "none",
-	"matrix": {"rows": 5, "cols": 17},
-	"layouts": {
-		"labels": [ "Split backspace"],
+  "layouts": {
+    "labels": [
+      "Split backspace"
+    ],
     "keymap": [
       [
         {
           "x": 15.25,
           "c": "#aaaaaa"
-          },
-          "0,15\n\n\n0,1",
-          "0,16\n\n\n0,1"
+        },
+        "0,15\n\n\n0,1",
+        "0,16\n\n\n0,1"
       ],
       [
         {

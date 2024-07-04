@@ -2,10 +2,17 @@
   "name": "Adelais en Ciel' Rev.2",
   "vendorId": "0x4D4C",
   "productId": "0xAEC2",
+  "matrix": {
+    "rows": 5,
+    "cols": 15
+  },
   "lighting": "qmk_rgblight",
-  "matrix": {"rows": 5, "cols": 15},
   "layouts": {
-    "labels": ["Split Back Space", "Split Right Shift", "Split Space"],
+    "labels": [
+      "Split Back Space",
+      "Split Right Shift",
+      "Split Space"
+    ],
     "keymap": [
       [
         {

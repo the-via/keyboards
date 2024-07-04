@@ -2,12 +2,20 @@
   "name": "RARTAND",
   "vendorId": "0x414C",
   "productId": "0x5050",
+  "matrix": {
+    "rows": 8,
+    "cols": 7
+  },
   "lighting": "none",
-  "matrix": {"rows": 8, "cols": 7},
   "layouts": {
     "labels": [
       "Split Left Shift",
-      ["Split Right Shift", "Shift 2.75U", "Shift 1.75U", "Shift Arrow"],
+      [
+        "Split Right Shift",
+        "Shift 2.75U",
+        "Shift 1.75U",
+        "Shift Arrow"
+      ],
       [
         "Bottom row",
         "6.25U-1.25U",

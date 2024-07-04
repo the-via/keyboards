@@ -2,9 +2,15 @@
   "name": "Mine",
   "vendorId": "0x4450",
   "productId": "0x0006",
-  "matrix": {"rows": 11, "cols": 10},
+  "matrix": {
+    "rows": 11,
+    "cols": 10
+  },
   "layouts": {
-    "labels": ["ISO enter", "Split Left Shift"],
+    "labels": [
+      "ISO enter",
+      "Split Left Shift"
+    ],
     "keymap": [
       [
         {

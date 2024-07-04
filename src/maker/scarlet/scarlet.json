@@ -2,9 +2,19 @@
   "name": "Scarlet",
   "vendorId": "0x7667",
   "productId": "0x0004",
+  "matrix": {
+    "rows": 6,
+    "cols": 17
+  },
   "lighting": "none",
-  "matrix": {"rows": 6, "cols": 17},
   "layouts": {
+    "labels": [
+      [
+        "Bottom Row",
+        "6.25U Space",
+        "7U Space"
+      ]
+    ],
     "keymap": [
       [
         {
@@ -232,7 +242,6 @@
         "5,15\n\n\n0,1",
         "5,16\n\n\n0,1"
       ]
-    ],
-    "labels": [["Bottom Row", "6.25U Space", "7U Space"]]
+    ]
   }
 }

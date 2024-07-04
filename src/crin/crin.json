@@ -2,15 +2,22 @@
   "name": "Bachoo Crin",
   "vendorId": "0x6400",
   "productId": "0xCC11",
+  "matrix": {
+    "rows": 5,
+    "cols": 17
+  },
   "lighting": "none",
-  "matrix": {"rows": 5, "cols": 17},
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO Enter",
       "Split Left Shift",
       "Split Right Shift",
-      ["Bottom Row", "ANSI", "7U"]
+      [
+        "Bottom Row",
+        "ANSI",
+        "7U"
+      ]
     ],
     "keymap": [
       [

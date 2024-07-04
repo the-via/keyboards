@@ -2,11 +2,11 @@
   "name": "bt66tech60",
   "vendorId": "0x4254",
   "productId": "0x7070",
-  "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 5,
     "cols": 14
   },
+  "lighting": "qmk_backlight_rgblight",
   "layouts": {
     "keymap": [
       [

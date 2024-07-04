@@ -2,15 +2,23 @@
   "name": "Paladin64",
   "vendorId": "0x4B43",
   "productId": "0x5036",
+  "matrix": {
+    "rows": 8,
+    "cols": 8
+  },
   "lighting": "qmk_rgblight",
-  "matrix": {"rows": 8, "cols": 8},
   "layouts": {
     "labels": [
       "Split Backspace",
       "Stepped CapsLock",
       "Split Left Shift",
       "Split Right Shift",
-      ["Enter", "ANSI Enter", "ISO Enter", "BAE"],
+      [
+        "Enter",
+        "ANSI Enter",
+        "ISO Enter",
+        "BAE"
+      ],
       [
         "Bottom Row",
         "AEK (6.5U Space)",

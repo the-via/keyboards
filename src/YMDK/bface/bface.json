@@ -2,11 +2,11 @@
   "name": "YMDK Bface",
   "vendorId": "0x594D",
   "productId": "0x4266",
-  "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 5,
     "cols": 15
   },
+  "lighting": "qmk_backlight_rgblight",
   "layouts": {
     "labels": [
       "Split Backspace",
@@ -21,7 +21,15 @@
         "ISO Arrows",
         "2u LShift"
       ],
-      ["Bottom Row", "ANSI", "TSANGAN", "WKL", "HHKB", "Arrows", "3u"]
+      [
+        "Bottom Row",
+        "ANSI",
+        "TSANGAN",
+        "WKL",
+        "HHKB",
+        "Arrows",
+        "3u"
+      ]
     ],
     "keymap": [
       [

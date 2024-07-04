@@ -2,11 +2,11 @@
   "name": "Siris",
   "vendorId": "0x04D8",
   "productId": "0xE96C",
-  "lighting": "none",
   "matrix": {
     "rows": 5,
     "cols": 12
   },
+  "lighting": "none",
   "layouts": {
     "keymap": [
       [

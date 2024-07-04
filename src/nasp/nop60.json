@@ -2,10 +2,17 @@
   "name": "NOP60",
   "vendorId": "0x7070",
   "productId": "0x1416",
-  "matrix": {"rows": 5, "cols": 14},
+  "matrix": {
+    "rows": 5,
+    "cols": 14
+  },
   "lighting": "qmk_backlight_rgblight",
   "layouts": {
-    "labels": ["Full Backspace", "Full Right Shift", "7u space"],
+    "labels": [
+      "Full Backspace",
+      "Full Right Shift",
+      "7u space"
+    ],
     "keymap": [
       {
         "name": "NOP60"

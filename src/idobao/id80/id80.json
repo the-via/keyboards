@@ -2,11 +2,11 @@
   "name": "IDOBAO ID80",
   "vendorId": "0x6964",
   "productId": "0x0080",
-  "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 9,
     "cols": 11
   },
+  "lighting": "qmk_backlight_rgblight",
   "layouts": {
     "keymap": [
       [

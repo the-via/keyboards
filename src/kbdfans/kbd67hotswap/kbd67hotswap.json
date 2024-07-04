@@ -2,11 +2,11 @@
   "name": "KBD67 Hotswap",
   "vendorId": "0x4B42",
   "productId": "0x6065",
-  "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 5,
     "cols": 15
   },
+  "lighting": "qmk_backlight_rgblight",
   "layouts": {
     "keymap": [
       [

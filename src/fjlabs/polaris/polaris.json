@@ -2,9 +2,25 @@
   "name": "Polaris HS and Solder",
   "vendorId": "0x7074",
   "productId": "0x9001",
+  "matrix": {
+    "rows": 5,
+    "cols": 14
+  },
   "lighting": "none",
-  "matrix": {"rows": 5, "cols": 14},
   "layouts": {
+    "labels": [
+      "Split Backspace",
+      "ISO Enter",
+      "Split Left Shift",
+      "Split Right Shift",
+      [
+        "Bottom Row",
+        "6.25U Space",
+        "Split 6.25U",
+        "7U Space",
+        "7U WKL"
+      ]
+    ],
     "keymap": [
       [
         {
@@ -281,13 +297,6 @@
         },
         "4,13\n\n\n4,3"
       ]
-    ],
-    "labels": [
-      "Split Backspace",
-      "ISO Enter",
-      "Split Left Shift",
-      "Split Right Shift",
-      ["Bottom Row", "6.25U Space", "Split 6.25U", "7U Space", "7U WKL"]
     ]
   }
 }

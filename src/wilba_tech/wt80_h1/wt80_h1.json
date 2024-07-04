@@ -2,10 +2,15 @@
   "name": "wilba.tech WT80-H1",
   "vendorId": "0x6582",
   "productId": "0x0037",
+  "matrix": {
+    "rows": 6,
+    "cols": 17
+  },
   "lighting": "none",
-  "matrix": {"rows": 6, "cols": 17},
   "layouts": {
-    "labels": ["Winkeyless"],
+    "labels": [
+      "Winkeyless"
+    ],
     "keymap": [
       [
         {

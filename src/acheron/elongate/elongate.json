@@ -2,11 +2,11 @@
   "name": "Acheron Project Elongate",
   "vendorId": "0x4150",
   "productId": "0x454D",
-  "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 5,
     "cols": 15
   },
+  "lighting": "qmk_backlight_rgblight",
   "layouts": {
     "keymap": [
       [

@@ -2,8 +2,11 @@
   "name": "Momoka Ergo",
   "vendorId": "0x4F4D",
   "productId": "0x0001",
+  "matrix": {
+    "rows": 14,
+    "cols": 6
+  },
   "lighting": "qmk_rgblight",
-  "matrix": {"rows": 14, "cols": 6},
   "layouts": {
     "keymap": [
       [

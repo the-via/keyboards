@@ -2,16 +2,21 @@
   "name": "Krush60 Solder",
   "vendorId": "0x5350",
   "productId": "0x6B32",
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 10,
     "cols": 8
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO Enter",
-      ["Right Shift", "2.75", "Arrow", "Tsangan"],
+      [
+        "Right Shift",
+        "2.75",
+        "Arrow",
+        "Tsangan"
+      ],
       [
         "Spacebar",
         "Standard",
@@ -24,7 +29,6 @@
         "7u WKL"
       ]
     ],
-
     "keymap": [
       [
         {

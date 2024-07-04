@@ -2,15 +2,20 @@
   "name": "Nascent",
   "vendorId": "0x7C10",
   "productId": "0x0165",
-  "lighting": "none",
   "matrix": {
     "rows": 10,
     "cols": 8
   },
+  "lighting": "none",
   "layouts": {
     "labels": [
       "Split Backspace",
-      ["Bottom Row", "6.25U", "7U", "3U Split-Space"]
+      [
+        "Bottom Row",
+        "6.25U",
+        "7U",
+        "3U Split-Space"
+      ]
     ],
     "keymap": [
       [

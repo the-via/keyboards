@@ -2,16 +2,16 @@
   "name": "Drop CTRL V2",
   "vendorId": "0x359B",
   "productId": "0x0009",
+  "matrix": {
+    "rows": 11,
+    "cols": 8
+  },
   "keycodes": [
     "qmk_lighting"
   ],
   "menus": [
     "qmk_rgb_matrix"
   ],
-  "matrix": {
-    "rows": 11,
-    "cols": 8
-  },
   "layouts": {
     "keymap": [
       [

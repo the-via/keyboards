@@ -2,13 +2,16 @@
   "name": "VALOR FRL TKL",
   "vendorId": "0x5845",
   "productId": "0x4654",
-  "lighting": "none",
   "matrix": {
     "rows": 5,
     "cols": 17
   },
+  "lighting": "none",
   "layouts": {
-    "labels": ["Split Backspace", "Split Right Shift"],
+    "labels": [
+      "Split Backspace",
+      "Split Right Shift"
+    ],
     "keymap": [
       [
         {

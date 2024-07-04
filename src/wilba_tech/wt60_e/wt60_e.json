@@ -2,8 +2,11 @@
   "name": "wilba.tech WT60-E",
   "vendorId": "0x6582",
   "productId": "0x0026",
+  "matrix": {
+    "rows": 10,
+    "cols": 8
+  },
   "lighting": "qmk_rgblight",
-  "matrix": {"rows": 10, "cols": 8},
   "layouts": {
     "keymap": [
       [

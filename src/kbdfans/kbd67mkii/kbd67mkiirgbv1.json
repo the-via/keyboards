@@ -2,13 +2,13 @@
   "name": "KBD67 MkII RGB V1",
   "vendorId": "0x4B42",
   "productId": "0x1224",
-  "lighting": {
-    "extends": "none",
-    "keycodes": "qmk"
-  },
   "matrix": {
     "rows": 5,
     "cols": 15
+  },
+  "lighting": {
+    "extends": "none",
+    "keycodes": "qmk"
   },
   "layouts": {
     "keymap": [

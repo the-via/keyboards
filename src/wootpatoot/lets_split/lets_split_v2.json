@@ -2,11 +2,11 @@
   "name": "let's split",
   "vendorId": "0x6F77",
   "productId": "0x0002",
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 8,
     "cols": 6
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
     "keymap": [
       [

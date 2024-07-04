@@ -2,13 +2,13 @@
   "name": "MelGeek MJ64 REV1",
   "vendorId": "0xEDED",
   "productId": "0x6064",
-  "lighting": {
-    "extends": "none",
-    "keycodes": "qmk"
-  },
   "matrix": {
     "rows": 5,
     "cols": 14
+  },
+  "lighting": {
+    "extends": "none",
+    "keycodes": "qmk"
   },
   "layouts": {
     "keymap": [

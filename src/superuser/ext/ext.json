@@ -2,11 +2,11 @@
   "name": "Superuser EXT",
   "vendorId": "0x5355",
   "productId": "0x4558",
-  "lighting": "none",
   "matrix": {
     "rows": 5,
     "cols": 19
   },
+  "lighting": "none",
   "layouts": {
     "labels": [
       "Split Backspace",

@@ -2,11 +2,11 @@
   "name": "akb/ogrn",
   "vendorId": "414B",
   "productId": "4F4E",
-  "lighting": "none",
   "matrix": {
     "rows": 5,
     "cols": 4
   },
+  "lighting": "none",
   "layouts": {
     "labels": [
       [

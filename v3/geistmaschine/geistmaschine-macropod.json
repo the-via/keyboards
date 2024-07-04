@@ -2,10 +2,18 @@
   "name": "Geistmaschine Macropod",
   "vendorId": "0x676D",
   "productId": "0x0004",
-  "matrix": { "rows": 1, "cols": 4 },
+  "matrix": {
+    "rows": 1,
+    "cols": 4
+  },
   "layouts": {
     "labels": [
-      ["Configuration", "Three keys right", "Three keys left", "Standalone Encoder"]
+      [
+        "Configuration",
+        "Three keys right",
+        "Three keys left",
+        "Standalone Encoder"
+      ]
     ],
     "keymap": [
       [
