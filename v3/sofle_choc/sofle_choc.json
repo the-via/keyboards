@@ -1,7 +1,7 @@
 {
   "name": "Sofle Choc",
-  "vendorId": "0xFC32",
-  "productId": "0x0287",
+  "vendorId": "0x424C",
+  "productId": "0x5343",
   "keycodes": ["qmk_lighting"],
   "menus": ["qmk_rgblight"],
   "matrix": {
