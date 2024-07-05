@@ -14,7 +14,12 @@
       "ISO",
       "Vertical 2U #1",
       "Vertical 2U #2",
-      ["Bottom Row", "7U WK", "7U WKL", "7U HHKB"]
+      [
+        "Bottom Row",
+        "7U WK",
+        "7U WKL",
+        "7U HHKB"
+      ]
     ],
     "keymap": [
       [

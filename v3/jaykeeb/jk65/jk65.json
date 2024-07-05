@@ -10,7 +10,11 @@
     "labels": [
       "Split Backspace",
       "Split LShift",
-      ["Bottom Row", "7U", "6.25U"]
+      [
+        "Bottom Row",
+        "7U",
+        "6.25U"
+      ]
     ],
     "keymap": [
       [

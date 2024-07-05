@@ -9,7 +9,12 @@
   "layouts": {
     "labels": [
       "2u Modifiers",
-      ["Bottom Row", "1u Keys", "2u Spacebars", "3u Spacebars"]
+      [
+        "Bottom Row",
+        "1u Keys",
+        "2u Spacebars",
+        "3u Spacebars"
+      ]
     ],
     "keymap": [
       [
