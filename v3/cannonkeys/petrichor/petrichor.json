@@ -2,12 +2,16 @@
   "name": "Petrichor",
   "vendorId": "0xCA04",
   "productId": "0x0029",
-  "keycodes": ["qmk_lighting"],
-  "menus": ["qmk_rgblight"],
   "matrix": {
     "rows": 5,
     "cols": 18
   },
+  "keycodes": [
+    "qmk_lighting"
+  ],
+  "menus": [
+    "qmk_rgblight"
+  ],
   "layouts": {
     "labels": [
       "Split Backspace",

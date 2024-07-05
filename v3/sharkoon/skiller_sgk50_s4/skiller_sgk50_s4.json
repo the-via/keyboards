@@ -6,12 +6,22 @@
     "rows": 5,
     "cols": 14
   },
-  "keycodes": ["qmk_lighting"],
-  "menus": ["qmk_rgb_matrix"],
+  "keycodes": [
+    "qmk_lighting"
+  ],
+  "menus": [
+    "qmk_rgb_matrix"
+  ],
   "layouts": {
-    "labels": ["ANSI Enter", "One Left Shift"],
+    "labels": [
+      "ANSI Enter",
+      "One Left Shift"
+    ],
     "presets": {
-      "ISO layout": [1, 1]
+      "ISO layout": [
+        1,
+        1
+      ]
     },
     "keymap": [
       [

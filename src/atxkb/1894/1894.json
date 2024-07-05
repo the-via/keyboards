@@ -9,10 +9,26 @@
   "lighting": "qmk_backlight_rgblight",
   "layouts": {
     "labels": [
-      ["Backspace", "Unified", "Split"],
-      ["Enter", "ANSI", "ISO"],
-      ["Left Shift", "ANSI", "ISO"],
-      ["Right Shift", "Split", "Unified"],
+      [
+        "Backspace",
+        "Unified",
+        "Split"
+      ],
+      [
+        "Enter",
+        "ANSI",
+        "ISO"
+      ],
+      [
+        "Left Shift",
+        "ANSI",
+        "ISO"
+      ],
+      [
+        "Right Shift",
+        "Split",
+        "Unified"
+      ],
       [
         "Bottom Row",
         "Tsangan",

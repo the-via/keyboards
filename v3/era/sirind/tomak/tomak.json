@@ -48,7 +48,9 @@
       "shortName": "IN Sat-"
     }
   ],
-  "keycodes": ["qmk_lighting"],
+  "keycodes": [
+    "qmk_lighting"
+  ],
   "menus": [
     {
       "label": "Lighting",
@@ -59,13 +61,24 @@
             {
               "label": "Brightness",
               "type": "range",
-              "options": [0, 255],
-              "content": ["id_qmk_rgb_matrix_brightness", 3, 1]
+              "options": [
+                0,
+                255
+              ],
+              "content": [
+                "id_qmk_rgb_matrix_brightness",
+                3,
+                1
+              ]
             },
             {
               "label": "Effect",
               "type": "dropdown",
-              "content": ["id_qmk_rgb_matrix_effect", 3, 2],
+              "content": [
+                "id_qmk_rgb_matrix_effect",
+                3,
+                2
+              ],
               "options": [
                 "All Off",
                 "Solid Color",
@@ -118,14 +131,25 @@
               "showIf": "{id_qmk_rgb_matrix_effect} != 0",
               "label": "Effect Speed",
               "type": "range",
-              "options": [0, 255],
-              "content": ["id_qmk_rgb_matrix_effect_speed", 3, 3]
+              "options": [
+                0,
+                255
+              ],
+              "content": [
+                "id_qmk_rgb_matrix_effect_speed",
+                3,
+                3
+              ]
             },
             {
               "showIf": "{id_qmk_rgb_matrix_effect} != 0 && {id_qmk_rgb_matrix_effect} != 24 && {id_qmk_rgb_matrix_effect} != 28 && {id_qmk_rgb_matrix_effect} != 29 && {id_qmk_rgb_matrix_effect} != 32",
               "label": "Color",
               "type": "color",
-              "content": ["id_qmk_rgb_matrix_color", 3, 4]
+              "content": [
+                "id_qmk_rgb_matrix_color",
+                3,
+                4
+              ]
             }
           ]
         },
@@ -135,24 +159,43 @@
             {
               "label": "Indicator toggle",
               "type": "toggle",
-              "content": ["id_custom_indicator_toggle", 0, 0]
+              "content": [
+                "id_custom_indicator_toggle",
+                0,
+                0
+              ]
             },
             {
               "showIf": "{id_custom_indicator_toggle} != 0",
               "label": "Override indicator",
               "type": "toggle",
-              "content": ["id_custom_indicator_override", 0, 1]
+              "content": [
+                "id_custom_indicator_override",
+                0,
+                1
+              ]
             },
             {
               "label": "Brightness",
               "type": "range",
-              "options": [0, 255],
-              "content": ["id_custom_indicator_brightness", 0, 2]
+              "options": [
+                0,
+                255
+              ],
+              "content": [
+                "id_custom_indicator_brightness",
+                0,
+                2
+              ]
             },
             {
               "label": "Color",
               "type": "color",
-              "content": ["id_custom_indicator_color", 0, 3]
+              "content": [
+                "id_custom_indicator_color",
+                0,
+                3
+              ]
             }
           ]
         }
@@ -160,7 +203,11 @@
     }
   ],
   "layouts": {
-    "labels": ["Split Backspace", "Split Right shift", "Split Right space"],
+    "labels": [
+      "Split Backspace",
+      "Split Right shift",
+      "Split Right space"
+    ],
     "keymap": [
       [
         {

@@ -6,11 +6,20 @@
     "rows": 5,
     "cols": 6
   },
-  "keycodes": ["qmk_lighting"],
-  "menus": ["qmk_rgb_matrix"],
+  "keycodes": [
+    "qmk_lighting"
+  ],
+  "menus": [
+    "qmk_rgb_matrix"
+  ],
   "layouts": {
     "labels": [
-      ["Left Thumb", "Two 1u keys", "With Encoder", "2u key"],
+      [
+        "Left Thumb",
+        "Two 1u keys",
+        "With Encoder",
+        "2u key"
+      ],
       "Top Left Encoder"
     ],
     "keymap": [
