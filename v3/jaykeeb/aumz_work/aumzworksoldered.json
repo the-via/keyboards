@@ -1,5 +1,5 @@
 {
-  "name": "Aums Work Soldered Version",
+  "name": "Aumz Work Soldered",
   "vendorId": "0x414C",
   "productId": "0x0772",
   "matrix": {"rows": 5, "cols": 15},
@@ -109,7 +109,7 @@
           "c": "#777777",
           "w": 2.25
         },
-        "2,12",
+        "2,12\n\n\n1,0",
         {
           "c": "#aaaaaa"
         },
