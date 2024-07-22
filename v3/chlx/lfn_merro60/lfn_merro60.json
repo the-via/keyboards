@@ -1,7 +1,7 @@
 {
-  "name"      : "chlx lfn.merro60",
-  "vendorId"  : "0x4358",
-  "productId" : "0x0604",
+  "name": "chlx lfn.merro60",
+  "vendorId": "0x4358",
+  "productId": "0x0604",
   "matrix": {
     "rows": 10,
     "cols": 7
