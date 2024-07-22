@@ -6,12 +6,12 @@
     "rows": 6,
     "cols": 7
   },
+  "keycodes": [
+    "qmk_lighting"
+  ],
   "menus": [
     "qmk_audio",
     "qmk_rgb_matrix"
-  ],
-  "keycodes" : [
-    "qmk_lighting" 
   ],
   "layouts": {
     "labels": [
@@ -27,7 +27,7 @@
         },
         "0,0\n\n\n1,0\n\n\n\n\n\ne0",
         {
-          "x":2.5
+          "x": 2.5
         },
         "0,0\n\n\n1,1"
       ],
@@ -37,7 +37,7 @@
         },
         "1,0\n\n\n2,0\n\n\n\n\n\ne1",
         {
-          "x":2.5
+          "x": 2.5
         },
         "1,0\n\n\n2,1"
       ],
@@ -59,7 +59,7 @@
         },
         "2,0\n\n\n3,0\n\n\n\n\n\ne2",
         {
-          "x":2.5
+          "x": 2.5
         },
         "2,0\n\n\n3,1"
       ],

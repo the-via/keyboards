@@ -8,8 +8,16 @@
   },
   "layouts": {
     "labels": [
-      ["Right Shift", "1.25U - 1U", "1U - 1.25U"],
-      ["Bottom Row", "1.25U - 1U - 1.25U - 2.25U - 2.75U - 1.25U - 1U - 1.25U", "1.5U - 1U - 1.5U - 2.25U - 2.75U - 1U - 1U - 1U"]
+      [
+        "Right Shift",
+        "1.25U - 1U",
+        "1U - 1.25U"
+      ],
+      [
+        "Bottom Row",
+        "1.25U - 1U - 1.25U - 2.25U - 2.75U - 1.25U - 1U - 1.25U",
+        "1.5U - 1U - 1.5U - 2.25U - 2.75U - 1U - 1U - 1U"
+      ]
     ],
     "keymap": [
       [
