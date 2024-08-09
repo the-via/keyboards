@@ -1,7 +1,11 @@
 {
     "name": "RecoreV3",
-    "productId": "0x0001",
     "vendorId": "0x4A4F",
+    "productId": "0x0001",
+    "matrix": {
+        "rows": 10,
+        "cols": 8
+    },
     "menus": [
     {
       "label": "PMK Custom Settings",
@@ -164,10 +168,6 @@
       ]
     }
   ],
-    "matrix": {
-        "rows": 10,
-        "cols": 8
-    },
     "layouts": {
         "keymap": [             
         [
