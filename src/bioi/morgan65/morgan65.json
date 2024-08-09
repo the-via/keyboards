@@ -2,13 +2,18 @@
   "name": "BIOI MORGAN65 BLE",
   "vendorId": "0x8101",
   "productId": "0x6581",
-  "lighting": "qmk_backlight_rgblight",
   "matrix": {
-    "cols": 14,
-    "rows": 5
+    "rows": 5,
+    "cols": 14
   },
+  "lighting": "qmk_backlight_rgblight",
   "layouts": {
-    "labels": ["Split Backspace", "ISO Enter", "ISO Left Shift", "7u Spacebar"],
+    "labels": [
+      "Split Backspace",
+      "ISO Enter",
+      "ISO Left Shift",
+      "7u Spacebar"
+    ],
     "keymap": [
       [
         {

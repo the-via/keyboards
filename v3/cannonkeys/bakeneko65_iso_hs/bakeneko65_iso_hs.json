@@ -2,12 +2,16 @@
   "name": "Bakeneko65 ISO HS",
   "vendorId": "0xCA04",
   "productId": "0x001F",
-  "keycodes": ["qmk_lighting"],
-  "menus": ["qmk_backlight"],
   "matrix": {
     "rows": 5,
     "cols": 15
   },
+  "keycodes": [
+    "qmk_lighting"
+  ],
+  "menus": [
+    "qmk_backlight"
+  ],
   "layouts": {
     "keymap": [
       [

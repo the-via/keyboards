@@ -7,6 +7,15 @@
     "cols": 15
   },
   "layouts": {
+    "labels": [
+      "Split Backspace",
+      [
+        "Bottom Row",
+        "625",
+        "2.25 Right",
+        "2.25 Left"
+      ]
+    ],
     "keymap": [
       [
         {
@@ -202,10 +211,6 @@
         },
         "2,11"
       ]
-    ],
-    "labels": [
-      "Split Backspace",
-      ["Bottom Row", "625", "2.25 Right", "2.25 Left"]
     ]
   }
 }

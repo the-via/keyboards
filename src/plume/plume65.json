@@ -2,14 +2,18 @@
   "name": "Plume65",
   "vendorId": "0x5D66",
   "productId": "0x22CF",
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 5,
     "cols": 15
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
     "labels": [
-      ["Enter Key", "ANSI", "ISO"],
+      [
+        "Enter Key",
+        "ANSI",
+        "ISO"
+      ],
       "Split Left Shift",
       "Split Backspace"
     ],

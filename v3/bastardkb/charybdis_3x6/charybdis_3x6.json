@@ -6,12 +6,6 @@
     "rows": 8,
     "cols": 6
   },
-  "menus": [
-    "qmk_rgb_matrix"
-  ],
-  "keycodes": [
-    "qmk_lighting"
-  ],
   "customKeycodes": [
     {
       "name": "Default DPI Forward",
@@ -53,6 +47,12 @@
       "title": "Dragscroll Toggle",
       "shortName": "DragTog"
     }
+  ],
+  "keycodes": [
+    "qmk_lighting"
+  ],
+  "menus": [
+    "qmk_rgb_matrix"
   ],
   "layouts": {
     "labels": [

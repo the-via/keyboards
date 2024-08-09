@@ -2,13 +2,17 @@
   "name": "Joypad",
   "vendorId": "0x04D8",
   "productId": "0xEA68",
-  "lighting": "none",
   "matrix": {
     "rows": 6,
     "cols": 4
   },
+  "lighting": "none",
   "layouts": {
-    "labels": ["Split Plus", "Split Enter", "Split 0"],
+    "labels": [
+      "Split Plus",
+      "Split Enter",
+      "Split 0"
+    ],
     "keymap": [
       [
         {
@@ -83,7 +87,10 @@
         },
         "5,3\n\n\n1,1"
       ],
-      ["5,0\n\n\n2,1", "5,1\n\n\n2,1"]
+      [
+        "5,0\n\n\n2,1",
+        "5,1\n\n\n2,1"
+      ]
     ]
   }
 }

@@ -2,8 +2,11 @@
   "name": "ErgoArrows",
   "vendorId": "0x04D8",
   "productId": "0xEA54",
+  "matrix": {
+    "rows": 12,
+    "cols": 7
+  },
   "lighting": "qmk_rgblight",
-  "matrix": {"rows": 12, "cols": 7},
   "layouts": {
     "keymap": [
       [

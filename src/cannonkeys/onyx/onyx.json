@@ -2,15 +2,38 @@
   "name": "Onyx",
   "vendorId": "0xca04",
   "productId": "0x0003",
+  "matrix": {
+    "rows": 5,
+    "cols": 19
+  },
   "lighting": "qmk_backlight",
-  "matrix": {"rows": 5, "cols": 19},
   "layouts": {
     "labels": [
-      ["Backspace", "Full", "Split"],
-      ["Enter", "ANSI", "ISO"],
-      ["Left Shift", "Full", "Split"],
-      ["Right Shift", "Split", "Full"],
-      ["Bottom Row", "6.25U", "7U"]
+      [
+        "Backspace",
+        "Full",
+        "Split"
+      ],
+      [
+        "Enter",
+        "ANSI",
+        "ISO"
+      ],
+      [
+        "Left Shift",
+        "Full",
+        "Split"
+      ],
+      [
+        "Right Shift",
+        "Split",
+        "Full"
+      ],
+      [
+        "Bottom Row",
+        "6.25U",
+        "7U"
+      ]
     ],
     "keymap": [
       [

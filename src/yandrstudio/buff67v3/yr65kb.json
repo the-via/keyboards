@@ -2,11 +2,11 @@
   "name": "65%_Y&R",
   "vendorId": "0xAA96",
   "productId": "0xAA88",
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 5,
     "cols": 15
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
     "keymap": [
       [

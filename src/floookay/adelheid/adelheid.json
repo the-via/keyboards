@@ -2,11 +2,11 @@
   "name": "Adelheid",
   "vendorId": "0xF100",
   "productId": "0xAD78",
-  "lighting": "qmk_backlight",
   "matrix": {
     "rows": 7,
     "cols": 15
   },
+  "lighting": "qmk_backlight",
   "layouts": {
     "keymap": [
       [

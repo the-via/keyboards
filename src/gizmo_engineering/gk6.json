@@ -2,13 +2,20 @@
   "name": "Gizmo Engineering GK6",
   "vendorId": "0x6532",
   "productId": "0x0001",
-  "lighting": "none",
   "matrix": {
     "rows": 5,
     "cols": 12
   },
+  "lighting": "none",
   "layouts": {
-    "labels": [["Bottom Row", "Default", "1x2U", "5x12 1U"]],
+    "labels": [
+      [
+        "Bottom Row",
+        "Default",
+        "1x2U",
+        "5x12 1U"
+      ]
+    ],
     "keymap": [
       [
         "0,0",

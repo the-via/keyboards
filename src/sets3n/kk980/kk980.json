@@ -2,8 +2,11 @@
   "name": "kk980",
   "vendorId": "0x404A",
   "productId": "0x0002",
+  "matrix": {
+    "rows": 6,
+    "cols": 17
+  },
   "lighting": "qmk_rgblight",
-  "matrix": {"rows": 6, "cols": 17},
   "layouts": {
     "keymap": [
       [

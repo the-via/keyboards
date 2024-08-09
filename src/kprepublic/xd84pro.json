@@ -2,19 +2,39 @@
   "name": "XD84 Pro",
   "vendorId": "0x7844",
   "productId": "0x8450",
-  "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 6,
     "cols": 15
   },
-
+  "lighting": "qmk_backlight_rgblight",
   "layouts": {
     "labels": [
-      ["Upper Modifiers", "Default", "Joined"],
-      ["Backspace", "Default", "Split", "2u Right"],
-      ["Enter Key", "ANSI", "ISO"],
-      ["Left Shift", "Default", "Split"],
-      ["Right Shift", "Default", "3x1.25u"],
+      [
+        "Upper Modifiers",
+        "Default",
+        "Joined"
+      ],
+      [
+        "Backspace",
+        "Default",
+        "Split",
+        "2u Right"
+      ],
+      [
+        "Enter Key",
+        "ANSI",
+        "ISO"
+      ],
+      [
+        "Left Shift",
+        "Default",
+        "Split"
+      ],
+      [
+        "Right Shift",
+        "Default",
+        "3x1.25u"
+      ],
       [
         "Bottom Row",
         "Default",
@@ -27,7 +47,6 @@
         "7) (Unofficial) 3x1.25u | 6.25u Space | 2x1.5u - 3x1u"
       ]
     ],
-
     "keymap": [
       [
         {

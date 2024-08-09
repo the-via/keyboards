@@ -2,7 +2,10 @@
   "name": "Zed65-Cor65",
   "vendorId": "0x4D4C",
   "productId": "0x6504",
-  "matrix": {"rows": 5, "cols": 16},
+  "matrix": {
+    "rows": 5,
+    "cols": 16
+  },
   "layouts": {
     "labels": [
       "Split Backspace",

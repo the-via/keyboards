@@ -2,19 +2,27 @@
   "name": "Ellipse",
   "vendorId": "0xCA04",
   "productId": "0x0015",
-  "keycodes": ["qmk_lighting"],
-  "menus": ["qmk_backlight"],
   "matrix": {
     "rows": 5,
     "cols": 15
   },
+  "keycodes": [
+    "qmk_lighting"
+  ],
+  "menus": [
+    "qmk_backlight"
+  ],
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO Enter",
       "Split L-Shift",
       "Full R-Shift",
-      ["Bottom Row", "7U", "6.25U"]
+      [
+        "Bottom Row",
+        "7U",
+        "6.25U"
+      ]
     ],
     "keymap": [
       [

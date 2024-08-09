@@ -2,7 +2,10 @@
   "name": "Olly Octagon",
   "vendorId": "0x4D4C",
   "productId": "0xD750",
-  "matrix": {"rows": 6, "cols": 16},
+  "matrix": {
+    "rows": 6,
+    "cols": 16
+  },
   "layouts": {
     "labels": [
       "Split Backspace",

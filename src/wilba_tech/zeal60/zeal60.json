@@ -2,22 +2,59 @@
   "name": "ZEAL60",
   "vendorId": "0x5a45",
   "productId": "0x0060",
+  "matrix": {
+    "rows": 5,
+    "cols": 14
+  },
   "lighting": {
     "extends": "wt_rgb_backlight",
     "supportedLightingValues": [
-      1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
     ]
   },
-  "matrix": {"rows": 5, "cols": 14},
   "layouts": {
-    "presets": {"HHKB": [1, 0, 0, 1, 2]},
     "labels": [
       "Split Backspace",
       "ISO Enter",
       "Split Left Shift",
       "Split Right Shift",
-      ["Bottom Row", "ANSI", "7U", "HHKB", "WKL"]
+      [
+        "Bottom Row",
+        "ANSI",
+        "7U",
+        "HHKB",
+        "WKL"
+      ]
     ],
+    "presets": {
+      "HHKB": [
+        1,
+        0,
+        0,
+        1,
+        2
+      ]
+    },
     "keymap": [
       [
         {

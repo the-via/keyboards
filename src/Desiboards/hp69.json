@@ -2,11 +2,11 @@
   "name": "hp69",
   "vendorId": "0x416B",
   "productId": "0x0001",
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 5,
     "cols": 15
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
     "keymap": [
       [

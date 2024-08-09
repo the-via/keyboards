@@ -2,11 +2,11 @@
   "name": "Titan 60",
   "vendorId": "0xACE1",
   "productId": "0x5449",
-  "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 5,
     "cols": 14
   },
+  "lighting": "qmk_backlight_rgblight",
   "layouts": {
     "labels": [
       "Split Backspace",
@@ -19,9 +19,13 @@
         "Split left shift",
         "Split both shifts"
       ],
-      ["Bottom Row", "6.25U", "7U Tsangan", "Utilitarian"]
+      [
+        "Bottom Row",
+        "6.25U",
+        "7U Tsangan",
+        "Utilitarian"
+      ]
     ],
-
     "keymap": [
       [
         {

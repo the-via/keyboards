@@ -2,8 +2,11 @@
   "name": "Prime_L",
   "vendorId": "0x5052",
   "productId": "0x504c",
+  "matrix": {
+    "rows": 5,
+    "cols": 16
+  },
   "lighting": "qmk_backlight",
-  "matrix": {"rows": 5, "cols": 16},
   "layouts": {
     "keymap": [
       [

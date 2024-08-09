@@ -2,10 +2,16 @@
   "name": "Hex.4B",
   "vendorId": "0x4D4C",
   "productId": "0x0675",
+  "matrix": {
+    "rows": 6,
+    "cols": 15
+  },
   "lighting": "qmk_backlight",
-  "matrix": {"rows": 6, "cols": 15},
   "layouts": {
-    "labels": ["Split Back Space", "7U Space"],
+    "labels": [
+      "Split Back Space",
+      "7U Space"
+    ],
     "keymap": [
       [
         "0,0",

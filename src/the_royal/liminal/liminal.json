@@ -2,13 +2,29 @@
   "name": "Liminal",
   "vendorId": "0x4b4b",
   "productId": "0x0003",
+  "matrix": {
+    "rows": 4,
+    "cols": 14
+  },
   "lighting": "qmk_rgblight",
-  "matrix": {"rows": 4, "cols": 14},
   "layouts": {
     "labels": [
-      ["Enter", "AMERICA", "ISO", "Fun Sized"],
-      ["Left Shift", "AMERICA", "ISO"],
-      ["Bottom Row", "WUMBO", "Split Space"]
+      [
+        "Enter",
+        "AMERICA",
+        "ISO",
+        "Fun Sized"
+      ],
+      [
+        "Left Shift",
+        "AMERICA",
+        "ISO"
+      ],
+      [
+        "Bottom Row",
+        "WUMBO",
+        "Split Space"
+      ]
     ],
     "keymap": [
       [

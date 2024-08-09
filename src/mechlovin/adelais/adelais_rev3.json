@@ -2,10 +2,17 @@
   "name": "Adelais Rev.3",
   "vendorId": "0x4D4C",
   "productId": "0xAD02",
+  "matrix": {
+    "rows": 5,
+    "cols": 15
+  },
   "lighting": "qmk_backlight_rgblight",
-  "matrix": {"rows": 5, "cols": 15},
   "layouts": {
-    "labels": ["Split Back Space", "Split Right Shift", "2.25u Left Space"],
+    "labels": [
+      "Split Back Space",
+      "Split Right Shift",
+      "2.25u Left Space"
+    ],
     "keymap": [
       [
         {

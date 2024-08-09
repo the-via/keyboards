@@ -2,18 +2,23 @@
   "name": "h88",
   "vendorId": "0x04D8",
   "productId": "0xECA2",
-  "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 12,
     "cols": 9
   },
+  "lighting": "qmk_backlight_rgblight",
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO",
       "Split Left Shift",
       "Split Right Shift",
-      ["Bottom Row", "6.25U", "7U", "7U WKL"]
+      [
+        "Bottom Row",
+        "6.25U",
+        "7U",
+        "7U WKL"
+      ]
     ],
     "keymap": [
       [

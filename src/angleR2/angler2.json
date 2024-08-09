@@ -2,14 +2,25 @@
   "name": "AngleR2",
   "vendorId": "0x480E",
   "productId": "0x408F",
+  "matrix": {
+    "rows": 6,
+    "cols": 16
+  },
   "lighting": "qmk_rgblight",
-  "matrix": {"rows": 6, "cols": 16},
   "layouts": {
     "labels": [
-      ["top row", "F13", "F12"],
+      [
+        "top row",
+        "F13",
+        "F12"
+      ],
       "ISO Enter",
       "Split Left Shift",
-      ["Bottom Row", "6.25U", "7U"]
+      [
+        "Bottom Row",
+        "6.25U",
+        "7U"
+      ]
     ],
     "keymap": [
       [

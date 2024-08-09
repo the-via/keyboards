@@ -2,18 +2,23 @@
   "name": "Kira80",
   "vendorId": "0x6986",
   "productId": "0xC583",
-  "lighting": "qmk_backlight",
   "matrix": {
     "rows": 7,
     "cols": 15
   },
+  "lighting": "qmk_backlight",
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO",
       "Split Left Shift",
       "Split Right Shift",
-      ["Bottom Row", "6.25U", "7U", "7U WKL"]
+      [
+        "Bottom Row",
+        "6.25U",
+        "7U",
+        "7U WKL"
+      ]
     ],
     "keymap": [
       [

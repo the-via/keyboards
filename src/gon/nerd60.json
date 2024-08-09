@@ -2,15 +2,39 @@
   "name": "GoN NerD60",
   "vendorId": "0x4E45",
   "productId": "0x3630",
+  "matrix": {
+    "rows": 10,
+    "cols": 8
+  },
   "lighting": "qmk_backlight",
-  "matrix": {"rows": 10, "cols": 8},
   "layouts": {
     "labels": [
-      ["Bottom Row", "WK", "Tsangan", "WKL"],
-      ["Backspace", "Normal Backspace", "Split Backspace"],
-      ["Enter", "ANSI Enter", "ISO Enter"],
-      ["Left Shift", "Normal Left Shift", "Split Left Shift"],
-      ["Right Shift", "Normal Right Shift", "Split Right Shift"]
+      [
+        "Bottom Row",
+        "WK",
+        "Tsangan",
+        "WKL"
+      ],
+      [
+        "Backspace",
+        "Normal Backspace",
+        "Split Backspace"
+      ],
+      [
+        "Enter",
+        "ANSI Enter",
+        "ISO Enter"
+      ],
+      [
+        "Left Shift",
+        "Normal Left Shift",
+        "Split Left Shift"
+      ],
+      [
+        "Right Shift",
+        "Normal Right Shift",
+        "Split Right Shift"
+      ]
     ],
     "keymap": [
       [

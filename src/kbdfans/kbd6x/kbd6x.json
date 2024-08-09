@@ -2,10 +2,20 @@
   "name": "KBD6x",
   "vendorId": "0x4B42",
   "productId": "0x3658",
+  "matrix": {
+    "rows": 5,
+    "cols": 14
+  },
   "lighting": "qmk_backlight_rgblight",
-  "matrix": {"rows": 5, "cols": 14},
   "layouts": {
-    "labels": [["Layout", "Tsangan", "HHKB", "WKL"]],
+    "labels": [
+      [
+        "Layout",
+        "Tsangan",
+        "HHKB",
+        "WKL"
+      ]
+    ],
     "keymap": [
       [
         "0,0",

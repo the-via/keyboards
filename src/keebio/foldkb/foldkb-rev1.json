@@ -2,17 +2,26 @@
   "name": "FoldKB Rev. 1",
   "vendorId": "0xCB10",
   "productId": "0x1258",
-  "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 10,
     "cols": 8
   },
+  "lighting": "qmk_backlight_rgblight",
   "layouts": {
     "labels": [
-      ["Left Space", "3x1u", "1u-2u", "2x1.5u"],
+      [
+        "Left Space",
+        "3x1u",
+        "1u-2u",
+        "2x1.5u"
+      ],
       "Split Right Space",
       "Split Backspace",
-      ["Backslash", "1.5u", "1u"],
+      [
+        "Backslash",
+        "1.5u",
+        "1u"
+      ],
       "Split Right Shift"
     ],
     "keymap": [

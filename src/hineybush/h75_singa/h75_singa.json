@@ -2,11 +2,11 @@
   "name": "h75 - Singa V3",
   "vendorId": "0x04D8",
   "productId": "0xEC9A",
-  "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 6,
     "cols": 16
   },
+  "lighting": "qmk_backlight_rgblight",
   "layouts": {
     "labels": [
       "Split Backspace",

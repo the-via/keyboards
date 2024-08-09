@@ -2,17 +2,21 @@
   "name": "p01 ultra",
   "vendorId": "0x03a7",
   "productId": "0x0004",
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 6,
     "cols": 18
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO Enter",
       "Split Right Shift",
-      ["Bottom Row", "6.25u", "7u"]
+      [
+        "Bottom Row",
+        "6.25u",
+        "7u"
+      ]
     ],
     "keymap": [
       [

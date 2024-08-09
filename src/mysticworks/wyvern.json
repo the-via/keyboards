@@ -2,12 +2,45 @@
   "name": "Wyvern",
   "vendorId": "0x4D59",
   "productId": "0x0001",
-  "lighting": "none",
   "matrix": {
     "rows": 10,
     "cols": 10
   },
+  "lighting": "none",
   "layouts": {
+    "labels": [
+      "Split Backspace",
+      "Stepped Caps Lock",
+      "Split Left Shift",
+      "ISO Enter",
+      [
+        "Bottom Row",
+        "6.25U",
+        "7U"
+      ],
+      [
+        "Top Left Numpad",
+        "2x 1U",
+        "Vertical 2U"
+      ],
+      [
+        "Top Right Numpad",
+        "Vertical 2U",
+        "2x 1U"
+      ],
+      [
+        "Bottom Left Numpad",
+        "Horizontal 2U",
+        "Vertical 2U",
+        "All 1U"
+      ],
+      [
+        "Bottom Right Numpad",
+        "Vertical 2U",
+        "Horizontal 2U",
+        "All 1U"
+      ]
+    ],
     "keymap": [
       [
         {
@@ -335,17 +368,6 @@
         "1,8\n\n\n0,1",
         "0,9\n\n\n0,1"
       ]
-    ],
-    "labels": [
-      "Split Backspace",
-      "Stepped Caps Lock",
-      "Split Left Shift",
-      "ISO Enter",
-      ["Bottom Row", "6.25U", "7U"],
-      ["Top Left Numpad", "2x 1U", "Vertical 2U"],
-      ["Top Right Numpad", "Vertical 2U", "2x 1U"],
-      ["Bottom Left Numpad", "Horizontal 2U", "Vertical 2U", "All 1U"],
-      ["Bottom Right Numpad", "Vertical 2U", "Horizontal 2U", "All 1U"]
     ]
   }
 }

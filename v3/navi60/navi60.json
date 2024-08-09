@@ -2,14 +2,21 @@
   "name": "Navi60",
   "vendorId": "0x5001",
   "productId": "0x0001",
-  "matrix": {"rows": 5, "cols": 14},
+  "matrix": {
+    "rows": 5,
+    "cols": 14
+  },
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO Enter",
       "ISO Left Shift",
       "Split Right Shift",
-      ["Bottom Row", "6.25U", "7u"]
+      [
+        "Bottom Row",
+        "6.25U",
+        "7u"
+      ]
     ],
     "keymap": [
       [

@@ -2,21 +2,43 @@
   "name": "Satisfaction75",
   "vendorId": "0xca04",
   "productId": "0x57f5",
-  "lighting": "qmk_backlight",
-  "customFeatures": ["rotary-encoder"],
-  "customKeycodes": [
-    {"name": "Encoder Press", "title": "Encoder Press", "shortName": "EncPrs"},
-    {"name": "Clock Set", "title": "Clock Set", "shortName": "ClkSet"},
-    {"name": "OLED Mode", "title": "OLED Mode", "shortName": "ScrnMd"}
+  "matrix": {
+    "rows": 6,
+    "cols": 16
+  },
+  "customFeatures": [
+    "rotary-encoder"
   ],
-  "matrix": {"rows": 6, "cols": 16},
+  "customKeycodes": [
+    {
+      "name": "Encoder Press",
+      "title": "Encoder Press",
+      "shortName": "EncPrs"
+    },
+    {
+      "name": "Clock Set",
+      "title": "Clock Set",
+      "shortName": "ClkSet"
+    },
+    {
+      "name": "OLED Mode",
+      "title": "OLED Mode",
+      "shortName": "ScrnMd"
+    }
+  ],
+  "lighting": "qmk_backlight",
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO Enter",
       "Split Left Shift",
       "1.5u Right Mods",
-      ["Spacebar", "6.25u", "6.25u Split", "7u"]
+      [
+        "Spacebar",
+        "6.25u",
+        "6.25u Split",
+        "7u"
+      ]
     ],
     "keymap": [
       [
