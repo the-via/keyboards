@@ -23,6 +23,8 @@
 <!--- Add your VIA keymap PR here -->
 <!--- PR to https://github.com/the-via/qmk_userspace_via/pulls -->
 
+<!--- All keyboards merge into QMK including and after 0.26.0 must have this VIA keymap PR -->
+
 <!--- IF THERE IS NO LINK TO SHOW VIA KEYMAP PR, -->
 <!--- THIS PR WILL BE CLOSED IMMEDIATELY FOR WORKFLOW REASONS.  -->
 
