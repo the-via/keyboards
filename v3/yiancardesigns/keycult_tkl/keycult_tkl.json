@@ -2,7 +2,10 @@
   "name": "Keycult TKL",
   "vendorId": "0x8968",
   "productId": "0x6336",
-  "matrix": {"rows": 6, "cols": 17},
+  "matrix": {
+    "rows": 6,
+    "cols": 17
+  },
   "layouts": {
     "labels": [
       [
