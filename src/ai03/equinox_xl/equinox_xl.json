@@ -2,14 +2,18 @@
   "name": "Equinox XL",
   "vendorId": "0xa103",
   "productId": "0x0020",
-  "lighting": "none",
   "matrix": {
     "rows": 4,
     "cols": 14
   },
+  "lighting": "none",
   "layouts": {
     "labels": [
-      ["Enter", "ANSI", "ISO"],
+      [
+        "Enter",
+        "ANSI",
+        "ISO"
+      ],
       "Split Left Shift",
       "Split Right Shift",
       "Winkeyless",
