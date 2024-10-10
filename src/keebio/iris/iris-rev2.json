@@ -2,8 +2,11 @@
   "name": "Iris Rev. 2",
   "vendorId": "0xCB10",
   "productId": "0x2256",
+  "matrix": {
+    "rows": 10,
+    "cols": 6
+  },
   "lighting": "qmk_backlight_rgblight",
-  "matrix": {"rows": 10, "cols": 6},
   "layouts": {
     "keymap": [
       [

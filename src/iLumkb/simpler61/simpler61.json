@@ -2,13 +2,13 @@
   "name": "Simpler61",
   "vendorId": "0xC3C3",
   "productId": "0xC361",
-  "lighting": {
-    "extends": "none",
-    "keycodes": "qmk"
-  },
   "matrix": {
     "rows": 5,
     "cols": 14
+  },
+  "lighting": {
+    "extends": "none",
+    "keycodes": "qmk"
   },
   "layouts": {
     "keymap": [

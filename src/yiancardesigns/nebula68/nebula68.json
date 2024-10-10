@@ -2,53 +2,184 @@
   "name": "NEBULA68",
   "vendorId": "0x8968",
   "productId": "0x5336",
+  "matrix": {
+    "rows": 5,
+    "cols": 15
+  },
   "lighting": {
     "extends": "wt_rgb_backlight",
     "supportedLightingValues": [
-      7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 128, 129, 130,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      128,
+      129,
+      130,
       131
     ],
     "underglowEffects": [
-      ["All Off", 0],
-      ["Solid Color", 1],
-      ["Breathing 1", 1],
-      ["Breathing 2", 1],
-      ["Breathing 3", 1],
-      ["Breathing 4", 1],
-      ["Rainbow Mood 1", 0],
-      ["Rainbow Mood 2", 0],
-      ["Rainbow Mood 3", 0],
-      ["Rainbow Swirl 1", 0],
-      ["Rainbow Swirl 2", 0],
-      ["Rainbow Swirl 3", 0],
-      ["Rainbow Swirl 4", 0],
-      ["Rainbow Swirl 5", 0],
-      ["Rainbow Swirl 6", 0],
-      ["Snake 1", 1],
-      ["Snake 2", 1],
-      ["Snake 3", 1],
-      ["Snake 4", 1],
-      ["Snake 5", 1],
-      ["Snake 6", 1],
-      ["Knight 1", 1],
-      ["Knight 2", 1],
-      ["Knight 3", 1],
-      ["Christmas", 0],
-      ["Gradient 1", 1],
-      ["Gradient 2", 1],
-      ["Gradient 3", 1],
-      ["Gradient 4", 1],
-      ["Gradient 5", 1],
-      ["Gradient 6", 1],
-      ["Gradient 7", 1],
-      ["Gradient 8", 1],
-      ["Gradient 9", 1],
-      ["Gradient 10", 1],
-      ["RGB Test", 0],
-      ["Alternating", 1]
+      [
+        "All Off",
+        0
+      ],
+      [
+        "Solid Color",
+        1
+      ],
+      [
+        "Breathing 1",
+        1
+      ],
+      [
+        "Breathing 2",
+        1
+      ],
+      [
+        "Breathing 3",
+        1
+      ],
+      [
+        "Breathing 4",
+        1
+      ],
+      [
+        "Rainbow Mood 1",
+        0
+      ],
+      [
+        "Rainbow Mood 2",
+        0
+      ],
+      [
+        "Rainbow Mood 3",
+        0
+      ],
+      [
+        "Rainbow Swirl 1",
+        0
+      ],
+      [
+        "Rainbow Swirl 2",
+        0
+      ],
+      [
+        "Rainbow Swirl 3",
+        0
+      ],
+      [
+        "Rainbow Swirl 4",
+        0
+      ],
+      [
+        "Rainbow Swirl 5",
+        0
+      ],
+      [
+        "Rainbow Swirl 6",
+        0
+      ],
+      [
+        "Snake 1",
+        1
+      ],
+      [
+        "Snake 2",
+        1
+      ],
+      [
+        "Snake 3",
+        1
+      ],
+      [
+        "Snake 4",
+        1
+      ],
+      [
+        "Snake 5",
+        1
+      ],
+      [
+        "Snake 6",
+        1
+      ],
+      [
+        "Knight 1",
+        1
+      ],
+      [
+        "Knight 2",
+        1
+      ],
+      [
+        "Knight 3",
+        1
+      ],
+      [
+        "Christmas",
+        0
+      ],
+      [
+        "Gradient 1",
+        1
+      ],
+      [
+        "Gradient 2",
+        1
+      ],
+      [
+        "Gradient 3",
+        1
+      ],
+      [
+        "Gradient 4",
+        1
+      ],
+      [
+        "Gradient 5",
+        1
+      ],
+      [
+        "Gradient 6",
+        1
+      ],
+      [
+        "Gradient 7",
+        1
+      ],
+      [
+        "Gradient 8",
+        1
+      ],
+      [
+        "Gradient 9",
+        1
+      ],
+      [
+        "Gradient 10",
+        1
+      ],
+      [
+        "RGB Test",
+        0
+      ],
+      [
+        "Alternating",
+        1
+      ]
     ]
   },
-  "matrix": {"rows": 5, "cols": 15},
   "layouts": {
     "keymap": [
       [

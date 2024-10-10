@@ -2,11 +2,11 @@
   "name": "Southpaw75",
   "vendorId": "0x484F",
   "productId": "0x5350",
-  "lighting": "none",
   "matrix": {
     "rows": 9,
     "cols": 9
   },
+  "lighting": "none",
   "layouts": {
     "keymap": [
       [

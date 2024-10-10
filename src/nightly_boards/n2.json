@@ -2,13 +2,20 @@
   "name": "Nightly Boards [n]2",
   "vendorId": "0x0717",
   "productId": "0x0003",
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 2,
     "cols": 2
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
     "labels": [],
-    "keymap": [["0,0"], ["1,1"]]
+    "keymap": [
+      [
+        "0,0"
+      ],
+      [
+        "1,1"
+      ]
+    ]
   }
 }

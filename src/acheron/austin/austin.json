@@ -2,17 +2,21 @@
   "name": "Acheron Austin",
   "vendorId": "0xAC11",
   "productId": "0x4175",
-  "lighting": "none",
   "matrix": {
     "rows": 6,
     "cols": 19
   },
+  "lighting": "none",
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO Enter",
       "Split Left Shift",
-      ["Bottom Row", "6.25U", "7U"],
+      [
+        "Bottom Row",
+        "6.25U",
+        "7U"
+      ],
       "Split Numpad Zero"
     ],
     "keymap": [

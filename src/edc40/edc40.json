@@ -2,8 +2,11 @@
   "name": "Edc40",
   "vendorId": "0x6F6A",
   "productId": "0x6534",
+  "matrix": {
+    "rows": 4,
+    "cols": 11
+  },
   "lighting": "none",
-  "matrix": {"rows": 4, "cols": 11},
   "layouts": {
     "keymap": [
       [

@@ -2,13 +2,16 @@
   "name": "Koalafications",
   "vendorId": "0x04D8",
   "productId": "0xEA44",
-  "lighting": "none",
   "matrix": {
     "rows": 6,
     "cols": 15
   },
+  "lighting": "none",
   "layouts": {
-    "labels": ["Split Backspace", "Bottom Row"],
+    "labels": [
+      "Split Backspace",
+      "Bottom Row"
+    ],
     "keymap": [
       [
         {

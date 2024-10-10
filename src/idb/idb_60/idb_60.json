@@ -2,18 +2,24 @@
   "name": "idb 60",
   "vendorId": "0x494b",
   "productId": "0x0001",
-  "lighting": "none",
   "matrix": {
     "rows": 10,
     "cols": 8
   },
+  "lighting": "none",
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO Enter",
       "Split Left Shift",
       "Full Right Shift",
-      ["Bottom Row", "WKL", "Blockerless", "MX HHKB", "True HHKB"]
+      [
+        "Bottom Row",
+        "WKL",
+        "Blockerless",
+        "MX HHKB",
+        "True HHKB"
+      ]
     ],
     "keymap": [
       [

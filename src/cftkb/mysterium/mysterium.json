@@ -2,11 +2,19 @@
   "name": "Mysterium",
   "vendorId": "0x6B62",
   "productId": "0x8769",
+  "matrix": {
+    "rows": 6,
+    "cols": 18
+  },
   "lighting": "none",
-  "matrix": {"rows": 6, "cols": 18},
   "layouts": {
     "labels": [
-      ["Bottom Row", "6.25U", "7U", "Winkeyless"],
+      [
+        "Bottom Row",
+        "6.25U",
+        "7U",
+        "Winkeyless"
+      ],
       "ISO Enter",
       "Split Left Shift"
     ],

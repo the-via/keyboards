@@ -2,9 +2,22 @@
   "name": "YMDK YMD40 v2",
   "vendorId": "0x594D",
   "productId": "0x4440",
+  "matrix": {
+    "rows": 4,
+    "cols": 12
+  },
   "lighting": "qmk_backlight_rgblight",
-  "matrix": {"rows": 4, "cols": 12},
   "layouts": {
+    "labels": [
+      [
+        "Bottom Row",
+        "Grid",
+        "2xSpace",
+        "1xSpace Right",
+        "1xSpace Left",
+        "1xSpace Center"
+      ]
+    ],
     "keymap": [
       [
         {
@@ -222,16 +235,6 @@
         "3,9\n\n\n0,4",
         "3,10\n\n\n0,4",
         "3,11\n\n\n0,4"
-      ]
-    ],
-    "labels": [
-      [
-        "Bottom Row",
-        "Grid",
-        "2xSpace",
-        "1xSpace Right",
-        "1xSpace Left",
-        "1xSpace Center"
       ]
     ]
   }

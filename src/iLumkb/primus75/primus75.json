@@ -2,19 +2,29 @@
   "name": "primus75",
   "vendorId": "0x445A",
   "productId": "0x1014",
-  "lighting": "qmk_backlight",
   "matrix": {
     "rows": 6,
     "cols": 16
   },
+  "lighting": "qmk_backlight",
   "layouts": {
     "labels": [
       "Split Backspace",
-      ["Enter Key", "ANSI", "ISO"],
+      [
+        "Enter Key",
+        "ANSI",
+        "ISO"
+      ],
       "Split Left Shift",
-      ["Spacebar", "Standard", "7u", "6u v1", "6u v2", "6u (4u left)"]
+      [
+        "Spacebar",
+        "Standard",
+        "7u",
+        "6u v1",
+        "6u v2",
+        "6u (4u left)"
+      ]
     ],
-
     "keymap": [
       [
         {

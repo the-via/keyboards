@@ -2,105 +2,132 @@
   "name": "IF875 Rev. 1",
   "vendorId": "0x4D4C",
   "productId": "0x0875",
-  "keycodes": ["qmk_lighting"],
-"menus": [
-  {
-    "label": "Lighting",
-    "content": [
-      {
-        "label": "RGB Backlight",
-        "content": [
-          {
-            "label": "Brightness",
-            "type": "range",
-            "options": [0, 255],
-            "content": ["id_qmk_rgb_matrix_brightness", 3, 1]
-          },
-          {
-            "label": "Effect",
-            "type": "dropdown",
-            "content": ["id_qmk_rgb_matrix_effect", 3, 2],
-            "options": [
-              "All Off",
-              "SOLID ALL",
-              "SOLID ESC",
-              "SOLID F13",
-              "SOLID CLUSTER",
-              "BREATHING",
-              "REATHING ESC",
-              "BREATHING F13",
-              "BREATHING CLUSTER",
-              "BAND VAL ALL",
-              "BAND VAL ESC",
-              "BAND VAL F13",
-              "BAND VAL CLUSTER",
-              "CYCLE UP DOWN ALL",
-              "CYCLE UP DOWN ESC",
-              "CYCLE UP DOWN F13",
-              "CYCLE UP DOWN CLUSTER",
-              "CYCLE OUT IN DUAL ALL",
-              "CYCLE OUT IN DUAL ESC",
-              "CYCLE OUT IN DUAL F13",
-              "CYCLE OUT IN DUAL CLUSTER",
-              "MOVING CHEVRON ALL",
-              "MOVING CHEVRON ESC",
-              "MOVING CHEVRON F13",
-              "MOVING CHEVRON CLUSTER",
-              "CYCLE PINWHEEL ALL",
-              "CYCLE_PINWHEEL ESC",
-              "CYCLE_PINWHEEL F13",
-              "CYCLE_PINWHEEL CLUSTER",
-              "RAINBOW BEACON ALL",
-              "RAINBOW BEACON ESC",
-              "RAINBOW BEACON F13",
-              "RAINBOW BEACON CLUSTER",
-              "RAINDROPS ALL",
-              "RAINDROPS ESC",
-              "RAINDROPS F13",
-              "RAINDROPS CLUSTER",
-              "PIXEL FRACTAL",
-              "PIXEL RAIN"
-            ]
-          },
-          {
-            "showIf": "{id_qmk_rgb_matrix_effect} != 0",
-            "label": "Effect Speed",
-            "type": "range",
-            "options": [0, 255],
-            "content": ["id_qmk_rgb_matrix_effect_speed", 3, 3]
-          },
-          {
-            "showIf": "{id_qmk_rgb_matrix_effect} != 0 && {id_qmk_rgb_matrix_effect} != 24 && {id_qmk_rgb_matrix_effect} != 28 && {id_qmk_rgb_matrix_effect} != 29 && {id_qmk_rgb_matrix_effect} != 32",
-            "label": "Color",
-            "type": "color",
-            "content": ["id_qmk_rgb_matrix_color", 3, 4]
-          }
-        ]
-      }
-    ]
-  }
-],
-  "matrix": {"rows": 6, "cols": 17},
+  "matrix": {
+    "rows": 6,
+    "cols": 17
+  },
+  "keycodes": [
+    "qmk_lighting"
+  ],
+  "menus": [
+    {
+      "label": "Lighting",
+      "content": [
+        {
+          "label": "RGB Backlight",
+          "content": [
+            {
+              "label": "Brightness",
+              "type": "range",
+              "options": [
+                0,
+                255
+              ],
+              "content": [
+                "id_qmk_rgb_matrix_brightness",
+                3,
+                1
+              ]
+            },
+            {
+              "label": "Effect",
+              "type": "dropdown",
+              "content": [
+                "id_qmk_rgb_matrix_effect",
+                3,
+                2
+              ],
+              "options": [
+                "All Off",
+                "SOLID ALL",
+                "SOLID ESC",
+                "SOLID F13",
+                "SOLID CLUSTER",
+                "BREATHING",
+                "REATHING ESC",
+                "BREATHING F13",
+                "BREATHING CLUSTER",
+                "BAND VAL ALL",
+                "BAND VAL ESC",
+                "BAND VAL F13",
+                "BAND VAL CLUSTER",
+                "CYCLE UP DOWN ALL",
+                "CYCLE UP DOWN ESC",
+                "CYCLE UP DOWN F13",
+                "CYCLE UP DOWN CLUSTER",
+                "CYCLE OUT IN DUAL ALL",
+                "CYCLE OUT IN DUAL ESC",
+                "CYCLE OUT IN DUAL F13",
+                "CYCLE OUT IN DUAL CLUSTER",
+                "MOVING CHEVRON ALL",
+                "MOVING CHEVRON ESC",
+                "MOVING CHEVRON F13",
+                "MOVING CHEVRON CLUSTER",
+                "CYCLE PINWHEEL ALL",
+                "CYCLE_PINWHEEL ESC",
+                "CYCLE_PINWHEEL F13",
+                "CYCLE_PINWHEEL CLUSTER",
+                "RAINBOW BEACON ALL",
+                "RAINBOW BEACON ESC",
+                "RAINBOW BEACON F13",
+                "RAINBOW BEACON CLUSTER",
+                "RAINDROPS ALL",
+                "RAINDROPS ESC",
+                "RAINDROPS F13",
+                "RAINDROPS CLUSTER",
+                "PIXEL FRACTAL",
+                "PIXEL RAIN"
+              ]
+            },
+            {
+              "showIf": "{id_qmk_rgb_matrix_effect} != 0",
+              "label": "Effect Speed",
+              "type": "range",
+              "options": [
+                0,
+                255
+              ],
+              "content": [
+                "id_qmk_rgb_matrix_effect_speed",
+                3,
+                3
+              ]
+            },
+            {
+              "showIf": "{id_qmk_rgb_matrix_effect} != 0 && {id_qmk_rgb_matrix_effect} != 24 && {id_qmk_rgb_matrix_effect} != 28 && {id_qmk_rgb_matrix_effect} != 29 && {id_qmk_rgb_matrix_effect} != 32",
+              "label": "Color",
+              "type": "color",
+              "content": [
+                "id_qmk_rgb_matrix_color",
+                3,
+                4
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "layouts": {
     "labels": [
       "F13",
-     "Split Backspace",
+      "Split Backspace",
       [
-      "Enter",
-      "ANSI Enter",
-      "ISO Enter"
+        "Enter",
+        "ANSI Enter",
+        "ISO Enter"
       ],
       "Left Shift ISO",
       [
-      "Right Shift",
-      "ANSI Right Shift",
-      "1u - 1.75u",
-      "1.75u - 1u"
+        "Right Shift",
+        "ANSI Right Shift",
+        "1u - 1.75u",
+        "1.75u - 1u"
       ],
       [
-       "Bottom Row",
-       "Space 6.25U",
-       "Space 7U"
+        "Bottom Row",
+        "Space 6.25U",
+        "Space 7U"
       ]
     ],
     "keymap": [

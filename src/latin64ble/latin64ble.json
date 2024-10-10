@@ -2,11 +2,11 @@
   "name": "latin64ble",
   "vendorId": "0x6C63",
   "productId": "0x6C71",
-  "lighting": "none",
   "matrix": {
     "rows": 8,
     "cols": 8
   },
+  "lighting": "none",
   "layouts": {
     "keymap": [
       [

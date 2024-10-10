@@ -2,10 +2,15 @@
   "name": "Slice RGB rev1",
   "vendorId": "0x04D8",
   "productId": "0xEC15",
+  "matrix": {
+    "rows": 10,
+    "cols": 9
+  },
   "lighting": "qmk_rgblight",
-  "matrix": {"rows": 10, "cols": 9},
   "layouts": {
-    "labels": ["Split Space"],
+    "labels": [
+      "Split Space"
+    ],
     "keymap": [
       [
         {

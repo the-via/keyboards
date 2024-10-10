@@ -2,11 +2,11 @@
   "name": "Conde60",
   "vendorId": "0xD812",
   "productId": "0x0015",
-  "lighting": "none",
   "matrix": {
     "rows": 5,
     "cols": 14
   },
+  "lighting": "none",
   "layouts": {
     "labels": [],
     "keymap": [

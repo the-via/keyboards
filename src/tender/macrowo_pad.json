@@ -2,11 +2,11 @@
   "name": "Macrowo Pad",
   "vendorId": "0x04D8",
   "productId": "0xE936",
-  "lighting": "none",
   "matrix": {
     "rows": 2,
     "cols": 10
   },
+  "lighting": "none",
   "layouts": {
     "keymap": [
       [

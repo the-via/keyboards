@@ -1,19 +1,21 @@
 {
   "name": "Taleguers75",
-  "lighting": "qmk_backlight_rgblight",
   "vendorId": "0x8476",
   "productId": "0x0075",
   "matrix": {
     "rows": 6,
     "cols": 14
   },
+  "lighting": "qmk_backlight_rgblight",
   "layouts": {
     "keymap": [
       [
         {
           "c": "#777777",
           "sm": "cherry",
-          "fa": [4]
+          "fa": [
+            4
+          ]
         },
         "0,0",
         {

@@ -2,9 +2,14 @@
   "name": "Chimera65 HS",
   "vendorId": "0xCA04",
   "productId": "0x001D",
-  "matrix": {"rows": 5, "cols": 15},
+  "matrix": {
+    "rows": 5,
+    "cols": 15
+  },
   "layouts": {
-    "labels": ["Split Backspace"],
+    "labels": [
+      "Split Backspace"
+    ],
     "keymap": [
       [
         {

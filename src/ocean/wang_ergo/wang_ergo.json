@@ -2,12 +2,23 @@
   "name": "Wang Ergo",
   "vendorId": "0x9624",
   "productId": "0x0008",
+  "matrix": {
+    "rows": 4,
+    "cols": 12
+  },
   "lighting": "none",
-  "matrix": {"rows": 4, "cols": 12},
   "layouts": {
     "labels": [
-      ["Left Spacebar", "2u", "2x 1u"],
-      ["Right Spacebar", "2u", "2x 1u"]
+      [
+        "Left Spacebar",
+        "2u",
+        "2x 1u"
+      ],
+      [
+        "Right Spacebar",
+        "2u",
+        "2x 1u"
+      ]
     ],
     "keymap": [
       [

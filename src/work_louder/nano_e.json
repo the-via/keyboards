@@ -2,7 +2,10 @@
   "name": "Nano Pad",
   "vendorId": "0x574C",
   "productId": "0xE6F0",
-  "lighting": "qmk_rgblight",
+  "matrix": {
+    "rows": 1,
+    "cols": 3
+  },
   "customKeycodes": [
     {
       "name": "RGB Matrix Toggle",
@@ -50,7 +53,7 @@
       "shortName": "R_M_VAD"
     }
   ],
-  "matrix": {"rows": 1, "cols": 3},
+  "lighting": "qmk_rgblight",
   "layouts": {
     "keymap": [
       [

@@ -3,7 +3,13 @@
   "vendorId": "0x5845",
   "productId": "0x5053",
   "firmwareVersion": 1,
-  "keycodes": ["qmk_lighting"],
+  "matrix": {
+    "rows": 12,
+    "cols": 9
+  },
+  "keycodes": [
+    "qmk_lighting"
+  ],
   "menus": [
     {
       "label": "Lighting",
@@ -14,13 +20,24 @@
             {
               "label": "Brightness",
               "type": "range",
-              "options": [0, 255],
-              "content": ["id_qmk_rgb_matrix_brightness", 3, 1]
+              "options": [
+                0,
+                255
+              ],
+              "content": [
+                "id_qmk_rgb_matrix_brightness",
+                3,
+                1
+              ]
             },
             {
               "label": "Effect",
               "type": "dropdown",
-              "content": ["id_qmk_rgb_matrix_effect", 3, 2],
+              "content": [
+                "id_qmk_rgb_matrix_effect",
+                3,
+                2
+              ],
               "options": [
                 "All Off",
                 "Solid Color",
@@ -60,7 +77,7 @@
                 "Solid Reactive Multi Cross",
                 "Solid Reactive Nexus",
                 "Solid Reactive Multi Nexus",
-                "Spash",
+                "Splash",
                 "Multi Splash",
                 "Solid Splash",
                 "Solid Multi Splash"
@@ -70,14 +87,25 @@
               "showIf": "{id_qmk_rgb_matrix_effect} != 0",
               "label": "Effect Speed",
               "type": "range",
-              "options": [0, 255],
-              "content": ["id_qmk_rgb_matrix_effect_speed", 3, 3]
+              "options": [
+                0,
+                255
+              ],
+              "content": [
+                "id_qmk_rgb_matrix_effect_speed",
+                3,
+                3
+              ]
             },
             {
               "showIf": "{id_qmk_rgb_matrix_effect} != 0 && {id_qmk_rgb_matrix_effect} != 24 && {id_qmk_rgb_matrix_effect} != 28 && {id_qmk_rgb_matrix_effect} != 29 && {id_qmk_rgb_matrix_effect} != 32",
               "label": "Color",
               "type": "color",
-              "content": ["id_qmk_rgb_matrix_color", 3, 4]
+              "content": [
+                "id_qmk_rgb_matrix_color",
+                3,
+                4
+              ]
             }
           ]
         }
@@ -92,29 +120,55 @@
             {
               "label": "Enable",
               "type": "toggle",
-              "content": ["id_caps_lock_enable", 0, 1]
+              "content": [
+                "id_caps_lock_enable",
+                0,
+                1
+              ]
             },
             {
               "label": "Brightness",
               "type": "range",
-              "options": [0, 255],
-              "content": ["id_caps_lock_brightness", 0, 2]
+              "options": [
+                0,
+                255
+              ],
+              "content": [
+                "id_caps_lock_brightness",
+                0,
+                2
+              ]
             },
             {
               "label": "Color",
               "type": "color",
-              "content": ["id_caps_lock_color", 0, 3]
+              "content": [
+                "id_caps_lock_color",
+                0,
+                3
+              ]
             },
             {
               "label": "LED Number",
               "type": "range",
-              "options": [0, 117],
-              "content": ["id_caps_lock_key", 0, 4]
+              "options": [
+                0,
+                117
+              ],
+              "content": [
+                "id_caps_lock_key",
+                0,
+                4
+              ]
             },
             {
               "label": "Override animation (off state)",
               "type": "toggle",
-              "content": ["id_caps_lock_override", 0, 5]
+              "content": [
+                "id_caps_lock_override",
+                0,
+                5
+              ]
             }
           ]
         },
@@ -124,29 +178,55 @@
             {
               "label": "Enable",
               "type": "toggle",
-              "content": ["id_num_lock_enable", 0, 6]
+              "content": [
+                "id_num_lock_enable",
+                0,
+                6
+              ]
             },
             {
               "label": "Brightness",
               "type": "range",
-              "options": [0, 255],
-              "content": ["id_num_lock_brightness", 0, 7]
+              "options": [
+                0,
+                255
+              ],
+              "content": [
+                "id_num_lock_brightness",
+                0,
+                7
+              ]
             },
             {
               "label": "Color",
               "type": "color",
-              "content": ["id_num_lock_color", 0, 8]
+              "content": [
+                "id_num_lock_color",
+                0,
+                8
+              ]
             },
             {
               "label": "LED Number",
               "type": "range",
-              "options": [0, 117],
-              "content": ["id_num_lock_key", 0, 9]
+              "options": [
+                0,
+                117
+              ],
+              "content": [
+                "id_num_lock_key",
+                0,
+                9
+              ]
             },
             {
               "label": "Override animation (off state)",
               "type": "toggle",
-              "content": ["id_num_lock_override", 0, 10]
+              "content": [
+                "id_num_lock_override",
+                0,
+                10
+              ]
             }
           ]
         },
@@ -156,29 +236,55 @@
             {
               "label": "Enable",
               "type": "toggle",
-              "content": ["id_scroll_lock_enable", 0, 11]
+              "content": [
+                "id_scroll_lock_enable",
+                0,
+                11
+              ]
             },
             {
               "label": "Brightness",
               "type": "range",
-              "options": [0, 255],
-              "content": ["id_scroll_lock_brightness", 0, 12]
+              "options": [
+                0,
+                255
+              ],
+              "content": [
+                "id_scroll_lock_brightness",
+                0,
+                12
+              ]
             },
             {
               "label": "Color",
               "type": "color",
-              "content": ["id_scroll_lock_color", 0, 13]
+              "content": [
+                "id_scroll_lock_color",
+                0,
+                13
+              ]
             },
             {
               "label": "LED Number",
               "type": "range",
-              "options": [0, 117],
-              "content": ["id_scroll_lock_key", 0, 14]
+              "options": [
+                0,
+                117
+              ],
+              "content": [
+                "id_scroll_lock_key",
+                0,
+                14
+              ]
             },
             {
               "label": "Override animation (off state)",
               "type": "toggle",
-              "content": ["id_scroll_lock_override", 0, 15]
+              "content": [
+                "id_scroll_lock_override",
+                0,
+                15
+              ]
             }
           ]
         },
@@ -188,63 +294,105 @@
             {
               "label": "Enable",
               "type": "toggle",
-              "content": ["id_layer_indicator_enable", 0, 16]
+              "content": [
+                "id_layer_indicator_enable",
+                0,
+                16
+              ]
             },
             {
               "label": "Brightness",
               "type": "range",
-              "options": [0, 255],
-              "content": ["id_layer_indicator_brightness", 0, 17]
+              "options": [
+                0,
+                255
+              ],
+              "content": [
+                "id_layer_indicator_brightness",
+                0,
+                17
+              ]
             },
             {
               "label": "Color",
               "type": "color",
-              "content": ["id_layer_indicator_color", 0, 18]
+              "content": [
+                "id_layer_indicator_color",
+                0,
+                18
+              ]
             },
             {
               "label": "LED Number",
               "type": "range",
-              "options": [0, 117],
-              "content": ["id_layer_indicator_key", 0, 19]
+              "options": [
+                0,
+                117
+              ],
+              "content": [
+                "id_layer_indicator_key",
+                0,
+                19
+              ]
             },
             {
               "label": "Override animation (off state)",
               "type": "toggle",
-              "content": ["id_layer_indicator_override", 0, 20]
+              "content": [
+                "id_layer_indicator_override",
+                0,
+                20
+              ]
             }
           ]
         }
       ]
     }
   ],
-  "matrix": {"rows": 12, "cols": 9},
   "layouts": {
     "keymap": [
       [
-        {"c": "#888888"},
+        {
+          "c": "#888888"
+        },
         "0,0",
-        {"x": 1, "c": "#cccccc"},
+        {
+          "x": 1,
+          "c": "#cccccc"
+        },
         "0,1",
         "1,1",
         "0,2",
         "1,2",
-        {"x": 0.5, "c": "#aaaaaa"},
+        {
+          "x": 0.5,
+          "c": "#aaaaaa"
+        },
         "0,3",
         "1,3",
         "0,4",
         "1,4",
-        {"x": 0.5, "c": "#cccccc"},
+        {
+          "x": 0.5,
+          "c": "#cccccc"
+        },
         "0,5",
         "1,5",
         "0,6",
         "1,6",
-        {"x": 0.25, "c": "#aaaaaa"},
+        {
+          "x": 0.25,
+          "c": "#aaaaaa"
+        },
         "0,7",
         "1,7",
         "0,8    "
       ],
       [
-        {"y": 0.25, "c": "#cccccc"},
+        {
+          "y": 0.25,
+          "c": "#cccccc"
+        },
         "2,0",
         "3,0",
         "2,1",
@@ -258,17 +406,26 @@
         "2,5",
         "3,5",
         "2,6",
-        {"c": "#aaaaaa", "w": 2},
+        {
+          "c": "#aaaaaa",
+          "w": 2
+        },
         "3,6",
-        {"x": 0.25},
+        {
+          "x": 0.25
+        },
         "2,7",
         "3,7",
         "2,8"
       ],
       [
-        {"w": 1.5},
+        {
+          "w": 1.5
+        },
         "4,0",
-        {"c": "#cccccc"},
+        {
+          "c": "#cccccc"
+        },
         "5,0",
         "4,1",
         "5,1",
@@ -281,17 +438,26 @@
         "4,5",
         "5,5",
         "4,6",
-        {"w": 1.5},
+        {
+          "w": 1.5
+        },
         "5,6",
-        {"x": 0.25, "c": "#aaaaaa"},
+        {
+          "x": 0.25,
+          "c": "#aaaaaa"
+        },
         "4,7",
         "5,7",
         "4,8"
       ],
       [
-        {"w": 1.75},
+        {
+          "w": 1.75
+        },
         "6,0",
-        {"c": "#cccccc"},
+        {
+          "c": "#cccccc"
+        },
         "7,0",
         "6,1",
         "7,1",
@@ -303,13 +469,21 @@
         "7,4",
         "6,5",
         "7,5",
-        {"c": "#888888", "w": 2.25},
+        {
+          "c": "#888888",
+          "w": 2.25
+        },
         "7,6"
       ],
       [
-        {"c": "#aaaaaa", "w": 2.25},
+        {
+          "c": "#aaaaaa",
+          "w": 2.25
+        },
         "8,0",
-        {"c": "#cccccc"},
+        {
+          "c": "#cccccc"
+        },
         "9,0",
         "8,1",
         "9,1",
@@ -320,25 +494,44 @@
         "8,4",
         "9,4",
         "8,5",
-        {"c": "#aaaaaa", "w": 2.75},
+        {
+          "c": "#aaaaaa",
+          "w": 2.75
+        },
         "8,6",
-        {"x": 1.25},
+        {
+          "x": 1.25
+        },
         "9,7"
       ],
       [
-        {"w": 1.5},
+        {
+          "w": 1.5
+        },
         "10,0",
         "11,0",
-        {"w": 1.5},
+        {
+          "w": 1.5
+        },
         "10,1",
-        {"c": "#cccccc", "w": 7},
+        {
+          "c": "#cccccc",
+          "w": 7
+        },
         "11,2",
-        {"c": "#aaaaaa", "w": 1.5},
+        {
+          "c": "#aaaaaa",
+          "w": 1.5
+        },
         "10,5",
         "10,6",
-        {"w": 1.5},
+        {
+          "w": 1.5
+        },
         "11,6",
-        {"x": 0.25},
+        {
+          "x": 0.25
+        },
         "10,7",
         "11,7",
         "10,8"

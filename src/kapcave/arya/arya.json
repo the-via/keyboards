@@ -2,13 +2,20 @@
   "name": "Arya",
   "vendorId": "0x4B43",
   "productId": "0x4152",
+  "matrix": {
+    "rows": 9,
+    "cols": 8
+  },
   "lighting": "none",
-  "matrix": {"rows": 9, "cols": 8},
   "layouts": {
     "labels": [
       "Split Backspace",
       "Full Right Shift",
-      ["Left Space", "2U - 1.25U", "2.25U - 1U"]
+      [
+        "Left Space",
+        "2U - 1.25U",
+        "2.25U - 1U"
+      ]
     ],
     "keymap": [
       [

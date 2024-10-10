@@ -2,11 +2,18 @@
   "name": "ORBA",
   "vendorId": "0x414C",
   "productId": "0x0769",
-  "matrix": {"rows": 5, "cols": 16},
+  "matrix": {
+    "rows": 5,
+    "cols": 16
+  },
   "layouts": {
     "labels": [
-        ["Bottom row","6.25U", "7U"]
-      ],
+      [
+        "Bottom row",
+        "6.25U",
+        "7U"
+      ]
+    ],
     "keymap": [
       [
         {

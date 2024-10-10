@@ -2,6 +2,10 @@
   "name": "EC Pro X ANSI/ISO",
   "vendorId": "0x6369",
   "productId": "0x6B98",
+  "matrix": {
+    "rows": 5,
+    "cols": 15
+  },
   "keycodes": [
     "qmk_lighting"
   ],
@@ -11,32 +15,168 @@
       "label": "EC Tools",
       "content": [
         {
-          "label": "APC",
+          "label": "Actuation",
           "content": [
             {
-              "label": "Actuation Level",
-              "type": "range",
+              "label": "Mode",
+              "type": "dropdown",
               "options": [
-                1,
-                1023
+                "APC",
+                "Rapid Trigger"
               ],
               "content": [
-                "id_apc_actuation_threshold",
+                "id_actuation_mode",
                 0,
                 1
               ]
             },
             {
-              "label": "Release Level",
-              "type": "range",
+              "showIf": "{id_actuation_mode} == 0",
+              "content": [
+                {
+                  "label": "Actuation Level (0% | 100%)",
+                  "type": "range",
+                  "options": [
+                    1,
+                    1023
+                  ],
+                  "content": [
+                    "id_mode_0_actuation_threshold",
+                    0,
+                    2
+                  ]
+                },
+                {
+                  "label": "Release Level (0% | 100%, ALWAYS < Actuation Level)",
+                  "type": "range",
+                  "options": [
+                    1,
+                    1023
+                  ],
+                  "content": [
+                    "id_mode_0_release_threshold",
+                    0,
+                    3
+                  ]
+                },
+                {
+                  "label": "Apply & save changes",
+                  "type": "button",
+                  "options": [
+                    0
+                  ],
+                  "content": [
+                    "id_save_threshold_data",
+                    0,
+                    4
+                  ]
+                }
+              ]
+            },
+            {
+              "showIf": "{id_actuation_mode} == 1",
+              "content": [
+                {
+                  "label": "Initial Deadzone Offset (0% | 100%)",
+                  "type": "range",
+                  "options": [
+                    1,
+                    1023
+                  ],
+                  "content": [
+                    "id_mode_1_initial_deadzone_offset",
+                    0,
+                    5
+                  ]
+                },
+                {
+                  "label": "Actuation Offset (1-255)",
+                  "type": "range",
+                  "options": [
+                    1,
+                    255
+                  ],
+                  "content": [
+                    "id_mode_1_actuation_offset",
+                    0,
+                    6
+                  ]
+                },
+                {
+                  "label": "Release Offset (1-255)",
+                  "type": "range",
+                  "options": [
+                    1,
+                    255
+                  ],
+                  "content": [
+                    "id_mode_1_release_offset",
+                    0,
+                    7
+                  ]
+                },
+                {
+                  "label": "Apply & save changes",
+                  "type": "button",
+                  "options": [
+                    1
+                  ],
+                  "content": [
+                    "id_save_threshold_data",
+                    0,
+                    4
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Calibration",
+          "content": [
+            {
+              "label": "Bottoming Calibration",
+              "type": "toggle",
+              "content": [
+                "id_bottoming_calibration",
+                0,
+                8
+              ]
+            },
+            {
+              "label": "Noise Floor Calibration (DO NOT PRESS ANY KEY WHILE CLICKING)",
+              "type": "button",
               "options": [
-                1,
-                1023
+                0
               ],
               "content": [
-                "id_apc_release_threshold",
+                "id_noise_floor_calibration",
                 0,
-                2
+                9
+              ]
+            },
+            {
+              "label": "Show Calibration Data",
+              "type": "button",
+              "options": [
+                0
+              ],
+              "content": [
+                "id_show_calibration_data",
+                0,
+                10
+              ]
+            },
+            {
+              "label": "Clear Bottoming Calibration Data",
+              "type": "button",
+              "options": [
+                0
+              ],
+              "content": [
+                "id_clear_bottoming_calibration_data",
+                0,
+                11
               ]
             }
           ]
@@ -44,23 +184,15 @@
       ]
     }
   ],
-  "matrix": {
-    "rows": 5,
-    "cols": 15
-  },
   "layouts": {
     "labels": [
-      "Split LShift",
+      "Split Left Shift",
       [
-        "RShift",
+        "Right Shift",
         "HHKB",
         "Unified"
       ],
-      [
-        "Enter Cluster",
-        "ANSI",
-        "ISO"
-      ]
+      "ISO"
     ],
     "keymap": [
       [

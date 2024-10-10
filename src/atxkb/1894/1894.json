@@ -1,15 +1,34 @@
 {
-  "name": "1894",
+  "name": "Atxkb 1894",
   "vendorId": "0x5458",
   "productId": "0x0001",
+  "matrix": {
+    "rows": 5,
+    "cols": 14
+  },
   "lighting": "qmk_backlight_rgblight",
-  "matrix": {"rows": 5, "cols": 14},
   "layouts": {
     "labels": [
-      ["Backspace", "Unified", "Split"],
-      ["Enter", "ANSI", "ISO"],
-      ["Left Shift", "ANSI", "ISO"],
-      ["Right Shift", "Split", "Unified"],
+      [
+        "Backspace",
+        "Unified",
+        "Split"
+      ],
+      [
+        "Enter",
+        "ANSI",
+        "ISO"
+      ],
+      [
+        "Left Shift",
+        "ANSI",
+        "ISO"
+      ],
+      [
+        "Right Shift",
+        "Split",
+        "Unified"
+      ],
       [
         "Bottom Row",
         "Tsangan",

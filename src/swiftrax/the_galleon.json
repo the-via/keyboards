@@ -2,13 +2,18 @@
   "name": "The Galleon",
   "vendorId": "0x04D8",
   "productId": "0xEA2D",
-  "lighting": "none",
   "matrix": {
     "rows": 14,
     "cols": 9
   },
+  "lighting": "none",
   "layouts": {
-    "labels": ["Split Backspace", "1U Plus", "1U Enter", "Bottom Row"],
+    "labels": [
+      "Split Backspace",
+      "1U Plus",
+      "1U Enter",
+      "Bottom Row"
+    ],
     "keymap": [
       [
         {

@@ -2,15 +2,19 @@
   "name": "KBD67 MkII (Soldered)",
   "vendorId": "0xA103",
   "productId": "0x0013",
-  "lighting": "qmk_backlight",
   "matrix": {
     "rows": 5,
     "cols": 15
   },
+  "lighting": "qmk_backlight",
   "layouts": {
     "labels": [
       "Split Backspace",
-      ["Enter Key", "ANSI", "ISO"],
+      [
+        "Enter Key",
+        "ANSI",
+        "ISO"
+      ],
       "Split Left Shift",
       "Split Space Bar"
     ],

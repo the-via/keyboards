@@ -2,13 +2,13 @@
   "name": "MelGeek tegic rev1",
   "vendorId": "0xEDED",
   "productId": "0x0081",
-  "lighting": {
-    "extends": "none",
-    "keycodes": "qmk"
-  },
   "matrix": {
     "rows": 6,
     "cols": 15
+  },
+  "lighting": {
+    "extends": "none",
+    "keycodes": "qmk"
   },
   "layouts": {
     "keymap": [

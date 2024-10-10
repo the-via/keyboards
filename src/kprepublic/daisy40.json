@@ -2,10 +2,19 @@
   "name": "Daisy 40",
   "vendorId": "0x4B50",
   "productId": "0xD7DC",
+  "matrix": {
+    "rows": 4,
+    "cols": 11
+  },
   "lighting": "qmk_backlight_rgblight",
-  "matrix": {"rows": 4, "cols": 11},
   "layouts": {
-    "labels": [["Bottom row", "Full size space", "Split space"]],
+    "labels": [
+      [
+        "Bottom row",
+        "Full size space",
+        "Split space"
+      ]
+    ],
     "keymap": [
       [
         {

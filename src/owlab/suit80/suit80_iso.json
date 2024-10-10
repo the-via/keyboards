@@ -2,13 +2,16 @@
   "name": "Suit80 ISO",
   "vendorId": "0x4F53",
   "productId": "0x5349",
-  "lighting": "none",
   "matrix": {
     "rows": 6,
     "cols": 15
   },
+  "lighting": "none",
   "layouts": {
-    "labels": ["Split backspace", "Split left shift"],
+    "labels": [
+      "Split backspace",
+      "Split left shift"
+    ],
     "keymap": [
       [
         {

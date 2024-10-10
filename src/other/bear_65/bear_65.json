@@ -2,14 +2,15 @@
   "name": "Bear 65 Ergo",
   "vendorId": "0xA13B",
   "productId": "0x000A",
-  "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 5,
     "cols": 15
   },
+  "lighting": "qmk_backlight_rgblight",
   "layouts": {
-    "labels": ["Split Backspace"],
-
+    "labels": [
+      "Split Backspace"
+    ],
     "keymap": [
       [
         {

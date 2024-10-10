@@ -2,8 +2,11 @@
   "name": "GeonWorks Frog Mini FM-S",
   "vendorId": "0x6777",
   "productId": "0x2D33",
+  "matrix": {
+    "rows": 6,
+    "cols": 14
+  },
   "lighting": "qmk_backlight",
-  "matrix": {"rows": 6, "cols": 14},
   "layouts": {
     "labels": [
       "Split backspace",
