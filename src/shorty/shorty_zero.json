@@ -1,0 +1,18 @@
+{
+    "name": "Shorty Zero",
+    "matrix": {
+        "rows": 5,
+        "cols": 5
+    },
+    "vendorId": "0x5453",
+    "productId": "0x5400",
+    "layouts": {
+        "keymap": [
+            ["3,0\n\n\n\n\n\n\n\n\ne0",{"x":1},"4,0\n\n\n\n\n\n\n\n\ne1"],
+            ["0,0","0,1","0,2"],
+            ["1,0","1,1","1,2"],
+            ["2,0","2,1","2,2"]
+            
+        ]
+    }
+}
