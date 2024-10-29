@@ -2,9 +2,10 @@
     "name": "phac",
     "vendorId": "0x5048",
     "productId": "0x0001",
-    "matrix": { "rows": 1, "cols": 7 },
-    "keycodes": [ "qmk_lighting" ],
-    "menus": [ "qmk_rgb_matrix" ],
+    "matrix": { 
+      "rows": 1,
+      "cols": 7
+    },
     "layouts": {
         "keymap": [
             [
