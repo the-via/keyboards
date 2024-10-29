@@ -1,5 +1,5 @@
 {
-	"name": "S6xty5 rev.2",
+	"name": "S6xty5 Rev.2",
 	"vendorId": "0x5453",
 	"productId": "0x3635",
 	"menus": ["qmk_rgblight"],
