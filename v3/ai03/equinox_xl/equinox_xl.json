@@ -8,7 +8,11 @@
   },
   "layouts": {
     "labels": [
-      ["Enter", "ANSI", "ISO"],
+      [
+        "Enter",
+        "ANSI",
+        "ISO"
+      ],
       "Split Left Shift",
       "Split Right Shift",
       "Winkeyless",
