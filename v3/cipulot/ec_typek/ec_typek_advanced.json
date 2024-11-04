@@ -6,9 +6,7 @@
     "rows": 5,
     "cols": 15
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
+  "keycodes": ["qmk_lighting"],
   "menus": [
     "qmk_rgblight",
     {
@@ -20,11 +18,7 @@
             {
               "label": "Enable Left Indicator",
               "type": "toggle",
-              "content": [
-                "id_ind3_enabled",
-                0,
-                11
-              ]
+              "content": ["id_ind3_enabled", 0, 11]
             },
             {
               "showIf": "{id_ind3_enabled} == 1",
@@ -32,24 +26,13 @@
                 {
                   "label": "Brightness",
                   "type": "range",
-                  "options": [
-                    0,
-                    255
-                  ],
-                  "content": [
-                    "id_ind3_brightness",
-                    0,
-                    12
-                  ]
+                  "options": [0, 255],
+                  "content": ["id_ind3_brightness", 0, 12]
                 },
                 {
                   "label": "Color",
                   "type": "color",
-                  "content": [
-                    "id_ind3_color",
-                    0,
-                    13
-                  ]
+                  "content": ["id_ind3_color", 0, 13]
                 },
                 {
                   "label": "Function 1",
@@ -62,13 +45,13 @@
                     "Layer 0",
                     "Layer 1",
                     "Layer 2",
-                    "Layer 3"
+                    "Layer 3",
+                    "Layer 4",
+                    "Layer 5",
+                    "Layer 6",
+                    "Layer 7"
                   ],
-                  "content": [
-                    "id_ind3_func1",
-                    0,
-                    14
-                  ]
+                  "content": ["id_ind3_func1", 0, 14]
                 },
                 {
                   "label": "Function 2",
@@ -81,13 +64,13 @@
                     "Layer 0",
                     "Layer 1",
                     "Layer 2",
-                    "Layer 3"
+                    "Layer 3",
+                    "Layer 4",
+                    "Layer 5",
+                    "Layer 6",
+                    "Layer 7"
                   ],
-                  "content": [
-                    "id_ind3_func2",
-                    0,
-                    15
-                  ]
+                  "content": ["id_ind3_func2", 0, 15]
                 }
               ]
             }
@@ -99,11 +82,7 @@
             {
               "label": "Enable Central Indicator",
               "type": "toggle",
-              "content": [
-                "id_ind2_enabled",
-                0,
-                6
-              ]
+              "content": ["id_ind2_enabled", 0, 6]
             },
             {
               "showIf": "{id_ind2_enabled} == 1",
@@ -111,24 +90,13 @@
                 {
                   "label": "Brightness",
                   "type": "range",
-                  "options": [
-                    0,
-                    255
-                  ],
-                  "content": [
-                    "id_ind2_brightness",
-                    0,
-                    7
-                  ]
+                  "options": [0, 255],
+                  "content": ["id_ind2_brightness", 0, 7]
                 },
                 {
                   "label": "Color",
                   "type": "color",
-                  "content": [
-                    "id_ind2_color",
-                    0,
-                    8
-                  ]
+                  "content": ["id_ind2_color", 0, 8]
                 },
                 {
                   "label": "Function 1",
@@ -141,13 +109,13 @@
                     "Layer 0",
                     "Layer 1",
                     "Layer 2",
-                    "Layer 3"
+                    "Layer 3",
+                    "Layer 4",
+                    "Layer 5",
+                    "Layer 6",
+                    "Layer 7"
                   ],
-                  "content": [
-                    "id_ind2_func1",
-                    0,
-                    9
-                  ]
+                  "content": ["id_ind2_func1", 0, 9]
                 },
                 {
                   "label": "Function 2",
@@ -160,13 +128,13 @@
                     "Layer 0",
                     "Layer 1",
                     "Layer 2",
-                    "Layer 3"
+                    "Layer 3",
+                    "Layer 4",
+                    "Layer 5",
+                    "Layer 6",
+                    "Layer 7"
                   ],
-                  "content": [
-                    "id_ind2_func2",
-                    0,
-                    10
-                  ]
+                  "content": ["id_ind2_func2", 0, 10]
                 }
               ]
             }
@@ -178,11 +146,7 @@
             {
               "label": "Enable Right Indicator",
               "type": "toggle",
-              "content": [
-                "id_ind1_enabled",
-                0,
-                1
-              ]
+              "content": ["id_ind1_enabled", 0, 1]
             },
             {
               "showIf": "{id_ind1_enabled} == 1",
@@ -190,24 +154,13 @@
                 {
                   "label": "Brightness",
                   "type": "range",
-                  "options": [
-                    0,
-                    255
-                  ],
-                  "content": [
-                    "id_ind1_brightness",
-                    0,
-                    2
-                  ]
+                  "options": [0, 255],
+                  "content": ["id_ind1_brightness", 0, 2]
                 },
                 {
                   "label": "Color",
                   "type": "color",
-                  "content": [
-                    "id_ind1_color",
-                    0,
-                    3
-                  ]
+                  "content": ["id_ind1_color", 0, 3]
                 },
                 {
                   "label": "Function 1",
@@ -220,13 +173,13 @@
                     "Layer 0",
                     "Layer 1",
                     "Layer 2",
-                    "Layer 3"
+                    "Layer 3",
+                    "Layer 4",
+                    "Layer 5",
+                    "Layer 6",
+                    "Layer 7"
                   ],
-                  "content": [
-                    "id_ind1_func1",
-                    0,
-                    4
-                  ]
+                  "content": ["id_ind1_func1", 0, 4]
                 },
                 {
                   "label": "Function 2",
@@ -239,13 +192,13 @@
                     "Layer 0",
                     "Layer 1",
                     "Layer 2",
-                    "Layer 3"
+                    "Layer 3",
+                    "Layer 4",
+                    "Layer 5",
+                    "Layer 6",
+                    "Layer 7"
                   ],
-                  "content": [
-                    "id_ind1_func2",
-                    0,
-                    5
-                  ]
+                  "content": ["id_ind1_func2", 0, 5]
                 }
               ]
             }
@@ -262,15 +215,8 @@
             {
               "label": "Mode",
               "type": "dropdown",
-              "options": [
-                "APC",
-                "Rapid Trigger"
-              ],
-              "content": [
-                "id_actuation_mode",
-                0,
-                16
-              ]
+              "options": ["APC", "Rapid Trigger"],
+              "content": ["id_actuation_mode", 0, 16]
             },
             {
               "showIf": "{id_actuation_mode} == 0",
@@ -278,40 +224,20 @@
                 {
                   "label": "Actuation Level (0% | 100%)",
                   "type": "range",
-                  "options": [
-                    1,
-                    1023
-                  ],
-                  "content": [
-                    "id_mode_0_actuation_threshold",
-                    0,
-                    17
-                  ]
+                  "options": [1, 1023],
+                  "content": ["id_mode_0_actuation_threshold", 0, 17]
                 },
                 {
                   "label": "Release Level (0% | 100%, ALWAYS < Actuation Level)",
                   "type": "range",
-                  "options": [
-                    1,
-                    1023
-                  ],
-                  "content": [
-                    "id_mode_0_release_threshold",
-                    0,
-                    18
-                  ]
+                  "options": [1, 1023],
+                  "content": ["id_mode_0_release_threshold", 0, 18]
                 },
                 {
                   "label": "Apply & save changes",
                   "type": "button",
-                  "options": [
-                    0
-                  ],
-                  "content": [
-                    "id_save_threshold_data",
-                    0,
-                    19
-                  ]
+                  "options": [0],
+                  "content": ["id_save_threshold_data", 0, 19]
                 }
               ]
             },
@@ -321,53 +247,26 @@
                 {
                   "label": "Initial Deadzone Offset (0% | 100%)",
                   "type": "range",
-                  "options": [
-                    1,
-                    1023
-                  ],
-                  "content": [
-                    "id_mode_1_initial_deadzone_offset",
-                    0,
-                    20
-                  ]
+                  "options": [1, 1023],
+                  "content": ["id_mode_1_initial_deadzone_offset", 0, 20]
                 },
                 {
                   "label": "Actuation Offset (1-255)",
                   "type": "range",
-                  "options": [
-                    1,
-                    255
-                  ],
-                  "content": [
-                    "id_mode_1_actuation_offset",
-                    0,
-                    21
-                  ]
+                  "options": [1, 255],
+                  "content": ["id_mode_1_actuation_offset", 0, 21]
                 },
                 {
                   "label": "Release Offset (1-255)",
                   "type": "range",
-                  "options": [
-                    1,
-                    255
-                  ],
-                  "content": [
-                    "id_mode_1_release_offset",
-                    0,
-                    22
-                  ]
+                  "options": [1, 255],
+                  "content": ["id_mode_1_release_offset", 0, 22]
                 },
                 {
                   "label": "Apply & save changes",
                   "type": "button",
-                  "options": [
-                    1
-                  ],
-                  "content": [
-                    "id_save_threshold_data",
-                    0,
-                    19
-                  ]
+                  "options": [1],
+                  "content": ["id_save_threshold_data", 0, 19]
                 }
               ]
             }
@@ -379,47 +278,25 @@
             {
               "label": "Bottoming Calibration",
               "type": "toggle",
-              "content": [
-                "id_bottoming_calibration",
-                0,
-                23
-              ]
+              "content": ["id_bottoming_calibration", 0, 23]
             },
             {
               "label": "Noise Floor Calibration (DO NOT PRESS ANY KEY WHILE CLICKING)",
               "type": "button",
-              "options": [
-                0
-              ],
-              "content": [
-                "id_noise_floor_calibration",
-                0,
-                24
-              ]
+              "options": [0],
+              "content": ["id_noise_floor_calibration", 0, 24]
             },
             {
               "label": "Show Calibration Data",
               "type": "button",
-              "options": [
-                0
-              ],
-              "content": [
-                "id_show_calibration_data",
-                0,
-                25
-              ]
+              "options": [0],
+              "content": ["id_show_calibration_data", 0, 25]
             },
             {
               "label": "Clear Bottoming Calibration Data",
               "type": "button",
-              "options": [
-                0
-              ],
-              "content": [
-                "id_clear_bottoming_calibration_data",
-                0,
-                26
-              ]
+              "options": [0],
+              "content": ["id_clear_bottoming_calibration_data", 0, 26]
             }
           ]
         }
