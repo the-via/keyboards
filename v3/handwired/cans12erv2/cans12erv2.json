@@ -3,7 +3,7 @@
     "vendorId": "0x4342",
     "productId": "0xABC0",
     "matrix": {
-        "rows": 1,
+        "rows": 3,
         "cols": 4
     },
     "layouts": {
