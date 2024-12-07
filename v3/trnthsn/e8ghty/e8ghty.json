@@ -2,16 +2,16 @@
   "name": "E8ghty",
   "vendorId": "0x5453",
   "productId": "0x3830",
-  "menus": [
-    "qmk_rgblight"
-  ],
-  "keycodes": [
-    "qmk_lighting"
-  ],
   "matrix": {
     "rows": 6,
     "cols": 17
   },
+  "keycodes": [
+    "qmk_lighting"
+  ],
+  "menus": [
+    "qmk_rgblight"
+  ],
   "layouts": {
     "labels": [
       "F13",
