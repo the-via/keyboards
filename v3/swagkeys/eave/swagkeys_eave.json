@@ -6,6 +6,8 @@
     "rows": 5,
     "cols": 16
   },
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_rgblight"],
   "layouts": {
     "labels": ["Split Backspace"],
     "keymap": [
