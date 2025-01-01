@@ -6,6 +6,13 @@
     "rows": 3,
     "cols": 3
   },
+  "customKeycodes": [
+    {
+      "name": "Caffeine",
+      "title": "Host machine keep awake",
+      "shortName": "KC_COFFEE"
+    }
+  ],
   "keycodes": [
     "qmk_lighting"
   ],
@@ -271,12 +278,6 @@
         ""
       ]
     ]
-  },
-  "customKeycodes": [
-    {
-      "name": "Caffeine",
-      "title": "Host machine keep awake",
-      "shortName": "KC_COFFEE"
-    }
-  ]
+  }
 }
+
