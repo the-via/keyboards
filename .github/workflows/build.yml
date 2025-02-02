@@ -24,10 +24,10 @@ jobs:
 
       - name: Build
         run: |
-          npm ci 
+          npm ci
           npm run build
 
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         if: always()
         with:
           name: build-error
