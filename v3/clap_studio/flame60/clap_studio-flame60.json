@@ -1,5 +1,5 @@
 {
-  "name": "Clap_Studio Flame 60%",
+  "name": "Flame 60",
   "vendorId": "0x434C",
   "productId": "0x464C",
   "matrix": {
@@ -230,3 +230,4 @@
     ]
   }
 }
+
