@@ -10,20 +10,22 @@ VIA is a powerful, open-source web-based interface for configuring your [QMK](ht
 
 Are you a keyboard maker or a developer interested in adding support for your keyboard? We welcome contributions to the VIA project!
 
-1. The source code of the keyboard **has to be merged** in [QMK Firmware Repositories](https://github.com/qmk/qmk_firmware) Master branch.
-2. Your `keymaps/via` keymap **has to be merged** in [VIA's QMK Userspace Repository](https://github.com/the-via/qmk_userspace_via) Main branch.
+1. The source code of the keyboard **MUST be merged** in [QMK Firmware Repositories](https://github.com/qmk/qmk_firmware) Master branch.
+2. Your `keymaps/via` keymap **MUST be merged** in [VIA's QMK Userspace Repository](https://github.com/the-via/qmk_userspace_via) Main branch.
 3. Create a definition in JSON format for your keyboard and submit it as a pull request to [VIA's Keyboards Repository](https://github.com/the-via/keyboards) Master branch.
 
 Please follow our [Specification documentation](https://www.caniusevia.com/docs/specification) carefully to ensure your pull request is smoothly reviewed and merged.
 
 ## What to add in this repository
 
-1. add a `vendor/keyboardname` directory, inside the `v3` directory--e. g. `xelus/dawn60`
-2. add a `vendor_keyboardname.json` file to it
-3. and follow the [documentation](https://www.caniusevia.com/docs/specification) to create it
+1. Add a `vendor/keyboardname` directory, inside the `v3` directory (e.g. `xelus/dawn60`)
+2. Add a `keyboardname.json` file to it
+
+Follow the [documentation](https://www.caniusevia.com/docs/specification) details on how to create it.
 
 ## Facing Issues?
 
 If you encounter any issues or bugs while using the [VIA Web Application](https://usevia.app), please report them by opening an issue in the [VIA Web Application Repository](https://github.com/the-via/app/issues). This will help us to track down and resolve problems, and improve the VIA experience for everyone.
 
 Before reporting, please make sure to check if an issue has already been reported. Thank you!
+
