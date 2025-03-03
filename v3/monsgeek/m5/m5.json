@@ -39,182 +39,182 @@
               ],
               "options": [
                 [
-                  "ALL OFF",
+                  "All Off",
                   0
                 ],
                 [
-                  "SOLID COLOR",
+                  "Solid Color",
                   1
                 ],
                 [
-                  "ALPHAS MODS",
+                  "Alphas Mods",
                   2
                 ],
                 [
-                  "GRADIENT UP/DOWN",
+                  "Gradient Up/Down",
                   3
                 ],
                 [
-                  "GRADIENT LEFT/RIGHT",
+                  "Gradient Left/Right",
                   4
                 ],
                 [
-                  "BREATHING",
+                  "Breathing",
                   5
                 ],
                 [
-                  "BAND SAT.",
+                  "Band Sat.",
                   6
                 ],
                 [
-                  "BAND VAL.",
+                  "Band Val.",
                   7
                 ],
                 [
-                  "PINWHEEL SAT.",
+                  "Pinwheel Sat.",
                   8
                 ],
                 [
-                  "PINWHEEL VAL.",
+                  "Pinwheel Val.",
                   9
                 ],
                 [
-                  "SPIRAL SAT.",
+                  "Spiral Sat.",
                   10
                 ],
                 [
-                  "SPIRAL VAL.",
+                  "Spiral Val.",
                   11
                 ],
                 [
-                  "CYCLE ALL",
+                  "Cycle All",
                   12
                 ],
                 [
-                  "CYCLE LEFT/RIGHT",
+                  "Cycle Left/Right",
                   13
                 ],
                 [
-                  "CYCLE UP/DOWN",
+                  "Cycle Up/Down",
                   14
                 ],
                 [
-                  "RAINBOW MOVING CHEVRON",
+                  "Rainbow Moving Chevron",
                   15
                 ],
                 [
-                  "CYCLE OUT/IN",
+                  "Cycle Out/In",
                   16
                 ],
                 [
-                  "CYCLE OUT/IN DUAL",
+                  "Cycle Out/In Dual",
                   17
                 ],
                 [
-                  "CYCLE PINWHEEL",
+                  "Cycle Pinwheel",
                   18
                 ],
                 [
-                  "CYCLE SPIRAL",
+                  "Cycle Spiral",
                   19
                 ],
                 [
-                  "DUAL BEACON",
+                  "Dual Beacon",
                   20
                 ],
                 [
-                  "RAINBOW BEACON",
+                  "Rainbow Beacon",
                   21
                 ],
                 [
-                  "RAINBOW PINWHEELS",
+                  "Rainbow Pinwheels",
                   22
                 ],
                 [
-                  "RAINDROPS",
+                  "Raindrops",
                   23
                 ],
                 [
-                  "JELLYBEAN RAINDROPS",
+                  "Jellybean Raindrops",
                   24
                 ],
                 [
-                  "HUE BREATHING",
+                  "Hue Breathing",
                   25
                 ],
                 [
-                  "HUE PENDULUM",
+                  "Hue Pendulum",
                   26
                 ],
                 [
-                  "HUE WAVE",
+                  "Hue Wave",
                   27
                 ],
                 [
-                  "PIXEL RAIN",
+                  "Pixel Rain",
                   28
                 ],
                 [
-                  "PIXEL FLOW",
+                  "Pixel Flow",
                   29
                 ],
                 [
-                  "PIXEL FRACTAL",
+                  "Pixel Fractal",
                   30
                 ],
                 [
-                  "TYPING HEATMAP",
+                  "Typing Heatmap",
                   31
                 ],
                 [
-                  "DIGITAL RAIN",
+                  "Digital Rain",
                   32
                 ],
                 [
-                  "SOLID REACTIVE SIMPLE",
+                  "Solid Reactive Simple",
                   33
                 ],
                 [
-                  "SOLID REACTIVE",
+                  "Solid Reactive",
                   34
                 ],
                 [
-                  "SOLID REACTIVE WIDE",
+                  "Solid Reactive Wide",
                   35
                 ],
                 [
-                  "SOLID REACTIVE MULTI WIDE",
+                  "Solid Reactive Multi Wide",
                   36
                 ],
                 [
-                  "SOLID REACTIVE CROSS",
+                  "Solid Reactive Cross",
                   37
                 ],
                 [
-                  "SOLID REACTIVE MULTI CROSS",
+                  "Solid Reactive Multi Cross",
                   38
                 ],
                 [
-                  "SOLID REACTIVE NEXUS",
+                  "Solid Reactive Nexus",
                   39],
                 [
-                  "SOLID REACTIVE MULTI NEXUS",
+                  "Solid Reactive Multi Nexus",
                   40
                 ],
                 [
-                  "SPASH",
+                  "Splash",
                   41
                 ],
                 [
-                  "MULTI SPLASH",
+                  "Multi Splash",
                   42
                 ],
                 [
-                  "SOLID SPLASH",
+                  "Solid Splash",
                   43
                 ],
                 [
-                  "SOLID MULTI SPLASH",
+                  "Solid Multi Splash",
                   44
                 ]
               ]
