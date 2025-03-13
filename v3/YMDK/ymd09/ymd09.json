@@ -10,7 +10,7 @@
     "qmk_lighting"
   ],
   "menus": [
-    "qmk_rgblight"
+    "qmk_rgb_matrix"
   ],
   "layouts": {
     "keymap": [
