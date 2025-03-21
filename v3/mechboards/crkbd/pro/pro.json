@@ -10,7 +10,232 @@
         "qmk_lighting"
     ],
     "menus": [
-        "qmk_rgb_matrix"
+        {
+            "label": "Lighting",
+            "content": [
+                {
+                    "label": "Backlight",
+                    "content": [
+                        {
+                            "label": "Brightness",
+                            "type": "range",
+                            "options": [
+                                0,
+                                200
+                            ],
+                            "content": [
+                                "id_qmk_rgb_matrix_brightness",
+                                3,
+                                1
+                            ]
+                        },
+                        {
+                            "label": "Effect",
+                            "type": "dropdown",
+                            "content": [
+                                "id_qmk_rgb_matrix_effect",
+                                3,
+                                2
+                            ],
+                            "options": [
+                                [
+                                    "All Off",
+                                    0
+                                ],
+                                [
+                                    "Solid Color",
+                                    1
+                                ],
+                                [
+                                    "Gradient Up/Down",
+                                    2
+                                ],
+                                [
+                                    "Gradient Left/Right",
+                                    3
+                                ],
+                                [
+                                    "Breathing",
+                                    4
+                                ],
+                                [
+                                    "Cycle All",
+                                    5
+                                ],
+                                [
+                                    "Cycle Left/Right",
+                                    6
+                                ],
+                                [
+                                    "Cycle Up/Down",
+                                    7
+                                ],
+                                [
+                                    "Rainbow Moving Chevron",
+                                    8
+                                ],
+                                [
+                                    "Cycle Out/In",
+                                    9
+                                ],
+                                [
+                                    "Cycle Out/In Dual",
+                                    10
+                                ],
+                                [
+                                    "Cycle Pinwheel",
+                                    11
+                                ],
+                                [
+                                    "Cycle Spiral",
+                                    12
+                                ],
+                                [
+                                    "Dual Beacon",
+                                    13
+                                ],
+                                [
+                                    "Rainbow Beacon",
+                                    14
+                                ],
+                                [
+                                    "Rainbow Pinwheels",
+                                    15
+                                ],
+                                [
+                                    "Flower Blooming",
+                                    16
+                                ],
+                                [
+                                    "Raindrops",
+                                    17
+                                ],
+                                [
+                                    "Jellybean Raindrops",
+                                    18
+                                ],
+                                [
+                                    "Hue Breathing",
+                                    19
+                                ],
+                                [
+                                    "Hue Pendulum",
+                                    20
+                                ],
+                                [
+                                    "Hue Wave",
+                                    21
+                                ],
+                                [
+                                    "Pixel Rain",
+                                    22
+                                ],
+                                [
+                                    "Pixel Flow",
+                                    23
+                                ],
+                                [
+                                    "Pixel Fractal",
+                                    24
+                                ],
+                                [
+                                    "Typing Heatmap",
+                                    25
+                                ],
+                                [
+                                    "Digital Rain",
+                                    26
+                                ],
+                                [
+                                    "Solid Reactive Simple",
+                                    27
+                                ],
+                                [
+                                    "Solid Reactive",
+                                    28
+                                ],
+                                [
+                                    "Solid Reactive Wide",
+                                    29
+                                ],
+                                [
+                                    "Solid Reactive Multi Wide",
+                                    30
+                                ],
+                                [
+                                    "Solid Reactive Cross",
+                                    31
+                                ],
+                                [
+                                    "Solid Reactive Multi Cross",
+                                    32
+                                ],
+                                [
+                                    "Solid Reactive Nexus",
+                                    33
+                                ],
+                                [
+                                    "Solid Reactive Multi Nexus",
+                                    34
+                                ],
+                                [
+                                    "Splash",
+                                    35
+                                ],
+                                [
+                                    "Solid Splash",
+                                    36
+                                ],
+                                [
+                                    "Solid Multi Splash",
+                                    37
+                                ],
+                                [
+                                    "Starlight",
+                                    38
+                                ],
+                                [
+                                    "Starlight Dual Sat.",
+                                    39
+                                ],
+                                [
+                                    "Starlight Dual Hue.",
+                                    40
+                                ],
+                                [
+                                    "Riverflow",
+                                    41
+                                ]
+                            ]
+                        },
+                        {
+                            "showIf": "{id_qmk_rgb_matrix_effect} != 0",
+                            "label": "Effect Speed",
+                            "type": "range",
+                            "options": [
+                                0,
+                                255
+                            ],
+                            "content": [
+                                "id_qmk_rgb_matrix_effect_speed",
+                                3,
+                                3
+                            ]
+                        },
+                        {
+                            "showIf": "{id_qmk_rgb_matrix_effect} != 0",
+                            "label": "Color",
+                            "type": "color",
+                            "content": [
+                                "id_qmk_rgb_matrix_color",
+                                3,
+                                4
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
     ],
     "layouts": {
         "keymap": [
