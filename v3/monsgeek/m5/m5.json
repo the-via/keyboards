@@ -43,76 +43,180 @@
                   0
                 ],
                 [
-                  "SOLID_COLOR",
+                  "Solid Color",
                   1
                 ],
                 [
-                  "BREATHING",
+                  "Alphas Mods",
                   2
                 ],
                 [
-                  "CYCLE_ALL",
+                  "Gradient Up/Down",
                   3
                 ],
                 [
-                  "CYCLE_LEFT_RIGHT",
+                  "Gradient Left/Right",
                   4
                 ],
                 [
-                  "CYCLE_UP_DOWN",
+                  "Breathing",
                   5
                 ],
                 [
-                  "RAINBOW_MOVING_CHEVRON",
+                  "Band Sat.",
                   6
                 ],
                 [
-                  "CYCLE_OUT_IN",
+                  "Band Val.",
                   7
                 ],
                 [
-                  "CYCLE_OUT_IN_DUAL",
+                  "Pinwheel Sat.",
                   8
                 ],
                 [
-                  "CYCLE_PINWHEEL",
+                  "Pinwheel Val.",
                   9
                 ],
                 [
-                  "CYCKE_SPIRAL",
+                  "Spiral Sat.",
                   10
                 ],
                 [
-                  "DUAL_BEACON",
+                  "Spiral Val.",
                   11
                 ],
                 [
-                  "RAINBOW_BEACON",
+                  "Cycle All",
                   12
                 ],
                 [
-                  "RAINDROPS",
+                  "Cycle Left/Right",
                   13
                 ],
                 [
-                  "TYPING_HEATMAP",
+                  "Cycle Up/Down",
                   14
                 ],
                 [
-                  "SOLID_REACTIVE_SIMPLE",
+                  "Rainbow Moving Chevron",
                   15
                 ],
                 [
-                  "SOLID_REACTIVE",
+                  "Cycle Out/In",
                   16
                 ],
                 [
-                  "SOLID_REACTIVE_NEXUS",
+                  "Cycle Out/In Dual",
                   17
                 ],
                 [
-                  "MATRIX_MULTISPLASH",
+                  "Cycle Pinwheel",
                   18
+                ],
+                [
+                  "Cycle Spiral",
+                  19
+                ],
+                [
+                  "Dual Beacon",
+                  20
+                ],
+                [
+                  "Rainbow Beacon",
+                  21
+                ],
+                [
+                  "Rainbow Pinwheels",
+                  22
+                ],
+                [
+                  "Raindrops",
+                  23
+                ],
+                [
+                  "Jellybean Raindrops",
+                  24
+                ],
+                [
+                  "Hue Breathing",
+                  25
+                ],
+                [
+                  "Hue Pendulum",
+                  26
+                ],
+                [
+                  "Hue Wave",
+                  27
+                ],
+                [
+                  "Pixel Rain",
+                  28
+                ],
+                [
+                  "Pixel Flow",
+                  29
+                ],
+                [
+                  "Pixel Fractal",
+                  30
+                ],
+                [
+                  "Typing Heatmap",
+                  31
+                ],
+                [
+                  "Digital Rain",
+                  32
+                ],
+                [
+                  "Solid Reactive Simple",
+                  33
+                ],
+                [
+                  "Solid Reactive",
+                  34
+                ],
+                [
+                  "Solid Reactive Wide",
+                  35
+                ],
+                [
+                  "Solid Reactive Multi Wide",
+                  36
+                ],
+                [
+                  "Solid Reactive Cross",
+                  37
+                ],
+                [
+                  "Solid Reactive Multi Cross",
+                  38
+                ],
+                [
+                  "Solid Reactive Nexus",
+                  39
+                ],
+                [
+                  "Solid Reactive Multi Nexus",
+                  40
+                ],
+                [
+                  "Splash",
+                  41
+                ],
+                [
+                  "Multi Splash",
+                  42
+                ],
+                [
+                  "Solid Splash",
+                  43
+                ],
+                [
+                  "Solid Multi Splash",
+                  44
                 ]
               ]
             },
