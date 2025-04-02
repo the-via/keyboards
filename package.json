@@ -1,7 +1,7 @@
 {
   "name": "via-keyboards",
   "version": "0.1.0",
-  "description": "",
+  "description": "Repository to hold keyboard definitions",
   "bin": {
     "via-keyboards": "./bin/cli.js"
   },
