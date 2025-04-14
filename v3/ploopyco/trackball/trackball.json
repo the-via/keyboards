@@ -4,7 +4,7 @@
   "productId": "0x5442",
   "matrix": {
     "rows": 1,
-    "cols": 6
+    "cols": 5
   },
   "customKeycodes": [
     {
