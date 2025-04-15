@@ -4,7 +4,7 @@
   "productId": "0x1EAB",
   "matrix": {
     "rows": 1,
-    "cols": 6
+    "cols": 5
   },
   "customKeycodes": [
     {
