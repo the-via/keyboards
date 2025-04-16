@@ -6,23 +6,14 @@
     "rows": 6,
     "cols": 17
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgb_matrix"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_rgb_matrix"],
   "layouts": {
     "labels": [
       "Split Backspace",
       "Split Right Shift",
       "Numpad Blocker",
-      [
-        "Bottom Row",
-        "6.25U",
-        "7U",
-        "WKL"
-      ]
+      ["Bottom Row", "6.25U", "7U", "WKL"]
     ],
     "keymap": [
       [
@@ -332,4 +323,3 @@
     ]
   }
 }
-

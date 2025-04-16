@@ -7,9 +7,7 @@
     "cols": 16
   },
   "layouts": {
-    "labels": [
-      "ISO Enter"
-    ],
+    "labels": ["ISO Enter"],
     "keymap": [
       [
         {
@@ -275,4 +273,3 @@
     ]
   }
 }
-

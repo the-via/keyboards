@@ -12,11 +12,7 @@
       "ISO Enter",
       "Split Left Shift",
       "Split Right Shift",
-      [
-        "Bottom Row",
-        "Regular 6.25U",
-        "Tsangan 7U"
-      ]
+      ["Bottom Row", "Regular 6.25U", "Tsangan 7U"]
     ],
     "keymap": [
       [
@@ -230,4 +226,3 @@
     ]
   }
 }
-

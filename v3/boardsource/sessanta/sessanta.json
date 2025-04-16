@@ -6,20 +6,10 @@
     "rows": 8,
     "cols": 9
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgb_matrix"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_rgb_matrix"],
   "layouts": {
-    "labels": [
-      [
-        "Bottom Row",
-        "ANSI",
-        "Split"
-      ]
-    ],
+    "labels": [["Bottom Row", "ANSI", "Split"]],
     "keymap": [
       [
         {
@@ -182,4 +172,3 @@
     ]
   }
 }
-
