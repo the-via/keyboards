@@ -6,12 +6,8 @@
     "rows": 10,
     "cols": 6
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgb_matrix"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_rgb_matrix"],
   "layouts": {
     "labels": [
       "Left Thumb Encoder",
@@ -332,4 +328,3 @@
     ]
   }
 }
-

@@ -1,0 +1,147 @@
+{
+  "name": "EC Je-BAE-Ted",
+  "vendorId": "0x6369",
+  "productId": "0x6BBA",
+  "matrix": {
+    "rows": 2,
+    "cols": 1
+  },
+  "menus": [
+    {
+      "label": "EC Tools",
+      "content": [
+        {
+          "label": "Actuation",
+          "content": [
+            {
+              "label": "Mode",
+              "type": "dropdown",
+              "options": ["APC", "Rapid Trigger"],
+              "content": ["id_actuation_mode", 0, 1]
+            },
+            {
+              "showIf": "{id_actuation_mode} == 0",
+              "content": [
+                {
+                  "label": "Actuation Level (0% | 100%)",
+                  "type": "range",
+                  "options": [1, 1023],
+                  "content": ["id_mode_0_actuation_threshold", 0, 2]
+                },
+                {
+                  "label": "Release Level (0% | 100%, ALWAYS < Actuation Level)",
+                  "type": "range",
+                  "options": [1, 1023],
+                  "content": ["id_mode_0_release_threshold", 0, 3]
+                },
+                {
+                  "label": "Apply & save changes",
+                  "type": "button",
+                  "options": [0],
+                  "content": ["id_save_threshold_data", 0, 4]
+                }
+              ]
+            },
+            {
+              "showIf": "{id_actuation_mode} == 1",
+              "content": [
+                {
+                  "label": "Initial Deadzone Offset (0% | 100%)",
+                  "type": "range",
+                  "options": [1, 1023],
+                  "content": ["id_mode_1_initial_deadzone_offset", 0, 5]
+                },
+                {
+                  "label": "Actuation Offset (1-255)",
+                  "type": "range",
+                  "options": [1, 255],
+                  "content": ["id_mode_1_actuation_offset", 0, 6]
+                },
+                {
+                  "label": "Release Offset (1-255)",
+                  "type": "range",
+                  "options": [1, 255],
+                  "content": ["id_mode_1_release_offset", 0, 7]
+                },
+                {
+                  "label": "Apply & save changes",
+                  "type": "button",
+                  "options": [1],
+                  "content": ["id_save_threshold_data", 0, 4]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Calibration",
+          "content": [
+            {
+              "label": "Bottoming Calibration",
+              "type": "toggle",
+              "content": ["id_bottoming_calibration", 0, 8]
+            },
+            {
+              "label": "Noise Floor Calibration (DO NOT PRESS ANY KEY WHILE CLICKING)",
+              "type": "button",
+              "options": [0],
+              "content": ["id_noise_floor_calibration", 0, 9]
+            },
+            {
+              "label": "Show Calibration Data",
+              "type": "button",
+              "options": [0],
+              "content": ["id_show_calibration_data", 0, 10]
+            },
+            {
+              "label": "Clear Bottoming Calibration Data",
+              "type": "button",
+              "options": [0],
+              "content": ["id_clear_bottoming_calibration_data", 0, 11]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "layouts": {
+    "labels": [["Layout", "BAE/ANSI", "ISO", "Simon"]],
+    "keymap": [
+      [
+        {
+          "x": 0.75,
+          "w": 1.5
+        },
+        "0,0\n\n\n0,0",
+        {
+          "x": 1.25,
+          "w": 1.25,
+          "h": 2,
+          "w2": 1.5,
+          "h2": 1,
+          "x2": -0.25
+        },
+        "0,0\n\n\n0,1",
+        {
+          "x": 1.38,
+          "h": 2
+        },
+        "0,0\n\n\n0,2"
+      ],
+      [
+        {
+          "w": 2.25
+        },
+        "1,0\n\n\n0,0",
+        {
+          "x": 0.25
+        },
+        "1,0\n\n\n0,1",
+        {
+          "x": 1.5
+        },
+        "1,0\n\n\n0,2"
+      ]
+    ]
+  }
+}
