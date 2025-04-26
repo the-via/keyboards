@@ -6,6 +6,8 @@
     "rows": 8,
     "cols": 6
   },
+  "menus": [ "qmk_rgblight" ],
+  "keycodes": [ "qmk_lighting" ],
   "layouts": {
     "keymap": [
       [
