@@ -1,0 +1,507 @@
+{
+    "name": "VKR-94",
+    "vendorId": "0x5644",
+    "productId": "0x3934",
+    "keycodes": [ "qmk_lighting" ],
+    "matrix": {
+      "rows": 9,
+      "cols": 9
+    },
+    "menus": [
+        {
+            "label": "Lighting",
+            "content": [
+                {
+                    "label": "Vibe Lighting",
+                    "content": [
+                        {
+                            "label": "Brightness",
+                            "type": "range",
+                            "options": [0, 150],
+                            "content": ["id_qmk_rgb_matrix_brightness", 3, 1]
+                        },
+                        {
+                            "label": "Effect",
+                            "type": "dropdown",
+                            "content": ["id_qmk_rgb_matrix_effect", 3, 2],
+                            "options": [
+                                "All Off",
+                                "Solid Color",
+                                "Breathing",
+                                "Spiral Sat.",
+                                "Spiral Val.",
+                                "Cycle All",
+                                "Cycle Left/Right",
+                                "Cycle Up/Down",
+                                "Rainbow Moving Chevron",
+                                "Cycle Out/In",
+                                "Cycle Out/In Dual",
+                                "Cycle Pinwheel",
+                                "Cycle Spiral",
+                                "Dual Beacon",
+                                "Rainbow Beacon",
+                                "Rainbow Pinwheels",
+                                "Raindrops",
+                                "Jellybean Raindrops",
+                                "Hue Breathing",
+                                "Hue Pendulum",
+                                "Hue Wave",
+                                "Pixel Rain",
+                                "Pixel Flow",
+                                "Pixel Fractal",
+                                "Typing Heatmap",
+                                "Digital Rain",
+                                "Splash",
+                                "Multi Splash",
+                                "Solid Splash",
+                                "Solid Multi Splash"
+                            ]
+                        },
+                        {
+                            "showIf": "{id_qmk_rgb_matrix_effect} >= 2",
+                            "label": "Effect Speed",
+                            "type": "range",
+                            "options": [0, 255],
+                            "content": ["id_qmk_rgb_matrix_effect_speed", 3, 3]
+                        },
+                        {
+                            "showIf": "{id_qmk_rgb_matrix_effect} != 0 && {id_qmk_rgb_matrix_effect} != 17 && {id_qmk_rgb_matrix_effect} != 21 && {id_qmk_rgb_matrix_effect} != 22 && {id_qmk_rgb_matrix_effect} != 25",
+                            "label": "Color",
+                            "type": "color",
+                            "content": ["id_qmk_rgb_matrix_color", 3, 4]
+                        },
+                        {
+                            "label": "Enable Top Bar Resting Color",
+                            "type": "toggle",
+                            "content": ["id_top_rest", 0, 1]
+                        },
+                        {
+                            "showIf": "{id_top_rest} != 0",
+                            "label": "Top Bar Resting Brightness",
+                            "type": "range",
+                            "options": [0, 150],
+                            "content": ["id_top_rest_brightness", 0, 2]
+                        },
+                        {
+                            "showIf": "{id_top_rest} != 0",
+                            "label": "Top Bar Resting Color",
+                            "type": "color",
+                            "content": ["id_top_rest_color", 0, 3]
+                        },
+                        {
+                            "label": "Enable Middle Bar Resting Color",
+                            "type": "toggle",
+                            "content": ["id_mid_rest", 0, 4]
+                        },
+                        {
+                            "showIf": "{id_mid_rest} != 0",
+                            "label": "Middle Bar Resting Brightness",
+                            "type": "range",
+                            "options": [0, 150],
+                            "content": ["id_mid_rest_brightness", 0, 5]
+                        },
+                        {
+                            "showIf": "{id_mid_rest} != 0",
+                            "label": "Middle Bar Resting Color",
+                            "type": "color",
+                            "content": ["id_mid_rest_color", 0, 6]
+                        },
+                        {
+                            "label": "Enable Bottom Bar Resting Color",
+                            "type": "toggle",
+                            "content": ["id_btm_rest", 0, 7]
+                        },
+                        {
+                            "showIf": "{id_btm_rest} != 0",
+                            "label": "Bottom Bar Resting Brightness",
+                            "type": "range",
+                            "options": [0, 150],
+                            "content": ["id_btm_rest_brightness", 0, 8]
+                        },
+                        {
+                            "showIf": "{id_btm_rest} != 0",
+                            "label": "Bottom Bar Resting Color",
+                            "type": "color",
+                            "content": ["id_btm_rest_color", 0, 9]
+                        }
+                    ]
+                },
+                {
+                    "label": "Top Indicator Bar",
+                    "content": [
+                        {
+                            "label": "Indicator",
+                            "type": "dropdown",
+                            "options": [
+                                ["Caps Lock", 0]
+                            ],
+                            "content": ["id_top_choice", 0, 10]
+                        },
+                        {
+                            "label": "Indicator Brightness",
+                            "type": "range",
+                            "options": [0, 150],
+                            "content": ["id_top_brightness", 0, 11]
+                        },
+                        {
+                            "label": "Indicator Color",
+                            "type": "color",
+                            "content": ["id_top_color", 0, 12]
+                        },
+                        {
+                            "label": "Enable Dual Indicator Color",
+                            "type": "toggle",
+                            "content": ["id_top_dual", 0, 13]
+                        },
+                        {
+                            "showIf": "{id_top_dual} != 0",
+                            "label": "Indicator Color 2",
+                            "type": "color",
+                            "content": ["id_top_color_2", 0, 14]
+                        }
+                    ]
+                },
+                {
+                    "label": "Middle Indicator Bar",
+                    "content": [
+                        {
+                            "label": "Indicator",
+                            "type": "dropdown",
+                            "options": [
+                                ["Scroll Lock", 0],
+                                ["Layer 1", 1]
+                            ],
+                            "content": ["id_mid_choice", 0, 15]
+                        },
+                        {
+                            "label": "Indicator Brightness",
+                            "type": "range",
+                            "options": [0, 150],
+                            "content": ["id_mid_brightness", 0, 16]
+                        },
+                        {
+                            "label": "Indicator Color",
+                            "type": "color",
+                            "content": ["id_mid_color", 0, 17]
+                        },
+                        {
+                            "label": "Enable Dual Indicator Color",
+                            "type": "toggle",
+                            "content": ["id_mid_dual", 0, 18]
+                        },
+                        {
+                            "showIf": "{id_mid_dual} != 0",
+                            "label": "Indicator Color 2",
+                            "type": "color",
+                            "content": ["id_mid_color_2", 0, 19]
+                        }
+                    ]
+                },
+                {
+                    "label": "Bottom Indicator Bar",
+                    "content": [
+                        {
+                            "showIf": "{id_mid_choice} != 1",
+                            "label": "Layer 1 Indicator Brightness",
+                            "type": "range",
+                            "options": [0, 150],
+                            "content": ["id_btm_1_brightness", 0, 20]
+                        },
+                        {
+                            "showIf": "{id_mid_choice} != 1",
+                            "label": "Layer 1 Indicator Color",
+                            "type": "color",
+                            "content": ["id_btm_1_color", 0, 21]
+                        },
+                        {
+                            "showIf": "{id_mid_choice} != 1",
+                            "label": "Enable Dual Layer 1 Indicator Color",
+                            "type": "toggle",
+                            "content": ["id_btm_1_dual", 0, 22]
+                        },
+                        {
+                            "showIf": "{id_btm_1_dual} != 0 && {id_mid_choice} != 1",
+                            "label": "Layer 1 Indicator Color 2",
+                            "type": "color",
+                            "content": ["id_btm_1_color_2", 0, 23]
+                        },
+                        {
+                            "label": "Layer 2 Indicator Brightness",
+                            "type": "range",
+                            "options": [0, 150],
+                            "content": ["id_btm_2_brightness", 0, 24]
+                        },
+                        {
+                            "label": "Layer 2 Indicator Color",
+                            "type": "color",
+                            "content": ["id_btm_2_color", 0, 25]
+                        },
+                        {
+                            "label": "Enable Dual Layer 2 Indicator Color",
+                            "type": "toggle",
+                            "content": ["id_btm_2_dual", 0, 26]
+                        },
+                        {
+                            "showIf": "{id_btm_2_dual} != 0",
+                            "label": "Layer 2 Indicator Color 2",
+                            "type": "color",
+                            "content": ["id_btm_2_color_2", 0, 27]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "layouts": {
+        "labels": [
+            ["Backspace", "Split", "2U"],
+            ["Enter", "ANSI", "ISO"],
+            ["Right Shift", "1.25U - 1U", "2.25U", "1U - 1.25U"],
+            ["Bottom Row", "7U", "9U", "10U"],
+            "Left Macro 2U",
+            "Right Macro 2U"
+        ],
+        "keymap": [
+            [
+                {
+                    "c":"#aaaaaa"
+                },
+                "0,0",
+                {
+                    "x":0.5,
+                    "c":"#777777"
+                },
+                "1,0",
+                {
+                    "c":"#cccccc"
+                },
+                "0,1",
+                "1,1",
+                "0,2",
+                "1,2",
+                "0,3",
+                "1,3",
+                "0,4",
+                "1,4",
+                "0,5",
+                "1,5",
+                "0,6",
+                "1,6",
+                "0,7\n\n\n0,0",
+                {
+                    "c":"#aaaaaa"
+                },
+                "1,7\n\n\n0,0",
+                {
+                    "x":0.5
+                },
+                "0,8",
+                {
+                    "x":0.75,
+                    "w":2
+                },
+                "1,7\n\n\n0,1"
+            ],
+            [
+                "2,0",
+                {
+                    "x":0.5,
+                    "w":1.5
+                },
+                "3,0",
+                {
+                    "c":"#cccccc"
+                },
+                "2,1",
+                "3,1",
+                "2,2",
+                "3,2",
+                "2,3",
+                "3,3",
+                "2,4",
+                "3,4",
+                "2,5",
+                "3,5",
+                "2,6",
+                "3,6",
+                {
+                    "c":"#aaaaaa",
+                    "w":1.5
+                },
+                "3,7\n\n\n1,0",
+                {
+                    "x":0.5
+                },
+                "2,8",
+                {
+                    "x":1.5,
+                    "c":"#777777",
+                    "w":1.25,
+                    "h":2,
+                    "w2":1.5,
+                    "h2":1,
+                    "x2":-0.25
+                },
+                "5,7\n\n\n1,1"
+            ],
+            [
+                {
+                    "c":"#aaaaaa"
+                },
+                "4,0\n\n\n4,0",
+                {
+                    "x":0.5,
+                    "w":1.75
+                },
+                "5,0",
+                {
+                    "c":"#cccccc"
+                },
+                "4,1",
+                "5,1",
+                "4,2",
+                {
+                    "n":true
+                },
+                "5,2",
+                "4,3",
+                "5,3",
+                {
+                    "n":true
+                },
+                "4,4",
+                "5,4",
+                "4,5",
+                "5,5",
+                "4,6",
+                {
+                    "c":"#777777",
+                    "w":2.25
+                },
+                "5,7\n\n\n1,0",
+                {
+                    "x":0.5,
+                    "c":"#aaaaaa"
+                },
+                "4,8\n\n\n5,0",
+                {
+                    "x":0.5,
+                    "c":"#cccccc"
+                },
+                "5,6\n\n\n1,1"
+            ],
+            [
+                {
+                    "c":"#aaaaaa"
+                },
+                "6,0\n\n\n4,0",
+                {
+                    "x":1,
+                    "w":1.75
+                },
+                "7,0",
+                {
+                    "c":"#cccccc"
+                },
+                "6,1",
+                "7,1",
+                "6,2",
+                "7,2",
+                "6,3",
+                "7,3",
+                "6,4",
+                "7,4",
+                "6,5",
+                "7,5",
+                {
+                    "c":"#aaaaaa",
+                    "w":1.25
+                },
+                "6,6\n\n\n2,0",
+                "7,7\n\n\n2,0",
+                {
+                    "x":1
+                },
+                "6,8\n\n\n5,0",
+                {
+                    "x":0.5,
+                    "w":2.25
+                },
+                "6,6\n\n\n2,1",
+                {
+                    "x":0.25
+                },
+                "6,6\n\n\n2,2",
+                {
+                    "w":1.25
+                },
+                "7,7\n\n\n2,2"
+            ],
+            [
+                {
+                    "x":3
+                },
+                "8,0\n\n\n3,0",
+                {
+                    "w":1.5
+                },
+                "8,1\n\n\n3,0",
+                {
+                    "c":"#777777",
+                    "w":7
+                },
+                "8,3\n\n\n3,0",
+                {
+                    "c":"#aaaaaa",
+                    "w":1.5
+                },
+                "8,5\n\n\n3,0",
+                "8,6\n\n\n3,0"
+            ],
+            [
+                {
+                    "y":-0.5,
+                    "h":2
+                },
+                "6,0\n\n\n4,1",
+                {
+                    "x":16,
+                    "h":2
+                },
+                "6,8\n\n\n5,1"
+            ],
+            [
+                {
+                    "x":3,
+                    "w":1.5
+                },
+                "8,0\n\n\n3,1",
+                {
+                    "c":"#777777",
+                    "w":9
+                },
+                "8,3\n\n\n3,1",
+                {
+                    "c":"#aaaaaa",
+                    "w":1.5
+                },
+                "8,6\n\n\n3,1"
+            ],
+            [
+                {
+                    "x":3
+                },
+                "8,0\n\n\n3,2",
+                {
+                    "c":"#777777",
+                    "w":10
+                },
+                "8,3\n\n\n3,2",
+                {
+                    "c":"#aaaaaa"
+                },
+                "8,6\n\n\n3,2"
+            ]
+        ]
+    }
+}
