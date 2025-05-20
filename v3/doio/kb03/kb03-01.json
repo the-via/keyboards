@@ -1,0 +1,44 @@
+{
+  "name": "KB03-01",
+  "vendorId": "0xD010",
+  "productId": "0x0301",
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_rgb_matrix" ],
+  "matrix": {"rows": 1, "cols": 5},
+  "layouts": {
+    "keymap": [
+      [
+        {
+          "x": 0.25,
+          "c": "#aaaaaa"
+        },
+        "0,3"
+      ],
+      [
+        {
+          "y": 0.5,
+          "c": "#cccccc"
+        },
+        "0,0",
+        "0,1",
+        "0,2"
+      ],
+      [
+        {
+          "y": 0.25,
+          "x": 1
+        },
+        "0,4\n\n\n\n\n\n\n\n\ne0"
+      ],
+      [
+        {
+          "x": 0.5,
+          "a": 7,
+          "w": 2,
+          "h": 2
+        },
+        "e1"
+      ]
+    ]
+  }
+}
