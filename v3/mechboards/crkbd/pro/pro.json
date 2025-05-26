@@ -3,7 +3,7 @@
   "vendorId": "0x7171",
   "productId": "0x0003",
   "matrix": {
-    "rows": 10,
+    "rows": 8,
     "cols": 6
   },
   "keycodes": ["qmk_lighting"],
