@@ -1,10 +1,17 @@
 {
   "name": "Cerberus HS",
-  "vendorId": "0xca04",
+  "vendorId": "0xCA04",
   "productId": "0x0034",
-  "keycodes": ["qmk_lighting"],
-  "menus": ["qmk_rgblight"],
-  "matrix": {"rows": 5, "cols": 18},
+  "matrix": {
+    "rows": 5,
+    "cols": 18
+  },
+  "keycodes": [
+    "qmk_lighting"
+  ],
+  "menus": [
+    "qmk_rgblight"
+  ],
   "layouts": {
     "labels": [
       "Backspace",
