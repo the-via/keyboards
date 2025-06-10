@@ -2,11 +2,11 @@
   "name": "Reverie HS",
   "vendorId": "0xCA04",
   "productId": "0x0033",
-  "menus": [],
   "matrix": {
     "rows": 5,
     "cols": 15
   },
+  "menus": [],
   "layouts": {
     "labels": [
       "Split Backspace",
