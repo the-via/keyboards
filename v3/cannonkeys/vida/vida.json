@@ -2,18 +2,22 @@
   "name": "Vida",
   "vendorId": "0xCA04",
   "productId": "0x0032",
-  "keycodes": ["qmk_lighting"],
-  "menus": ["qmk_backlight"],
   "matrix": {
     "rows": 5,
     "cols": 14
   },
+  "keycodes": [
+    "qmk_lighting"
+  ],
+  "menus": [
+    "qmk_backlight"
+  ],
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO Enter",
-      "Split L Shift",
-      "Split R Shift",
+      "Split Left Shift",
+      "Split Right Shift",
       [
         "Bottom Row",
         "6.25U",
