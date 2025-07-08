@@ -26,9 +26,8 @@
         "WKL",
         "HHKB"
       ],
-        "Split Space"
-      ,
-        "Full Right Shift"
+      "Split Space",
+      "Full Right Shift"
     ],
     "keymap": [
       [
@@ -150,10 +149,10 @@
         "3,12\n\n\n3,0",
         "3,13\n\n\n3,0",
         {
-        "x": 0.25,
-        "w": 2.75
-    },
-    "3,12\n\n\n3,1"
+          "x": 0.25,
+          "w": 2.75
+        },
+        "3,12\n\n\n3,1"
       ],
       [
         {
@@ -252,3 +251,4 @@
     ]
   }
 }
+
