@@ -2,12 +2,12 @@
   "name": "EE-AT",
   "vendorId": "0x8968",
   "productId": "0x5755",
-  "matrix": {"rows": 5, "cols": 20},
+  "matrix": {
+    "rows": 5,
+    "cols": 20
+  },
   "layouts": {
-    "labels": [
-      "Split Backspace",
-      "Split Right Shift"
-    ],
+    "labels": ["Split Backspace", "Split Right Shift"],
     "keymap": [
       [
         "0,0",

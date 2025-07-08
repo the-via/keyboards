@@ -1,0 +1,142 @@
+{
+  "name": "KB03-01",
+  "vendorId": "0xD010",
+  "productId": "0x0301",
+  "matrix": {
+    "rows": 1,
+    "cols": 5
+  },
+  "keycodes": [
+    "qmk_lighting"
+  ],
+  "menus": [
+    {
+      "label": "Lighting",
+      "content": [
+        {
+          "label": "Backlight",
+          "content": [
+            {
+              "label": "Brightness",
+              "type": "range",
+              "options": [
+                0,
+                255
+              ],
+              "content": [
+                "id_qmk_rgb_matrix_brightness",
+                3,
+                1
+              ]
+            },
+            {
+              "label": "Effect",
+              "type": "dropdown",
+              "content": [
+                "id_qmk_rgb_matrix_effect",
+                3,
+                2
+              ],
+              "options": [
+                "All Off",
+                "Solid Color",
+                "Gradient Up/Down",
+                "Gradient Left/Right",
+                "Breathing",
+                "Band Sat.",
+                "Band Val.",
+                "Pinwheel Sat.",
+                "Pinwheel Val.",
+                "Spiral Sat.",
+                "Spiral Val.",
+                "Cycle All",
+                "Cycle Left/Right",
+                "Cycle Up/Down",
+                "Rainbow Moving Chevron",
+                "Cycle Out/In",
+                "Cycle Out/In Dual",
+                "Cycle Pinwheel",
+                "Cycle Spiral",
+                "Dual Beacon",
+                "Rainbow Beacon",
+                "Rainbow Pinwheels",
+                "Raindrops",
+                "Jellybean Raindrops",
+                "Hue Breathing",
+                "Hue Wave",
+                "Solid Reactive Simple",
+                "Solid Reactive",
+                "Solid Reactive Wide",
+                "Solid Reactive Cross",
+                "Solid Reactive Nexus",
+                "Splash",
+                "Solid Splash"
+              ]
+            },
+            {
+              "showIf": "{id_qmk_rgb_matrix_effect} != 0",
+              "label": "Effect Speed",
+              "type": "range",
+              "options": [
+                0,
+                255
+              ],
+              "content": [
+                "id_qmk_rgb_matrix_effect_speed",
+                3,
+                3
+              ]
+            },
+            {
+              "showIf": "{id_qmk_rgb_matrix_effect} != 0 && {id_qmk_rgb_matrix_effect} != 24 && {id_qmk_rgb_matrix_effect} != 28 && {id_qmk_rgb_matrix_effect} != 29 && {id_qmk_rgb_matrix_effect} != 32",
+              "label": "Color",
+              "type": "color",
+              "content": [
+                "id_qmk_rgb_matrix_color",
+                3,
+                4
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "layouts": {
+    "keymap": [
+      [
+        {
+          "x": 0.25,
+          "c": "#aaaaaa"
+        },
+        "0,3"
+      ],
+      [
+        {
+          "y": 0.5,
+          "c": "#cccccc"
+        },
+        "0,0",
+        "0,1",
+        "0,2"
+      ],
+      [
+        {
+          "y": 0.25,
+          "x": 1
+        },
+        "0,4\n\n\n\n\n\n\n\n\ne0"
+      ],
+      [
+        {
+          "x": 0.5,
+          "a": 7,
+          "w": 2,
+          "h": 2
+        },
+        "e1"
+      ]
+    ]
+  }
+}
+
