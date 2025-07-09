@@ -22,10 +22,17 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      - name: Build
-        run: |
-          npm ci
-          npm run build
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run build
+        run: npm run build
+
+      - name: Run Prettier with reviewdog
+        uses: EPMatt/reviewdog-action-prettier@v1.2.0
+        with:
+          reporter: github-pr-review
+          prettier_flags: './{src,v3}/**/*.json'
 
       - uses: actions/upload-artifact@v4
         if: always()
