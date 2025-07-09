@@ -1,13 +1,16 @@
 {
+ "name": "Lil BAE",
   "vendorId": "0x5342",
   "productId": "0x0012",
-  "name": "Lil BAE",
-  "matrix": { "rows": 1, "cols": 4 },
+  "matrix": {
+     "rows": 1,
+     "cols": 4
+  },
   "layouts": {
         "labels": [
           ["Key Configuration","BAE","ANSI Enter","Split ANSI Enter","ISO"]
         ],
-        "keymap": 
+        "keymap":
         [
           [
             {
@@ -57,7 +60,7 @@
             "0,1\n\n\n0,2"
           ]
         ]
-        
+
 }
 
 }
