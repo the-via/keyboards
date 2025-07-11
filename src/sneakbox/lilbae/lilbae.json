@@ -6,6 +6,7 @@
      "rows": 1,
      "cols": 4
   },
+  "lighting": "none",
   "layouts": {
         "labels": [
           ["Key Configuration","BAE","ANSI Enter","Split ANSI Enter","ISO"]
