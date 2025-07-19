@@ -1,8 +1,7 @@
-
 {
   "name": "Starry FRL",
-  "vendorId": "0x5350",
-  "productId": "0x2674",
+  "vendorId": "0x534C",
+  "productId": "0x0A01",
   "keycodes": ["qmk_lighting"],
   "menus": ["qmk_rgblight"],
   "matrix": {"rows": 5, "cols": 19},
