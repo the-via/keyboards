@@ -2,16 +2,16 @@
   "name": "CSTC40",
   "vendorId": "0x586A",
   "productId": "0x0040",
+  "matrix": {
+    "rows": 4,
+    "cols": 12
+  },
   "keycodes": [
     "qmk_lighting"
   ],
   "menus": [
     "qmk_rgb_matrix"
   ],
-  "matrix": {
-    "rows": 4,
-    "cols": 12
-  },
   "layouts": {
     "keymap": [
       [
@@ -106,3 +106,4 @@
     ]
   }
 }
+
