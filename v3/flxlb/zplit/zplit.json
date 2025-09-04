@@ -6,17 +6,10 @@
     "rows": 8,
     "cols": 6
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgblight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_rgblight"],
   "layouts": {
-    "labels": [
-      "Left 2U",
-      "Right 2U"
-    ],
+    "labels": ["Left 2U", "Right 2U"],
     "keymap": [
       [
         {
@@ -138,4 +131,3 @@
     ]
   }
 }
-

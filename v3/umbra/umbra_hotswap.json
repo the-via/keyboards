@@ -6,26 +6,12 @@
     "rows": 5,
     "cols": 14
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgblight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_rgblight"],
   "layouts": {
     "labels": [
-      [
-        "Backspace",
-        "Unified",
-        "Split",
-        "Encoder"
-      ],
-      [
-        "Modifiers",
-        "WK",
-        "WKL",
-        "HHKB"
-      ],
+      ["Backspace", "Unified", "Split", "Encoder"],
+      ["Modifiers", "WK", "WKL", "HHKB"],
       "Split Space",
       "Full Right Shift"
     ],
@@ -251,4 +237,3 @@
     ]
   }
 }
-
