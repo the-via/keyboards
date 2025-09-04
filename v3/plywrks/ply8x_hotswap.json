@@ -6,17 +6,10 @@
     "rows": 6,
     "cols": 17
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgb_matrix"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_rgb_matrix"],
   "layouts": {
-    "labels": [
-      "Split Backspace",
-      "Split Right Shift"
-    ],
+    "labels": ["Split Backspace", "Split Right Shift"],
     "keymap": [
       [
         {
@@ -219,4 +212,3 @@
     ]
   }
 }
-

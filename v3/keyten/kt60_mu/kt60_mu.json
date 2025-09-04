@@ -6,22 +6,10 @@
     "rows": 5,
     "cols": 14
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_backlight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_backlight"],
   "layouts": {
-    "labels": [
-      "Split Backspace",
-      [
-        "Bottom Row",
-        "Tsangan",
-        "WKL",
-        "HHKB"
-      ]
-    ],
+    "labels": ["Split Backspace", ["Bottom Row", "Tsangan", "WKL", "HHKB"]],
     "keymap": [
       [
         {
@@ -225,4 +213,3 @@
     ]
   }
 }
-

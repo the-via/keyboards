@@ -6,12 +6,8 @@
     "rows": 5,
     "cols": 14
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgblight"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_rgblight"],
   "layouts": {
     "labels": [
       [
@@ -28,12 +24,7 @@
         "6.25U WK",
         "6.25U WK Split"
       ],
-      [
-        "Backspace",
-        "Unified",
-        "Split",
-        "Encoder"
-      ],
+      ["Backspace", "Unified", "Split", "Encoder"],
       "ISO Enter",
       "Split Left Shift",
       "Split Right Shift"
@@ -535,4 +526,3 @@
     ]
   }
 }
-
