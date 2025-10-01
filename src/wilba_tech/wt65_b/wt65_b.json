@@ -1,9 +1,12 @@
 {
-  "name": "WT65-B",
+  "name": "wilba.tech WT65-B",
   "vendorId": "0x6582",
   "productId": "0x065b",
+  "matrix": {
+    "rows": 5,
+    "cols": 15
+  },
   "lighting": "wt_mono_backlight",
-  "matrix": {"rows": 5, "cols": 15},
   "layouts": {
     "labels": [
       "Split Backspace"
@@ -142,13 +145,11 @@
         "4,2",
         {
           "c": "#cccccc",
-          "a": 7,
           "w": 7
         },
         "4,6",
         {
           "c": "#aaaaaa",
-          "a": 4,
           "w": 1.5
         },
         "4,11",

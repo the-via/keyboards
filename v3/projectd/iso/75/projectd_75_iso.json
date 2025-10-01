@@ -1,0 +1,291 @@
+{
+  "name": "ProjectD 75% ISO",
+  "vendorId": "0x3233",
+  "productId": "0x0011",
+  "matrix": {
+    "rows": 11,
+    "cols": 8
+  },
+  "customKeycodes": [
+    {
+      "name": "Mission Control",
+      "title": "Mission Control in macOS",
+      "shortName": "Mission Control"
+    },
+    {
+      "name": "Launch Pad",
+      "title": "Launch Pad in macOS",
+      "shortName": "Launch Pad"
+    },
+    {
+      "name": "Left Option",
+      "title": "Left Option in macOS",
+      "shortName": "Left Option"
+    },
+    {
+      "name": "Right Option",
+      "title": "Right Option in macOS",
+      "shortName": "Right Option"
+    },
+    {
+      "name": "Left Cmd",
+      "title": "Left Command in macOS",
+      "shortName": "Left Command"
+    },
+    {
+      "name": "Right Cmd",
+      "title": "Right Command in macOS",
+      "shortName": "Right Command"
+    },
+    {
+      "name": "Task View",
+      "title": "Task View in windows",
+      "shortName": "Task View"
+    },
+    {
+      "name": "File Explorer",
+      "title": "File Explorer in windows",
+      "shortName": "File Explorer"
+    }
+  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": [
+    {
+      "label": "Lighting",
+      "content": [
+        {
+          "label": "Lighting Effect",
+          "content": [
+            {
+              "label": "Brightness",
+              "type": "range",
+              "options": [0, 255],
+              "content": ["id_qmk_rgb_matrix_brightness", 3, 1]
+            },
+            {
+              "label": "Effect",
+              "type": "dropdown",
+              "content": ["id_qmk_rgb_matrix_effect", 3, 2],
+              "options": [
+                ["LED Off", 0],
+                ["SOLID_COLOR", 1],
+                ["ALPHAS_MODS", 2],
+                ["GRADIENT_UP_DOWN", 3],
+                ["GRADIENT_LEFT_RIGHT", 4],
+                ["BREATHING", 5],
+                ["BAND_SAT", 6],
+                ["BAND_VAL", 7],
+                ["BAND_PINWHEEL_SAT", 8],
+                ["BAND_PINWHEEL_VAL", 9],
+                ["BAND_SPIRAL_SAT", 10],
+                ["BAND_SPIRAL_VAL", 11],
+                ["CYCLE_ALL", 12],
+                ["CYCLE_LEFT_RIGHT", 13],
+                ["CYCLE_UP_DOWN", 14],
+                ["RAINBOW_MOVING_CHEVRON", 15],
+                ["CYCLE_OUT_IN", 16],
+                ["CYCLE_OUT_IN_DUAL", 17],
+                ["CYCLE_PINWHEEL", 18],
+                ["CYCLE_SPIRAL", 19],
+                ["DUAL_BEACON", 20],
+                ["RAINBOW_BEACON", 21],
+                ["RAINBOW_PINWHEELS", 22],
+                ["RAINDROPS", 23],
+                ["JELLYBEAN_RAINDROPS", 24],
+                ["HUE_BREATHING", 25]
+              ]
+            },
+            {
+              "showIf": "{id_qmk_rgb_matrix_effect} != 0",
+              "label": "Effect Speed",
+              "type": "range",
+              "options": [0, 255],
+              "content": ["id_qmk_rgb_matrix_effect_speed", 3, 3]
+            },
+            {
+              "showIf": "{id_qmk_rgb_matrix_effect} != 0 && {id_qmk_rgb_matrix_effect} != 24 && {id_qmk_rgb_matrix_effect} != 28 && {id_qmk_rgb_matrix_effect} != 29 && {id_qmk_rgb_matrix_effect} != 32",
+              "label": "Color",
+              "type": "color",
+              "content": ["id_qmk_rgb_matrix_color", 3, 4]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "layouts": {
+    "keymap": [
+      [
+        "1,3\nESC",
+        {
+          "x": 0.25,
+          "c": "#cccccc"
+        },
+        "2,6",
+        "3,6",
+        "3,1",
+        "3,3",
+        {
+          "x": 0.25
+        },
+        "0,7",
+        "6,3",
+        "7,1",
+        "7,6",
+        {
+          "x": 0.25
+        },
+        "10,6",
+        "10,7",
+        "10,3",
+        "10,5",
+        {
+          "x": 0.25
+        },
+        "9,7",
+        {
+          "x": 0.5
+        },
+        "6,5"
+      ],
+      [
+        {
+          "y": 0.25
+        },
+        "1,6",
+        "1,7",
+        "2,7",
+        "3,7",
+        "4,7",
+        "4,6",
+        "5,6",
+        "5,7",
+        "6,7",
+        "7,7",
+        "8,7",
+        "8,6",
+        "6,6",
+        {
+          "w": 2
+        },
+        "10,1",
+        {
+          "x": 0.5
+        },
+        "0,2"
+      ],
+      [
+        {
+          "w": 1.5
+        },
+        "1,1",
+        "1,0",
+        "2,0",
+        "3,0",
+        "4,0",
+        "4,1",
+        "5,1",
+        "5,0",
+        "6,0",
+        "7,0",
+        "8,0",
+        "8,1",
+        "6,1",
+        {
+          "x": 0.25,
+          "w": 1.25,
+          "h": 2,
+          "w2": 1.5,
+          "h2": 1,
+          "x2": -0.25
+        },
+        "10,4",
+        {
+          "x": 0.5
+        },
+        "1,5"
+      ],
+      [
+        {
+          "w": 1.75
+        },
+        "2,1",
+        "1,2",
+        "2,2",
+        "3,2",
+        "4,2",
+        "4,3",
+        "5,3",
+        "5,2",
+        "6,2",
+        "7,2",
+        "8,2",
+        "8,3",
+        "10,2",
+        {
+          "x": 1.75
+        },
+        "2,5"
+      ],
+      [
+        {
+          "w": 1.25
+        },
+        "0,0",
+        "0,1",
+        "1,4",
+        "2,4",
+        "3,4",
+        "4,4",
+        "4,5",
+        "5,5",
+        "5,4",
+        "6,4",
+        "7,4",
+        "8,5",
+        {
+          "w": 1.75
+        },
+        "9,1",
+        {
+          "x": 0.25,
+          "y": 0.25
+        },
+        "3,5",
+        {
+          "x": 0.25,
+          "y": -0.25
+        },
+        "7,5"
+      ],
+      [
+        {
+          "w": 1.25
+        },
+        "0,6",
+        {
+          "w": 1.25
+        },
+        "9,0",
+        {
+          "w": 1.25
+        },
+        "9,3",
+        {
+          "w": 6.25
+        },
+        "9,4",
+        "9,5",
+        "9,2",
+        "0,4",
+        {
+          "x": 0.25,
+          "y": 0.25
+        },
+        "0,3",
+        "7,3",
+        "0,5"
+      ]
+    ]
+  }
+}

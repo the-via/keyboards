@@ -1,13 +1,16 @@
 {
-  "name": "WT69-A",
+  "name": "wilba.tech WT69-A",
   "vendorId": "0x6582",
   "productId": "0x069a",
+  "matrix": {
+    "rows": 5,
+    "cols": 17
+  },
   "lighting": "none",
-  "matrix": {"rows": 5, "cols": 17},
   "layouts": {
     "labels": [
       "Split Backspace"
-    ],  
+    ],
     "keymap": [
       [
         {
@@ -162,13 +165,11 @@
         "4,4",
         {
           "c": "#cccccc",
-          "a": 7,
           "w": 7
         },
         "4,8",
         {
           "c": "#aaaaaa",
-          "a": 4,
           "w": 1.5
         },
         "4,13",

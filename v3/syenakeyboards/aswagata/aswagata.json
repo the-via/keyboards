@@ -1,0 +1,21 @@
+{
+  "name": "SyenaKeyboards Aswagata",
+  "vendorId": "0x5373",
+  "productId": "0x4173",
+  "matrix": {
+    "rows": 2,
+    "cols": 2
+  },
+  "layouts": {
+    "keymap": [
+      [
+        "0,0",
+        "0,1"
+      ],
+      [
+        "1,0",
+        "1,1"
+      ]
+    ]
+  }
+}

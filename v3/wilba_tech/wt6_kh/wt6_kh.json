@@ -1,0 +1,109 @@
+{
+  "name": "wilba.tech WT6-KH",
+  "vendorId": "0x6582",
+  "productId": "0x0043",
+  "matrix": {
+    "rows": 2,
+    "cols": 3
+  },
+  "keycodes": [
+    "qmk_lighting"
+  ],
+  "menus": [
+    {
+      "label": "Lighting",
+      "content": [
+        {
+          "label": "Backlight",
+          "content": [
+            {
+              "label": "Brightness",
+              "type": "range",
+              "options": [
+                0,
+                255
+              ],
+              "content": [
+                "id_qmk_rgb_matrix_brightness",
+                3,
+                1
+              ]
+            },
+            {
+              "label": "Effect",
+              "type": "dropdown",
+              "content": [
+                "id_qmk_rgb_matrix_effect",
+                3,
+                2
+              ],
+              "options": [
+                "All Off",
+                "Solid Color",
+                "Gradient Left/Right",
+                "Breathing",
+                "Cycle All",
+                "Cycle Left/Right",
+                "Cycle Out/In",
+                "Cycle Out/In Dual",
+                "Cycle Spiral",
+                "Raindrops",
+                "Jellybean Raindrops",
+                "Hue Breathing",
+                "Hue Pendulum",
+                "Hue Wave",
+                "Pixel Rain",
+                "Pixel Flow",
+                "Solid Reactive Simple",
+                "Solid Reactive",
+                "Solid Reactive Wide",
+                "Solid Reactive Cross",
+                "Solid Reactive Nexus",
+                "Splash",
+                "Solid Splash"
+              ]
+            },
+            {
+              "showIf": "{id_qmk_rgb_matrix_effect} != 0",
+              "label": "Effect Speed",
+              "type": "range",
+              "options": [
+                0,
+                255
+              ],
+              "content": [
+                "id_qmk_rgb_matrix_effect_speed",
+                3,
+                3
+              ]
+            },
+            {
+              "showIf": "{id_qmk_rgb_matrix_effect} != 0",
+              "label": "Color",
+              "type": "color",
+              "content": [
+                "id_qmk_rgb_matrix_color",
+                3,
+                4
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "layouts": {
+    "keymap": [
+      [
+        "0,0",
+        "0,1",
+        "0,2"
+      ],
+      [
+        "1,0",
+        "1,1",
+        "1,2"
+      ]
+    ]
+  }
+}
