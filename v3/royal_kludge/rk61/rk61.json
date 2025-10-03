@@ -1,0 +1,213 @@
+{
+  "name": "RK61",
+  "vendorId": "0x1480",
+  "productId": "0x6461",
+  "keycodes": ["qmk_lighting"],
+  "menus": [
+    {
+      "label": "Lighting",
+      "content": [
+        {
+          "label": "Backlight",
+          "content": [
+            {
+              "label": "Brightness",
+              "type": "range",
+              "options": [0, 255],
+              "content": ["id_qmk_rgb_matrix_brightness", 3, 1]
+            },
+            {
+              "label": "Effect",
+              "type": "dropdown",
+              "content": ["id_qmk_rgb_matrix_effect", 3, 2],
+              "options": [
+                ["None", 0],
+                ["SOLID_COLOR", 1],
+				["ALPHAS", 2],
+                ["GRADIENT_UP_DOWN", 3],
+                ["GRADIENT_LEFT_RIGHT", 4],
+                ["BREATHING", 5],
+                ["BAND_SAT", 6],
+                ["BAND_VAL", 7],
+                ["BAND_PINWHEEL_SAT", 8],
+                ["BAND_PINWHEEL_VAL", 9],
+                ["BAND_SPIRAL_SAT", 10],
+                ["BAND_SPIRAL_VAL", 11],
+                ["CYCLE_ALL", 12],
+                ["CYCLE_LEFT_RIGHT", 13],
+                ["CYCLE_UP_DOWN", 14],
+                ["RAINBOW_MOVING_CHEVRON", 15],
+                ["CYCLE_OUT_IN", 16],
+                ["CYCLE_OUT_IN_DUAL", 17],
+                ["CYCLE_PINWHEEL", 18],
+                ["CYCLE_SPIRAL", 19],
+                ["DUAL_BEACON", 20],
+                ["RAINBOW_BEACON", 21],
+                ["RAINBOW_PINWHEELS", 22],
+                ["RAINDROPS", 23],
+                ["JELLYBEAN_RAINDROPS", 24],
+                ["HUE_BREATHING", 25],
+                ["HUE_PENDULUM", 26],
+                ["HUE_WAVE", 27],
+                ["PIXEL_RAIN", 28],
+                ["PIXEL_FLOW", 29],
+                ["PIXEL_FRACTAL", 30],
+                ["TYPING_HEATMAP", 31],
+                ["DIGITAL_RAIN", 32],
+                ["SOLID_REACTIVE_SIMPLE", 33],
+                ["SOLID_REACTIVE", 34],
+                ["SOLID_REACTIVE_WIDE", 35],
+                ["SOLID_REACTIVE_MULTIWIDE", 36],
+                ["SOLID_REACTIVE_CROSS", 37],
+                ["SOLID_REACTIVE_MULTICROSS", 38],
+                ["SOLID_REACTIVE_NEXUS", 39],
+                ["SOLID_REACTIVE_MULTINEXUS", 40],
+                ["SPLASH", 41],
+                ["MULTISPLASH", 42],
+                ["SOLID_SPLASH", 43],
+                ["SOLID_MULTISPLASH", 44]
+              ]
+            },
+            {
+              "showIf": "{id_qmk_rgb_matrix_effect} > 1",
+              "label": "Effect Speed",
+              "type": "range",
+              "options": [0, 255],
+              "content": ["id_qmk_rgb_matrix_effect_speed", 3, 3]
+            },
+            {
+              "showIf": "{id_qmk_rgb_matrix_effect} != 0",
+              "label": "Color",
+              "type": "color",
+              "content": ["id_qmk_rgb_matrix_color", 3, 4]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "matrix": {"rows": 5, "cols": 14},
+  "layouts": {
+    "keymap": [
+      [
+        {
+          "c": "#FFFFFF"
+        },
+        "0,0\nESC",
+        "0,1",
+        "0,2",
+        "0,3",
+        "0,4",
+        "0,5",
+        "0,6",
+        "0,7",
+        "0,8",
+        "0,9",
+        "0,10",
+        "0,11",
+        "0,12",
+        {
+          "w": 2
+        },
+        "0,13"
+      ],
+      [
+        {
+          "w": 1.5
+        },
+        "1,0",
+        "1,1",
+        "1,2",
+        "1,3",
+        "1,4",
+        "1,5",
+        "1,6",
+        "1,7",
+        "1,8",
+        "1,9",
+        "1,10",
+        "1,11",
+        "1,12",
+        {
+          "w": 1.5
+        },
+        "1,13"
+      ],
+      [
+        {
+          "w": 1.75
+        },
+        "2,0",
+        "2,1",
+        "2,2",
+        "2,3",
+        "2,4",
+        "2,5",
+        "2,6",
+        "2,7",
+        "2,8",
+        "2,9",
+        "2,10",
+        "2,11",
+        {
+          "w": 2.25
+        },
+        "2,12"
+      ],
+      [
+        {
+          "w": 2.25
+        },
+        "3,0",
+		"3,1",
+        "3,2",
+        "3,3",
+        "3,4",
+        "3,5",
+        "3,6",
+        "3,7",
+        "3,8",
+        "3,9",
+        "3,10",
+        {
+          "w": 2.75
+        },
+        "3,11"
+      ],
+      [
+        {
+          "w": 1.25
+        },
+        "4,0",
+        {
+          "w": 1.25
+        },
+        "4,1",
+        {
+          "w": 1.25
+        },
+        "4,2",
+        {
+          "w": 6.25
+        },
+        "4,5",
+        {
+          "w": 1.25
+        },
+        "4,8",
+        {
+          "w": 1.25
+        },
+        "4,9",
+        {
+          "w": 1.25
+        },
+        "4,10",
+        {
+          "w": 1.25
+        },
+        "4,12"
+      ]
+    ]
+  }
+}
