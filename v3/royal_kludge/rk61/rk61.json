@@ -48,6 +48,7 @@
                 "Dual Beacon",
                 "Rainbow Beacon",
                 "Rainbow Pinwheels",
+                "Flower Blooming",
                 "Raindrops",
                 "Jellybean Raindrops",
                 "Hue Breathing",
@@ -69,7 +70,12 @@
                 "Splash",
                 "Multi Splash",
                 "Solid Splash",
-                "Solid Multi Splash"
+                "Solid Multi Splash",
+                "Starlight",
+                "Starlight Smooth",
+                "Starlight Dual Hue",
+                "Starlight Dual Sat.",
+                "Riverflow"
               ]
             },
             {
@@ -80,7 +86,7 @@
               "content": ["id_qmk_rgb_matrix_effect_speed", 3, 3]
             },
             {
-              "showIf": "{id_qmk_rgb_matrix_effect} != 0 && {id_qmk_rgb_matrix_effect} != 24 && {id_qmk_rgb_matrix_effect} != 28 && {id_qmk_rgb_matrix_effect} != 29 && {id_qmk_rgb_matrix_effect} != 32",
+              "showIf": "{id_qmk_rgb_matrix_effect} != 0 && {id_qmk_rgb_matrix_effect} != 23 && {id_qmk_rgb_matrix_effect} != 25 && {id_qmk_rgb_matrix_effect} != 29 && {id_qmk_rgb_matrix_effect} != 30 && {id_qmk_rgb_matrix_effect} != 33",
               "label": "Color",
               "type": "color",
               "content": ["id_qmk_rgb_matrix_color", 3, 4]
