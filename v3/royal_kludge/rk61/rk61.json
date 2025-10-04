@@ -2,6 +2,10 @@
   "name": "RK61",
   "vendorId": "0x1480",
   "productId": "0x6461",
+  "matrix": {
+    "rows": 5,
+    "cols": 14
+  },
   "keycodes": ["qmk_lighting"],
   "menus": [
     {
@@ -86,7 +90,6 @@
       ]
     }
   ],
-  "matrix": {"rows": 5, "cols": 14},
   "layouts": {
     "keymap": [
       [
