@@ -2,11 +2,18 @@
   "name": "W1-AT",
   "vendorId": "0x8968",
   "productId": "0x5754",
-  "lighting": "none",
+  "matrix": {
+    "rows": 5,
+    "cols": 20
+  },
   "customKeycodes": [
-    {"name": "00", "title": "00", "shortName": "KC_P00"}
+    {
+      "name": "00",
+      "title": "00",
+      "shortName": "KC_P00"
+    }
   ],
-  "matrix": {"rows": 5, "cols": 20},
+  "lighting": "none",
   "layouts": {
     "labels": [
       "Split Backspace",

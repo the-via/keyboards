@@ -2,11 +2,11 @@
   "name": "Yeti",
   "vendorId": "0x525C",
   "productId": "0x9F9F",
-  "lighting": "none",
   "matrix": {
     "rows": 5,
     "cols": 16
   },
+  "lighting": "none",
   "layouts": {
     "labels": [
       "Split Backspace",

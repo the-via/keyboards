@@ -2,11 +2,11 @@
   "name": "h65_hotswap",
   "vendorId": "0x04D8",
   "productId": "0xE8B7",
-  "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 5,
     "cols": 15
   },
+  "lighting": "qmk_backlight_rgblight",
   "layouts": {
     "labels": [
       "Split Backspace",

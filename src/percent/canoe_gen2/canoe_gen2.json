@@ -2,19 +2,19 @@
   "name": "Percent Canoe Gen2",
   "vendorId": "0x9C12",
   "productId": "0x89F0",
+  "matrix": {
+    "rows": 5,
+    "cols": 15
+  },
   "lighting": {
     "extends": "none",
     "keycodes": "qmk",
-    "supportedBacklightValues": [
+    "supportedLightingValues": [
       128,
       129,
       130,
       131
     ]
-  },
-  "matrix": {
-    "rows": 5,
-    "cols": 15
   },
   "layouts": {
     "labels": [

@@ -2,11 +2,11 @@
   "name": "Galatea",
   "vendorId": "0x7C10",
   "productId": "0x8802",
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 12,
     "cols": 9
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
     "labels": [
       [

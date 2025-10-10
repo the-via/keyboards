@@ -2,14 +2,18 @@
   "name": "orthocode",
   "vendorId": "0x3415",
   "productId": "0x0001",
-  "lighting": "qmk_rgblight",
-  "customKeycodes": [
-    {"name": "Shift Space", "title": "Space on normal press, Underscore when shift held", "shortName": "SHSP"}
-  ],
   "matrix": {
     "rows": 5,
     "cols": 15
   },
+  "customKeycodes": [
+    {
+      "name": "Shift Space",
+      "title": "Space on normal press, Underscore when shift held",
+      "shortName": "SHSP"
+    }
+  ],
+  "lighting": "qmk_rgblight",
   "layouts": {
     "keymap": [
       [

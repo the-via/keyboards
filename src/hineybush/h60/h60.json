@@ -2,11 +2,11 @@
   "name": "h60",
   "vendorId": "0x04D8",
   "productId": "0xEBBE",
-  "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 5,
     "cols": 14
   },
+  "lighting": "qmk_backlight_rgblight",
   "layouts": {
     "labels": [
       "Split Backspace",

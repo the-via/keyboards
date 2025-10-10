@@ -1,21 +1,29 @@
 {
-  "name"      : "chlx merro60",
-  "vendorId"  : "0x4358",
-  "productId" : "0x0601",
-  "lighting"  : "none",
-  "matrix"    : {
+  "name": "chlx merro60",
+  "vendorId": "0x4358",
+  "productId": "0x0601",
+  "matrix": {
     "rows": 5,
     "cols": 15
   },
-  "layouts"   : {
-    "labels"  : [
+  "lighting": "none",
+  "layouts": {
+    "labels": [
       "Split Backspace",
-      ["Enter", "ANSI", "ISO"],
+      [
+        "Enter",
+        "ANSI",
+        "ISO"
+      ],
       "Split Left Shift",
       "Split Right Shift",
-      ["Bottom Row", "ANSI", "Tsangan"]
+      [
+        "Bottom Row",
+        "ANSI",
+        "Tsangan"
+      ]
     ],
-    "keymap"  : [
+    "keymap": [
       [
         {
           "x": 3,
@@ -228,4 +236,3 @@
     ]
   }
 }
-

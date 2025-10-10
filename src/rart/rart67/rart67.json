@@ -2,13 +2,22 @@
   "name": "RART67",
   "vendorId": "0x414C",
   "productId": "0x0067",
+  "matrix": {
+    "rows": 5,
+    "cols": 16
+  },
   "lighting": "qmk_rgblight",
-  "matrix": {"rows": 5, "cols": 16},
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO Enter",
-      ["Bottom Row", "6.25U", "6.25U Blocker", "7U", "7U Blocker"]
+      [
+        "Bottom Row",
+        "6.25U",
+        "6.25U Blocker",
+        "7U",
+        "7U Blocker"
+      ]
     ],
     "keymap": [
       [
@@ -106,10 +115,12 @@
           "w": 2.25
         },
         "2,14\n\n\n1,0",
+        {
+          "c": "#cccccc"
+        },
         "2,15",
         {
-          "x": 0.25,
-          "c": "#cccccc"
+          "x": 0.25
         },
         "2,14\n\n\n1,1"
       ],
@@ -206,7 +217,7 @@
         },
         "\n\n\n2,1",
         {
-          "c": "#aaaaaa" 
+          "c": "#aaaaaa"
         },
         "4,11\n\n\n2,1",
         "4,14\n\n\n2,1",

@@ -2,11 +2,11 @@
   "name": "LZ Physix",
   "vendorId": "0x04D8",
   "productId": "0xEC81",
-  "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 5,
     "cols": 15
   },
+  "lighting": "qmk_backlight_rgblight",
   "layouts": {
     "labels": [
       "Split Backspace",

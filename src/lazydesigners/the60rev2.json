@@ -2,15 +2,42 @@
   "name": "LAZYDESIGNERS THE60Rev2",
   "vendorId": "0x4C44",
   "productId": "0x0062",
+  "matrix": {
+    "rows": 5,
+    "cols": 14
+  },
   "lighting": "qmk_backlight_rgblight",
-  "matrix": {"rows": 5, "cols": 14},
   "layouts": {
     "labels": [
-      ["Backspace", "2U", "Split"],
-      ["Enter", "ANSI", "ISO"],
-      ["Left Shift", "ANSI", "ISO"],
-      ["Right Shift", "Split", "ANSI"],
-      ["Bottom Row", "Tsangan", "Tsangan Split", "WKL", "HHKB", "WKL Split", "HHKB Split"]
+      [
+        "Backspace",
+        "2U",
+        "Split"
+      ],
+      [
+        "Enter",
+        "ANSI",
+        "ISO"
+      ],
+      [
+        "Left Shift",
+        "ANSI",
+        "ISO"
+      ],
+      [
+        "Right Shift",
+        "Split",
+        "ANSI"
+      ],
+      [
+        "Bottom Row",
+        "Tsangan",
+        "Tsangan Split",
+        "WKL",
+        "HHKB",
+        "WKL Split",
+        "HHKB Split"
+      ]
     ],
     "keymap": [
       [
@@ -219,7 +246,7 @@
           "w": 1.5
         },
         "4,13\n\n\n4,1"
-      ],      
+      ],
       [
         {
           "y": 0.25,

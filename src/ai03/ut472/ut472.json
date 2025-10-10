@@ -2,15 +2,14 @@
   "name": "ut472",
   "vendorId": "0xa103",
   "productId": "0x0472",
-  "lighting": "qmk_backlight_rgblight",
-  "matrix": {"rows": 4, "cols": 12},
+  "matrix": {
+    "rows": 4,
+    "cols": 12
+  },
+  "lighting": "qmk_rgblight",
   "layouts": {
-    "labels": [
-    ],
+    "labels": [],
     "keymap": [
-      {
-        "name": "ut472"
-      },
       [
         {
           "c": "#777777"

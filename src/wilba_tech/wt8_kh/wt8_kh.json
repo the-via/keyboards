@@ -2,8 +2,11 @@
   "name": "wilba.tech WT8-KH",
   "vendorId": "0x6582",
   "productId": "0x0033",
+  "matrix": {
+    "rows": 4,
+    "cols": 2
+  },
   "lighting": "none",
-  "matrix": {"rows": 4, "cols": 2},
   "layouts": {
     "keymap": [
       [

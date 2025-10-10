@@ -2,15 +2,18 @@
   "name": "PaladinPad",
   "vendorId": "0x4B43",
   "productId": "0x5050",
+  "matrix": {
+    "rows": 5,
+    "cols": 4
+  },
   "lighting": "qmk_rgblight",
-  "matrix": { "rows": 5, "cols": 4 },
   "layouts": {
-    "labels":[
-        "Numpad AEK",
-        "Split Enter",
-        "Split Zero"
+    "labels": [
+      "Numpad AEK",
+      "Split Enter",
+      "Split Zero"
     ],
-    "keymap":[
+    "keymap": [
       [
         {
           "c": "#aaaaaa"

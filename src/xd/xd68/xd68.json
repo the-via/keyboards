@@ -2,14 +2,27 @@
   "name": "XD68",
   "vendorId": "0x7844",
   "productId": "0x6868",
+  "matrix": {
+    "rows": 5,
+    "cols": 15
+  },
   "lighting": "qmk_backlight_rgblight",
-  "matrix": {"rows": 5, "cols": 15},
   "layouts": {
     "labels": [
-        ["Enter Key", "ANSI", "ISO"],
-        "Split Left Shift",
-        ["Bottom Row", "1u Right Mods", "1.5u Right Mods", "1.25u Arrows", "1.25u Mods w/ Blocker"],
-        "1.25u Right Shift"
+      [
+        "Enter Key",
+        "ANSI",
+        "ISO"
+      ],
+      "Split Left Shift",
+      [
+        "Bottom Row",
+        "1u Right Mods",
+        "1.5u Right Mods",
+        "1.25u Arrows",
+        "1.25u Mods w/ Blocker"
+      ],
+      "1.25u Right Shift"
     ],
     "keymap": [
       [

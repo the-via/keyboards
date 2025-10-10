@@ -2,8 +2,11 @@
   "name": "Numpad",
   "vendorId": "0x5842",
   "productId": "0x4E75",
+  "matrix": {
+    "rows": 6,
+    "cols": 4
+  },
   "lighting": "none",
-  "matrix": { "rows": 6, "cols": 4 },
   "layouts": {
     "keymap": [
       [
@@ -57,6 +60,5 @@
         "5,2"
       ]
     ]
-
   }
 }

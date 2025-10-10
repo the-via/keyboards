@@ -2,11 +2,13 @@
   "name": "Hub16",
   "vendorId": "0x6A6A",
   "productId": "0x4810",
+  "matrix": {
+    "rows": 5,
+    "cols": 4
+  },
   "lighting": "qmk_rgblight",
-  "matrix": {"rows": 5, "cols": 4},
   "layouts": {
-    "keymap":
-    [
+    "keymap": [
       [
         {
           "x": 0.5

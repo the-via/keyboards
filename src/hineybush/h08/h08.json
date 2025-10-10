@@ -2,11 +2,11 @@
   "name": "h08",
   "vendorId": "0x04D8",
   "productId": "0xE8E9",
-  "lighting": "qmk_backlight_rgblight",
   "matrix": {
     "rows": 2,
     "cols": 4
   },
+  "lighting": "qmk_backlight_rgblight",
   "layouts": {
     "labels": [
       "Left 2U",

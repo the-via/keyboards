@@ -2,11 +2,11 @@
   "name": "Hasu Alps64",
   "vendorId": "0x6873",
   "productId": "0x6464",
-  "lighting": "none",
   "matrix": {
     "rows": 8,
     "cols": 8
   },
+  "lighting": "none",
   "layouts": {
     "labels": [
       [

@@ -2,13 +2,16 @@
   "name": "Cordillera",
   "vendorId": "0x434B",
   "productId": "0x1401",
-  "lighting": "qmk_backlight",
   "matrix": {
     "rows": 5,
     "cols": 16
   },
+  "lighting": "qmk_backlight",
   "layouts": {
-    "labels": ["Split Backspace", "Full RShift"],
+    "labels": [
+      "Split Backspace",
+      "Full RShift"
+    ],
     "keymap": [
       [
         {

@@ -1,15 +1,22 @@
 {
-	"name": "IBIS 80",
-	"vendorId": "0x6653",
-	"productId": "0x3380",
+  "name": "IBIS 80",
+  "vendorId": "0x6653",
+  "productId": "0x3380",
+  "matrix": {
+    "rows": 6,
+    "cols": 17
+  },
   "lighting": "none",
-	"matrix": { "rows": 6, "cols": 17 },
-	  "layouts": {
-		"labels":[
-        "ISO Enter",
-        ["Bottom Row", "Normal", "My"]
-],
-		"keymap":[
+  "layouts": {
+    "labels": [
+      "ISO Enter",
+      [
+        "Bottom Row",
+        "Normal",
+        "My"
+      ]
+    ],
+    "keymap": [
       [
         "0,0",
         {

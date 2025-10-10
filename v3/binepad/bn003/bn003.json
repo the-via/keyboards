@@ -2,6 +2,17 @@
   "name": "BN003",
   "vendorId": "0x4249",
   "productId": "0x4287",
-  "matrix": {"rows": 1, "cols": 3},
-  "layouts": {"keymap": [["0,0", "0,1", "0,2"]]}
+  "matrix": {
+    "rows": 1,
+    "cols": 3
+  },
+  "layouts": {
+    "keymap": [
+      [
+        "0,0",
+        "0,1",
+        "0,2"
+      ]
+    ]
+  }
 }

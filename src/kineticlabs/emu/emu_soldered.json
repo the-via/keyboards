@@ -2,11 +2,11 @@
   "name": "Emu",
   "vendorId": "0xE015",
   "productId": "0xC386",
-  "lighting": "none",
-  "matrix": { 
-    "rows": 6, 
+  "matrix": {
+    "rows": 6,
     "cols": 18
   },
+  "lighting": "none",
   "layouts": {
     "labels": [
       "Split backspace",

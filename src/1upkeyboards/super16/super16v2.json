@@ -2,14 +2,13 @@
   "name": "Super16 V2",
   "vendorId": "0x6F75",
   "productId": "0x5517",
-  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 4,
     "cols": 4
   },
+  "lighting": "qmk_rgblight",
   "layouts": {
-     "keymap":
-    [
+    "keymap": [
       [
         "0,0",
         "0,1",

@@ -1,9 +1,12 @@
 {
   "name": "Iris Rev. 3",
   "vendorId": "0xCB10",
-  "productId": "0x1256",
+  "productId": "0x3256",
+  "matrix": {
+    "rows": 10,
+    "cols": 6
+  },
   "lighting": "qmk_backlight_rgblight",
-  "matrix": {"rows": 10, "cols": 6},
   "layouts": {
     "keymap": [
       [

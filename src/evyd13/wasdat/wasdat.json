@@ -2,15 +2,23 @@
   "name": "Evyd13 Wasdat",
   "vendorId": "0x4705",
   "productId": "0xC474",
-  "lighting": "none",
   "matrix": {
     "rows": 8,
     "cols": 16
   },
+  "lighting": "none",
   "layouts": {
     "labels": [
-      ["Layout", "ANSI", "ISO"],
-      ["Size", "Full", "TKL"]
+      [
+        "Layout",
+        "ANSI",
+        "ISO"
+      ],
+      [
+        "Size",
+        "Full",
+        "TKL"
+      ]
     ],
     "keymap": [
       [

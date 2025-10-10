@@ -2,11 +2,14 @@
   "name": "Hannah60 RGB",
   "vendorId": "0x4D4C",
   "productId": "0x6001",
-  "lighting": {
-      "extends": "none",
-      "keycodes": "qmk"
+  "matrix": {
+    "rows": 5,
+    "cols": 14
   },
-  "matrix": {"rows": 5, "cols": 14},
+  "lighting": {
+    "extends": "none",
+    "keycodes": "qmk"
+  },
   "layouts": {
     "labels": [
       "2U Back Space",
@@ -19,7 +22,7 @@
         "Split Space 2",
         "6.25U",
         "7U"
-       ]
+      ]
     ],
     "keymap": [
       [

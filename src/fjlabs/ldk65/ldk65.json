@@ -1,9 +1,12 @@
 {
   "name": "LDK65",
-  "vendorId": "0x7074", 
+  "vendorId": "0x7074",
   "productId": "0x0002",
+  "matrix": {
+    "rows": 5,
+    "cols": 15
+  },
   "lighting": "none",
-  "matrix": { "rows": 5, "cols": 15 },
   "layouts": {
     "keymap": [
       [
@@ -147,7 +150,7 @@
         "4,12",
         "4,13",
         "4,14"
-      ]    
+      ]
     ]
   }
 }

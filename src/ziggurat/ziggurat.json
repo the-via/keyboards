@@ -1,20 +1,24 @@
 {
-  "name": "Ziggurat", 
+  "name": "Ziggurat",
   "vendorId": "0x8F5D",
   "productId": "0x5258",
-  "lighting": "none", 
   "matrix": {
     "rows": 5,
     "cols": 18
   },
+  "lighting": "none",
   "layouts": {
-    "labels":[
+    "labels": [
       "Split Backspace",
       "ISO Enter",
       "Split Left Shift",
-      ["Bottom Row", "6.25u", "7u"]
+      [
+        "Bottom Row",
+        "6.25u",
+        "7u"
+      ]
     ],
-    "keymap":[
+    "keymap": [
       [
         {
           "x": 2.75
