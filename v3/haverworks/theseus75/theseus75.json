@@ -111,11 +111,7 @@
         "Space / 1u (Tsangan)",
         "1u / Space (Tsangan)"
       ],
-      [
-        "Bottom Right Row",
-        "3x 1u",
-        "2x 1.5u"
-      ]
+      ["Bottom Right Row", "3x 1u", "2x 1.5u"]
     ],
     "keymap": [
       [
