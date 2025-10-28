@@ -1,0 +1,656 @@
+{
+  "name": "21XX MX",
+  "vendorId": "0x6369",
+  "productId": "0x6BE1",
+  "matrix": {
+    "rows": 9,
+    "cols": 20
+  },
+  "menus": [
+    {
+      "label": "Indicators",
+      "content": [
+        {
+          "label": "F-Row LED",
+          "content": [
+            {
+              "label": "Enable F-Row LED",
+              "type": "toggle",
+              "content": ["id_ind1_enabled", 0, 1]
+            },
+            {
+              "showIf": "{id_ind1_enabled} == 1",
+              "content": [
+                {
+                  "label": "Function",
+                  "type": "dropdown",
+                  "options": [
+                    "None",
+                    "Caps Lock",
+                    "Num Lock",
+                    "Scroll Lock",
+                    "Keypress",
+                    "Haptic Status",
+                    "Layer 0",
+                    "Layer 1",
+                    "Layer 2",
+                    "Layer 3"
+                  ],
+                  "content": ["id_ind1_func", 0, 2]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Macro LED R1",
+          "content": [
+            {
+              "label": "Enable Macro Led R1",
+              "type": "toggle",
+              "content": ["id_ind2_enabled", 0, 3]
+            },
+            {
+              "showIf": "{id_ind2_enabled} == 1",
+              "content": [
+                {
+                  "label": "Function",
+                  "type": "dropdown",
+                  "options": [
+                    "None",
+                    "Caps Lock",
+                    "Num Lock",
+                    "Scroll Lock",
+                    "Keypress",
+                    "Haptic Status",
+                    "Layer 0",
+                    "Layer 1",
+                    "Layer 2",
+                    "Layer 3"
+                  ],
+                  "content": ["id_ind2_func", 0, 4]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Macro LED R2",
+          "content": [
+            {
+              "label": "Enable Macro Led R2",
+              "type": "toggle",
+              "content": ["id_ind3_enabled", 0, 5]
+            },
+            {
+              "showIf": "{id_ind3_enabled} == 1",
+              "content": [
+                {
+                  "label": "Function",
+                  "type": "dropdown",
+                  "options": [
+                    "None",
+                    "Caps Lock",
+                    "Num Lock",
+                    "Scroll Lock",
+                    "Keypress",
+                    "Haptic Status",
+                    "Layer 0",
+                    "Layer 1",
+                    "Layer 2",
+                    "Layer 3"
+                  ],
+                  "content": ["id_ind3_func", 0, 6]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Macro LED R3",
+          "content": [
+            {
+              "label": "Enable Macro Led R3",
+              "type": "toggle",
+              "content": ["id_ind4_enabled", 0, 7]
+            },
+            {
+              "showIf": "{id_ind4_enabled} == 1",
+              "content": [
+                {
+                  "label": "Function",
+                  "type": "dropdown",
+                  "options": [
+                    "None",
+                    "Caps Lock",
+                    "Num Lock",
+                    "Scroll Lock",
+                    "Keypress",
+                    "Haptic Status",
+                    "Layer 0",
+                    "Layer 1",
+                    "Layer 2",
+                    "Layer 3"
+                  ],
+                  "content": ["id_ind4_func", 0, 8]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Macro LED R4",
+          "content": [
+            {
+              "label": "Enable Macro Led R4",
+              "type": "toggle",
+              "content": ["id_ind5_enabled", 0, 9]
+            },
+            {
+              "showIf": "{id_ind5_enabled} == 1",
+              "content": [
+                {
+                  "label": "Function",
+                  "type": "dropdown",
+                  "options": [
+                    "None",
+                    "Caps Lock",
+                    "Num Lock",
+                    "Scroll Lock",
+                    "Keypress",
+                    "Haptic Status",
+                    "Layer 0",
+                    "Layer 1",
+                    "Layer 2",
+                    "Layer 3"
+                  ],
+                  "content": ["id_ind5_func", 0, 10]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Macro LED R5",
+          "content": [
+            {
+              "label": "Enable Macro Led R5",
+              "type": "toggle",
+              "content": ["id_ind6_enabled", 0, 11]
+            },
+            {
+              "showIf": "{id_ind6_enabled} == 1",
+              "content": [
+                {
+                  "label": "Function",
+                  "type": "dropdown",
+                  "options": [
+                    "None",
+                    "Caps Lock",
+                    "Num Lock",
+                    "Scroll Lock",
+                    "Keypress",
+                    "Haptic Status",
+                    "Layer 0",
+                    "Layer 1",
+                    "Layer 2",
+                    "Layer 3"
+                  ],
+                  "content": ["id_ind6_func", 0, 12]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Caps Lock LED",
+          "content": [
+            {
+              "label": "Enable Caps Lock Led",
+              "type": "toggle",
+              "content": ["id_ind7_enabled", 0, 13]
+            },
+            {
+              "showIf": "{id_ind7_enabled} == 1",
+              "content": [
+                {
+                  "label": "Function",
+                  "type": "dropdown",
+                  "options": [
+                    "None",
+                    "Caps Lock",
+                    "Num Lock",
+                    "Scroll Lock",
+                    "Keypress",
+                    "Haptic Status",
+                    "Layer 0",
+                    "Layer 1",
+                    "Layer 2",
+                    "Layer 3"
+                  ],
+                  "content": ["id_ind7_func", 0, 14]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "layouts": {
+    "labels": [
+      "Split Backspace",
+      "Split Left Shift",
+      "Split Right Shift",
+      "ISO",
+      ["Bottom Row", "7U WK", "7U WKL", "10U WK", "10U WKL"],
+      ["Nav Cluster", "Block", "Cross"]
+    ],
+    "keymap": [
+      [
+        {
+          "x": 3.75,
+          "c": "#aaaaaa"
+        },
+        "0,0",
+        "0,1",
+        "0,2",
+        "0,3",
+        {
+          "c": "#cccccc"
+        },
+        "0,4",
+        "0,5",
+        "2,5",
+        "2,4",
+        {
+          "c": "#aaaaaa"
+        },
+        "2,3",
+        "2,2",
+        "2,1",
+        "2,0"
+      ],
+      [
+        {
+          "x": 3.75
+        },
+        "1,0",
+        "1,1",
+        "1,2",
+        "1,3",
+        {
+          "c": "#cccccc"
+        },
+        "1,4",
+        "1,5",
+        "3,5",
+        "3,4",
+        {
+          "c": "#aaaaaa"
+        },
+        "3,3",
+        "3,2",
+        "3,1",
+        "3,0"
+      ],
+      [
+        {
+          "y": 0.5
+        },
+        "4,0",
+        "4,1",
+        {
+          "x": 0.25,
+          "c": "#cccccc"
+        },
+        "4,2",
+        "4,3",
+        "4,4",
+        "4,5",
+        "4,6",
+        "4,7",
+        "4,8",
+        "4,9",
+        "4,10",
+        "4,11",
+        "4,12",
+        "4,13",
+        "4,14",
+        {
+          "c": "#aaaaaa",
+          "w": 2
+        },
+        "4,16\n\n\n0,0",
+        {
+          "x": 0.25
+        },
+        "4,17\n\n\n5,0",
+        "4,18\n\n\n5,0",
+        "4,19\n\n\n5,0"
+      ],
+      [
+        "5,0",
+        "5,1",
+        {
+          "x": 0.25,
+          "w": 1.5
+        },
+        "5,2",
+        {
+          "c": "#cccccc"
+        },
+        "5,3",
+        "5,4",
+        "5,5",
+        "5,6",
+        "5,7",
+        "5,8",
+        "5,9",
+        "5,10",
+        "5,11",
+        "5,12",
+        "5,13",
+        "5,14",
+        {
+          "w": 1.5
+        },
+        "5,15\n\n\n3,0",
+        {
+          "x": 0.25,
+          "c": "#aaaaaa"
+        },
+        "5,17\n\n\n5,0",
+        "5,18\n\n\n5,0",
+        "5,19\n\n\n5,0"
+      ],
+      [
+        "6,0",
+        "6,1",
+        {
+          "x": 0.25,
+          "w": 1.75
+        },
+        "6,2",
+        {
+          "c": "#cccccc"
+        },
+        "6,3",
+        "6,4",
+        "6,5",
+        "6,6",
+        "6,7",
+        "6,8",
+        "6,9",
+        "6,10",
+        "6,11",
+        "6,12",
+        "6,13",
+        {
+          "c": "#aaaaaa",
+          "w": 2.25
+        },
+        "6,15\n\n\n3,0",
+        {
+          "x": 0.25
+        },
+        "6,17\n\n\n5,0",
+        "6,18\n\n\n5,0",
+        "6,19\n\n\n5,0"
+      ],
+      [
+        "7,0",
+        "7,1",
+        {
+          "x": 0.25,
+          "w": 2.25
+        },
+        "7,2\n\n\n1,0",
+        {
+          "c": "#cccccc"
+        },
+        "7,4",
+        "7,5",
+        "7,6",
+        "7,7",
+        "7,8",
+        "7,9",
+        "7,10",
+        "7,11",
+        "7,12",
+        "7,13",
+        {
+          "c": "#aaaaaa",
+          "w": 2.75
+        },
+        "7,14\n\n\n2,0",
+        {
+          "x": 0.25
+        },
+        "7,17\n\n\n5,0",
+        "7,18\n\n\n5,0",
+        "7,19\n\n\n5,0"
+      ],
+      [
+        "8,0",
+        "8,1",
+        {
+          "x": 0.25,
+          "w": 1.5
+        },
+        "8,2\n\n\n4,0",
+        "8,3\n\n\n4,0",
+        {
+          "w": 1.5
+        },
+        "8,4\n\n\n4,0",
+        {
+          "c": "#cccccc",
+          "w": 7
+        },
+        "8,9\n\n\n4,0",
+        {
+          "c": "#aaaaaa",
+          "w": 1.5
+        },
+        "8,14\n\n\n4,0",
+        "8,15\n\n\n4,0",
+        {
+          "w": 1.5
+        },
+        "8,16\n\n\n4,0",
+        {
+          "x": 0.25
+        },
+        "8,17\n\n\n5,0",
+        "8,18\n\n\n5,0",
+        "8,19\n\n\n5,0"
+      ],
+      [
+        {
+          "y": 0.25,
+          "x": 15.25,
+          "c": "#cccccc"
+        },
+        "4,15\n\n\n0,1",
+        {
+          "c": "#aaaaaa"
+        },
+        "4,16\n\n\n0,1"
+      ],
+      [
+        {
+          "x": 16,
+          "w": 1.25,
+          "h": 2,
+          "w2": 1.5,
+          "h2": 1,
+          "x2": -0.25
+        },
+        "6,16\n\n\n3,1"
+      ],
+      [
+        {
+          "x": 15,
+          "c": "#cccccc"
+        },
+        "6,14\n\n\n3,1"
+      ],
+      [
+        {
+          "y": -0.25,
+          "x": 17.5,
+          "c": "#aaaaaa"
+        },
+        "4,17\n\n\n5,1",
+        "4,18\n\n\n5,1",
+        "4,19\n\n\n5,1"
+      ],
+      [
+        {
+          "y": -0.75,
+          "x": 2.25,
+          "w": 1.25
+        },
+        "7,2\n\n\n1,1",
+        {
+          "c": "#cccccc"
+        },
+        "7,3\n\n\n1,1",
+        {
+          "x": 10,
+          "c": "#aaaaaa",
+          "w": 1.75
+        },
+        "7,14\n\n\n2,1",
+        {
+          "c": "#cccccc"
+        },
+        "7,16\n\n\n2,1"
+      ],
+      [
+        {
+          "y": -0.25,
+          "x": 17.5,
+          "c": "#aaaaaa"
+        },
+        "5,17\n\n\n5,1",
+        "5,18\n\n\n5,1",
+        "5,19\n\n\n5,1"
+      ],
+      [
+        {
+          "y": -0.5,
+          "x": 2.25,
+          "w": 1.5
+        },
+        "8,2\n\n\n4,1",
+        {
+          "d": true
+        },
+        "8,3\n\n\n4,1",
+        {
+          "w": 1.5
+        },
+        "8,4\n\n\n4,1",
+        {
+          "c": "#cccccc",
+          "w": 7
+        },
+        "8,9\n\n\n4,1",
+        {
+          "c": "#aaaaaa",
+          "w": 1.5
+        },
+        "8,14\n\n\n4,1",
+        {
+          "d": true
+        },
+        "8,15\n\n\n4,1",
+        {
+          "w": 1.5
+        },
+        "8,16\n\n\n4,1"
+      ],
+      [
+        {
+          "y": -0.5,
+          "x": 17.5,
+          "d": true
+        },
+        "6,17\n\n\n5,1",
+        "6,18\n\n\n5,1",
+        {
+          "d": true
+        },
+        "6,19\n\n\n5,1"
+      ],
+      [
+        {
+          "y": -0.25,
+          "x": 2.25,
+          "w": 1.5
+        },
+        "8,2\n\n\n4,2",
+        "8,3\n\n\n4,2",
+        {
+          "c": "#cccccc",
+          "w": 10
+        },
+        "8,9\n\n\n4,2",
+        {
+          "c": "#aaaaaa"
+        },
+        "8,15\n\n\n4,2",
+        {
+          "w": 1.5
+        },
+        "8,16\n\n\n4,2"
+      ],
+      [
+        {
+          "y": -0.75,
+          "x": 17.5
+        },
+        "7,17\n\n\n5,1",
+        "7,18\n\n\n5,1",
+        "7,19\n\n\n5,1"
+      ],
+      [
+        {
+          "x": 2.25,
+          "w": 1.5
+        },
+        "8,2\n\n\n4,3",
+        {
+          "d": true
+        },
+        "8,3\n\n\n4,3",
+        {
+          "c": "#cccccc",
+          "w": 10
+        },
+        "8,9\n\n\n4,3",
+        {
+          "c": "#aaaaaa",
+          "d": true
+        },
+        "8,15\n\n\n4,3",
+        {
+          "w": 1.5
+        },
+        "8,16\n\n\n4,3",
+        {
+          "x": 0.25,
+          "d": true
+        },
+        "8,17\n\n\n5,1",
+        "8,18\n\n\n5,1",
+        {
+          "d": true
+        },
+        "8,19\n\n\n5,1"
+      ]
+    ]
+  }
+}

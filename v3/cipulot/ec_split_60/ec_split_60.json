@@ -1,0 +1,495 @@
+{
+  "name": "EC Split 60",
+  "vendorId": "0x6369",
+  "productId": "0x6BDE",
+  "matrix": {
+    "rows": 10,
+    "cols": 8
+  },
+  "keycodes": ["qmk_lighting"],
+  "menus": [
+    "qmk_rgblight",
+    {
+      "label": "EC Tools",
+      "content": [
+        {
+          "label": "Actuation",
+          "content": [
+            {
+              "label": "Mode",
+              "type": "dropdown",
+              "options": ["APC", "Rapid Trigger"],
+              "content": ["id_actuation_mode", 0, 1]
+            },
+            {
+              "showIf": "{id_actuation_mode} == 0",
+              "content": [
+                {
+                  "label": "Actuation Level (0% | 100%)",
+                  "type": "range",
+                  "options": [1, 1023],
+                  "content": ["id_mode_0_actuation_threshold", 0, 2]
+                },
+                {
+                  "label": "Release Level (0% | 100%, ALWAYS < Actuation Level)",
+                  "type": "range",
+                  "options": [1, 1023],
+                  "content": ["id_mode_0_release_threshold", 0, 3]
+                },
+                {
+                  "label": "Apply & save changes",
+                  "type": "button",
+                  "options": [0],
+                  "content": ["id_save_threshold_data", 0, 4]
+                }
+              ]
+            },
+            {
+              "showIf": "{id_actuation_mode} == 1",
+              "content": [
+                {
+                  "label": "Initial Deadzone Offset (0% | 100%)",
+                  "type": "range",
+                  "options": [1, 1023],
+                  "content": ["id_mode_1_initial_deadzone_offset", 0, 5]
+                },
+                {
+                  "label": "Actuation Offset (1-255)",
+                  "type": "range",
+                  "options": [1, 255],
+                  "content": ["id_mode_1_actuation_offset", 0, 6]
+                },
+                {
+                  "label": "Release Offset (1-255)",
+                  "type": "range",
+                  "options": [1, 255],
+                  "content": ["id_mode_1_release_offset", 0, 7]
+                },
+                {
+                  "label": "Apply & save changes",
+                  "type": "button",
+                  "options": [1],
+                  "content": ["id_save_threshold_data", 0, 4]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Calibration",
+          "content": [
+            {
+              "label": "Bottoming Calibration",
+              "type": "toggle",
+              "content": ["id_bottoming_calibration", 0, 8]
+            },
+            {
+              "label": "Noise Floor Calibration (DO NOT PRESS ANY KEY WHILE CLICKING)",
+              "type": "button",
+              "options": [0],
+              "content": ["id_noise_floor_calibration", 0, 9]
+            },
+            {
+              "label": "Show Calibration Data",
+              "type": "button",
+              "options": [0],
+              "content": ["id_show_calibration_data", 0, 10]
+            },
+            {
+              "label": "Clear Bottoming Calibration Data",
+              "type": "button",
+              "options": [0],
+              "content": ["id_clear_bottoming_calibration_data", 0, 11]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Advanced Features",
+      "content": [
+        {
+          "label": "SOCD",
+          "content": [
+            {
+              "label": "Enable Pair #1",
+              "type": "toggle",
+              "content": ["id_socd_pair_1_enabled", 0, 12]
+            },
+            {
+              "showIf": "{id_socd_pair_1_enabled} == 1",
+              "content": [
+                {
+                  "label": "Pair #1 First Key",
+                  "type": "keycode",
+                  "content": ["id_socd_pair_1_key_1", 0, 13]
+                },
+                {
+                  "label": "Pair #1 Second Key",
+                  "type": "keycode",
+                  "content": ["id_socd_pair_1_key_2", 0, 14]
+                },
+                {
+                  "label": "Pair #1 Mode",
+                  "type": "dropdown",
+                  "options": [
+                    ["Last Priority", 1],
+                    ["Neutral", 2],
+                    ["First Key Priority", 3],
+                    ["Second Key Priority", 4]
+                  ],
+                  "content": ["id_socd_pair_1_mode", 0, 15]
+                }
+              ]
+            },
+            {
+              "label": "Enable Pair #2",
+              "type": "toggle",
+              "content": ["id_socd_pair_2_enabled", 0, 16]
+            },
+            {
+              "showIf": "{id_socd_pair_2_enabled} == 1",
+              "content": [
+                {
+                  "label": "Pair #2 First Key",
+                  "type": "keycode",
+                  "content": ["id_socd_pair_2_key_1", 0, 17]
+                },
+                {
+                  "label": "Pair #2 Second Key",
+                  "type": "keycode",
+                  "content": ["id_socd_pair_2_key_2", 0, 18]
+                },
+                {
+                  "label": "Pair #2 Mode",
+                  "type": "dropdown",
+                  "options": [
+                    ["Last Priority", 1],
+                    ["Neutral", 2],
+                    ["First Key Priority", 3],
+                    ["Second Key Priority", 4]
+                  ],
+                  "content": ["id_socd_pair_2_mode", 0, 19]
+                }
+              ]
+            },
+            {
+              "label": "Enable Pair #3",
+              "type": "toggle",
+              "content": ["id_socd_pair_3_enabled", 0, 20]
+            },
+            {
+              "showIf": "{id_socd_pair_3_enabled} == 1",
+              "content": [
+                {
+                  "label": "Pair #3 First Key",
+                  "type": "keycode",
+                  "content": ["id_socd_pair_3_key_1", 0, 21]
+                },
+                {
+                  "label": "Pair #3 Second Key",
+                  "type": "keycode",
+                  "content": ["id_socd_pair_3_key_2", 0, 22]
+                },
+                {
+                  "label": "Pair #3 Mode",
+                  "type": "dropdown",
+                  "options": [
+                    ["Last Priority", 1],
+                    ["Neutral", 2],
+                    ["First Key Priority", 3],
+                    ["Second Key Priority", 4]
+                  ],
+                  "content": ["id_socd_pair_3_mode", 0, 23]
+                }
+              ]
+            },
+            {
+              "label": "Enable Pair #4",
+              "type": "toggle",
+              "content": ["id_socd_pair_4_enabled", 0, 24]
+            },
+            {
+              "showIf": "{id_socd_pair_4_enabled} == 1",
+              "content": [
+                {
+                  "label": "Pair #4 First Key",
+                  "type": "keycode",
+                  "content": ["id_socd_pair_4_key_1", 0, 25]
+                },
+                {
+                  "label": "Pair #4 Second Key",
+                  "type": "keycode",
+                  "content": ["id_socd_pair_4_key_2", 0, 26]
+                },
+                {
+                  "label": "Pair #4 Mode",
+                  "type": "dropdown",
+                  "options": [
+                    ["Last Priority", 1],
+                    ["Neutral", 2],
+                    ["First Key Priority", 3],
+                    ["Second Key Priority", 4]
+                  ],
+                  "content": ["id_socd_pair_4_mode", 0, 27]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "layouts": {
+    "labels": [
+      "Split Backspace",
+      "Split Right Shift",
+      ["Left Spacebar", "3U", "2U | 1U"],
+      [
+        "Right Spacebar",
+        "3U | 1.5U | 1U",
+        "1U | 2U | 1.5U | 1U",
+        "1U | 3U | 1.5U",
+        "1U | 2U | 1U | 1.5U"
+      ],
+      "Left Blocker",
+      "Right Blocker"
+    ],
+    "keymap": [
+      [
+        "0,0",
+        "0,1",
+        "0,2",
+        "0,3",
+        "0,4",
+        "0,5",
+        "1,5",
+        {
+          "x": 1.25
+        },
+        "5,0",
+        "5,1",
+        "5,2",
+        "5,3",
+        "5,4",
+        "5,5",
+        {
+          "c": "#aaaaaa",
+          "w": 2
+        },
+        "5,6\n\n\n0,0",
+        {
+          "x": 1,
+          "c": "#cccccc"
+        },
+        "5,6\n\n\n0,1",
+        {
+          "c": "#aaaaaa"
+        },
+        "5,7\n\n\n0,1"
+      ],
+      [
+        {
+          "w": 1.5
+        },
+        "1,0",
+        {
+          "c": "#cccccc"
+        },
+        "1,1",
+        "1,2",
+        "1,3",
+        "1,4",
+        "2,5",
+        {
+          "x": 1.25
+        },
+        "6,0",
+        "6,1",
+        "6,2",
+        "6,3",
+        "6,4",
+        "6,5",
+        "6,6",
+        {
+          "w": 1.5
+        },
+        "6,7"
+      ],
+      [
+        {
+          "c": "#aaaaaa",
+          "w": 1.75
+        },
+        "2,0",
+        {
+          "c": "#cccccc"
+        },
+        "2,1",
+        "2,2",
+        "2,3",
+        "2,4",
+        "3,5",
+        {
+          "x": 1.25
+        },
+        "7,0",
+        "7,1",
+        "7,2",
+        "7,3",
+        "7,4",
+        "7,5",
+        {
+          "c": "#777777",
+          "w": 2.25
+        },
+        "7,7"
+      ],
+      [
+        {
+          "c": "#aaaaaa",
+          "w": 2.25
+        },
+        "3,0",
+        {
+          "c": "#cccccc"
+        },
+        "3,1",
+        "3,2",
+        "3,3",
+        "3,4",
+        "4,5",
+        {
+          "x": 1.25
+        },
+        "8,0",
+        "8,1",
+        "8,2",
+        "8,3",
+        "8,4",
+        {
+          "c": "#aaaaaa",
+          "w": 2.75
+        },
+        "8,6\n\n\n1,0",
+        {
+          "x": 0.25,
+          "w": 1.75
+        },
+        "8,6\n\n\n1,1",
+        {
+          "c": "#cccccc"
+        },
+        "8,7\n\n\n1,1"
+      ],
+      [
+        {
+          "c": "#aaaaaa",
+          "w": 1.5
+        },
+        "4,0\n\n\n4,0",
+        "4,1",
+        {
+          "w": 1.5
+        },
+        "4,2",
+        {
+          "c": "#cccccc",
+          "w": 3
+        },
+        "4,3\n\n\n2,0",
+        {
+          "x": 1.25,
+          "w": 3
+        },
+        "9,1\n\n\n3,0",
+        {
+          "c": "#aaaaaa",
+          "w": 1.5
+        },
+        "9,3\n\n\n3,0",
+        "9,4\n\n\n3,0",
+        "9,6\n\n\n5,0",
+        {
+          "w": 1.5
+        },
+        "9,7\n\n\n5,0"
+      ],
+      [
+        {
+          "w": 1.5,
+          "d": true
+        },
+        "4,0\n\n\n4,1"
+      ],
+      [
+        {
+          "y": -0.75,
+          "x": 4,
+          "c": "#cccccc",
+          "w": 2
+        },
+        "4,3\n\n\n2,1",
+        "4,4\n\n\n2,1",
+        {
+          "x": 1.25
+        },
+        "9,0\n\n\n3,1",
+        {
+          "w": 2
+        },
+        "9,1\n\n\n3,1",
+        {
+          "c": "#aaaaaa",
+          "w": 1.5
+        },
+        "9,3\n\n\n3,1",
+        "9,4\n\n\n3,1",
+        {
+          "d": true
+        },
+        "9,6\n\n\n5,1",
+        {
+          "w": 1.5,
+          "d": true
+        },
+        "9,7\n\n\n5,1"
+      ],
+      [
+        {
+          "y": 0.25,
+          "x": 8.25,
+          "c": "#cccccc"
+        },
+        "9,0\n\n\n3,2",
+        {
+          "w": 3
+        },
+        "9,1\n\n\n3,2",
+        {
+          "c": "#aaaaaa",
+          "w": 1.5
+        },
+        "9,4\n\n\n3,2"
+      ],
+      [
+        {
+          "y": 0.25,
+          "x": 8.25,
+          "c": "#cccccc"
+        },
+        "9,0\n\n\n3,3",
+        {
+          "w": 2
+        },
+        "9,1\n\n\n3,3",
+        "9,3\n\n\n3,3",
+        {
+          "c": "#aaaaaa",
+          "w": 1.5
+        },
+        "9,4\n\n\n3,3"
+      ]
+    ]
+  }
+}
