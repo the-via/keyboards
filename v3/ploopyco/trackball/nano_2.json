@@ -1,0 +1,31 @@
+{
+  "name": "Ploopy Nano 2 Trackball",
+  "vendorId": "0x5043",
+  "productId": "0x4CE5",
+  "matrix": {
+    "rows": 1,
+    "cols": 1
+  },
+  "customKeycodes": [
+    {
+      "name": "DPI Config",
+      "title": "DPI Config",
+      "shortName": "DPI"
+    },
+    {
+      "name": "Drag Scroll",
+      "title": "Drag Scroll",
+      "shortName": "DragScl"
+    }
+  ],
+  "layouts": {
+    "keymap": [
+      [
+        {
+          "h": 2
+        },
+        "0,0"
+      ]
+    ]
+  }
+}
