@@ -6,9 +6,7 @@
     "rows": 9,
     "cols": 9
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
+  "keycodes": ["qmk_lighting"],
   "menus": [
     {
       "label": "Lighting",
@@ -19,24 +17,13 @@
             {
               "label": "Brightness",
               "type": "range",
-              "options": [
-                0,
-                150
-              ],
-              "content": [
-                "id_qmk_rgb_matrix_brightness",
-                3,
-                1
-              ]
+              "options": [0, 150],
+              "content": ["id_qmk_rgb_matrix_brightness", 3, 1]
             },
             {
               "label": "Effect",
               "type": "dropdown",
-              "content": [
-                "id_qmk_rgb_matrix_effect",
-                3,
-                2
-              ],
+              "content": ["id_qmk_rgb_matrix_effect", 3, 2],
               "options": [
                 "All Off",
                 "Solid Color",
@@ -74,124 +61,68 @@
               "showIf": "{id_qmk_rgb_matrix_effect} >= 2",
               "label": "Effect Speed",
               "type": "range",
-              "options": [
-                0,
-                255
-              ],
-              "content": [
-                "id_qmk_rgb_matrix_effect_speed",
-                3,
-                3
-              ]
+              "options": [0, 255],
+              "content": ["id_qmk_rgb_matrix_effect_speed", 3, 3]
             },
             {
               "showIf": "{id_qmk_rgb_matrix_effect} != 0 && {id_qmk_rgb_matrix_effect} != 17 && {id_qmk_rgb_matrix_effect} != 21 && {id_qmk_rgb_matrix_effect} != 22 && {id_qmk_rgb_matrix_effect} != 25",
               "label": "Color",
               "type": "color",
-              "content": [
-                "id_qmk_rgb_matrix_color",
-                3,
-                4
-              ]
+              "content": ["id_qmk_rgb_matrix_color", 3, 4]
             },
             {
               "label": "Enable Top Bar Resting Color",
               "type": "toggle",
-              "content": [
-                "id_top_rest",
-                0,
-                1
-              ]
+              "content": ["id_top_rest", 0, 1]
             },
             {
               "showIf": "{id_top_rest} != 0",
               "label": "Top Bar Resting Brightness",
               "type": "range",
-              "options": [
-                0,
-                150
-              ],
-              "content": [
-                "id_top_rest_brightness",
-                0,
-                2
-              ]
+              "options": [0, 150],
+              "content": ["id_top_rest_brightness", 0, 2]
             },
             {
               "showIf": "{id_top_rest} != 0",
               "label": "Top Bar Resting Color",
               "type": "color",
-              "content": [
-                "id_top_rest_color",
-                0,
-                3
-              ]
+              "content": ["id_top_rest_color", 0, 3]
             },
             {
               "label": "Enable Middle Bar Resting Color",
               "type": "toggle",
-              "content": [
-                "id_mid_rest",
-                0,
-                4
-              ]
+              "content": ["id_mid_rest", 0, 4]
             },
             {
               "showIf": "{id_mid_rest} != 0",
               "label": "Middle Bar Resting Brightness",
               "type": "range",
-              "options": [
-                0,
-                150
-              ],
-              "content": [
-                "id_mid_rest_brightness",
-                0,
-                5
-              ]
+              "options": [0, 150],
+              "content": ["id_mid_rest_brightness", 0, 5]
             },
             {
               "showIf": "{id_mid_rest} != 0",
               "label": "Middle Bar Resting Color",
               "type": "color",
-              "content": [
-                "id_mid_rest_color",
-                0,
-                6
-              ]
+              "content": ["id_mid_rest_color", 0, 6]
             },
             {
               "label": "Enable Bottom Bar Resting Color",
               "type": "toggle",
-              "content": [
-                "id_btm_rest",
-                0,
-                7
-              ]
+              "content": ["id_btm_rest", 0, 7]
             },
             {
               "showIf": "{id_btm_rest} != 0",
               "label": "Bottom Bar Resting Brightness",
               "type": "range",
-              "options": [
-                0,
-                150
-              ],
-              "content": [
-                "id_btm_rest_brightness",
-                0,
-                8
-              ]
+              "options": [0, 150],
+              "content": ["id_btm_rest_brightness", 0, 8]
             },
             {
               "showIf": "{id_btm_rest} != 0",
               "label": "Bottom Bar Resting Color",
               "type": "color",
-              "content": [
-                "id_btm_rest_color",
-                0,
-                9
-              ]
+              "content": ["id_btm_rest_color", 0, 9]
             }
           ]
         },
@@ -201,58 +132,30 @@
             {
               "label": "Indicator",
               "type": "dropdown",
-              "options": [
-                [
-                  "Caps Lock",
-                  0
-                ]
-              ],
-              "content": [
-                "id_top_choice",
-                0,
-                10
-              ]
+              "options": [["Caps Lock", 0]],
+              "content": ["id_top_choice", 0, 10]
             },
             {
               "label": "Indicator Brightness",
               "type": "range",
-              "options": [
-                0,
-                150
-              ],
-              "content": [
-                "id_top_brightness",
-                0,
-                11
-              ]
+              "options": [0, 150],
+              "content": ["id_top_brightness", 0, 11]
             },
             {
               "label": "Indicator Color",
               "type": "color",
-              "content": [
-                "id_top_color",
-                0,
-                12
-              ]
+              "content": ["id_top_color", 0, 12]
             },
             {
               "label": "Enable Dual Indicator Color",
               "type": "toggle",
-              "content": [
-                "id_top_dual",
-                0,
-                13
-              ]
+              "content": ["id_top_dual", 0, 13]
             },
             {
               "showIf": "{id_top_dual} != 0",
               "label": "Indicator Color 2",
               "type": "color",
-              "content": [
-                "id_top_color_2",
-                0,
-                14
-              ]
+              "content": ["id_top_color_2", 0, 14]
             }
           ]
         },
@@ -263,61 +166,32 @@
               "label": "Indicator",
               "type": "dropdown",
               "options": [
-                [
-                  "Scroll Lock",
-                  0
-                ],
-                [
-                  "Layer 1",
-                  1
-                ]
+                ["Scroll Lock", 0],
+                ["Layer 1", 1]
               ],
-              "content": [
-                "id_mid_choice",
-                0,
-                15
-              ]
+              "content": ["id_mid_choice", 0, 15]
             },
             {
               "label": "Indicator Brightness",
               "type": "range",
-              "options": [
-                0,
-                150
-              ],
-              "content": [
-                "id_mid_brightness",
-                0,
-                16
-              ]
+              "options": [0, 150],
+              "content": ["id_mid_brightness", 0, 16]
             },
             {
               "label": "Indicator Color",
               "type": "color",
-              "content": [
-                "id_mid_color",
-                0,
-                17
-              ]
+              "content": ["id_mid_color", 0, 17]
             },
             {
               "label": "Enable Dual Indicator Color",
               "type": "toggle",
-              "content": [
-                "id_mid_dual",
-                0,
-                18
-              ]
+              "content": ["id_mid_dual", 0, 18]
             },
             {
               "showIf": "{id_mid_dual} != 0",
               "label": "Indicator Color 2",
               "type": "color",
-              "content": [
-                "id_mid_color_2",
-                0,
-                19
-              ]
+              "content": ["id_mid_color_2", 0, 19]
             }
           ]
         },
@@ -328,86 +202,48 @@
               "showIf": "{id_mid_choice} != 1",
               "label": "Layer 1 Indicator Brightness",
               "type": "range",
-              "options": [
-                0,
-                150
-              ],
-              "content": [
-                "id_btm_1_brightness",
-                0,
-                20
-              ]
+              "options": [0, 150],
+              "content": ["id_btm_1_brightness", 0, 20]
             },
             {
               "showIf": "{id_mid_choice} != 1",
               "label": "Layer 1 Indicator Color",
               "type": "color",
-              "content": [
-                "id_btm_1_color",
-                0,
-                21
-              ]
+              "content": ["id_btm_1_color", 0, 21]
             },
             {
               "showIf": "{id_mid_choice} != 1",
               "label": "Enable Dual Layer 1 Indicator Color",
               "type": "toggle",
-              "content": [
-                "id_btm_1_dual",
-                0,
-                22
-              ]
+              "content": ["id_btm_1_dual", 0, 22]
             },
             {
               "showIf": "{id_btm_1_dual} != 0 && {id_mid_choice} != 1",
               "label": "Layer 1 Indicator Color 2",
               "type": "color",
-              "content": [
-                "id_btm_1_color_2",
-                0,
-                23
-              ]
+              "content": ["id_btm_1_color_2", 0, 23]
             },
             {
               "label": "Layer 2 Indicator Brightness",
               "type": "range",
-              "options": [
-                0,
-                150
-              ],
-              "content": [
-                "id_btm_2_brightness",
-                0,
-                24
-              ]
+              "options": [0, 150],
+              "content": ["id_btm_2_brightness", 0, 24]
             },
             {
               "label": "Layer 2 Indicator Color",
               "type": "color",
-              "content": [
-                "id_btm_2_color",
-                0,
-                25
-              ]
+              "content": ["id_btm_2_color", 0, 25]
             },
             {
               "label": "Enable Dual Layer 2 Indicator Color",
               "type": "toggle",
-              "content": [
-                "id_btm_2_dual",
-                0,
-                26
-              ]
+              "content": ["id_btm_2_dual", 0, 26]
             },
             {
               "showIf": "{id_btm_2_dual} != 0",
               "label": "Layer 2 Indicator Color 2",
               "type": "color",
-              "content": [
-                "id_btm_2_color_2",
-                0,
-                27
-              ]
+              "content": ["id_btm_2_color_2", 0, 27]
             }
           ]
         }
@@ -416,28 +252,10 @@
   ],
   "layouts": {
     "labels": [
-      [
-        "Backspace",
-        "Split",
-        "2U"
-      ],
-      [
-        "Enter",
-        "ANSI",
-        "ISO"
-      ],
-      [
-        "Right Shift",
-        "1.25U - 1U",
-        "2.25U",
-        "1U - 1.25U"
-      ],
-      [
-        "Bottom Row",
-        "7U",
-        "9U",
-        "10U"
-      ],
+      ["Backspace", "Split", "2U"],
+      ["Enter", "ANSI", "ISO"],
+      ["Right Shift", "1.25U - 1U", "2.25U", "1U - 1.25U"],
+      ["Bottom Row", "7U", "9U", "10U"],
       "Left Macro 2U",
       "Right Macro 2U"
     ],
@@ -685,4 +503,3 @@
     ]
   }
 }
-
