@@ -12,13 +12,7 @@
       "ISO Enter",
       "Split Left Shift",
       "Split Right Shift",
-      [
-        "Bottom Row",
-        "6.25U",
-        "7U WK",
-        "7U WKL",
-        "7U HHKB"
-      ]
+      ["Bottom Row", "6.25U", "7U WK", "7U WKL", "7U HHKB"]
     ],
     "keymap": [
       [
@@ -306,4 +300,3 @@
     ]
   }
 }
-

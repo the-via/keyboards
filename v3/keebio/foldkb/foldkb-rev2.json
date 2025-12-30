@@ -6,31 +6,15 @@
     "rows": 10,
     "cols": 8
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgb_matrix"
-  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_rgb_matrix"],
   "layouts": {
     "labels": [
       "Left Encoder",
-      [
-        "Left Space",
-        "3x1u",
-        "1u-2u"
-      ],
+      ["Left Space", "3x1u", "1u-2u"],
       "Split Backspace",
-      [
-        "Right Shift",
-        "1.75u-1u",
-        "2.75u"
-      ],
-      [
-        "Right Space",
-        "1.25u-1.5u",
-        "2.75u"
-      ]
+      ["Right Shift", "1.75u-1u", "2.75u"],
+      ["Right Space", "1.25u-1.5u", "2.75u"]
     ],
     "keymap": [
       [
@@ -244,4 +228,3 @@
     ]
   }
 }
-

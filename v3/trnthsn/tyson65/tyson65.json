@@ -2,22 +2,14 @@
   "name": "Tyson65",
   "vendorId": "0x5453",
   "productId": "0x6533",
-  "menus": [
-    "qmk_rgblight"
-  ],
-  "keycodes": [
-    "qmk_lighting"
-  ],
   "matrix": {
     "rows": 5,
     "cols": 15
   },
+  "keycodes": ["qmk_lighting"],
+  "menus": ["qmk_rgblight"],
   "layouts": {
-    "labels": [
-      "Split Backspace",
-      "Enter ISO",
-      "Split Left Shift"
-    ],
+    "labels": ["Split Backspace", "Enter ISO", "Split Left Shift"],
     "keymap": [
       [
         {
