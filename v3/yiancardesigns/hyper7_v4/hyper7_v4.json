@@ -2,7 +2,10 @@
   "name": "Hyper7 v4",
   "vendorId": "0x8968",
   "productId": "0x6837",
-  "matrix": {"rows": 8, "cols": 28},
+  "matrix": {
+    "rows": 8,
+    "cols": 28
+  },
   "customKeycodes": [
     {
       "name": "H7 Quote",
@@ -56,10 +59,7 @@
     }
   ],
   "layouts": {
-    "labels": [
-      "Split 2Us",
-      "Modern Layout"
-    ],
+    "labels": ["Split 2Us", "Modern Layout"],
     "keymap": [
       [
         {
