@@ -1,7 +1,7 @@
 {
 	"name": "Tyson60",
 	"vendorId": "0x5453",
-	"productId": "0x5336",
+	"productId": "0x3633",
 	"menus": [
 		"qmk_rgblight"
 	],
