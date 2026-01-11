@@ -1,6 +1,6 @@
 {
   "name": "Type-K EC",
-  "vendorId": "0x6963",
+  "vendorId": "0x6369",
   "productId": "0x6BCC",
   "matrix": {
     "rows": 5,

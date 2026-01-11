@@ -1,6 +1,6 @@
 {
   "name": "EC 60X",
-  "vendorId": "0x6963",
+  "vendorId": "0x6369",
   "productId": "0x6BC7",
   "matrix": {
     "rows": 5,
