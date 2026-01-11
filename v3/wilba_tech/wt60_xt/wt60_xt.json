@@ -6,21 +6,14 @@
     "rows": 5,
     "cols": 16
   },
-  "menus": [
-    "qmk_audio"
-  ],
+  "menus": ["qmk_audio"],
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO Enter",
       "Split Left Shift",
       "Split Right Shift",
-      [
-        "Bottom Row",
-        "ANSI",
-        "7U",
-        "WKL"
-      ]
+      ["Bottom Row", "ANSI", "7U", "WKL"]
     ],
     "keymap": [
       [

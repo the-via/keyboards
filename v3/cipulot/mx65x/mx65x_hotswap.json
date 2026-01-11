@@ -7,7 +7,128 @@
     "cols": 15
   },
   "keycodes": ["qmk_lighting"],
-  "menus": ["qmk_rgblight"],
+  "menus": [
+    "qmk_rgblight",
+    {
+      "showIf": "{id_firmware_version} >= 1",
+      "label": "Advanced Features",
+      "content": [
+        {
+          "label": "SOCD",
+          "content": [
+            {
+              "label": "Pair #1 Mode",
+              "type": "dropdown",
+              "options": [
+                ["Disabled", 0],
+                ["Last Priority", 1],
+                ["Neutral", 2],
+                ["First Key Priority", 3],
+                ["Second Key Priority", 4]
+              ],
+              "content": ["id_socd_pair_1_mode", 0, 1]
+            },
+            {
+              "showIf": "{id_socd_pair_1_mode} != 0",
+              "content": [
+                {
+                  "label": "Pair #1 First Key",
+                  "type": "keycode",
+                  "content": ["id_socd_pair_1_key_1", 0, 2]
+                },
+                {
+                  "label": "Pair #1 Second Key",
+                  "type": "keycode",
+                  "content": ["id_socd_pair_1_key_2", 0, 3]
+                }
+              ]
+            },
+            {
+              "label": "Pair #2 Mode",
+              "type": "dropdown",
+              "options": [
+                ["Disabled", 0],
+                ["Last Priority", 1],
+                ["Neutral", 2],
+                ["First Key Priority", 3],
+                ["Second Key Priority", 4]
+              ],
+              "content": ["id_socd_pair_2_mode", 0, 4]
+            },
+            {
+              "showIf": "{id_socd_pair_2_mode} != 0",
+              "content": [
+                {
+                  "label": "Pair #2 First Key",
+                  "type": "keycode",
+                  "content": ["id_socd_pair_2_key_1", 0, 5]
+                },
+                {
+                  "label": "Pair #2 Second Key",
+                  "type": "keycode",
+                  "content": ["id_socd_pair_2_key_2", 0, 6]
+                }
+              ]
+            },
+            {
+              "label": "Pair #3 Mode",
+              "type": "dropdown",
+              "options": [
+                ["Disabled", 0],
+                ["Last Priority", 1],
+                ["Neutral", 2],
+                ["First Key Priority", 3],
+                ["Second Key Priority", 4]
+              ],
+              "content": ["id_socd_pair_3_mode", 0, 7]
+            },
+            {
+              "showIf": "{id_socd_pair_3_mode} != 0",
+              "content": [
+                {
+                  "label": "Pair #3 First Key",
+                  "type": "keycode",
+                  "content": ["id_socd_pair_3_key_1", 0, 8]
+                },
+                {
+                  "label": "Pair #3 Second Key",
+                  "type": "keycode",
+                  "content": ["id_socd_pair_3_key_2", 0, 9]
+                }
+              ]
+            },
+            {
+              "label": "Pair #4 Mode",
+              "type": "dropdown",
+              "options": [
+                ["Disabled", 0],
+                ["Last Priority", 1],
+                ["Neutral", 2],
+                ["First Key Priority", 3],
+                ["Second Key Priority", 4]
+              ],
+              "content": ["id_socd_pair_4_mode", 0, 10]
+            },
+            {
+              "showIf": "{id_socd_pair_4_mode} != 0",
+              "content": [
+                {
+                  "label": "Pair #4 First Key",
+                  "type": "keycode",
+                  "content": ["id_socd_pair_4_key_1", 0, 11]
+                },
+                {
+                  "label": "Pair #4 Second Key",
+                  "type": "keycode",
+                  "content": ["id_socd_pair_4_key_2", 0, 12]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "layouts": {
     "labels": [
       "Split Backspace",
