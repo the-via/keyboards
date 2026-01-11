@@ -1,7 +1,7 @@
 {
   "name": "EC 980C",
   "vendorId": "0x6369",
-  "productId": "0x6BFA",
+  "productId": "0x6BBE",
   "matrix": {
     "rows": 6,
     "cols": 19
@@ -9,140 +9,93 @@
   "keycodes": ["qmk_lighting"],
   "menus": [
     {
-      "label": "Indicators",
+      "label": "Lightning",
       "content": [
         {
-          "label": "Left indicator",
+          "label": "Indicators",
           "content": [
             {
-              "label": "Enable Left Indicator",
+              "label": "Enable Num Lock indicator",
               "type": "toggle",
-              "content": ["id_ind1_enabled", 0, 1]
+              "content": ["id_num_indicator_enabled", 0, 1]
             },
             {
-              "showIf": "{id_ind1_enabled} == 1",
-              "content": [
-                {
-                  "label": "Brightness",
-                  "type": "range",
-                  "options": [0, 255],
-                  "content": ["id_ind1_brightness", 0, 2]
-                },
-                {
-                  "label": "Color",
-                  "type": "color",
-                  "content": ["id_ind1_color", 0, 3]
-                },
-                {
-                  "label": "Function",
-                  "type": "dropdown",
-                  "options": [
-                    "None",
-                    "Caps Lock",
-                    "Num Lock",
-                    "Scroll Lock",
-                    "Layer 0",
-                    "Layer 1",
-                    "Layer 2",
-                    "Layer 3",
-                    "Layer 4",
-                    "Layer 5",
-                    "Layer 6",
-                    "Layer 7"
-                  ],
-                  "content": ["id_ind1_func", 0, 4]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Central indicator",
-          "content": [
-            {
-              "label": "Enable Central Indicator",
-              "type": "toggle",
-              "content": ["id_ind2_enabled", 0, 5]
+              "showIf": "{id_num_indicator_enabled} == 1",
+              "label": "Num Lock indicator brightness",
+              "type": "range",
+              "options": [0, 255],
+              "content": ["id_num_indicator_brightness", 0, 2]
             },
             {
-              "showIf": "{id_ind2_enabled} == 1",
-              "content": [
-                {
-                  "label": "Brightness",
-                  "type": "range",
-                  "options": [0, 255],
-                  "content": ["id_ind2_brightness", 0, 6]
-                },
-                {
-                  "label": "Color",
-                  "type": "color",
-                  "content": ["id_ind2_color", 0, 7]
-                },
-                {
-                  "label": "Function",
-                  "type": "dropdown",
-                  "options": [
-                    "None",
-                    "Caps Lock",
-                    "Num Lock",
-                    "Scroll Lock",
-                    "Layer 0",
-                    "Layer 1",
-                    "Layer 2",
-                    "Layer 3",
-                    "Layer 4",
-                    "Layer 5",
-                    "Layer 6",
-                    "Layer 7"
-                  ],
-                  "content": ["id_ind2_func", 0, 8]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Right indicator",
-          "content": [
-            {
-              "label": "Enable Right Indicator",
-              "type": "toggle",
-              "content": ["id_ind3_enabled", 0, 9]
+              "showIf": "{id_num_indicator_enabled} == 1",
+              "label": "Num Lock indicator color",
+              "type": "color",
+              "content": ["id_num_indicator_color", 0, 3]
             },
             {
-              "showIf": "{id_ind3_enabled} == 1",
-              "content": [
-                {
-                  "label": "Brightness",
-                  "type": "range",
-                  "options": [0, 255],
-                  "content": ["id_ind3_brightness", 0, 10]
-                },
-                {
-                  "label": "Color",
-                  "type": "color",
-                  "content": ["id_ind3_color", 0, 11]
-                },
-                {
-                  "label": "Function",
-                  "type": "dropdown",
-                  "options": [
-                    "None",
-                    "Caps Lock",
-                    "Num Lock",
-                    "Scroll Lock",
-                    "Layer 0",
-                    "Layer 1",
-                    "Layer 2",
-                    "Layer 3",
-                    "Layer 4",
-                    "Layer 5",
-                    "Layer 6",
-                    "Layer 7"
-                  ],
-                  "content": ["id_ind3_func", 0, 12]
-                }
+              "label": "Enable Caps Lock indicator",
+              "type": "toggle",
+              "content": ["id_caps_indicator_enabled", 0, 4]
+            },
+            {
+              "showIf": "{id_caps_indicator_enabled} == 1",
+              "label": "Caps Lock indicator brightness",
+              "type": "range",
+              "options": [0, 255],
+              "content": ["id_caps_indicator_brightness", 0, 5]
+            },
+            {
+              "showIf": "{id_caps_indicator_enabled} == 1",
+              "label": "Caps Lock indicator color",
+              "type": "color",
+              "content": ["id_caps_indicator_color", 0, 6]
+            },
+            {
+              "label": "Enable Scroll Lock indicator",
+              "type": "toggle",
+              "content": ["id_scroll_indicator_enabled", 0, 7]
+            },
+            {
+              "showIf": "{id_scroll_indicator_enabled} == 1",
+              "label": "Scroll Lock indicator brightness",
+              "type": "range",
+              "options": [0, 255],
+              "content": ["id_scroll_indicator_brightness", 0, 8]
+            },
+            {
+              "showIf": "{id_scroll_indicator_enabled} == 1",
+              "label": "Scroll Lock indicator color",
+              "type": "color",
+              "content": ["id_scroll_indicator_color", 0, 9]
+            },
+            {
+              "label": "Brightness",
+              "type": "range",
+              "options": [0, 255],
+              "content": ["id_qmk_rgb_matrix_brightness", 3, 1]
+            },
+            {
+              "label": "Effect",
+              "type": "dropdown",
+              "content": ["id_qmk_rgb_matrix_effect", 3, 2],
+              "options": [
+                ["Solid Color", 1],
+                ["Breathing", 2],
+                ["Cycle Left/Right", 3]
               ]
+            },
+            {
+              "showIf": "{id_qmk_rgb_matrix_effect} != 0",
+              "label": "Effect Speed",
+              "type": "range",
+              "options": [0, 255],
+              "content": ["id_qmk_rgb_matrix_effect_speed", 3, 3]
+            },
+            {
+              "showIf": "{id_qmk_rgb_matrix_effect} != 0 && {id_qmk_rgb_matrix_effect} != 24 && {id_qmk_rgb_matrix_effect} != 28 && {id_qmk_rgb_matrix_effect} != 29 && {id_qmk_rgb_matrix_effect} != 32",
+              "label": "Color",
+              "type": "color",
+              "content": ["id_qmk_rgb_matrix_color", 3, 4]
             }
           ]
         }
@@ -158,7 +111,7 @@
               "label": "Mode",
               "type": "dropdown",
               "options": ["APC", "Rapid Trigger"],
-              "content": ["id_actuation_mode", 0, 13]
+              "content": ["id_actuation_mode", 0, 10]
             },
             {
               "showIf": "{id_actuation_mode} == 0",
@@ -167,19 +120,19 @@
                   "label": "Actuation Level (0% | 100%)",
                   "type": "range",
                   "options": [1, 1023],
-                  "content": ["id_apc_actuation_threshold", 0, 14]
+                  "content": ["id_apc_actuation_threshold", 0, 11]
                 },
                 {
                   "label": "Release Level (0% | 100%, ALWAYS < Actuation Level)",
                   "type": "range",
                   "options": [1, 1023],
-                  "content": ["id_apc_release_threshold", 0, 15]
+                  "content": ["id_apc_release_threshold", 0, 12]
                 },
                 {
                   "label": "Apply & save changes",
                   "type": "button",
                   "options": [0],
-                  "content": ["id_save_threshold_data", 0, 16]
+                  "content": ["id_save_threshold_data", 0, 13]
                 }
               ]
             },
@@ -190,25 +143,25 @@
                   "label": "Initial Deadzone Offset (0% | 100%)",
                   "type": "range",
                   "options": [1, 1023],
-                  "content": ["id_rt_initial_deadzone_offset", 0, 17]
+                  "content": ["id_rt_initial_deadzone_offset", 0, 14]
                 },
                 {
                   "label": "Actuation Offset (1-255)",
                   "type": "range",
                   "options": [1, 255],
-                  "content": ["id_rt_actuation_offset", 0, 18]
+                  "content": ["id_rt_actuation_offset", 0, 15]
                 },
                 {
                   "label": "Release Offset (1-255)",
                   "type": "range",
                   "options": [1, 255],
-                  "content": ["id_rt_release_offset", 0, 19]
+                  "content": ["id_rt_release_offset", 0, 16]
                 },
                 {
                   "label": "Apply & save changes",
                   "type": "button",
                   "options": [1],
-                  "content": ["id_save_threshold_data", 0, 16]
+                  "content": ["id_save_threshold_data", 0, 13]
                 }
               ]
             }
@@ -220,143 +173,25 @@
             {
               "label": "Bottoming Calibration",
               "type": "toggle",
-              "content": ["id_bottoming_calibration", 0, 20]
+              "content": ["id_bottoming_calibration", 0, 17]
             },
             {
               "label": "Noise Floor Calibration (DO NOT PRESS ANY KEY WHILE CLICKING)",
               "type": "button",
               "options": [0],
-              "content": ["id_noise_floor_calibration", 0, 21]
+              "content": ["id_noise_floor_calibration", 0, 18]
             },
             {
               "label": "Show Calibration Data",
               "type": "button",
               "options": [0],
-              "content": ["id_show_calibration_data", 0, 22]
+              "content": ["id_show_calibration_data", 0, 19]
             },
             {
               "label": "Clear Bottoming Calibration Data",
               "type": "button",
               "options": [0],
-              "content": ["id_clear_bottoming_calibration_data", 0, 23]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "label": "Advanced Features",
-      "content": [
-        {
-          "label": "SOCD",
-          "content": [
-            {
-              "label": "Pair #1 Mode",
-              "type": "dropdown",
-              "options": [
-                ["Disabled", 0],
-                ["Last Priority", 1],
-                ["Neutral", 2],
-                ["First Key Priority", 3],
-                ["Second Key Priority", 4]
-              ],
-              "content": ["id_socd_pair_1_mode", 0, 24]
-            },
-            {
-              "showIf": "{id_socd_pair_1_mode} != 0",
-              "content": [
-                {
-                  "label": "Pair #1 First Key",
-                  "type": "keycode",
-                  "content": ["id_socd_pair_1_key_1", 0, 25]
-                },
-                {
-                  "label": "Pair #1 Second Key",
-                  "type": "keycode",
-                  "content": ["id_socd_pair_1_key_2", 0, 26]
-                }
-              ]
-            },
-            {
-              "label": "Pair #2 Mode",
-              "type": "dropdown",
-              "options": [
-                ["Disabled", 0],
-                ["Last Priority", 1],
-                ["Neutral", 2],
-                ["First Key Priority", 3],
-                ["Second Key Priority", 4]
-              ],
-              "content": ["id_socd_pair_2_mode", 0, 27]
-            },
-            {
-              "showIf": "{id_socd_pair_2_mode} != 0",
-              "content": [
-                {
-                  "label": "Pair #2 First Key",
-                  "type": "keycode",
-                  "content": ["id_socd_pair_2_key_1", 0, 28]
-                },
-                {
-                  "label": "Pair #2 Second Key",
-                  "type": "keycode",
-                  "content": ["id_socd_pair_2_key_2", 0, 29]
-                }
-              ]
-            },
-            {
-              "label": "Pair #3 Mode",
-              "type": "dropdown",
-              "options": [
-                ["Disabled", 0],
-                ["Last Priority", 1],
-                ["Neutral", 2],
-                ["First Key Priority", 3],
-                ["Second Key Priority", 4]
-              ],
-              "content": ["id_socd_pair_3_mode", 0, 30]
-            },
-            {
-              "showIf": "{id_socd_pair_3_mode} != 0",
-              "content": [
-                {
-                  "label": "Pair #3 First Key",
-                  "type": "keycode",
-                  "content": ["id_socd_pair_3_key_1", 0, 31]
-                },
-                {
-                  "label": "Pair #3 Second Key",
-                  "type": "keycode",
-                  "content": ["id_socd_pair_3_key_2", 0, 32]
-                }
-              ]
-            },
-            {
-              "label": "Pair #4 Mode",
-              "type": "dropdown",
-              "options": [
-                ["Disabled", 0],
-                ["Last Priority", 1],
-                ["Neutral", 2],
-                ["First Key Priority", 3],
-                ["Second Key Priority", 4]
-              ],
-              "content": ["id_socd_pair_4_mode", 0, 33]
-            },
-            {
-              "showIf": "{id_socd_pair_4_mode} != 0",
-              "content": [
-                {
-                  "label": "Pair #4 First Key",
-                  "type": "keycode",
-                  "content": ["id_socd_pair_4_key_1", 0, 34]
-                },
-                {
-                  "label": "Pair #4 Second Key",
-                  "type": "keycode",
-                  "content": ["id_socd_pair_4_key_2", 0, 35]
-                }
-              ]
+              "content": ["id_clear_bottoming_calibration_data", 0, 20]
             }
           ]
         }
