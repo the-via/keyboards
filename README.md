@@ -28,4 +28,3 @@ Follow the [documentation](https://www.caniusevia.com/docs/specification) detail
 If you encounter any issues or bugs while using the [VIA Web Application](https://usevia.app), please report them by opening an issue in the [VIA Web Application Repository](https://github.com/the-via/app/issues). This will help us to track down and resolve problems, and improve the VIA experience for everyone.
 
 Before reporting, please make sure to check if an issue has already been reported. Thank you!
-

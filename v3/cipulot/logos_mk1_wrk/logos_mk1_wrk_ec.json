@@ -26,13 +26,13 @@
                   "label": "Actuation Level (0% | 100%)",
                   "type": "range",
                   "options": [1, 1023],
-                  "content": ["id_mode_0_actuation_threshold", 0, 2]
+                  "content": ["id_apc_actuation_threshold", 0, 2]
                 },
                 {
                   "label": "Release Level (0% | 100%, ALWAYS < Actuation Level)",
                   "type": "range",
                   "options": [1, 1023],
-                  "content": ["id_mode_0_release_threshold", 0, 3]
+                  "content": ["id_apc_release_threshold", 0, 3]
                 },
                 {
                   "label": "Apply & save changes",
@@ -49,19 +49,19 @@
                   "label": "Initial Deadzone Offset (0% | 100%)",
                   "type": "range",
                   "options": [1, 1023],
-                  "content": ["id_mode_1_initial_deadzone_offset", 0, 5]
+                  "content": ["id_rt_initial_deadzone_offset", 0, 5]
                 },
                 {
                   "label": "Actuation Offset (1-255)",
                   "type": "range",
                   "options": [1, 255],
-                  "content": ["id_mode_1_actuation_offset", 0, 6]
+                  "content": ["id_rt_actuation_offset", 0, 6]
                 },
                 {
                   "label": "Release Offset (1-255)",
                   "type": "range",
                   "options": [1, 255],
-                  "content": ["id_mode_1_release_offset", 0, 7]
+                  "content": ["id_rt_release_offset", 0, 7]
                 },
                 {
                   "label": "Apply & save changes",
@@ -98,6 +98,125 @@
               "type": "button",
               "options": [0],
               "content": ["id_clear_bottoming_calibration_data", 0, 11]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "showIf": "{id_firmware_version} >= 1",
+      "label": "Advanced Features",
+      "content": [
+        {
+          "label": "SOCD",
+          "content": [
+            {
+              "label": "Pair #1 Mode",
+              "type": "dropdown",
+              "options": [
+                ["Disabled", 0],
+                ["Last Priority", 1],
+                ["Neutral", 2],
+                ["First Key Priority", 3],
+                ["Second Key Priority", 4]
+              ],
+              "content": ["id_socd_pair_1_mode", 0, 12]
+            },
+            {
+              "showIf": "{id_socd_pair_1_mode} != 0",
+              "content": [
+                {
+                  "label": "Pair #1 First Key",
+                  "type": "keycode",
+                  "content": ["id_socd_pair_1_key_1", 0, 13]
+                },
+                {
+                  "label": "Pair #1 Second Key",
+                  "type": "keycode",
+                  "content": ["id_socd_pair_1_key_2", 0, 14]
+                }
+              ]
+            },
+            {
+              "label": "Pair #2 Mode",
+              "type": "dropdown",
+              "options": [
+                ["Disabled", 0],
+                ["Last Priority", 1],
+                ["Neutral", 2],
+                ["First Key Priority", 3],
+                ["Second Key Priority", 4]
+              ],
+              "content": ["id_socd_pair_2_mode", 0, 15]
+            },
+            {
+              "showIf": "{id_socd_pair_2_mode} != 0",
+              "content": [
+                {
+                  "label": "Pair #2 First Key",
+                  "type": "keycode",
+                  "content": ["id_socd_pair_2_key_1", 0, 16]
+                },
+                {
+                  "label": "Pair #2 Second Key",
+                  "type": "keycode",
+                  "content": ["id_socd_pair_2_key_2", 0, 17]
+                }
+              ]
+            },
+            {
+              "label": "Pair #3 Mode",
+              "type": "dropdown",
+              "options": [
+                ["Disabled", 0],
+                ["Last Priority", 1],
+                ["Neutral", 2],
+                ["First Key Priority", 3],
+                ["Second Key Priority", 4]
+              ],
+              "content": ["id_socd_pair_3_mode", 0, 18]
+            },
+            {
+              "showIf": "{id_socd_pair_3_mode} != 0",
+              "content": [
+                {
+                  "label": "Pair #3 First Key",
+                  "type": "keycode",
+                  "content": ["id_socd_pair_3_key_1", 0, 19]
+                },
+                {
+                  "label": "Pair #3 Second Key",
+                  "type": "keycode",
+                  "content": ["id_socd_pair_3_key_2", 0, 20]
+                }
+              ]
+            },
+            {
+              "label": "Pair #4 Mode",
+              "type": "dropdown",
+              "options": [
+                ["Disabled", 0],
+                ["Last Priority", 1],
+                ["Neutral", 2],
+                ["First Key Priority", 3],
+                ["Second Key Priority", 4]
+              ],
+              "content": ["id_socd_pair_4_mode", 0, 21]
+            },
+            {
+              "showIf": "{id_socd_pair_4_mode} != 0",
+              "content": [
+                {
+                  "label": "Pair #4 First Key",
+                  "type": "keycode",
+                  "content": ["id_socd_pair_4_key_1", 0, 22]
+                },
+                {
+                  "label": "Pair #4 Second Key",
+                  "type": "keycode",
+                  "content": ["id_socd_pair_4_key_2", 0, 23]
+                }
+              ]
             }
           ]
         }

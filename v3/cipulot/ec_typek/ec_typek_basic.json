@@ -6,9 +6,7 @@
     "rows": 5,
     "cols": 15
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
+  "keycodes": ["qmk_lighting"],
   "menus": [
     {
       "label": "Lightning",
@@ -19,101 +17,56 @@
             {
               "label": "Enable Num Lock indicator",
               "type": "toggle",
-              "content": [
-                "id_num_indicator_enabled",
-                0,
-                1
-              ]
+              "content": ["id_num_indicator_enabled", 0, 1]
             },
             {
               "showIf": "{id_num_indicator_enabled} == 1",
               "label": "Num Lock indicator brightness",
               "type": "range",
-              "options": [
-                0,
-                255
-              ],
-              "content": [
-                "id_num_indicator_brightness",
-                0,
-                2
-              ]
+              "options": [0, 255],
+              "content": ["id_num_indicator_brightness", 0, 2]
             },
             {
               "showIf": "{id_num_indicator_enabled} == 1",
               "label": "Num Lock indicator color",
               "type": "color",
-              "content": [
-                "id_num_indicator_color",
-                0,
-                3
-              ]
+              "content": ["id_num_indicator_color", 0, 3]
             },
             {
               "label": "Enable Caps Lock indicator",
               "type": "toggle",
-              "content": [
-                "id_caps_indicator_enabled",
-                0,
-                4
-              ]
+              "content": ["id_caps_indicator_enabled", 0, 4]
             },
             {
               "showIf": "{id_caps_indicator_enabled} == 1",
               "label": "Caps Lock indicator brightness",
               "type": "range",
-              "options": [
-                0,
-                255
-              ],
-              "content": [
-                "id_caps_indicator_brightness",
-                0,
-                5
-              ]
+              "options": [0, 255],
+              "content": ["id_caps_indicator_brightness", 0, 5]
             },
             {
               "showIf": "{id_caps_indicator_enabled} == 1",
               "label": "Caps Lock indicator color",
               "type": "color",
-              "content": [
-                "id_caps_indicator_color",
-                0,
-                6
-              ]
+              "content": ["id_caps_indicator_color", 0, 6]
             },
             {
               "label": "Enable Scroll Lock indicator",
               "type": "toggle",
-              "content": [
-                "id_scroll_indicator_enabled",
-                0,
-                7
-              ]
+              "content": ["id_scroll_indicator_enabled", 0, 7]
             },
             {
               "showIf": "{id_scroll_indicator_enabled} == 1",
               "label": "Scroll Lock indicator brightness",
               "type": "range",
-              "options": [
-                0,
-                255
-              ],
-              "content": [
-                "id_scroll_indicator_brightness",
-                0,
-                8
-              ]
+              "options": [0, 255],
+              "content": ["id_scroll_indicator_brightness", 0, 8]
             },
             {
               "showIf": "{id_scroll_indicator_enabled} == 1",
               "label": "Scroll Lock indicator color",
               "type": "color",
-              "content": [
-                "id_scroll_indicator_color",
-                0,
-                9
-              ]
+              "content": ["id_scroll_indicator_color", 0, 9]
             }
           ]
         },
@@ -123,24 +76,13 @@
             {
               "label": "Brightness",
               "type": "range",
-              "options": [
-                0,
-                255
-              ],
-              "content": [
-                "id_qmk_rgblight_brightness",
-                2,
-                1
-              ]
+              "options": [0, 255],
+              "content": ["id_qmk_rgblight_brightness", 2, 1]
             },
             {
               "label": "Effect",
               "type": "dropdown",
-              "content": [
-                "id_qmk_rgblight_effect",
-                2,
-                2
-              ],
+              "content": ["id_qmk_rgblight_effect", 2, 2],
               "options": [
                 "All Off",
                 "Solid Color",
@@ -191,25 +133,14 @@
               "showIf": "{id_qmk_rgblight_effect} != 0",
               "label": "Effect Speed",
               "type": "range",
-              "options": [
-                0,
-                255
-              ],
-              "content": [
-                "id_qmk_rgblight_effect_speed",
-                2,
-                3
-              ]
+              "options": [0, 255],
+              "content": ["id_qmk_rgblight_effect_speed", 2, 3]
             },
             {
               "showIf": "{id_qmk_rgblight_effect} != 0 && {id_qmk_rgblight_effect} != 35",
               "label": "Color",
               "type": "color",
-              "content": [
-                "id_qmk_rgblight_color",
-                2,
-                4
-              ]
+              "content": ["id_qmk_rgblight_color", 2, 4]
             }
           ]
         }
@@ -224,15 +155,8 @@
             {
               "label": "Mode",
               "type": "dropdown",
-              "options": [
-                "APC",
-                "Rapid Trigger"
-              ],
-              "content": [
-                "id_actuation_mode",
-                0,
-                10
-              ]
+              "options": ["APC", "Rapid Trigger"],
+              "content": ["id_actuation_mode", 0, 10]
             },
             {
               "showIf": "{id_actuation_mode} == 0",
@@ -240,40 +164,20 @@
                 {
                   "label": "Actuation Level (0% | 100%)",
                   "type": "range",
-                  "options": [
-                    1,
-                    1023
-                  ],
-                  "content": [
-                    "id_mode_0_actuation_threshold",
-                    0,
-                    11
-                  ]
+                  "options": [1, 1023],
+                  "content": ["id_apc_actuation_threshold", 0, 11]
                 },
                 {
                   "label": "Release Level (0% | 100%, ALWAYS < Actuation Level)",
                   "type": "range",
-                  "options": [
-                    1,
-                    1023
-                  ],
-                  "content": [
-                    "id_mode_0_release_threshold",
-                    0,
-                    12
-                  ]
+                  "options": [1, 1023],
+                  "content": ["id_apc_release_threshold", 0, 12]
                 },
                 {
                   "label": "Apply & save changes",
                   "type": "button",
-                  "options": [
-                    0
-                  ],
-                  "content": [
-                    "id_save_threshold_data",
-                    0,
-                    13
-                  ]
+                  "options": [0],
+                  "content": ["id_save_threshold_data", 0, 13]
                 }
               ]
             },
@@ -283,53 +187,26 @@
                 {
                   "label": "Initial Deadzone Offset (0% | 100%)",
                   "type": "range",
-                  "options": [
-                    1,
-                    1023
-                  ],
-                  "content": [
-                    "id_mode_1_initial_deadzone_offset",
-                    0,
-                    14
-                  ]
+                  "options": [1, 1023],
+                  "content": ["id_rt_initial_deadzone_offset", 0, 14]
                 },
                 {
                   "label": "Actuation Offset (1-255)",
                   "type": "range",
-                  "options": [
-                    1,
-                    255
-                  ],
-                  "content": [
-                    "id_mode_1_actuation_offset",
-                    0,
-                    15
-                  ]
+                  "options": [1, 255],
+                  "content": ["id_rt_actuation_offset", 0, 15]
                 },
                 {
                   "label": "Release Offset (1-255)",
                   "type": "range",
-                  "options": [
-                    1,
-                    255
-                  ],
-                  "content": [
-                    "id_mode_1_release_offset",
-                    0,
-                    16
-                  ]
+                  "options": [1, 255],
+                  "content": ["id_rt_release_offset", 0, 16]
                 },
                 {
                   "label": "Apply & save changes",
                   "type": "button",
-                  "options": [
-                    1
-                  ],
-                  "content": [
-                    "id_save_threshold_data",
-                    0,
-                    13
-                  ]
+                  "options": [1],
+                  "content": ["id_save_threshold_data", 0, 13]
                 }
               ]
             }
@@ -341,47 +218,25 @@
             {
               "label": "Bottoming Calibration",
               "type": "toggle",
-              "content": [
-                "id_bottoming_calibration",
-                0,
-                17
-              ]
+              "content": ["id_bottoming_calibration", 0, 17]
             },
             {
               "label": "Noise Floor Calibration (DO NOT PRESS ANY KEY WHILE CLICKING)",
               "type": "button",
-              "options": [
-                0
-              ],
-              "content": [
-                "id_noise_floor_calibration",
-                0,
-                18
-              ]
+              "options": [0],
+              "content": ["id_noise_floor_calibration", 0, 18]
             },
             {
               "label": "Show Calibration Data",
               "type": "button",
-              "options": [
-                0
-              ],
-              "content": [
-                "id_show_calibration_data",
-                0,
-                19
-              ]
+              "options": [0],
+              "content": ["id_show_calibration_data", 0, 19]
             },
             {
               "label": "Clear Bottoming Calibration Data",
               "type": "button",
-              "options": [
-                0
-              ],
-              "content": [
-                "id_clear_bottoming_calibration_data",
-                0,
-                20
-              ]
+              "options": [0],
+              "content": ["id_clear_bottoming_calibration_data", 0, 20]
             }
           ]
         }
