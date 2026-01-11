@@ -1,101 +1,24 @@
 {
   "name": "EC Alice",
   "vendorId": "0x6369",
-  "productId": "0x6BF9",
+  "productId": "0x6BD5",
   "matrix": {
     "rows": 5,
     "cols": 15
   },
   "keycodes": ["qmk_lighting"],
   "menus": [
-    {
-      "label": "Lighting",
-      "content": [
-        {
-          "label": "Underglow",
-          "content": [
-            {
-              "label": "Brightness",
-              "type": "range",
-              "options": [0, 255],
-              "content": ["id_qmk_rgblight_brightness", 2, 1]
-            },
-            {
-              "label": "Effect",
-              "type": "dropdown",
-              "content": ["id_qmk_rgblight_effect", 2, 2],
-              "options": [
-                ["Solid Color", 1],
-                ["Breathing 1", 2],
-                ["Breathing 2", 3],
-                ["Breathing 3", 4],
-                ["Breathing 4", 5],
-                ["Rainbow Mood 1", 6],
-                ["Rainbow Mood 2", 7],
-                ["Rainbow Mood 3", 8],
-                ["Rainbow Swirl 1", 9],
-                ["Rainbow Swirl 2", 10],
-                ["Rainbow Swirl 3", 11],
-                ["Rainbow Swirl 4", 12],
-                ["Rainbow Swirl 5", 13],
-                ["Rainbow Swirl 6", 14],
-                ["Snake 1", 15],
-                ["Snake 2", 16],
-                ["Snake 3", 17],
-                ["Snake 4", 18],
-                ["Snake 5", 19],
-                ["Snake 6", 20],
-                ["Knight 1", 21],
-                ["Knight 2", 22],
-                ["Knight 3", 23],
-                ["Christmas", 24],
-                ["Gradient 1", 25],
-                ["Gradient 2", 26],
-                ["Gradient 3", 27],
-                ["Gradient 4", 28],
-                ["Gradient 5", 29],
-                ["Gradient 6", 30],
-                ["Gradient 7", 31],
-                ["Gradient 8", 32],
-                ["Gradient 9", 33],
-                ["Gradient 10", 34],
-                ["RGB Test", 35],
-                ["Alternating", 36],
-                ["Twinkle 1", 37],
-                ["Twinkle 2", 38],
-                ["Twinkle 3", 39],
-                ["Twinkle 4", 40],
-                ["Twinkle 5", 41],
-                ["Twinkle 6", 42]
-              ]
-            },
-            {
-              "showIf": "{id_qmk_rgblight_effect} != 0",
-              "label": "Effect Speed",
-              "type": "range",
-              "options": [0, 255],
-              "content": ["id_qmk_rgblight_effect_speed", 2, 3]
-            },
-            {
-              "showIf": "{id_qmk_rgblight_effect} != 0 && {id_qmk_rgblight_effect} != 35",
-              "label": "Color",
-              "type": "color",
-              "content": ["id_qmk_rgblight_color", 2, 4]
-            }
-          ]
-        }
-      ]
-    },
+    "qmk_rgblight",
     {
       "label": "Indicators",
       "content": [
         {
-          "label": "Left indicator",
+          "label": "Top indicator",
           "content": [
             {
-              "label": "Enable Left Indicator",
+              "label": "Enable Top Indicator",
               "type": "toggle",
-              "content": ["id_ind3_enabled", 0, 9]
+              "content": ["id_ind3_enabled", 0, 11]
             },
             {
               "showIf": "{id_ind3_enabled} == 1",
@@ -104,15 +27,15 @@
                   "label": "Brightness",
                   "type": "range",
                   "options": [0, 255],
-                  "content": ["id_ind3_brightness", 0, 10]
+                  "content": ["id_ind3_brightness", 0, 12]
                 },
                 {
                   "label": "Color",
                   "type": "color",
-                  "content": ["id_ind3_color", 0, 11]
+                  "content": ["id_ind3_color", 0, 13]
                 },
                 {
-                  "label": "Function",
+                  "label": "Function 1",
                   "type": "dropdown",
                   "options": [
                     "None",
@@ -128,7 +51,26 @@
                     "Layer 6",
                     "Layer 7"
                   ],
-                  "content": ["id_ind3_func", 0, 12]
+                  "content": ["id_ind3_func1", 0, 14]
+                },
+                {
+                  "label": "Function 2",
+                  "type": "dropdown",
+                  "options": [
+                    "None",
+                    "Caps Lock",
+                    "Num Lock",
+                    "Scroll Lock",
+                    "Layer 0",
+                    "Layer 1",
+                    "Layer 2",
+                    "Layer 3",
+                    "Layer 4",
+                    "Layer 5",
+                    "Layer 6",
+                    "Layer 7"
+                  ],
+                  "content": ["id_ind3_func2", 0, 15]
                 }
               ]
             }
@@ -140,7 +82,7 @@
             {
               "label": "Enable Central Indicator",
               "type": "toggle",
-              "content": ["id_ind2_enabled", 0, 5]
+              "content": ["id_ind2_enabled", 0, 6]
             },
             {
               "showIf": "{id_ind2_enabled} == 1",
@@ -149,15 +91,15 @@
                   "label": "Brightness",
                   "type": "range",
                   "options": [0, 255],
-                  "content": ["id_ind2_brightness", 0, 6]
+                  "content": ["id_ind2_brightness", 0, 7]
                 },
                 {
                   "label": "Color",
                   "type": "color",
-                  "content": ["id_ind2_color", 0, 7]
+                  "content": ["id_ind2_color", 0, 8]
                 },
                 {
-                  "label": "Function",
+                  "label": "Function 1",
                   "type": "dropdown",
                   "options": [
                     "None",
@@ -173,17 +115,36 @@
                     "Layer 6",
                     "Layer 7"
                   ],
-                  "content": ["id_ind2_func", 0, 8]
+                  "content": ["id_ind2_func1", 0, 9]
+                },
+                {
+                  "label": "Function 2",
+                  "type": "dropdown",
+                  "options": [
+                    "None",
+                    "Caps Lock",
+                    "Num Lock",
+                    "Scroll Lock",
+                    "Layer 0",
+                    "Layer 1",
+                    "Layer 2",
+                    "Layer 3",
+                    "Layer 4",
+                    "Layer 5",
+                    "Layer 6",
+                    "Layer 7"
+                  ],
+                  "content": ["id_ind2_func2", 0, 10]
                 }
               ]
             }
           ]
         },
         {
-          "label": "Right indicator",
+          "label": "Bottom indicator",
           "content": [
             {
-              "label": "Enable Right Indicator",
+              "label": "Enable Bottom Indicator",
               "type": "toggle",
               "content": ["id_ind1_enabled", 0, 1]
             },
@@ -202,7 +163,7 @@
                   "content": ["id_ind1_color", 0, 3]
                 },
                 {
-                  "label": "Function",
+                  "label": "Function 1",
                   "type": "dropdown",
                   "options": [
                     "None",
@@ -218,7 +179,26 @@
                     "Layer 6",
                     "Layer 7"
                   ],
-                  "content": ["id_ind1_func", 0, 4]
+                  "content": ["id_ind1_func1", 0, 4]
+                },
+                {
+                  "label": "Function 2",
+                  "type": "dropdown",
+                  "options": [
+                    "None",
+                    "Caps Lock",
+                    "Num Lock",
+                    "Scroll Lock",
+                    "Layer 0",
+                    "Layer 1",
+                    "Layer 2",
+                    "Layer 3",
+                    "Layer 4",
+                    "Layer 5",
+                    "Layer 6",
+                    "Layer 7"
+                  ],
+                  "content": ["id_ind1_func2", 0, 5]
                 }
               ]
             }
@@ -236,7 +216,7 @@
               "label": "Mode",
               "type": "dropdown",
               "options": ["APC", "Rapid Trigger"],
-              "content": ["id_actuation_mode", 0, 13]
+              "content": ["id_actuation_mode", 0, 16]
             },
             {
               "showIf": "{id_actuation_mode} == 0",
@@ -245,19 +225,19 @@
                   "label": "Actuation Level (0% | 100%)",
                   "type": "range",
                   "options": [1, 1023],
-                  "content": ["id_apc_actuation_threshold", 0, 14]
+                  "content": ["id_apc_actuation_threshold", 0, 17]
                 },
                 {
                   "label": "Release Level (0% | 100%, ALWAYS < Actuation Level)",
                   "type": "range",
                   "options": [1, 1023],
-                  "content": ["id_apc_release_threshold", 0, 15]
+                  "content": ["id_apc_release_threshold", 0, 18]
                 },
                 {
                   "label": "Apply & save changes",
                   "type": "button",
                   "options": [0],
-                  "content": ["id_save_threshold_data", 0, 16]
+                  "content": ["id_save_threshold_data", 0, 19]
                 }
               ]
             },
@@ -268,25 +248,25 @@
                   "label": "Initial Deadzone Offset (0% | 100%)",
                   "type": "range",
                   "options": [1, 1023],
-                  "content": ["id_rt_initial_deadzone_offset", 0, 17]
+                  "content": ["id_rt_initial_deadzone_offset", 0, 20]
                 },
                 {
                   "label": "Actuation Offset (1-255)",
                   "type": "range",
                   "options": [1, 255],
-                  "content": ["id_rt_actuation_offset", 0, 18]
+                  "content": ["id_rt_actuation_offset", 0, 21]
                 },
                 {
                   "label": "Release Offset (1-255)",
                   "type": "range",
                   "options": [1, 255],
-                  "content": ["id_rt_release_offset", 0, 19]
+                  "content": ["id_rt_release_offset", 0, 22]
                 },
                 {
                   "label": "Apply & save changes",
                   "type": "button",
                   "options": [1],
-                  "content": ["id_save_threshold_data", 0, 16]
+                  "content": ["id_save_threshold_data", 0, 19]
                 }
               ]
             }
@@ -298,143 +278,25 @@
             {
               "label": "Bottoming Calibration",
               "type": "toggle",
-              "content": ["id_bottoming_calibration", 0, 20]
+              "content": ["id_bottoming_calibration", 0, 23]
             },
             {
               "label": "Noise Floor Calibration (DO NOT PRESS ANY KEY WHILE CLICKING)",
               "type": "button",
               "options": [0],
-              "content": ["id_noise_floor_calibration", 0, 21]
+              "content": ["id_noise_floor_calibration", 0, 24]
             },
             {
               "label": "Show Calibration Data",
               "type": "button",
               "options": [0],
-              "content": ["id_show_calibration_data", 0, 22]
+              "content": ["id_show_calibration_data", 0, 25]
             },
             {
               "label": "Clear Bottoming Calibration Data",
               "type": "button",
               "options": [0],
-              "content": ["id_clear_bottoming_calibration_data", 0, 23]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "label": "Advanced Features",
-      "content": [
-        {
-          "label": "SOCD",
-          "content": [
-            {
-              "label": "Pair #1 Mode",
-              "type": "dropdown",
-              "options": [
-                ["Disabled", 0],
-                ["Last Priority", 1],
-                ["Neutral", 2],
-                ["First Key Priority", 3],
-                ["Second Key Priority", 4]
-              ],
-              "content": ["id_socd_pair_1_mode", 0, 24]
-            },
-            {
-              "showIf": "{id_socd_pair_1_mode} != 0",
-              "content": [
-                {
-                  "label": "Pair #1 First Key",
-                  "type": "keycode",
-                  "content": ["id_socd_pair_1_key_1", 0, 25]
-                },
-                {
-                  "label": "Pair #1 Second Key",
-                  "type": "keycode",
-                  "content": ["id_socd_pair_1_key_2", 0, 26]
-                }
-              ]
-            },
-            {
-              "label": "Pair #2 Mode",
-              "type": "dropdown",
-              "options": [
-                ["Disabled", 0],
-                ["Last Priority", 1],
-                ["Neutral", 2],
-                ["First Key Priority", 3],
-                ["Second Key Priority", 4]
-              ],
-              "content": ["id_socd_pair_2_mode", 0, 27]
-            },
-            {
-              "showIf": "{id_socd_pair_2_mode} != 0",
-              "content": [
-                {
-                  "label": "Pair #2 First Key",
-                  "type": "keycode",
-                  "content": ["id_socd_pair_2_key_1", 0, 28]
-                },
-                {
-                  "label": "Pair #2 Second Key",
-                  "type": "keycode",
-                  "content": ["id_socd_pair_2_key_2", 0, 29]
-                }
-              ]
-            },
-            {
-              "label": "Pair #3 Mode",
-              "type": "dropdown",
-              "options": [
-                ["Disabled", 0],
-                ["Last Priority", 1],
-                ["Neutral", 2],
-                ["First Key Priority", 3],
-                ["Second Key Priority", 4]
-              ],
-              "content": ["id_socd_pair_3_mode", 0, 30]
-            },
-            {
-              "showIf": "{id_socd_pair_3_mode} != 0",
-              "content": [
-                {
-                  "label": "Pair #3 First Key",
-                  "type": "keycode",
-                  "content": ["id_socd_pair_3_key_1", 0, 31]
-                },
-                {
-                  "label": "Pair #3 Second Key",
-                  "type": "keycode",
-                  "content": ["id_socd_pair_3_key_2", 0, 32]
-                }
-              ]
-            },
-            {
-              "label": "Pair #4 Mode",
-              "type": "dropdown",
-              "options": [
-                ["Disabled", 0],
-                ["Last Priority", 1],
-                ["Neutral", 2],
-                ["First Key Priority", 3],
-                ["Second Key Priority", 4]
-              ],
-              "content": ["id_socd_pair_4_mode", 0, 33]
-            },
-            {
-              "showIf": "{id_socd_pair_4_mode} != 0",
-              "content": [
-                {
-                  "label": "Pair #4 First Key",
-                  "type": "keycode",
-                  "content": ["id_socd_pair_4_key_1", 0, 34]
-                },
-                {
-                  "label": "Pair #4 Second Key",
-                  "type": "keycode",
-                  "content": ["id_socd_pair_4_key_2", 0, 35]
-                }
-              ]
+              "content": ["id_clear_bottoming_calibration_data", 0, 26]
             }
           ]
         }
