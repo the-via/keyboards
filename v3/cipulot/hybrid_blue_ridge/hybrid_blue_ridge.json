@@ -245,7 +245,7 @@
               "label": "Flash Mode",
               "type": "button",
               "options": [0],
-              "content": ["id_flash_mode", 0, 24]
+              "content": ["id_flash_mode", 0, 25]
             },
             {
               "label": "FACTORY RESET (Unplug the board and plug it back in to complete the procedure)",
