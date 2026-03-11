@@ -91,24 +91,18 @@
               "showIf": "{id_switch_type} == 0",
               "content": [
                 {
-                  "label": "Bottoming Calibration",
+                  "label": "Board Calibration",
                   "type": "toggle",
                   "content": ["id_bottoming_calibration", 0, 8]
                 },
                 {
-                  "label": "Noise Floor Calibration (DO NOT PRESS ANY KEY WHILE CLICKING)",
-                  "type": "button",
-                  "options": [0],
-                  "content": ["id_noise_floor_calibration", 0, 9]
-                },
-                {
-                  "label": "Show Calibration Data",
+                  "label": "Show Board Calibration Data",
                   "type": "button",
                   "options": [0],
                   "content": ["id_show_calibration_data", 0, 10]
                 },
                 {
-                  "label": "Clear Bottoming Calibration Data",
+                  "label": "Clear Board Calibration Data",
                   "type": "button",
                   "options": [0],
                   "content": ["id_clear_bottoming_calibration_data", 0, 11]

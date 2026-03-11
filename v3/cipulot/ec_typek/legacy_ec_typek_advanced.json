@@ -276,24 +276,18 @@
           "label": "Calibration",
           "content": [
             {
-              "label": "Bottoming Calibration",
+              "label": "Board Calibration",
               "type": "toggle",
               "content": ["id_bottoming_calibration", 0, 23]
             },
             {
-              "label": "Noise Floor Calibration (DO NOT PRESS ANY KEY WHILE CLICKING)",
-              "type": "button",
-              "options": [0],
-              "content": ["id_noise_floor_calibration", 0, 24]
-            },
-            {
-              "label": "Show Calibration Data",
+              "label": "Show Board Calibration Data",
               "type": "button",
               "options": [0],
               "content": ["id_show_calibration_data", 0, 25]
             },
             {
-              "label": "Clear Bottoming Calibration Data",
+              "label": "Clear Board Calibration Data",
               "type": "button",
               "options": [0],
               "content": ["id_clear_bottoming_calibration_data", 0, 26]

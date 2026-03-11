@@ -127,6 +127,29 @@
           ]
         }
       ]
+    },
+    {
+      "showIf": "{id_firmware_version} >= 2",
+      "label": "Board System",
+      "content": [
+        {
+          "label": "Board Maintenance",
+          "content": [
+            {
+              "label": "Flash Mode",
+              "type": "button",
+              "options": [0],
+              "content": ["id_flash_mode", 0, 13]
+            },
+            {
+              "label": "FACTORY RESET (Unplug the board and plug it back in to complete the procedure)",
+              "type": "button",
+              "options": [0],
+              "content": ["id_factory_reset", 0, 14]
+            }
+          ]
+        }
+      ]
     }
   ],
   "layouts": {
