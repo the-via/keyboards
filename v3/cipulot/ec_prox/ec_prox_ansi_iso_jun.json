@@ -79,24 +79,18 @@
           "label": "Calibration",
           "content": [
             {
-              "label": "Bottoming Calibration",
+              "label": "Board Calibration",
               "type": "toggle",
               "content": ["id_bottoming_calibration", 0, 8]
             },
             {
-              "label": "Noise Floor Calibration (DO NOT PRESS ANY KEY WHILE CLICKING)",
-              "type": "button",
-              "options": [0],
-              "content": ["id_noise_floor_calibration", 0, 9]
-            },
-            {
-              "label": "Show Calibration Data",
+              "label": "Show Board Calibration Data",
               "type": "button",
               "options": [0],
               "content": ["id_show_calibration_data", 0, 10]
             },
             {
-              "label": "Clear Bottoming Calibration Data",
+              "label": "Clear Board Calibration Data",
               "type": "button",
               "options": [0],
               "content": ["id_clear_bottoming_calibration_data", 0, 11]
@@ -219,6 +213,29 @@
                   "content": ["id_socd_pair_4_key_2", 0, 23]
                 }
               ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "showIf": "{id_firmware_version} >= 2",
+      "label": "Board System",
+      "content": [
+        {
+          "label": "Board Maintenance",
+          "content": [
+            {
+              "label": "Flash Mode",
+              "type": "button",
+              "options": [0],
+              "content": ["id_flash_mode", 0, 24]
+            },
+            {
+              "label": "FACTORY RESET (Unplug the board and plug it back in to complete the procedure)",
+              "type": "button",
+              "options": [0],
+              "content": ["id_factory_reset", 0, 25]
             }
           ]
         }
