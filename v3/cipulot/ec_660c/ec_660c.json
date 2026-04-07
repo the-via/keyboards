@@ -8,6 +8,72 @@
   },
   "menus": [
     {
+      "showIf": "{id_firmware_version} >= 3",
+      "label": "Indicators",
+      "content": [
+        {
+          "label": " Indicator 1",
+          "content": [
+            {
+              "label": "Enable Indicator 1",
+              "type": "toggle",
+              "content": ["id_ind1_enabled", 0, 26]
+            },
+            {
+              "showIf": "{id_ind1_enabled} == 1",
+              "content": [
+                {
+                  "label": "Function",
+                  "type": "dropdown",
+                  "options": [
+                    "None",
+                    "Caps Lock",
+                    "Num Lock",
+                    "Scroll Lock",
+                    "Layer 0",
+                    "Layer 1",
+                    "Layer 2",
+                    "Layer 3"
+                  ],
+                  "content": ["id_ind1_func", 0, 27]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Indicator 2",
+          "content": [
+            {
+              "label": "Enable Indicator 2",
+              "type": "toggle",
+              "content": ["id_ind2_enabled", 0, 28]
+            },
+            {
+              "showIf": "{id_ind2_enabled} == 1",
+              "content": [
+                {
+                  "label": "Function",
+                  "type": "dropdown",
+                  "options": [
+                    "None",
+                    "Caps Lock",
+                    "Num Lock",
+                    "Scroll Lock",
+                    "Layer 0",
+                    "Layer 1",
+                    "Layer 2",
+                    "Layer 3"
+                  ],
+                  "content": ["id_ind2_func", 0, 29]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "label": "EC Tools",
       "content": [
         {
