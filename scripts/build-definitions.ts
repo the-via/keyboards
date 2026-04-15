@@ -10,19 +10,19 @@ import {buildIsolatedDefinitions} from './build-isolated-definitions';
 import {getOutputPath} from './get-path';
 import {hashJSON} from './hash-json';
 import {ErrorLogger} from './error-log';
-var packageJson = require('../package.json');
+import packageJson from '../package.json';
 
 export async function buildDefinitions(logger: ErrorLogger) {
   const [v2Hash, v2DefinitionIds] = await buildIsolatedDefinitions(
     'v2',
     keyboardDefinitionV2ToVIADefinitionV2,
-    logger
+    logger,
   );
   const [v3Hash, v3DefinitionIds, v3Definitions] =
     await buildIsolatedDefinitions(
       'v3',
       keyboardDefinitionV3ToVIADefinitionV3,
-      logger
+      logger,
     );
 
   const genTime = Date.now();
@@ -42,7 +42,7 @@ export async function buildDefinitions(logger: ErrorLogger) {
   }
   await fs.writeFile(
     `${getOutputPath()}/supported_kbs.json`,
-    stringify(supportedKbsJSON)
+    stringify(supportedKbsJSON),
   );
   console.log(`Generated ${getOutputPath()}/supported_kbs.json`);
 
@@ -53,8 +53,8 @@ export async function buildDefinitions(logger: ErrorLogger) {
         v2Hash,
         v3Hash,
         {...supportedKbsJSON, ...{generatedAt: undefined}},
-      ])
-    )
+      ]),
+    ),
   );
   console.log(`Generated ${getOutputPath()}/hash.json`);
 

@@ -6,8 +6,8 @@
     "via-keyboards": "./bin/cli.js"
   },
   "scripts": {
-    "build": "ts-node scripts/build-all.ts",
-    "build-names": "ts-node scripts/build-names.ts",
+    "build": "tsx scripts/build-all.ts",
+    "build-names": "tsx scripts/build-names.ts",
     "prettify-all": "prettier --write ./src ./v3",
     "prettify-staged": "pretty-quick --staged"
   },
@@ -34,7 +34,7 @@
     "fs-extra": "^11.3.4",
     "glob": "^13.0.6",
     "json-stringify-pretty-compact": "^4.0.0",
-    "ts-node": "10.9.2",
+    "tsx": "^4.21.0",
     "typescript": "^6.0.2"
   },
   "simple-git-hooks": {

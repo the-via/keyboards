@@ -1,4 +1,4 @@
-const {createHmac} = require('node:crypto');
+import {createHmac} from 'node:crypto';
 
 export const hashJSON = (json: {[s: string]: any}): string => {
   return hashText(JSON.stringify(json));
