@@ -1,4 +1,3 @@
-import glob from 'glob';
 import fs from 'fs-extra';
 import {
   KeyboardDefinitionV2,
@@ -10,6 +9,7 @@ import {
 import {getDefinitionsPath, getOutputPath, getRelativePath} from './get-path';
 import {hashJSON} from './hash-json';
 import {ErrorLogger} from './error-log';
+import {globSync} from 'glob';
 /**
  * Builds keyboard definitions into separate valid VIA definitions
  * @param {DefinitionVersion} version definition version
@@ -24,22 +24,22 @@ type ConvertedDefinition<T> = {
 
 export const buildIsolatedDefinitions = async <
   TInput extends KeyboardDefinitionV2 | KeyboardDefinitionV3,
-  TOutput extends VIADefinitionV2 | VIADefinitionV3
+  TOutput extends VIADefinitionV2 | VIADefinitionV3,
 >(
   version: DefinitionVersion,
   mapper: (definition: TInput) => TOutput,
-  logger: ErrorLogger
+  logger: ErrorLogger,
 ): Promise<[string, number[], ConvertedDefinition<TOutput>[]]> => {
   const outputPath = `${getOutputPath()}/${version}`;
   const definitionsPath = getDefinitionsPath(version);
-  const paths = glob.sync(definitionsPath, {absolute: true});
+  const paths = globSync(definitionsPath, {absolute: true});
   const definitions = paths.map((f) => ({
     keyboardDefinition: require(f) as TInput,
     path: getRelativePath(f),
   }));
 
   const isValidConvertedDefinition = (
-    def: ConvertedDefinition<TOutput> | undefined
+    def: ConvertedDefinition<TOutput> | undefined,
   ): def is ConvertedDefinition<TOutput> => !!def;
 
   // Map KeyboardDefinition to VIADefintion and valiate. Don't write invalid definitions.
@@ -50,7 +50,7 @@ export const buildIsolatedDefinitions = async <
         return {viaDefinition, path};
       } catch (error) {
         logger.logError(
-          new Error(`${version} definition invalid: ${path}\n` + error)
+          new Error(`${version} definition invalid: ${path}\n` + error),
         );
       }
     })
@@ -73,7 +73,7 @@ export const buildIsolatedDefinitions = async <
       const productID = (parseInt(key) & 0xffff).toString(16).padStart(4, '0');
       logger.logError(
         new Error(`Duplicate ID vendorId=0x${vendorID} productId=0x${productID} in:
-      ${IDsToPaths[key].join(',\n')}`)
+      ${IDsToPaths[key].join(',\n')}`),
       );
     });
 
@@ -91,11 +91,11 @@ export const buildIsolatedDefinitions = async <
       if (viaDefinition != undefined) {
         await fs.writeFile(
           `${outputPath}/${viaDefinition.vendorProductId}.json`,
-          JSON.stringify(viaDefinition)
+          JSON.stringify(viaDefinition),
         );
         validIds.push(viaDefinition.vendorProductId);
       }
-    })
+    }),
   );
   return [jsonHash, validIds.sort(), validVIADefinitions];
 };

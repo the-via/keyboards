@@ -6,7 +6,9 @@ import {getOutputPath} from './get-path';
 export async function buildNames(definitions: VIADefinitionV3[]) {
   const outputPath = `${getOutputPath()}`;
 
-  const names = definitions.reduce((p, n) => [...p, n.name], []).sort();
+  const names = definitions
+    .reduce((p, n) => [...p, n.name], [] as string[])
+    .sort();
 
   if (!(await fs.exists(outputPath))) {
     await fs.mkdir(outputPath);
