@@ -34,7 +34,7 @@
     "fs-extra": "^11.3.4",
     "glob": "^13.0.6",
     "json-stringify-pretty-compact": "^4.0.0",
-    "tsx": "^4.21.0",
+    "tsx": "^4.22.4",
     "typescript": "^6.0.2"
   },
   "simple-git-hooks": {
