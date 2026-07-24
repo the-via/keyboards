@@ -207,7 +207,7 @@
       ]
     },
     {
-      "label": "EC Tools",
+      "label": "Switch Configuration",
       "content": [
         {
           "label": "Actuation",
@@ -222,7 +222,7 @@
               "showIf": "{id_actuation_mode} == 0",
               "content": [
                 {
-                  "label": "Actuation Level (0% | 100%)",
+                  "label": "Actuation threshold (1-1023)",
                   "type": "range",
                   "options": [1, 1023],
                   "constraints": [
@@ -236,7 +236,7 @@
                   "content": ["id_apc_actuation_threshold", 0, 17]
                 },
                 {
-                  "label": "Release Level (0% | 100%)",
+                  "label": "Release threshold (1-1023)",
                   "type": "range",
                   "options": [1, 1023],
                   "constraints": [
@@ -261,19 +261,19 @@
               "showIf": "{id_actuation_mode} == 1",
               "content": [
                 {
-                  "label": "Initial Deadzone Offset (0% | 100%)",
+                  "label": "Initial deadzone offset (1-1023)",
                   "type": "range",
                   "options": [1, 1023],
                   "content": ["id_rt_initial_deadzone_offset", 0, 20]
                 },
                 {
-                  "label": "Actuation Offset (1-255)",
+                  "label": "Actuation offset (1-255)",
                   "type": "range",
                   "options": [1, 255],
                   "content": ["id_rt_actuation_offset", 0, 21]
                 },
                 {
-                  "label": "Release Offset (1-255)",
+                  "label": "Release offset (1-255)",
                   "type": "range",
                   "options": [1, 255],
                   "content": ["id_rt_release_offset", 0, 22]
@@ -298,14 +298,14 @@
             },
             {
               "showIf": "{id_bottoming_calibration} == 0",
-              "label": "Show Board Calibration Data",
+              "label": "Print calibration data to console",
               "type": "button",
               "options": [0],
               "content": ["id_show_calibration_data", 0, 25]
             },
             {
               "showIf": "{id_bottoming_calibration} == 0",
-              "label": "Clear Board Calibration Data",
+              "label": "Clear bottom-out calibration data",
               "type": "button",
               "options": [0],
               "content": ["id_clear_bottoming_calibration_data", 0, 26]
