@@ -6,6 +6,158 @@
     "rows": 5,
     "cols": 15
   },
+  "customKeycodes": [
+    {
+      "name": "TD(0)",
+      "title": "Tap Dance slot 0",
+      "shortName": "TD\n0"
+    },
+    {
+      "name": "TD(1)",
+      "title": "Tap Dance slot 1",
+      "shortName": "TD\n1"
+    },
+    {
+      "name": "TD(2)",
+      "title": "Tap Dance slot 2",
+      "shortName": "TD\n2"
+    },
+    {
+      "name": "TD(3)",
+      "title": "Tap Dance slot 3",
+      "shortName": "TD\n3"
+    },
+    {
+      "name": "TD(4)",
+      "title": "Tap Dance slot 4",
+      "shortName": "TD\n4"
+    },
+    {
+      "name": "TD(5)",
+      "title": "Tap Dance slot 5",
+      "shortName": "TD\n5"
+    },
+    {
+      "name": "TD(6)",
+      "title": "Tap Dance slot 6",
+      "shortName": "TD\n6"
+    },
+    {
+      "name": "TD(7)",
+      "title": "Tap Dance slot 7",
+      "shortName": "TD\n7"
+    },
+    {
+      "name": "TD(8)",
+      "title": "Tap Dance slot 8",
+      "shortName": "TD\n8"
+    },
+    {
+      "name": "TD(9)",
+      "title": "Tap Dance slot 9",
+      "shortName": "TD\n9"
+    },
+    {
+      "name": "TD(10)",
+      "title": "Tap Dance slot 10",
+      "shortName": "TD\n10"
+    },
+    {
+      "name": "TD(11)",
+      "title": "Tap Dance slot 11",
+      "shortName": "TD\n11"
+    },
+    {
+      "name": "TD(12)",
+      "title": "Tap Dance slot 12",
+      "shortName": "TD\n12"
+    },
+    {
+      "name": "TD(13)",
+      "title": "Tap Dance slot 13",
+      "shortName": "TD\n13"
+    },
+    {
+      "name": "TD(14)",
+      "title": "Tap Dance slot 14",
+      "shortName": "TD\n14"
+    },
+    {
+      "name": "TD(15)",
+      "title": "Tap Dance slot 15",
+      "shortName": "TD\n15"
+    },
+    {
+      "name": "OS_LCTL",
+      "title": "One-Shot Left Control",
+      "shortName": "OS\nLCTL"
+    },
+    {
+      "name": "OS_LSFT",
+      "title": "One-Shot Left Shift",
+      "shortName": "OS\nLSFT"
+    },
+    {
+      "name": "OS_LALT",
+      "title": "One-Shot Left Alt",
+      "shortName": "OS\nLALT"
+    },
+    {
+      "name": "OS_LGUI",
+      "title": "One-Shot Left GUI",
+      "shortName": "OS\nLGUI"
+    },
+    {
+      "name": "OS_RCTL",
+      "title": "One-Shot Right Control",
+      "shortName": "OS\nRCTL"
+    },
+    {
+      "name": "OS_RSFT",
+      "title": "One-Shot Right Shift",
+      "shortName": "OS\nRSFT"
+    },
+    {
+      "name": "OS_RALT",
+      "title": "One-Shot Right Alt",
+      "shortName": "OS\nRALT"
+    },
+    {
+      "name": "OS_RGUI",
+      "title": "One-Shot Right GUI",
+      "shortName": "OS\nRGUI"
+    },
+    {
+      "name": "OS_ON",
+      "title": "Enable one-shot keys",
+      "shortName": "OS\nON"
+    },
+    {
+      "name": "OS_OFF",
+      "title": "Disable One-Shot keys",
+      "shortName": "OS\nOFF"
+    },
+    {
+      "name": "OS_TOGG",
+      "title": "Toggle One-Shot keys",
+      "shortName": "OS\nTOGG"
+    },
+    {
+      "name": "OS_MEH",
+      "title": "One-Shot Left Control, Shift and Alt",
+      "shortName": "OS\nMEH"
+    },
+    {
+      "name": "OS_HYPR",
+      "title": "One-Shot Left Control, Shift, Alt and GUI",
+      "shortName": "OS\nHYPR"
+    },
+    {
+      "name": "QK_LOCK",
+      "title": "Lock or unlock the next key pressed",
+      "shortName": "KEY\nLOCK"
+    }
+  ],
   "menus": [
     {
       "showIf": "{id_firmware_version} >= 3",
