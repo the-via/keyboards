@@ -6,20 +6,10 @@
     "rows": 5,
     "cols": 15
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgblight"
-  ],
+  "keycodes": ["qmk_rgblight_keycodes"],
+  "menus": ["qmk_rgblight"],
   "layouts": {
-    "labels": [
-      [
-        "Backspace",
-        "Split",
-        "Full"
-      ]
-    ],
+    "labels": [["Backspace", "Split", "Full"]],
     "keymap": [
       [
         {

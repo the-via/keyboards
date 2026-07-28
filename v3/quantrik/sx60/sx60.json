@@ -6,26 +6,13 @@
     "rows": 5,
     "cols": 16
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_backlight"
-  ],
+  "keycodes": ["qmk_backlight_keycodes"],
+  "menus": ["qmk_backlight"],
   "layouts": {
     "labels": [
       "Split Backspace",
-      [
-        "Right Shift",
-        "1.75u Shift",
-        "Standard",
-        "1.75u /"
-      ],
-      [
-        "Right Mods",
-        "3x 1u",
-        "2x 1.5u"
-      ]
+      ["Right Shift", "1.75u Shift", "Standard", "1.75u /"],
+      ["Right Mods", "3x 1u", "2x 1.5u"]
     ],
     "keymap": [
       [

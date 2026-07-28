@@ -13,12 +13,8 @@
       "shortName": "WinLock"
     }
   ],
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgb_matrix"
-  ],
+  "keycodes": ["qmk_rgb_matrix_keycodes"],
+  "menus": ["qmk_rgb_matrix"],
   "layouts": {
     "keymap": [
       [

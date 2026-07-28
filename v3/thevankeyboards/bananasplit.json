@@ -6,34 +6,16 @@
     "rows": 5,
     "cols": 14
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_backlight_rgblight"
-  ],
+  "keycodes": ["qmk_backlight_rgblight_keycodes"],
+  "menus": ["qmk_backlight_rgblight"],
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO Enter",
       "Split Left Shift",
-      [
-        "Right Shift",
-        "2.75u",
-        "Split",
-        "Arrows"
-      ],
-      [
-        "Spacebar",
-        "6.25u",
-        "Split 1",
-        "Split 2"
-      ],
-      [
-        "Bottom Right Modifiers",
-        "Standard",
-        "5x1u"
-      ]
+      ["Right Shift", "2.75u", "Split", "Arrows"],
+      ["Spacebar", "6.25u", "Split 1", "Split 2"],
+      ["Bottom Right Modifiers", "Standard", "5x1u"]
     ],
     "keymap": [
       [

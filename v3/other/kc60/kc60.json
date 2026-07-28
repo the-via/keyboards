@@ -6,35 +6,15 @@
     "rows": 5,
     "cols": 14
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_backlight"
-  ],
+  "keycodes": ["qmk_backlight_keycodes"],
+  "menus": ["qmk_backlight"],
   "layouts": {
     "labels": [
       "Split Backspace",
-      [
-        "Enter Key",
-        "ANSI",
-        "ISO"
-      ],
+      ["Enter Key", "ANSI", "ISO"],
       "Split Left Shift",
-      [
-        "Right Shift",
-        "2.75u",
-        "1.75u / 1u",
-        "1u / 1.75u"
-      ],
-      [
-        "Bottom Row",
-        "Standard",
-        "Tsangan",
-        "WKL",
-        "HHKB",
-        "MX HHKB"
-      ]
+      ["Right Shift", "2.75u", "1.75u / 1u", "1u / 1.75u"],
+      ["Bottom Row", "Standard", "Tsangan", "WKL", "HHKB", "MX HHKB"]
     ],
     "keymap": [
       [

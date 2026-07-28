@@ -6,18 +6,10 @@
     "rows": 7,
     "cols": 10
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgblight"
-  ],
+  "keycodes": ["qmk_rgblight_keycodes"],
+  "menus": ["qmk_rgblight"],
   "layouts": {
-    "labels": [
-      "Split Backspace",
-      "Full Right Shift",
-      "Encoder"
-    ],
+    "labels": ["Split Backspace", "Full Right Shift", "Encoder"],
     "keymap": [
       [
         {

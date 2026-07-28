@@ -6,12 +6,8 @@
     "rows": 4,
     "cols": 4
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgblight"
-  ],
+  "keycodes": ["qmk_rgblight_keycodes"],
+  "menus": ["qmk_rgblight"],
   "layouts": {
     "keymap": [
       [
@@ -37,18 +33,8 @@
         "1,2",
         "1,3"
       ],
-      [
-        "2,0",
-        "2,1",
-        "2,2",
-        "2,3"
-      ],
-      [
-        "3,0",
-        "3,1",
-        "3,2",
-        "3,3"
-      ]
+      ["2,0", "2,1", "2,2", "2,3"],
+      ["3,0", "3,1", "3,2", "3,3"]
     ]
   }
 }

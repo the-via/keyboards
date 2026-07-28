@@ -6,26 +6,14 @@
     "rows": 6,
     "cols": 16
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgblight"
-  ],
+  "keycodes": ["qmk_rgblight_keycodes"],
+  "menus": ["qmk_rgblight"],
   "layouts": {
     "labels": [
-      [
-        "top row",
-        "F13",
-        "F12"
-      ],
+      ["top row", "F13", "F12"],
       "ISO Enter",
       "Split Left Shift",
-      [
-        "Bottom Row",
-        "6.25U",
-        "7U"
-      ]
+      ["Bottom Row", "6.25U", "7U"]
     ],
     "keymap": [
       [

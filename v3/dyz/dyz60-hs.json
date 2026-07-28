@@ -6,23 +6,15 @@
     "rows": 5,
     "cols": 14
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgblight"
-  ],
+  "keycodes": ["qmk_rgblight_keycodes"],
+  "menus": ["qmk_rgblight"],
   "layouts": {
     "labels": [
       "Full Backspace",
       "ISO Enter",
       "Split LShift",
       "Full RShift",
-      [
-        "Bottom Row",
-        "7u Spacebar",
-        "6.25u Spacebar"
-      ]
+      ["Bottom Row", "7u Spacebar", "6.25u Spacebar"]
     ],
     "keymap": [
       [

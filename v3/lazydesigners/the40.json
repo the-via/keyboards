@@ -6,20 +6,11 @@
     "rows": 4,
     "cols": 12
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_backlight_rgblight"
-  ],
+  "keycodes": ["qmk_backlight_rgblight_keycodes"],
+  "menus": ["qmk_backlight_rgblight"],
   "layouts": {
     "labels": [
-      [
-        "Style",
-        "Staggered 1U Shift",
-        "Staggered 1.25U Shift",
-        "Ortho"
-      ],
+      ["Style", "Staggered 1U Shift", "Staggered 1.25U Shift", "Ortho"],
       [
         "Bottom Row",
         "Staggered Split",

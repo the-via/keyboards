@@ -6,22 +6,14 @@
     "rows": 5,
     "cols": 14
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
+  "keycodes": ["qmk_rgb_matrix_keycodes"],
   "layouts": {
     "labels": [
       "2U Back Space",
       "ISO Enter",
       "Tsanan Right Shift",
       "ISO Left Shift",
-      [
-        "Bottom Row",
-        "Split Space 1",
-        "Split Space 2",
-        "6.25U",
-        "7U"
-      ]
+      ["Bottom Row", "Split Space 1", "Split Space 2", "6.25U", "7U"]
     ],
     "keymap": [
       [

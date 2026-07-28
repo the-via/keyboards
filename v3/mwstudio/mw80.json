@@ -6,20 +6,10 @@
     "rows": 6,
     "cols": 17
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgb_matrix"
-  ],
+  "keycodes": ["qmk_rgb_matrix_keycodes"],
+  "menus": ["qmk_rgb_matrix"],
   "layouts": {
-    "labels": [
-      [
-        "enter",
-        "default",
-        "iso"
-      ]
-    ],
+    "labels": [["enter", "default", "iso"]],
     "keymap": [
       [
         "0,0",

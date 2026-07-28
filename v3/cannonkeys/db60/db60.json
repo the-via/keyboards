@@ -6,34 +6,18 @@
     "rows": 5,
     "cols": 15
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_backlight_rgblight"
-  ],
+  "keycodes": ["qmk_backlight_rgblight_keycodes"],
+  "menus": ["qmk_backlight_rgblight"],
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO Enter",
       "Split Left Shift",
       "Split Right Shift",
-      [
-        "Bottom Row",
-        "ANSI",
-        "7U",
-        "HHKB",
-        "WKL"
-      ]
+      ["Bottom Row", "ANSI", "7U", "HHKB", "WKL"]
     ],
     "presets": {
-      "HHKB": [
-        1,
-        0,
-        0,
-        1,
-        2
-      ]
+      "HHKB": [1, 0, 0, 1, 2]
     },
     "keymap": [
       [

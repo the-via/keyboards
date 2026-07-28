@@ -6,25 +6,12 @@
     "rows": 6,
     "cols": 4
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_backlight_rgblight"
-  ],
+  "keycodes": ["qmk_backlight_rgblight_keycodes"],
+  "menus": ["qmk_backlight_rgblight"],
   "layouts": {
-    "labels": [
-      "Split Plus",
-      "Split Enter",
-      "Split P0"
-    ],
+    "labels": ["Split Plus", "Split Enter", "Split P0"],
     "keymap": [
-      [
-        "0,0",
-        "0,1",
-        "0,2",
-        "0,3"
-      ],
+      ["0,0", "0,1", "0,2", "0,3"],
       [
         {
           "y": 0.25

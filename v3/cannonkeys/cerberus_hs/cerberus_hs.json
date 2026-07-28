@@ -6,18 +6,10 @@
     "rows": 5,
     "cols": 18
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgblight"
-  ],
+  "keycodes": ["qmk_rgblight_keycodes"],
+  "menus": ["qmk_rgblight"],
   "layouts": {
-    "labels": [
-      "Backspace",
-      "Right Shift",
-      "Bottom Row"
-    ],
+    "labels": ["Backspace", "Right Shift", "Bottom Row"],
     "keymap": [
       [
         {

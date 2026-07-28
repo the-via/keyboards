@@ -6,12 +6,8 @@
     "rows": 6,
     "cols": 17
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgblight"
-  ],
+  "keycodes": ["qmk_rgblight_keycodes"],
+  "menus": ["qmk_rgblight"],
   "layouts": {
     "labels": [
       "Split Backspace",
@@ -19,12 +15,7 @@
       "Split Rshift",
       "F12",
       "Arrow",
-      [
-        "Bottom Row",
-        "7U",
-        "WKL",
-        "CWKL"
-      ]
+      ["Bottom Row", "7U", "WKL", "CWKL"]
     ],
     "keymap": [
       [

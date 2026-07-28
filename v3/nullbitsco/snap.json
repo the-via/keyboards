@@ -18,38 +18,18 @@
       "shortName": "S.A.T."
     }
   ],
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgblight"
-  ],
+  "keycodes": ["qmk_rgblight_keycodes"],
+  "menus": ["qmk_rgblight"],
   "layouts": {
     "labels": [
-      [
-        "Spacebar",
-        "1.25U | 2.25U",
-        "2.25U | 1.25U"
-      ],
-      [
-        "Right Modifiers",
-        "5x1U",
-        "4x1.25U"
-      ],
+      ["Spacebar", "1.25U | 2.25U", "2.25U | 1.25U"],
+      ["Right Modifiers", "5x1U", "4x1.25U"],
       "ISO Enter",
       "Split Left Shift",
       "2.75U Right Shift",
       "Split Backspace",
-      [
-        "Left Rotary Encoder",
-        "Enabled",
-        "Disabled"
-      ],
-      [
-        "Right Rotary Encoder",
-        "Enabled",
-        "Disabled"
-      ]
+      ["Left Rotary Encoder", "Enabled", "Disabled"],
+      ["Right Rotary Encoder", "Enabled", "Disabled"]
     ],
     "keymap": [
       [

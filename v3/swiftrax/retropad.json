@@ -6,12 +6,8 @@
     "rows": 3,
     "cols": 2
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgblight"
-  ],
+  "keycodes": ["qmk_rgblight_keycodes"],
+  "menus": ["qmk_rgblight"],
   "layouts": {
     "keymap": [
       [
@@ -29,10 +25,7 @@
         "1,0",
         "1,1"
       ],
-      [
-        "2,0",
-        "2,1"
-      ]
+      ["2,0", "2,1"]
     ]
   }
 }

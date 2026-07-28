@@ -6,25 +6,12 @@
     "rows": 5,
     "cols": 4
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgblight"
-  ],
+  "keycodes": ["qmk_rgblight_keycodes"],
+  "menus": ["qmk_rgblight"],
   "layouts": {
-    "labels": [
-      "2u Plus",
-      "2u Enter",
-      "2u Zero"
-    ],
+    "labels": ["2u Plus", "2u Enter", "2u Zero"],
     "keymap": [
-      [
-        "0,0",
-        "0,1",
-        "0,2",
-        "0,3"
-      ],
+      ["0,0", "0,1", "0,2", "0,3"],
       [
         "1,0",
         "1,1",
@@ -36,12 +23,7 @@
         },
         "2,3\n\n\n0,1"
       ],
-      [
-        "2,0",
-        "2,1",
-        "2,2",
-        "2,3\n\n\n0,0"
-      ],
+      ["2,0", "2,1", "2,2", "2,3\n\n\n0,0"],
       [
         "3,0",
         "3,1",

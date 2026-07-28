@@ -28,7 +28,7 @@
     "simple-git-hooks": "^2.13.1"
   },
   "dependencies": {
-    "@the-via/reader": "^1.14.1",
+    "@the-via/reader": "^1.14.3",
     "@types/fs-extra": "^11.0.4",
     "@types/rimraf": "^4.0.5",
     "fs-extra": "^11.3.4",

@@ -6,9 +6,7 @@
     "rows": 6,
     "cols": 17
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
+  "keycodes": ["qmk_backlight_keycodes"],
   "menus": [
     {
       "label": "Lighting",
@@ -19,70 +17,33 @@
             {
               "label": "Backlight Brightness",
               "type": "range",
-              "options": [
-                0,
-                10
-              ],
-              "content": [
-                "id_custom_backlight_brightness",
-                0,
-                0
-              ]
+              "options": [0, 10],
+              "content": ["id_custom_backlight_brightness", 0, 0]
             },
             {
               "label": "Backlight Effect",
               "type": "dropdown",
-              "content": [
-                "id_custom_backlight_effect",
-                0,
-                1
-              ],
+              "content": ["id_custom_backlight_effect", 0, 1],
               "options": [
-                [
-                  "None",
-                  0
-                ],
-                [
-                  "Breathing",
-                  1
-                ],
-                [
-                  "Blink-Out on Keypress",
-                  2
-                ],
-                [
-                  "Blink-In on Keypress",
-                  3
-                ]
+                ["None", 0],
+                ["Breathing", 1],
+                ["Blink-Out on Keypress", 2],
+                ["Blink-In on Keypress", 3]
               ]
             },
             {
               "showIf": "{id_custom_backlight_effect} == 1",
               "label": "Breating Period",
               "type": "range",
-              "options": [
-                1,
-                10
-              ],
-              "content": [
-                "id_custom_breathing_period",
-                0,
-                2
-              ]
+              "options": [1, 10],
+              "content": ["id_custom_breathing_period", 0, 2]
             },
             {
               "showIf": "{id_custom_backlight_effect} == 2 || {id_custom_backlight_effect} == 3",
               "label": "Blink Speed",
               "type": "range",
-              "options": [
-                1,
-                10
-              ],
-              "content": [
-                "id_custom_blink_speed",
-                0,
-                3
-              ]
+              "options": [1, 10],
+              "content": ["id_custom_blink_speed", 0, 3]
             }
           ]
         }

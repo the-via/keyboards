@@ -158,7 +158,7 @@
       "shortName": "KEY\nLOCK"
     }
   ],
-  "keycodes": ["qmk_lighting"],
+  "keycodes": ["qmk_rgblight_keycodes"],
   "menus": [
     {
       "label": "Lighting",

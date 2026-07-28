@@ -6,26 +6,12 @@
     "rows": 5,
     "cols": 14
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgblight"
-  ],
+  "keycodes": ["qmk_rgblight_keycodes"],
+  "menus": ["qmk_rgblight"],
   "layouts": {
     "labels": [
-      [
-        "Center Column L",
-        "1u",
-        "1.5u",
-        "Encoders"
-      ],
-      [
-        "Center Column R",
-        "1u",
-        "1.5u",
-        "Encoders"
-      ],
+      ["Center Column L", "1u", "1.5u", "Encoders"],
+      ["Center Column R", "1u", "1.5u", "Encoders"],
       [
         "Spacebars",
         "1u x6",
@@ -39,31 +25,10 @@
         "2u-2u-1u-1u",
         "2u-1-2u"
       ],
-      [
-        "Row0",
-        "Normal",
-        "50XT",
-        "50XT Enc"
-      ],
-      [
-        "Row1",
-        "Normal",
-        "50XT",
-        "50XT Enc"
-      ],
-      [
-        "Row2",
-        "Normal",
-        "50XT",
-        "50XT Enc",
-        "Enter Alt"
-      ],
-      [
-        "Row3",
-        "Normal",
-        "50XT",
-        "50XT Enc"
-      ],
+      ["Row0", "Normal", "50XT", "50XT Enc"],
+      ["Row1", "Normal", "50XT", "50XT Enc"],
+      ["Row2", "Normal", "50XT", "50XT Enc", "Enter Alt"],
+      ["Row3", "Normal", "50XT", "50XT Enc"],
       [
         "Row4",
         "Normal",
@@ -75,18 +40,8 @@
         "Tsangan Enc"
       ],
       "Win Enc",
-      [
-        "Alt",
-        "1u",
-        "Alt Enc",
-        "1.5u Alt"
-      ],
-      [
-        "Fn",
-        "1u",
-        "Enc",
-        "Off"
-      ]
+      ["Alt", "1u", "Alt Enc", "1.5u Alt"],
+      ["Fn", "1u", "Enc", "Off"]
     ],
     "keymap": [
       [

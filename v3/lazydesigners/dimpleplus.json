@@ -6,30 +6,13 @@
     "rows": 5,
     "cols": 12
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_backlight_rgblight"
-  ],
+  "keycodes": ["qmk_backlight_rgblight_keycodes"],
+  "menus": ["qmk_backlight_rgblight"],
   "layouts": {
     "labels": [
-      [
-        "Backspace",
-        "Split",
-        "2U"
-      ],
-      [
-        "Enter",
-        "1.25U",
-        "2.25U",
-        "ISO"
-      ],
-      [
-        "Bottom Row",
-        "Split",
-        "7U"
-      ]
+      ["Backspace", "Split", "2U"],
+      ["Enter", "1.25U", "2.25U", "ISO"],
+      ["Bottom Row", "Split", "7U"]
     ],
     "keymap": [
       [

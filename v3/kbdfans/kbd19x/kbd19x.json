@@ -6,12 +6,8 @@
     "rows": 8,
     "cols": 13
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_backlight_rgblight"
-  ],
+  "keycodes": ["qmk_backlight_rgblight_keycodes"],
+  "menus": ["qmk_backlight_rgblight"],
   "layouts": {
     "labels": [
       "Split Backspace",
@@ -19,12 +15,7 @@
       "Split Left Shift",
       "Split Plus",
       "Split Enter",
-      [
-        "Bottom Row",
-        "ANSI",
-        "6u",
-        "7u"
-      ]
+      ["Bottom Row", "ANSI", "6u", "7u"]
     ],
     "keymap": [
       [

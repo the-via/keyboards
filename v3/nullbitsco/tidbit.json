@@ -6,31 +6,15 @@
     "rows": 5,
     "cols": 6
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgblight"
-  ],
+  "keycodes": ["qmk_rgblight_keycodes"],
+  "menus": ["qmk_rgblight"],
   "layouts": {
     "labels": [
       "2U + Key",
       "2U Enter Key",
-      [
-        "Rotary Encoder 1",
-        "Enabled",
-        "Disabled"
-      ],
-      [
-        "Rotary Encoder 2",
-        "Enabled",
-        "Disabled"
-      ],
-      [
-        "Rotary Encoder 3",
-        "Enabled",
-        "Disabled"
-      ],
+      ["Rotary Encoder 1", "Enabled", "Disabled"],
+      ["Rotary Encoder 2", "Enabled", "Disabled"],
+      ["Rotary Encoder 3", "Enabled", "Disabled"],
       [
         "Rotary Encoder 4/2U 0 Key",
         "Split 0 Keys",

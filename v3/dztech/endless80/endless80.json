@@ -6,24 +6,12 @@
     "rows": 6,
     "cols": 15
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgblight"
-  ],
+  "keycodes": ["qmk_rgblight_keycodes"],
+  "menus": ["qmk_rgblight"],
   "layouts": {
     "labels": [
-      [
-        "Left Shift",
-        "Default",
-        "Split"
-      ],
-      [
-        "Right Mods",
-        "3x1u",
-        "2x1.5u"
-      ]
+      ["Left Shift", "Default", "Split"],
+      ["Right Mods", "3x1u", "2x1.5u"]
     ],
     "keymap": [
       [

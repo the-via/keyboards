@@ -6,17 +6,10 @@
     "rows": 10,
     "cols": 6
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgb_matrix"
-  ],
+  "keycodes": ["qmk_rgb_matrix_keycodes"],
+  "menus": ["qmk_rgb_matrix"],
   "layouts": {
-    "labels": [
-      "Extra Left Side Encoder",
-      "Extra Right Side Encoder"
-    ],
+    "labels": ["Extra Left Side Encoder", "Extra Right Side Encoder"],
     "keymap": [
       [
         {

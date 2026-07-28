@@ -6,22 +6,14 @@
     "rows": 6,
     "cols": 15
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgblight"
-  ],
+  "keycodes": ["qmk_rgblight_keycodes"],
+  "menus": ["qmk_rgblight"],
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO Enter",
       "Split Left Shift",
-      [
-        "Bottom Row",
-        "Regular 6.25U",
-        "Tsangan 7U"
-      ]
+      ["Bottom Row", "Regular 6.25U", "Tsangan 7U"]
     ],
     "keymap": [
       [

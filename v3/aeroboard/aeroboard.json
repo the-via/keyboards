@@ -6,20 +6,10 @@
     "rows": 5,
     "cols": 16
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgblight"
-  ],
+  "keycodes": ["qmk_rgblight_keycodes"],
+  "menus": ["qmk_rgblight"],
   "layouts": {
-    "labels": [
-      [
-        "Bottom Row",
-        "7U",
-        "3U+1U+3U"
-      ]
-    ],
+    "labels": [["Bottom Row", "7U", "3U+1U+3U"]],
     "keymap": [
       [
         "0,0",

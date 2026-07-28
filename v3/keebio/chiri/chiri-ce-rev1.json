@@ -6,24 +6,12 @@
     "rows": 8,
     "cols": 6
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgb_matrix"
-  ],
+  "keycodes": ["qmk_rgb_matrix_keycodes"],
+  "menus": ["qmk_rgb_matrix"],
   "layouts": {
     "labels": [
-      [
-        "Left Outer Column",
-        "On",
-        "Off"
-      ],
-      [
-        "Right Outer Column",
-        "On",
-        "Off"
-      ]
+      ["Left Outer Column", "On", "Off"],
+      ["Right Outer Column", "On", "Off"]
     ],
     "keymap": [
       [

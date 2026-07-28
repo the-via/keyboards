@@ -6,26 +6,13 @@
     "rows": 10,
     "cols": 9
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgblight"
-  ],
+  "keycodes": ["qmk_rgblight_keycodes"],
+  "menus": ["qmk_rgblight"],
   "layouts": {
     "labels": [
       "Split Backspace",
-      [
-        "Left Macropad",
-        "Enabled",
-        "W/Encoder",
-        "No Macro"
-      ],
-      [
-        "Right Mods",
-        "6x1u",
-        "2x1.25u__3x1u"
-      ],
+      ["Left Macropad", "Enabled", "W/Encoder", "No Macro"],
+      ["Right Mods", "6x1u", "2x1.25u__3x1u"],
       "Right Encoder"
     ],
     "keymap": [

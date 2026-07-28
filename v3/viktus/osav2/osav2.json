@@ -6,9 +6,7 @@
     "rows": 10,
     "cols": 8
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
+  "keycodes": ["qmk_backlight_rgblight_keycodes"],
   "menus": [
     {
       "label": "Lighting",
@@ -19,33 +17,16 @@
             {
               "label": "Backlight Brightness",
               "type": "range",
-              "options": [
-                0,
-                255
-              ],
-              "content": [
-                "id_qmk_backlight_brightness",
-                1,
-                1
-              ]
+              "options": [0, 255],
+              "content": ["id_qmk_backlight_brightness", 1, 1]
             },
             {
               "label": "Backlight Effect",
               "type": "dropdown",
-              "content": [
-                "id_qmk_backlight_effect",
-                1,
-                2
-              ],
+              "content": ["id_qmk_backlight_effect", 1, 2],
               "options": [
-                [
-                  "Off",
-                  0
-                ],
-                [
-                  "Breathing",
-                  1
-                ]
+                ["Off", 0],
+                ["Breathing", 1]
               ]
             }
           ]
@@ -56,24 +37,13 @@
             {
               "label": "Brightness",
               "type": "range",
-              "options": [
-                0,
-                255
-              ],
-              "content": [
-                "id_qmk_rgblight_brightness",
-                2,
-                1
-              ]
+              "options": [0, 255],
+              "content": ["id_qmk_rgblight_brightness", 2, 1]
             },
             {
               "label": "Effect",
               "type": "dropdown",
-              "content": [
-                "id_qmk_rgblight_effect",
-                2,
-                2
-              ],
+              "content": ["id_qmk_rgblight_effect", 2, 2],
               "options": [
                 "All Off",
                 "Solid Color",
@@ -99,25 +69,14 @@
               "showIf": "{id_qmk_rgblight_effect} != 0",
               "label": "Effect Speed",
               "type": "range",
-              "options": [
-                0,
-                255
-              ],
-              "content": [
-                "id_qmk_rgblight_effect_speed",
-                2,
-                3
-              ]
+              "options": [0, 255],
+              "content": ["id_qmk_rgblight_effect_speed", 2, 3]
             },
             {
               "showIf": "{id_qmk_rgblight_effect} != 0 && {id_qmk_rgblight_effect} != 35",
               "label": "Color",
               "type": "color",
-              "content": [
-                "id_qmk_rgblight_color",
-                2,
-                4
-              ]
+              "content": ["id_qmk_rgblight_color", 2, 4]
             }
           ]
         }
@@ -134,11 +93,7 @@
         "Mirrored 2.25U",
         "Mirrored 2U"
       ],
-      [
-        "Right Shift",
-        "Split",
-        "2.75U"
-      ]
+      ["Right Shift", "Split", "2.75U"]
     ],
     "keymap": [
       [

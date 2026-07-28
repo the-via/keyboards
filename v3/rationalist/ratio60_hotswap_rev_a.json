@@ -6,29 +6,13 @@
     "rows": 5,
     "cols": 14
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgblight"
-  ],
+  "keycodes": ["qmk_rgblight_keycodes"],
+  "menus": ["qmk_rgblight"],
   "layouts": {
     "labels": [
-      [
-        "Backspace",
-        "Unified",
-        "Split",
-        "Encoder"
-      ],
+      ["Backspace", "Unified", "Split", "Encoder"],
       "Unified Left Shift",
-      [
-        "Bottom row",
-        "Standard",
-        "Tsangan",
-        "WKL",
-        "HHKB",
-        "10U"
-      ]
+      ["Bottom row", "Standard", "Tsangan", "WKL", "HHKB", "10U"]
     ],
     "keymap": [
       [
