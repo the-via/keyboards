@@ -6,29 +6,15 @@
     "rows": 10,
     "cols": 11
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgblight"
-  ],
+  "keycodes": ["qmk_rgblight_keycodes"],
+  "menus": ["qmk_rgblight"],
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO Enter",
       "Split Left Shift",
-      [
-        "Numpad Enter and Plus",
-        "All 1U",
-        "2U Enter",
-        "2U Plus",
-        "Both 2U"
-      ],
-      [
-        "Bottom Row",
-        "1U Mods and 6U Space",
-        "1.5U Mods and 7U Space"
-      ]
+      ["Numpad Enter and Plus", "All 1U", "2U Enter", "2U Plus", "Both 2U"],
+      ["Bottom Row", "1U Mods and 6U Space", "1.5U Mods and 7U Space"]
     ],
     "keymap": [
       [

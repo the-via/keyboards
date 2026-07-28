@@ -6,24 +6,15 @@
     "rows": 5,
     "cols": 15
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_backlight_rgblight"
-  ],
+  "keycodes": ["qmk_backlight_rgblight_keycodes"],
+  "menus": ["qmk_backlight_rgblight"],
   "layouts": {
     "labels": [
       "Split BackSpace",
       "ISO Enter",
       "2.75 Right Shift",
       "Left Shift ISO",
-      [
-        "Bottom Row",
-        "Split Space",
-        "Space 6.25U",
-        "Space 7U"
-      ]
+      ["Bottom Row", "Split Space", "Space 6.25U", "Space 7U"]
     ],
     "keymap": [
       [

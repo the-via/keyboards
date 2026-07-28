@@ -6,26 +6,12 @@
     "rows": 5,
     "cols": 12
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgblight"
-  ],
+  "keycodes": ["qmk_rgblight_keycodes"],
+  "menus": ["qmk_rgblight"],
   "layouts": {
     "labels": [
-      [
-        "4th Row",
-        "1u's",
-        "2x225u",
-        "2u"
-      ],
-      [
-        "5th Row",
-        "2x225u",
-        "2u",
-        "None"
-      ]
+      ["4th Row", "1u's", "2x225u", "2u"],
+      ["5th Row", "2x225u", "2u", "None"]
     ],
     "keymap": [
       [

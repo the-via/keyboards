@@ -6,24 +6,15 @@
     "rows": 8,
     "cols": 8
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgblight"
-  ],
+  "keycodes": ["qmk_rgblight_keycodes"],
+  "menus": ["qmk_rgblight"],
   "layouts": {
     "labels": [
       "Split Backspace",
       "Stepped CapsLock",
       "Split Left Shift",
       "Split Right Shift",
-      [
-        "Enter",
-        "ANSI Enter",
-        "ISO Enter",
-        "BAE"
-      ],
+      ["Enter", "ANSI Enter", "ISO Enter", "BAE"],
       [
         "Bottom Row",
         "AEK (6.5U Space)",

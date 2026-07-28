@@ -6,21 +6,11 @@
     "rows": 4,
     "cols": 12
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
+  "keycodes": ["qmk_rgblight_keycodes"],
   "layouts": {
     "labels": [
-      [
-        "Right Shift",
-        "1u/1.25u",
-        "1.25u/1u"
-      ],
-      [
-        "Bottom Row",
-        "Split",
-        "6.25U"
-      ]
+      ["Right Shift", "1u/1.25u", "1.25u/1u"],
+      ["Bottom Row", "Split", "6.25U"]
     ],
     "keymap": [
       [

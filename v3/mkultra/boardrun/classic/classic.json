@@ -6,18 +6,10 @@
     "rows": 5,
     "cols": 17
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgblight"
-  ],
+  "keycodes": ["qmk_rgblight_keycodes"],
+  "menus": ["qmk_rgblight"],
   "layouts": {
-    "labels": [
-      "1u Center Mods",
-      "1u Left Spacebar",
-      "1u Right Spacebar"
-    ],
+    "labels": ["1u Center Mods", "1u Left Spacebar", "1u Right Spacebar"],
     "keymap": [
       [
         {

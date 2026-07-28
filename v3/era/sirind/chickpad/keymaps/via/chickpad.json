@@ -6,7 +6,7 @@
     "rows": 3,
     "cols": 5
   },
-  "keycodes": ["qmk_lighting"],
+  "keycodes": ["qmk_rgb_matrix_keycodes"],
   "menus": [
     {
       "label": "Lighting",

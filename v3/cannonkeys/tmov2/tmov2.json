@@ -6,29 +6,13 @@
     "rows": 4,
     "cols": 16
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_backlight_rgblight"
-  ],
+  "keycodes": ["qmk_backlight_rgblight_keycodes"],
+  "menus": ["qmk_backlight_rgblight"],
   "layouts": {
     "labels": [
-      [
-        "Split L Shift",
-        "Full",
-        "Split"
-      ],
-      [
-        "Bottom Row",
-        "Split",
-        "6.25U Space"
-      ],
-      [
-        "Split R Shift",
-        "Split",
-        "Full"
-      ]
+      ["Split L Shift", "Full", "Split"],
+      ["Bottom Row", "Split", "6.25U Space"],
+      ["Split R Shift", "Split", "Full"]
     ],
     "keymap": [
       [

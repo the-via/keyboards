@@ -6,21 +6,13 @@
     "rows": 5,
     "cols": 15
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_backlight_rgblight"
-  ],
+  "keycodes": ["qmk_backlight_rgblight_keycodes"],
+  "menus": ["qmk_backlight_rgblight"],
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO Enter",
-      [
-        "Bottom Row",
-        "6.25U",
-        "Split Space: 2.25-1.25-2.75"
-      ]
+      ["Bottom Row", "6.25U", "Split Space: 2.25-1.25-2.75"]
     ],
     "keymap": [
       [

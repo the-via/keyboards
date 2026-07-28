@@ -6,12 +6,8 @@
     "rows": 5,
     "cols": 14
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_backlight_rgblight"
-  ],
+  "keycodes": ["qmk_backlight_rgblight_keycodes"],
+  "menus": ["qmk_backlight_rgblight"],
   "layouts": {
     "labels": [
       "Split Backspace",
@@ -24,12 +20,7 @@
         "Split left shift",
         "Split both shifts"
       ],
-      [
-        "Bottom Row",
-        "6.25U",
-        "7U Tsangan",
-        "Utilitarian"
-      ]
+      ["Bottom Row", "6.25U", "7U Tsangan", "Utilitarian"]
     ],
     "keymap": [
       [

@@ -6,29 +6,13 @@
     "rows": 10,
     "cols": 8
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgblight"
-  ],
+  "keycodes": ["qmk_rgblight_keycodes"],
+  "menus": ["qmk_rgblight"],
   "layouts": {
     "labels": [
-      [
-        "Backspace",
-        "Split",
-        "Full"
-      ],
-      [
-        "Left Space",
-        "Outside",
-        "Inside"
-      ],
-      [
-        "Right Space",
-        "Outside",
-        "Inside"
-      ]
+      ["Backspace", "Split", "Full"],
+      ["Left Space", "Outside", "Inside"],
+      ["Right Space", "Outside", "Inside"]
     ],
     "keymap": [
       [

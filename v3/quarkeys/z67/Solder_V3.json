@@ -6,24 +6,14 @@
     "rows": 5,
     "cols": 16
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgblight"
-  ],
+  "keycodes": ["qmk_rgblight_keycodes"],
+  "menus": ["qmk_rgblight"],
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO Enter",
       "Split Left Shift",
-      [
-        "Bottom Row",
-        "65%-Standard",
-        "65%-7U Spcbar",
-        "Bauer",
-        "Compact"
-      ]
+      ["Bottom Row", "65%-Standard", "65%-7U Spcbar", "Bauer", "Compact"]
     ],
     "keymap": [
       [

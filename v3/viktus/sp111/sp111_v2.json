@@ -6,49 +6,19 @@
     "rows": 12,
     "cols": 11
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
+  "keycodes": ["qmk_rgb_matrix_keycodes"],
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO Enter",
       "Split Left Shift",
       "Split Right Shift",
-      [
-        "Left Bottom Row",
-        "3U",
-        "2.75U",
-        "2.25U"
-      ],
-      [
-        "Right Bottom Row",
-        "3U",
-        "2.75U",
-        "2.25U"
-      ],
-      [
-        "Numpad Plus",
-        "2U",
-        "Split"
-      ],
-      [
-        "Mirrored Numpad Plus",
-        "Split",
-        "2U"
-      ],
-      [
-        "Numpad Enter",
-        "Vertical 2U",
-        "Horizontal 2U Zero",
-        "Split"
-      ],
-      [
-        "Mirrored Numpad Enter",
-        "Horizontal 2U Zero",
-        "Vertical 2U",
-        "Split"
-      ]
+      ["Left Bottom Row", "3U", "2.75U", "2.25U"],
+      ["Right Bottom Row", "3U", "2.75U", "2.25U"],
+      ["Numpad Plus", "2U", "Split"],
+      ["Mirrored Numpad Plus", "Split", "2U"],
+      ["Numpad Enter", "Vertical 2U", "Horizontal 2U Zero", "Split"],
+      ["Mirrored Numpad Enter", "Horizontal 2U Zero", "Vertical 2U", "Split"]
     ],
     "keymap": [
       [

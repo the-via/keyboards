@@ -6,18 +6,10 @@
     "rows": 4,
     "cols": 4
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_backlight"
-  ],
+  "keycodes": ["qmk_backlight_keycodes", "qmk_rgb_matrix_keycodes"],
+  "menus": ["qmk_backlight"],
   "layouts": {
-    "labels": [
-      "2u Top Right",
-      "2u Bottom Left",
-      "2u Bottom Right"
-    ],
+    "labels": ["2u Top Right", "2u Bottom Left", "2u Bottom Right"],
     "keymap": [
       [
         {

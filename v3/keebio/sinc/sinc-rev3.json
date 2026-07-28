@@ -6,31 +6,18 @@
     "rows": 12,
     "cols": 9
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgb_matrix"
-  ],
+  "keycodes": ["qmk_rgb_matrix_keycodes"],
+  "menus": ["qmk_rgb_matrix"],
   "layouts": {
     "labels": [
       "Left Macropad",
-      [
-        "Left Encoder",
-        "Encoder",
-        "Switch",
-        "No Switch"
-      ],
+      ["Left Encoder", "Encoder", "Switch", "No Switch"],
       "Split Left Shift",
       "Right Encoder",
       "Split Backspace",
       "ISO Enter",
       "Split Right Shift",
-      [
-        "Right Mods",
-        "6x1u",
-        "2x1.25u__3x1u"
-      ]
+      ["Right Mods", "6x1u", "2x1.25u__3x1u"]
     ],
     "keymap": [
       [

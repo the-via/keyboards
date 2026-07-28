@@ -6,22 +6,13 @@
     "rows": 5,
     "cols": 14
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgblight"
-  ],
+  "keycodes": ["qmk_backlight_rgblight_keycodes"],
+  "menus": ["qmk_rgblight"],
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO Enter",
-      [
-        "R3 Layout",
-        "2.25U Left Shift",
-        "2U Left Shift",
-        "1.25U Left Shift"
-      ]
+      ["R3 Layout", "2.25U Left Shift", "2U Left Shift", "1.25U Left Shift"]
     ],
     "keymap": [
       [

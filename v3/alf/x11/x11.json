@@ -6,21 +6,13 @@
     "rows": 7,
     "cols": 13
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_backlight"
-  ],
+  "keycodes": ["qmk_backlight_rgblight_keycodes"],
+  "menus": ["qmk_backlight"],
   "layouts": {
     "labels": [
       "ISO Enter",
       "Split Right Shift",
-      [
-        "Bottom Row",
-        "7u",
-        "6.25u / Extra Mod"
-      ]
+      ["Bottom Row", "7u", "6.25u / Extra Mod"]
     ],
     "keymap": [
       [

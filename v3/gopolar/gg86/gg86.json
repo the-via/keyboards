@@ -6,29 +6,13 @@
     "rows": 6,
     "cols": 17
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_backlight_rgblight"
-  ],
+  "keycodes": ["qmk_backlight_rgblight_keycodes", "qmk_rgb_matrix_keycodes"],
+  "menus": ["qmk_backlight_rgblight"],
   "layouts": {
     "labels": [
-      [
-        "Enter",
-        "ANSI",
-        "ISO"
-      ],
-      [
-        "Left Shift",
-        "ANSI",
-        "ISO"
-      ],
-      [
-        "Right Shift",
-        "2.75U",
-        "Split Right Shift"
-      ]
+      ["Enter", "ANSI", "ISO"],
+      ["Left Shift", "ANSI", "ISO"],
+      ["Right Shift", "2.75U", "Split Right Shift"]
     ],
     "keymap": [
       [

@@ -6,21 +6,15 @@
     "rows": 6,
     "cols": 14
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_backlight_rgblight"
-  ],
+  "keycodes": ["qmk_backlight_rgblight_keycodes"],
+  "menus": ["qmk_backlight_rgblight"],
   "layouts": {
     "keymap": [
       [
         {
           "c": "#777777",
           "sm": "cherry",
-          "fa": [
-            4
-          ]
+          "fa": [4]
         },
         "0,0",
         {

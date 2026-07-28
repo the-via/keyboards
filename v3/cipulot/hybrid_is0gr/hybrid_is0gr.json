@@ -158,7 +158,6 @@
       "shortName": "KEY\nLOCK"
     }
   ],
-  "keycodes": ["qmk_lighting"],
   "menus": [
     {
       "label": "Switch Configuration",

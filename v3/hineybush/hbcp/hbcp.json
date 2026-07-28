@@ -6,22 +6,14 @@
     "rows": 6,
     "cols": 18
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_backlight_rgblight"
-  ],
+  "keycodes": ["qmk_backlight_rgblight_keycodes"],
+  "menus": ["qmk_backlight_rgblight"],
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO",
       "Split Left Shift",
-      [
-        "Bottom Row",
-        "7U",
-        "6.25U"
-      ],
+      ["Bottom Row", "7U", "6.25U"],
       "Split Upper Right Numpad",
       "Split Lower Right Numpad",
       "Split Bottom Numpad"

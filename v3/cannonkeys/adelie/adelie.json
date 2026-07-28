@@ -6,21 +6,10 @@
     "rows": 4,
     "cols": 15
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgblight"
-  ],
+  "keycodes": ["qmk_rgblight_keycodes"],
+  "menus": ["qmk_rgblight"],
   "layouts": {
-    "labels": [
-      [
-        "Bottom Row",
-        "Standard",
-        "6.25U Space",
-        "6U Space"
-      ]
-    ],
+    "labels": [["Bottom Row", "Standard", "6.25U Space", "6U Space"]],
     "keymap": [
       [
         {

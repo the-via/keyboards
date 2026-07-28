@@ -6,20 +6,10 @@
     "rows": 10,
     "cols": 9
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgb_matrix"
-  ],
+  "keycodes": ["qmk_rgb_matrix_keycodes"],
+  "menus": ["qmk_rgb_matrix"],
   "layouts": {
-    "labels": [
-      [
-        "Left Macropad",
-        "Enabled",
-        "No Macro"
-      ]
-    ],
+    "labels": [["Left Macropad", "Enabled", "No Macro"]],
     "keymap": [
       [
         {

@@ -6,22 +6,14 @@
     "rows": 5,
     "cols": 15
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_backlight"
-  ],
+  "keycodes": ["qmk_backlight_keycodes"],
+  "menus": ["qmk_backlight"],
   "layouts": {
     "labels": [
       "2U Backspace",
       "Left Shift ISO",
       "ISO Enter",
-      [
-        "Bottom Row",
-        "Space 7U",
-        "Space 6.25U"
-      ]
+      ["Bottom Row", "Space 7U", "Space 6.25U"]
     ],
     "keymap": [
       [

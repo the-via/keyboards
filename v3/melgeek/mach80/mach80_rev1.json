@@ -6,17 +6,9 @@
     "rows": 6,
     "cols": 16
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
+  "keycodes": ["qmk_rgb_matrix_keycodes"],
   "layouts": {
-    "labels": [
-      [
-        "Bottom Row",
-        "6.25U",
-        "7U"
-      ]
-    ],
+    "labels": [["Bottom Row", "6.25U", "7U"]],
     "keymap": [
       [
         {

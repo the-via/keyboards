@@ -6,21 +6,10 @@
     "rows": 5,
     "cols": 12
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgblight"
-  ],
+  "keycodes": ["qmk_rgblight_keycodes"],
+  "menus": ["qmk_rgblight"],
   "layouts": {
-    "labels": [
-      [
-        "Bottom Row",
-        "4x1U",
-        "1/2/1",
-        "2x2U"
-      ]
-    ],
+    "labels": [["Bottom Row", "4x1U", "1/2/1", "2x2U"]],
     "keymap": [
       [
         {

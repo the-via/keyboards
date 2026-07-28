@@ -6,22 +6,13 @@
     "rows": 6,
     "cols": 16
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgb_matrix"
-  ],
+  "keycodes": ["qmk_backlight_rgblight_keycodes", "qmk_rgb_matrix_keycodes"],
+  "menus": ["qmk_rgb_matrix"],
   "layouts": {
     "labels": [
       "ISO Enter",
       "Split Left Shift",
-      [
-        "Bottom Row",
-        "Standard",
-        "7U",
-        "Split"
-      ]
+      ["Bottom Row", "Standard", "7U", "Split"]
     ],
     "keymap": [
       [

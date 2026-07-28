@@ -6,27 +6,15 @@
     "rows": 7,
     "cols": 19
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_backlight_rgblight"
-  ],
+  "keycodes": ["qmk_backlight_rgblight_keycodes"],
+  "menus": ["qmk_backlight_rgblight"],
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO Enter",
       "Split Left Shift",
-      [
-        "Spacebar",
-        "7U",
-        "6.25U"
-      ],
-      [
-        "Right Mods",
-        "1.5U/1.5U",
-        "1U/1U/1U"
-      ],
+      ["Spacebar", "7U", "6.25U"],
+      ["Right Mods", "1.5U/1.5U", "1U/1U/1U"],
       "2U Numpad Plus",
       "Split Numpad Enter"
     ],

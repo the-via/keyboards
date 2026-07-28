@@ -6,22 +6,13 @@
     "rows": 10,
     "cols": 8
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgblight"
-  ],
+  "keycodes": ["qmk_rgblight_keycodes"],
+  "menus": ["qmk_rgblight"],
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO Enter",
-      [
-        "Right Shift",
-        "2.75",
-        "Arrow",
-        "Tsangan"
-      ],
+      ["Right Shift", "2.75", "Arrow", "Tsangan"],
       [
         "Spacebar",
         "Standard",

@@ -6,27 +6,12 @@
     "rows": 5,
     "cols": 12
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgblight"
-  ],
+  "keycodes": ["qmk_rgblight_keycodes"],
+  "menus": ["qmk_rgblight"],
   "layouts": {
     "labels": [
-      [
-        "4x12 Bottom Row",
-        "Grid",
-        "MIT (1x2u)",
-        "2x2.25u",
-        "2x3u"
-      ],
-      [
-        "5x12 Bottom Row",
-        "2x2.25u",
-        "2x3u",
-        "None"
-      ]
+      ["4x12 Bottom Row", "Grid", "MIT (1x2u)", "2x2.25u", "2x3u"],
+      ["5x12 Bottom Row", "2x2.25u", "2x3u", "None"]
     ],
     "keymap": [
       [

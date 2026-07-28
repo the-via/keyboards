@@ -6,16 +6,10 @@
     "rows": 6,
     "cols": 7
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgblight"
-  ],
+  "keycodes": ["qmk_rgblight_keycodes"],
+  "menus": ["qmk_rgblight"],
   "layouts": {
-    "labels": [
-      "Encoder"
-    ],
+    "labels": ["Encoder"],
     "keymap": [
       [
         "0,0",

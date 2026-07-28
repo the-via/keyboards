@@ -6,22 +6,13 @@
     "rows": 6,
     "cols": 17
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_backlight"
-  ],
+  "keycodes": ["qmk_backlight_keycodes"],
+  "menus": ["qmk_backlight"],
   "layouts": {
     "labels": [
       "Split Backspace",
       "Split Right Shift",
-      [
-        "Bottom Row",
-        "6.25u",
-        "7u WKL",
-        "7u WK"
-      ]
+      ["Bottom Row", "6.25u", "7u WKL", "7u WK"]
     ],
     "keymap": [
       [

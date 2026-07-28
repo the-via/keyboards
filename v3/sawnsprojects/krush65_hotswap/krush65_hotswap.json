@@ -6,22 +6,12 @@
     "rows": 5,
     "cols": 16
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgblight"
-  ],
+  "keycodes": ["qmk_rgblight_keycodes"],
+  "menus": ["qmk_rgblight"],
   "layouts": {
     "labels": [
       "Split Backspace",
-      [
-        "Spacebar",
-        "6.25U",
-        "Split Spacebar",
-        "Split Spacebar 2.0",
-        "7U"
-      ]
+      ["Spacebar", "6.25U", "Split Spacebar", "Split Spacebar 2.0", "7U"]
     ],
     "keymap": [
       [

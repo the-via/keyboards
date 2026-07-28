@@ -23,24 +23,14 @@
       "shortName": "FLED\nVal -"
     }
   ],
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgblight"
-  ],
+  "keycodes": ["qmk_rgblight_keycodes"],
+  "menus": ["qmk_rgblight"],
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO",
       "Split Left Shift",
-      [
-        "Bottom Row",
-        "6.25U",
-        "7U",
-        "Split Space A",
-        "Split Space B"
-      ]
+      ["Bottom Row", "6.25U", "7U", "Split Space A", "Split Space B"]
     ],
     "keymap": [
       [

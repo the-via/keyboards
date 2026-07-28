@@ -6,12 +6,8 @@
     "rows": 8,
     "cols": 15
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgblight"
-  ],
+  "keycodes": ["qmk_backlight_rgblight_keycodes"],
+  "menus": ["qmk_rgblight"],
   "layouts": {
     "labels": [
       "Split Backspace",
@@ -19,12 +15,7 @@
       "Split Left Shift",
       "Split Right Shift",
       "Split 0 key",
-      [
-        "Right Modifiers",
-        "Basic",
-        "STT",
-        "AOP"
-      ]
+      ["Right Modifiers", "Basic", "STT", "AOP"]
     ],
     "keymap": [
       [

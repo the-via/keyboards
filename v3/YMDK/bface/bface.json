@@ -6,12 +6,8 @@
     "rows": 5,
     "cols": 15
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_backlight_rgblight"
-  ],
+  "keycodes": ["qmk_backlight_rgblight_keycodes"],
+  "menus": ["qmk_backlight_rgblight"],
   "layouts": {
     "labels": [
       "Split Backspace",
@@ -26,15 +22,7 @@
         "ISO Arrows",
         "2u LShift"
       ],
-      [
-        "Bottom Row",
-        "ANSI",
-        "TSANGAN",
-        "WKL",
-        "HHKB",
-        "Arrows",
-        "3u"
-      ]
+      ["Bottom Row", "ANSI", "TSANGAN", "WKL", "HHKB", "Arrows", "3u"]
     ],
     "keymap": [
       [

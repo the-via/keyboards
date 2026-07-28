@@ -6,34 +6,14 @@
     "rows": 6,
     "cols": 16
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_backlight"
-  ],
+  "keycodes": ["qmk_backlight_keycodes"],
+  "menus": ["qmk_backlight"],
   "layouts": {
     "labels": [
-      [
-        "Backspace",
-        "Default",
-        "Split"
-      ],
-      [
-        "Enter Key",
-        "ANSI",
-        "ISO"
-      ],
-      [
-        "Left Shift",
-        "Default",
-        "Split"
-      ],
-      [
-        "Spacebar",
-        "6.25",
-        "7u"
-      ]
+      ["Backspace", "Default", "Split"],
+      ["Enter Key", "ANSI", "ISO"],
+      ["Left Shift", "Default", "Split"],
+      ["Spacebar", "6.25", "7u"]
     ],
     "keymap": [
       [

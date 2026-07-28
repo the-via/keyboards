@@ -6,31 +6,15 @@
     "rows": 6,
     "cols": 20
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgblight"
-  ],
+  "keycodes": ["qmk_rgblight_keycodes"],
+  "menus": ["qmk_rgblight"],
   "layouts": {
     "labels": [
       "Split Backspace",
-      [
-        "Enter Key",
-        "ANSI",
-        "ISO"
-      ],
+      ["Enter Key", "ANSI", "ISO"],
       "Split Left Shift",
       "Split Right Shift",
-      [
-        "Bottom Row",
-        "6u",
-        "6.25u 1",
-        "6.25u 2",
-        "6.25u 3",
-        "6.25u 4",
-        "7u"
-      ]
+      ["Bottom Row", "6u", "6.25u 1", "6.25u 2", "6.25u 3", "6.25u 4", "7u"]
     ],
     "keymap": [
       [

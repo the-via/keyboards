@@ -6,20 +6,10 @@
     "rows": 5,
     "cols": 12
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_backlight"
-  ],
+  "keycodes": ["qmk_backlight_keycodes"],
+  "menus": ["qmk_backlight"],
   "layouts": {
-    "labels": [
-      [
-        "Space",
-        "2x 1u",
-        "2u"
-      ]
-    ],
+    "labels": [["Space", "2x 1u", "2u"]],
     "keymap": [
       [
         "0,0",

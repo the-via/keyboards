@@ -6,30 +6,13 @@
     "rows": 5,
     "cols": 6
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_backlight"
-  ],
+  "keycodes": ["qmk_backlight_keycodes"],
+  "menus": ["qmk_backlight"],
   "layouts": {
     "labels": [
-      [
-        "Bottom Center",
-        "2x 1u",
-        "2u"
-      ],
-      [
-        "Bottom Right Corner",
-        "3x 1u",
-        "Horizontal 2u",
-        "Vertical 2u"
-      ],
-      [
-        "Right Center",
-        "2x 1u",
-        "2u"
-      ]
+      ["Bottom Center", "2x 1u", "2u"],
+      ["Bottom Right Corner", "3x 1u", "Horizontal 2u", "Vertical 2u"],
+      ["Right Center", "2x 1u", "2u"]
     ],
     "keymap": [
       [

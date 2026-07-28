@@ -6,24 +6,15 @@
     "rows": 10,
     "cols": 7
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_backlight_rgblight"
-  ],
+  "keycodes": ["qmk_backlight_rgblight_keycodes"],
+  "menus": ["qmk_backlight_rgblight"],
   "layouts": {
     "labels": [
       "Unified Backspace",
       "ISO Enter",
       "Split Left Shift",
       "Unified Right Shift",
-      [
-        "Bottom row",
-        "Tsangan",
-        "HHKB",
-        "Standard"
-      ]
+      ["Bottom row", "Tsangan", "HHKB", "Standard"]
     ],
     "keymap": [
       [

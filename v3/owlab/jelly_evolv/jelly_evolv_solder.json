@@ -6,23 +6,14 @@
     "rows": 6,
     "cols": 15
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgblight"
-  ],
+  "keycodes": ["qmk_rgblight_keycodes"],
+  "menus": ["qmk_rgblight"],
   "layouts": {
     "labels": [
       "Split Backspace",
       "ISO enter",
       "Split Left Shift",
-      [
-        "Bottom Row",
-        "6.25u",
-        "7u",
-        "Dual-Blocker 7u"
-      ]
+      ["Bottom Row", "6.25u", "7u", "Dual-Blocker 7u"]
     ],
     "keymap": [
       [

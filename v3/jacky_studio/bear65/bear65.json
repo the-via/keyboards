@@ -6,17 +6,10 @@
     "rows": 5,
     "cols": 15
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_backlight_rgblight"
-  ],
+  "keycodes": ["qmk_backlight_rgblight_keycodes"],
+  "menus": ["qmk_backlight_rgblight"],
   "layouts": {
-    "labels": [
-      "Full Backspace",
-      "WKL"
-    ],
+    "labels": ["Full Backspace", "WKL"],
     "keymap": [
       [
         {

@@ -6,15 +6,9 @@
     "rows": 5,
     "cols": 15
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
+  "keycodes": ["qmk_rgb_matrix_keycodes"],
   "layouts": {
-    "labels": [
-      "Split Back Space",
-      "Split Right Shift",
-      "2.25u Left Space"
-    ],
+    "labels": ["Split Back Space", "Split Right Shift", "2.25u Left Space"],
     "keymap": [
       [
         {

@@ -6,17 +6,10 @@
     "rows": 5,
     "cols": 15
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgblight"
-  ],
+  "keycodes": ["qmk_backlight_rgblight_keycodes"],
+  "menus": ["qmk_rgblight"],
   "layouts": {
-    "labels": [
-      "ISO Enter",
-      "Split Left Shift"
-    ],
+    "labels": ["ISO Enter", "Split Left Shift"],
     "keymap": [
       [
         {
