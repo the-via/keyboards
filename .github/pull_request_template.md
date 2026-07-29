@@ -36,6 +36,7 @@
 - [ ] VIA keymap is **MERGED** in VIA userspace master already **(MANDATORY)**
 - [ ] The VIA definition follows the guide here: https://caniusevia.com/docs/layouts
 - [ ] I have a V3 JSON version for this keyboard definition.**(MANDATORY)**
+- [ ] I have used explicit QMK lighting keycode modules instead of the legacy `qmk_lighting` module.
 - [ ] I have formatted the JSON file to have consistent formatting with the rest of the repository.
 - [ ] I have tested this keyboard definition using VIA's "Design" tab.
 - [ ] I have tested this keyboard definition with firmware on a device.

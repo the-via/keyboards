@@ -6,10 +6,12 @@
     "via-keyboards": "./bin/cli.js"
   },
   "scripts": {
+    "prebuild": "npm run validate:keycodes",
     "build": "tsx scripts/build-all.ts",
     "build-names": "tsx scripts/build-names.ts",
     "prettify-all": "prettier --write ./src ./v3",
-    "prettify-staged": "pretty-quick --staged"
+    "prettify-staged": "pretty-quick --staged",
+    "validate:keycodes": "tsx scripts/validate-keycode-modules.ts"
   },
   "repository": {
     "type": "git",
