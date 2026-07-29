@@ -7,7 +7,7 @@
     "cols": 15
   },
   "keycodes": [
-    "qmk_lighting"
+    "qmk_rgb_matrix_keycodes"
   ],
   "menus": [
     "qmk_rgb_matrix"
