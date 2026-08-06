@@ -1549,15 +1549,18 @@
           "content": [
             {
               "showIf": "{id_firmware_version} >= 3",
-              "label": "Firmware Version",
-              "type": "label",
-              "content": ["id_firmware_version_text", 0, 26]
-            },
-            {
-              "showIf": "{id_firmware_version} >= 3",
-              "label": "Firmware build date",
-              "type": "label",
-              "content": ["id_firmware_build_text", 0, 27]
+              "content": [
+                {
+                  "label": "Firmware Version",
+                  "type": "label",
+                  "content": ["id_firmware_version_text", 0, 26]
+                },
+                {
+                  "label": "Firmware build date",
+                  "type": "label",
+                  "content": ["id_firmware_build_text", 0, 27]
+                }
+              ]
             },
             {
               "label": "Enter bootloader",

@@ -6,6 +6,158 @@
     "rows": 9,
     "cols": 20
   },
+  "customKeycodes": [
+    {
+      "name": "TD(0)",
+      "title": "Tap Dance slot 0",
+      "shortName": "TD\n0"
+    },
+    {
+      "name": "TD(1)",
+      "title": "Tap Dance slot 1",
+      "shortName": "TD\n1"
+    },
+    {
+      "name": "TD(2)",
+      "title": "Tap Dance slot 2",
+      "shortName": "TD\n2"
+    },
+    {
+      "name": "TD(3)",
+      "title": "Tap Dance slot 3",
+      "shortName": "TD\n3"
+    },
+    {
+      "name": "TD(4)",
+      "title": "Tap Dance slot 4",
+      "shortName": "TD\n4"
+    },
+    {
+      "name": "TD(5)",
+      "title": "Tap Dance slot 5",
+      "shortName": "TD\n5"
+    },
+    {
+      "name": "TD(6)",
+      "title": "Tap Dance slot 6",
+      "shortName": "TD\n6"
+    },
+    {
+      "name": "TD(7)",
+      "title": "Tap Dance slot 7",
+      "shortName": "TD\n7"
+    },
+    {
+      "name": "TD(8)",
+      "title": "Tap Dance slot 8",
+      "shortName": "TD\n8"
+    },
+    {
+      "name": "TD(9)",
+      "title": "Tap Dance slot 9",
+      "shortName": "TD\n9"
+    },
+    {
+      "name": "TD(10)",
+      "title": "Tap Dance slot 10",
+      "shortName": "TD\n10"
+    },
+    {
+      "name": "TD(11)",
+      "title": "Tap Dance slot 11",
+      "shortName": "TD\n11"
+    },
+    {
+      "name": "TD(12)",
+      "title": "Tap Dance slot 12",
+      "shortName": "TD\n12"
+    },
+    {
+      "name": "TD(13)",
+      "title": "Tap Dance slot 13",
+      "shortName": "TD\n13"
+    },
+    {
+      "name": "TD(14)",
+      "title": "Tap Dance slot 14",
+      "shortName": "TD\n14"
+    },
+    {
+      "name": "TD(15)",
+      "title": "Tap Dance slot 15",
+      "shortName": "TD\n15"
+    },
+    {
+      "name": "OS_LCTL",
+      "title": "One-Shot Left Control",
+      "shortName": "OS\nLCTL"
+    },
+    {
+      "name": "OS_LSFT",
+      "title": "One-Shot Left Shift",
+      "shortName": "OS\nLSFT"
+    },
+    {
+      "name": "OS_LALT",
+      "title": "One-Shot Left Alt",
+      "shortName": "OS\nLALT"
+    },
+    {
+      "name": "OS_LGUI",
+      "title": "One-Shot Left GUI",
+      "shortName": "OS\nLGUI"
+    },
+    {
+      "name": "OS_RCTL",
+      "title": "One-Shot Right Control",
+      "shortName": "OS\nRCTL"
+    },
+    {
+      "name": "OS_RSFT",
+      "title": "One-Shot Right Shift",
+      "shortName": "OS\nRSFT"
+    },
+    {
+      "name": "OS_RALT",
+      "title": "One-Shot Right Alt",
+      "shortName": "OS\nRALT"
+    },
+    {
+      "name": "OS_RGUI",
+      "title": "One-Shot Right GUI",
+      "shortName": "OS\nRGUI"
+    },
+    {
+      "name": "OS_ON",
+      "title": "Enable one-shot keys",
+      "shortName": "OS\nON"
+    },
+    {
+      "name": "OS_OFF",
+      "title": "Disable One-Shot keys",
+      "shortName": "OS\nOFF"
+    },
+    {
+      "name": "OS_TOGG",
+      "title": "Toggle One-Shot keys",
+      "shortName": "OS\nTOGG"
+    },
+    {
+      "name": "OS_MEH",
+      "title": "One-Shot Left Control, Shift and Alt",
+      "shortName": "OS\nMEH"
+    },
+    {
+      "name": "OS_HYPR",
+      "title": "One-Shot Left Control, Shift, Alt and GUI",
+      "shortName": "OS\nHYPR"
+    },
+    {
+      "name": "QK_LOCK",
+      "title": "Lock or unlock the next key pressed",
+      "shortName": "KEY\nLOCK"
+    }
+  ],
   "menus": [
     {
       "label": "Indicators",
@@ -231,6 +383,1414 @@
                   "content": ["id_ind7_func", 0, 14]
                 }
               ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "showIf": "{id_firmware_version} >= 2",
+      "label": "Haptic Feedback",
+      "content": [
+        {
+          "label": "Solenoid",
+          "content": [
+            {
+              "label": "Enable Haptic Feedback",
+              "type": "toggle",
+              "content": ["id_solenoid_enable", 0, 31]
+            },
+            {
+              "showIf": "{id_solenoid_enable} == 1",
+              "label": "Enable Solenoid 1",
+              "type": "toggle",
+              "content": ["id_solenoid_enable_1", 0, 43]
+            },
+            {
+              "showIf": "{id_solenoid_enable} == 1 && {id_solenoid_enable_1} == 1",
+              "label": "Solenoid 1 Trigger Event",
+              "type": "dropdown",
+              "options": [
+                ["Key Press", 0],
+                ["Key Press and Release", 1],
+                ["Key Release", 2]
+              ],
+              "content": ["id_solenoid_trigger_1", 0, 32]
+            },
+            {
+              "showIf": "{id_solenoid_enable} == 1 && {id_solenoid_enable_1} == 1",
+              "label": "Solenoid 1 Dwell Time (ms)",
+              "type": "range",
+              "options": [4, 100],
+              "content": ["id_solenoid_dwell_1", 0, 33]
+            },
+            {
+              "showIf": "{id_solenoid_enable} == 1 && {id_solenoid_enable_1} == 1",
+              "label": "Solenoid 1 Buzz Mode",
+              "type": "toggle",
+              "content": ["id_solenoid_buzz_1", 0, 34]
+            },
+            {
+              "showIf": "{id_solenoid_enable} == 1",
+              "label": "Restore Haptic Defaults",
+              "type": "button",
+              "options": [0],
+              "content": ["id_solenoid_reset", 0, 35]
+            }
+          ]
+        },
+        {
+          "showIf": "{id_solenoid_enable} == 1",
+          "label": "Key Exclusions",
+          "content": [
+            {
+              "label": "Exclude Modifier Keys",
+              "type": "toggle",
+              "content": ["id_solenoid_exclude_mods", 0, 37]
+            },
+            {
+              "label": "Exclude Alphabetic Keys",
+              "type": "toggle",
+              "content": ["id_solenoid_exclude_alpha", 0, 38]
+            },
+            {
+              "label": "Exclude Number-Row Keys",
+              "type": "toggle",
+              "content": ["id_solenoid_exclude_num", 0, 42]
+            },
+            {
+              "label": "Exclude Punctuation Keys",
+              "type": "toggle",
+              "content": ["id_solenoid_exclude_punct", 0, 39]
+            },
+            {
+              "label": "Exclude Navigation Keys",
+              "type": "toggle",
+              "content": ["id_solenoid_exclude_nav", 0, 41]
+            },
+            {
+              "label": "Exclude Lock Keys",
+              "type": "toggle",
+              "content": ["id_solenoid_exclude_locks", 0, 40]
+            }
+          ]
+        },
+        {
+          "showIf": "{id_solenoid_enable} == 1",
+          "label": "Output Testing",
+          "content": [
+            {
+              "showIf": "{id_solenoid_enable_1} == 1",
+              "label": "Test Solenoid",
+              "type": "button",
+              "options": [0],
+              "content": ["id_solenoid_test_1", 0, 36]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "showIf": "{id_firmware_version} >= 2",
+      "label": "Advanced Features",
+      "content": [
+        {
+          "label": "SOCD",
+          "content": [
+            {
+              "label": "Pair #1 Mode",
+              "type": "dropdown",
+              "options": [
+                ["Disabled", 0],
+                ["Last Priority", 1],
+                ["Neutral", 2],
+                ["First Key Priority", 3],
+                ["Second Key Priority", 4]
+              ],
+              "content": ["id_socd_pair_1_mode", 0, 15]
+            },
+            {
+              "showIf": "{id_socd_pair_1_mode} != 0",
+              "content": [
+                {
+                  "label": "Pair #1 First Key",
+                  "type": "keycode",
+                  "content": ["id_socd_pair_1_key_1", 0, 16]
+                },
+                {
+                  "label": "Pair #1 Second Key",
+                  "type": "keycode",
+                  "content": ["id_socd_pair_1_key_2", 0, 17]
+                }
+              ]
+            },
+            {
+              "label": "Pair #2 Mode",
+              "type": "dropdown",
+              "options": [
+                ["Disabled", 0],
+                ["Last Priority", 1],
+                ["Neutral", 2],
+                ["First Key Priority", 3],
+                ["Second Key Priority", 4]
+              ],
+              "content": ["id_socd_pair_2_mode", 0, 18]
+            },
+            {
+              "showIf": "{id_socd_pair_2_mode} != 0",
+              "content": [
+                {
+                  "label": "Pair #2 First Key",
+                  "type": "keycode",
+                  "content": ["id_socd_pair_2_key_1", 0, 19]
+                },
+                {
+                  "label": "Pair #2 Second Key",
+                  "type": "keycode",
+                  "content": ["id_socd_pair_2_key_2", 0, 20]
+                }
+              ]
+            },
+            {
+              "label": "Pair #3 Mode",
+              "type": "dropdown",
+              "options": [
+                ["Disabled", 0],
+                ["Last Priority", 1],
+                ["Neutral", 2],
+                ["First Key Priority", 3],
+                ["Second Key Priority", 4]
+              ],
+              "content": ["id_socd_pair_3_mode", 0, 21]
+            },
+            {
+              "showIf": "{id_socd_pair_3_mode} != 0",
+              "content": [
+                {
+                  "label": "Pair #3 First Key",
+                  "type": "keycode",
+                  "content": ["id_socd_pair_3_key_1", 0, 22]
+                },
+                {
+                  "label": "Pair #3 Second Key",
+                  "type": "keycode",
+                  "content": ["id_socd_pair_3_key_2", 0, 23]
+                }
+              ]
+            },
+            {
+              "label": "Pair #4 Mode",
+              "type": "dropdown",
+              "options": [
+                ["Disabled", 0],
+                ["Last Priority", 1],
+                ["Neutral", 2],
+                ["First Key Priority", 3],
+                ["Second Key Priority", 4]
+              ],
+              "content": ["id_socd_pair_4_mode", 0, 24]
+            },
+            {
+              "showIf": "{id_socd_pair_4_mode} != 0",
+              "content": [
+                {
+                  "label": "Pair #4 First Key",
+                  "type": "keycode",
+                  "content": ["id_socd_pair_4_key_1", 0, 25]
+                },
+                {
+                  "label": "Pair #4 Second Key",
+                  "type": "keycode",
+                  "content": ["id_socd_pair_4_key_2", 0, 26]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Tap Dance",
+      "content": [
+        {
+          "label": "Tap Dance 0 - TD(0)",
+          "content": [
+            {
+              "label": "Single tap",
+              "type": "keycode",
+              "content": ["id_tap_dance_single_tap[0]", 9, 1, 0]
+            },
+            {
+              "label": "Single hold",
+              "type": "keycode",
+              "content": ["id_tap_dance_single_hold[0]", 9, 2, 0]
+            },
+            {
+              "label": "Double tap",
+              "type": "keycode",
+              "content": ["id_tap_dance_double_tap[0]", 9, 3, 0]
+            },
+            {
+              "label": "Double hold",
+              "type": "keycode",
+              "content": ["id_tap_dance_double_hold[0]", 9, 4, 0]
+            },
+            {
+              "label": "Tapping term (ms)",
+              "type": "range",
+              "content": ["id_tap_dance_term[0]", 9, 5, 0],
+              "options": [1, 1000]
+            }
+          ]
+        },
+        {
+          "label": "Tap Dance 1 - TD(1)",
+          "content": [
+            {
+              "label": "Single tap",
+              "type": "keycode",
+              "content": ["id_tap_dance_single_tap[1]", 9, 1, 1]
+            },
+            {
+              "label": "Single hold",
+              "type": "keycode",
+              "content": ["id_tap_dance_single_hold[1]", 9, 2, 1]
+            },
+            {
+              "label": "Double tap",
+              "type": "keycode",
+              "content": ["id_tap_dance_double_tap[1]", 9, 3, 1]
+            },
+            {
+              "label": "Double hold",
+              "type": "keycode",
+              "content": ["id_tap_dance_double_hold[1]", 9, 4, 1]
+            },
+            {
+              "label": "Tapping term (ms)",
+              "type": "range",
+              "content": ["id_tap_dance_term[1]", 9, 5, 1],
+              "options": [1, 1000]
+            }
+          ]
+        },
+        {
+          "label": "Tap Dance 2 - TD(2)",
+          "content": [
+            {
+              "label": "Single tap",
+              "type": "keycode",
+              "content": ["id_tap_dance_single_tap[2]", 9, 1, 2]
+            },
+            {
+              "label": "Single hold",
+              "type": "keycode",
+              "content": ["id_tap_dance_single_hold[2]", 9, 2, 2]
+            },
+            {
+              "label": "Double tap",
+              "type": "keycode",
+              "content": ["id_tap_dance_double_tap[2]", 9, 3, 2]
+            },
+            {
+              "label": "Double hold",
+              "type": "keycode",
+              "content": ["id_tap_dance_double_hold[2]", 9, 4, 2]
+            },
+            {
+              "label": "Tapping term (ms)",
+              "type": "range",
+              "content": ["id_tap_dance_term[2]", 9, 5, 2],
+              "options": [1, 1000]
+            }
+          ]
+        },
+        {
+          "label": "Tap Dance 3 - TD(3)",
+          "content": [
+            {
+              "label": "Single tap",
+              "type": "keycode",
+              "content": ["id_tap_dance_single_tap[3]", 9, 1, 3]
+            },
+            {
+              "label": "Single hold",
+              "type": "keycode",
+              "content": ["id_tap_dance_single_hold[3]", 9, 2, 3]
+            },
+            {
+              "label": "Double tap",
+              "type": "keycode",
+              "content": ["id_tap_dance_double_tap[3]", 9, 3, 3]
+            },
+            {
+              "label": "Double hold",
+              "type": "keycode",
+              "content": ["id_tap_dance_double_hold[3]", 9, 4, 3]
+            },
+            {
+              "label": "Tapping term (ms)",
+              "type": "range",
+              "content": ["id_tap_dance_term[3]", 9, 5, 3],
+              "options": [1, 1000]
+            }
+          ]
+        },
+        {
+          "label": "Tap Dance 4 - TD(4)",
+          "content": [
+            {
+              "label": "Single tap",
+              "type": "keycode",
+              "content": ["id_tap_dance_single_tap[4]", 9, 1, 4]
+            },
+            {
+              "label": "Single hold",
+              "type": "keycode",
+              "content": ["id_tap_dance_single_hold[4]", 9, 2, 4]
+            },
+            {
+              "label": "Double tap",
+              "type": "keycode",
+              "content": ["id_tap_dance_double_tap[4]", 9, 3, 4]
+            },
+            {
+              "label": "Double hold",
+              "type": "keycode",
+              "content": ["id_tap_dance_double_hold[4]", 9, 4, 4]
+            },
+            {
+              "label": "Tapping term (ms)",
+              "type": "range",
+              "content": ["id_tap_dance_term[4]", 9, 5, 4],
+              "options": [1, 1000]
+            }
+          ]
+        },
+        {
+          "label": "Tap Dance 5 - TD(5)",
+          "content": [
+            {
+              "label": "Single tap",
+              "type": "keycode",
+              "content": ["id_tap_dance_single_tap[5]", 9, 1, 5]
+            },
+            {
+              "label": "Single hold",
+              "type": "keycode",
+              "content": ["id_tap_dance_single_hold[5]", 9, 2, 5]
+            },
+            {
+              "label": "Double tap",
+              "type": "keycode",
+              "content": ["id_tap_dance_double_tap[5]", 9, 3, 5]
+            },
+            {
+              "label": "Double hold",
+              "type": "keycode",
+              "content": ["id_tap_dance_double_hold[5]", 9, 4, 5]
+            },
+            {
+              "label": "Tapping term (ms)",
+              "type": "range",
+              "content": ["id_tap_dance_term[5]", 9, 5, 5],
+              "options": [1, 1000]
+            }
+          ]
+        },
+        {
+          "label": "Tap Dance 6 - TD(6)",
+          "content": [
+            {
+              "label": "Single tap",
+              "type": "keycode",
+              "content": ["id_tap_dance_single_tap[6]", 9, 1, 6]
+            },
+            {
+              "label": "Single hold",
+              "type": "keycode",
+              "content": ["id_tap_dance_single_hold[6]", 9, 2, 6]
+            },
+            {
+              "label": "Double tap",
+              "type": "keycode",
+              "content": ["id_tap_dance_double_tap[6]", 9, 3, 6]
+            },
+            {
+              "label": "Double hold",
+              "type": "keycode",
+              "content": ["id_tap_dance_double_hold[6]", 9, 4, 6]
+            },
+            {
+              "label": "Tapping term (ms)",
+              "type": "range",
+              "content": ["id_tap_dance_term[6]", 9, 5, 6],
+              "options": [1, 1000]
+            }
+          ]
+        },
+        {
+          "label": "Tap Dance 7 - TD(7)",
+          "content": [
+            {
+              "label": "Single tap",
+              "type": "keycode",
+              "content": ["id_tap_dance_single_tap[7]", 9, 1, 7]
+            },
+            {
+              "label": "Single hold",
+              "type": "keycode",
+              "content": ["id_tap_dance_single_hold[7]", 9, 2, 7]
+            },
+            {
+              "label": "Double tap",
+              "type": "keycode",
+              "content": ["id_tap_dance_double_tap[7]", 9, 3, 7]
+            },
+            {
+              "label": "Double hold",
+              "type": "keycode",
+              "content": ["id_tap_dance_double_hold[7]", 9, 4, 7]
+            },
+            {
+              "label": "Tapping term (ms)",
+              "type": "range",
+              "content": ["id_tap_dance_term[7]", 9, 5, 7],
+              "options": [1, 1000]
+            }
+          ]
+        },
+        {
+          "label": "Tap Dance 8 - TD(8)",
+          "content": [
+            {
+              "label": "Single tap",
+              "type": "keycode",
+              "content": ["id_tap_dance_single_tap[8]", 9, 1, 8]
+            },
+            {
+              "label": "Single hold",
+              "type": "keycode",
+              "content": ["id_tap_dance_single_hold[8]", 9, 2, 8]
+            },
+            {
+              "label": "Double tap",
+              "type": "keycode",
+              "content": ["id_tap_dance_double_tap[8]", 9, 3, 8]
+            },
+            {
+              "label": "Double hold",
+              "type": "keycode",
+              "content": ["id_tap_dance_double_hold[8]", 9, 4, 8]
+            },
+            {
+              "label": "Tapping term (ms)",
+              "type": "range",
+              "content": ["id_tap_dance_term[8]", 9, 5, 8],
+              "options": [1, 1000]
+            }
+          ]
+        },
+        {
+          "label": "Tap Dance 9 - TD(9)",
+          "content": [
+            {
+              "label": "Single tap",
+              "type": "keycode",
+              "content": ["id_tap_dance_single_tap[9]", 9, 1, 9]
+            },
+            {
+              "label": "Single hold",
+              "type": "keycode",
+              "content": ["id_tap_dance_single_hold[9]", 9, 2, 9]
+            },
+            {
+              "label": "Double tap",
+              "type": "keycode",
+              "content": ["id_tap_dance_double_tap[9]", 9, 3, 9]
+            },
+            {
+              "label": "Double hold",
+              "type": "keycode",
+              "content": ["id_tap_dance_double_hold[9]", 9, 4, 9]
+            },
+            {
+              "label": "Tapping term (ms)",
+              "type": "range",
+              "content": ["id_tap_dance_term[9]", 9, 5, 9],
+              "options": [1, 1000]
+            }
+          ]
+        },
+        {
+          "label": "Tap Dance 10 - TD(10)",
+          "content": [
+            {
+              "label": "Single tap",
+              "type": "keycode",
+              "content": ["id_tap_dance_single_tap[10]", 9, 1, 10]
+            },
+            {
+              "label": "Single hold",
+              "type": "keycode",
+              "content": ["id_tap_dance_single_hold[10]", 9, 2, 10]
+            },
+            {
+              "label": "Double tap",
+              "type": "keycode",
+              "content": ["id_tap_dance_double_tap[10]", 9, 3, 10]
+            },
+            {
+              "label": "Double hold",
+              "type": "keycode",
+              "content": ["id_tap_dance_double_hold[10]", 9, 4, 10]
+            },
+            {
+              "label": "Tapping term (ms)",
+              "type": "range",
+              "content": ["id_tap_dance_term[10]", 9, 5, 10],
+              "options": [1, 1000]
+            }
+          ]
+        },
+        {
+          "label": "Tap Dance 11 - TD(11)",
+          "content": [
+            {
+              "label": "Single tap",
+              "type": "keycode",
+              "content": ["id_tap_dance_single_tap[11]", 9, 1, 11]
+            },
+            {
+              "label": "Single hold",
+              "type": "keycode",
+              "content": ["id_tap_dance_single_hold[11]", 9, 2, 11]
+            },
+            {
+              "label": "Double tap",
+              "type": "keycode",
+              "content": ["id_tap_dance_double_tap[11]", 9, 3, 11]
+            },
+            {
+              "label": "Double hold",
+              "type": "keycode",
+              "content": ["id_tap_dance_double_hold[11]", 9, 4, 11]
+            },
+            {
+              "label": "Tapping term (ms)",
+              "type": "range",
+              "content": ["id_tap_dance_term[11]", 9, 5, 11],
+              "options": [1, 1000]
+            }
+          ]
+        },
+        {
+          "label": "Tap Dance 12 - TD(12)",
+          "content": [
+            {
+              "label": "Single tap",
+              "type": "keycode",
+              "content": ["id_tap_dance_single_tap[12]", 9, 1, 12]
+            },
+            {
+              "label": "Single hold",
+              "type": "keycode",
+              "content": ["id_tap_dance_single_hold[12]", 9, 2, 12]
+            },
+            {
+              "label": "Double tap",
+              "type": "keycode",
+              "content": ["id_tap_dance_double_tap[12]", 9, 3, 12]
+            },
+            {
+              "label": "Double hold",
+              "type": "keycode",
+              "content": ["id_tap_dance_double_hold[12]", 9, 4, 12]
+            },
+            {
+              "label": "Tapping term (ms)",
+              "type": "range",
+              "content": ["id_tap_dance_term[12]", 9, 5, 12],
+              "options": [1, 1000]
+            }
+          ]
+        },
+        {
+          "label": "Tap Dance 13 - TD(13)",
+          "content": [
+            {
+              "label": "Single tap",
+              "type": "keycode",
+              "content": ["id_tap_dance_single_tap[13]", 9, 1, 13]
+            },
+            {
+              "label": "Single hold",
+              "type": "keycode",
+              "content": ["id_tap_dance_single_hold[13]", 9, 2, 13]
+            },
+            {
+              "label": "Double tap",
+              "type": "keycode",
+              "content": ["id_tap_dance_double_tap[13]", 9, 3, 13]
+            },
+            {
+              "label": "Double hold",
+              "type": "keycode",
+              "content": ["id_tap_dance_double_hold[13]", 9, 4, 13]
+            },
+            {
+              "label": "Tapping term (ms)",
+              "type": "range",
+              "content": ["id_tap_dance_term[13]", 9, 5, 13],
+              "options": [1, 1000]
+            }
+          ]
+        },
+        {
+          "label": "Tap Dance 14 - TD(14)",
+          "content": [
+            {
+              "label": "Single tap",
+              "type": "keycode",
+              "content": ["id_tap_dance_single_tap[14]", 9, 1, 14]
+            },
+            {
+              "label": "Single hold",
+              "type": "keycode",
+              "content": ["id_tap_dance_single_hold[14]", 9, 2, 14]
+            },
+            {
+              "label": "Double tap",
+              "type": "keycode",
+              "content": ["id_tap_dance_double_tap[14]", 9, 3, 14]
+            },
+            {
+              "label": "Double hold",
+              "type": "keycode",
+              "content": ["id_tap_dance_double_hold[14]", 9, 4, 14]
+            },
+            {
+              "label": "Tapping term (ms)",
+              "type": "range",
+              "content": ["id_tap_dance_term[14]", 9, 5, 14],
+              "options": [1, 1000]
+            }
+          ]
+        },
+        {
+          "label": "Tap Dance 15 - TD(15)",
+          "content": [
+            {
+              "label": "Single tap",
+              "type": "keycode",
+              "content": ["id_tap_dance_single_tap[15]", 9, 1, 15]
+            },
+            {
+              "label": "Single hold",
+              "type": "keycode",
+              "content": ["id_tap_dance_single_hold[15]", 9, 2, 15]
+            },
+            {
+              "label": "Double tap",
+              "type": "keycode",
+              "content": ["id_tap_dance_double_tap[15]", 9, 3, 15]
+            },
+            {
+              "label": "Double hold",
+              "type": "keycode",
+              "content": ["id_tap_dance_double_hold[15]", 9, 4, 15]
+            },
+            {
+              "label": "Tapping term (ms)",
+              "type": "range",
+              "content": ["id_tap_dance_term[15]", 9, 5, 15],
+              "options": [1, 1000]
+            }
+          ]
+        }
+      ],
+      "showIf": "{id_firmware_version} >= 2"
+    },
+    {
+      "label": "Combos",
+      "content": [
+        {
+          "label": "Combo 0",
+          "content": [
+            {
+              "label": "Input key 1",
+              "type": "keycode",
+              "content": ["id_combo_key[0][0]", 10, 1, 0, 0]
+            },
+            {
+              "label": "Input key 2",
+              "type": "keycode",
+              "content": ["id_combo_key[0][1]", 10, 1, 0, 1]
+            },
+            {
+              "label": "Input key 3",
+              "type": "keycode",
+              "content": ["id_combo_key[0][2]", 10, 1, 0, 2]
+            },
+            {
+              "label": "Input key 4",
+              "type": "keycode",
+              "content": ["id_combo_key[0][3]", 10, 1, 0, 3]
+            },
+            {
+              "label": "Output keycode",
+              "type": "keycode",
+              "content": ["id_combo_output[0]", 10, 2, 0]
+            },
+            {
+              "label": "Combo term (ms)",
+              "type": "range",
+              "content": ["id_combo_slot_term[0]", 10, 3, 0],
+              "options": [1, 1000]
+            }
+          ]
+        },
+        {
+          "label": "Combo 1",
+          "content": [
+            {
+              "label": "Input key 1",
+              "type": "keycode",
+              "content": ["id_combo_key[1][0]", 10, 1, 1, 0]
+            },
+            {
+              "label": "Input key 2",
+              "type": "keycode",
+              "content": ["id_combo_key[1][1]", 10, 1, 1, 1]
+            },
+            {
+              "label": "Input key 3",
+              "type": "keycode",
+              "content": ["id_combo_key[1][2]", 10, 1, 1, 2]
+            },
+            {
+              "label": "Input key 4",
+              "type": "keycode",
+              "content": ["id_combo_key[1][3]", 10, 1, 1, 3]
+            },
+            {
+              "label": "Output keycode",
+              "type": "keycode",
+              "content": ["id_combo_output[1]", 10, 2, 1]
+            },
+            {
+              "label": "Combo term (ms)",
+              "type": "range",
+              "content": ["id_combo_slot_term[1]", 10, 3, 1],
+              "options": [1, 1000]
+            }
+          ]
+        },
+        {
+          "label": "Combo 2",
+          "content": [
+            {
+              "label": "Input key 1",
+              "type": "keycode",
+              "content": ["id_combo_key[2][0]", 10, 1, 2, 0]
+            },
+            {
+              "label": "Input key 2",
+              "type": "keycode",
+              "content": ["id_combo_key[2][1]", 10, 1, 2, 1]
+            },
+            {
+              "label": "Input key 3",
+              "type": "keycode",
+              "content": ["id_combo_key[2][2]", 10, 1, 2, 2]
+            },
+            {
+              "label": "Input key 4",
+              "type": "keycode",
+              "content": ["id_combo_key[2][3]", 10, 1, 2, 3]
+            },
+            {
+              "label": "Output keycode",
+              "type": "keycode",
+              "content": ["id_combo_output[2]", 10, 2, 2]
+            },
+            {
+              "label": "Combo term (ms)",
+              "type": "range",
+              "content": ["id_combo_slot_term[2]", 10, 3, 2],
+              "options": [1, 1000]
+            }
+          ]
+        },
+        {
+          "label": "Combo 3",
+          "content": [
+            {
+              "label": "Input key 1",
+              "type": "keycode",
+              "content": ["id_combo_key[3][0]", 10, 1, 3, 0]
+            },
+            {
+              "label": "Input key 2",
+              "type": "keycode",
+              "content": ["id_combo_key[3][1]", 10, 1, 3, 1]
+            },
+            {
+              "label": "Input key 3",
+              "type": "keycode",
+              "content": ["id_combo_key[3][2]", 10, 1, 3, 2]
+            },
+            {
+              "label": "Input key 4",
+              "type": "keycode",
+              "content": ["id_combo_key[3][3]", 10, 1, 3, 3]
+            },
+            {
+              "label": "Output keycode",
+              "type": "keycode",
+              "content": ["id_combo_output[3]", 10, 2, 3]
+            },
+            {
+              "label": "Combo term (ms)",
+              "type": "range",
+              "content": ["id_combo_slot_term[3]", 10, 3, 3],
+              "options": [1, 1000]
+            }
+          ]
+        },
+        {
+          "label": "Combo 4",
+          "content": [
+            {
+              "label": "Input key 1",
+              "type": "keycode",
+              "content": ["id_combo_key[4][0]", 10, 1, 4, 0]
+            },
+            {
+              "label": "Input key 2",
+              "type": "keycode",
+              "content": ["id_combo_key[4][1]", 10, 1, 4, 1]
+            },
+            {
+              "label": "Input key 3",
+              "type": "keycode",
+              "content": ["id_combo_key[4][2]", 10, 1, 4, 2]
+            },
+            {
+              "label": "Input key 4",
+              "type": "keycode",
+              "content": ["id_combo_key[4][3]", 10, 1, 4, 3]
+            },
+            {
+              "label": "Output keycode",
+              "type": "keycode",
+              "content": ["id_combo_output[4]", 10, 2, 4]
+            },
+            {
+              "label": "Combo term (ms)",
+              "type": "range",
+              "content": ["id_combo_slot_term[4]", 10, 3, 4],
+              "options": [1, 1000]
+            }
+          ]
+        },
+        {
+          "label": "Combo 5",
+          "content": [
+            {
+              "label": "Input key 1",
+              "type": "keycode",
+              "content": ["id_combo_key[5][0]", 10, 1, 5, 0]
+            },
+            {
+              "label": "Input key 2",
+              "type": "keycode",
+              "content": ["id_combo_key[5][1]", 10, 1, 5, 1]
+            },
+            {
+              "label": "Input key 3",
+              "type": "keycode",
+              "content": ["id_combo_key[5][2]", 10, 1, 5, 2]
+            },
+            {
+              "label": "Input key 4",
+              "type": "keycode",
+              "content": ["id_combo_key[5][3]", 10, 1, 5, 3]
+            },
+            {
+              "label": "Output keycode",
+              "type": "keycode",
+              "content": ["id_combo_output[5]", 10, 2, 5]
+            },
+            {
+              "label": "Combo term (ms)",
+              "type": "range",
+              "content": ["id_combo_slot_term[5]", 10, 3, 5],
+              "options": [1, 1000]
+            }
+          ]
+        },
+        {
+          "label": "Combo 6",
+          "content": [
+            {
+              "label": "Input key 1",
+              "type": "keycode",
+              "content": ["id_combo_key[6][0]", 10, 1, 6, 0]
+            },
+            {
+              "label": "Input key 2",
+              "type": "keycode",
+              "content": ["id_combo_key[6][1]", 10, 1, 6, 1]
+            },
+            {
+              "label": "Input key 3",
+              "type": "keycode",
+              "content": ["id_combo_key[6][2]", 10, 1, 6, 2]
+            },
+            {
+              "label": "Input key 4",
+              "type": "keycode",
+              "content": ["id_combo_key[6][3]", 10, 1, 6, 3]
+            },
+            {
+              "label": "Output keycode",
+              "type": "keycode",
+              "content": ["id_combo_output[6]", 10, 2, 6]
+            },
+            {
+              "label": "Combo term (ms)",
+              "type": "range",
+              "content": ["id_combo_slot_term[6]", 10, 3, 6],
+              "options": [1, 1000]
+            }
+          ]
+        },
+        {
+          "label": "Combo 7",
+          "content": [
+            {
+              "label": "Input key 1",
+              "type": "keycode",
+              "content": ["id_combo_key[7][0]", 10, 1, 7, 0]
+            },
+            {
+              "label": "Input key 2",
+              "type": "keycode",
+              "content": ["id_combo_key[7][1]", 10, 1, 7, 1]
+            },
+            {
+              "label": "Input key 3",
+              "type": "keycode",
+              "content": ["id_combo_key[7][2]", 10, 1, 7, 2]
+            },
+            {
+              "label": "Input key 4",
+              "type": "keycode",
+              "content": ["id_combo_key[7][3]", 10, 1, 7, 3]
+            },
+            {
+              "label": "Output keycode",
+              "type": "keycode",
+              "content": ["id_combo_output[7]", 10, 2, 7]
+            },
+            {
+              "label": "Combo term (ms)",
+              "type": "range",
+              "content": ["id_combo_slot_term[7]", 10, 3, 7],
+              "options": [1, 1000]
+            }
+          ]
+        },
+        {
+          "label": "Combo 8",
+          "content": [
+            {
+              "label": "Input key 1",
+              "type": "keycode",
+              "content": ["id_combo_key[8][0]", 10, 1, 8, 0]
+            },
+            {
+              "label": "Input key 2",
+              "type": "keycode",
+              "content": ["id_combo_key[8][1]", 10, 1, 8, 1]
+            },
+            {
+              "label": "Input key 3",
+              "type": "keycode",
+              "content": ["id_combo_key[8][2]", 10, 1, 8, 2]
+            },
+            {
+              "label": "Input key 4",
+              "type": "keycode",
+              "content": ["id_combo_key[8][3]", 10, 1, 8, 3]
+            },
+            {
+              "label": "Output keycode",
+              "type": "keycode",
+              "content": ["id_combo_output[8]", 10, 2, 8]
+            },
+            {
+              "label": "Combo term (ms)",
+              "type": "range",
+              "content": ["id_combo_slot_term[8]", 10, 3, 8],
+              "options": [1, 1000]
+            }
+          ]
+        },
+        {
+          "label": "Combo 9",
+          "content": [
+            {
+              "label": "Input key 1",
+              "type": "keycode",
+              "content": ["id_combo_key[9][0]", 10, 1, 9, 0]
+            },
+            {
+              "label": "Input key 2",
+              "type": "keycode",
+              "content": ["id_combo_key[9][1]", 10, 1, 9, 1]
+            },
+            {
+              "label": "Input key 3",
+              "type": "keycode",
+              "content": ["id_combo_key[9][2]", 10, 1, 9, 2]
+            },
+            {
+              "label": "Input key 4",
+              "type": "keycode",
+              "content": ["id_combo_key[9][3]", 10, 1, 9, 3]
+            },
+            {
+              "label": "Output keycode",
+              "type": "keycode",
+              "content": ["id_combo_output[9]", 10, 2, 9]
+            },
+            {
+              "label": "Combo term (ms)",
+              "type": "range",
+              "content": ["id_combo_slot_term[9]", 10, 3, 9],
+              "options": [1, 1000]
+            }
+          ]
+        }
+      ],
+      "showIf": "{id_firmware_version} >= 2"
+    },
+    {
+      "label": "QMK Settings",
+      "content": [
+        {
+          "label": "Grave Escape",
+          "content": [
+            {
+              "label": "Alt forces Escape",
+              "type": "toggle",
+              "content": ["id_grave_esc_alt_override", 8, 1]
+            },
+            {
+              "label": "Ctrl forces Escape",
+              "type": "toggle",
+              "content": ["id_grave_esc_ctrl_override", 8, 2]
+            },
+            {
+              "label": "GUI forces Escape",
+              "type": "toggle",
+              "content": ["id_grave_esc_gui_override", 8, 3]
+            },
+            {
+              "label": "Shift forces Escape",
+              "type": "toggle",
+              "content": ["id_grave_esc_shift_override", 8, 4]
+            }
+          ]
+        },
+        {
+          "label": "Tap-Hold and Mod-Tap",
+          "content": [
+            {
+              "label": "Permissive hold",
+              "type": "toggle",
+              "content": ["id_permissive_hold", 8, 5]
+            },
+            {
+              "label": "Retro tapping",
+              "type": "toggle",
+              "content": ["id_retro_tapping", 8, 6]
+            },
+            {
+              "label": "Hold on other key press",
+              "type": "toggle",
+              "content": ["id_hold_on_other_key_press", 8, 7]
+            },
+            {
+              "label": "Tapping term (ms)",
+              "type": "range",
+              "content": ["id_tapping_term", 8, 8],
+              "options": [1, 1000]
+            },
+            {
+              "label": "Quick-tap term (ms)",
+              "type": "range",
+              "content": ["id_quick_tap_term", 8, 9],
+              "options": [0, 1000]
+            },
+            {
+              "label": "Reset all Tap Dance slots",
+              "type": "button",
+              "content": ["id_tap_dance_reset", 9, 0],
+              "options": [0]
+            }
+          ]
+        },
+        {
+          "label": "Auto Shift",
+          "content": [
+            {
+              "label": "Enable Auto Shift",
+              "type": "toggle",
+              "content": ["id_auto_shift_enabled", 8, 10]
+            },
+            {
+              "label": "Include modifiers",
+              "type": "toggle",
+              "content": ["id_auto_shift_modifiers", 8, 11]
+            },
+            {
+              "label": "Include alpha keys",
+              "type": "toggle",
+              "content": ["id_auto_shift_alpha", 8, 12]
+            },
+            {
+              "label": "Include number keys",
+              "type": "toggle",
+              "content": ["id_auto_shift_numeric", 8, 13]
+            },
+            {
+              "label": "Include symbol keys",
+              "type": "toggle",
+              "content": ["id_auto_shift_symbols", 8, 14]
+            },
+            {
+              "label": "Include Tab",
+              "type": "toggle",
+              "content": ["id_auto_shift_tab", 8, 15]
+            },
+            {
+              "label": "Enable key repeat",
+              "type": "toggle",
+              "content": ["id_auto_shift_repeat", 8, 16]
+            },
+            {
+              "label": "Disable automatic repeat after timeout",
+              "type": "toggle",
+              "content": ["id_auto_shift_no_repeat", 8, 17]
+            },
+            {
+              "label": "Auto Shift timeout (ms)",
+              "type": "range",
+              "content": ["id_auto_shift_timeout", 8, 18],
+              "options": [1, 1000]
+            }
+          ]
+        },
+        {
+          "label": "Combo Behavior",
+          "content": [
+            {
+              "label": "Enable combos",
+              "type": "toggle",
+              "content": ["id_combo_enabled", 8, 19]
+            },
+            {
+              "label": "Combos must be held",
+              "type": "toggle",
+              "content": ["id_combo_must_hold", 8, 20]
+            },
+            {
+              "label": "Combos must be tapped",
+              "type": "toggle",
+              "content": ["id_combo_must_tap", 8, 21]
+            },
+            {
+              "label": "Keys must be pressed in order",
+              "type": "toggle",
+              "content": ["id_combo_press_in_order", 8, 22]
+            },
+            {
+              "label": "Default combo term (ms)",
+              "type": "range",
+              "content": ["id_combo_term", 8, 23],
+              "options": [1, 1000]
+            },
+            {
+              "label": "Combo hold term (ms)",
+              "type": "range",
+              "content": ["id_combo_hold_term", 8, 24],
+              "options": [1, 1000]
+            },
+            {
+              "label": "Reset all Combo slots",
+              "type": "button",
+              "content": ["id_combo_reset", 10, 0],
+              "options": [0]
+            }
+          ]
+        },
+        {
+          "label": "One-Shot Keys",
+          "content": [
+            {
+              "label": "Enable one-shot keys",
+              "type": "toggle",
+              "content": ["id_magic_oneshot_enabled", 7, 12]
+            }
+          ]
+        },
+        {
+          "label": "Mouse Keys",
+          "content": [
+            {
+              "label": "Initial movement delay (10 ms units)",
+              "type": "range",
+              "content": ["id_mouse_delay", 8, 25],
+              "options": [0, 255]
+            },
+            {
+              "label": "Movement interval (ms)",
+              "type": "range",
+              "content": ["id_mouse_interval", 8, 26],
+              "options": [1, 255]
+            },
+            {
+              "label": "Maximum cursor speed",
+              "type": "range",
+              "content": ["id_mouse_max_speed", 8, 27],
+              "options": [1, 255]
+            },
+            {
+              "label": "Cursor acceleration time",
+              "type": "range",
+              "content": ["id_mouse_time_to_max", 8, 28],
+              "options": [1, 255]
+            },
+            {
+              "label": "Initial wheel delay (10 ms units)",
+              "type": "range",
+              "content": ["id_mouse_wheel_delay", 8, 29],
+              "options": [0, 255]
+            },
+            {
+              "label": "Wheel interval (ms)",
+              "type": "range",
+              "content": ["id_mouse_wheel_interval", 8, 30],
+              "options": [1, 255]
+            },
+            {
+              "label": "Maximum wheel speed",
+              "type": "range",
+              "content": ["id_mouse_wheel_max_speed", 8, 31],
+              "options": [1, 255]
+            },
+            {
+              "label": "Wheel acceleration time",
+              "type": "range",
+              "content": ["id_mouse_wheel_time_to_max", 8, 32],
+              "options": [1, 255]
+            }
+          ]
+        },
+        {
+          "label": "Miscellaneous",
+          "content": [
+            {
+              "label": "Enable NKRO",
+              "type": "toggle",
+              "content": ["id_magic_nkro", 7, 1]
+            },
+            {
+              "label": "Lock GUI key",
+              "type": "toggle",
+              "content": ["id_magic_no_gui", 7, 2]
+            },
+            {
+              "label": "Caps Lock acts as Ctrl",
+              "type": "toggle",
+              "content": ["id_magic_capslock_to_control", 7, 3]
+            },
+            {
+              "label": "Swap Ctrl and Caps Lock",
+              "type": "toggle",
+              "content": ["id_magic_swap_control_capslock", 7, 4]
+            },
+            {
+              "label": "Swap Escape and Caps Lock",
+              "type": "toggle",
+              "content": ["id_magic_swap_escape_capslock", 7, 5]
+            },
+            {
+              "label": "Swap left Alt and left GUI",
+              "type": "toggle",
+              "content": ["id_magic_swap_lalt_lgui", 7, 6]
+            },
+            {
+              "label": "Swap right Alt and right GUI",
+              "type": "toggle",
+              "content": ["id_magic_swap_ralt_rgui", 7, 7]
+            },
+            {
+              "label": "Swap left Ctrl and left GUI",
+              "type": "toggle",
+              "content": ["id_magic_swap_lctl_lgui", 7, 8]
+            },
+            {
+              "label": "Swap right Ctrl and right GUI",
+              "type": "toggle",
+              "content": ["id_magic_swap_rctl_rgui", 7, 9]
+            },
+            {
+              "label": "Swap Grave and Escape",
+              "type": "toggle",
+              "content": ["id_magic_swap_grave_esc", 7, 10]
+            },
+            {
+              "label": "Swap Backslash and Backspace",
+              "type": "toggle",
+              "content": ["id_magic_swap_backslash_backspace", 7, 11]
+            }
+          ]
+        }
+      ],
+      "showIf": "{id_firmware_version} >= 2"
+    },
+    {
+      "showIf": "{id_firmware_version} >= 2",
+      "label": "Board System",
+      "content": [
+        {
+          "label": "Board Maintenance",
+          "content": [
+            {
+              "label": "Firmware Version",
+              "type": "label",
+              "content": ["id_firmware_version_text", 0, 29]
+            },
+            {
+              "label": "Firmware Build",
+              "type": "label",
+              "content": ["id_firmware_build_text", 0, 30]
+            },
+            {
+              "label": "Flash Mode",
+              "type": "button",
+              "options": [0],
+              "content": ["id_flash_mode", 0, 27]
+            },
+            {
+              "label": "Factory reset (erases all settings and restarts)",
+              "type": "button",
+              "options": [0],
+              "content": ["id_factory_reset", 0, 28]
             }
           ]
         }
