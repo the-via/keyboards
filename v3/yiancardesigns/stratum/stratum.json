@@ -7,10 +7,10 @@
     "cols": 17
   },
   "keycodes": [
-    "qmk_rgb_matrix_keycodes"
+    "qmk_rgblight_keycodes"
   ],
   "menus": [
-    "qmk_rgb_matrix"
+    "qmk_rgblight"
   ],
   "layouts": {
     "labels": [
