@@ -2,6 +2,7 @@
   "name": "nullpad",
   "vendorId": "0x6E6C",
   "productId": "0x0011",
+  "keycodes": ["qmk_rgb_matrix_keycodes"],
   "menus": [ "qmk_rgb_matrix" ],
   "matrix": {
     "rows": 6,
