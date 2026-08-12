@@ -1,5 +1,8 @@
 {
-  "name": "EC 65X",
+  "name": {
+    "options": ["EC65X", "DC65"],
+    "content": ["id_board_variant", 0, 245]
+  },
   "vendorId": "0x6369",
   "productId": "0x6BD1",
   "matrix": {

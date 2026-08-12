@@ -255,10 +255,10 @@
           ]
         },
         {
+          "showIf": "{id_switch_type} == 0",
           "label": "Calibration",
           "content": [
             {
-              "showIf": "{id_switch_type} == 0",
               "content": [
                 {
                   "label": "Board Calibration",

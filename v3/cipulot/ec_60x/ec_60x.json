@@ -1,5 +1,8 @@
 {
-  "name": "EC 60X",
+  "name": {
+    "options": ["EC60X | EC60X-SE", "DC60"],
+    "content": ["id_board_variant", 0, 245]
+  },
   "vendorId": "0x6369",
   "productId": "0x6BC7",
   "matrix": {
