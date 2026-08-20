@@ -2,6 +2,7 @@
   "name": "Rubrehaku",
   "vendorId": "0x4C27",
   "productId": "0x8889",
+  "keycodes": ["qmk_rgblight_keycodes"],
   "menus": ["qmk_rgblight"],
   "matrix": {
     "rows": 10,
