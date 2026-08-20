@@ -6,19 +6,11 @@
     "rows": 5,
     "cols": 15
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
+  "keycodes": ["qmk_rgb_matrix_keycodes"],
   "layouts": {
-    "labels": [
-      "Split Space",
-      "Encoder"
-    ],
+    "labels": ["Split Space", "Encoder"],
     "presets": {
-      "default": [
-        0,
-        0
-      ]
+      "default": [0, 0]
     },
     "keymap": [
       [

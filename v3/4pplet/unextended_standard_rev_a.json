@@ -6,28 +6,12 @@
     "rows": 5,
     "cols": 14
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgblight"
-  ],
+  "keycodes": ["qmk_rgblight_keycodes"],
+  "menus": ["qmk_rgblight"],
   "layouts": {
     "labels": [
-      [
-        "Bottom Row",
-        "M0116 / IIc Plus",
-        "M0118",
-        "IIc",
-        "IIc blocker",
-        "NeXT"
-      ],
-      [
-        "Enter",
-        "bae",
-        "ISO",
-        "ANSI"
-      ],
+      ["Bottom Row", "M0116 / IIc Plus", "M0118", "IIc", "IIc blocker", "NeXT"],
+      ["Enter", "bae", "ISO", "ANSI"],
       "Split Left Shift",
       "Split Right Shift"
     ],

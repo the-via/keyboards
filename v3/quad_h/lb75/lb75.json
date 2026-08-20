@@ -6,45 +6,16 @@
     "rows": 12,
     "cols": 8
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_backlight_rgblight"
-  ],
+  "keycodes": ["qmk_backlight_rgblight_keycodes"],
+  "menus": ["qmk_backlight_rgblight"],
   "layouts": {
     "labels": [
-      [
-        "Backspace",
-        "Unified",
-        "Split"
-      ],
-      [
-        "Right Shift",
-        "Split",
-        "Unified"
-      ],
-      [
-        "Left Shift",
-        "ANSI",
-        "ISO"
-      ],
-      [
-        "Enter",
-        "ANSI",
-        "ISO"
-      ],
-      [
-        "Fn Row",
-        "Unified",
-        "Split"
-      ],
-      [
-        "Bottom Row",
-        "1.25U/6.25U/1U",
-        "1.25U/6.25U/1.25U",
-        "1.5U/7U/1.5U"
-      ]
+      ["Backspace", "Unified", "Split"],
+      ["Right Shift", "Split", "Unified"],
+      ["Left Shift", "ANSI", "ISO"],
+      ["Enter", "ANSI", "ISO"],
+      ["Fn Row", "Unified", "Split"],
+      ["Bottom Row", "1.25U/6.25U/1U", "1.25U/6.25U/1.25U", "1.5U/7U/1.5U"]
     ],
     "keymap": [
       [

@@ -6,23 +6,13 @@
     "rows": 5,
     "cols": 15
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
+  "keycodes": ["qmk_rgb_matrix_keycodes"],
   "layouts": {
     "labels": [
-      [
-        "Enter Key",
-        "ANSI",
-        "ISO"
-      ],
+      ["Enter Key", "ANSI", "ISO"],
       "Split Left Shift",
       "Split Backspace",
-      [
-        "Bottom row",
-        "7u",
-        "6.25u"
-      ]
+      ["Bottom row", "7u", "6.25u"]
     ],
     "keymap": [
       [

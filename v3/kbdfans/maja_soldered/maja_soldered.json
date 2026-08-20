@@ -6,17 +6,10 @@
     "rows": 5,
     "cols": 15
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_backlight"
-  ],
+  "keycodes": ["qmk_backlight_keycodes"],
+  "menus": ["qmk_backlight"],
   "layouts": {
-    "labels": [
-      "Split Backspace",
-      "2.25u Space"
-    ],
+    "labels": ["Split Backspace", "2.25u Space"],
     "keymap": [
       [
         {

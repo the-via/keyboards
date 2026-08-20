@@ -6,27 +6,14 @@
     "rows": 5,
     "cols": 14
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgblight"
-  ],
+  "keycodes": ["qmk_rgblight_keycodes"],
+  "menus": ["qmk_rgblight"],
   "layouts": {
     "labels": [
       "Full Backspace",
-      [
-        "Right Shift",
-        "Split",
-        "Full",
-        "Arrow"
-      ],
+      ["Right Shift", "Split", "Full", "Arrow"],
       "Split Right Space",
-      [
-        "Right Ctrl",
-        "1.5u",
-        "Arrow"
-      ]
+      ["Right Ctrl", "1.5u", "Arrow"]
     ],
     "keymap": [
       [

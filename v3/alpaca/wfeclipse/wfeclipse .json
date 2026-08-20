@@ -6,9 +6,7 @@
     "rows": 5,
     "cols": 16
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
+  "keycodes": ["qmk_rgb_matrix_keycodes"],
   "menus": [
     {
       "label": "rgb_matrix",
@@ -19,114 +17,44 @@
             {
               "label": "Brightness",
               "type": "range",
-              "options": [
-                0,
-                255
-              ],
-              "content": [
-                "id_qmk_rgb_matrix_brightness",
-                3,
-                1
-              ]
+              "options": [0, 255],
+              "content": ["id_qmk_rgb_matrix_brightness", 3, 1]
             },
             {
               "label": "Effect",
               "type": "dropdown",
-              "content": [
-                "id_qmk_rgb_matrix_effect",
-                3,
-                2
-              ],
+              "content": ["id_qmk_rgb_matrix_effect", 3, 2],
               "options": [
-                [
-                  "00.NONE",
-                  0
-                ],
-                [
-                  "01.Solid Color",
-                  1
-                ],
-                [
-                  "02.Gradient Up/Down",
-                  2
-                ],
-                [
-                  "03.Gradient Left/Right",
-                  3
-                ],
-                [
-                  "04.Breathing",
-                  4
-                ],
-                [
-                  "05.Band Sat",
-                  5
-                ],
-                [
-                  "06.Band Val",
-                  6
-                ],
-                [
-                  "07.Spiral Sat",
-                  7
-                ],
-                [
-                  "08.Spiral Val",
-                  8
-                ],
-                [
-                  "09.Cycle All",
-                  9
-                ],
-                [
-                  "10.Cycle Left/Right",
-                  10
-                ],
-                [
-                  "11.Cycle Up/Down",
-                  11
-                ],
-                [
-                  "12.Hue Wave",
-                  12
-                ],
-                [
-                  "13.Pixel Fractal",
-                  13
-                ],
-                [
-                  "14.Solid_Reactive_Simple",
-                  14
-                ],
-                [
-                  "15.Solid_Splash",
-                  15
-                ]
+                ["00.NONE", 0],
+                ["01.Solid Color", 1],
+                ["02.Gradient Up/Down", 2],
+                ["03.Gradient Left/Right", 3],
+                ["04.Breathing", 4],
+                ["05.Band Sat", 5],
+                ["06.Band Val", 6],
+                ["07.Spiral Sat", 7],
+                ["08.Spiral Val", 8],
+                ["09.Cycle All", 9],
+                ["10.Cycle Left/Right", 10],
+                ["11.Cycle Up/Down", 11],
+                ["12.Hue Wave", 12],
+                ["13.Pixel Fractal", 13],
+                ["14.Solid_Reactive_Simple", 14],
+                ["15.Solid_Splash", 15]
               ]
             },
             {
               "showIf": "{id_qmk_rgb_matrix_effect} != 0",
               "label": "Effect Speed",
               "type": "range",
-              "options": [
-                0,
-                255
-              ],
-              "content": [
-                "id_qmk_rgb_matrix_effect_speed",
-                3,
-                3
-              ]
+              "options": [0, 255],
+              "content": ["id_qmk_rgb_matrix_effect_speed", 3, 3]
             },
             {
               "showIf": "{id_qmk_rgb_matrix_effect} != 0",
               "label": "Color",
               "type": "color",
-              "content": [
-                "id_qmk_rgb_matrix_color",
-                3,
-                4
-              ]
+              "content": ["id_qmk_rgb_matrix_color", 3, 4]
             }
           ]
         }

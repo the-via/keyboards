@@ -6,24 +6,12 @@
     "rows": 5,
     "cols": 15
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgb_matrix"
-  ],
+  "keycodes": ["qmk_rgblight_keycodes", "qmk_rgb_matrix_keycodes"],
+  "menus": ["qmk_rgb_matrix"],
   "layouts": {
     "labels": [
-      [
-        "enter",
-        "default",
-        "iso"
-      ],
-      [
-        "space",
-        "default",
-        "split"
-      ]
+      ["enter", "default", "iso"],
+      ["space", "default", "split"]
     ],
     "keymap": [
       [

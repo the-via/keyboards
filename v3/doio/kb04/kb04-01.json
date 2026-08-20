@@ -6,20 +6,11 @@
     "rows": 1,
     "cols": 5
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgb_matrix"
-  ],
+  "keycodes": ["qmk_rgb_matrix_keycodes"],
+  "menus": ["qmk_rgb_matrix"],
   "layouts": {
     "keymap": [
-      [
-        "0,0",
-        "0,1",
-        "0,2",
-        "0,3"
-      ],
+      ["0,0", "0,1", "0,2", "0,3"],
       [
         {
           "x": 1.5,

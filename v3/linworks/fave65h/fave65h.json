@@ -6,21 +6,10 @@
     "rows": 5,
     "cols": 15
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgb_matrix"
-  ],
+  "keycodes": ["qmk_rgb_matrix_keycodes"],
+  "menus": ["qmk_rgb_matrix"],
   "layouts": {
-    "labels": [
-      "Split Backspace",
-      [
-        "Bottom Row",
-        "Regular",
-        "Tsangan"
-      ]
-    ],
+    "labels": ["Split Backspace", ["Bottom Row", "Regular", "Tsangan"]],
     "keymap": [
       [
         {

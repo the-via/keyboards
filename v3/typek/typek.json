@@ -6,9 +6,7 @@
     "rows": 5,
     "cols": 14
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
+  "keycodes": ["qmk_rgblight_keycodes"],
   "menus": [
     "qmk_rgblight",
     {
@@ -20,35 +18,20 @@
             {
               "label": "Enable right indicator",
               "type": "toggle",
-              "content": [
-                "id_ind1_enabled",
-                0,
-                1
-              ]
+              "content": ["id_ind1_enabled", 0, 1]
             },
             {
               "showIf": "{id_ind1_enabled} == 1",
               "label": "Brightness",
               "type": "range",
-              "options": [
-                0,
-                255
-              ],
-              "content": [
-                "id_ind1_brightness",
-                0,
-                2
-              ]
+              "options": [0, 255],
+              "content": ["id_ind1_brightness", 0, 2]
             },
             {
               "showIf": "{id_ind1_enabled} == 1",
               "label": "Color",
               "type": "color",
-              "content": [
-                "id_ind1_color",
-                0,
-                3
-              ]
+              "content": ["id_ind1_color", 0, 3]
             },
             {
               "showIf": "{id_ind1_enabled} == 1",
@@ -64,11 +47,7 @@
                 "Layer 2",
                 "Layer 3"
               ],
-              "content": [
-                "id_ind1_func1",
-                0,
-                4
-              ]
+              "content": ["id_ind1_func1", 0, 4]
             },
             {
               "showIf": "{id_ind1_enabled} == 1",
@@ -84,11 +63,7 @@
                 "Layer 2",
                 "Layer 3"
               ],
-              "content": [
-                "id_ind1_func2",
-                0,
-                5
-              ]
+              "content": ["id_ind1_func2", 0, 5]
             }
           ]
         },
@@ -98,35 +73,20 @@
             {
               "label": "Enable central indicator",
               "type": "toggle",
-              "content": [
-                "id_ind2_enabled",
-                0,
-                6
-              ]
+              "content": ["id_ind2_enabled", 0, 6]
             },
             {
               "showIf": "{id_ind2_enabled} == 1",
               "label": "Brightness",
               "type": "range",
-              "options": [
-                0,
-                255
-              ],
-              "content": [
-                "id_ind2_brightness",
-                0,
-                7
-              ]
+              "options": [0, 255],
+              "content": ["id_ind2_brightness", 0, 7]
             },
             {
               "showIf": "{id_ind2_enabled} == 1",
               "label": "Color",
               "type": "color",
-              "content": [
-                "id_ind2_color",
-                0,
-                8
-              ]
+              "content": ["id_ind2_color", 0, 8]
             },
             {
               "showIf": "{id_ind2_enabled} == 1",
@@ -142,11 +102,7 @@
                 "Layer 2",
                 "Layer 3"
               ],
-              "content": [
-                "id_ind2_func1",
-                0,
-                9
-              ]
+              "content": ["id_ind2_func1", 0, 9]
             },
             {
               "showIf": "{id_ind2_enabled} == 1",
@@ -162,11 +118,7 @@
                 "Layer 2",
                 "Layer 3"
               ],
-              "content": [
-                "id_ind2_func2",
-                0,
-                10
-              ]
+              "content": ["id_ind2_func2", 0, 10]
             }
           ]
         },
@@ -176,35 +128,20 @@
             {
               "label": "Enable left indicator",
               "type": "toggle",
-              "content": [
-                "id_ind3_enabled",
-                0,
-                11
-              ]
+              "content": ["id_ind3_enabled", 0, 11]
             },
             {
               "showIf": "{id_ind3_enabled} == 1",
               "label": "Brightness",
               "type": "range",
-              "options": [
-                0,
-                255
-              ],
-              "content": [
-                "id_ind3_brightness",
-                0,
-                12
-              ]
+              "options": [0, 255],
+              "content": ["id_ind3_brightness", 0, 12]
             },
             {
               "showIf": "{id_ind3_enabled} == 1",
               "label": "Color",
               "type": "color",
-              "content": [
-                "id_ind3_color",
-                0,
-                13
-              ]
+              "content": ["id_ind3_color", 0, 13]
             },
             {
               "showIf": "{id_ind3_enabled} == 1",
@@ -220,11 +157,7 @@
                 "Layer 2",
                 "Layer 3"
               ],
-              "content": [
-                "id_ind3_func1",
-                0,
-                14
-              ]
+              "content": ["id_ind3_func1", 0, 14]
             },
             {
               "showIf": "{id_ind3_enabled} == 1",
@@ -240,11 +173,7 @@
                 "Layer 2",
                 "Layer 3"
               ],
-              "content": [
-                "id_ind3_func2",
-                0,
-                15
-              ]
+              "content": ["id_ind3_func2", 0, 15]
             }
           ]
         }

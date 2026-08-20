@@ -6,32 +6,13 @@
     "rows": 5,
     "cols": 14
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgblight"
-  ],
+  "keycodes": ["qmk_rgblight_keycodes"],
+  "menus": ["qmk_rgblight"],
   "layouts": {
     "labels": [
-      [
-        "Backspace",
-        "Unified",
-        "Split",
-        "Encoder"
-      ],
-      [
-        "Modifiers",
-        "WK",
-        "WKL",
-        "HHKB"
-      ],
-      [
-        "Spacebar",
-        "7U",
-        "Split Space",
-        "10U"
-      ]
+      ["Backspace", "Unified", "Split", "Encoder"],
+      ["Modifiers", "WK", "WKL", "HHKB"],
+      ["Spacebar", "7U", "Split Space", "10U"]
     ],
     "keymap": [
       [

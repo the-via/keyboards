@@ -6,16 +6,10 @@
     "rows": 4,
     "cols": 13
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgblight"
-  ],
+  "keycodes": ["qmk_rgblight_keycodes"],
+  "menus": ["qmk_rgblight"],
   "layouts": {
-    "labels": [
-      "Full Backspace"
-    ],
+    "labels": ["Full Backspace"],
     "keymap": [
       [
         {
@@ -34,9 +28,7 @@
         "0,1",
         {
           "x": 8.939999999999998,
-          "fa": [
-            4
-          ]
+          "fa": [4]
         },
         "0,10",
         "0,11\n\n\n0,0",

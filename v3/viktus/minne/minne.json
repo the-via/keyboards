@@ -6,9 +6,7 @@
     "rows": 8,
     "cols": 7
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
+  "keycodes": ["qmk_rgblight_keycodes"],
   "menus": [
     {
       "label": "Lighting",
@@ -19,24 +17,13 @@
             {
               "label": "Brightness",
               "type": "range",
-              "options": [
-                0,
-                255
-              ],
-              "content": [
-                "id_qmk_rgblight_brightness",
-                2,
-                1
-              ]
+              "options": [0, 255],
+              "content": ["id_qmk_rgblight_brightness", 2, 1]
             },
             {
               "label": "Effect",
               "type": "dropdown",
-              "content": [
-                "id_qmk_rgblight_effect",
-                2,
-                2
-              ],
+              "content": ["id_qmk_rgblight_effect", 2, 2],
               "options": [
                 "All Off",
                 "Solid Color",
@@ -62,25 +49,14 @@
               "showIf": "{id_qmk_rgblight_effect} != 0",
               "label": "Effect Speed",
               "type": "range",
-              "options": [
-                0,
-                255
-              ],
-              "content": [
-                "id_qmk_rgblight_effect_speed",
-                2,
-                3
-              ]
+              "options": [0, 255],
+              "content": ["id_qmk_rgblight_effect_speed", 2, 3]
             },
             {
               "showIf": "{id_qmk_rgblight_effect} != 0 && {id_qmk_rgblight_effect} != 35",
               "label": "Color",
               "type": "color",
-              "content": [
-                "id_qmk_rgblight_color",
-                2,
-                4
-              ]
+              "content": ["id_qmk_rgblight_color", 2, 4]
             }
           ]
         }
@@ -89,15 +65,7 @@
   ],
   "layouts": {
     "labels": [
-      [
-        "Bottom Row",
-        "Dual 1.75U",
-        "2.75U 2.25U",
-        "Dual 3U",
-        "6U",
-        "7U",
-        "10U"
-      ]
+      ["Bottom Row", "Dual 1.75U", "2.75U 2.25U", "Dual 3U", "6U", "7U", "10U"]
     ],
     "keymap": [
       [

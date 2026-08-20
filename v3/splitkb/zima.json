@@ -6,9 +6,7 @@
     "rows": 4,
     "cols": 3
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
+  "keycodes": ["qmk_rgblight_keycodes"],
   "menus": [
     {
       "label": "Lighting",
@@ -19,24 +17,13 @@
             {
               "label": "Brightness",
               "type": "range",
-              "options": [
-                0,
-                255
-              ],
-              "content": [
-                "id_qmk_rgblight_brightness",
-                2,
-                1
-              ]
+              "options": [0, 255],
+              "content": ["id_qmk_rgblight_brightness", 2, 1]
             },
             {
               "label": "Effect",
               "type": "dropdown",
-              "content": [
-                "id_qmk_rgblight_effect",
-                2,
-                2
-              ],
+              "content": ["id_qmk_rgblight_effect", 2, 2],
               "options": [
                 "All Off",
                 "Solid Color",
@@ -75,25 +62,14 @@
               "showIf": "{id_qmk_rgblight_effect} != 0",
               "label": "Effect Speed",
               "type": "range",
-              "options": [
-                0,
-                255
-              ],
-              "content": [
-                "id_qmk_rgblight_effect_speed",
-                2,
-                3
-              ]
+              "options": [0, 255],
+              "content": ["id_qmk_rgblight_effect_speed", 2, 3]
             },
             {
               "showIf": "{id_qmk_rgblight_effect} != 0",
               "label": "Color",
               "type": "color",
-              "content": [
-                "id_qmk_rgblight_color",
-                2,
-                4
-              ]
+              "content": ["id_qmk_rgblight_color", 2, 4]
             }
           ]
         }
@@ -102,26 +78,10 @@
   ],
   "layouts": {
     "keymap": [
-      [
-        "0,0",
-        "0,1",
-        "0,2"
-      ],
-      [
-        "1,0",
-        "1,1",
-        "1,2"
-      ],
-      [
-        "2,0",
-        "2,1",
-        "2,2"
-      ],
-      [
-        "3,0",
-        "3,1",
-        "3,2"
-      ]
+      ["0,0", "0,1", "0,2"],
+      ["1,0", "1,1", "1,2"],
+      ["2,0", "2,1", "2,2"],
+      ["3,0", "3,1", "3,2"]
     ]
   }
 }

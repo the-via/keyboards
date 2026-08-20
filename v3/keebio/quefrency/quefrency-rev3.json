@@ -6,12 +6,8 @@
     "rows": 10,
     "cols": 9
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_backlight_rgblight"
-  ],
+  "keycodes": ["qmk_backlight_rgblight_keycodes"],
+  "menus": ["qmk_backlight_rgblight"],
   "layouts": {
     "labels": [
       "Split Backspace",
@@ -19,28 +15,10 @@
       "Split Left Shift",
       "65% Column",
       "Macropad",
-      [
-        "Right Shift",
-        "Standard",
-        "1.75u Shift",
-        "1.75u /"
-      ],
-      [
-        "Right Space",
-        "Standard",
-        "Fn-Space"
-      ],
-      [
-        "Right Mods",
-        "4x 1.25u",
-        "5x 1u"
-      ],
-      [
-        "Left Space",
-        "1.25-2.25",
-        "2.25-1.25",
-        "1.25-1-1.25"
-      ]
+      ["Right Shift", "Standard", "1.75u Shift", "1.75u /"],
+      ["Right Space", "Standard", "Fn-Space"],
+      ["Right Mods", "4x 1.25u", "5x 1u"],
+      ["Left Space", "1.25-2.25", "2.25-1.25", "1.25-1-1.25"]
     ],
     "keymap": [
       [

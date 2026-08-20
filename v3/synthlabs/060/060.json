@@ -7,34 +7,14 @@
     "rows": 5,
     "cols": 14
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgb_matrix"
-  ],
+  "keycodes": ["qmk_rgb_matrix_keycodes"],
+  "menus": ["qmk_rgb_matrix"],
   "layouts": {
     "labels": [
-      [
-        "Backspace",
-        "Single",
-        "Split"
-      ],
-      [
-        "Enter",
-        "ANSI",
-        "ISO"
-      ],
-      [
-        "Left Shift",
-        "Single",
-        "Split"
-      ],
-      [
-        "Right Shift",
-        "Single",
-        "Split"
-      ],
+      ["Backspace", "Single", "Split"],
+      ["Enter", "ANSI", "ISO"],
+      ["Left Shift", "Single", "Split"],
+      ["Right Shift", "Single", "Split"],
       [
         "Bottom Row",
         "Standard",

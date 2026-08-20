@@ -6,21 +6,12 @@
     "rows": 5,
     "cols": 14
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgblight"
-  ],
+  "keycodes": ["qmk_rgblight_keycodes"],
+  "menus": ["qmk_rgblight"],
   "layouts": {
     "labels": [
       "Split Backspace",
-      [
-        "Enter",
-        "ANSI",
-        "ISO",
-        "BAE"
-      ],
+      ["Enter", "ANSI", "ISO", "BAE"],
       [
         "Row 3",
         "ANSI Full R-shift",

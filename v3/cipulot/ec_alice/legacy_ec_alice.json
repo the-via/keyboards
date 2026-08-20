@@ -6,7 +6,7 @@
     "rows": 5,
     "cols": 15
   },
-  "keycodes": ["qmk_lighting"],
+  "keycodes": ["qmk_rgblight_keycodes"],
   "menus": [
     "qmk_rgblight",
     {
@@ -207,7 +207,7 @@
       ]
     },
     {
-      "label": "EC Tools",
+      "label": "Switch Configuration",
       "content": [
         {
           "label": "Actuation",
@@ -222,15 +222,31 @@
               "showIf": "{id_actuation_mode} == 0",
               "content": [
                 {
-                  "label": "Actuation Level (0% | 100%)",
+                  "label": "Actuation threshold (1-1023)",
                   "type": "range",
                   "options": [1, 1023],
+                  "constraints": [
+                    {
+                      "operator": ">=",
+                      "reference": "id_apc_release_threshold",
+                      "offset": 50,
+                      "onViolation": "push"
+                    }
+                  ],
                   "content": ["id_apc_actuation_threshold", 0, 17]
                 },
                 {
-                  "label": "Release Level (0% | 100%, ALWAYS < Actuation Level)",
+                  "label": "Release threshold (1-1023)",
                   "type": "range",
                   "options": [1, 1023],
+                  "constraints": [
+                    {
+                      "operator": "<=",
+                      "reference": "id_apc_actuation_threshold",
+                      "offset": -50,
+                      "onViolation": "push"
+                    }
+                  ],
                   "content": ["id_apc_release_threshold", 0, 18]
                 },
                 {
@@ -245,19 +261,19 @@
               "showIf": "{id_actuation_mode} == 1",
               "content": [
                 {
-                  "label": "Initial Deadzone Offset (0% | 100%)",
+                  "label": "Initial deadzone offset (1-1023)",
                   "type": "range",
                   "options": [1, 1023],
                   "content": ["id_rt_initial_deadzone_offset", 0, 20]
                 },
                 {
-                  "label": "Actuation Offset (1-255)",
+                  "label": "Actuation offset (1-255)",
                   "type": "range",
                   "options": [1, 255],
                   "content": ["id_rt_actuation_offset", 0, 21]
                 },
                 {
-                  "label": "Release Offset (1-255)",
+                  "label": "Release offset (1-255)",
                   "type": "range",
                   "options": [1, 255],
                   "content": ["id_rt_release_offset", 0, 22]
@@ -281,13 +297,15 @@
               "content": ["id_bottoming_calibration", 0, 23]
             },
             {
-              "label": "Show Board Calibration Data",
+              "showIf": "{id_bottoming_calibration} == 0",
+              "label": "Print calibration data to console",
               "type": "button",
               "options": [0],
               "content": ["id_show_calibration_data", 0, 25]
             },
             {
-              "label": "Clear Board Calibration Data",
+              "showIf": "{id_bottoming_calibration} == 0",
+              "label": "Clear bottom-out calibration data",
               "type": "button",
               "options": [0],
               "content": ["id_clear_bottoming_calibration_data", 0, 26]

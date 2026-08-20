@@ -6,23 +6,14 @@
     "rows": 10,
     "cols": 9
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgb_matrix"
-  ],
+  "keycodes": ["qmk_rgb_matrix_keycodes"],
+  "menus": ["qmk_rgb_matrix"],
   "layouts": {
     "labels": [
       "Left Encoder",
       "Right Encoder",
       "Split Backspace",
-      [
-        "Spacebar",
-        "Normal",
-        "1.25-2.25-2.75",
-        "2.25-1.25-2.75"
-      ],
+      ["Spacebar", "Normal", "1.25-2.25-2.75", "2.25-1.25-2.75"],
       "Split Left Shift",
       "Split Right Shift",
       "ANSI/ISO Enter"

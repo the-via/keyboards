@@ -6,21 +6,9 @@
     "rows": 1,
     "cols": 5
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgblight"
-  ],
+  "keycodes": ["qmk_rgblight_keycodes"],
+  "menus": ["qmk_rgblight"],
   "layouts": {
-    "keymap": [
-      [
-        "0,0",
-        "0,1",
-        "0,2",
-        "0,3",
-        "0,4"
-      ]
-    ]
+    "keymap": [["0,0", "0,1", "0,2", "0,3", "0,4"]]
   }
 }

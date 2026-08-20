@@ -6,12 +6,8 @@
     "rows": 14,
     "cols": 8
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgb_matrix"
-  ],
+  "keycodes": ["qmk_rgb_matrix_keycodes"],
+  "menus": ["qmk_rgb_matrix"],
   "layouts": {
     "keymap": [
       [
@@ -118,7 +114,7 @@
           "h2": 1,
           "x2": -0.25
         },
-        "12,1",
+        "13,3",
         {
           "x": 0.5,
           "c": "#cccccc"

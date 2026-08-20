@@ -6,24 +6,15 @@
     "rows": 5,
     "cols": 15
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgblight"
-  ],
+  "keycodes": ["qmk_rgblight_keycodes", "qmk_rgb_matrix_keycodes"],
+  "menus": ["qmk_rgblight"],
   "layouts": {
     "labels": [
       "ANSI / ISO Enter",
       "Split Backspace",
       "Split Left Shift",
       "Split Right Shift",
-      [
-        "Bottom Row",
-        "6.25u Standard",
-        "7u WKL",
-        "7u HHKB"
-      ]
+      ["Bottom Row", "6.25u Standard", "7u WKL", "7u HHKB"]
     ],
     "keymap": [
       [

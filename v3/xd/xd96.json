@@ -6,34 +6,15 @@
     "rows": 6,
     "cols": 18
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_backlight_rgblight"
-  ],
+  "keycodes": ["qmk_backlight_rgblight_keycodes"],
+  "menus": ["qmk_backlight_rgblight"],
   "layouts": {
     "labels": [
-      [
-        "Alpha Function Row",
-        "Standard",
-        "2u Backspace",
-        "Exploded"
-      ],
+      ["Alpha Function Row", "Standard", "2u Backspace", "Exploded"],
       "2u Backspace",
-      [
-        "Enter Key",
-        "ANSI",
-        "ISO",
-        "1u/1.25u"
-      ],
+      ["Enter Key", "ANSI", "ISO", "1u/1.25u"],
       "Split Left Shift",
-      [
-        "Right Shift",
-        "1u/1.75u/1u",
-        "1u/2.75u",
-        "3x 1.25u"
-      ],
+      ["Right Shift", "1u/1.75u/1u", "1u/2.75u", "3x 1.25u"],
       [
         "Bottom Row",
         "RWKL",

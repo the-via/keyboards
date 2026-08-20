@@ -28,20 +28,12 @@
       "shortName": "Launch Pad"
     }
   ],
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgb_matrix"
-  ],
+  "keycodes": ["qmk_rgblight_keycodes", "qmk_rgb_matrix_keycodes"],
+  "menus": ["qmk_rgb_matrix"],
   "layouts": {
     "labels": [
       "ISO Enter",
-      [
-        "Bottom Row",
-        "7U",
-        "6.25U"
-      ],
+      ["Bottom Row", "7U", "6.25U"],
       "Split Lshift",
       "Split Rshift",
       "Split BackSpace"

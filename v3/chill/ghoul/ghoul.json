@@ -6,7 +6,7 @@
     "rows": 6,
     "cols": 17
   },
-  "keycodes": ["qmk_lighting"],
+  "keycodes": ["qmk_backlight_keycodes"],
   "menus": ["qmk_backlight"],
   "layouts": {
     "labels": ["Split Backspace", "Split Right Shift", "Tsangan Bottom Row"],

@@ -28,29 +28,13 @@
       "shortName": "S.A.T."
     }
   ],
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgblight"
-  ],
+  "keycodes": ["qmk_rgblight_keycodes"],
+  "menus": ["qmk_rgblight"],
   "layouts": {
     "labels": [
-      [
-        "Left Modifiers",
-        "3x1.25U",
-        "2x1.5U"
-      ],
-      [
-        "Spacebar",
-        "6.25U/7U",
-        "Split 2.75U | 1.25U | 2.25U"
-      ],
-      [
-        "Right Modifiers",
-        "3x1U",
-        "2x1.5U"
-      ],
+      ["Left Modifiers", "3x1.25U", "2x1.5U"],
+      ["Spacebar", "6.25U/7U", "Split 2.75U | 1.25U | 2.25U"],
+      ["Right Modifiers", "3x1U", "2x1.5U"],
       "ISO Enter",
       "Split Shift"
     ],

@@ -6,16 +6,10 @@
     "rows": 5,
     "cols": 16
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgb_matrix"
-  ],
+  "keycodes": ["qmk_rgb_matrix_keycodes"],
+  "menus": ["qmk_rgb_matrix"],
   "layouts": {
-    "labels": [
-      "Knob"
-    ],
+    "labels": ["Knob"],
     "keymap": [
       [
         {

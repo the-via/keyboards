@@ -6,7 +6,7 @@
     "rows": 10,
     "cols": 8
   },
-  "keycodes": ["qmk_lighting"],
+  "keycodes": ["qmk_rgblight_keycodes"],
   "menus": ["qmk_rgblight"],
   "layouts": {
     "labels": [

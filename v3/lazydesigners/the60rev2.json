@@ -6,34 +6,14 @@
     "rows": 5,
     "cols": 14
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_backlight_rgblight"
-  ],
+  "keycodes": ["qmk_backlight_rgblight_keycodes"],
+  "menus": ["qmk_backlight_rgblight"],
   "layouts": {
     "labels": [
-      [
-        "Backspace",
-        "2U",
-        "Split"
-      ],
-      [
-        "Enter",
-        "ANSI",
-        "ISO"
-      ],
-      [
-        "Left Shift",
-        "ANSI",
-        "ISO"
-      ],
-      [
-        "Right Shift",
-        "Split",
-        "ANSI"
-      ],
+      ["Backspace", "2U", "Split"],
+      ["Enter", "ANSI", "ISO"],
+      ["Left Shift", "ANSI", "ISO"],
+      ["Right Shift", "Split", "ANSI"],
       [
         "Bottom Row",
         "Tsangan",

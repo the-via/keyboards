@@ -13,10 +13,14 @@ async function build() {
     const v3ConvertedDefinitions = await buildDefinitions(logger);
 
     await buildNames(
-      v3ConvertedDefinitions.map((converted) => converted.viaDefinition)
+      v3ConvertedDefinitions.map((converted) => converted.viaDefinition),
     );
-  } catch (error) {
-    logger.logError(error);
+  } catch (error: unknown) {
+    if (error instanceof Error) {
+      logger.logError(error);
+    } else {
+      throw error;
+    }
   } finally {
     if (logger.getErrors().length > 0) {
       logger.writeErrorsToConsole();

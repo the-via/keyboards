@@ -6,28 +6,14 @@
     "rows": 6,
     "cols": 5
   },
-  "keycodes": [
-    "qmk_lighting"
-  ],
-  "menus": [
-    "qmk_rgblight"
-  ],
+  "keycodes": ["qmk_rgblight_keycodes"],
+  "menus": ["qmk_rgblight"],
   "layouts": {
     "labels": [
       "Left Plus Sign",
       "Split Right Plus Sign",
-      [
-        "Bottom Left",
-        "Left 2U 0 Key",
-        "Left Enter",
-        "All 1U Left"
-      ],
-      [
-        "Bottom Right",
-        "Right Enter",
-        "Right 2U 0 Key",
-        "All 1U Right"
-      ],
+      ["Bottom Left", "Left 2U 0 Key", "Left Enter", "All 1U Left"],
+      ["Bottom Right", "Right Enter", "Right 2U 0 Key", "All 1U Right"],
       "Left Encoder",
       "Top Right Encoder"
     ],

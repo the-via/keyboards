@@ -13,7 +13,7 @@
       "shortName": "KC_COFFEE"
     }
   ],
-  "keycodes": ["qmk_lighting"],
+  "keycodes": ["qmk_rgb_matrix_keycodes"],
   "menus": [
     {
       "label": "Lighting",

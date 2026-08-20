@@ -63,9 +63,6 @@
       "shortName": "Cortana"
     }
   ],
-  "keycodes": [
-    "qmk_lighting"
-  ],
   "layouts": {
     "keymap": [
       [
