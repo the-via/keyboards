@@ -7,6 +7,7 @@
     "cols": 14
   },
   "keycodes": ["qmk_rgb_matrix_keycodes"],
+  "menus": ["qmk_rgb_matrix"],
   "layouts": {
     "keymap": [
       [
