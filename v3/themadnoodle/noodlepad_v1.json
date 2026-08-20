@@ -1,0 +1,32 @@
+{
+    "name": "NoodlePad v1",
+    "vendorId": "0x6A6C",
+    "productId": "0x0001",
+    "keycodes": ["qmk_lighting"],
+    "menus": ["qmk_rgblight"],
+    "customKeycodes": [
+        {
+            "name": "RGB Layer Mode",
+            "title": "Toggle the RGB Layer Indicator Mode (Mode1: Blink White=0, Red=1, Green=2, Blue=3) / (Mode2: One LED lit white according to current layer)",
+            "shortName": "L_IND"
+        },
+        {
+            "name": "Cycle Layers",
+            "title": "Cycle through the layers (Place on same key on all layers)",
+            "shortName": "L_CYC"
+        }
+    ],
+    "matrix": {
+        "rows": 3,
+        "cols": 3
+    },
+    "layouts": {
+        "keymap": [
+            ["0,0",{"c":"#777777"},"0,1\n\n\n\n\n\n\n\n\ne0",{"c":"#cccccc"},"0,2"],
+            ["1,0","1,1","1,2"],
+            ["2,0","2,1","2,2"]
+        ]
+    }
+
+
+}
