@@ -1,369 +1,14 @@
 {
-  "name": "EC Minimi40 Ortho",
+  "name": "Bauer Lite DYNA65",
   "vendorId": "0x6369",
-  "productId": "0x6BD6",
+  "productId": "0x6BFE",
   "matrix": {
-    "rows": 12,
-    "cols": 4
+    "rows": 4,
+    "cols": 28
   },
-  "customKeycodes": [
-    {
-      "name": "TD(0)",
-      "title": "Tap Dance slot 0",
-      "shortName": "TD\n0"
-    },
-    {
-      "name": "TD(1)",
-      "title": "Tap Dance slot 1",
-      "shortName": "TD\n1"
-    },
-    {
-      "name": "TD(2)",
-      "title": "Tap Dance slot 2",
-      "shortName": "TD\n2"
-    },
-    {
-      "name": "TD(3)",
-      "title": "Tap Dance slot 3",
-      "shortName": "TD\n3"
-    },
-    {
-      "name": "TD(4)",
-      "title": "Tap Dance slot 4",
-      "shortName": "TD\n4"
-    },
-    {
-      "name": "TD(5)",
-      "title": "Tap Dance slot 5",
-      "shortName": "TD\n5"
-    },
-    {
-      "name": "TD(6)",
-      "title": "Tap Dance slot 6",
-      "shortName": "TD\n6"
-    },
-    {
-      "name": "TD(7)",
-      "title": "Tap Dance slot 7",
-      "shortName": "TD\n7"
-    },
-    {
-      "name": "TD(8)",
-      "title": "Tap Dance slot 8",
-      "shortName": "TD\n8"
-    },
-    {
-      "name": "TD(9)",
-      "title": "Tap Dance slot 9",
-      "shortName": "TD\n9"
-    },
-    {
-      "name": "TD(10)",
-      "title": "Tap Dance slot 10",
-      "shortName": "TD\n10"
-    },
-    {
-      "name": "TD(11)",
-      "title": "Tap Dance slot 11",
-      "shortName": "TD\n11"
-    },
-    {
-      "name": "TD(12)",
-      "title": "Tap Dance slot 12",
-      "shortName": "TD\n12"
-    },
-    {
-      "name": "TD(13)",
-      "title": "Tap Dance slot 13",
-      "shortName": "TD\n13"
-    },
-    {
-      "name": "TD(14)",
-      "title": "Tap Dance slot 14",
-      "shortName": "TD\n14"
-    },
-    {
-      "name": "TD(15)",
-      "title": "Tap Dance slot 15",
-      "shortName": "TD\n15"
-    },
-    {
-      "name": "OS_LCTL",
-      "title": "One-Shot Left Control",
-      "shortName": "OS\nLCTL"
-    },
-    {
-      "name": "OS_LSFT",
-      "title": "One-Shot Left Shift",
-      "shortName": "OS\nLSFT"
-    },
-    {
-      "name": "OS_LALT",
-      "title": "One-Shot Left Alt",
-      "shortName": "OS\nLALT"
-    },
-    {
-      "name": "OS_LGUI",
-      "title": "One-Shot Left GUI",
-      "shortName": "OS\nLGUI"
-    },
-    {
-      "name": "OS_RCTL",
-      "title": "One-Shot Right Control",
-      "shortName": "OS\nRCTL"
-    },
-    {
-      "name": "OS_RSFT",
-      "title": "One-Shot Right Shift",
-      "shortName": "OS\nRSFT"
-    },
-    {
-      "name": "OS_RALT",
-      "title": "One-Shot Right Alt",
-      "shortName": "OS\nRALT"
-    },
-    {
-      "name": "OS_RGUI",
-      "title": "One-Shot Right GUI",
-      "shortName": "OS\nRGUI"
-    },
-    {
-      "name": "OS_ON",
-      "title": "Enable one-shot keys",
-      "shortName": "OS\nON"
-    },
-    {
-      "name": "OS_OFF",
-      "title": "Disable One-Shot keys",
-      "shortName": "OS\nOFF"
-    },
-    {
-      "name": "OS_TOGG",
-      "title": "Toggle One-Shot keys",
-      "shortName": "OS\nTOGG"
-    },
-    {
-      "name": "OS_MEH",
-      "title": "One-Shot Left Control, Shift and Alt",
-      "shortName": "OS\nMEH"
-    },
-    {
-      "name": "OS_HYPR",
-      "title": "One-Shot Left Control, Shift, Alt and GUI",
-      "shortName": "OS\nHYPR"
-    },
-    {
-      "name": "QK_LOCK",
-      "title": "Lock or unlock the next key pressed",
-      "shortName": "KEY\nLOCK"
-    },
-    {
-      "name": "DKS(0)",
-      "title": "Dynamic Keystroke slot 0",
-      "shortName": "DKS\n0"
-    },
-    {
-      "name": "DKS(1)",
-      "title": "Dynamic Keystroke slot 1",
-      "shortName": "DKS\n1"
-    },
-    {
-      "name": "DKS(2)",
-      "title": "Dynamic Keystroke slot 2",
-      "shortName": "DKS\n2"
-    },
-    {
-      "name": "DKS(3)",
-      "title": "Dynamic Keystroke slot 3",
-      "shortName": "DKS\n3"
-    },
-    {
-      "name": "DKS(4)",
-      "title": "Dynamic Keystroke slot 4",
-      "shortName": "DKS\n4"
-    },
-    {
-      "name": "DKS(5)",
-      "title": "Dynamic Keystroke slot 5",
-      "shortName": "DKS\n5"
-    },
-    {
-      "name": "DKS(6)",
-      "title": "Dynamic Keystroke slot 6",
-      "shortName": "DKS\n6"
-    },
-    {
-      "name": "DKS(7)",
-      "title": "Dynamic Keystroke slot 7",
-      "shortName": "DKS\n7"
-    },
-    {
-      "name": "DKS(8)",
-      "title": "Dynamic Keystroke slot 8",
-      "shortName": "DKS\n8"
-    },
-    {
-      "name": "DKS(9)",
-      "title": "Dynamic Keystroke slot 9",
-      "shortName": "DKS\n9"
-    },
-    {
-      "name": "DKS(10)",
-      "title": "Dynamic Keystroke slot 10",
-      "shortName": "DKS\n10"
-    },
-    {
-      "name": "DKS(11)",
-      "title": "Dynamic Keystroke slot 11",
-      "shortName": "DKS\n11"
-    },
-    {
-      "name": "DKS(12)",
-      "title": "Dynamic Keystroke slot 12",
-      "shortName": "DKS\n12"
-    },
-    {
-      "name": "DKS(13)",
-      "title": "Dynamic Keystroke slot 13",
-      "shortName": "DKS\n13"
-    },
-    {
-      "name": "DKS(14)",
-      "title": "Dynamic Keystroke slot 14",
-      "shortName": "DKS\n14"
-    },
-    {
-      "name": "DKS(15)",
-      "title": "Dynamic Keystroke slot 15",
-      "shortName": "DKS\n15"
-    },
-    {
-      "name": "GC_LS_UP",
-      "title": "Controller left stick up",
-      "shortName": "LS\nUP"
-    },
-    {
-      "name": "GC_LS_DOWN",
-      "title": "Controller left stick down",
-      "shortName": "LS\nDOWN"
-    },
-    {
-      "name": "GC_LS_LEFT",
-      "title": "Controller left stick left",
-      "shortName": "LS\nLEFT"
-    },
-    {
-      "name": "GC_LS_RIGHT",
-      "title": "Controller left stick right",
-      "shortName": "LS\nRIGHT"
-    },
-    {
-      "name": "GC_RS_UP",
-      "title": "Controller right stick up",
-      "shortName": "RS\nUP"
-    },
-    {
-      "name": "GC_RS_DOWN",
-      "title": "Controller right stick down",
-      "shortName": "RS\nDOWN"
-    },
-    {
-      "name": "GC_RS_LEFT",
-      "title": "Controller right stick left",
-      "shortName": "RS\nLEFT"
-    },
-    {
-      "name": "GC_RS_RIGHT",
-      "title": "Controller right stick right",
-      "shortName": "RS\nRIGHT"
-    },
-    {
-      "name": "GC_L3",
-      "title": "Controller left stick click",
-      "shortName": "L3"
-    },
-    {
-      "name": "GC_R3",
-      "title": "Controller right stick click",
-      "shortName": "R3"
-    },
-    {
-      "name": "GC_LT",
-      "title": "Controller left trigger",
-      "shortName": "LT"
-    },
-    {
-      "name": "GC_RT",
-      "title": "Controller right trigger",
-      "shortName": "RT"
-    },
-    {
-      "name": "GC_DPAD_UP",
-      "title": "Controller D-pad up",
-      "shortName": "DPAD\nUP"
-    },
-    {
-      "name": "GC_DPAD_DOWN",
-      "title": "Controller D-pad down",
-      "shortName": "DPAD\nDOWN"
-    },
-    {
-      "name": "GC_DPAD_LEFT",
-      "title": "Controller D-pad left",
-      "shortName": "DPAD\nLEFT"
-    },
-    {
-      "name": "GC_DPAD_RIGHT",
-      "title": "Controller D-pad right",
-      "shortName": "DPAD\nRIGHT"
-    },
-    {
-      "name": "GC_A",
-      "title": "Controller A button",
-      "shortName": "PAD\nA"
-    },
-    {
-      "name": "GC_B",
-      "title": "Controller B button",
-      "shortName": "PAD\nB"
-    },
-    {
-      "name": "GC_X",
-      "title": "Controller X button",
-      "shortName": "PAD\nX"
-    },
-    {
-      "name": "GC_Y",
-      "title": "Controller Y button",
-      "shortName": "PAD\nY"
-    },
-    {
-      "name": "GC_LB",
-      "title": "Controller left bumper",
-      "shortName": "LB"
-    },
-    {
-      "name": "GC_RB",
-      "title": "Controller right bumper",
-      "shortName": "RB"
-    },
-    {
-      "name": "GC_VIEW",
-      "title": "Controller View button",
-      "shortName": "PAD\nVIEW"
-    },
-    {
-      "name": "GC_MENU",
-      "title": "Controller Menu button",
-      "shortName": "PAD\nMENU"
-    },
-    {
-      "name": "GC_GUIDE",
-      "title": "Controller Guide (Xbox) button",
-      "shortName": "PAD\nGUIDE"
-    }
-  ],
+  "keycodes": ["qmk_rgblight_keycodes"],
   "menus": [
+    "qmk_rgblight",
     {
       "label": "Switch Configuration",
       "content": [
@@ -371,13 +16,24 @@
           "label": "Actuation",
           "content": [
             {
-              "label": "Mode",
+              "label": "Switch Type",
               "type": "dropdown",
-              "options": ["APC", "Rapid Trigger"],
-              "content": ["id_actuation_mode", 0, 1]
+              "options": ["EC", "MX"],
+              "content": ["id_switch_type", 0, 12]
             },
             {
-              "showIf": "{id_actuation_mode} == 0",
+              "showIf": "{id_switch_type} == 0",
+              "content": [
+                {
+                  "label": "Mode",
+                  "type": "dropdown",
+                  "options": ["APC", "Rapid Trigger"],
+                  "content": ["id_actuation_mode", 0, 1]
+                }
+              ]
+            },
+            {
+              "showIf": "{id_switch_type} == 0 && {id_actuation_mode} == 0",
               "content": [
                 {
                   "label": "Actuation threshold (1-1023)",
@@ -411,12 +67,12 @@
                   "label": "Apply & save changes",
                   "type": "button",
                   "options": [0],
-                  "content": ["id_save_threshold_data", 0, 4]
+                  "content": ["id_apply_thresholds", 0, 4]
                 }
               ]
             },
             {
-              "showIf": "{id_actuation_mode} == 1",
+              "showIf": "{id_switch_type} == 0 && {id_actuation_mode} == 1",
               "content": [
                 {
                   "label": "Initial deadzone offset (1-1023)",
@@ -440,40 +96,44 @@
                   "label": "Apply & save changes",
                   "type": "button",
                   "options": [1],
-                  "content": ["id_save_threshold_data", 0, 4]
+                  "content": ["id_apply_thresholds", 0, 4]
                 }
               ]
             }
           ]
         },
         {
+          "showIf": "{id_switch_type} == 0",
           "label": "Calibration",
           "content": [
             {
-              "label": "Board Calibration",
-              "type": "toggle",
-              "content": ["id_bottoming_calibration", 0, 8]
-            },
-            {
-              "showIf": "{id_bottoming_calibration} == 0",
-              "label": "Print calibration data to console",
-              "type": "button",
-              "options": [0],
-              "content": ["id_show_calibration_data", 0, 10]
-            },
-            {
-              "showIf": "{id_bottoming_calibration} == 0",
-              "label": "Clear bottom-out calibration data",
-              "type": "button",
-              "options": [0],
-              "content": ["id_clear_bottoming_calibration_data", 0, 11]
+              "content": [
+                {
+                  "label": "Board Calibration",
+                  "type": "toggle",
+                  "content": ["id_bottoming_calibration", 0, 8]
+                },
+                {
+                  "showIf": "{id_bottoming_calibration} == 0",
+                  "label": "Print calibration data to console",
+                  "type": "button",
+                  "options": [0],
+                  "content": ["id_print_calibration_data", 0, 10]
+                },
+                {
+                  "showIf": "{id_bottoming_calibration} == 0",
+                  "label": "Clear bottom-out calibration data",
+                  "type": "button",
+                  "options": [0],
+                  "content": ["id_clear_bottom_out_calibration", 0, 11]
+                }
+              ]
             }
           ]
         }
       ]
     },
     {
-      "showIf": "{id_firmware_version} >= 4",
       "label": "Tap Dance",
       "content": [
         {
@@ -975,7 +635,6 @@
       ]
     },
     {
-      "showIf": "{id_firmware_version} >= 4",
       "label": "Combos",
       "content": [
         {
@@ -1356,7 +1015,7 @@
                 ["First Key Priority", 3],
                 ["Second Key Priority", 4]
               ],
-              "content": ["id_socd_pair_1_mode", 0, 12]
+              "content": ["id_socd_pair_1_mode", 0, 13]
             },
             {
               "showIf": "{id_socd_pair_1_mode} != 0",
@@ -1364,12 +1023,12 @@
                 {
                   "label": "Pair #1 First Key",
                   "type": "keycode",
-                  "content": ["id_socd_pair_1_key_1", 0, 13]
+                  "content": ["id_socd_pair_1_key_1", 0, 14]
                 },
                 {
                   "label": "Pair #1 Second Key",
                   "type": "keycode",
-                  "content": ["id_socd_pair_1_key_2", 0, 14]
+                  "content": ["id_socd_pair_1_key_2", 0, 15]
                 }
               ]
             },
@@ -1383,7 +1042,7 @@
                 ["First Key Priority", 3],
                 ["Second Key Priority", 4]
               ],
-              "content": ["id_socd_pair_2_mode", 0, 15]
+              "content": ["id_socd_pair_2_mode", 0, 16]
             },
             {
               "showIf": "{id_socd_pair_2_mode} != 0",
@@ -1391,12 +1050,12 @@
                 {
                   "label": "Pair #2 First Key",
                   "type": "keycode",
-                  "content": ["id_socd_pair_2_key_1", 0, 16]
+                  "content": ["id_socd_pair_2_key_1", 0, 17]
                 },
                 {
                   "label": "Pair #2 Second Key",
                   "type": "keycode",
-                  "content": ["id_socd_pair_2_key_2", 0, 17]
+                  "content": ["id_socd_pair_2_key_2", 0, 18]
                 }
               ]
             },
@@ -1410,7 +1069,7 @@
                 ["First Key Priority", 3],
                 ["Second Key Priority", 4]
               ],
-              "content": ["id_socd_pair_3_mode", 0, 18]
+              "content": ["id_socd_pair_3_mode", 0, 19]
             },
             {
               "showIf": "{id_socd_pair_3_mode} != 0",
@@ -1418,12 +1077,12 @@
                 {
                   "label": "Pair #3 First Key",
                   "type": "keycode",
-                  "content": ["id_socd_pair_3_key_1", 0, 19]
+                  "content": ["id_socd_pair_3_key_1", 0, 20]
                 },
                 {
                   "label": "Pair #3 Second Key",
                   "type": "keycode",
-                  "content": ["id_socd_pair_3_key_2", 0, 20]
+                  "content": ["id_socd_pair_3_key_2", 0, 21]
                 }
               ]
             },
@@ -1437,7 +1096,7 @@
                 ["First Key Priority", 3],
                 ["Second Key Priority", 4]
               ],
-              "content": ["id_socd_pair_4_mode", 0, 21]
+              "content": ["id_socd_pair_4_mode", 0, 22]
             },
             {
               "showIf": "{id_socd_pair_4_mode} != 0",
@@ -1445,12 +1104,12 @@
                 {
                   "label": "Pair #4 First Key",
                   "type": "keycode",
-                  "content": ["id_socd_pair_4_key_1", 0, 22]
+                  "content": ["id_socd_pair_4_key_1", 0, 23]
                 },
                 {
                   "label": "Pair #4 Second Key",
                   "type": "keycode",
-                  "content": ["id_socd_pair_4_key_2", 0, 23]
+                  "content": ["id_socd_pair_4_key_2", 0, 24]
                 }
               ]
             }
@@ -1459,7 +1118,6 @@
       ]
     },
     {
-      "showIf": "{id_firmware_version} >= 5",
       "label": "DKS",
       "content": [
         {
@@ -6313,7 +5971,6 @@
       ]
     },
     {
-      "showIf": "{id_firmware_version} >= 5",
       "label": "Controller",
       "content": [
         {
@@ -6544,7 +6201,6 @@
       ]
     },
     {
-      "showIf": "{id_firmware_version} >= 4",
       "label": "QMK Settings",
       "content": [
         {
@@ -6830,35 +6486,32 @@
       ]
     },
     {
-      "showIf": "{id_firmware_version} >= 2",
       "label": "System",
       "content": [
         {
           "label": "Maintenance",
           "content": [
             {
-              "showIf": "{id_firmware_version} >= 3",
               "label": "Firmware Version",
               "type": "label",
-              "content": ["id_firmware_version_text", 0, 26]
+              "content": ["id_firmware_version_text", 0, 27]
             },
             {
-              "showIf": "{id_firmware_version} >= 3",
               "label": "Firmware build date",
               "type": "label",
-              "content": ["id_firmware_build_text", 0, 27]
+              "content": ["id_firmware_build_date_text", 0, 28]
             },
             {
               "label": "Enter bootloader",
               "type": "button",
               "options": [0],
-              "content": ["id_flash_mode", 0, 24]
+              "content": ["id_enter_bootloader", 0, 25]
             },
             {
               "label": "Factory reset (erases all settings and restarts)",
               "type": "button",
               "options": [0],
-              "content": ["id_factory_reset", 0, 25]
+              "content": ["id_factory_reset", 0, 26]
             }
           ]
         }
@@ -6866,158 +6519,544 @@
     }
   ],
   "layouts": {
-    "labels": [["Bottom Row", "1U", "MIT", "2U Left", "2U Right", "2x 2U"]],
+    "labels": [
+      "Unified Backspace",
+      ["Bottom Row", "Bauer", "7U"],
+      "Top Blocker"
+    ],
     "keymap": [
       [
         {
-          "c": "#aaaaaa"
+          "x": 13,
+          "c": "#aaaaaa",
+          "w": 2
         },
-        "0,0",
-        {
-          "c": "#cccccc"
-        },
-        "1,0",
-        "2,0",
-        "3,0",
-        "4,0",
-        "5,0",
-        "6,0",
-        "7,0",
-        "8,0",
-        "9,0",
-        "10,0",
-        {
-          "c": "#aaaaaa"
-        },
-        "11,0"
+        "0,13\n\n\n0,1"
       ],
       [
+        {
+          "y": 0.25,
+          "c": "#cccccc"
+        },
+        "0,0",
         "0,1",
+        "0,2",
+        "0,3",
+        "0,4",
+        "0,5",
+        "0,6",
+        "0,7",
+        "0,8",
+        "0,9",
+        "0,10",
+        "0,11",
+        "0,12",
+        "0,13\n\n\n0,0",
+        {
+          "c": "#aaaaaa"
+        },
+        "0,14\n\n\n0,0",
+        "1,14\n\n\n2,0",
+        {
+          "x": 0.25,
+          "d": true
+        },
+        "1,14\n\n\n2,1"
+      ],
+      [
+        {
+          "w": 1.5
+        },
+        "1,0",
         {
           "c": "#cccccc"
         },
         "1,1",
-        "2,1",
-        "3,1",
-        "4,1",
-        "5,1",
-        "6,1",
-        "7,1",
-        "8,1",
-        "9,1",
-        "10,1",
-        {
-          "c": "#aaaaaa"
-        },
-        "11,1"
-      ],
-      [
-        "0,2",
-        {
-          "c": "#cccccc"
-        },
         "1,2",
-        "2,2",
-        "3,2",
-        "4,2",
-        "5,2",
-        "6,2",
-        "7,2",
-        "8,2",
-        "9,2",
-        "10,2",
-        {
-          "c": "#aaaaaa"
-        },
-        "11,2"
-      ],
-      [
-        "0,3",
         "1,3",
-        "2,3",
-        "3,3",
+        "1,4",
+        "1,5",
+        "1,6",
+        "1,7",
+        "1,8",
+        "1,9",
+        "1,10",
+        "1,11",
+        "1,12",
         {
-          "c": "#777777"
+          "w": 1.5
         },
-        "4,3\n\n\n0,0",
-        {
-          "c": "#cccccc"
-        },
-        "5,3\n\n\n0,0",
-        "6,3\n\n\n0,0",
-        {
-          "c": "#777777"
-        },
-        "7,3\n\n\n0,0",
+        "1,13",
         {
           "c": "#aaaaaa"
         },
-        "8,3",
-        "9,3",
-        "10,3",
-        "11,3"
+        "2,14"
       ],
       [
         {
-          "y": 0.25,
-          "x": 4,
-          "c": "#777777"
+          "w": 1.75
         },
-        "4,3\n\n\n0,1",
-        {
-          "c": "#cccccc",
-          "w": 2
-        },
-        "5,3\n\n\n0,1",
-        {
-          "c": "#777777"
-        },
-        "7,3\n\n\n0,1"
-      ],
-      [
-        {
-          "y": 0.25,
-          "x": 4,
-          "w": 2
-        },
-        "5,3\n\n\n0,2",
+        "2,16",
         {
           "c": "#cccccc"
         },
-        "6,3\n\n\n0,2",
-        {
-          "c": "#777777"
-        },
-        "7,3\n\n\n0,2"
-      ],
-      [
-        {
-          "y": 0.25,
-          "x": 4
-        },
-        "4,3\n\n\n0,3",
-        {
-          "c": "#cccccc"
-        },
-        "5,3\n\n\n0,3",
+        "2,1",
+        "2,2",
+        "2,3",
+        "2,4",
+        "2,5",
+        "2,6",
+        "2,7",
+        "2,8",
+        "2,9",
+        "2,10",
+        "2,11",
         {
           "c": "#777777",
-          "w": 2
+          "w": 2.25
         },
-        "7,3\n\n\n0,3"
+        "2,13",
+        {
+          "c": "#aaaaaa"
+        },
+        "3,14"
+      ],
+      [
+        {
+          "w": 2.25
+        },
+        "3,17",
+        {
+          "c": "#cccccc"
+        },
+        "3,2",
+        "3,3",
+        "3,4",
+        "3,5",
+        "3,6",
+        "3,7",
+        "3,8",
+        "3,9",
+        "3,10",
+        "3,11",
+        {
+          "c": "#aaaaaa",
+          "w": 1.75
+        },
+        "3,18",
+        "3,19",
+        "3,15"
+      ],
+      [
+        {
+          "w": 1.5
+        },
+        "3,20\n\n\n1,0",
+        {
+          "w": 0.75,
+          "d": true
+        },
+        "3,21\n\n\n1,0",
+        {
+          "w": 1.5
+        },
+        "3,22\n\n\n1,0",
+        {
+          "c": "#cccccc",
+          "w": 7
+        },
+        "3,23\n\n\n1,0",
+        {
+          "c": "#aaaaaa",
+          "w": 1.5
+        },
+        "3,24\n\n\n1,0",
+        {
+          "x": 0.75
+        },
+        "3,25",
+        "3,26",
+        "3,27"
       ],
       [
         {
           "y": 0.25,
-          "x": 4,
-          "w": 2
+          "w": 1.5
         },
-        "5,3\n\n\n0,4",
+        "3,20\n\n\n1,1",
+        "3,21\n\n\n1,1",
         {
-          "w": 2
+          "w": 1.5
         },
-        "7,3\n\n\n0,4"
+        "3,22\n\n\n1,1",
+        {
+          "c": "#cccccc",
+          "w": 7
+        },
+        "3,23\n\n\n1,1",
+        {
+          "c": "#aaaaaa",
+          "w": 1.5
+        },
+        "3,24\n\n\n1,1"
       ]
     ]
-  }
+  },
+  "customKeycodes": [
+    {
+      "name": "TD(0)",
+      "title": "Tap Dance slot 0",
+      "shortName": "TD\n0"
+    },
+    {
+      "name": "TD(1)",
+      "title": "Tap Dance slot 1",
+      "shortName": "TD\n1"
+    },
+    {
+      "name": "TD(2)",
+      "title": "Tap Dance slot 2",
+      "shortName": "TD\n2"
+    },
+    {
+      "name": "TD(3)",
+      "title": "Tap Dance slot 3",
+      "shortName": "TD\n3"
+    },
+    {
+      "name": "TD(4)",
+      "title": "Tap Dance slot 4",
+      "shortName": "TD\n4"
+    },
+    {
+      "name": "TD(5)",
+      "title": "Tap Dance slot 5",
+      "shortName": "TD\n5"
+    },
+    {
+      "name": "TD(6)",
+      "title": "Tap Dance slot 6",
+      "shortName": "TD\n6"
+    },
+    {
+      "name": "TD(7)",
+      "title": "Tap Dance slot 7",
+      "shortName": "TD\n7"
+    },
+    {
+      "name": "TD(8)",
+      "title": "Tap Dance slot 8",
+      "shortName": "TD\n8"
+    },
+    {
+      "name": "TD(9)",
+      "title": "Tap Dance slot 9",
+      "shortName": "TD\n9"
+    },
+    {
+      "name": "TD(10)",
+      "title": "Tap Dance slot 10",
+      "shortName": "TD\n10"
+    },
+    {
+      "name": "TD(11)",
+      "title": "Tap Dance slot 11",
+      "shortName": "TD\n11"
+    },
+    {
+      "name": "TD(12)",
+      "title": "Tap Dance slot 12",
+      "shortName": "TD\n12"
+    },
+    {
+      "name": "TD(13)",
+      "title": "Tap Dance slot 13",
+      "shortName": "TD\n13"
+    },
+    {
+      "name": "TD(14)",
+      "title": "Tap Dance slot 14",
+      "shortName": "TD\n14"
+    },
+    {
+      "name": "TD(15)",
+      "title": "Tap Dance slot 15",
+      "shortName": "TD\n15"
+    },
+    {
+      "name": "OS_LCTL",
+      "title": "One-Shot Left Control",
+      "shortName": "OS\nLCTL"
+    },
+    {
+      "name": "OS_LSFT",
+      "title": "One-Shot Left Shift",
+      "shortName": "OS\nLSFT"
+    },
+    {
+      "name": "OS_LALT",
+      "title": "One-Shot Left Alt",
+      "shortName": "OS\nLALT"
+    },
+    {
+      "name": "OS_LGUI",
+      "title": "One-Shot Left GUI",
+      "shortName": "OS\nLGUI"
+    },
+    {
+      "name": "OS_RCTL",
+      "title": "One-Shot Right Control",
+      "shortName": "OS\nRCTL"
+    },
+    {
+      "name": "OS_RSFT",
+      "title": "One-Shot Right Shift",
+      "shortName": "OS\nRSFT"
+    },
+    {
+      "name": "OS_RALT",
+      "title": "One-Shot Right Alt",
+      "shortName": "OS\nRALT"
+    },
+    {
+      "name": "OS_RGUI",
+      "title": "One-Shot Right GUI",
+      "shortName": "OS\nRGUI"
+    },
+    {
+      "name": "OS_ON",
+      "title": "Enable one-shot keys",
+      "shortName": "OS\nON"
+    },
+    {
+      "name": "OS_OFF",
+      "title": "Disable One-Shot keys",
+      "shortName": "OS\nOFF"
+    },
+    {
+      "name": "OS_TOGG",
+      "title": "Toggle One-Shot keys",
+      "shortName": "OS\nTOGG"
+    },
+    {
+      "name": "OS_MEH",
+      "title": "One-Shot Left Control, Shift and Alt",
+      "shortName": "OS\nMEH"
+    },
+    {
+      "name": "OS_HYPR",
+      "title": "One-Shot Left Control, Shift, Alt and GUI",
+      "shortName": "OS\nHYPR"
+    },
+    {
+      "name": "QK_LOCK",
+      "title": "Lock or unlock the next key pressed",
+      "shortName": "KEY\nLOCK"
+    },
+    {
+      "name": "DKS(0)",
+      "title": "Dynamic Keystroke slot 0",
+      "shortName": "DKS\n0"
+    },
+    {
+      "name": "DKS(1)",
+      "title": "Dynamic Keystroke slot 1",
+      "shortName": "DKS\n1"
+    },
+    {
+      "name": "DKS(2)",
+      "title": "Dynamic Keystroke slot 2",
+      "shortName": "DKS\n2"
+    },
+    {
+      "name": "DKS(3)",
+      "title": "Dynamic Keystroke slot 3",
+      "shortName": "DKS\n3"
+    },
+    {
+      "name": "DKS(4)",
+      "title": "Dynamic Keystroke slot 4",
+      "shortName": "DKS\n4"
+    },
+    {
+      "name": "DKS(5)",
+      "title": "Dynamic Keystroke slot 5",
+      "shortName": "DKS\n5"
+    },
+    {
+      "name": "DKS(6)",
+      "title": "Dynamic Keystroke slot 6",
+      "shortName": "DKS\n6"
+    },
+    {
+      "name": "DKS(7)",
+      "title": "Dynamic Keystroke slot 7",
+      "shortName": "DKS\n7"
+    },
+    {
+      "name": "DKS(8)",
+      "title": "Dynamic Keystroke slot 8",
+      "shortName": "DKS\n8"
+    },
+    {
+      "name": "DKS(9)",
+      "title": "Dynamic Keystroke slot 9",
+      "shortName": "DKS\n9"
+    },
+    {
+      "name": "DKS(10)",
+      "title": "Dynamic Keystroke slot 10",
+      "shortName": "DKS\n10"
+    },
+    {
+      "name": "DKS(11)",
+      "title": "Dynamic Keystroke slot 11",
+      "shortName": "DKS\n11"
+    },
+    {
+      "name": "DKS(12)",
+      "title": "Dynamic Keystroke slot 12",
+      "shortName": "DKS\n12"
+    },
+    {
+      "name": "DKS(13)",
+      "title": "Dynamic Keystroke slot 13",
+      "shortName": "DKS\n13"
+    },
+    {
+      "name": "DKS(14)",
+      "title": "Dynamic Keystroke slot 14",
+      "shortName": "DKS\n14"
+    },
+    {
+      "name": "DKS(15)",
+      "title": "Dynamic Keystroke slot 15",
+      "shortName": "DKS\n15"
+    },
+    {
+      "name": "GC_LS_UP",
+      "title": "Controller left stick up",
+      "shortName": "LS\nUP"
+    },
+    {
+      "name": "GC_LS_DOWN",
+      "title": "Controller left stick down",
+      "shortName": "LS\nDOWN"
+    },
+    {
+      "name": "GC_LS_LEFT",
+      "title": "Controller left stick left",
+      "shortName": "LS\nLEFT"
+    },
+    {
+      "name": "GC_LS_RIGHT",
+      "title": "Controller left stick right",
+      "shortName": "LS\nRIGHT"
+    },
+    {
+      "name": "GC_RS_UP",
+      "title": "Controller right stick up",
+      "shortName": "RS\nUP"
+    },
+    {
+      "name": "GC_RS_DOWN",
+      "title": "Controller right stick down",
+      "shortName": "RS\nDOWN"
+    },
+    {
+      "name": "GC_RS_LEFT",
+      "title": "Controller right stick left",
+      "shortName": "RS\nLEFT"
+    },
+    {
+      "name": "GC_RS_RIGHT",
+      "title": "Controller right stick right",
+      "shortName": "RS\nRIGHT"
+    },
+    {
+      "name": "GC_L3",
+      "title": "Controller left stick click",
+      "shortName": "L3"
+    },
+    {
+      "name": "GC_R3",
+      "title": "Controller right stick click",
+      "shortName": "R3"
+    },
+    {
+      "name": "GC_LT",
+      "title": "Controller left trigger",
+      "shortName": "LT"
+    },
+    {
+      "name": "GC_RT",
+      "title": "Controller right trigger",
+      "shortName": "RT"
+    },
+    {
+      "name": "GC_DPAD_UP",
+      "title": "Controller D-pad up",
+      "shortName": "DPAD\nUP"
+    },
+    {
+      "name": "GC_DPAD_DOWN",
+      "title": "Controller D-pad down",
+      "shortName": "DPAD\nDOWN"
+    },
+    {
+      "name": "GC_DPAD_LEFT",
+      "title": "Controller D-pad left",
+      "shortName": "DPAD\nLEFT"
+    },
+    {
+      "name": "GC_DPAD_RIGHT",
+      "title": "Controller D-pad right",
+      "shortName": "DPAD\nRIGHT"
+    },
+    {
+      "name": "GC_A",
+      "title": "Controller A button",
+      "shortName": "PAD\nA"
+    },
+    {
+      "name": "GC_B",
+      "title": "Controller B button",
+      "shortName": "PAD\nB"
+    },
+    {
+      "name": "GC_X",
+      "title": "Controller X button",
+      "shortName": "PAD\nX"
+    },
+    {
+      "name": "GC_Y",
+      "title": "Controller Y button",
+      "shortName": "PAD\nY"
+    },
+    {
+      "name": "GC_LB",
+      "title": "Controller left bumper",
+      "shortName": "LB"
+    },
+    {
+      "name": "GC_RB",
+      "title": "Controller right bumper",
+      "shortName": "RB"
+    },
+    {
+      "name": "GC_VIEW",
+      "title": "Controller View button",
+      "shortName": "PAD\nVIEW"
+    },
+    {
+      "name": "GC_MENU",
+      "title": "Controller Menu button",
+      "shortName": "PAD\nMENU"
+    },
+    {
+      "name": "GC_GUIDE",
+      "title": "Controller Guide (Xbox) button",
+      "shortName": "PAD\nGUIDE"
+    }
+  ]
 }
