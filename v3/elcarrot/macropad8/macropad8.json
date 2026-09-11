@@ -1,0 +1,17 @@
+{
+  "name": "ElCarrot Macropad8",
+  "vendorId": "0xCA04",
+  "productId": "0x0001",
+  "matrix": {
+    "rows": 2,
+    "cols": 4
+  },
+  "lighting": "none",
+  "layouts": {
+    "labels": [],
+    "keymap": [
+      ["0,0", "0,1", "0,2", "0,3"],
+      ["1,0", "1,1", "1,2", "1,3"]
+    ]
+  }
+}
