@@ -367,6 +367,42 @@
   "menus": [
     "qmk_rgblight",
     {
+      "showIf": "{id_firmware_version} >= 6",
+      "label": "Indicators",
+      "content": [
+        {
+          "label": "Num Lock LED",
+          "content": [
+            {
+              "label": "Enable Num Lock LED",
+              "type": "toggle",
+              "content": ["id_ind1_enabled", 0, 28]
+            },
+            {
+              "showIf": "{id_ind1_enabled} == 1",
+              "content": [
+                {
+                  "label": "Function",
+                  "type": "dropdown",
+                  "options": [
+                    "None",
+                    "Caps Lock",
+                    "Num Lock",
+                    "Scroll Lock",
+                    "Layer 0",
+                    "Layer 1",
+                    "Layer 2",
+                    "Layer 3"
+                  ],
+                  "content": ["id_ind1_func", 0, 29]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "label": "Switch Configuration",
       "content": [
         {
