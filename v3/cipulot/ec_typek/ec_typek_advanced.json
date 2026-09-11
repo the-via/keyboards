@@ -156,6 +156,211 @@
       "name": "QK_LOCK",
       "title": "Lock or unlock the next key pressed",
       "shortName": "KEY\nLOCK"
+    },
+    {
+      "name": "DKS(0)",
+      "title": "Dynamic Keystroke slot 0",
+      "shortName": "DKS\n0"
+    },
+    {
+      "name": "DKS(1)",
+      "title": "Dynamic Keystroke slot 1",
+      "shortName": "DKS\n1"
+    },
+    {
+      "name": "DKS(2)",
+      "title": "Dynamic Keystroke slot 2",
+      "shortName": "DKS\n2"
+    },
+    {
+      "name": "DKS(3)",
+      "title": "Dynamic Keystroke slot 3",
+      "shortName": "DKS\n3"
+    },
+    {
+      "name": "DKS(4)",
+      "title": "Dynamic Keystroke slot 4",
+      "shortName": "DKS\n4"
+    },
+    {
+      "name": "DKS(5)",
+      "title": "Dynamic Keystroke slot 5",
+      "shortName": "DKS\n5"
+    },
+    {
+      "name": "DKS(6)",
+      "title": "Dynamic Keystroke slot 6",
+      "shortName": "DKS\n6"
+    },
+    {
+      "name": "DKS(7)",
+      "title": "Dynamic Keystroke slot 7",
+      "shortName": "DKS\n7"
+    },
+    {
+      "name": "DKS(8)",
+      "title": "Dynamic Keystroke slot 8",
+      "shortName": "DKS\n8"
+    },
+    {
+      "name": "DKS(9)",
+      "title": "Dynamic Keystroke slot 9",
+      "shortName": "DKS\n9"
+    },
+    {
+      "name": "DKS(10)",
+      "title": "Dynamic Keystroke slot 10",
+      "shortName": "DKS\n10"
+    },
+    {
+      "name": "DKS(11)",
+      "title": "Dynamic Keystroke slot 11",
+      "shortName": "DKS\n11"
+    },
+    {
+      "name": "DKS(12)",
+      "title": "Dynamic Keystroke slot 12",
+      "shortName": "DKS\n12"
+    },
+    {
+      "name": "DKS(13)",
+      "title": "Dynamic Keystroke slot 13",
+      "shortName": "DKS\n13"
+    },
+    {
+      "name": "DKS(14)",
+      "title": "Dynamic Keystroke slot 14",
+      "shortName": "DKS\n14"
+    },
+    {
+      "name": "DKS(15)",
+      "title": "Dynamic Keystroke slot 15",
+      "shortName": "DKS\n15"
+    },
+    {
+      "name": "GC_LS_UP",
+      "title": "Controller left stick up",
+      "shortName": "LS\nUP"
+    },
+    {
+      "name": "GC_LS_DOWN",
+      "title": "Controller left stick down",
+      "shortName": "LS\nDOWN"
+    },
+    {
+      "name": "GC_LS_LEFT",
+      "title": "Controller left stick left",
+      "shortName": "LS\nLEFT"
+    },
+    {
+      "name": "GC_LS_RIGHT",
+      "title": "Controller left stick right",
+      "shortName": "LS\nRIGHT"
+    },
+    {
+      "name": "GC_RS_UP",
+      "title": "Controller right stick up",
+      "shortName": "RS\nUP"
+    },
+    {
+      "name": "GC_RS_DOWN",
+      "title": "Controller right stick down",
+      "shortName": "RS\nDOWN"
+    },
+    {
+      "name": "GC_RS_LEFT",
+      "title": "Controller right stick left",
+      "shortName": "RS\nLEFT"
+    },
+    {
+      "name": "GC_RS_RIGHT",
+      "title": "Controller right stick right",
+      "shortName": "RS\nRIGHT"
+    },
+    {
+      "name": "GC_L3",
+      "title": "Controller left stick click",
+      "shortName": "L3"
+    },
+    {
+      "name": "GC_R3",
+      "title": "Controller right stick click",
+      "shortName": "R3"
+    },
+    {
+      "name": "GC_LT",
+      "title": "Controller left trigger",
+      "shortName": "LT"
+    },
+    {
+      "name": "GC_RT",
+      "title": "Controller right trigger",
+      "shortName": "RT"
+    },
+    {
+      "name": "GC_DPAD_UP",
+      "title": "Controller D-pad up",
+      "shortName": "DPAD\nUP"
+    },
+    {
+      "name": "GC_DPAD_DOWN",
+      "title": "Controller D-pad down",
+      "shortName": "DPAD\nDOWN"
+    },
+    {
+      "name": "GC_DPAD_LEFT",
+      "title": "Controller D-pad left",
+      "shortName": "DPAD\nLEFT"
+    },
+    {
+      "name": "GC_DPAD_RIGHT",
+      "title": "Controller D-pad right",
+      "shortName": "DPAD\nRIGHT"
+    },
+    {
+      "name": "GC_A",
+      "title": "Controller A button",
+      "shortName": "PAD\nA"
+    },
+    {
+      "name": "GC_B",
+      "title": "Controller B button",
+      "shortName": "PAD\nB"
+    },
+    {
+      "name": "GC_X",
+      "title": "Controller X button",
+      "shortName": "PAD\nX"
+    },
+    {
+      "name": "GC_Y",
+      "title": "Controller Y button",
+      "shortName": "PAD\nY"
+    },
+    {
+      "name": "GC_LB",
+      "title": "Controller left bumper",
+      "shortName": "LB"
+    },
+    {
+      "name": "GC_RB",
+      "title": "Controller right bumper",
+      "shortName": "RB"
+    },
+    {
+      "name": "GC_VIEW",
+      "title": "Controller View button",
+      "shortName": "PAD\nVIEW"
+    },
+    {
+      "name": "GC_MENU",
+      "title": "Controller Menu button",
+      "shortName": "PAD\nMENU"
+    },
+    {
+      "name": "GC_GUIDE",
+      "title": "Controller Guide (Xbox) button",
+      "shortName": "PAD\nGUIDE"
     }
   ],
   "keycodes": ["qmk_rgblight_keycodes"],
@@ -481,124 +686,6 @@
               "type": "button",
               "options": [0],
               "content": ["id_clear_bottoming_calibration_data", 0, 23]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "label": "Gaming Features",
-      "content": [
-        {
-          "label": "SOCD",
-          "content": [
-            {
-              "label": "Pair #1 Mode",
-              "type": "dropdown",
-              "options": [
-                ["Disabled", 0],
-                ["Last Priority", 1],
-                ["Neutral", 2],
-                ["First Key Priority", 3],
-                ["Second Key Priority", 4]
-              ],
-              "content": ["id_socd_pair_1_mode", 0, 24]
-            },
-            {
-              "showIf": "{id_socd_pair_1_mode} != 0",
-              "content": [
-                {
-                  "label": "Pair #1 First Key",
-                  "type": "keycode",
-                  "content": ["id_socd_pair_1_key_1", 0, 25]
-                },
-                {
-                  "label": "Pair #1 Second Key",
-                  "type": "keycode",
-                  "content": ["id_socd_pair_1_key_2", 0, 26]
-                }
-              ]
-            },
-            {
-              "label": "Pair #2 Mode",
-              "type": "dropdown",
-              "options": [
-                ["Disabled", 0],
-                ["Last Priority", 1],
-                ["Neutral", 2],
-                ["First Key Priority", 3],
-                ["Second Key Priority", 4]
-              ],
-              "content": ["id_socd_pair_2_mode", 0, 27]
-            },
-            {
-              "showIf": "{id_socd_pair_2_mode} != 0",
-              "content": [
-                {
-                  "label": "Pair #2 First Key",
-                  "type": "keycode",
-                  "content": ["id_socd_pair_2_key_1", 0, 28]
-                },
-                {
-                  "label": "Pair #2 Second Key",
-                  "type": "keycode",
-                  "content": ["id_socd_pair_2_key_2", 0, 29]
-                }
-              ]
-            },
-            {
-              "label": "Pair #3 Mode",
-              "type": "dropdown",
-              "options": [
-                ["Disabled", 0],
-                ["Last Priority", 1],
-                ["Neutral", 2],
-                ["First Key Priority", 3],
-                ["Second Key Priority", 4]
-              ],
-              "content": ["id_socd_pair_3_mode", 0, 30]
-            },
-            {
-              "showIf": "{id_socd_pair_3_mode} != 0",
-              "content": [
-                {
-                  "label": "Pair #3 First Key",
-                  "type": "keycode",
-                  "content": ["id_socd_pair_3_key_1", 0, 31]
-                },
-                {
-                  "label": "Pair #3 Second Key",
-                  "type": "keycode",
-                  "content": ["id_socd_pair_3_key_2", 0, 32]
-                }
-              ]
-            },
-            {
-              "label": "Pair #4 Mode",
-              "type": "dropdown",
-              "options": [
-                ["Disabled", 0],
-                ["Last Priority", 1],
-                ["Neutral", 2],
-                ["First Key Priority", 3],
-                ["Second Key Priority", 4]
-              ],
-              "content": ["id_socd_pair_4_mode", 0, 33]
-            },
-            {
-              "showIf": "{id_socd_pair_4_mode} != 0",
-              "content": [
-                {
-                  "label": "Pair #4 First Key",
-                  "type": "keycode",
-                  "content": ["id_socd_pair_4_key_1", 0, 34]
-                },
-                {
-                  "label": "Pair #4 Second Key",
-                  "type": "keycode",
-                  "content": ["id_socd_pair_4_key_2", 0, 35]
-                }
-              ]
             }
           ]
         }
@@ -1467,6 +1554,5209 @@
               "type": "range",
               "content": ["id_combo_slot_term[9]", 10, 3, 9],
               "options": [1, 1000]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "SOCD",
+      "content": [
+        {
+          "label": "SOCD Settings",
+          "content": [
+            {
+              "label": "Pair #1 Mode",
+              "type": "dropdown",
+              "options": [
+                ["Disabled", 0],
+                ["Last Priority", 1],
+                ["Neutral", 2],
+                ["First Key Priority", 3],
+                ["Second Key Priority", 4]
+              ],
+              "content": ["id_socd_pair_1_mode", 0, 24]
+            },
+            {
+              "showIf": "{id_socd_pair_1_mode} != 0",
+              "content": [
+                {
+                  "label": "Pair #1 First Key",
+                  "type": "keycode",
+                  "content": ["id_socd_pair_1_key_1", 0, 25]
+                },
+                {
+                  "label": "Pair #1 Second Key",
+                  "type": "keycode",
+                  "content": ["id_socd_pair_1_key_2", 0, 26]
+                }
+              ]
+            },
+            {
+              "label": "Pair #2 Mode",
+              "type": "dropdown",
+              "options": [
+                ["Disabled", 0],
+                ["Last Priority", 1],
+                ["Neutral", 2],
+                ["First Key Priority", 3],
+                ["Second Key Priority", 4]
+              ],
+              "content": ["id_socd_pair_2_mode", 0, 27]
+            },
+            {
+              "showIf": "{id_socd_pair_2_mode} != 0",
+              "content": [
+                {
+                  "label": "Pair #2 First Key",
+                  "type": "keycode",
+                  "content": ["id_socd_pair_2_key_1", 0, 28]
+                },
+                {
+                  "label": "Pair #2 Second Key",
+                  "type": "keycode",
+                  "content": ["id_socd_pair_2_key_2", 0, 29]
+                }
+              ]
+            },
+            {
+              "label": "Pair #3 Mode",
+              "type": "dropdown",
+              "options": [
+                ["Disabled", 0],
+                ["Last Priority", 1],
+                ["Neutral", 2],
+                ["First Key Priority", 3],
+                ["Second Key Priority", 4]
+              ],
+              "content": ["id_socd_pair_3_mode", 0, 30]
+            },
+            {
+              "showIf": "{id_socd_pair_3_mode} != 0",
+              "content": [
+                {
+                  "label": "Pair #3 First Key",
+                  "type": "keycode",
+                  "content": ["id_socd_pair_3_key_1", 0, 31]
+                },
+                {
+                  "label": "Pair #3 Second Key",
+                  "type": "keycode",
+                  "content": ["id_socd_pair_3_key_2", 0, 32]
+                }
+              ]
+            },
+            {
+              "label": "Pair #4 Mode",
+              "type": "dropdown",
+              "options": [
+                ["Disabled", 0],
+                ["Last Priority", 1],
+                ["Neutral", 2],
+                ["First Key Priority", 3],
+                ["Second Key Priority", 4]
+              ],
+              "content": ["id_socd_pair_4_mode", 0, 33]
+            },
+            {
+              "showIf": "{id_socd_pair_4_mode} != 0",
+              "content": [
+                {
+                  "label": "Pair #4 First Key",
+                  "type": "keycode",
+                  "content": ["id_socd_pair_4_key_1", 0, 34]
+                },
+                {
+                  "label": "Pair #4 Second Key",
+                  "type": "keycode",
+                  "content": ["id_socd_pair_4_key_2", 0, 35]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "showIf": "{id_firmware_version} >= 5",
+      "label": "DKS",
+      "content": [
+        {
+          "label": "DKS General Settings",
+          "content": [
+            {
+              "label": "Enable Dynamic Keystrokes",
+              "type": "toggle",
+              "content": ["id_dks_enabled", 11, 1]
+            },
+            {
+              "label": "Reset all DKS slots",
+              "type": "button",
+              "options": [0],
+              "content": ["id_dks_reset_all", 11, 0]
+            }
+          ]
+        },
+        {
+          "showIf": "{id_dks_enabled} == 1",
+          "label": "DKS 0 - DKS(0)",
+          "content": [
+            {
+              "label": "Shallow press threshold (1-1023)",
+              "type": "range",
+              "options": [1, 1023],
+              "content": ["id_dks_threshold[0][0]", 11, 2, 0, 0],
+              "constraints": [
+                {
+                  "operator": ">=",
+                  "reference": "id_dks_threshold[0][3]",
+                  "offset": 50,
+                  "onViolation": "push"
+                },
+                {
+                  "operator": "<=",
+                  "reference": "id_dks_threshold[0][2]",
+                  "offset": -50,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "label": "Deep press threshold (1-1023)",
+              "type": "range",
+              "options": [1, 1023],
+              "content": ["id_dks_threshold[0][1]", 11, 2, 0, 1],
+              "constraints": [
+                {
+                  "operator": ">=",
+                  "reference": "id_dks_threshold[0][2]",
+                  "offset": 50,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "label": "Deep release threshold (1-1023)",
+              "type": "range",
+              "options": [1, 1023],
+              "content": ["id_dks_threshold[0][2]", 11, 2, 0, 2],
+              "constraints": [
+                {
+                  "operator": ">=",
+                  "reference": "id_dks_threshold[0][0]",
+                  "offset": 50,
+                  "onViolation": "push"
+                },
+                {
+                  "operator": "<=",
+                  "reference": "id_dks_threshold[0][1]",
+                  "offset": -50,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "label": "Shallow release threshold (1-1023)",
+              "type": "range",
+              "options": [1, 1023],
+              "content": ["id_dks_threshold[0][3]", 11, 2, 0, 3],
+              "constraints": [
+                {
+                  "operator": "<=",
+                  "reference": "id_dks_threshold[0][0]",
+                  "offset": -50,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "label": "Output 1 keycode",
+              "type": "keycode",
+              "content": ["id_dks_keycode_0_0", 11, 3, 0, 0]
+            },
+            {
+              "showIf": "{id_dks_keycode_0_0.0} != 0 || {id_dks_keycode_0_0.1} != 0",
+              "label": "Output 1 - Shallow press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[0][0][0]", 11, 4, 0, 0, 0]
+            },
+            {
+              "showIf": "{id_dks_keycode_0_0.0} != 0 || {id_dks_keycode_0_0.1} != 0",
+              "label": "Output 1 - Deep press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[0][1][0]", 11, 4, 0, 1, 0]
+            },
+            {
+              "showIf": "{id_dks_keycode_0_0.0} != 0 || {id_dks_keycode_0_0.1} != 0",
+              "label": "Output 1 - Deep release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[0][2][0]", 11, 4, 0, 2, 0]
+            },
+            {
+              "showIf": "{id_dks_keycode_0_0.0} != 0 || {id_dks_keycode_0_0.1} != 0",
+              "label": "Output 1 - Shallow release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[0][3][0]", 11, 4, 0, 3, 0]
+            },
+            {
+              "label": "Output 2 keycode",
+              "type": "keycode",
+              "content": ["id_dks_keycode_0_1", 11, 3, 0, 1]
+            },
+            {
+              "showIf": "{id_dks_keycode_0_1.0} != 0 || {id_dks_keycode_0_1.1} != 0",
+              "label": "Output 2 - Shallow press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[0][0][1]", 11, 4, 0, 0, 1]
+            },
+            {
+              "showIf": "{id_dks_keycode_0_1.0} != 0 || {id_dks_keycode_0_1.1} != 0",
+              "label": "Output 2 - Deep press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[0][1][1]", 11, 4, 0, 1, 1]
+            },
+            {
+              "showIf": "{id_dks_keycode_0_1.0} != 0 || {id_dks_keycode_0_1.1} != 0",
+              "label": "Output 2 - Deep release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[0][2][1]", 11, 4, 0, 2, 1]
+            },
+            {
+              "showIf": "{id_dks_keycode_0_1.0} != 0 || {id_dks_keycode_0_1.1} != 0",
+              "label": "Output 2 - Shallow release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[0][3][1]", 11, 4, 0, 3, 1]
+            },
+            {
+              "label": "Output 3 keycode",
+              "type": "keycode",
+              "content": ["id_dks_keycode_0_2", 11, 3, 0, 2]
+            },
+            {
+              "showIf": "{id_dks_keycode_0_2.0} != 0 || {id_dks_keycode_0_2.1} != 0",
+              "label": "Output 3 - Shallow press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[0][0][2]", 11, 4, 0, 0, 2]
+            },
+            {
+              "showIf": "{id_dks_keycode_0_2.0} != 0 || {id_dks_keycode_0_2.1} != 0",
+              "label": "Output 3 - Deep press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[0][1][2]", 11, 4, 0, 1, 2]
+            },
+            {
+              "showIf": "{id_dks_keycode_0_2.0} != 0 || {id_dks_keycode_0_2.1} != 0",
+              "label": "Output 3 - Deep release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[0][2][2]", 11, 4, 0, 2, 2]
+            },
+            {
+              "showIf": "{id_dks_keycode_0_2.0} != 0 || {id_dks_keycode_0_2.1} != 0",
+              "label": "Output 3 - Shallow release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[0][3][2]", 11, 4, 0, 3, 2]
+            },
+            {
+              "label": "Output 4 keycode",
+              "type": "keycode",
+              "content": ["id_dks_keycode_0_3", 11, 3, 0, 3]
+            },
+            {
+              "showIf": "{id_dks_keycode_0_3.0} != 0 || {id_dks_keycode_0_3.1} != 0",
+              "label": "Output 4 - Shallow press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[0][0][3]", 11, 4, 0, 0, 3]
+            },
+            {
+              "showIf": "{id_dks_keycode_0_3.0} != 0 || {id_dks_keycode_0_3.1} != 0",
+              "label": "Output 4 - Deep press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[0][1][3]", 11, 4, 0, 1, 3]
+            },
+            {
+              "showIf": "{id_dks_keycode_0_3.0} != 0 || {id_dks_keycode_0_3.1} != 0",
+              "label": "Output 4 - Deep release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[0][2][3]", 11, 4, 0, 2, 3]
+            },
+            {
+              "showIf": "{id_dks_keycode_0_3.0} != 0 || {id_dks_keycode_0_3.1} != 0",
+              "label": "Output 4 - Shallow release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[0][3][3]", 11, 4, 0, 3, 3]
+            }
+          ]
+        },
+        {
+          "showIf": "{id_dks_enabled} == 1",
+          "label": "DKS 1 - DKS(1)",
+          "content": [
+            {
+              "label": "Shallow press threshold (1-1023)",
+              "type": "range",
+              "options": [1, 1023],
+              "content": ["id_dks_threshold[1][0]", 11, 2, 1, 0],
+              "constraints": [
+                {
+                  "operator": ">=",
+                  "reference": "id_dks_threshold[1][3]",
+                  "offset": 50,
+                  "onViolation": "push"
+                },
+                {
+                  "operator": "<=",
+                  "reference": "id_dks_threshold[1][2]",
+                  "offset": -50,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "label": "Deep press threshold (1-1023)",
+              "type": "range",
+              "options": [1, 1023],
+              "content": ["id_dks_threshold[1][1]", 11, 2, 1, 1],
+              "constraints": [
+                {
+                  "operator": ">=",
+                  "reference": "id_dks_threshold[1][2]",
+                  "offset": 50,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "label": "Deep release threshold (1-1023)",
+              "type": "range",
+              "options": [1, 1023],
+              "content": ["id_dks_threshold[1][2]", 11, 2, 1, 2],
+              "constraints": [
+                {
+                  "operator": ">=",
+                  "reference": "id_dks_threshold[1][0]",
+                  "offset": 50,
+                  "onViolation": "push"
+                },
+                {
+                  "operator": "<=",
+                  "reference": "id_dks_threshold[1][1]",
+                  "offset": -50,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "label": "Shallow release threshold (1-1023)",
+              "type": "range",
+              "options": [1, 1023],
+              "content": ["id_dks_threshold[1][3]", 11, 2, 1, 3],
+              "constraints": [
+                {
+                  "operator": "<=",
+                  "reference": "id_dks_threshold[1][0]",
+                  "offset": -50,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "label": "Output 1 keycode",
+              "type": "keycode",
+              "content": ["id_dks_keycode_1_0", 11, 3, 1, 0]
+            },
+            {
+              "showIf": "{id_dks_keycode_1_0.0} != 0 || {id_dks_keycode_1_0.1} != 0",
+              "label": "Output 1 - Shallow press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[1][0][0]", 11, 4, 1, 0, 0]
+            },
+            {
+              "showIf": "{id_dks_keycode_1_0.0} != 0 || {id_dks_keycode_1_0.1} != 0",
+              "label": "Output 1 - Deep press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[1][1][0]", 11, 4, 1, 1, 0]
+            },
+            {
+              "showIf": "{id_dks_keycode_1_0.0} != 0 || {id_dks_keycode_1_0.1} != 0",
+              "label": "Output 1 - Deep release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[1][2][0]", 11, 4, 1, 2, 0]
+            },
+            {
+              "showIf": "{id_dks_keycode_1_0.0} != 0 || {id_dks_keycode_1_0.1} != 0",
+              "label": "Output 1 - Shallow release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[1][3][0]", 11, 4, 1, 3, 0]
+            },
+            {
+              "label": "Output 2 keycode",
+              "type": "keycode",
+              "content": ["id_dks_keycode_1_1", 11, 3, 1, 1]
+            },
+            {
+              "showIf": "{id_dks_keycode_1_1.0} != 0 || {id_dks_keycode_1_1.1} != 0",
+              "label": "Output 2 - Shallow press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[1][0][1]", 11, 4, 1, 0, 1]
+            },
+            {
+              "showIf": "{id_dks_keycode_1_1.0} != 0 || {id_dks_keycode_1_1.1} != 0",
+              "label": "Output 2 - Deep press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[1][1][1]", 11, 4, 1, 1, 1]
+            },
+            {
+              "showIf": "{id_dks_keycode_1_1.0} != 0 || {id_dks_keycode_1_1.1} != 0",
+              "label": "Output 2 - Deep release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[1][2][1]", 11, 4, 1, 2, 1]
+            },
+            {
+              "showIf": "{id_dks_keycode_1_1.0} != 0 || {id_dks_keycode_1_1.1} != 0",
+              "label": "Output 2 - Shallow release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[1][3][1]", 11, 4, 1, 3, 1]
+            },
+            {
+              "label": "Output 3 keycode",
+              "type": "keycode",
+              "content": ["id_dks_keycode_1_2", 11, 3, 1, 2]
+            },
+            {
+              "showIf": "{id_dks_keycode_1_2.0} != 0 || {id_dks_keycode_1_2.1} != 0",
+              "label": "Output 3 - Shallow press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[1][0][2]", 11, 4, 1, 0, 2]
+            },
+            {
+              "showIf": "{id_dks_keycode_1_2.0} != 0 || {id_dks_keycode_1_2.1} != 0",
+              "label": "Output 3 - Deep press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[1][1][2]", 11, 4, 1, 1, 2]
+            },
+            {
+              "showIf": "{id_dks_keycode_1_2.0} != 0 || {id_dks_keycode_1_2.1} != 0",
+              "label": "Output 3 - Deep release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[1][2][2]", 11, 4, 1, 2, 2]
+            },
+            {
+              "showIf": "{id_dks_keycode_1_2.0} != 0 || {id_dks_keycode_1_2.1} != 0",
+              "label": "Output 3 - Shallow release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[1][3][2]", 11, 4, 1, 3, 2]
+            },
+            {
+              "label": "Output 4 keycode",
+              "type": "keycode",
+              "content": ["id_dks_keycode_1_3", 11, 3, 1, 3]
+            },
+            {
+              "showIf": "{id_dks_keycode_1_3.0} != 0 || {id_dks_keycode_1_3.1} != 0",
+              "label": "Output 4 - Shallow press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[1][0][3]", 11, 4, 1, 0, 3]
+            },
+            {
+              "showIf": "{id_dks_keycode_1_3.0} != 0 || {id_dks_keycode_1_3.1} != 0",
+              "label": "Output 4 - Deep press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[1][1][3]", 11, 4, 1, 1, 3]
+            },
+            {
+              "showIf": "{id_dks_keycode_1_3.0} != 0 || {id_dks_keycode_1_3.1} != 0",
+              "label": "Output 4 - Deep release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[1][2][3]", 11, 4, 1, 2, 3]
+            },
+            {
+              "showIf": "{id_dks_keycode_1_3.0} != 0 || {id_dks_keycode_1_3.1} != 0",
+              "label": "Output 4 - Shallow release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[1][3][3]", 11, 4, 1, 3, 3]
+            }
+          ]
+        },
+        {
+          "showIf": "{id_dks_enabled} == 1",
+          "label": "DKS 2 - DKS(2)",
+          "content": [
+            {
+              "label": "Shallow press threshold (1-1023)",
+              "type": "range",
+              "options": [1, 1023],
+              "content": ["id_dks_threshold[2][0]", 11, 2, 2, 0],
+              "constraints": [
+                {
+                  "operator": ">=",
+                  "reference": "id_dks_threshold[2][3]",
+                  "offset": 50,
+                  "onViolation": "push"
+                },
+                {
+                  "operator": "<=",
+                  "reference": "id_dks_threshold[2][2]",
+                  "offset": -50,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "label": "Deep press threshold (1-1023)",
+              "type": "range",
+              "options": [1, 1023],
+              "content": ["id_dks_threshold[2][1]", 11, 2, 2, 1],
+              "constraints": [
+                {
+                  "operator": ">=",
+                  "reference": "id_dks_threshold[2][2]",
+                  "offset": 50,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "label": "Deep release threshold (1-1023)",
+              "type": "range",
+              "options": [1, 1023],
+              "content": ["id_dks_threshold[2][2]", 11, 2, 2, 2],
+              "constraints": [
+                {
+                  "operator": ">=",
+                  "reference": "id_dks_threshold[2][0]",
+                  "offset": 50,
+                  "onViolation": "push"
+                },
+                {
+                  "operator": "<=",
+                  "reference": "id_dks_threshold[2][1]",
+                  "offset": -50,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "label": "Shallow release threshold (1-1023)",
+              "type": "range",
+              "options": [1, 1023],
+              "content": ["id_dks_threshold[2][3]", 11, 2, 2, 3],
+              "constraints": [
+                {
+                  "operator": "<=",
+                  "reference": "id_dks_threshold[2][0]",
+                  "offset": -50,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "label": "Output 1 keycode",
+              "type": "keycode",
+              "content": ["id_dks_keycode_2_0", 11, 3, 2, 0]
+            },
+            {
+              "showIf": "{id_dks_keycode_2_0.0} != 0 || {id_dks_keycode_2_0.1} != 0",
+              "label": "Output 1 - Shallow press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[2][0][0]", 11, 4, 2, 0, 0]
+            },
+            {
+              "showIf": "{id_dks_keycode_2_0.0} != 0 || {id_dks_keycode_2_0.1} != 0",
+              "label": "Output 1 - Deep press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[2][1][0]", 11, 4, 2, 1, 0]
+            },
+            {
+              "showIf": "{id_dks_keycode_2_0.0} != 0 || {id_dks_keycode_2_0.1} != 0",
+              "label": "Output 1 - Deep release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[2][2][0]", 11, 4, 2, 2, 0]
+            },
+            {
+              "showIf": "{id_dks_keycode_2_0.0} != 0 || {id_dks_keycode_2_0.1} != 0",
+              "label": "Output 1 - Shallow release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[2][3][0]", 11, 4, 2, 3, 0]
+            },
+            {
+              "label": "Output 2 keycode",
+              "type": "keycode",
+              "content": ["id_dks_keycode_2_1", 11, 3, 2, 1]
+            },
+            {
+              "showIf": "{id_dks_keycode_2_1.0} != 0 || {id_dks_keycode_2_1.1} != 0",
+              "label": "Output 2 - Shallow press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[2][0][1]", 11, 4, 2, 0, 1]
+            },
+            {
+              "showIf": "{id_dks_keycode_2_1.0} != 0 || {id_dks_keycode_2_1.1} != 0",
+              "label": "Output 2 - Deep press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[2][1][1]", 11, 4, 2, 1, 1]
+            },
+            {
+              "showIf": "{id_dks_keycode_2_1.0} != 0 || {id_dks_keycode_2_1.1} != 0",
+              "label": "Output 2 - Deep release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[2][2][1]", 11, 4, 2, 2, 1]
+            },
+            {
+              "showIf": "{id_dks_keycode_2_1.0} != 0 || {id_dks_keycode_2_1.1} != 0",
+              "label": "Output 2 - Shallow release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[2][3][1]", 11, 4, 2, 3, 1]
+            },
+            {
+              "label": "Output 3 keycode",
+              "type": "keycode",
+              "content": ["id_dks_keycode_2_2", 11, 3, 2, 2]
+            },
+            {
+              "showIf": "{id_dks_keycode_2_2.0} != 0 || {id_dks_keycode_2_2.1} != 0",
+              "label": "Output 3 - Shallow press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[2][0][2]", 11, 4, 2, 0, 2]
+            },
+            {
+              "showIf": "{id_dks_keycode_2_2.0} != 0 || {id_dks_keycode_2_2.1} != 0",
+              "label": "Output 3 - Deep press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[2][1][2]", 11, 4, 2, 1, 2]
+            },
+            {
+              "showIf": "{id_dks_keycode_2_2.0} != 0 || {id_dks_keycode_2_2.1} != 0",
+              "label": "Output 3 - Deep release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[2][2][2]", 11, 4, 2, 2, 2]
+            },
+            {
+              "showIf": "{id_dks_keycode_2_2.0} != 0 || {id_dks_keycode_2_2.1} != 0",
+              "label": "Output 3 - Shallow release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[2][3][2]", 11, 4, 2, 3, 2]
+            },
+            {
+              "label": "Output 4 keycode",
+              "type": "keycode",
+              "content": ["id_dks_keycode_2_3", 11, 3, 2, 3]
+            },
+            {
+              "showIf": "{id_dks_keycode_2_3.0} != 0 || {id_dks_keycode_2_3.1} != 0",
+              "label": "Output 4 - Shallow press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[2][0][3]", 11, 4, 2, 0, 3]
+            },
+            {
+              "showIf": "{id_dks_keycode_2_3.0} != 0 || {id_dks_keycode_2_3.1} != 0",
+              "label": "Output 4 - Deep press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[2][1][3]", 11, 4, 2, 1, 3]
+            },
+            {
+              "showIf": "{id_dks_keycode_2_3.0} != 0 || {id_dks_keycode_2_3.1} != 0",
+              "label": "Output 4 - Deep release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[2][2][3]", 11, 4, 2, 2, 3]
+            },
+            {
+              "showIf": "{id_dks_keycode_2_3.0} != 0 || {id_dks_keycode_2_3.1} != 0",
+              "label": "Output 4 - Shallow release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[2][3][3]", 11, 4, 2, 3, 3]
+            }
+          ]
+        },
+        {
+          "showIf": "{id_dks_enabled} == 1",
+          "label": "DKS 3 - DKS(3)",
+          "content": [
+            {
+              "label": "Shallow press threshold (1-1023)",
+              "type": "range",
+              "options": [1, 1023],
+              "content": ["id_dks_threshold[3][0]", 11, 2, 3, 0],
+              "constraints": [
+                {
+                  "operator": ">=",
+                  "reference": "id_dks_threshold[3][3]",
+                  "offset": 50,
+                  "onViolation": "push"
+                },
+                {
+                  "operator": "<=",
+                  "reference": "id_dks_threshold[3][2]",
+                  "offset": -50,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "label": "Deep press threshold (1-1023)",
+              "type": "range",
+              "options": [1, 1023],
+              "content": ["id_dks_threshold[3][1]", 11, 2, 3, 1],
+              "constraints": [
+                {
+                  "operator": ">=",
+                  "reference": "id_dks_threshold[3][2]",
+                  "offset": 50,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "label": "Deep release threshold (1-1023)",
+              "type": "range",
+              "options": [1, 1023],
+              "content": ["id_dks_threshold[3][2]", 11, 2, 3, 2],
+              "constraints": [
+                {
+                  "operator": ">=",
+                  "reference": "id_dks_threshold[3][0]",
+                  "offset": 50,
+                  "onViolation": "push"
+                },
+                {
+                  "operator": "<=",
+                  "reference": "id_dks_threshold[3][1]",
+                  "offset": -50,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "label": "Shallow release threshold (1-1023)",
+              "type": "range",
+              "options": [1, 1023],
+              "content": ["id_dks_threshold[3][3]", 11, 2, 3, 3],
+              "constraints": [
+                {
+                  "operator": "<=",
+                  "reference": "id_dks_threshold[3][0]",
+                  "offset": -50,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "label": "Output 1 keycode",
+              "type": "keycode",
+              "content": ["id_dks_keycode_3_0", 11, 3, 3, 0]
+            },
+            {
+              "showIf": "{id_dks_keycode_3_0.0} != 0 || {id_dks_keycode_3_0.1} != 0",
+              "label": "Output 1 - Shallow press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[3][0][0]", 11, 4, 3, 0, 0]
+            },
+            {
+              "showIf": "{id_dks_keycode_3_0.0} != 0 || {id_dks_keycode_3_0.1} != 0",
+              "label": "Output 1 - Deep press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[3][1][0]", 11, 4, 3, 1, 0]
+            },
+            {
+              "showIf": "{id_dks_keycode_3_0.0} != 0 || {id_dks_keycode_3_0.1} != 0",
+              "label": "Output 1 - Deep release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[3][2][0]", 11, 4, 3, 2, 0]
+            },
+            {
+              "showIf": "{id_dks_keycode_3_0.0} != 0 || {id_dks_keycode_3_0.1} != 0",
+              "label": "Output 1 - Shallow release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[3][3][0]", 11, 4, 3, 3, 0]
+            },
+            {
+              "label": "Output 2 keycode",
+              "type": "keycode",
+              "content": ["id_dks_keycode_3_1", 11, 3, 3, 1]
+            },
+            {
+              "showIf": "{id_dks_keycode_3_1.0} != 0 || {id_dks_keycode_3_1.1} != 0",
+              "label": "Output 2 - Shallow press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[3][0][1]", 11, 4, 3, 0, 1]
+            },
+            {
+              "showIf": "{id_dks_keycode_3_1.0} != 0 || {id_dks_keycode_3_1.1} != 0",
+              "label": "Output 2 - Deep press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[3][1][1]", 11, 4, 3, 1, 1]
+            },
+            {
+              "showIf": "{id_dks_keycode_3_1.0} != 0 || {id_dks_keycode_3_1.1} != 0",
+              "label": "Output 2 - Deep release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[3][2][1]", 11, 4, 3, 2, 1]
+            },
+            {
+              "showIf": "{id_dks_keycode_3_1.0} != 0 || {id_dks_keycode_3_1.1} != 0",
+              "label": "Output 2 - Shallow release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[3][3][1]", 11, 4, 3, 3, 1]
+            },
+            {
+              "label": "Output 3 keycode",
+              "type": "keycode",
+              "content": ["id_dks_keycode_3_2", 11, 3, 3, 2]
+            },
+            {
+              "showIf": "{id_dks_keycode_3_2.0} != 0 || {id_dks_keycode_3_2.1} != 0",
+              "label": "Output 3 - Shallow press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[3][0][2]", 11, 4, 3, 0, 2]
+            },
+            {
+              "showIf": "{id_dks_keycode_3_2.0} != 0 || {id_dks_keycode_3_2.1} != 0",
+              "label": "Output 3 - Deep press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[3][1][2]", 11, 4, 3, 1, 2]
+            },
+            {
+              "showIf": "{id_dks_keycode_3_2.0} != 0 || {id_dks_keycode_3_2.1} != 0",
+              "label": "Output 3 - Deep release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[3][2][2]", 11, 4, 3, 2, 2]
+            },
+            {
+              "showIf": "{id_dks_keycode_3_2.0} != 0 || {id_dks_keycode_3_2.1} != 0",
+              "label": "Output 3 - Shallow release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[3][3][2]", 11, 4, 3, 3, 2]
+            },
+            {
+              "label": "Output 4 keycode",
+              "type": "keycode",
+              "content": ["id_dks_keycode_3_3", 11, 3, 3, 3]
+            },
+            {
+              "showIf": "{id_dks_keycode_3_3.0} != 0 || {id_dks_keycode_3_3.1} != 0",
+              "label": "Output 4 - Shallow press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[3][0][3]", 11, 4, 3, 0, 3]
+            },
+            {
+              "showIf": "{id_dks_keycode_3_3.0} != 0 || {id_dks_keycode_3_3.1} != 0",
+              "label": "Output 4 - Deep press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[3][1][3]", 11, 4, 3, 1, 3]
+            },
+            {
+              "showIf": "{id_dks_keycode_3_3.0} != 0 || {id_dks_keycode_3_3.1} != 0",
+              "label": "Output 4 - Deep release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[3][2][3]", 11, 4, 3, 2, 3]
+            },
+            {
+              "showIf": "{id_dks_keycode_3_3.0} != 0 || {id_dks_keycode_3_3.1} != 0",
+              "label": "Output 4 - Shallow release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[3][3][3]", 11, 4, 3, 3, 3]
+            }
+          ]
+        },
+        {
+          "showIf": "{id_dks_enabled} == 1",
+          "label": "DKS 4 - DKS(4)",
+          "content": [
+            {
+              "label": "Shallow press threshold (1-1023)",
+              "type": "range",
+              "options": [1, 1023],
+              "content": ["id_dks_threshold[4][0]", 11, 2, 4, 0],
+              "constraints": [
+                {
+                  "operator": ">=",
+                  "reference": "id_dks_threshold[4][3]",
+                  "offset": 50,
+                  "onViolation": "push"
+                },
+                {
+                  "operator": "<=",
+                  "reference": "id_dks_threshold[4][2]",
+                  "offset": -50,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "label": "Deep press threshold (1-1023)",
+              "type": "range",
+              "options": [1, 1023],
+              "content": ["id_dks_threshold[4][1]", 11, 2, 4, 1],
+              "constraints": [
+                {
+                  "operator": ">=",
+                  "reference": "id_dks_threshold[4][2]",
+                  "offset": 50,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "label": "Deep release threshold (1-1023)",
+              "type": "range",
+              "options": [1, 1023],
+              "content": ["id_dks_threshold[4][2]", 11, 2, 4, 2],
+              "constraints": [
+                {
+                  "operator": ">=",
+                  "reference": "id_dks_threshold[4][0]",
+                  "offset": 50,
+                  "onViolation": "push"
+                },
+                {
+                  "operator": "<=",
+                  "reference": "id_dks_threshold[4][1]",
+                  "offset": -50,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "label": "Shallow release threshold (1-1023)",
+              "type": "range",
+              "options": [1, 1023],
+              "content": ["id_dks_threshold[4][3]", 11, 2, 4, 3],
+              "constraints": [
+                {
+                  "operator": "<=",
+                  "reference": "id_dks_threshold[4][0]",
+                  "offset": -50,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "label": "Output 1 keycode",
+              "type": "keycode",
+              "content": ["id_dks_keycode_4_0", 11, 3, 4, 0]
+            },
+            {
+              "showIf": "{id_dks_keycode_4_0.0} != 0 || {id_dks_keycode_4_0.1} != 0",
+              "label": "Output 1 - Shallow press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[4][0][0]", 11, 4, 4, 0, 0]
+            },
+            {
+              "showIf": "{id_dks_keycode_4_0.0} != 0 || {id_dks_keycode_4_0.1} != 0",
+              "label": "Output 1 - Deep press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[4][1][0]", 11, 4, 4, 1, 0]
+            },
+            {
+              "showIf": "{id_dks_keycode_4_0.0} != 0 || {id_dks_keycode_4_0.1} != 0",
+              "label": "Output 1 - Deep release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[4][2][0]", 11, 4, 4, 2, 0]
+            },
+            {
+              "showIf": "{id_dks_keycode_4_0.0} != 0 || {id_dks_keycode_4_0.1} != 0",
+              "label": "Output 1 - Shallow release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[4][3][0]", 11, 4, 4, 3, 0]
+            },
+            {
+              "label": "Output 2 keycode",
+              "type": "keycode",
+              "content": ["id_dks_keycode_4_1", 11, 3, 4, 1]
+            },
+            {
+              "showIf": "{id_dks_keycode_4_1.0} != 0 || {id_dks_keycode_4_1.1} != 0",
+              "label": "Output 2 - Shallow press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[4][0][1]", 11, 4, 4, 0, 1]
+            },
+            {
+              "showIf": "{id_dks_keycode_4_1.0} != 0 || {id_dks_keycode_4_1.1} != 0",
+              "label": "Output 2 - Deep press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[4][1][1]", 11, 4, 4, 1, 1]
+            },
+            {
+              "showIf": "{id_dks_keycode_4_1.0} != 0 || {id_dks_keycode_4_1.1} != 0",
+              "label": "Output 2 - Deep release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[4][2][1]", 11, 4, 4, 2, 1]
+            },
+            {
+              "showIf": "{id_dks_keycode_4_1.0} != 0 || {id_dks_keycode_4_1.1} != 0",
+              "label": "Output 2 - Shallow release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[4][3][1]", 11, 4, 4, 3, 1]
+            },
+            {
+              "label": "Output 3 keycode",
+              "type": "keycode",
+              "content": ["id_dks_keycode_4_2", 11, 3, 4, 2]
+            },
+            {
+              "showIf": "{id_dks_keycode_4_2.0} != 0 || {id_dks_keycode_4_2.1} != 0",
+              "label": "Output 3 - Shallow press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[4][0][2]", 11, 4, 4, 0, 2]
+            },
+            {
+              "showIf": "{id_dks_keycode_4_2.0} != 0 || {id_dks_keycode_4_2.1} != 0",
+              "label": "Output 3 - Deep press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[4][1][2]", 11, 4, 4, 1, 2]
+            },
+            {
+              "showIf": "{id_dks_keycode_4_2.0} != 0 || {id_dks_keycode_4_2.1} != 0",
+              "label": "Output 3 - Deep release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[4][2][2]", 11, 4, 4, 2, 2]
+            },
+            {
+              "showIf": "{id_dks_keycode_4_2.0} != 0 || {id_dks_keycode_4_2.1} != 0",
+              "label": "Output 3 - Shallow release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[4][3][2]", 11, 4, 4, 3, 2]
+            },
+            {
+              "label": "Output 4 keycode",
+              "type": "keycode",
+              "content": ["id_dks_keycode_4_3", 11, 3, 4, 3]
+            },
+            {
+              "showIf": "{id_dks_keycode_4_3.0} != 0 || {id_dks_keycode_4_3.1} != 0",
+              "label": "Output 4 - Shallow press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[4][0][3]", 11, 4, 4, 0, 3]
+            },
+            {
+              "showIf": "{id_dks_keycode_4_3.0} != 0 || {id_dks_keycode_4_3.1} != 0",
+              "label": "Output 4 - Deep press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[4][1][3]", 11, 4, 4, 1, 3]
+            },
+            {
+              "showIf": "{id_dks_keycode_4_3.0} != 0 || {id_dks_keycode_4_3.1} != 0",
+              "label": "Output 4 - Deep release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[4][2][3]", 11, 4, 4, 2, 3]
+            },
+            {
+              "showIf": "{id_dks_keycode_4_3.0} != 0 || {id_dks_keycode_4_3.1} != 0",
+              "label": "Output 4 - Shallow release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[4][3][3]", 11, 4, 4, 3, 3]
+            }
+          ]
+        },
+        {
+          "showIf": "{id_dks_enabled} == 1",
+          "label": "DKS 5 - DKS(5)",
+          "content": [
+            {
+              "label": "Shallow press threshold (1-1023)",
+              "type": "range",
+              "options": [1, 1023],
+              "content": ["id_dks_threshold[5][0]", 11, 2, 5, 0],
+              "constraints": [
+                {
+                  "operator": ">=",
+                  "reference": "id_dks_threshold[5][3]",
+                  "offset": 50,
+                  "onViolation": "push"
+                },
+                {
+                  "operator": "<=",
+                  "reference": "id_dks_threshold[5][2]",
+                  "offset": -50,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "label": "Deep press threshold (1-1023)",
+              "type": "range",
+              "options": [1, 1023],
+              "content": ["id_dks_threshold[5][1]", 11, 2, 5, 1],
+              "constraints": [
+                {
+                  "operator": ">=",
+                  "reference": "id_dks_threshold[5][2]",
+                  "offset": 50,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "label": "Deep release threshold (1-1023)",
+              "type": "range",
+              "options": [1, 1023],
+              "content": ["id_dks_threshold[5][2]", 11, 2, 5, 2],
+              "constraints": [
+                {
+                  "operator": ">=",
+                  "reference": "id_dks_threshold[5][0]",
+                  "offset": 50,
+                  "onViolation": "push"
+                },
+                {
+                  "operator": "<=",
+                  "reference": "id_dks_threshold[5][1]",
+                  "offset": -50,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "label": "Shallow release threshold (1-1023)",
+              "type": "range",
+              "options": [1, 1023],
+              "content": ["id_dks_threshold[5][3]", 11, 2, 5, 3],
+              "constraints": [
+                {
+                  "operator": "<=",
+                  "reference": "id_dks_threshold[5][0]",
+                  "offset": -50,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "label": "Output 1 keycode",
+              "type": "keycode",
+              "content": ["id_dks_keycode_5_0", 11, 3, 5, 0]
+            },
+            {
+              "showIf": "{id_dks_keycode_5_0.0} != 0 || {id_dks_keycode_5_0.1} != 0",
+              "label": "Output 1 - Shallow press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[5][0][0]", 11, 4, 5, 0, 0]
+            },
+            {
+              "showIf": "{id_dks_keycode_5_0.0} != 0 || {id_dks_keycode_5_0.1} != 0",
+              "label": "Output 1 - Deep press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[5][1][0]", 11, 4, 5, 1, 0]
+            },
+            {
+              "showIf": "{id_dks_keycode_5_0.0} != 0 || {id_dks_keycode_5_0.1} != 0",
+              "label": "Output 1 - Deep release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[5][2][0]", 11, 4, 5, 2, 0]
+            },
+            {
+              "showIf": "{id_dks_keycode_5_0.0} != 0 || {id_dks_keycode_5_0.1} != 0",
+              "label": "Output 1 - Shallow release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[5][3][0]", 11, 4, 5, 3, 0]
+            },
+            {
+              "label": "Output 2 keycode",
+              "type": "keycode",
+              "content": ["id_dks_keycode_5_1", 11, 3, 5, 1]
+            },
+            {
+              "showIf": "{id_dks_keycode_5_1.0} != 0 || {id_dks_keycode_5_1.1} != 0",
+              "label": "Output 2 - Shallow press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[5][0][1]", 11, 4, 5, 0, 1]
+            },
+            {
+              "showIf": "{id_dks_keycode_5_1.0} != 0 || {id_dks_keycode_5_1.1} != 0",
+              "label": "Output 2 - Deep press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[5][1][1]", 11, 4, 5, 1, 1]
+            },
+            {
+              "showIf": "{id_dks_keycode_5_1.0} != 0 || {id_dks_keycode_5_1.1} != 0",
+              "label": "Output 2 - Deep release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[5][2][1]", 11, 4, 5, 2, 1]
+            },
+            {
+              "showIf": "{id_dks_keycode_5_1.0} != 0 || {id_dks_keycode_5_1.1} != 0",
+              "label": "Output 2 - Shallow release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[5][3][1]", 11, 4, 5, 3, 1]
+            },
+            {
+              "label": "Output 3 keycode",
+              "type": "keycode",
+              "content": ["id_dks_keycode_5_2", 11, 3, 5, 2]
+            },
+            {
+              "showIf": "{id_dks_keycode_5_2.0} != 0 || {id_dks_keycode_5_2.1} != 0",
+              "label": "Output 3 - Shallow press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[5][0][2]", 11, 4, 5, 0, 2]
+            },
+            {
+              "showIf": "{id_dks_keycode_5_2.0} != 0 || {id_dks_keycode_5_2.1} != 0",
+              "label": "Output 3 - Deep press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[5][1][2]", 11, 4, 5, 1, 2]
+            },
+            {
+              "showIf": "{id_dks_keycode_5_2.0} != 0 || {id_dks_keycode_5_2.1} != 0",
+              "label": "Output 3 - Deep release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[5][2][2]", 11, 4, 5, 2, 2]
+            },
+            {
+              "showIf": "{id_dks_keycode_5_2.0} != 0 || {id_dks_keycode_5_2.1} != 0",
+              "label": "Output 3 - Shallow release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[5][3][2]", 11, 4, 5, 3, 2]
+            },
+            {
+              "label": "Output 4 keycode",
+              "type": "keycode",
+              "content": ["id_dks_keycode_5_3", 11, 3, 5, 3]
+            },
+            {
+              "showIf": "{id_dks_keycode_5_3.0} != 0 || {id_dks_keycode_5_3.1} != 0",
+              "label": "Output 4 - Shallow press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[5][0][3]", 11, 4, 5, 0, 3]
+            },
+            {
+              "showIf": "{id_dks_keycode_5_3.0} != 0 || {id_dks_keycode_5_3.1} != 0",
+              "label": "Output 4 - Deep press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[5][1][3]", 11, 4, 5, 1, 3]
+            },
+            {
+              "showIf": "{id_dks_keycode_5_3.0} != 0 || {id_dks_keycode_5_3.1} != 0",
+              "label": "Output 4 - Deep release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[5][2][3]", 11, 4, 5, 2, 3]
+            },
+            {
+              "showIf": "{id_dks_keycode_5_3.0} != 0 || {id_dks_keycode_5_3.1} != 0",
+              "label": "Output 4 - Shallow release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[5][3][3]", 11, 4, 5, 3, 3]
+            }
+          ]
+        },
+        {
+          "showIf": "{id_dks_enabled} == 1",
+          "label": "DKS 6 - DKS(6)",
+          "content": [
+            {
+              "label": "Shallow press threshold (1-1023)",
+              "type": "range",
+              "options": [1, 1023],
+              "content": ["id_dks_threshold[6][0]", 11, 2, 6, 0],
+              "constraints": [
+                {
+                  "operator": ">=",
+                  "reference": "id_dks_threshold[6][3]",
+                  "offset": 50,
+                  "onViolation": "push"
+                },
+                {
+                  "operator": "<=",
+                  "reference": "id_dks_threshold[6][2]",
+                  "offset": -50,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "label": "Deep press threshold (1-1023)",
+              "type": "range",
+              "options": [1, 1023],
+              "content": ["id_dks_threshold[6][1]", 11, 2, 6, 1],
+              "constraints": [
+                {
+                  "operator": ">=",
+                  "reference": "id_dks_threshold[6][2]",
+                  "offset": 50,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "label": "Deep release threshold (1-1023)",
+              "type": "range",
+              "options": [1, 1023],
+              "content": ["id_dks_threshold[6][2]", 11, 2, 6, 2],
+              "constraints": [
+                {
+                  "operator": ">=",
+                  "reference": "id_dks_threshold[6][0]",
+                  "offset": 50,
+                  "onViolation": "push"
+                },
+                {
+                  "operator": "<=",
+                  "reference": "id_dks_threshold[6][1]",
+                  "offset": -50,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "label": "Shallow release threshold (1-1023)",
+              "type": "range",
+              "options": [1, 1023],
+              "content": ["id_dks_threshold[6][3]", 11, 2, 6, 3],
+              "constraints": [
+                {
+                  "operator": "<=",
+                  "reference": "id_dks_threshold[6][0]",
+                  "offset": -50,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "label": "Output 1 keycode",
+              "type": "keycode",
+              "content": ["id_dks_keycode_6_0", 11, 3, 6, 0]
+            },
+            {
+              "showIf": "{id_dks_keycode_6_0.0} != 0 || {id_dks_keycode_6_0.1} != 0",
+              "label": "Output 1 - Shallow press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[6][0][0]", 11, 4, 6, 0, 0]
+            },
+            {
+              "showIf": "{id_dks_keycode_6_0.0} != 0 || {id_dks_keycode_6_0.1} != 0",
+              "label": "Output 1 - Deep press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[6][1][0]", 11, 4, 6, 1, 0]
+            },
+            {
+              "showIf": "{id_dks_keycode_6_0.0} != 0 || {id_dks_keycode_6_0.1} != 0",
+              "label": "Output 1 - Deep release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[6][2][0]", 11, 4, 6, 2, 0]
+            },
+            {
+              "showIf": "{id_dks_keycode_6_0.0} != 0 || {id_dks_keycode_6_0.1} != 0",
+              "label": "Output 1 - Shallow release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[6][3][0]", 11, 4, 6, 3, 0]
+            },
+            {
+              "label": "Output 2 keycode",
+              "type": "keycode",
+              "content": ["id_dks_keycode_6_1", 11, 3, 6, 1]
+            },
+            {
+              "showIf": "{id_dks_keycode_6_1.0} != 0 || {id_dks_keycode_6_1.1} != 0",
+              "label": "Output 2 - Shallow press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[6][0][1]", 11, 4, 6, 0, 1]
+            },
+            {
+              "showIf": "{id_dks_keycode_6_1.0} != 0 || {id_dks_keycode_6_1.1} != 0",
+              "label": "Output 2 - Deep press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[6][1][1]", 11, 4, 6, 1, 1]
+            },
+            {
+              "showIf": "{id_dks_keycode_6_1.0} != 0 || {id_dks_keycode_6_1.1} != 0",
+              "label": "Output 2 - Deep release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[6][2][1]", 11, 4, 6, 2, 1]
+            },
+            {
+              "showIf": "{id_dks_keycode_6_1.0} != 0 || {id_dks_keycode_6_1.1} != 0",
+              "label": "Output 2 - Shallow release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[6][3][1]", 11, 4, 6, 3, 1]
+            },
+            {
+              "label": "Output 3 keycode",
+              "type": "keycode",
+              "content": ["id_dks_keycode_6_2", 11, 3, 6, 2]
+            },
+            {
+              "showIf": "{id_dks_keycode_6_2.0} != 0 || {id_dks_keycode_6_2.1} != 0",
+              "label": "Output 3 - Shallow press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[6][0][2]", 11, 4, 6, 0, 2]
+            },
+            {
+              "showIf": "{id_dks_keycode_6_2.0} != 0 || {id_dks_keycode_6_2.1} != 0",
+              "label": "Output 3 - Deep press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[6][1][2]", 11, 4, 6, 1, 2]
+            },
+            {
+              "showIf": "{id_dks_keycode_6_2.0} != 0 || {id_dks_keycode_6_2.1} != 0",
+              "label": "Output 3 - Deep release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[6][2][2]", 11, 4, 6, 2, 2]
+            },
+            {
+              "showIf": "{id_dks_keycode_6_2.0} != 0 || {id_dks_keycode_6_2.1} != 0",
+              "label": "Output 3 - Shallow release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[6][3][2]", 11, 4, 6, 3, 2]
+            },
+            {
+              "label": "Output 4 keycode",
+              "type": "keycode",
+              "content": ["id_dks_keycode_6_3", 11, 3, 6, 3]
+            },
+            {
+              "showIf": "{id_dks_keycode_6_3.0} != 0 || {id_dks_keycode_6_3.1} != 0",
+              "label": "Output 4 - Shallow press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[6][0][3]", 11, 4, 6, 0, 3]
+            },
+            {
+              "showIf": "{id_dks_keycode_6_3.0} != 0 || {id_dks_keycode_6_3.1} != 0",
+              "label": "Output 4 - Deep press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[6][1][3]", 11, 4, 6, 1, 3]
+            },
+            {
+              "showIf": "{id_dks_keycode_6_3.0} != 0 || {id_dks_keycode_6_3.1} != 0",
+              "label": "Output 4 - Deep release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[6][2][3]", 11, 4, 6, 2, 3]
+            },
+            {
+              "showIf": "{id_dks_keycode_6_3.0} != 0 || {id_dks_keycode_6_3.1} != 0",
+              "label": "Output 4 - Shallow release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[6][3][3]", 11, 4, 6, 3, 3]
+            }
+          ]
+        },
+        {
+          "showIf": "{id_dks_enabled} == 1",
+          "label": "DKS 7 - DKS(7)",
+          "content": [
+            {
+              "label": "Shallow press threshold (1-1023)",
+              "type": "range",
+              "options": [1, 1023],
+              "content": ["id_dks_threshold[7][0]", 11, 2, 7, 0],
+              "constraints": [
+                {
+                  "operator": ">=",
+                  "reference": "id_dks_threshold[7][3]",
+                  "offset": 50,
+                  "onViolation": "push"
+                },
+                {
+                  "operator": "<=",
+                  "reference": "id_dks_threshold[7][2]",
+                  "offset": -50,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "label": "Deep press threshold (1-1023)",
+              "type": "range",
+              "options": [1, 1023],
+              "content": ["id_dks_threshold[7][1]", 11, 2, 7, 1],
+              "constraints": [
+                {
+                  "operator": ">=",
+                  "reference": "id_dks_threshold[7][2]",
+                  "offset": 50,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "label": "Deep release threshold (1-1023)",
+              "type": "range",
+              "options": [1, 1023],
+              "content": ["id_dks_threshold[7][2]", 11, 2, 7, 2],
+              "constraints": [
+                {
+                  "operator": ">=",
+                  "reference": "id_dks_threshold[7][0]",
+                  "offset": 50,
+                  "onViolation": "push"
+                },
+                {
+                  "operator": "<=",
+                  "reference": "id_dks_threshold[7][1]",
+                  "offset": -50,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "label": "Shallow release threshold (1-1023)",
+              "type": "range",
+              "options": [1, 1023],
+              "content": ["id_dks_threshold[7][3]", 11, 2, 7, 3],
+              "constraints": [
+                {
+                  "operator": "<=",
+                  "reference": "id_dks_threshold[7][0]",
+                  "offset": -50,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "label": "Output 1 keycode",
+              "type": "keycode",
+              "content": ["id_dks_keycode_7_0", 11, 3, 7, 0]
+            },
+            {
+              "showIf": "{id_dks_keycode_7_0.0} != 0 || {id_dks_keycode_7_0.1} != 0",
+              "label": "Output 1 - Shallow press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[7][0][0]", 11, 4, 7, 0, 0]
+            },
+            {
+              "showIf": "{id_dks_keycode_7_0.0} != 0 || {id_dks_keycode_7_0.1} != 0",
+              "label": "Output 1 - Deep press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[7][1][0]", 11, 4, 7, 1, 0]
+            },
+            {
+              "showIf": "{id_dks_keycode_7_0.0} != 0 || {id_dks_keycode_7_0.1} != 0",
+              "label": "Output 1 - Deep release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[7][2][0]", 11, 4, 7, 2, 0]
+            },
+            {
+              "showIf": "{id_dks_keycode_7_0.0} != 0 || {id_dks_keycode_7_0.1} != 0",
+              "label": "Output 1 - Shallow release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[7][3][0]", 11, 4, 7, 3, 0]
+            },
+            {
+              "label": "Output 2 keycode",
+              "type": "keycode",
+              "content": ["id_dks_keycode_7_1", 11, 3, 7, 1]
+            },
+            {
+              "showIf": "{id_dks_keycode_7_1.0} != 0 || {id_dks_keycode_7_1.1} != 0",
+              "label": "Output 2 - Shallow press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[7][0][1]", 11, 4, 7, 0, 1]
+            },
+            {
+              "showIf": "{id_dks_keycode_7_1.0} != 0 || {id_dks_keycode_7_1.1} != 0",
+              "label": "Output 2 - Deep press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[7][1][1]", 11, 4, 7, 1, 1]
+            },
+            {
+              "showIf": "{id_dks_keycode_7_1.0} != 0 || {id_dks_keycode_7_1.1} != 0",
+              "label": "Output 2 - Deep release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[7][2][1]", 11, 4, 7, 2, 1]
+            },
+            {
+              "showIf": "{id_dks_keycode_7_1.0} != 0 || {id_dks_keycode_7_1.1} != 0",
+              "label": "Output 2 - Shallow release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[7][3][1]", 11, 4, 7, 3, 1]
+            },
+            {
+              "label": "Output 3 keycode",
+              "type": "keycode",
+              "content": ["id_dks_keycode_7_2", 11, 3, 7, 2]
+            },
+            {
+              "showIf": "{id_dks_keycode_7_2.0} != 0 || {id_dks_keycode_7_2.1} != 0",
+              "label": "Output 3 - Shallow press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[7][0][2]", 11, 4, 7, 0, 2]
+            },
+            {
+              "showIf": "{id_dks_keycode_7_2.0} != 0 || {id_dks_keycode_7_2.1} != 0",
+              "label": "Output 3 - Deep press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[7][1][2]", 11, 4, 7, 1, 2]
+            },
+            {
+              "showIf": "{id_dks_keycode_7_2.0} != 0 || {id_dks_keycode_7_2.1} != 0",
+              "label": "Output 3 - Deep release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[7][2][2]", 11, 4, 7, 2, 2]
+            },
+            {
+              "showIf": "{id_dks_keycode_7_2.0} != 0 || {id_dks_keycode_7_2.1} != 0",
+              "label": "Output 3 - Shallow release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[7][3][2]", 11, 4, 7, 3, 2]
+            },
+            {
+              "label": "Output 4 keycode",
+              "type": "keycode",
+              "content": ["id_dks_keycode_7_3", 11, 3, 7, 3]
+            },
+            {
+              "showIf": "{id_dks_keycode_7_3.0} != 0 || {id_dks_keycode_7_3.1} != 0",
+              "label": "Output 4 - Shallow press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[7][0][3]", 11, 4, 7, 0, 3]
+            },
+            {
+              "showIf": "{id_dks_keycode_7_3.0} != 0 || {id_dks_keycode_7_3.1} != 0",
+              "label": "Output 4 - Deep press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[7][1][3]", 11, 4, 7, 1, 3]
+            },
+            {
+              "showIf": "{id_dks_keycode_7_3.0} != 0 || {id_dks_keycode_7_3.1} != 0",
+              "label": "Output 4 - Deep release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[7][2][3]", 11, 4, 7, 2, 3]
+            },
+            {
+              "showIf": "{id_dks_keycode_7_3.0} != 0 || {id_dks_keycode_7_3.1} != 0",
+              "label": "Output 4 - Shallow release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[7][3][3]", 11, 4, 7, 3, 3]
+            }
+          ]
+        },
+        {
+          "showIf": "{id_dks_enabled} == 1",
+          "label": "DKS 8 - DKS(8)",
+          "content": [
+            {
+              "label": "Shallow press threshold (1-1023)",
+              "type": "range",
+              "options": [1, 1023],
+              "content": ["id_dks_threshold[8][0]", 11, 2, 8, 0],
+              "constraints": [
+                {
+                  "operator": ">=",
+                  "reference": "id_dks_threshold[8][3]",
+                  "offset": 50,
+                  "onViolation": "push"
+                },
+                {
+                  "operator": "<=",
+                  "reference": "id_dks_threshold[8][2]",
+                  "offset": -50,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "label": "Deep press threshold (1-1023)",
+              "type": "range",
+              "options": [1, 1023],
+              "content": ["id_dks_threshold[8][1]", 11, 2, 8, 1],
+              "constraints": [
+                {
+                  "operator": ">=",
+                  "reference": "id_dks_threshold[8][2]",
+                  "offset": 50,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "label": "Deep release threshold (1-1023)",
+              "type": "range",
+              "options": [1, 1023],
+              "content": ["id_dks_threshold[8][2]", 11, 2, 8, 2],
+              "constraints": [
+                {
+                  "operator": ">=",
+                  "reference": "id_dks_threshold[8][0]",
+                  "offset": 50,
+                  "onViolation": "push"
+                },
+                {
+                  "operator": "<=",
+                  "reference": "id_dks_threshold[8][1]",
+                  "offset": -50,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "label": "Shallow release threshold (1-1023)",
+              "type": "range",
+              "options": [1, 1023],
+              "content": ["id_dks_threshold[8][3]", 11, 2, 8, 3],
+              "constraints": [
+                {
+                  "operator": "<=",
+                  "reference": "id_dks_threshold[8][0]",
+                  "offset": -50,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "label": "Output 1 keycode",
+              "type": "keycode",
+              "content": ["id_dks_keycode_8_0", 11, 3, 8, 0]
+            },
+            {
+              "showIf": "{id_dks_keycode_8_0.0} != 0 || {id_dks_keycode_8_0.1} != 0",
+              "label": "Output 1 - Shallow press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[8][0][0]", 11, 4, 8, 0, 0]
+            },
+            {
+              "showIf": "{id_dks_keycode_8_0.0} != 0 || {id_dks_keycode_8_0.1} != 0",
+              "label": "Output 1 - Deep press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[8][1][0]", 11, 4, 8, 1, 0]
+            },
+            {
+              "showIf": "{id_dks_keycode_8_0.0} != 0 || {id_dks_keycode_8_0.1} != 0",
+              "label": "Output 1 - Deep release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[8][2][0]", 11, 4, 8, 2, 0]
+            },
+            {
+              "showIf": "{id_dks_keycode_8_0.0} != 0 || {id_dks_keycode_8_0.1} != 0",
+              "label": "Output 1 - Shallow release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[8][3][0]", 11, 4, 8, 3, 0]
+            },
+            {
+              "label": "Output 2 keycode",
+              "type": "keycode",
+              "content": ["id_dks_keycode_8_1", 11, 3, 8, 1]
+            },
+            {
+              "showIf": "{id_dks_keycode_8_1.0} != 0 || {id_dks_keycode_8_1.1} != 0",
+              "label": "Output 2 - Shallow press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[8][0][1]", 11, 4, 8, 0, 1]
+            },
+            {
+              "showIf": "{id_dks_keycode_8_1.0} != 0 || {id_dks_keycode_8_1.1} != 0",
+              "label": "Output 2 - Deep press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[8][1][1]", 11, 4, 8, 1, 1]
+            },
+            {
+              "showIf": "{id_dks_keycode_8_1.0} != 0 || {id_dks_keycode_8_1.1} != 0",
+              "label": "Output 2 - Deep release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[8][2][1]", 11, 4, 8, 2, 1]
+            },
+            {
+              "showIf": "{id_dks_keycode_8_1.0} != 0 || {id_dks_keycode_8_1.1} != 0",
+              "label": "Output 2 - Shallow release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[8][3][1]", 11, 4, 8, 3, 1]
+            },
+            {
+              "label": "Output 3 keycode",
+              "type": "keycode",
+              "content": ["id_dks_keycode_8_2", 11, 3, 8, 2]
+            },
+            {
+              "showIf": "{id_dks_keycode_8_2.0} != 0 || {id_dks_keycode_8_2.1} != 0",
+              "label": "Output 3 - Shallow press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[8][0][2]", 11, 4, 8, 0, 2]
+            },
+            {
+              "showIf": "{id_dks_keycode_8_2.0} != 0 || {id_dks_keycode_8_2.1} != 0",
+              "label": "Output 3 - Deep press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[8][1][2]", 11, 4, 8, 1, 2]
+            },
+            {
+              "showIf": "{id_dks_keycode_8_2.0} != 0 || {id_dks_keycode_8_2.1} != 0",
+              "label": "Output 3 - Deep release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[8][2][2]", 11, 4, 8, 2, 2]
+            },
+            {
+              "showIf": "{id_dks_keycode_8_2.0} != 0 || {id_dks_keycode_8_2.1} != 0",
+              "label": "Output 3 - Shallow release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[8][3][2]", 11, 4, 8, 3, 2]
+            },
+            {
+              "label": "Output 4 keycode",
+              "type": "keycode",
+              "content": ["id_dks_keycode_8_3", 11, 3, 8, 3]
+            },
+            {
+              "showIf": "{id_dks_keycode_8_3.0} != 0 || {id_dks_keycode_8_3.1} != 0",
+              "label": "Output 4 - Shallow press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[8][0][3]", 11, 4, 8, 0, 3]
+            },
+            {
+              "showIf": "{id_dks_keycode_8_3.0} != 0 || {id_dks_keycode_8_3.1} != 0",
+              "label": "Output 4 - Deep press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[8][1][3]", 11, 4, 8, 1, 3]
+            },
+            {
+              "showIf": "{id_dks_keycode_8_3.0} != 0 || {id_dks_keycode_8_3.1} != 0",
+              "label": "Output 4 - Deep release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[8][2][3]", 11, 4, 8, 2, 3]
+            },
+            {
+              "showIf": "{id_dks_keycode_8_3.0} != 0 || {id_dks_keycode_8_3.1} != 0",
+              "label": "Output 4 - Shallow release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[8][3][3]", 11, 4, 8, 3, 3]
+            }
+          ]
+        },
+        {
+          "showIf": "{id_dks_enabled} == 1",
+          "label": "DKS 9 - DKS(9)",
+          "content": [
+            {
+              "label": "Shallow press threshold (1-1023)",
+              "type": "range",
+              "options": [1, 1023],
+              "content": ["id_dks_threshold[9][0]", 11, 2, 9, 0],
+              "constraints": [
+                {
+                  "operator": ">=",
+                  "reference": "id_dks_threshold[9][3]",
+                  "offset": 50,
+                  "onViolation": "push"
+                },
+                {
+                  "operator": "<=",
+                  "reference": "id_dks_threshold[9][2]",
+                  "offset": -50,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "label": "Deep press threshold (1-1023)",
+              "type": "range",
+              "options": [1, 1023],
+              "content": ["id_dks_threshold[9][1]", 11, 2, 9, 1],
+              "constraints": [
+                {
+                  "operator": ">=",
+                  "reference": "id_dks_threshold[9][2]",
+                  "offset": 50,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "label": "Deep release threshold (1-1023)",
+              "type": "range",
+              "options": [1, 1023],
+              "content": ["id_dks_threshold[9][2]", 11, 2, 9, 2],
+              "constraints": [
+                {
+                  "operator": ">=",
+                  "reference": "id_dks_threshold[9][0]",
+                  "offset": 50,
+                  "onViolation": "push"
+                },
+                {
+                  "operator": "<=",
+                  "reference": "id_dks_threshold[9][1]",
+                  "offset": -50,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "label": "Shallow release threshold (1-1023)",
+              "type": "range",
+              "options": [1, 1023],
+              "content": ["id_dks_threshold[9][3]", 11, 2, 9, 3],
+              "constraints": [
+                {
+                  "operator": "<=",
+                  "reference": "id_dks_threshold[9][0]",
+                  "offset": -50,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "label": "Output 1 keycode",
+              "type": "keycode",
+              "content": ["id_dks_keycode_9_0", 11, 3, 9, 0]
+            },
+            {
+              "showIf": "{id_dks_keycode_9_0.0} != 0 || {id_dks_keycode_9_0.1} != 0",
+              "label": "Output 1 - Shallow press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[9][0][0]", 11, 4, 9, 0, 0]
+            },
+            {
+              "showIf": "{id_dks_keycode_9_0.0} != 0 || {id_dks_keycode_9_0.1} != 0",
+              "label": "Output 1 - Deep press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[9][1][0]", 11, 4, 9, 1, 0]
+            },
+            {
+              "showIf": "{id_dks_keycode_9_0.0} != 0 || {id_dks_keycode_9_0.1} != 0",
+              "label": "Output 1 - Deep release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[9][2][0]", 11, 4, 9, 2, 0]
+            },
+            {
+              "showIf": "{id_dks_keycode_9_0.0} != 0 || {id_dks_keycode_9_0.1} != 0",
+              "label": "Output 1 - Shallow release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[9][3][0]", 11, 4, 9, 3, 0]
+            },
+            {
+              "label": "Output 2 keycode",
+              "type": "keycode",
+              "content": ["id_dks_keycode_9_1", 11, 3, 9, 1]
+            },
+            {
+              "showIf": "{id_dks_keycode_9_1.0} != 0 || {id_dks_keycode_9_1.1} != 0",
+              "label": "Output 2 - Shallow press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[9][0][1]", 11, 4, 9, 0, 1]
+            },
+            {
+              "showIf": "{id_dks_keycode_9_1.0} != 0 || {id_dks_keycode_9_1.1} != 0",
+              "label": "Output 2 - Deep press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[9][1][1]", 11, 4, 9, 1, 1]
+            },
+            {
+              "showIf": "{id_dks_keycode_9_1.0} != 0 || {id_dks_keycode_9_1.1} != 0",
+              "label": "Output 2 - Deep release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[9][2][1]", 11, 4, 9, 2, 1]
+            },
+            {
+              "showIf": "{id_dks_keycode_9_1.0} != 0 || {id_dks_keycode_9_1.1} != 0",
+              "label": "Output 2 - Shallow release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[9][3][1]", 11, 4, 9, 3, 1]
+            },
+            {
+              "label": "Output 3 keycode",
+              "type": "keycode",
+              "content": ["id_dks_keycode_9_2", 11, 3, 9, 2]
+            },
+            {
+              "showIf": "{id_dks_keycode_9_2.0} != 0 || {id_dks_keycode_9_2.1} != 0",
+              "label": "Output 3 - Shallow press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[9][0][2]", 11, 4, 9, 0, 2]
+            },
+            {
+              "showIf": "{id_dks_keycode_9_2.0} != 0 || {id_dks_keycode_9_2.1} != 0",
+              "label": "Output 3 - Deep press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[9][1][2]", 11, 4, 9, 1, 2]
+            },
+            {
+              "showIf": "{id_dks_keycode_9_2.0} != 0 || {id_dks_keycode_9_2.1} != 0",
+              "label": "Output 3 - Deep release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[9][2][2]", 11, 4, 9, 2, 2]
+            },
+            {
+              "showIf": "{id_dks_keycode_9_2.0} != 0 || {id_dks_keycode_9_2.1} != 0",
+              "label": "Output 3 - Shallow release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[9][3][2]", 11, 4, 9, 3, 2]
+            },
+            {
+              "label": "Output 4 keycode",
+              "type": "keycode",
+              "content": ["id_dks_keycode_9_3", 11, 3, 9, 3]
+            },
+            {
+              "showIf": "{id_dks_keycode_9_3.0} != 0 || {id_dks_keycode_9_3.1} != 0",
+              "label": "Output 4 - Shallow press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[9][0][3]", 11, 4, 9, 0, 3]
+            },
+            {
+              "showIf": "{id_dks_keycode_9_3.0} != 0 || {id_dks_keycode_9_3.1} != 0",
+              "label": "Output 4 - Deep press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[9][1][3]", 11, 4, 9, 1, 3]
+            },
+            {
+              "showIf": "{id_dks_keycode_9_3.0} != 0 || {id_dks_keycode_9_3.1} != 0",
+              "label": "Output 4 - Deep release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[9][2][3]", 11, 4, 9, 2, 3]
+            },
+            {
+              "showIf": "{id_dks_keycode_9_3.0} != 0 || {id_dks_keycode_9_3.1} != 0",
+              "label": "Output 4 - Shallow release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[9][3][3]", 11, 4, 9, 3, 3]
+            }
+          ]
+        },
+        {
+          "showIf": "{id_dks_enabled} == 1",
+          "label": "DKS 10 - DKS(10)",
+          "content": [
+            {
+              "label": "Shallow press threshold (1-1023)",
+              "type": "range",
+              "options": [1, 1023],
+              "content": ["id_dks_threshold[10][0]", 11, 2, 10, 0],
+              "constraints": [
+                {
+                  "operator": ">=",
+                  "reference": "id_dks_threshold[10][3]",
+                  "offset": 50,
+                  "onViolation": "push"
+                },
+                {
+                  "operator": "<=",
+                  "reference": "id_dks_threshold[10][2]",
+                  "offset": -50,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "label": "Deep press threshold (1-1023)",
+              "type": "range",
+              "options": [1, 1023],
+              "content": ["id_dks_threshold[10][1]", 11, 2, 10, 1],
+              "constraints": [
+                {
+                  "operator": ">=",
+                  "reference": "id_dks_threshold[10][2]",
+                  "offset": 50,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "label": "Deep release threshold (1-1023)",
+              "type": "range",
+              "options": [1, 1023],
+              "content": ["id_dks_threshold[10][2]", 11, 2, 10, 2],
+              "constraints": [
+                {
+                  "operator": ">=",
+                  "reference": "id_dks_threshold[10][0]",
+                  "offset": 50,
+                  "onViolation": "push"
+                },
+                {
+                  "operator": "<=",
+                  "reference": "id_dks_threshold[10][1]",
+                  "offset": -50,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "label": "Shallow release threshold (1-1023)",
+              "type": "range",
+              "options": [1, 1023],
+              "content": ["id_dks_threshold[10][3]", 11, 2, 10, 3],
+              "constraints": [
+                {
+                  "operator": "<=",
+                  "reference": "id_dks_threshold[10][0]",
+                  "offset": -50,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "label": "Output 1 keycode",
+              "type": "keycode",
+              "content": ["id_dks_keycode_10_0", 11, 3, 10, 0]
+            },
+            {
+              "showIf": "{id_dks_keycode_10_0.0} != 0 || {id_dks_keycode_10_0.1} != 0",
+              "label": "Output 1 - Shallow press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[10][0][0]", 11, 4, 10, 0, 0]
+            },
+            {
+              "showIf": "{id_dks_keycode_10_0.0} != 0 || {id_dks_keycode_10_0.1} != 0",
+              "label": "Output 1 - Deep press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[10][1][0]", 11, 4, 10, 1, 0]
+            },
+            {
+              "showIf": "{id_dks_keycode_10_0.0} != 0 || {id_dks_keycode_10_0.1} != 0",
+              "label": "Output 1 - Deep release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[10][2][0]", 11, 4, 10, 2, 0]
+            },
+            {
+              "showIf": "{id_dks_keycode_10_0.0} != 0 || {id_dks_keycode_10_0.1} != 0",
+              "label": "Output 1 - Shallow release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[10][3][0]", 11, 4, 10, 3, 0]
+            },
+            {
+              "label": "Output 2 keycode",
+              "type": "keycode",
+              "content": ["id_dks_keycode_10_1", 11, 3, 10, 1]
+            },
+            {
+              "showIf": "{id_dks_keycode_10_1.0} != 0 || {id_dks_keycode_10_1.1} != 0",
+              "label": "Output 2 - Shallow press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[10][0][1]", 11, 4, 10, 0, 1]
+            },
+            {
+              "showIf": "{id_dks_keycode_10_1.0} != 0 || {id_dks_keycode_10_1.1} != 0",
+              "label": "Output 2 - Deep press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[10][1][1]", 11, 4, 10, 1, 1]
+            },
+            {
+              "showIf": "{id_dks_keycode_10_1.0} != 0 || {id_dks_keycode_10_1.1} != 0",
+              "label": "Output 2 - Deep release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[10][2][1]", 11, 4, 10, 2, 1]
+            },
+            {
+              "showIf": "{id_dks_keycode_10_1.0} != 0 || {id_dks_keycode_10_1.1} != 0",
+              "label": "Output 2 - Shallow release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[10][3][1]", 11, 4, 10, 3, 1]
+            },
+            {
+              "label": "Output 3 keycode",
+              "type": "keycode",
+              "content": ["id_dks_keycode_10_2", 11, 3, 10, 2]
+            },
+            {
+              "showIf": "{id_dks_keycode_10_2.0} != 0 || {id_dks_keycode_10_2.1} != 0",
+              "label": "Output 3 - Shallow press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[10][0][2]", 11, 4, 10, 0, 2]
+            },
+            {
+              "showIf": "{id_dks_keycode_10_2.0} != 0 || {id_dks_keycode_10_2.1} != 0",
+              "label": "Output 3 - Deep press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[10][1][2]", 11, 4, 10, 1, 2]
+            },
+            {
+              "showIf": "{id_dks_keycode_10_2.0} != 0 || {id_dks_keycode_10_2.1} != 0",
+              "label": "Output 3 - Deep release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[10][2][2]", 11, 4, 10, 2, 2]
+            },
+            {
+              "showIf": "{id_dks_keycode_10_2.0} != 0 || {id_dks_keycode_10_2.1} != 0",
+              "label": "Output 3 - Shallow release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[10][3][2]", 11, 4, 10, 3, 2]
+            },
+            {
+              "label": "Output 4 keycode",
+              "type": "keycode",
+              "content": ["id_dks_keycode_10_3", 11, 3, 10, 3]
+            },
+            {
+              "showIf": "{id_dks_keycode_10_3.0} != 0 || {id_dks_keycode_10_3.1} != 0",
+              "label": "Output 4 - Shallow press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[10][0][3]", 11, 4, 10, 0, 3]
+            },
+            {
+              "showIf": "{id_dks_keycode_10_3.0} != 0 || {id_dks_keycode_10_3.1} != 0",
+              "label": "Output 4 - Deep press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[10][1][3]", 11, 4, 10, 1, 3]
+            },
+            {
+              "showIf": "{id_dks_keycode_10_3.0} != 0 || {id_dks_keycode_10_3.1} != 0",
+              "label": "Output 4 - Deep release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[10][2][3]", 11, 4, 10, 2, 3]
+            },
+            {
+              "showIf": "{id_dks_keycode_10_3.0} != 0 || {id_dks_keycode_10_3.1} != 0",
+              "label": "Output 4 - Shallow release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[10][3][3]", 11, 4, 10, 3, 3]
+            }
+          ]
+        },
+        {
+          "showIf": "{id_dks_enabled} == 1",
+          "label": "DKS 11 - DKS(11)",
+          "content": [
+            {
+              "label": "Shallow press threshold (1-1023)",
+              "type": "range",
+              "options": [1, 1023],
+              "content": ["id_dks_threshold[11][0]", 11, 2, 11, 0],
+              "constraints": [
+                {
+                  "operator": ">=",
+                  "reference": "id_dks_threshold[11][3]",
+                  "offset": 50,
+                  "onViolation": "push"
+                },
+                {
+                  "operator": "<=",
+                  "reference": "id_dks_threshold[11][2]",
+                  "offset": -50,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "label": "Deep press threshold (1-1023)",
+              "type": "range",
+              "options": [1, 1023],
+              "content": ["id_dks_threshold[11][1]", 11, 2, 11, 1],
+              "constraints": [
+                {
+                  "operator": ">=",
+                  "reference": "id_dks_threshold[11][2]",
+                  "offset": 50,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "label": "Deep release threshold (1-1023)",
+              "type": "range",
+              "options": [1, 1023],
+              "content": ["id_dks_threshold[11][2]", 11, 2, 11, 2],
+              "constraints": [
+                {
+                  "operator": ">=",
+                  "reference": "id_dks_threshold[11][0]",
+                  "offset": 50,
+                  "onViolation": "push"
+                },
+                {
+                  "operator": "<=",
+                  "reference": "id_dks_threshold[11][1]",
+                  "offset": -50,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "label": "Shallow release threshold (1-1023)",
+              "type": "range",
+              "options": [1, 1023],
+              "content": ["id_dks_threshold[11][3]", 11, 2, 11, 3],
+              "constraints": [
+                {
+                  "operator": "<=",
+                  "reference": "id_dks_threshold[11][0]",
+                  "offset": -50,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "label": "Output 1 keycode",
+              "type": "keycode",
+              "content": ["id_dks_keycode_11_0", 11, 3, 11, 0]
+            },
+            {
+              "showIf": "{id_dks_keycode_11_0.0} != 0 || {id_dks_keycode_11_0.1} != 0",
+              "label": "Output 1 - Shallow press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[11][0][0]", 11, 4, 11, 0, 0]
+            },
+            {
+              "showIf": "{id_dks_keycode_11_0.0} != 0 || {id_dks_keycode_11_0.1} != 0",
+              "label": "Output 1 - Deep press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[11][1][0]", 11, 4, 11, 1, 0]
+            },
+            {
+              "showIf": "{id_dks_keycode_11_0.0} != 0 || {id_dks_keycode_11_0.1} != 0",
+              "label": "Output 1 - Deep release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[11][2][0]", 11, 4, 11, 2, 0]
+            },
+            {
+              "showIf": "{id_dks_keycode_11_0.0} != 0 || {id_dks_keycode_11_0.1} != 0",
+              "label": "Output 1 - Shallow release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[11][3][0]", 11, 4, 11, 3, 0]
+            },
+            {
+              "label": "Output 2 keycode",
+              "type": "keycode",
+              "content": ["id_dks_keycode_11_1", 11, 3, 11, 1]
+            },
+            {
+              "showIf": "{id_dks_keycode_11_1.0} != 0 || {id_dks_keycode_11_1.1} != 0",
+              "label": "Output 2 - Shallow press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[11][0][1]", 11, 4, 11, 0, 1]
+            },
+            {
+              "showIf": "{id_dks_keycode_11_1.0} != 0 || {id_dks_keycode_11_1.1} != 0",
+              "label": "Output 2 - Deep press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[11][1][1]", 11, 4, 11, 1, 1]
+            },
+            {
+              "showIf": "{id_dks_keycode_11_1.0} != 0 || {id_dks_keycode_11_1.1} != 0",
+              "label": "Output 2 - Deep release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[11][2][1]", 11, 4, 11, 2, 1]
+            },
+            {
+              "showIf": "{id_dks_keycode_11_1.0} != 0 || {id_dks_keycode_11_1.1} != 0",
+              "label": "Output 2 - Shallow release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[11][3][1]", 11, 4, 11, 3, 1]
+            },
+            {
+              "label": "Output 3 keycode",
+              "type": "keycode",
+              "content": ["id_dks_keycode_11_2", 11, 3, 11, 2]
+            },
+            {
+              "showIf": "{id_dks_keycode_11_2.0} != 0 || {id_dks_keycode_11_2.1} != 0",
+              "label": "Output 3 - Shallow press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[11][0][2]", 11, 4, 11, 0, 2]
+            },
+            {
+              "showIf": "{id_dks_keycode_11_2.0} != 0 || {id_dks_keycode_11_2.1} != 0",
+              "label": "Output 3 - Deep press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[11][1][2]", 11, 4, 11, 1, 2]
+            },
+            {
+              "showIf": "{id_dks_keycode_11_2.0} != 0 || {id_dks_keycode_11_2.1} != 0",
+              "label": "Output 3 - Deep release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[11][2][2]", 11, 4, 11, 2, 2]
+            },
+            {
+              "showIf": "{id_dks_keycode_11_2.0} != 0 || {id_dks_keycode_11_2.1} != 0",
+              "label": "Output 3 - Shallow release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[11][3][2]", 11, 4, 11, 3, 2]
+            },
+            {
+              "label": "Output 4 keycode",
+              "type": "keycode",
+              "content": ["id_dks_keycode_11_3", 11, 3, 11, 3]
+            },
+            {
+              "showIf": "{id_dks_keycode_11_3.0} != 0 || {id_dks_keycode_11_3.1} != 0",
+              "label": "Output 4 - Shallow press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[11][0][3]", 11, 4, 11, 0, 3]
+            },
+            {
+              "showIf": "{id_dks_keycode_11_3.0} != 0 || {id_dks_keycode_11_3.1} != 0",
+              "label": "Output 4 - Deep press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[11][1][3]", 11, 4, 11, 1, 3]
+            },
+            {
+              "showIf": "{id_dks_keycode_11_3.0} != 0 || {id_dks_keycode_11_3.1} != 0",
+              "label": "Output 4 - Deep release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[11][2][3]", 11, 4, 11, 2, 3]
+            },
+            {
+              "showIf": "{id_dks_keycode_11_3.0} != 0 || {id_dks_keycode_11_3.1} != 0",
+              "label": "Output 4 - Shallow release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[11][3][3]", 11, 4, 11, 3, 3]
+            }
+          ]
+        },
+        {
+          "showIf": "{id_dks_enabled} == 1",
+          "label": "DKS 12 - DKS(12)",
+          "content": [
+            {
+              "label": "Shallow press threshold (1-1023)",
+              "type": "range",
+              "options": [1, 1023],
+              "content": ["id_dks_threshold[12][0]", 11, 2, 12, 0],
+              "constraints": [
+                {
+                  "operator": ">=",
+                  "reference": "id_dks_threshold[12][3]",
+                  "offset": 50,
+                  "onViolation": "push"
+                },
+                {
+                  "operator": "<=",
+                  "reference": "id_dks_threshold[12][2]",
+                  "offset": -50,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "label": "Deep press threshold (1-1023)",
+              "type": "range",
+              "options": [1, 1023],
+              "content": ["id_dks_threshold[12][1]", 11, 2, 12, 1],
+              "constraints": [
+                {
+                  "operator": ">=",
+                  "reference": "id_dks_threshold[12][2]",
+                  "offset": 50,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "label": "Deep release threshold (1-1023)",
+              "type": "range",
+              "options": [1, 1023],
+              "content": ["id_dks_threshold[12][2]", 11, 2, 12, 2],
+              "constraints": [
+                {
+                  "operator": ">=",
+                  "reference": "id_dks_threshold[12][0]",
+                  "offset": 50,
+                  "onViolation": "push"
+                },
+                {
+                  "operator": "<=",
+                  "reference": "id_dks_threshold[12][1]",
+                  "offset": -50,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "label": "Shallow release threshold (1-1023)",
+              "type": "range",
+              "options": [1, 1023],
+              "content": ["id_dks_threshold[12][3]", 11, 2, 12, 3],
+              "constraints": [
+                {
+                  "operator": "<=",
+                  "reference": "id_dks_threshold[12][0]",
+                  "offset": -50,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "label": "Output 1 keycode",
+              "type": "keycode",
+              "content": ["id_dks_keycode_12_0", 11, 3, 12, 0]
+            },
+            {
+              "showIf": "{id_dks_keycode_12_0.0} != 0 || {id_dks_keycode_12_0.1} != 0",
+              "label": "Output 1 - Shallow press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[12][0][0]", 11, 4, 12, 0, 0]
+            },
+            {
+              "showIf": "{id_dks_keycode_12_0.0} != 0 || {id_dks_keycode_12_0.1} != 0",
+              "label": "Output 1 - Deep press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[12][1][0]", 11, 4, 12, 1, 0]
+            },
+            {
+              "showIf": "{id_dks_keycode_12_0.0} != 0 || {id_dks_keycode_12_0.1} != 0",
+              "label": "Output 1 - Deep release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[12][2][0]", 11, 4, 12, 2, 0]
+            },
+            {
+              "showIf": "{id_dks_keycode_12_0.0} != 0 || {id_dks_keycode_12_0.1} != 0",
+              "label": "Output 1 - Shallow release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[12][3][0]", 11, 4, 12, 3, 0]
+            },
+            {
+              "label": "Output 2 keycode",
+              "type": "keycode",
+              "content": ["id_dks_keycode_12_1", 11, 3, 12, 1]
+            },
+            {
+              "showIf": "{id_dks_keycode_12_1.0} != 0 || {id_dks_keycode_12_1.1} != 0",
+              "label": "Output 2 - Shallow press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[12][0][1]", 11, 4, 12, 0, 1]
+            },
+            {
+              "showIf": "{id_dks_keycode_12_1.0} != 0 || {id_dks_keycode_12_1.1} != 0",
+              "label": "Output 2 - Deep press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[12][1][1]", 11, 4, 12, 1, 1]
+            },
+            {
+              "showIf": "{id_dks_keycode_12_1.0} != 0 || {id_dks_keycode_12_1.1} != 0",
+              "label": "Output 2 - Deep release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[12][2][1]", 11, 4, 12, 2, 1]
+            },
+            {
+              "showIf": "{id_dks_keycode_12_1.0} != 0 || {id_dks_keycode_12_1.1} != 0",
+              "label": "Output 2 - Shallow release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[12][3][1]", 11, 4, 12, 3, 1]
+            },
+            {
+              "label": "Output 3 keycode",
+              "type": "keycode",
+              "content": ["id_dks_keycode_12_2", 11, 3, 12, 2]
+            },
+            {
+              "showIf": "{id_dks_keycode_12_2.0} != 0 || {id_dks_keycode_12_2.1} != 0",
+              "label": "Output 3 - Shallow press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[12][0][2]", 11, 4, 12, 0, 2]
+            },
+            {
+              "showIf": "{id_dks_keycode_12_2.0} != 0 || {id_dks_keycode_12_2.1} != 0",
+              "label": "Output 3 - Deep press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[12][1][2]", 11, 4, 12, 1, 2]
+            },
+            {
+              "showIf": "{id_dks_keycode_12_2.0} != 0 || {id_dks_keycode_12_2.1} != 0",
+              "label": "Output 3 - Deep release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[12][2][2]", 11, 4, 12, 2, 2]
+            },
+            {
+              "showIf": "{id_dks_keycode_12_2.0} != 0 || {id_dks_keycode_12_2.1} != 0",
+              "label": "Output 3 - Shallow release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[12][3][2]", 11, 4, 12, 3, 2]
+            },
+            {
+              "label": "Output 4 keycode",
+              "type": "keycode",
+              "content": ["id_dks_keycode_12_3", 11, 3, 12, 3]
+            },
+            {
+              "showIf": "{id_dks_keycode_12_3.0} != 0 || {id_dks_keycode_12_3.1} != 0",
+              "label": "Output 4 - Shallow press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[12][0][3]", 11, 4, 12, 0, 3]
+            },
+            {
+              "showIf": "{id_dks_keycode_12_3.0} != 0 || {id_dks_keycode_12_3.1} != 0",
+              "label": "Output 4 - Deep press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[12][1][3]", 11, 4, 12, 1, 3]
+            },
+            {
+              "showIf": "{id_dks_keycode_12_3.0} != 0 || {id_dks_keycode_12_3.1} != 0",
+              "label": "Output 4 - Deep release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[12][2][3]", 11, 4, 12, 2, 3]
+            },
+            {
+              "showIf": "{id_dks_keycode_12_3.0} != 0 || {id_dks_keycode_12_3.1} != 0",
+              "label": "Output 4 - Shallow release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[12][3][3]", 11, 4, 12, 3, 3]
+            }
+          ]
+        },
+        {
+          "showIf": "{id_dks_enabled} == 1",
+          "label": "DKS 13 - DKS(13)",
+          "content": [
+            {
+              "label": "Shallow press threshold (1-1023)",
+              "type": "range",
+              "options": [1, 1023],
+              "content": ["id_dks_threshold[13][0]", 11, 2, 13, 0],
+              "constraints": [
+                {
+                  "operator": ">=",
+                  "reference": "id_dks_threshold[13][3]",
+                  "offset": 50,
+                  "onViolation": "push"
+                },
+                {
+                  "operator": "<=",
+                  "reference": "id_dks_threshold[13][2]",
+                  "offset": -50,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "label": "Deep press threshold (1-1023)",
+              "type": "range",
+              "options": [1, 1023],
+              "content": ["id_dks_threshold[13][1]", 11, 2, 13, 1],
+              "constraints": [
+                {
+                  "operator": ">=",
+                  "reference": "id_dks_threshold[13][2]",
+                  "offset": 50,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "label": "Deep release threshold (1-1023)",
+              "type": "range",
+              "options": [1, 1023],
+              "content": ["id_dks_threshold[13][2]", 11, 2, 13, 2],
+              "constraints": [
+                {
+                  "operator": ">=",
+                  "reference": "id_dks_threshold[13][0]",
+                  "offset": 50,
+                  "onViolation": "push"
+                },
+                {
+                  "operator": "<=",
+                  "reference": "id_dks_threshold[13][1]",
+                  "offset": -50,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "label": "Shallow release threshold (1-1023)",
+              "type": "range",
+              "options": [1, 1023],
+              "content": ["id_dks_threshold[13][3]", 11, 2, 13, 3],
+              "constraints": [
+                {
+                  "operator": "<=",
+                  "reference": "id_dks_threshold[13][0]",
+                  "offset": -50,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "label": "Output 1 keycode",
+              "type": "keycode",
+              "content": ["id_dks_keycode_13_0", 11, 3, 13, 0]
+            },
+            {
+              "showIf": "{id_dks_keycode_13_0.0} != 0 || {id_dks_keycode_13_0.1} != 0",
+              "label": "Output 1 - Shallow press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[13][0][0]", 11, 4, 13, 0, 0]
+            },
+            {
+              "showIf": "{id_dks_keycode_13_0.0} != 0 || {id_dks_keycode_13_0.1} != 0",
+              "label": "Output 1 - Deep press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[13][1][0]", 11, 4, 13, 1, 0]
+            },
+            {
+              "showIf": "{id_dks_keycode_13_0.0} != 0 || {id_dks_keycode_13_0.1} != 0",
+              "label": "Output 1 - Deep release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[13][2][0]", 11, 4, 13, 2, 0]
+            },
+            {
+              "showIf": "{id_dks_keycode_13_0.0} != 0 || {id_dks_keycode_13_0.1} != 0",
+              "label": "Output 1 - Shallow release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[13][3][0]", 11, 4, 13, 3, 0]
+            },
+            {
+              "label": "Output 2 keycode",
+              "type": "keycode",
+              "content": ["id_dks_keycode_13_1", 11, 3, 13, 1]
+            },
+            {
+              "showIf": "{id_dks_keycode_13_1.0} != 0 || {id_dks_keycode_13_1.1} != 0",
+              "label": "Output 2 - Shallow press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[13][0][1]", 11, 4, 13, 0, 1]
+            },
+            {
+              "showIf": "{id_dks_keycode_13_1.0} != 0 || {id_dks_keycode_13_1.1} != 0",
+              "label": "Output 2 - Deep press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[13][1][1]", 11, 4, 13, 1, 1]
+            },
+            {
+              "showIf": "{id_dks_keycode_13_1.0} != 0 || {id_dks_keycode_13_1.1} != 0",
+              "label": "Output 2 - Deep release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[13][2][1]", 11, 4, 13, 2, 1]
+            },
+            {
+              "showIf": "{id_dks_keycode_13_1.0} != 0 || {id_dks_keycode_13_1.1} != 0",
+              "label": "Output 2 - Shallow release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[13][3][1]", 11, 4, 13, 3, 1]
+            },
+            {
+              "label": "Output 3 keycode",
+              "type": "keycode",
+              "content": ["id_dks_keycode_13_2", 11, 3, 13, 2]
+            },
+            {
+              "showIf": "{id_dks_keycode_13_2.0} != 0 || {id_dks_keycode_13_2.1} != 0",
+              "label": "Output 3 - Shallow press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[13][0][2]", 11, 4, 13, 0, 2]
+            },
+            {
+              "showIf": "{id_dks_keycode_13_2.0} != 0 || {id_dks_keycode_13_2.1} != 0",
+              "label": "Output 3 - Deep press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[13][1][2]", 11, 4, 13, 1, 2]
+            },
+            {
+              "showIf": "{id_dks_keycode_13_2.0} != 0 || {id_dks_keycode_13_2.1} != 0",
+              "label": "Output 3 - Deep release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[13][2][2]", 11, 4, 13, 2, 2]
+            },
+            {
+              "showIf": "{id_dks_keycode_13_2.0} != 0 || {id_dks_keycode_13_2.1} != 0",
+              "label": "Output 3 - Shallow release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[13][3][2]", 11, 4, 13, 3, 2]
+            },
+            {
+              "label": "Output 4 keycode",
+              "type": "keycode",
+              "content": ["id_dks_keycode_13_3", 11, 3, 13, 3]
+            },
+            {
+              "showIf": "{id_dks_keycode_13_3.0} != 0 || {id_dks_keycode_13_3.1} != 0",
+              "label": "Output 4 - Shallow press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[13][0][3]", 11, 4, 13, 0, 3]
+            },
+            {
+              "showIf": "{id_dks_keycode_13_3.0} != 0 || {id_dks_keycode_13_3.1} != 0",
+              "label": "Output 4 - Deep press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[13][1][3]", 11, 4, 13, 1, 3]
+            },
+            {
+              "showIf": "{id_dks_keycode_13_3.0} != 0 || {id_dks_keycode_13_3.1} != 0",
+              "label": "Output 4 - Deep release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[13][2][3]", 11, 4, 13, 2, 3]
+            },
+            {
+              "showIf": "{id_dks_keycode_13_3.0} != 0 || {id_dks_keycode_13_3.1} != 0",
+              "label": "Output 4 - Shallow release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[13][3][3]", 11, 4, 13, 3, 3]
+            }
+          ]
+        },
+        {
+          "showIf": "{id_dks_enabled} == 1",
+          "label": "DKS 14 - DKS(14)",
+          "content": [
+            {
+              "label": "Shallow press threshold (1-1023)",
+              "type": "range",
+              "options": [1, 1023],
+              "content": ["id_dks_threshold[14][0]", 11, 2, 14, 0],
+              "constraints": [
+                {
+                  "operator": ">=",
+                  "reference": "id_dks_threshold[14][3]",
+                  "offset": 50,
+                  "onViolation": "push"
+                },
+                {
+                  "operator": "<=",
+                  "reference": "id_dks_threshold[14][2]",
+                  "offset": -50,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "label": "Deep press threshold (1-1023)",
+              "type": "range",
+              "options": [1, 1023],
+              "content": ["id_dks_threshold[14][1]", 11, 2, 14, 1],
+              "constraints": [
+                {
+                  "operator": ">=",
+                  "reference": "id_dks_threshold[14][2]",
+                  "offset": 50,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "label": "Deep release threshold (1-1023)",
+              "type": "range",
+              "options": [1, 1023],
+              "content": ["id_dks_threshold[14][2]", 11, 2, 14, 2],
+              "constraints": [
+                {
+                  "operator": ">=",
+                  "reference": "id_dks_threshold[14][0]",
+                  "offset": 50,
+                  "onViolation": "push"
+                },
+                {
+                  "operator": "<=",
+                  "reference": "id_dks_threshold[14][1]",
+                  "offset": -50,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "label": "Shallow release threshold (1-1023)",
+              "type": "range",
+              "options": [1, 1023],
+              "content": ["id_dks_threshold[14][3]", 11, 2, 14, 3],
+              "constraints": [
+                {
+                  "operator": "<=",
+                  "reference": "id_dks_threshold[14][0]",
+                  "offset": -50,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "label": "Output 1 keycode",
+              "type": "keycode",
+              "content": ["id_dks_keycode_14_0", 11, 3, 14, 0]
+            },
+            {
+              "showIf": "{id_dks_keycode_14_0.0} != 0 || {id_dks_keycode_14_0.1} != 0",
+              "label": "Output 1 - Shallow press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[14][0][0]", 11, 4, 14, 0, 0]
+            },
+            {
+              "showIf": "{id_dks_keycode_14_0.0} != 0 || {id_dks_keycode_14_0.1} != 0",
+              "label": "Output 1 - Deep press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[14][1][0]", 11, 4, 14, 1, 0]
+            },
+            {
+              "showIf": "{id_dks_keycode_14_0.0} != 0 || {id_dks_keycode_14_0.1} != 0",
+              "label": "Output 1 - Deep release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[14][2][0]", 11, 4, 14, 2, 0]
+            },
+            {
+              "showIf": "{id_dks_keycode_14_0.0} != 0 || {id_dks_keycode_14_0.1} != 0",
+              "label": "Output 1 - Shallow release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[14][3][0]", 11, 4, 14, 3, 0]
+            },
+            {
+              "label": "Output 2 keycode",
+              "type": "keycode",
+              "content": ["id_dks_keycode_14_1", 11, 3, 14, 1]
+            },
+            {
+              "showIf": "{id_dks_keycode_14_1.0} != 0 || {id_dks_keycode_14_1.1} != 0",
+              "label": "Output 2 - Shallow press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[14][0][1]", 11, 4, 14, 0, 1]
+            },
+            {
+              "showIf": "{id_dks_keycode_14_1.0} != 0 || {id_dks_keycode_14_1.1} != 0",
+              "label": "Output 2 - Deep press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[14][1][1]", 11, 4, 14, 1, 1]
+            },
+            {
+              "showIf": "{id_dks_keycode_14_1.0} != 0 || {id_dks_keycode_14_1.1} != 0",
+              "label": "Output 2 - Deep release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[14][2][1]", 11, 4, 14, 2, 1]
+            },
+            {
+              "showIf": "{id_dks_keycode_14_1.0} != 0 || {id_dks_keycode_14_1.1} != 0",
+              "label": "Output 2 - Shallow release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[14][3][1]", 11, 4, 14, 3, 1]
+            },
+            {
+              "label": "Output 3 keycode",
+              "type": "keycode",
+              "content": ["id_dks_keycode_14_2", 11, 3, 14, 2]
+            },
+            {
+              "showIf": "{id_dks_keycode_14_2.0} != 0 || {id_dks_keycode_14_2.1} != 0",
+              "label": "Output 3 - Shallow press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[14][0][2]", 11, 4, 14, 0, 2]
+            },
+            {
+              "showIf": "{id_dks_keycode_14_2.0} != 0 || {id_dks_keycode_14_2.1} != 0",
+              "label": "Output 3 - Deep press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[14][1][2]", 11, 4, 14, 1, 2]
+            },
+            {
+              "showIf": "{id_dks_keycode_14_2.0} != 0 || {id_dks_keycode_14_2.1} != 0",
+              "label": "Output 3 - Deep release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[14][2][2]", 11, 4, 14, 2, 2]
+            },
+            {
+              "showIf": "{id_dks_keycode_14_2.0} != 0 || {id_dks_keycode_14_2.1} != 0",
+              "label": "Output 3 - Shallow release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[14][3][2]", 11, 4, 14, 3, 2]
+            },
+            {
+              "label": "Output 4 keycode",
+              "type": "keycode",
+              "content": ["id_dks_keycode_14_3", 11, 3, 14, 3]
+            },
+            {
+              "showIf": "{id_dks_keycode_14_3.0} != 0 || {id_dks_keycode_14_3.1} != 0",
+              "label": "Output 4 - Shallow press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[14][0][3]", 11, 4, 14, 0, 3]
+            },
+            {
+              "showIf": "{id_dks_keycode_14_3.0} != 0 || {id_dks_keycode_14_3.1} != 0",
+              "label": "Output 4 - Deep press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[14][1][3]", 11, 4, 14, 1, 3]
+            },
+            {
+              "showIf": "{id_dks_keycode_14_3.0} != 0 || {id_dks_keycode_14_3.1} != 0",
+              "label": "Output 4 - Deep release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[14][2][3]", 11, 4, 14, 2, 3]
+            },
+            {
+              "showIf": "{id_dks_keycode_14_3.0} != 0 || {id_dks_keycode_14_3.1} != 0",
+              "label": "Output 4 - Shallow release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[14][3][3]", 11, 4, 14, 3, 3]
+            }
+          ]
+        },
+        {
+          "showIf": "{id_dks_enabled} == 1",
+          "label": "DKS 15 - DKS(15)",
+          "content": [
+            {
+              "label": "Shallow press threshold (1-1023)",
+              "type": "range",
+              "options": [1, 1023],
+              "content": ["id_dks_threshold[15][0]", 11, 2, 15, 0],
+              "constraints": [
+                {
+                  "operator": ">=",
+                  "reference": "id_dks_threshold[15][3]",
+                  "offset": 50,
+                  "onViolation": "push"
+                },
+                {
+                  "operator": "<=",
+                  "reference": "id_dks_threshold[15][2]",
+                  "offset": -50,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "label": "Deep press threshold (1-1023)",
+              "type": "range",
+              "options": [1, 1023],
+              "content": ["id_dks_threshold[15][1]", 11, 2, 15, 1],
+              "constraints": [
+                {
+                  "operator": ">=",
+                  "reference": "id_dks_threshold[15][2]",
+                  "offset": 50,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "label": "Deep release threshold (1-1023)",
+              "type": "range",
+              "options": [1, 1023],
+              "content": ["id_dks_threshold[15][2]", 11, 2, 15, 2],
+              "constraints": [
+                {
+                  "operator": ">=",
+                  "reference": "id_dks_threshold[15][0]",
+                  "offset": 50,
+                  "onViolation": "push"
+                },
+                {
+                  "operator": "<=",
+                  "reference": "id_dks_threshold[15][1]",
+                  "offset": -50,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "label": "Shallow release threshold (1-1023)",
+              "type": "range",
+              "options": [1, 1023],
+              "content": ["id_dks_threshold[15][3]", 11, 2, 15, 3],
+              "constraints": [
+                {
+                  "operator": "<=",
+                  "reference": "id_dks_threshold[15][0]",
+                  "offset": -50,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "label": "Output 1 keycode",
+              "type": "keycode",
+              "content": ["id_dks_keycode_15_0", 11, 3, 15, 0]
+            },
+            {
+              "showIf": "{id_dks_keycode_15_0.0} != 0 || {id_dks_keycode_15_0.1} != 0",
+              "label": "Output 1 - Shallow press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[15][0][0]", 11, 4, 15, 0, 0]
+            },
+            {
+              "showIf": "{id_dks_keycode_15_0.0} != 0 || {id_dks_keycode_15_0.1} != 0",
+              "label": "Output 1 - Deep press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[15][1][0]", 11, 4, 15, 1, 0]
+            },
+            {
+              "showIf": "{id_dks_keycode_15_0.0} != 0 || {id_dks_keycode_15_0.1} != 0",
+              "label": "Output 1 - Deep release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[15][2][0]", 11, 4, 15, 2, 0]
+            },
+            {
+              "showIf": "{id_dks_keycode_15_0.0} != 0 || {id_dks_keycode_15_0.1} != 0",
+              "label": "Output 1 - Shallow release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[15][3][0]", 11, 4, 15, 3, 0]
+            },
+            {
+              "label": "Output 2 keycode",
+              "type": "keycode",
+              "content": ["id_dks_keycode_15_1", 11, 3, 15, 1]
+            },
+            {
+              "showIf": "{id_dks_keycode_15_1.0} != 0 || {id_dks_keycode_15_1.1} != 0",
+              "label": "Output 2 - Shallow press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[15][0][1]", 11, 4, 15, 0, 1]
+            },
+            {
+              "showIf": "{id_dks_keycode_15_1.0} != 0 || {id_dks_keycode_15_1.1} != 0",
+              "label": "Output 2 - Deep press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[15][1][1]", 11, 4, 15, 1, 1]
+            },
+            {
+              "showIf": "{id_dks_keycode_15_1.0} != 0 || {id_dks_keycode_15_1.1} != 0",
+              "label": "Output 2 - Deep release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[15][2][1]", 11, 4, 15, 2, 1]
+            },
+            {
+              "showIf": "{id_dks_keycode_15_1.0} != 0 || {id_dks_keycode_15_1.1} != 0",
+              "label": "Output 2 - Shallow release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[15][3][1]", 11, 4, 15, 3, 1]
+            },
+            {
+              "label": "Output 3 keycode",
+              "type": "keycode",
+              "content": ["id_dks_keycode_15_2", 11, 3, 15, 2]
+            },
+            {
+              "showIf": "{id_dks_keycode_15_2.0} != 0 || {id_dks_keycode_15_2.1} != 0",
+              "label": "Output 3 - Shallow press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[15][0][2]", 11, 4, 15, 0, 2]
+            },
+            {
+              "showIf": "{id_dks_keycode_15_2.0} != 0 || {id_dks_keycode_15_2.1} != 0",
+              "label": "Output 3 - Deep press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[15][1][2]", 11, 4, 15, 1, 2]
+            },
+            {
+              "showIf": "{id_dks_keycode_15_2.0} != 0 || {id_dks_keycode_15_2.1} != 0",
+              "label": "Output 3 - Deep release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[15][2][2]", 11, 4, 15, 2, 2]
+            },
+            {
+              "showIf": "{id_dks_keycode_15_2.0} != 0 || {id_dks_keycode_15_2.1} != 0",
+              "label": "Output 3 - Shallow release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[15][3][2]", 11, 4, 15, 3, 2]
+            },
+            {
+              "label": "Output 4 keycode",
+              "type": "keycode",
+              "content": ["id_dks_keycode_15_3", 11, 3, 15, 3]
+            },
+            {
+              "showIf": "{id_dks_keycode_15_3.0} != 0 || {id_dks_keycode_15_3.1} != 0",
+              "label": "Output 4 - Shallow press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[15][0][3]", 11, 4, 15, 0, 3]
+            },
+            {
+              "showIf": "{id_dks_keycode_15_3.0} != 0 || {id_dks_keycode_15_3.1} != 0",
+              "label": "Output 4 - Deep press",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[15][1][3]", 11, 4, 15, 1, 3]
+            },
+            {
+              "showIf": "{id_dks_keycode_15_3.0} != 0 || {id_dks_keycode_15_3.1} != 0",
+              "label": "Output 4 - Deep release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[15][2][3]", 11, 4, 15, 2, 3]
+            },
+            {
+              "showIf": "{id_dks_keycode_15_3.0} != 0 || {id_dks_keycode_15_3.1} != 0",
+              "label": "Output 4 - Shallow release",
+              "type": "dropdown",
+              "options": [
+                "None",
+                "Press",
+                "Release",
+                "Tap",
+                "Release and press again"
+              ],
+              "content": ["id_dks_action[15][3][3]", 11, 4, 15, 3, 3]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "showIf": "{id_firmware_version} >= 5",
+      "label": "Controller",
+      "content": [
+        {
+          "label": "General",
+          "content": [
+            {
+              "label": "Enable controller",
+              "type": "toggle",
+              "content": ["id_controller_enabled", 12, 1]
+            },
+            {
+              "showIf": "{id_controller_enabled} == 1",
+              "label": "Protocol",
+              "type": "dropdown",
+              "options": ["Native HID", "XInput"],
+              "content": ["id_controller_protocol", 12, 2]
+            },
+            {
+              "showIf": "{id_controller_enabled} == 1",
+              "label": "Note",
+              "type": "label",
+              "content": [
+                "Changing protocol briefly restarts the USB connection."
+              ]
+            },
+            {
+              "showIf": "{id_controller_enabled} == 1",
+              "label": "Enable normal keyboard keys",
+              "type": "toggle",
+              "content": ["id_controller_keyboard", 12, 3]
+            },
+            {
+              "showIf": "{id_controller_enabled} == 1",
+              "label": "Calibrate controller dead zones (release all assigned controller keys)",
+              "type": "button",
+              "options": [0],
+              "content": ["id_controller_calibrate", 12, 6]
+            },
+            {
+              "label": "Reset controller settings",
+              "type": "button",
+              "options": [0],
+              "content": ["id_controller_reset", 12, 0]
+            }
+          ]
+        },
+        {
+          "showIf": "{id_controller_enabled} == 1",
+          "label": "Stick Behavior",
+          "content": [
+            {
+              "label": "Transition speed",
+              "type": "dropdown",
+              "options": ["Fast", "Normal", "Smooth"],
+              "content": ["id_controller_transition_speed", 12, 11]
+            },
+            {
+              "label": "Center hysteresis",
+              "type": "dropdown",
+              "options": ["Off", "Low", "Normal", "High"],
+              "content": ["id_controller_hysteresis", 12, 8]
+            },
+            {
+              "label": "Bottom-out stabilization",
+              "type": "dropdown",
+              "options": ["Off", "Low", "Normal", "High"],
+              "content": ["id_controller_bottomout", 12, 9]
+            },
+            {
+              "label": "Response curve",
+              "type": "dropdown",
+              "options": ["Linear", "Custom"],
+              "content": ["id_controller_curve_mode", 12, 4]
+            },
+            {
+              "showIf": "{id_controller_curve_mode} == 1",
+              "label": "Output at 25% travel (%)",
+              "type": "range",
+              "options": [0, 100],
+              "content": ["id_controller_curve_point_1", 12, 5, 0],
+              "constraints": [
+                {
+                  "operator": "<=",
+                  "reference": "id_controller_curve_point_2",
+                  "offset": -10,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "showIf": "{id_controller_curve_mode} == 1",
+              "label": "Output at 50% travel (%)",
+              "type": "range",
+              "options": [0, 100],
+              "content": ["id_controller_curve_point_2", 12, 5, 1],
+              "constraints": [
+                {
+                  "operator": ">=",
+                  "reference": "id_controller_curve_point_1",
+                  "offset": 10,
+                  "onViolation": "push"
+                },
+                {
+                  "operator": "<=",
+                  "reference": "id_controller_curve_point_3",
+                  "offset": -10,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "showIf": "{id_controller_curve_mode} == 1",
+              "label": "Output at 75% travel (%)",
+              "type": "range",
+              "options": [0, 100],
+              "content": ["id_controller_curve_point_3", 12, 5, 2],
+              "constraints": [
+                {
+                  "operator": ">=",
+                  "reference": "id_controller_curve_point_2",
+                  "offset": 10,
+                  "onViolation": "push"
+                },
+                {
+                  "operator": "<=",
+                  "reference": "id_controller_curve_point_4",
+                  "offset": -10,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "showIf": "{id_controller_curve_mode} == 1",
+              "label": "Output at 100% travel (%)",
+              "type": "range",
+              "options": [0, 100],
+              "content": ["id_controller_curve_point_4", 12, 5, 3],
+              "constraints": [
+                {
+                  "operator": ">=",
+                  "reference": "id_controller_curve_point_3",
+                  "offset": 10,
+                  "onViolation": "push"
+                }
+              ]
+            },
+            {
+              "showIf": "{id_controller_curve_mode} == 1",
+              "label": "Apply & save curve changes",
+              "type": "button",
+              "options": [0],
+              "content": ["id_controller_curve_save", 12, 14]
+            }
+          ]
+        },
+        {
+          "showIf": "{id_controller_enabled} == 1",
+          "label": "Left Stick",
+          "content": [
+            {
+              "label": "X effective dead zone (0.1%)",
+              "type": "range",
+              "options": [0, 275],
+              "content": ["id_controller_deadzone_lx", 12, 7, 0]
+            },
+            {
+              "label": "Y effective dead zone (0.1%)",
+              "type": "range",
+              "options": [0, 275],
+              "content": ["id_controller_deadzone_ly", 12, 7, 1]
+            }
+          ]
+        },
+        {
+          "showIf": "{id_controller_enabled} == 1",
+          "label": "Right Stick",
+          "content": [
+            {
+              "label": "X effective dead zone (0.1%)",
+              "type": "range",
+              "options": [0, 275],
+              "content": ["id_controller_deadzone_rx", 12, 7, 2]
+            },
+            {
+              "label": "Y effective dead zone (0.1%)",
+              "type": "range",
+              "options": [0, 275],
+              "content": ["id_controller_deadzone_ry", 12, 7, 3]
+            }
+          ]
+        },
+        {
+          "showIf": "{id_controller_enabled} == 1",
+          "label": "Left Trigger",
+          "content": [
+            {
+              "label": "Full-press point (%)",
+              "type": "range",
+              "options": [0, 100],
+              "content": ["id_controller_left_trigger_full_press", 12, 12]
+            },
+            {
+              "label": "Effective dead zone (0.1%)",
+              "type": "range",
+              "options": [0, 275],
+              "content": ["id_controller_deadzone_lt", 12, 7, 4]
+            }
+          ]
+        },
+        {
+          "showIf": "{id_controller_enabled} == 1",
+          "label": "Right Trigger",
+          "content": [
+            {
+              "label": "Full-press point (%)",
+              "type": "range",
+              "options": [0, 100],
+              "content": ["id_controller_right_trigger_full_press", 12, 13]
+            },
+            {
+              "label": "Effective dead zone (0.1%)",
+              "type": "range",
+              "options": [0, 275],
+              "content": ["id_controller_deadzone_rt", 12, 7, 5]
             }
           ]
         }
