@@ -6,6 +6,72 @@
     "rows": 5,
     "cols": 15
   },
+  "menus": [
+    {
+      "label": "Lighting",
+      "content": [
+        {
+          "label": "RGB Matrix",
+          "content": [
+            {
+              "label": "Brightness",
+              "type": "range",
+              "options": [0, 255],
+              "content": ["id_qmk_rgb_matrix_brightness", 3, 1]
+            },
+            {
+              "label": "Effect",
+              "type": "dropdown",
+              "content": ["id_qmk_rgb_matrix_effect", 3, 2],
+              "options": [
+                ["All Off", 0],
+                ["Solid Color", 1],
+                ["Alphas Mods", 2],
+                ["Gradient Left/Right", 3],
+                ["Breathing", 4],
+                ["Band Val.", 5],
+                ["Pinwheel Val.", 6],
+                ["Spiral Val.", 7],
+                ["Cycle All", 8],
+                ["Cycle Left/Right", 9],
+                ["Cycle Up/Down", 10],
+                ["Rainbow Moving Chevron", 11],
+                ["Cycle Out/In", 12],
+                ["Cycle Out/In Dual", 13],
+                ["Cycle Pinwheel", 14],
+                ["Cycle Spiral", 15],
+                ["Dual Beacon", 16],
+                ["Rainbow Beacon", 17],
+                ["Rainbow Pinwheels", 18],
+                ["Raindrops", 19],
+                ["Jellybean Raindrops", 20],
+                ["Hue Breathing", 21],
+                ["Hue Pendulum", 22],
+                ["Hue Wave", 23],
+                ["Pixel Rain", 24],
+                ["Pixel Flow", 25],
+                ["Pixel Fractal", 26],
+                ["Typing Heatmap", 27]
+              ]
+            },
+            {
+              "showIf": "{id_qmk_rgb_matrix_effect} != 0",
+              "label": "Effect Speed",
+              "type": "range",
+              "options": [0, 255],
+              "content": ["id_qmk_rgb_matrix_effect_speed", 3, 3]
+            },
+            {
+              "showIf": "{id_qmk_rgb_matrix_effect} != 0",
+              "label": "Color",
+              "type": "color",
+              "content": ["id_qmk_rgb_matrix_color", 3, 4]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "keycodes": ["qmk_rgb_matrix_keycodes"],
   "layouts": {
     "keymap": [
