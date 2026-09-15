@@ -1,0 +1,34 @@
+{
+    "name": "ZeroPad",
+    "vendorId": "0x5A50",
+    "productId": "0x0000",
+    "matrix": {
+        "rows": 3,
+        "cols": 3
+    },
+    "layouts": {
+        "keymap": [
+            [
+                { "matrix": [0, 0], "key": "" },
+                { "matrix": [0, 1], "key": "" },
+                { "matrix": [0, 2], "key": "" }
+            ],
+            [
+                { "matrix": [1, 0], "key": "" },
+                { "matrix": [1, 1], "key": "" },
+                { "matrix": [1, 2], "key": "" }
+            ],
+            [
+                { "matrix": [2, 0], "key": "" },
+                { "matrix": [2, 1], "key": "" },
+                { "matrix": [2, 2], "key": "" }
+            ]
+        ]
+    },
+    "layers": [
+        { "name": "Layer 0" },
+        { "name": "Layer 1" },
+        { "name": "Layer 2" },
+        { "name": "Layer 3" }
+    ]
+}
