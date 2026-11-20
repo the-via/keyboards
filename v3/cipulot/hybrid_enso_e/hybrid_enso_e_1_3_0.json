@@ -2572,6 +2572,7 @@
       ]
     },
     {
+      "showIf": "{id_firmware_version} >= 2",
       "label": "DKS",
       "content": [
         {
@@ -7425,6 +7426,7 @@
       ]
     },
     {
+      "showIf": "{id_firmware_version} >= 2",
       "label": "Controller",
       "content": [
         {
