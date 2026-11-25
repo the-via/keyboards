@@ -489,7 +489,7 @@
       ]
     },
     {
-      "showIf": "{id_firmware_version} >= 4",
+      "showIf": "{id_firmware_version} ",
       "label": "Tap Dance",
       "content": [
         {
@@ -1357,6 +1357,7 @@
       ]
     },
     {
+      "showIf": "{id_firmware_version} >= 4",
       "label": "SOCD",
       "content": [
         {
